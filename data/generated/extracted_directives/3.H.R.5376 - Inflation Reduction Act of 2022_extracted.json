@@ -1,48 +1,134 @@
 {
   "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
-  "category": "Category: TAX\n\nExplanation: This document is the Inflation Reduction Act of 2022, which includes significant tax provisions, particularly focusing on corporate alternative minimum tax and tax reform measures for corporations.",
+  "category": "Category: TAX\n\nExplanation: This document details amendments to the Internal Revenue Code, specifically focusing on corporate alternative minimum tax provisions and applicable corporation definitions for tax purposes. The establishment of a 15% minimum tax rate for certain corporations is a key element.",
   "legalbert_confidence": 0.8904633522033691,
   "extracted_info": {
-    "title": "Inflation Reduction Act of 2022 - Tax Provisions",
-    "country": "United States",
-    "effective_date": "2022-08-16",
+    "title": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+    "country": "USA",
+    "effective_date": "2022-12-31",
+    "regulatory_body": "Internal Revenue Service",
+    "scope": "Tax credits and incentives for clean energy production, storage, and vehicles",
     "affected_sectors": [
-      "Agriculture",
-      "Energy companies",
-      "Corporate taxpayers",
-      "Energy and utilities",
-      "Manufacturers",
-      "Financial institutions",
       "Construction",
-      "Healthcare",
-      "Healthcare companies",
-      "Tax-exempt organizations",
-      "Insurance companies",
-      "Transportation",
-      "Manufacturing"
+      "Automotive",
+      "Manufacturing",
+      "Energy"
+    ],
+    "affected_entities": [
+      "Taxpayers",
+      "Vehicle manufacturers",
+      "Energy producers",
+      "Property owners",
+      "Construction companies"
     ],
     "key_requirements": [
-      "Provides funding for IRS enforcement and operations",
-      "Creates programs to reduce greenhouse gas emissions and support climate resilience",
-      "Establishes environmental justice and community grant programs",
-      "Establishes 15% corporate alternative minimum tax for corporations with average annual adjusted financial statement income over $1 billion",
-      "Extends and expands renewable energy tax credits",
-      "Establishes clean energy tax credits for renewable energy, electric vehicles, and energy efficiency",
-      "Expands healthcare premium tax credits through 2025",
-      "Sets corporate minimum tax rate of 15% for large corporations",
-      "Creates 1% excise tax on stock buybacks by publicly traded companies",
-      "Increases royalty rates for oil and gas production on federal lands and waters",
-      "Provides tax credits for clean vehicles and energy efficient homes/buildings",
-      "Requires drug manufacturers to pay rebates for certain Medicare drugs",
-      "Creates incentives for domestic clean energy manufacturing and supply chains",
-      "Increases IRS funding for enforcement and operations"
+      "Clean vehicle credit eligibility requirements",
+      "Clean hydrogen production requirements",
+      "Critical mineral and battery component requirements for vehicles",
+      "Wage and apprenticeship requirements for energy projects",
+      "Energy efficient home improvement requirements"
     ],
-    "penalties": [
-      "Failure to pay corporate alternative minimum tax subject to standard IRS penalties and interest",
-      "Failure to pay stock buyback excise tax subject to IRS penalties",
-      "Violations of prevailing wage requirements subject to payment of back wages plus penalties",
-      "Non-compliance with drug pricing provisions subject to rebate requirements and civil monetary penalties",
-      "Failure to meet clean energy credit requirements may result in recapture of credits"
+    "key_requirement_details": [
+      {
+        "requirement": "Critical minerals content for EV batteries",
+        "article_reference": "Section 30D(e)(1)",
+        "metrics": [
+          {
+            "type": "percentage",
+            "value": 0.4,
+            "unit": "percent",
+            "description": "Minimum critical minerals content 2023"
+          },
+          {
+            "type": "percentage",
+            "value": 0.8,
+            "unit": "percent",
+            "description": "Minimum critical minerals content 2027+"
+          }
+        ],
+        "deadline": "2022-12-31",
+        "compliance_action": "Vehicle manufacturers must certify battery mineral content"
+      },
+      {
+        "requirement": "Battery components manufactured in North America",
+        "article_reference": "Section 30D(e)(2)",
+        "metrics": [
+          {
+            "type": "percentage",
+            "value": 0.5,
+            "unit": "percent",
+            "description": "Minimum North American content 2023"
+          },
+          {
+            "type": "percentage",
+            "value": 1.0,
+            "unit": "percent",
+            "description": "Minimum North American content 2029+"
+          }
+        ],
+        "deadline": "2022-12-31",
+        "compliance_action": "Vehicle manufacturers must certify component origin"
+      }
+    ],
+    "reporting_requirements": [
+      {
+        "description": "Vehicle manufacturers must report vehicle identification numbers and credit eligibility information to IRS",
+        "frequency": "Per vehicle sale",
+        "format": "Written report",
+        "article_reference": "Section 30D(d)(1)(H)"
+      }
+    ],
+    "monetary_thresholds": [
+      {
+        "amount": 300000,
+        "currency": "USD",
+        "description": "Maximum joint return income for clean vehicle credit eligibility",
+        "article_reference": "Section 30D(f)(10)(B)(i)"
+      },
+      {
+        "amount": 150000,
+        "currency": "USD",
+        "description": "Maximum single filer income for clean vehicle credit eligibility",
+        "article_reference": "Section 30D(f)(10)(B)(iii)"
+      }
+    ],
+    "quantitative_limits": [
+      {
+        "value": 3750,
+        "unit": "USD",
+        "description": "Credit amount for meeting critical minerals requirement",
+        "article_reference": "Section 30D(b)(2)"
+      },
+      {
+        "value": 3750,
+        "unit": "USD",
+        "description": "Credit amount for meeting battery components requirement",
+        "article_reference": "Section 30D(b)(3)"
+      }
+    ],
+    "penalties": null,
+    "enforcement_agencies": [
+      "Internal Revenue Service",
+      "Department of Treasury"
+    ],
+    "implementation_timeline": {
+      "publication_date": "2022-08-16",
+      "transposition_deadline": null,
+      "phased_milestones": [
+        "2023: Initial critical mineral and battery requirements take effect",
+        "2024-2028: Phased increase in domestic content requirements",
+        "2029: 100% battery components must be North American"
+      ]
+    },
+    "notes": [
+      "Amends existing clean vehicle credit program with new domestic content requirements",
+      "Creates new credits for clean hydrogen production and energy storage",
+      "Extends and modifies various existing energy tax credits"
+    ],
+    "source_articles": [
+      "Public Law 117-169",
+      "Internal Revenue Code Section 30D",
+      "Internal Revenue Code Section 45V"
     ]
   },
   "processing_status": "completed"

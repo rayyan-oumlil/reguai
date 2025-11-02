@@ -1,0 +1,19 @@
+document_id,category,confidence,status,title,effective_date,affected_sectors
+4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html,"Category: Privacy
+
+Explanation: This appears to be the EU AI Act, which primarily deals with data privacy and protection of personal information in the context of artificial intelligence systems. The document repeatedly emphasizes protecting fundamental rights and personal data, as evidenced by references to the Charter of Fundamental Rights and data protection measures.",1.0,completed,,,
+1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html,"Category: Trade
+
+Explanation: This document (Directive 2019/2161) focuses on consumer protection rules and trade practices, modifying previous directives related to consumer rights, unfair commercial practices, and consumer protection in the European Union marketplace.",0.9080136299133301,completed,Directive (EU) 2019/2161 on better enforcement and modernization of Union consumer protection rules,2022-05-28,Retail; E-commerce; Digital services; Online marketplaces
+6.人工知能関連技術の研究開発及び活用の推進に関する法律.html,"Category: Trade
+
+Explanation: This appears to be Japan's AI Technology Development and Utilization Promotion Act, which primarily focuses on promoting research, development and commercial utilization of AI technologies. The law establishes frameworks for AI technology development and its implementation in business and trade activities.",1.0,completed,Act on Promotion of Research and Development and Utilization of Artificial Intelligence-Related Technologies,2025,Public sector; Private sector; Research institutions; Academic institutions; Technology industry
+5.中华人民共和国能源法__中国政府网.html,"Category: Environmental
+
+Explanation: This is China's Energy Law which focuses heavily on environmental and sustainable energy development, including provisions for renewable energy, clean energy transition, and carbon emissions reduction targets. The law aims to promote high-quality energy development while ensuring environmental protection.",1.0,completed,Energy Law of the People's Republic of China,2025-01-01,Energy; Power Generation; Oil and Gas; Coal; Nuclear Energy; Renewable Energy; Energy Storage; Energy Transportation; Energy Trading
+3.H.R.5376 - Inflation Reduction Act of 2022.xml,"Category: TAX
+
+Explanation: This document details amendments to the Internal Revenue Code, specifically focusing on corporate alternative minimum tax provisions and applicable corporation definitions for tax purposes. The establishment of a 15% minimum tax rate for certain corporations is a key element.",0.8904633522033691,completed,Amendments to Internal Revenue Code - Clean Energy Tax Credits,2022-12-31,Construction; Automotive; Manufacturing; Energy
+PLAW-119publ21_uslm.xml,"Category: TRADE
+
+Explanation: This appears to be a reconciliation bill that includes significant sections on agriculture, commodities, trade promotion programs, and various market-related provisions. The extensive table of contents shows multiple sections dealing with trade-related matters like agricultural trade promotion, market loans, and commodity programs.",0.9022543907165528,completed,Act to provide for reconciliation pursuant to title II of H. Con. Res. 14,2025-07-04,Education; Healthcare; Energy; International commerce; Law Enforcement; Border Security; Trade; Manufacturing; Immigration; Financial Services; Agriculture; Commodities; Food and beverages

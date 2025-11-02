@@ -1,42 +1,122 @@
 {
   "document_id": "5.中华人民共和国能源法__中国政府网.html",
-  "category": "Category: Environmental\n\nExplanation: This is China's Energy Law which primarily focuses on energy development, sustainability, and environmental protection. It includes provisions for renewable energy, carbon emissions reduction, and promoting clean energy development while protecting ecological systems.",
+  "category": "Category: Environmental\n\nExplanation: This is China's Energy Law which focuses heavily on environmental and sustainable energy development, including provisions for renewable energy, clean energy transition, and carbon emissions reduction targets. The law aims to promote high-quality energy development while ensuring environmental protection.",
   "legalbert_confidence": 1.0,
   "extracted_info": {
     "title": "Energy Law of the People's Republic of China",
     "country": "China",
-    "effective_date": "January 1, 2025",
+    "effective_date": "2025-01-01",
+    "regulatory_body": "Energy Department of the State Council",
+    "scope": "Development, utilization, and management of all energy resources including fossil fuels, renewable energy, nuclear energy, and electricity",
     "affected_sectors": [
-      "Energy production and supply",
-      "Power generation",
-      "Oil and gas",
-      "Coal industry",
-      "Renewable energy",
-      "Nuclear energy",
-      "Energy storage",
-      "Energy transmission and distribution",
-      "Energy trading",
-      "Energy conservation"
+      "Energy",
+      "Power Generation",
+      "Oil and Gas",
+      "Coal",
+      "Nuclear Energy",
+      "Renewable Energy",
+      "Energy Storage",
+      "Energy Transportation",
+      "Energy Trading"
+    ],
+    "affected_entities": [
+      "Energy Companies",
+      "Power Grid Operators",
+      "Energy Users",
+      "Energy Trading Institutions",
+      "Energy Storage Facilities",
+      "Public Institutions",
+      "Energy Transportation Companies"
     ],
     "key_requirements": [
-      "Prioritize development of renewable energy and clean energy sources",
-      "Establish energy reserve systems and emergency response mechanisms",
-      "Improve energy efficiency and reduce energy consumption",
-      "Build unified national energy trading markets",
-      "Implement energy measurement and monitoring systems",
+      "Establish minimum renewable energy consumption targets",
+      "Implement carbon emissions double control system",
+      "Develop energy storage facilities",
       "Ensure fair access to energy transmission networks",
-      "Develop energy technology innovation capabilities",
-      "Protect energy infrastructure security",
-      "Coordinate urban and rural energy development",
-      "Report energy-related data and information to authorities"
+      "Maintain energy reserves",
+      "Establish energy emergency response systems",
+      "Install energy and carbon emission measurement devices",
+      "Develop clean energy transition plans"
     ],
+    "key_requirement_details": [
+      {
+        "requirement": "Energy companies and users must install and use energy and carbon emission measurement devices",
+        "article_reference": "Article 35",
+        "metrics": [],
+        "deadline": null,
+        "compliance_action": "Install and maintain measurement devices according to national regulations"
+      },
+      {
+        "requirement": "Energy transmission network operators must provide fair and non-discriminatory access",
+        "article_reference": "Article 43",
+        "metrics": [],
+        "deadline": null,
+        "compliance_action": "Implement fair access mechanisms and publish network capacity information"
+      }
+    ],
+    "reporting_requirements": [
+      {
+        "description": "Energy enterprises must provide accurate price cost and related data",
+        "frequency": "As required",
+        "format": null,
+        "article_reference": "Article 45"
+      },
+      {
+        "description": "Units must report relevant information to energy authorities",
+        "frequency": "As specified in regulations",
+        "format": null,
+        "article_reference": "Article 65"
+      }
+    ],
+    "monetary_thresholds": [
+      {
+        "amount": 100000,
+        "currency": "CNY",
+        "description": "Minimum fine for violations of service standards disclosure",
+        "article_reference": "Article 72"
+      },
+      {
+        "amount": 200000,
+        "currency": "CNY",
+        "description": "Maximum fine for violations of service standards disclosure",
+        "article_reference": "Article 72"
+      }
+    ],
+    "quantitative_limits": [],
     "penalties": [
-      "Administrative sanctions for government officials who abuse power or neglect duties",
-      "Fines of 100,000-200,000 yuan for violations of information disclosure requirements",
-      "Fines up to twice the amount of economic losses for unfair network access",
-      "Fines of 10,000-50,000 yuan for individuals and 100,000-500,000 yuan for organizations violating emergency response duties",
-      "Business suspension or license revocation for serious violations",
-      "Criminal liability for actions constituting crimes"
+      {
+        "type": "Administrative fine for individuals during energy emergencies",
+        "amount": 10000,
+        "currency": "CNY",
+        "imprisonment": null,
+        "article_reference": "Article 73"
+      },
+      {
+        "type": "Administrative fine for organizations during energy emergencies",
+        "amount": 100000,
+        "currency": "CNY",
+        "imprisonment": null,
+        "article_reference": "Article 73"
+      }
+    ],
+    "enforcement_agencies": [
+      "Energy Department of the State Council",
+      "Local Energy Authorities at County Level and Above",
+      "Relevant Government Departments"
+    ],
+    "implementation_timeline": {
+      "publication_date": "2024-11-08",
+      "transposition_deadline": null,
+      "phased_milestones": []
+    },
+    "notes": [
+      "Law focuses on transitioning to clean energy while maintaining energy security",
+      "Emphasizes development of renewable energy and non-fossil fuel sources",
+      "Establishes comprehensive energy market system and emergency response mechanisms",
+      "Promotes technological innovation in energy sector"
+    ],
+    "source_articles": [
+      "Article 1-80"
     ]
   },
   "processing_status": "completed"

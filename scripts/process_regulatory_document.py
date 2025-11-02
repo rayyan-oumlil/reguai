@@ -34,6 +34,14 @@ class RegulatoryDocumentProcessor:
         self.textract = boto3.client('textract', region_name=region_name)
         self.s3 = boto3.client('s3', region_name=region_name)
         
+        # Bedrock model configuration (align with notebook behavior)
+        # Primary model: Claude Sonnet 4.5 (can require an inference profile depending on account setup)
+        self.model_id_primary = os.getenv('BEDROCK_MODEL_ID', 'anthropic.claude-sonnet-4-5-20250929-v1:0')
+        # Optional inference profile ARN for models that require one
+        self.inference_profile_arn = os.getenv('BEDROCK_INFERENCE_PROFILE_ARN')
+        # Safe fallback widely available on-demand
+        self.model_id_fallback = 'us.anthropic.claude-3-5-sonnet-20241022-v2:0'
+        
         # Load LegalBERT for legal document classification
         print("📚 Loading LegalBERT model for legal analysis...")
         self.legal_tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
@@ -41,6 +49,34 @@ class RegulatoryDocumentProcessor:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.legal_model.to(self.device)
         print("✅ LegalBERT model loaded successfully")
+
+    def _invoke_bedrock(self, prompt: str, max_tokens: int = 1000):
+        """Invoke Bedrock with fallback handling for inference-profile-only models."""
+        payload = {
+            'anthropic_version': 'bedrock-2023-05-31',
+            'max_tokens': max_tokens,
+            'messages': [{'role': 'user', 'content': prompt}]
+        }
+        # First try the primary model id
+        try:
+            return self.bedrock.invoke_model(modelId=self.model_id_primary, body=json.dumps(payload))
+        except Exception as e:
+            msg = str(e)
+            # If model requires inference profile, try with ARN or fallback
+            if ('ValidationException' in msg) and ('inference profile' in msg.lower()):
+                if self.inference_profile_arn:
+                    try:
+                        return self.bedrock.invoke_model(modelId=self.inference_profile_arn, body=json.dumps(payload))
+                    except Exception:
+                        # If profile fails and primary wasn't fallback, try fallback
+                        if self.model_id_primary != self.model_id_fallback:
+                            return self.bedrock.invoke_model(modelId=self.model_id_fallback, body=json.dumps(payload))
+                        raise
+                # No profile set: try fallback if not already primary
+                if self.model_id_primary != self.model_id_fallback:
+                    return self.bedrock.invoke_model(modelId=self.model_id_fallback, body=json.dumps(payload))
+            # Propagate other errors
+            raise
         
     def extract_text_from_file(self, file_path: str) -> str:
         """Extract text from any local or S3 file using Textract or BeautifulSoup"""
@@ -178,14 +214,7 @@ class RegulatoryDocumentProcessor:
             
             Return only the category name and a brief 1-2 sentence explanation."""
             
-            response = self.bedrock.invoke_model(
-                modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',
-                body=json.dumps({
-                    'anthropic_version': 'bedrock-2023-05-31',
-                    'max_tokens': 200,
-                    'messages': [{'role': 'user', 'content': prompt}]
-                })
-            )
+            response = self._invoke_bedrock(prompt, max_tokens=200)
             
             result = json.loads(response['body'].read())
             classification = result['content'][0]['text'].strip()
@@ -197,6 +226,13 @@ class RegulatoryDocumentProcessor:
             }
         
         except Exception as e:
+            msg = str(e)
+            if ('ExpiredToken' in msg) or ('ExpiredTokenException' in msg):
+                print("⚠️ Classification failed due to expired AWS session token.")
+                return {'category': 'Unknown', 'legalbert_confidence': 0.0, 'error': 'ExpiredTokenException'}
+            if ('ValidationException' in msg) and ('inference profile' in msg.lower()):
+                print("⚠️ Classification failed: model requires an inference profile or is unsupported on-demand.")
+                return {'category': 'Unknown', 'legalbert_confidence': 0.0, 'error': 'ValidationException:InferenceProfileRequired'}
             print(f"⚠️ Classification error: {e}. Falling back to basic extraction.")
             return {'category': 'Unknown', 'legalbert_confidence': 0.0}
     
@@ -212,20 +248,88 @@ class RegulatoryDocumentProcessor:
         if text_length > MAX_CHARS_SONNET:
             text = text[:MAX_CHARS_SONNET]
             print(f"   ⚠️ Document very long ({text_length:,} → 3.5M chars)")
-        
-        prompt_template = """Extract key information from this {category} regulation. Return all information in English.
-        
-        Required fields:
-        - title: Document title (translate to English if needed)
-        - country: Country or region where this regulation applies (e.g., "United States", "European Union", "Japan", etc.)
-        - effective_date: When it takes effect
-        - affected_sectors: Which business sectors are impacted (as a list)
-        - key_requirements: Main compliance requirements (as a list)
-        - penalties: Potential penalties for non-compliance
-        
-        Document: {document_text}
-        
-        Return ONLY valid JSON (no markdown, no code blocks, just pure JSON). Ensure all text fields are in English."""
+
+        prompt_template = """You are a financial regulatory intelligence analyst. Extract an exhaustive and precise structured summary from this {category} regulation for downstream financial compliance analytics.
+
+                Return STRICT JSON (UTF-8, no markdown) in English with the following schema. Omit a field only if the regulation provides no signal at all (use null instead of guessing):
+                {{
+                    "title": string,
+                    "country": string,
+                    "effective_date": string,
+                    "regulatory_body": string or null,
+                    "scope": string or null,
+                    "affected_sectors": [string],
+                    "affected_entities": [string],
+                    "key_requirements": [string],
+                    "key_requirement_details": [
+                        {{
+                            "requirement": string,
+                            "article_reference": string,
+                            "metrics": [
+                                {{
+                                    "type": string,
+                                    "value": number,
+                                    "unit": string,
+                                    "description": string
+                                }}
+                            ],
+                            "deadline": string or null,
+                            "compliance_action": string or null
+                        }}
+                    ],
+                    "reporting_requirements": [
+                        {{
+                            "description": string,
+                            "frequency": string or null,
+                            "format": string or null,
+                            "article_reference": string
+                        }}
+                    ],
+                    "monetary_thresholds": [
+                        {{
+                            "amount": number,
+                            "currency": string,
+                            "description": string,
+                            "article_reference": string
+                        }}
+                    ],
+                    "quantitative_limits": [
+                        {{
+                            "value": number,
+                            "unit": string,
+                            "description": string,
+                            "article_reference": string
+                        }}
+                    ],
+                    "penalties": [
+                        {{
+                            "type": string,
+                            "amount": number or null,
+                            "currency": string or null,
+                            "imprisonment": string or null,
+                            "article_reference": string
+                        }}
+                    ],
+                    "enforcement_agencies": [string],
+                    "implementation_timeline": {{
+                        "publication_date": string or null,
+                        "transposition_deadline": string or null,
+                        "phased_milestones": [string]
+                    }},
+                    "notes": [string],
+                    "source_articles": [string]
+                }}
+
+                Document excerpt: {document_text}
+
+                Extraction guidelines:
+                - Capture EVERY actionable obligation, threshold, reporting duty, or quantitative limit explicitly. Do not collapse multiple items into one summary.
+                - Provide explicit article/paragraph references for every obligation, metric, or penalty whenever stated.
+                - Preserve all numeric values exactly; convert spelled-out numbers to digits and include currency ISO codes (e.g., "EUR") or units (%, tonnes, MW).
+                - Represent percentages as decimals (e.g., 12.5% → 0.125) and monetary amounts as numbers (no thousands separators).
+                - Translate narrative text to English while keeping proper nouns in their original form.
+                - If a field is unknown, use null instead of fabricating content.
+    - Keep JSON valid and exhaustive—no markdown, comments, or trailing commas."""
         
         def merge_regulatory_info(info1: Dict, info2: Dict) -> Dict:
             """Merge two regulatory information dictionaries"""
@@ -286,26 +390,12 @@ class RegulatoryDocumentProcessor:
             prompt = prompt_template.format(category=category, document_text=text_chunk)
             
             try:
-                response = self.bedrock.invoke_model(
-                    modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',
-                    body=json.dumps({
-                        'anthropic_version': 'bedrock-2023-05-31',
-                        'max_tokens': 1000,
-                        'messages': [{'role': 'user', 'content': prompt}]
-                    })
-                )
+                response = self._invoke_bedrock(prompt, max_tokens=1500)
                 
                 result = json.loads(response['body'].read())
                 content = result['content'][0]['text']
                 
                 try:
-                    # Remove markdown code blocks if present
-                    if content.startswith('```'):
-                        content = content.split('```')[1]
-                        if content.startswith('json'):
-                            content = content[4:]
-                        content = content.strip()
-                    
                     extracted_info = json.loads(content)
                     print(f"   {'  ' * depth}✅ Chunk extracted ({chunk_length:,} chars)")
                     return extracted_info
@@ -316,6 +406,11 @@ class RegulatoryDocumentProcessor:
             except Exception as e:
                 error_msg = str(e).lower()
                 
+                # Early return on auth errors
+                if ("expiredtoken" in error_msg) or ("expired token" in error_msg):
+                    print("   ❌ AWS token expired during extraction.")
+                    return {'error': 'ExpiredTokenException', 'message': 'AWS STS session expired.'}
+                
                 # ONLY split if it's specifically about the prompt/input being too long
                 # Check for explicit length-related error messages
                 is_length_error = (
@@ -325,6 +420,11 @@ class RegulatoryDocumentProcessor:
                     "input is too long" in error_msg or
                     ("too long" in error_msg and "prompt" in error_msg)
                 )
+                
+                # Handle inference-profile validation error explicitly
+                if ("validationexception" in error_msg) and ("inference profile" in error_msg):
+                    print("   ❌ Model requires an inference profile or unsupported on-demand.")
+                    return {'error': 'ValidationException:InferenceProfileRequired', 'message': 'Model requires inference profile or unsupported on-demand.'}
                 
                 if is_length_error and chunk_length > 1000:
                     # Document is too long for the model, split it
@@ -361,6 +461,9 @@ class RegulatoryDocumentProcessor:
         extracted_info = extract_recursive(text)
         
         if extracted_info:
+            if isinstance(extracted_info, dict) and extracted_info.get('error') in ['ExpiredTokenException', 'ValidationException:InferenceProfileRequired']:
+                print("⚠️ Extraction aborted due to AWS invocation error.")
+                return extracted_info
             print("✅ Key information extracted successfully")
             return extracted_info
         else:
@@ -388,16 +491,26 @@ class RegulatoryDocumentProcessor:
             }
         
         classification = self.classify_regulation_with_legalbert(text)
-        key_info = self.extract_key_info(text, classification['category'])
+        key_info = self.extract_key_info(text, classification.get('category', 'Unknown'))
         print("🎉 Processing completed successfully!")
         
-        return {
+        # Mark failed if we hit auth or invocation errors
+        processing_status = 'completed'
+        error_field = None
+        if isinstance(key_info, dict) and key_info.get('error') in ['ExpiredTokenException', 'ValidationException:InferenceProfileRequired']:
+            processing_status = 'failed'
+            error_field = f"{key_info.get('error')}: {key_info.get('message', 'Bedrock invocation error')}"
+        
+        result = {
             'document_id': document_id,
-            'category': classification['category'],
+            'category': classification.get('category', 'Unknown'),
             'legalbert_confidence': classification.get('legalbert_confidence', 0.0),
             'extracted_info': key_info,
-            'processing_status': 'completed'
+            'processing_status': processing_status
         }
+        if error_field:
+            result['error'] = error_field
+        return result
     
     def save_result(self, result: Dict[str, Any], output_path: str):
         """Save result to local file or S3"""

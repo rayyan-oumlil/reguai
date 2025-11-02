@@ -1,35 +1,110 @@
 {
   "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
-  "category": "Category: Trade\n\nExplanation: This is a directive focused on consumer protection rules and trade practices within the EU, modifying earlier directives regarding consumer rights, business-to-consumer transactions, and enforcement of trade regulations. The document primarily deals with commercial relationships between businesses and consumers.",
+  "category": "Category: TRADE\n\nExplanation: This appears to be a EU directive focused on consumer protection rules and trade practices, including sanctions for violations of consumer rights and regulations for businesses operating in the EU market. The document discusses modifications to existing consumer protection directives and enforcement measures.",
   "legalbert_confidence": 0.9080136299133301,
   "extracted_info": {
-    "title": "Directive (EU) 2019/2161 on better enforcement and modernization of EU consumer protection rules",
-    "country": "European Union",
-    "effective_date": "May 28, 2022",
+    "title": "DIRECTIVE (EU) 2019/2161 on better enforcement and modernization of Union consumer protection rules",
+    "country": "EU",
+    "effective_date": "2022-05-28",
+    "regulatory_body": "European Parliament and Council",
+    "scope": "Consumer protection rules and trade practices in the EU internal market",
     "affected_sectors": [
-      "E-commerce and online marketplaces",
-      "Retail trade",
-      "Digital services providers",
-      "Consumer goods manufacturers",
-      "Travel and tourism",
-      "Event ticket sellers"
+      "Retail",
+      "E-commerce",
+      "Digital services",
+      "Online marketplaces",
+      "Consumer goods and services"
+    ],
+    "affected_entities": [
+      "Traders",
+      "Online marketplace providers",
+      "Digital service providers",
+      "Retailers",
+      "Consumer goods manufacturers"
     ],
     "key_requirements": [
-      "Transparency on price reductions and product rankings in online marketplaces",
-      "Clear identification of paid advertising in search results",
-      "Disclosure of whether sellers on online marketplaces are traders or private individuals",
-      "Verification and transparency of consumer reviews",
-      "Protection against fake reviews and manipulated recommendations",
-      "New rules on personalized pricing based on automated decision-making",
-      "Enhanced penalties for widespread infringements",
-      "Protection against ticket resale using automated software (bots)",
-      "New consumer rights for digital content and services"
+      "Transparency in price reduction announcements",
+      "Information requirements for online marketplaces",
+      "Rules on consumer reviews and endorsements",
+      "Consumer rights for digital content and services",
+      "Enhanced penalties for widespread infringements"
+    ],
+    "key_requirement_details": [
+      {
+        "requirement": "Price reduction announcement must show prior price",
+        "article_reference": "Article 2(1)",
+        "metrics": [
+          {
+            "type": "time period",
+            "value": 30,
+            "unit": "days",
+            "description": "Minimum period for prior price reference"
+          }
+        ],
+        "deadline": "2022-05-28",
+        "compliance_action": "Display previous lowest price from last 30 days before reduction"
+      },
+      {
+        "requirement": "Online marketplace transparency on ranking parameters",
+        "article_reference": "Article 6a",
+        "metrics": null,
+        "deadline": "2022-05-28",
+        "compliance_action": "Disclose main parameters determining ranking of offers"
+      }
+    ],
+    "reporting_requirements": [
+      {
+        "description": "Member States must notify Commission of national provisions on penalties",
+        "frequency": "Once initially and upon any changes",
+        "format": null,
+        "article_reference": "Article 7(1)"
+      }
+    ],
+    "monetary_thresholds": [
+      {
+        "amount": 2000000,
+        "currency": "EUR",
+        "description": "Maximum fine when annual turnover information unavailable",
+        "article_reference": "Article 13(4)"
+      }
+    ],
+    "quantitative_limits": [
+      {
+        "value": 0.04,
+        "unit": "ratio",
+        "description": "Maximum fine as proportion of trader's annual turnover",
+        "article_reference": "Article 13(3)"
+      }
     ],
     "penalties": [
-      "Maximum fines of at least 4% of annual turnover in affected EU member states",
-      "Alternative maximum fine of 2 million euros where turnover information is not available",
-      "Penalties must be effective, proportionate and dissuasive",
-      "Member states must consider factors like nature, gravity, duration of infringement when setting penalties"
+      {
+        "type": "Administrative or judicial fine",
+        "amount": null,
+        "currency": "EUR",
+        "imprisonment": null,
+        "article_reference": "Article 13(3)"
+      }
+    ],
+    "enforcement_agencies": [
+      "National consumer protection authorities",
+      "National courts",
+      "Administrative bodies designated by Member States"
+    ],
+    "implementation_timeline": {
+      "publication_date": "2019-12-18",
+      "transposition_deadline": "2021-11-28",
+      "phased_milestones": [
+        "Member States to adopt measures by 2021-11-28",
+        "Application of measures from 2022-05-28"
+      ]
+    },
+    "notes": [
+      "Member States may impose stricter consumer protection measures in certain areas",
+      "Directive modifies several existing EU consumer protection directives",
+      "Special provisions for digital content and services"
+    ],
+    "source_articles": [
+      "Article 1 through Article 9"
     ]
   },
   "processing_status": "completed"

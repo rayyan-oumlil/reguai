@@ -1,49 +1,148 @@
 {
   "document_id": "PLAW-119publ21_uslm.xml",
-  "category": "Category: Tax\n\nExplanation: This appears to be a tax reconciliation bill, as evidenced by multiple tax-related sections in Title VII including tax relief for middle-class families, tax credits, and modifications to the Internal Revenue Code. The document primarily deals with changes to tax rates, deductions, and credits.",
+  "category": "Category: TRADE\n\nExplanation: This appears to be a reconciliation bill that includes significant sections on agriculture, commodities, trade promotion programs, and various market-related provisions. The extensive table of contents shows multiple sections dealing with trade-related matters like agricultural trade promotion, market loans, and commodity programs.",
   "legalbert_confidence": 0.9022543907165528,
   "extracted_info": {
-    "title": "Public Law 119-21: To provide for reconciliation pursuant to title II of H. Con. Res. 14",
+    "title": "Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
     "country": "United States",
     "effective_date": "2025-07-04",
+    "regulatory_body": "United States Congress",
+    "scope": "Trade regulations, tariffs, agriculture subsidies, commodities programs, import/export, market access",
     "affected_sectors": [
-      "Agriculture",
-      "Energy",
-      "Tax",
-      "Environment",
-      "Financial Services",
-      "Housing",
-      "Tax and Revenue",
-      "Border Security",
+      "Education",
       "Healthcare",
-      "Defense",
-      "Immigration",
+      "Energy",
+      "International commerce",
       "Law Enforcement",
-      "Transportation",
-      "Education"
+      "Border Security",
+      "Trade",
+      "Manufacturing",
+      "Immigration",
+      "Financial Services",
+      "Agriculture",
+      "Commodities",
+      "Food and beverages"
+    ],
+    "affected_entities": [
+      "Agricultural producers",
+      "Commodity traders",
+      "Food manufacturers",
+      "Importers/exporters",
+      "Trading companies",
+      "Farmers",
+      "Ranchers"
     ],
     "key_requirements": [
-      "Establishes new reporting and compliance requirements for certain tax benefits",
-      "Creates new tax incentives for opportunity zones and rural development",
-      "Changes to student loan programs and Pell Grants",
-      "Modifies rules for charitable contributions and tax-exempt organizations",
-      "Modifications to tax credits and deductions",
-      "Changes to Medicaid and Medicare eligibility and enrollment",
-      "New immigration fees and restrictions",
-      "Modifies tax rates, deductions, and credits for individuals and businesses",
-      "Enhanced border security funding and infrastructure",
-      "Funding for law enforcement and detention facilities",
-      "Extends and makes permanent certain tax provisions from prior laws",
-      "Adjusts federal spending levels across multiple agencies and programs",
-      "Changes requirements for federal program funding and administration",
-      "Restrictions on clean energy tax credits"
+      "Modifications to dairy policy and sugar program",
+      "Updates to market loan and commodity programs",
+      "Changes to healthcare program eligibility",
+      "Modification of agricultural subsidies and support programs",
+      "Changes to commodity price support mechanisms",
+      "Implementation of new immigration fees and enforcement measures",
+      "Energy program modifications",
+      "Increase in debt ceiling",
+      "Modification of student loan programs",
+      "Revisions to trade promotion programs",
+      "Enhanced border security measures"
+    ],
+    "key_requirement_details": [
+      {
+        "requirement": "Increased reference prices for covered commodities",
+        "article_reference": "Section 10301",
+        "metrics": [
+          {
+            "type": "reference_price",
+            "value": 6.35,
+            "unit": "USD per bushel",
+            "description": "New reference price for wheat"
+          },
+          {
+            "type": "reference_price",
+            "value": 4.1,
+            "unit": "USD per bushel",
+            "description": "New reference price for corn"
+          }
+        ],
+        "deadline": "2025-01-01",
+        "compliance_action": "Adjust commodity support payment calculations"
+      },
+      {
+        "requirement": "Market loan rate modifications",
+        "article_reference": "Section 10309",
+        "metrics": [
+          {
+            "type": "loan_rate",
+            "value": 3.72,
+            "unit": "USD per bushel",
+            "description": "Loan rate for wheat"
+          },
+          {
+            "type": "loan_rate",
+            "value": 2.42,
+            "unit": "USD per bushel",
+            "description": "Loan rate for corn"
+          }
+        ],
+        "deadline": "2026-01-01",
+        "compliance_action": "Update loan rate calculations"
+      }
+    ],
+    "reporting_requirements": [
+      {
+        "description": "Report on agricultural trade promotion program outcomes",
+        "frequency": "Annual",
+        "format": "Written report",
+        "article_reference": "Section 10602"
+      }
+    ],
+    "monetary_thresholds": [
+      {
+        "amount": 250000000,
+        "currency": "USD",
+        "description": "Minimum annual timber sales requirement",
+        "article_reference": "Section 50301"
+      }
+    ],
+    "quantitative_limits": [
+      {
+        "value": 30000000,
+        "unit": "acres",
+        "description": "Maximum additional base acres allocation",
+        "article_reference": "Section 10302"
+      }
     ],
     "penalties": [
-      "Civil penalties up to $5,000 for first violation and $10,000 for subsequent violations of remittance transfer rules",
-      "Accuracy-related penalties for substantial understatements related to energy credits",
-      "Penalties up to $5,000 for substantial misstatements on supplier certifications",
-      "Recovery of overpayments for improper Medicaid claims",
-      "Fees and penalties for immigration violations"
+      {
+        "type": "civil",
+        "amount": 5000,
+        "currency": "USD",
+        "imprisonment": null,
+        "article_reference": "SEC. 100001"
+      }
+    ],
+    "enforcement_agencies": [
+      "United States Department of Agriculture",
+      "Commodity Credit Corporation",
+      "Farm Service Agency"
+    ],
+    "implementation_timeline": {
+      "publication_date": "2024-07-04",
+      "transposition_deadline": "2025-07-04",
+      "phased_milestones": [
+        "Initial commodity program changes effective 2025",
+        "Market loan modifications effective 2026",
+        "Full implementation by 2031"
+      ]
+    },
+    "notes": [
+      "This Act significantly modifies existing agricultural and trade programs",
+      "Many provisions have phase-in periods over multiple years",
+      "Contains numerous technical amendments to existing programs"
+    ],
+    "source_articles": [
+      "Title I - Committee on Agriculture, Nutrition, and Forestry",
+      "Subtitle C - Commodities",
+      "Sections 10301-10314"
     ]
   },
   "processing_status": "completed"

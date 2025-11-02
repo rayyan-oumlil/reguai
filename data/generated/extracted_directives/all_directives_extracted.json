@@ -1,0 +1,627 @@
+{
+  "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html": {
+    "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+    "category": "Category: Privacy\n\nExplanation: This appears to be the EU AI Act, which primarily deals with data privacy and protection of personal information in the context of artificial intelligence systems. The document repeatedly emphasizes protecting fundamental rights and personal data, as evidenced by references to the Charter of Fundamental Rights and data protection measures.",
+    "legalbert_confidence": 1.0,
+    "extracted_info": {
+      "raw_content": "{\n  \"title\": \"Regulation (EU) 2024/1689 - Artificial Intelligence Act\",\n  \"country\": \"European Union\",\n  \"effective_date\": \"2024-08-02\",\n  \"regulatory_body\": \"European Commission\",\n  \"scope\": \"Artificial intelligence systems placed on the market, put into service, or used in the European Union\",\n  \"affected_sectors\": [\n    \"All sectors developing or deploying AI systems\",\n    \"Law enforcement\",\n    \"Border control\",\n    \"Immigration\",\n    \"Education\",\n    \"Employment\",\n    \"Critical infrastructure\",\n    \"Financial services\",\n    \"Healthcare\",\n    \"Public services\"\n  ],\n  \"affected_entities\": [\n    \"Providers of AI systems\",\n    \"Users/deployers of AI systems\",\n    \"Importers\",\n    \"Distributors\",\n    \"Authorized representatives\",\n    \"Notified bodies\",\n    \"Public authorities\",\n    \"Providers of general-purpose AI models\"\n  ],\n  \"key_requirements\": [\n    \"Registration of high-risk AI systems\",\n    \"Conformity assessment procedures\",\n    \"Quality management system implementation\",\n    \"Risk management system implementation\",\n    \"Technical documentation maintenance\",\n    \"Post-market monitoring\",\n    \"Human oversight measures\",\n    \"Data governance and management\",\n    \"Transparency obligations\",\n    \"Cybersecurity measures\"\n  ],\n  \"key_requirement_details\": [\n    {\n      \"requirement\": \"Real-time remote biometric identification system authorization\",\n      \"article_reference\": \"Article 5(3)\",\n      \"metrics\": null,\n      \"deadline\": \"24 hours for urgent cases\",\n      \"compliance_action\": \"Obtain prior authorization from judicial or independent administrative authority\"\n    },\n    {\n      \"requirement\": \"Post-market monitoring system maintenance\",\n      \"article_reference\": \"Article 72\",\n      \"metrics\": null,\n      \"deadline\": \"At least 6 months\",\n      \"compliance_action\": \"Establish and document post-market monitoring system\"\n    },\n    {\n      \"requirement\": \"Serious incident reporting\",\n      \"article_reference\": \"Article 73(2)\",\n      \"metrics\": null,\n      \"deadline\": \"15 days after awareness\",\n      \"compliance_action\": \"Report to market surveillance authorities\"\n    },\n    {\n      \"requirement\": \"Technical documentation retention\",\n      \"article_reference\": \"Article 18(1)\",\n      \"metrics\": null,\n      \"deadline\": \"10 years after placing on market\",\n      \"compliance_action\": \"Maintain documentation available to authorities\"\n    }\n  ],\n  \"reporting_requirements\": [\n    {\n      \"description\": \"Registration of high-risk AI systems in EU database\",\n      \"frequency\": \"Before placing on market\",\n      \"format\": \"Electronic registration\",\n      \"article_reference\": \"Article 49(1)\"\n    },\n    {\n      \"description\": \"Serious incident reporting\",\n      \"frequency\": \"Within 15 days of awareness\",\n      \"format\": \"Written report\",\n      \"article_reference\": \"Article 73\"\n    },\n    {\n      \"description\": \"Annual report on real-time remote biometric identification use\",\n      \"frequency\": \"Annual\",\n      \"format\": \"Written report\",\n      \"article_reference\": \"Article 5(6)\"\n    }\n  ],\n  \"monetary_thresholds\": [\n    {\n      \"amount\": 35000000,\n      \"currency\": \"EUR\",\n      \"description\": \"Maximum administrative fine for prohibited AI practices\",\n      \"article_reference\": \"Article 99(3)\"\n    },\n    {\n      \"amount\": 15000000,\n      \"currency\": \"EUR\",\n      \"description\": \"Maximum administrative fine for non-compliance with other obligations\",\n      \"article_reference\": \"Article 99(4)\"\n    },\n    {\n      \"amount\": 7500000,\n      \"currency\": \"EUR\",\n      \"description\": \"Maximum administrative fine for incorrect information provision\",\n      \"article_reference\": \"Article 99(5)\"\n    }\n  ],\n  \"quantitative_limits\": [\n    {\n      \"value\": 1000000000000000000000000000,\n      \"unit\": \"floating point operations\",\n      \"description\": \"Threshold for classification as general-purpose AI model with systemic risk\",\n      \"article_reference\": \"Article 51(2)\"\n    }\n  ],\n  \"penalties\": [\n    {\n      \"type\": \"Administrative fine - prohibited practices\",\n      \"amount\": 35000000,\n      \"currency\": \"EUR\",\n      \"imprisonment\": null,\n      \"article_reference\": \"Article 99(3)\"\n    },\n    {\n      \"type\": \"Administrative fine - other obligations\",\n      \"amount\": 15000000,\n      \"currency\": \"EUR\",\n      \"imprisonment\": null,\n      \"article_reference\": \"Article 99(4)\"\n    },\n    {\n      \"type\": \"Administrative fine - incorrect information\",\n      \"amount\": 7500000,\n      \"currency\": \"EUR\",\n      \"imprisonment\": null,\n      \"article_reference\": \"Article 99(5)\"\n    }\n  ],\n  \"enforcement_agencies\": [\n    \"European Commission\",\n    \"AI Office\",\n    \"National market surveillance authorities\",\n    \"National notifying authorities\",\n    \"European Data Protection Supervisor\",\n    \"Notified bodies\"\n  ],\n  \"implementation_timeline\": {\n    \"publication_date\": \"2024-07-12\",\n    \"transposition_deadline\": null,\n    \"phased_milestones\": [\n      \"2025-02-02: Chapters I and II apply\",\n      \"2025-08-02: Chapter III Section 4, Chapter V, Chapter VII, Chapter XII apply\",\n      \"2026-08-02: General application date\",\n      \"2027-08-02: Article 6(1) applies\"\n    ]\n  },\n  \"notes\": [\n    \"Regulation establishes first comprehensive AI regulatory framework in EU\",\n    \"Creates tiered risk-based approach to AI regulation\",\n    \"Establishes new institutional structures including AI Office and European AI Board\",\n    \"Special provisions for general-purpose AI models and systemic risk assessment\"\n  ],\n  \"source_articles\": [\n    \"Article 1\",\n    \"Article 2\","
+    },
+    "processing_status": "completed"
+  },
+  "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html": {
+    "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+    "category": "Category: Trade\n\nExplanation: This document (Directive 2019/2161) focuses on consumer protection rules and trade practices, modifying previous directives related to consumer rights, unfair commercial practices, and consumer protection in the European Union marketplace.",
+    "legalbert_confidence": 0.9080136299133301,
+    "extracted_info": {
+      "title": "Directive (EU) 2019/2161 on better enforcement and modernization of Union consumer protection rules",
+      "country": "EU",
+      "effective_date": "2022-05-28",
+      "regulatory_body": "European Parliament and Council",
+      "scope": "Consumer protection rules in EU member states, focusing on unfair commercial practices, consumer rights, and consumer contracts",
+      "affected_sectors": [
+        "Retail",
+        "E-commerce",
+        "Digital services",
+        "Online marketplaces"
+      ],
+      "affected_entities": [
+        "Traders",
+        "Online marketplace providers",
+        "Digital service providers",
+        "Retailers"
+      ],
+      "key_requirements": [
+        "Transparency in online marketplace rankings",
+        "Disclosure of paid placements in search results",
+        "Clear identification of third-party sellers",
+        "Consumer review verification processes",
+        "Price reduction announcements rules",
+        "Personal data protection requirements",
+        "Digital content and services contract rules"
+      ],
+      "key_requirement_details": [
+        {
+          "requirement": "Price reduction announcements must show prior price",
+          "article_reference": "Article 2(1)",
+          "metrics": [
+            {
+              "type": "minimum_prior_price_period",
+              "value": 30,
+              "unit": "days",
+              "description": "Minimum period for reference price before reduction"
+            }
+          ],
+          "deadline": "2022-05-28",
+          "compliance_action": "Display previous lowest price from last 30 days when announcing price reductions"
+        },
+        {
+          "requirement": "Maximum fines for widespread infringements",
+          "article_reference": "Article 1",
+          "metrics": [
+            {
+              "type": "maximum_fine_percentage",
+              "value": 0.04,
+              "unit": "ratio",
+              "description": "Maximum fine as proportion of trader's annual turnover"
+            },
+            {
+              "type": "maximum_fine_amount",
+              "value": 2000000,
+              "unit": "EUR",
+              "description": "Maximum fine when turnover information unavailable"
+            }
+          ],
+          "deadline": null,
+          "compliance_action": "Ensure compliance to avoid penalties"
+        }
+      ],
+      "reporting_requirements": [
+        {
+          "description": "Member States must notify Commission of national provisions on penalties",
+          "frequency": "Initial and upon changes",
+          "format": null,
+          "article_reference": "Article 7(1)"
+        }
+      ],
+      "monetary_thresholds": [
+        {
+          "amount": 2000000,
+          "currency": "EUR",
+          "description": "Maximum fine when trader's annual turnover information unavailable",
+          "article_reference": "Article 1"
+        }
+      ],
+      "quantitative_limits": [
+        {
+          "value": 0.04,
+          "unit": "ratio",
+          "description": "Maximum fine as proportion of annual turnover for widespread infringements",
+          "article_reference": "Article 1"
+        }
+      ],
+      "penalties": [
+        {
+          "type": "administrative fine",
+          "amount": null,
+          "currency": "EUR",
+          "imprisonment": null,
+          "article_reference": "Article 1"
+        }
+      ],
+      "enforcement_agencies": [
+        "National consumer protection authorities",
+        "National administrative bodies",
+        "National courts"
+      ],
+      "implementation_timeline": {
+        "publication_date": "2019-12-18",
+        "transposition_deadline": "2021-11-28",
+        "phased_milestones": [
+          "Member States to adopt provisions by 2021-11-28",
+          "Provisions to apply from 2022-05-28"
+        ]
+      },
+      "notes": [
+        "Member States may adopt stricter consumer protection measures in certain areas",
+        "Directive amends previous consumer protection directives 93/13/EEC, 98/6/EC, 2005/29/EC and 2011/83/EU"
+      ],
+      "source_articles": [
+        "Article 1",
+        "Article 2",
+        "Article 3",
+        "Article 4",
+        "Article 5",
+        "Article 6",
+        "Article 7",
+        "Article 8",
+        "Article 9"
+      ]
+    },
+    "processing_status": "completed"
+  },
+  "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html": {
+    "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
+    "category": "Category: Trade\n\nExplanation: This appears to be Japan's AI Technology Development and Utilization Promotion Act, which primarily focuses on promoting research, development and commercial utilization of AI technologies. The law establishes frameworks for AI technology development and its implementation in business and trade activities.",
+    "legalbert_confidence": 1.0,
+    "extracted_info": {
+      "title": "Act on Promotion of Research and Development and Utilization of Artificial Intelligence-Related Technologies",
+      "country": "Japan",
+      "effective_date": "2025",
+      "regulatory_body": "AI Strategy Headquarters (人工知能戦略本部)",
+      "scope": "Research, development and utilization of AI-related technologies in Japan",
+      "affected_sectors": [
+        "Public sector",
+        "Private sector",
+        "Research institutions",
+        "Academic institutions",
+        "Technology industry"
+      ],
+      "affected_entities": [
+        "National government",
+        "Local governments",
+        "Research institutions",
+        "Universities",
+        "Business operators utilizing AI",
+        "General public"
+      ],
+      "key_requirements": [
+        "Development of AI basic plan",
+        "Establishment of AI Strategy Headquarters",
+        "Ensuring transparency in AI development and utilization",
+        "International cooperation in AI development",
+        "Development of guidelines aligned with international norms",
+        "Infrastructure development for AI research and development",
+        "Human resource development in AI field"
+      ],
+      "key_requirement_details": [
+        {
+          "requirement": "Creation and implementation of AI Basic Plan",
+          "article_reference": "Article 18",
+          "metrics": null,
+          "deadline": null,
+          "compliance_action": "Government must establish and publish comprehensive AI basic plan"
+        },
+        {
+          "requirement": "Ensuring proper use and prevention of misuse of AI technologies",
+          "article_reference": "Article 3(4)",
+          "metrics": null,
+          "deadline": null,
+          "compliance_action": "Implement measures to ensure transparency in AI development and utilization"
+        }
+      ],
+      "reporting_requirements": [],
+      "monetary_thresholds": [],
+      "quantitative_limits": [],
+      "penalties": [],
+      "enforcement_agencies": [
+        "AI Strategy Headquarters",
+        "Cabinet Office"
+      ],
+      "implementation_timeline": {
+        "publication_date": "2023",
+        "transposition_deadline": null,
+        "phased_milestones": [
+          "General provisions effective immediately upon publication",
+          "Chapters 3 and 4 effective within 3 months of publication"
+        ]
+      },
+      "notes": [
+        "Law establishes framework for AI development and utilization rather than specific regulatory requirements",
+        "Emphasizes cooperation between government, research institutions, and private sector",
+        "Focus on promoting AI development while ensuring appropriate safeguards"
+      ],
+      "source_articles": [
+        "Article 1-28",
+        "Supplementary Provisions"
+      ]
+    },
+    "processing_status": "completed"
+  },
+  "5.中华人民共和国能源法__中国政府网.html": {
+    "document_id": "5.中华人民共和国能源法__中国政府网.html",
+    "category": "Category: Environmental\n\nExplanation: This is China's Energy Law which focuses heavily on environmental and sustainable energy development, including provisions for renewable energy, clean energy transition, and carbon emissions reduction targets. The law aims to promote high-quality energy development while ensuring environmental protection.",
+    "legalbert_confidence": 1.0,
+    "extracted_info": {
+      "title": "Energy Law of the People's Republic of China",
+      "country": "China",
+      "effective_date": "2025-01-01",
+      "regulatory_body": "Energy Department of the State Council",
+      "scope": "Development, utilization, and management of all energy resources including fossil fuels, renewable energy, nuclear energy, and electricity",
+      "affected_sectors": [
+        "Energy",
+        "Power Generation",
+        "Oil and Gas",
+        "Coal",
+        "Nuclear Energy",
+        "Renewable Energy",
+        "Energy Storage",
+        "Energy Transportation",
+        "Energy Trading"
+      ],
+      "affected_entities": [
+        "Energy Companies",
+        "Power Grid Operators",
+        "Energy Users",
+        "Energy Trading Institutions",
+        "Energy Storage Facilities",
+        "Public Institutions",
+        "Energy Transportation Companies"
+      ],
+      "key_requirements": [
+        "Establish minimum renewable energy consumption targets",
+        "Implement carbon emissions double control system",
+        "Develop energy storage facilities",
+        "Ensure fair access to energy transmission networks",
+        "Maintain energy reserves",
+        "Establish energy emergency response systems",
+        "Install energy and carbon emission measurement devices",
+        "Develop clean energy transition plans"
+      ],
+      "key_requirement_details": [
+        {
+          "requirement": "Energy companies and users must install and use energy and carbon emission measurement devices",
+          "article_reference": "Article 35",
+          "metrics": [],
+          "deadline": null,
+          "compliance_action": "Install and maintain measurement devices according to national regulations"
+        },
+        {
+          "requirement": "Energy transmission network operators must provide fair and non-discriminatory access",
+          "article_reference": "Article 43",
+          "metrics": [],
+          "deadline": null,
+          "compliance_action": "Implement fair access mechanisms and publish network capacity information"
+        }
+      ],
+      "reporting_requirements": [
+        {
+          "description": "Energy enterprises must provide accurate price cost and related data",
+          "frequency": "As required",
+          "format": null,
+          "article_reference": "Article 45"
+        },
+        {
+          "description": "Units must report relevant information to energy authorities",
+          "frequency": "As specified in regulations",
+          "format": null,
+          "article_reference": "Article 65"
+        }
+      ],
+      "monetary_thresholds": [
+        {
+          "amount": 100000,
+          "currency": "CNY",
+          "description": "Minimum fine for violations of service standards disclosure",
+          "article_reference": "Article 72"
+        },
+        {
+          "amount": 200000,
+          "currency": "CNY",
+          "description": "Maximum fine for violations of service standards disclosure",
+          "article_reference": "Article 72"
+        }
+      ],
+      "quantitative_limits": [],
+      "penalties": [
+        {
+          "type": "Administrative fine for individuals during energy emergencies",
+          "amount": 10000,
+          "currency": "CNY",
+          "imprisonment": null,
+          "article_reference": "Article 73"
+        },
+        {
+          "type": "Administrative fine for organizations during energy emergencies",
+          "amount": 100000,
+          "currency": "CNY",
+          "imprisonment": null,
+          "article_reference": "Article 73"
+        }
+      ],
+      "enforcement_agencies": [
+        "Energy Department of the State Council",
+        "Local Energy Authorities at County Level and Above",
+        "Relevant Government Departments"
+      ],
+      "implementation_timeline": {
+        "publication_date": "2024-11-08",
+        "transposition_deadline": null,
+        "phased_milestones": []
+      },
+      "notes": [
+        "Law focuses on transitioning to clean energy while maintaining energy security",
+        "Emphasizes development of renewable energy and non-fossil fuel sources",
+        "Establishes comprehensive energy market system and emergency response mechanisms",
+        "Promotes technological innovation in energy sector"
+      ],
+      "source_articles": [
+        "Article 1-80"
+      ]
+    },
+    "processing_status": "completed"
+  },
+  "3.H.R.5376 - Inflation Reduction Act of 2022.xml": {
+    "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+    "category": "Category: TAX\n\nExplanation: This document details amendments to the Internal Revenue Code, specifically focusing on corporate alternative minimum tax provisions and applicable corporation definitions for tax purposes. The establishment of a 15% minimum tax rate for certain corporations is a key element.",
+    "legalbert_confidence": 0.8904633522033691,
+    "extracted_info": {
+      "title": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+      "country": "USA",
+      "effective_date": "2022-12-31",
+      "regulatory_body": "Internal Revenue Service",
+      "scope": "Tax credits and incentives for clean energy production, storage, and vehicles",
+      "affected_sectors": [
+        "Construction",
+        "Automotive",
+        "Manufacturing",
+        "Energy"
+      ],
+      "affected_entities": [
+        "Taxpayers",
+        "Vehicle manufacturers",
+        "Energy producers",
+        "Property owners",
+        "Construction companies"
+      ],
+      "key_requirements": [
+        "Clean vehicle credit eligibility requirements",
+        "Clean hydrogen production requirements",
+        "Critical mineral and battery component requirements for vehicles",
+        "Wage and apprenticeship requirements for energy projects",
+        "Energy efficient home improvement requirements"
+      ],
+      "key_requirement_details": [
+        {
+          "requirement": "Critical minerals content for EV batteries",
+          "article_reference": "Section 30D(e)(1)",
+          "metrics": [
+            {
+              "type": "percentage",
+              "value": 0.4,
+              "unit": "percent",
+              "description": "Minimum critical minerals content 2023"
+            },
+            {
+              "type": "percentage",
+              "value": 0.8,
+              "unit": "percent",
+              "description": "Minimum critical minerals content 2027+"
+            }
+          ],
+          "deadline": "2022-12-31",
+          "compliance_action": "Vehicle manufacturers must certify battery mineral content"
+        },
+        {
+          "requirement": "Battery components manufactured in North America",
+          "article_reference": "Section 30D(e)(2)",
+          "metrics": [
+            {
+              "type": "percentage",
+              "value": 0.5,
+              "unit": "percent",
+              "description": "Minimum North American content 2023"
+            },
+            {
+              "type": "percentage",
+              "value": 1.0,
+              "unit": "percent",
+              "description": "Minimum North American content 2029+"
+            }
+          ],
+          "deadline": "2022-12-31",
+          "compliance_action": "Vehicle manufacturers must certify component origin"
+        }
+      ],
+      "reporting_requirements": [
+        {
+          "description": "Vehicle manufacturers must report vehicle identification numbers and credit eligibility information to IRS",
+          "frequency": "Per vehicle sale",
+          "format": "Written report",
+          "article_reference": "Section 30D(d)(1)(H)"
+        }
+      ],
+      "monetary_thresholds": [
+        {
+          "amount": 300000,
+          "currency": "USD",
+          "description": "Maximum joint return income for clean vehicle credit eligibility",
+          "article_reference": "Section 30D(f)(10)(B)(i)"
+        },
+        {
+          "amount": 150000,
+          "currency": "USD",
+          "description": "Maximum single filer income for clean vehicle credit eligibility",
+          "article_reference": "Section 30D(f)(10)(B)(iii)"
+        }
+      ],
+      "quantitative_limits": [
+        {
+          "value": 3750,
+          "unit": "USD",
+          "description": "Credit amount for meeting critical minerals requirement",
+          "article_reference": "Section 30D(b)(2)"
+        },
+        {
+          "value": 3750,
+          "unit": "USD",
+          "description": "Credit amount for meeting battery components requirement",
+          "article_reference": "Section 30D(b)(3)"
+        }
+      ],
+      "penalties": null,
+      "enforcement_agencies": [
+        "Internal Revenue Service",
+        "Department of Treasury"
+      ],
+      "implementation_timeline": {
+        "publication_date": "2022-08-16",
+        "transposition_deadline": null,
+        "phased_milestones": [
+          "2023: Initial critical mineral and battery requirements take effect",
+          "2024-2028: Phased increase in domestic content requirements",
+          "2029: 100% battery components must be North American"
+        ]
+      },
+      "notes": [
+        "Amends existing clean vehicle credit program with new domestic content requirements",
+        "Creates new credits for clean hydrogen production and energy storage",
+        "Extends and modifies various existing energy tax credits"
+      ],
+      "source_articles": [
+        "Public Law 117-169",
+        "Internal Revenue Code Section 30D",
+        "Internal Revenue Code Section 45V"
+      ]
+    },
+    "processing_status": "completed"
+  },
+  "PLAW-119publ21_uslm.xml": {
+    "document_id": "PLAW-119publ21_uslm.xml",
+    "category": "Category: TRADE\n\nExplanation: This appears to be a reconciliation bill that includes significant sections on agriculture, commodities, trade promotion programs, and various market-related provisions. The extensive table of contents shows multiple sections dealing with trade-related matters like agricultural trade promotion, market loans, and commodity programs.",
+    "legalbert_confidence": 0.9022543907165528,
+    "extracted_info": {
+      "title": "Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
+      "country": "United States",
+      "effective_date": "2025-07-04",
+      "regulatory_body": "United States Congress",
+      "scope": "Trade regulations, tariffs, agriculture subsidies, commodities programs, import/export, market access",
+      "affected_sectors": [
+        "Education",
+        "Healthcare",
+        "Energy",
+        "International commerce",
+        "Law Enforcement",
+        "Border Security",
+        "Trade",
+        "Manufacturing",
+        "Immigration",
+        "Financial Services",
+        "Agriculture",
+        "Commodities",
+        "Food and beverages"
+      ],
+      "affected_entities": [
+        "Agricultural producers",
+        "Commodity traders",
+        "Food manufacturers",
+        "Importers/exporters",
+        "Trading companies",
+        "Farmers",
+        "Ranchers"
+      ],
+      "key_requirements": [
+        "Modifications to dairy policy and sugar program",
+        "Updates to market loan and commodity programs",
+        "Changes to healthcare program eligibility",
+        "Modification of agricultural subsidies and support programs",
+        "Changes to commodity price support mechanisms",
+        "Implementation of new immigration fees and enforcement measures",
+        "Energy program modifications",
+        "Increase in debt ceiling",
+        "Modification of student loan programs",
+        "Revisions to trade promotion programs",
+        "Enhanced border security measures"
+      ],
+      "key_requirement_details": [
+        {
+          "requirement": "Increased reference prices for covered commodities",
+          "article_reference": "Section 10301",
+          "metrics": [
+            {
+              "type": "reference_price",
+              "value": 6.35,
+              "unit": "USD per bushel",
+              "description": "New reference price for wheat"
+            },
+            {
+              "type": "reference_price",
+              "value": 4.1,
+              "unit": "USD per bushel",
+              "description": "New reference price for corn"
+            }
+          ],
+          "deadline": "2025-01-01",
+          "compliance_action": "Adjust commodity support payment calculations"
+        },
+        {
+          "requirement": "Market loan rate modifications",
+          "article_reference": "Section 10309",
+          "metrics": [
+            {
+              "type": "loan_rate",
+              "value": 3.72,
+              "unit": "USD per bushel",
+              "description": "Loan rate for wheat"
+            },
+            {
+              "type": "loan_rate",
+              "value": 2.42,
+              "unit": "USD per bushel",
+              "description": "Loan rate for corn"
+            }
+          ],
+          "deadline": "2026-01-01",
+          "compliance_action": "Update loan rate calculations"
+        }
+      ],
+      "reporting_requirements": [
+        {
+          "description": "Report on agricultural trade promotion program outcomes",
+          "frequency": "Annual",
+          "format": "Written report",
+          "article_reference": "Section 10602"
+        }
+      ],
+      "monetary_thresholds": [
+        {
+          "amount": 250000000,
+          "currency": "USD",
+          "description": "Minimum annual timber sales requirement",
+          "article_reference": "Section 50301"
+        }
+      ],
+      "quantitative_limits": [
+        {
+          "value": 30000000,
+          "unit": "acres",
+          "description": "Maximum additional base acres allocation",
+          "article_reference": "Section 10302"
+        }
+      ],
+      "penalties": [
+        {
+          "type": "civil",
+          "amount": 5000,
+          "currency": "USD",
+          "imprisonment": null,
+          "article_reference": "SEC. 100001"
+        }
+      ],
+      "enforcement_agencies": [
+        "United States Department of Agriculture",
+        "Commodity Credit Corporation",
+        "Farm Service Agency"
+      ],
+      "implementation_timeline": {
+        "publication_date": "2024-07-04",
+        "transposition_deadline": "2025-07-04",
+        "phased_milestones": [
+          "Initial commodity program changes effective 2025",
+          "Market loan modifications effective 2026",
+          "Full implementation by 2031"
+        ]
+      },
+      "notes": [
+        "This Act significantly modifies existing agricultural and trade programs",
+        "Many provisions have phase-in periods over multiple years",
+        "Contains numerous technical amendments to existing programs"
+      ],
+      "source_articles": [
+        "Title I - Committee on Agriculture, Nutrition, and Forestry",
+        "Subtitle C - Commodities",
+        "Sections 10301-10314"
+      ]
+    },
+    "processing_status": "completed"
+  }
+}
