@@ -1,0 +1,72 @@
+{
+  "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+  "title": "DIRECTIVE (EU) 2019/2161 on better enforcement and modernization of Union consumer protection rules",
+  "country": "EU",
+  "category": "Category: TRADE\n\nExplanation: This appears to be a EU directive focused on consumer protection rules and trade practices, including sanctions for violations of consumer rights and regulations for businesses operating in the EU market. The document discusses modifications to existing consumer protection directives and enforcement measures.",
+  "effective_date": "2022-05-28",
+  "total_matches": 500,
+  "filtered_matches": 3,
+  "all_companies": [
+    {
+      "ticker": "BK",
+      "company_name": "The Bank of New York Mellon Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 10.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "banks - diversified",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "BBY",
+      "company_name": "Best Buy Co., Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "consumer cyclical",
+      "industry": "specialty retail",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "HD",
+      "company_name": "The Home Depot, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "consumer cyclical",
+      "industry": "home improvement retail",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    }
+  ],
+  "comprehend_summary": {
+    "entities_found": 2,
+    "key_phrases_found": 45,
+    "sentiment": "NEUTRAL"
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-11-02T17:01:19.796168",
+    "exposure_threshold": 0.5,
+    "total_companies_in_universe": 500
+  }
+}

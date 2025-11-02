@@ -1,0 +1,820 @@
+{
+  "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+  "title": "Regulation (EU) 2024/1689 - Artificial Intelligence Act",
+  "country": "European Union",
+  "category": "Category: Privacy\n\nExplanation: This appears to be the EU AI Act, which primarily focuses on regulating artificial intelligence systems to protect fundamental rights including privacy and personal data protection. The reference to Article 16 of the TFEU (which deals with data protection) in the legal basis and emphasis on protecting individual rights indicates this is primarily a privacy-focused regulation.",
+  "effective_date": "2024-08-02",
+  "total_matches": 500,
+  "filtered_matches": 47,
+  "all_companies": [
+    {
+      "ticker": "CI",
+      "company_name": "The Cigna Group",
+      "exposure_score": 75.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "healthcare plans",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "BK",
+      "company_name": "The Bank of New York Mellon Corporation",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "banks - diversified",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "ALL",
+      "company_name": "The Allstate Corporation",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "A",
+      "company_name": "Agilent Technologies, Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 20.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "WTW",
+      "company_name": "Willis Towers Watson Public Limited Company",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "financial services",
+      "industry": "insurance brokers",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "C",
+      "company_name": "Citigroup Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "banks - diversified",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MKTX",
+      "company_name": "MarketAxess Holdings Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "capital markets",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "EA",
+      "company_name": "Electronic Arts Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 10.0,
+        "geography_match": 15.0,
+        "explicit_mention": 20.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "communication services",
+      "industry": "electronic gaming & multimedia",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "JPM",
+      "company_name": "JPMorgan Chase & Co.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "banks - diversified",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "PNC",
+      "company_name": "The PNC Financial Services Group, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "banks - regional",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "CINF",
+      "company_name": "Cincinnati Financial Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "BLK",
+      "company_name": "BlackRock, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "asset management",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MMC",
+      "company_name": "Marsh & McLennan Companies, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "insurance brokers",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "HIG",
+      "company_name": "The Hartford Insurance Group, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "GS",
+      "company_name": "The Goldman Sachs Group, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "capital markets",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "ICE",
+      "company_name": "Intercontinental Exchange, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "financial data & stock exchanges",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "L",
+      "company_name": "Loews Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MA",
+      "company_name": "Mastercard Incorporated",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "credit services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "FDS",
+      "company_name": "FactSet Research Systems Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "financial data & stock exchanges",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "NDAQ",
+      "company_name": "Nasdaq, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "financial data & stock exchanges",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MCO",
+      "company_name": "Moody's Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "financial data & stock exchanges",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "STT",
+      "company_name": "State Street Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "asset management",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TRV",
+      "company_name": "The Travelers Companies, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "V",
+      "company_name": "Visa Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "credit services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "WRB",
+      "company_name": "W. R. Berkley Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - property & casualty",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "PFG",
+      "company_name": "Principal Financial Group, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "financial services",
+      "industry": "asset management",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "AXP",
+      "company_name": "American Express Company",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "credit services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "USB",
+      "company_name": "U.S. Bancorp",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "banks - regional",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CME",
+      "company_name": "CME Group Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "financial data & stock exchanges",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "APO",
+      "company_name": "Apollo Global Management, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "asset management",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "AIG",
+      "company_name": "American International Group, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "financial services",
+      "industry": "insurance - diversified",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "KKR",
+      "company_name": "KKR & Co. Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "financial services",
+      "industry": "asset management",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TMO",
+      "company_name": "Thermo Fisher Scientific Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ZTS",
+      "company_name": "Zoetis Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "drug manufacturers - specialty & generic",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "DVA",
+      "company_name": "DaVita Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "medical care facilities",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "GEHC",
+      "company_name": "GE HealthCare Technologies Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "healthcare",
+      "industry": "health information services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CRL",
+      "company_name": "Charles River Laboratories International, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "SCHW",
+      "company_name": "The Charles Schwab Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 25.0,
+        "geography_match": 0.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "financial services",
+      "industry": "capital markets",
+      "has_geographic_match": false,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "UNH",
+      "company_name": "UnitedHealth Group Incorporated",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "healthcare",
+      "industry": "healthcare plans",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "HSIC",
+      "company_name": "Henry Schein, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "medical distribution",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "DGX",
+      "company_name": "Quest Diagnostics Incorporated",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "COR",
+      "company_name": "Cencora, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "medical distribution",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "LH",
+      "company_name": "Labcorp Holdings Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ALGN",
+      "company_name": "Align Technology, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "medical instruments & supplies",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "COO",
+      "company_name": "The Cooper Companies, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "healthcare",
+      "industry": "medical instruments & supplies",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "BDX",
+      "company_name": "Becton, Dickinson and Company",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "healthcare",
+      "industry": "medical instruments & supplies",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ISRG",
+      "company_name": "Intuitive Surgical, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "healthcare",
+      "industry": "medical instruments & supplies",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    }
+  ],
+  "comprehend_summary": {
+    "entities_found": 7,
+    "key_phrases_found": 52,
+    "sentiment": "NEUTRAL"
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-11-02T17:01:20.511134",
+    "exposure_threshold": 0.5,
+    "total_companies_in_universe": 500
+  }
+}

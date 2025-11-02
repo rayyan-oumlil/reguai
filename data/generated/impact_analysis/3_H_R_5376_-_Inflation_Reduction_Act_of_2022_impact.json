@@ -1,0 +1,276 @@
+{
+  "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+  "title": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+  "country": "USA",
+  "category": "Category: TAX\n\nExplanation: This document details amendments to the Internal Revenue Code, specifically focusing on corporate alternative minimum tax provisions and applicable corporation definitions for tax purposes. The establishment of a 15% minimum tax rate for certain corporations is a key element.",
+  "effective_date": "2022-12-31",
+  "total_matches": 500,
+  "filtered_matches": 15,
+  "all_companies": [
+    {
+      "ticker": "XOM",
+      "company_name": "Exxon Mobil Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas integrated",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "WMB",
+      "company_name": "The Williams Companies, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas midstream",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "RL",
+      "company_name": "Ralph Lauren Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 15.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "consumer cyclical",
+      "industry": "apparel manufacturing",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "TPL",
+      "company_name": "Texas Pacific Land Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "MPC",
+      "company_name": "Marathon Petroleum Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas refining & marketing",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "CTRA",
+      "company_name": "Coterra Energy Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "VLO",
+      "company_name": "Valero Energy Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas refining & marketing",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "EQT",
+      "company_name": "EQT Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "APA",
+      "company_name": "APA Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "CVX",
+      "company_name": "Chevron Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas integrated",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "EXE",
+      "company_name": "Expand Energy Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "BKR",
+      "company_name": "Baker Hughes Company",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas equipment & services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "LEN",
+      "company_name": "Lennar Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 15.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "consumer cyclical",
+      "industry": "residential construction",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "DVN",
+      "company_name": "Devon Energy Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 15.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "energy",
+      "industry": "oil & gas e&p",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    }
+  ],
+  "comprehend_summary": {
+    "entities_found": 4,
+    "key_phrases_found": 34,
+    "sentiment": "NEUTRAL"
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-11-02T17:01:19.772942",
+    "exposure_threshold": 0.5,
+    "total_companies_in_universe": 500
+  }
+}

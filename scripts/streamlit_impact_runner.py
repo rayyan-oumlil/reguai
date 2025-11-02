@@ -12,6 +12,73 @@ from typing import Dict, List, Any, Optional, Tuple
 import time
 
 
+def estimate_pairs_and_time(
+    selected_regulation: str | List[str],
+    exposure_threshold: float,
+    enable_quant_engine: bool = True
+) -> Dict[str, Any]:
+    """
+    Estimate number of pairs and execution time before running pipeline
+    
+    Args:
+        selected_regulation: Regulation filename(s) or "all"
+        exposure_threshold: Exposure threshold
+        enable_quant_engine: Whether quant engine will be enabled
+        
+    Returns:
+        Dictionary with estimates
+    """
+    # Load company universe to get total companies
+    try:
+        company_universe_path = Path('data/generated/company_universe/company_universe.json')
+        if company_universe_path.exists():
+            with open(company_universe_path, 'r') as f:
+                company_universe = json.load(f)
+                total_companies = len(company_universe) if isinstance(company_universe, dict) else 0
+        else:
+            total_companies = 500  # Default S&P 500 estimate
+    except:
+        total_companies = 500
+    
+    # Estimate pairs based on threshold
+    # Rough heuristic: lower threshold = more pairs
+    if exposure_threshold <= 0.1:
+        estimated_pairs = int(total_companies * 0.8)  # 80% match rate
+    elif exposure_threshold <= 0.3:
+        estimated_pairs = int(total_companies * 0.5)  # 50% match rate
+    elif exposure_threshold <= 0.5:
+        estimated_pairs = int(total_companies * 0.3)  # 30% match rate
+    else:
+        estimated_pairs = int(total_companies * 0.1)  # 10% match rate
+    
+    # Estimate time based on pairs and options
+    # Rough estimates:
+    # - Tier 1: ~0.5s per pair
+    # - Tier 2: ~2s per pair (market data + quant)
+    # - Tier 3: ~5s per pair (DCF + Bedrock)
+    
+    tier1_time = estimated_pairs * 0.5
+    
+    if enable_quant_engine:
+        tier2_time = estimated_pairs * 2.0
+        tier3_time = estimated_pairs * 5.0  # Bedrock calls
+        total_seconds = tier1_time + tier2_time + tier3_time
+    else:
+        total_seconds = tier1_time
+    
+    # Convert to minutes
+    total_minutes = total_seconds / 60
+    
+    return {
+        'estimated_pairs': estimated_pairs,
+        'estimated_time_seconds': total_seconds,
+        'estimated_time_minutes': round(total_minutes, 1),
+        'estimated_time_formatted': f"{int(total_minutes)}m {int((total_minutes % 1) * 60)}s",
+        'total_companies': total_companies,
+        'exposure_threshold': exposure_threshold
+    }
+
+
 def list_available_regulations(extracted_directives_dir: str = 'data/generated/extracted_directives/') -> List[Dict[str, str]]:
     """
     List available regulatory extraction files
@@ -54,7 +121,7 @@ def list_available_regulations(extracted_directives_dir: str = 'data/generated/e
 
 
 def run_impact_pipeline(
-    selected_regulation: str,
+    selected_regulation: str | List[str],
     exposure_threshold: float = 0.3,
     enable_quant_engine: bool = True,
     limit_pairs: Optional[int] = None,
@@ -65,7 +132,7 @@ def run_impact_pipeline(
     Run complete impact analysis pipeline
     
     Args:
-        selected_regulation: Filename of selected regulation
+        selected_regulation: Filename of selected regulation or list of filenames, or "all"
         exposure_threshold: Threshold for matching (0.0-1.0)
         enable_quant_engine: Enable 3-tier valuation analysis
         limit_pairs: Limit number of pairs to process (for testing)

@@ -1,0 +1,62 @@
+{
+  "analysis_date": "2025-11-02T17:01:19.203113",
+  "total_directives": 7,
+  "total_companies": 500,
+  "exposure_threshold": 0.5,
+  "directives": [
+    {
+      "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+      "title": "Directive on better enforcement and modernization of EU consumer protection rules",
+      "filename": "1_DIRECTIVE__UE__20192161_DU_PARLEMENT_EUROPÉEN_ET_DU_CONSEIL_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 0
+    },
+    {
+      "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+      "title": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+      "filename": "3_H_R_5376_-_Inflation_Reduction_Act_of_2022_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 15
+    },
+    {
+      "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+      "title": "DIRECTIVE (EU) 2019/2161 on better enforcement and modernization of Union consumer protection rules",
+      "filename": "1_DIRECTIVE__UE__20192161_DU_PARLEMENT_EUROPÉEN_ET_DU_CONSEIL_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 3
+    },
+    {
+      "document_id": "big-beautiful-bill.xml",
+      "title": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
+      "filename": "big-beautiful-bill_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 86
+    },
+    {
+      "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
+      "title": "AI Technology Development and Utilization Promotion Act",
+      "filename": "6_人工知能関連技術の研究開発及び活用の推進に関する法律_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 65
+    },
+    {
+      "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+      "title": "Regulation (EU) 2024/1689 - Artificial Intelligence Act",
+      "filename": "4_REGULATION__EU__20241689_OF_THE_EUROPEAN_PARLIAMENT_AND_OF_THE_COUNCIL_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 47
+    },
+    {
+      "document_id": "5.中华人民共和国能源法__中国政府网.html",
+      "title": "Energy Law of the People's Republic of China",
+      "filename": "5_中华人民共和国能源法__中国政府网_impact.json",
+      "total_matches": 500,
+      "filtered_matches": 11
+    }
+  ],
+  "summary_stats": {
+    "total_matches": 3500,
+    "total_filtered_matches": 227,
+    "avg_companies_per_directive": 32.42857142857143
+  }
+}

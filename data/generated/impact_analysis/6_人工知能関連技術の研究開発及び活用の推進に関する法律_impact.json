@@ -1,0 +1,1126 @@
+{
+  "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
+  "title": "AI Technology Development and Utilization Promotion Act",
+  "country": "Japan",
+  "category": "Category: Trade\n\nExplanation: This appears to be Japan's AI Technology Development and Utilization Promotion Act, which focuses on promoting AI technology research, development and commercial applications. While it touches on multiple aspects, its primary aim is to enhance Japan's technological competitiveness and facilitate AI industry development and trade.",
+  "effective_date": "2025",
+  "total_matches": 500,
+  "filtered_matches": 65,
+  "all_companies": [
+    {
+      "ticker": "CTSH",
+      "company_name": "Cognizant Technology Solutions Corporation",
+      "exposure_score": 85.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "information technology services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "IBM",
+      "company_name": "International Business Machines Corporation",
+      "exposure_score": 75.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "information technology services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "TDY",
+      "company_name": "Teledyne Technologies Incorporated",
+      "exposure_score": 70.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "scientific & technical instruments",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "IT",
+      "company_name": "Gartner, Inc.",
+      "exposure_score": 70.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "information technology services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "BR",
+      "company_name": "Broadridge Financial Solutions, Inc.",
+      "exposure_score": 70.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "information technology services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ACN",
+      "company_name": "Accenture plc",
+      "exposure_score": 70.0,
+      "exposure_factors": {
+        "sector_match": 30.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "information technology services",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "QCOM",
+      "company_name": "QUALCOMM Incorporated",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MCHP",
+      "company_name": "Microchip Technology Incorporated",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "DELL",
+      "company_name": "Dell Technologies Inc.",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "STX",
+      "company_name": "Seagate Technology Holdings plc",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "exposure_score": 65.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "LRCX",
+      "company_name": "Lam Research Corporation",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductor equipment & materials",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "ORCL",
+      "company_name": "Oracle Corporation",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ZBRA",
+      "company_name": "Zebra Technologies Corporation",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "communication equipment",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "PLTR",
+      "company_name": "Palantir Technologies Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "NOW",
+      "company_name": "ServiceNow, Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 10.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "SMCI",
+      "company_name": "Super Micro Computer, Inc.",
+      "exposure_score": 60.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "KEYS",
+      "company_name": "Keysight Technologies, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "scientific & technical instruments",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "FTNT",
+      "company_name": "Fortinet, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CDNS",
+      "company_name": "Cadence Design Systems, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "PTC",
+      "company_name": "PTC Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "GRMN",
+      "company_name": "Garmin Ltd.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "scientific & technical instruments",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MPWR",
+      "company_name": "Monolithic Power Systems, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TXN",
+      "company_name": "Texas Instruments Incorporated",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "consumer electronics",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ADSK",
+      "company_name": "Autodesk, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ADBE",
+      "company_name": "Adobe Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "KLAC",
+      "company_name": "KLA Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductor equipment & materials",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CPAY",
+      "company_name": "Corpay, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "SWKS",
+      "company_name": "Skyworks Solutions, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "APH",
+      "company_name": "Amphenol Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "electronic components",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "WDAY",
+      "company_name": "Workday, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ON",
+      "company_name": "ON Semiconductor Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "INTC",
+      "company_name": "Intel Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "HPE",
+      "company_name": "Hewlett Packard Enterprise Company",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "communication equipment",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ANET",
+      "company_name": "Arista Networks Inc",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TRMB",
+      "company_name": "Trimble Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "scientific & technical instruments",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CRM",
+      "company_name": "Salesforce, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "NTAP",
+      "company_name": "NetApp, Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "GEN",
+      "company_name": "Gen Digital Inc.",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "GLW",
+      "company_name": "Corning Incorporated",
+      "exposure_score": 55.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "technology",
+      "industry": "electronic components",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "AMAT",
+      "company_name": "Applied Materials, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductor equipment & materials",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "WDC",
+      "company_name": "Western Digital Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ADI",
+      "company_name": "Analog Devices, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "FTV",
+      "company_name": "Fortive Corporation",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "scientific & technical instruments",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "NXPI",
+      "company_name": "NXP Semiconductors N.V.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductors",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "ADP",
+      "company_name": "Automatic Data Processing, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "DDOG",
+      "company_name": "Datadog, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "FFIV",
+      "company_name": "F5, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TEL",
+      "company_name": "TE Connectivity plc",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "electronic components",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "FSLR",
+      "company_name": "First Solar, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "solar",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "XYZ",
+      "company_name": "Block, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "MTD",
+      "company_name": "Mettler-Toledo International Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 5.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "healthcare",
+      "industry": "diagnostics & research",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "UBER",
+      "company_name": "Uber Technologies, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - application",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TER",
+      "company_name": "Teradyne, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "semiconductor equipment & materials",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "VRSN",
+      "company_name": "VeriSign, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CSCO",
+      "company_name": "Cisco Systems, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "communication equipment",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "HPQ",
+      "company_name": "HP Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "computer hardware",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "CRWD",
+      "company_name": "CrowdStrike Holdings, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    },
+    {
+      "ticker": "TTD",
+      "company_name": "The Trade Desk, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 0.0,
+        "geography_match": 25.0,
+        "explicit_mention": 10.0,
+        "supply_chain_match": 5.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 5.0
+      },
+      "sector": "communication services",
+      "industry": "advertising agencies",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": true
+    },
+    {
+      "ticker": "SNPS",
+      "company_name": "Synopsys, Inc.",
+      "exposure_score": 50.0,
+      "exposure_factors": {
+        "sector_match": 20.0,
+        "geography_match": 25.0,
+        "explicit_mention": 0.0,
+        "supply_chain_match": 0.0,
+        "regulatory_risk_match": 5.0,
+        "segment_match": 0.0
+      },
+      "sector": "technology",
+      "industry": "software - infrastructure",
+      "has_geographic_match": true,
+      "is_explicitly_mentioned": false
+    }
+  ],
+  "comprehend_summary": {
+    "entities_found": 5,
+    "key_phrases_found": 43,
+    "sentiment": "NEUTRAL"
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-11-02T17:01:20.281658",
+    "exposure_threshold": 0.5,
+    "total_companies_in_universe": 500
+  }
+}

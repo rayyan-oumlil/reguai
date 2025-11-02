@@ -7,19 +7,29 @@
 import os
 os.environ.setdefault('KMP_DUPLICATE_LIB_OK', 'TRUE')
 
+# Fix import paths for Streamlit
+import sys
+from pathlib import Path
+
+# Ensure current directory is in Python path
+if __name__ != '__main__':
+    # When run via streamlit run scripts/app.py, add parent directory to path
+    script_file = Path(__file__).resolve()
+    parent_dir = script_file.parent.parent
+    if str(parent_dir) not in sys.path:
+        sys.path.insert(0, str(parent_dir))
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
-from pathlib import Path
 from datetime import datetime
 import json
 
 # Charger la configuration depuis .env si disponible
 # IMPORTANT: Charger AVANT les imports RAG pour que les credentials soient disponibles
 # Ne dépend QUE du .env, pas des variables d'environnement système
-import sys
 try:
     from dotenv import load_dotenv
     
@@ -316,6 +326,10 @@ st.sidebar.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+# Initialize session state for current page
+if 'current_page' not in st.session_state:
+    st.session_state.current_page = "🏠 Dashboard"
+
 # Pages disponibles
 pages_options = [
     "🏠 Dashboard",
@@ -325,12 +339,53 @@ pages_options = [
     "📚 Documentation"
 ]
 
-# Menu de navigation avec radio buttons (plus intuitif qu'un selectbox)
-page = st.sidebar.radio(
-    "Choisir une page",
-    pages_options,
-    label_visibility="collapsed"
-)
+# Menu de navigation avec boutons cliquables (remplace les radio buttons)
+# CSS scoped to sidebar only to prevent conflicts
+st.sidebar.markdown("""
+    <style>
+        /* Sidebar navigation buttons only - keep everything blue */
+        section[data-testid="stSidebar"] div[data-testid="stButton"] > button {
+            width: 100% !important;
+            padding: 0.7rem 1rem !important;
+            margin: 0.3rem 0 !important;
+            border-radius: 8px !important;
+            text-align: left !important;
+            border-left: 4px solid transparent !important;
+        }
+        section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="secondary"] {
+            background-color: rgba(31, 119, 180, 0.06) !important;
+            color: #1f77b4 !important;
+            border: none !important;
+        }
+        section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="secondary"]:hover {
+            background-color: rgba(31, 119, 180, 0.12) !important;
+            border-left-color: #1f77b4 !important;
+        }
+        section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] {
+            background-color: rgba(31, 119, 180, 0.2) !important;
+            color: #1f77b4 !important;
+            border: none !important;
+            border-left: 4px solid #1f77b4 !important;
+            font-weight: bold !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Create navigation buttons
+page = st.session_state.current_page
+for nav_page in pages_options:
+    is_active = nav_page == st.session_state.current_page
+    if st.sidebar.button(
+        nav_page, 
+        key=f"nav_{nav_page}",
+        use_container_width=True,
+        type="primary" if is_active else "secondary"
+    ):
+        st.session_state.current_page = nav_page
+        st.rerun()
+
+# Update page variable after button clicks
+page = st.session_state.current_page
 
 # Séparateur visuel
 st.sidebar.markdown("---")
@@ -582,7 +637,7 @@ elif page == "📈 Analyse d'Impact":
     st.info("💡 Analyse quantitative de l'impact réglementaire via architecture 3-tiers (FCF Impact → Risk Premium → DCF Valuation)")
     
     # Control Panel
-    with st.expander("⚙️ Control Panel - Run Analysis", expanded=False):
+    with st.expander("⚙️ Control Panel - Run Analysis", expanded=True):
         # List available regulations
         available_regs = list_available_regulations()
         pipeline_status = get_pipeline_status()
@@ -609,7 +664,41 @@ elif page == "📈 Analyse d'Impact":
         
         st.markdown("### Run New Analysis")
         
+        # Regulation Selection
+        if available_regs:
+            st.markdown("#### 📋 Select Regulation(s)")
+            reg_options = ["All Regulations"] + [
+                f"{reg['title'][:80]}... ({reg['country']})" 
+                for reg in available_regs
+            ]
+            
+            # Multi-select for regulations
+            selected_reg_indices = st.multiselect(
+                "Choose regulation(s) to analyze:",
+                options=list(range(1, len(reg_options))),
+                format_func=lambda x: reg_options[x],
+                help="Select one or more regulations to analyze. Leave empty for all."
+            )
+            
+            if not selected_reg_indices:
+                st.info("ℹ️ No regulations selected - will analyze all by default")
+                selected_regs = "all"
+            elif len(selected_reg_indices) == 1:
+                selected_reg = available_regs[selected_reg_indices[0] - 1]
+                st.success(f"Selected: {selected_reg['title'][:60]}...")
+                selected_regs = selected_reg['filename']
+            else:
+                selected_regs = [available_regs[idx - 1]['filename'] for idx in selected_reg_indices]
+                st.success(f"Selected {len(selected_reg_indices)} regulations")
+        else:
+            st.warning("⚠️ No extracted regulations found in data/generated/extracted_directives/")
+            selected_regs = "all"
+        
+        st.divider()
+        
         # Configuration options
+        st.markdown("#### ⚙️ Analysis Configuration")
+        
         col1, col2 = st.columns(2)
         with col1:
             exposure_threshold = st.slider(
@@ -637,8 +726,12 @@ elif page == "📈 Analyse d'Impact":
                 help="Generate Bedrock recommendations"
             )
         
-        # Risk thresholds for recommendations
+        # Risk thresholds for recommendations (initialize with defaults)
+        high_risk_threshold = 60.0
+        low_risk_threshold = 30.0
+        
         if enable_recs:
+            st.markdown("#### 📊 Recommendation Thresholds")
             col1, col2 = st.columns(2)
             with col1:
                 high_risk_threshold = st.slider(
@@ -653,25 +746,29 @@ elif page == "📈 Analyse d'Impact":
                     help="Risk score <= this for INCREASE"
                 )
         
+        st.divider()
+        
         # Run analysis button
-        if st.button("🚀 Run Impact Analysis", type="primary"):
+        if st.button("🚀 Run Impact Analysis", type="primary", use_container_width=True):
             with st.spinner("Running impact analysis pipeline..."):
                 success, message, results = run_impact_pipeline(
-                    selected_regulation="all",
+                    selected_regulation=selected_regs,
                     exposure_threshold=exposure_threshold,
                     enable_quant_engine=enable_quant,
                     limit_pairs=None if limit_pairs == 500 else limit_pairs,
-                    high_risk_threshold=high_risk_threshold if enable_recs else 60.0,
-                    low_risk_threshold=low_risk_threshold if enable_recs else 30.0
+                    high_risk_threshold=high_risk_threshold,
+                    low_risk_threshold=low_risk_threshold
                 )
                 
                 if success:
                     st.success("✅ Analysis complete!")
-                    st.text_area("Log Output", message, height=200)
+                    with st.expander("📋 View Log Output"):
+                        st.text(message)
                     st.rerun()  # Refresh to show new data
                 else:
                     st.error("❌ Analysis failed")
-                    st.text_area("Error Output", message, height=200)
+                    with st.expander("📋 View Error Details"):
+                        st.text(message)
     
     st.divider()
     
@@ -692,10 +789,8 @@ elif page == "📈 Analyse d'Impact":
         # Load recommendations
         recommendations = load_recommendations()
         
-        # Main tabs
-        tab1, tab2, tab3 = st.tabs(["📊 3-Tier Analysis", "🤖 Recommendations", "📋 Companies Details"])
-        
-        with tab1:
+        # Main tabs - using expanders for clickable headers
+        with st.expander("📊 3-Tier Analysis", expanded=True):
             st.subheader("Three-Tier Valuation Architecture")
             
             # Tier 1: FCF Impact
@@ -716,13 +811,13 @@ elif page == "📈 Analyse d'Impact":
             # Risk Distribution
             render_final_risk_distribution(companies_df)
         
-        with tab2:
+        with st.expander("🤖 Recommendations"):
             if recommendations:
                 render_recommendations_table(recommendations)
             else:
                 st.warning("⚠️ Recommendations not found. Run `python scripts/recommendation_generator.py`")
         
-        with tab3:
+        with st.expander("📋 Companies Details"):
             # Regulation selector
             selected_reg = render_regulation_selector(regulations_df)
             
@@ -1095,10 +1190,11 @@ elif page == "🤖 Chatbot Financier":
     example_questions = get_example_questions()
     
     # Style CSS pour boutons plus petits avec couleur bleue + agrandir la barre de saisie
+    # Scoped to main content area to avoid affecting sidebar
     st.markdown("""
     <style>
-        /* Boutons d'exemples de questions - plus petits et bleus */
-        div[data-testid="stButton"] > button[kind="secondary"] {
+        /* Boutons d'exemples de questions - scoped to main content only */
+        div[data-testid="stHorizontalBlock"] div[data-testid="stButton"] > button[kind="secondary"] {
             min-height: 45px !important;
             font-size: 13px !important;
             font-weight: 400 !important;
@@ -1113,7 +1209,7 @@ elif page == "🤖 Chatbot Financier":
             word-wrap: break-word !important;
             margin-bottom: 8px !important;
         }
-        div[data-testid="stButton"] > button[kind="secondary"]:hover {
+        div[data-testid="stHorizontalBlock"] div[data-testid="stButton"] > button[kind="secondary"]:hover {
             background-color: rgba(31, 119, 180, 0.12) !important;
             border-color: #2c9ae8 !important;
             transform: translateY(-1px) !important;

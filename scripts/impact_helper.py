@@ -4,13 +4,48 @@ Impact Helper - Streamlit Helper Functions for Impact Analysis
 Loads and displays 3-tier valuation results and recommendations
 """
 
-import streamlit as st
 import json
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 from pathlib import Path
 from typing import Dict, List, Any, Optional
+
+# Import streamlit only when needed (for testing outside streamlit)
+try:
+    import streamlit as st
+except ImportError:
+    # Create proper mock for testing
+    import sys
+    from unittest.mock import MagicMock
+    
+    # Create mock module
+    st = MagicMock()
+    
+    # Add context managers
+    class ContextManager:
+        def __enter__(self):
+            return MagicMock()
+        def __exit__(self, *args):
+            return None
+    
+    st.expander.return_value.__enter__ = lambda self: MagicMock()
+    st.expander.return_value.__exit__ = lambda self, *args: None
+    st.spinner.return_value.__enter__ = lambda self: MagicMock()
+    st.spinner.return_value.__exit__ = lambda self, *args: None
+    st.columns.return_value = [MagicMock() for _ in range(3)]
+    st.tabs.return_value = [MagicMock() for _ in range(3)]
+    
+    # Add other needed attributes
+    st.number_input = MagicMock(return_value=500)
+    st.selectbox = MagicMock(return_value=0)
+    st.multiselect = MagicMock(return_value=[])
+    st.slider = MagicMock(return_value=0.3)
+    st.checkbox = MagicMock(return_value=True)
+    st.button = MagicMock(return_value=False)
+    st.text_area = MagicMock()
+    st.rerun = MagicMock()
+    st.divider = MagicMock()
 
 
 def load_impact_results(impact_path: str = 'data/generated/impact_analysis/matching_pairs.json') -> Optional[Dict[str, Any]]:
@@ -169,33 +204,77 @@ def render_impact_summary(companies_df: pd.DataFrame, regulations_df: pd.DataFra
 
 def render_tier1_fcf_chart(companies_df: pd.DataFrame):
     """
-    Render Tier 1 FCF Impact chart
+    Render Tier 1 FCF Impact charts
     
     Args:
         companies_df: Companies impact DataFrame
     """
     st.subheader("📊 Tier 1: Cash Flow Impact per Share")
     
-    # Top 15 by FCF impact
-    top_fcf = companies_df.nlargest(15, 'fcf_impact_per_share', keep='all')
+    # Two-column layout for charts
+    col1, col2 = st.columns(2)
     
-    fig = px.bar(
-        top_fcf,
-        x='ticker',
-        y='fcf_impact_per_share',
-        color='fcf_impact_pct',
-        title='Top 15 Companies by FCF Impact per Share',
+    with col1:
+        # Top 15 by FCF impact (absolute)
+        top_fcf = companies_df.nlargest(15, 'fcf_impact_per_share', keep='all')
+        
+        fig = px.bar(
+            top_fcf,
+            x='ticker',
+            y='fcf_impact_per_share',
+            color='fcf_impact_pct',
+            title='Top 15 by FCF Impact ($/share)',
+            labels={
+                'ticker': 'Ticker',
+                'fcf_impact_per_share': 'FCF Impact ($/share)',
+                'fcf_impact_pct': 'FCF Impact %'
+            },
+            color_continuous_scale='Reds',
+            hover_data=['company_name', 'fcf_impact_pct']
+        )
+        
+        fig.update_layout(height=350, showlegend=True)
+        fig.add_hline(y=0, line_dash="dash", line_color="gray")
+        st.plotly_chart(fig, use_container_width=True)
+    
+    with col2:
+        # Top 15 by FCF impact percentage
+        top_fcf_pct = companies_df.nlargest(15, 'fcf_impact_pct', keep='all')
+        
+        fig2 = px.bar(
+            top_fcf_pct,
+            x='ticker',
+            y='fcf_impact_pct',
+            color='exposure_score',
+            title='Top 15 by FCF Impact (%)',
+            labels={
+                'ticker': 'Ticker',
+                'fcf_impact_pct': 'FCF Impact (%)',
+                'exposure_score': 'Exposure Score'
+            },
+            color_continuous_scale='Oranges',
+            hover_data=['company_name', 'fcf_impact_per_share']
+        )
+        
+        fig2.update_layout(height=350, showlegend=True)
+        fig2.add_hline(y=0, line_dash="dash", line_color="gray")
+        st.plotly_chart(fig2, use_container_width=True)
+    
+    # Distribution histogram
+    fig3 = px.histogram(
+        companies_df,
+        x='fcf_impact_per_share',
+        nbins=20,
+        title='FCF Impact Distribution',
         labels={
-            'ticker': 'Ticker',
             'fcf_impact_per_share': 'FCF Impact ($/share)',
-            'fcf_impact_pct': 'FCF Impact %'
+            'count': 'Number of Companies'
         },
-        color_continuous_scale='Reds',
-        hover_data=['company_name', 'fcf_impact_pct']
+        color_discrete_sequence=['#1f77b4']
     )
-    
-    fig.update_layout(height=400, showlegend=True)
-    st.plotly_chart(fig, use_container_width=True)
+    fig3.update_layout(height=250, showlegend=False)
+    fig3.add_vline(x=0, line_dash="dash", line_color="red", annotation_text="No Impact")
+    st.plotly_chart(fig3, use_container_width=True)
 
 
 def render_tier2_risk_chart(companies_df: pd.DataFrame):
@@ -243,27 +322,71 @@ def render_tier3_price_impact_chart(companies_df: pd.DataFrame):
     """
     st.subheader("📊 Tier 3: Price Impact % (DCF Valuation)")
     
-    # Top 20 by absolute price impact
-    top_price = companies_df.nlargest(20, 'price_impact_pct', keep='all').sort_values('price_impact_pct')
+    # Two-column layout
+    col1, col2 = st.columns(2)
     
-    fig = px.bar(
-        top_price,
-        x='ticker',
-        y='price_impact_pct',
-        color='final_risk_score',
-        title='Top 20 Companies by Price Impact',
+    with col1:
+        # Top 20 by absolute price impact
+        top_price = companies_df.nlargest(20, 'price_impact_pct', keep='all').sort_values('price_impact_pct')
+        
+        fig = px.bar(
+            top_price,
+            x='ticker',
+            y='price_impact_pct',
+            color='final_risk_score',
+            title='Top 20 by Price Impact',
+            labels={
+                'ticker': 'Ticker',
+                'price_impact_pct': 'Price Impact (%)',
+                'final_risk_score': 'Risk Score'
+            },
+            color_continuous_scale='RdYlGn_r',
+            hover_data=['company_name', 'final_risk_score', 'risk_category']
+        )
+        
+        fig.update_layout(height=350, showlegend=True)
+        fig.add_hline(y=0, line_dash="dash", line_color="gray", annotation_text="No Impact")
+        st.plotly_chart(fig, use_container_width=True)
+    
+    with col2:
+        # Scatter plot: Risk vs Price Impact
+        fig2 = px.scatter(
+            companies_df,
+            x='final_risk_score',
+            y='price_impact_pct',
+            size='exposure_score',
+            color='risk_category',
+            title='Risk Score vs Price Impact',
+            labels={
+                'final_risk_score': 'Risk Score',
+                'price_impact_pct': 'Price Impact (%)',
+                'exposure_score': 'Exposure',
+                'risk_category': 'Category'
+            },
+            hover_data=['ticker', 'company_name'],
+            size_max=15
+        )
+        
+        fig2.update_layout(height=350, showlegend=True)
+        fig2.add_vline(x=50, line_dash="dash", line_color="gray", annotation_text="Medium Risk")
+        fig2.add_hline(y=0, line_dash="dash", line_color="gray")
+        st.plotly_chart(fig2, use_container_width=True)
+    
+    # Price impact distribution
+    fig3 = px.histogram(
+        companies_df,
+        x='price_impact_pct',
+        nbins=20,
+        title='Price Impact Distribution',
         labels={
-            'ticker': 'Ticker',
             'price_impact_pct': 'Price Impact (%)',
-            'final_risk_score': 'Risk Score'
+            'count': 'Number of Companies'
         },
-        color_continuous_scale='RdYlGn_r',
-        hover_data=['company_name', 'final_risk_score', 'risk_category']
+        color_discrete_sequence=['#ff6b6b']
     )
-    
-    fig.update_layout(height=400, showlegend=True)
-    fig.add_hline(y=0, line_dash="dash", line_color="gray", annotation_text="No Impact")
-    st.plotly_chart(fig, use_container_width=True)
+    fig3.update_layout(height=250, showlegend=False)
+    fig3.add_vline(x=0, line_dash="dash", line_color="red", annotation_text="No Impact")
+    st.plotly_chart(fig3, use_container_width=True)
 
 
 def render_final_risk_distribution(companies_df: pd.DataFrame):
@@ -273,24 +396,79 @@ def render_final_risk_distribution(companies_df: pd.DataFrame):
     Args:
         companies_df: Companies impact DataFrame
     """
-    st.subheader("📊 Final Risk Score Distribution")
+    st.subheader("📊 Final Risk Score Analysis")
     
-    # Create histogram with risk categories
-    fig = px.histogram(
-        companies_df,
-        x='final_risk_score',
-        color='risk_category',
-        title='Distribution of Final Risk Scores by Category',
-        labels={
-            'final_risk_score': 'Final Risk Score',
-            'count': 'Number of Companies',
-            'risk_category': 'Risk Category'
-        },
-        nbins=20
-    )
+    col1, col2 = st.columns(2)
     
-    fig.update_layout(height=400, showlegend=True)
-    st.plotly_chart(fig, use_container_width=True)
+    with col1:
+        # Histogram with risk categories
+        fig = px.histogram(
+            companies_df,
+            x='final_risk_score',
+            color='risk_category',
+            title='Risk Score Distribution by Category',
+            labels={
+                'final_risk_score': 'Final Risk Score',
+                'count': 'Number of Companies',
+                'risk_category': 'Risk Category'
+            },
+            nbins=20
+        )
+        
+        fig.update_layout(height=350, showlegend=True)
+        st.plotly_chart(fig, use_container_width=True)
+    
+    with col2:
+        # Box plot by category
+        fig2 = px.box(
+            companies_df,
+            x='risk_category',
+            y='final_risk_score',
+            title='Risk Score by Category',
+            labels={
+                'final_risk_score': 'Risk Score',
+                'risk_category': 'Risk Category'
+            }
+        )
+        
+        fig2.update_layout(height=350, showlegend=False)
+        st.plotly_chart(fig2, use_container_width=True)
+    
+    # Heatmap: Risk vs Exposure
+    if len(companies_df) > 1:
+        # Create bins for heatmap
+        companies_df['exposure_bin'] = pd.cut(
+            companies_df['exposure_score'],
+            bins=[0, 20, 40, 60, 80, 100],
+            labels=['0-20', '20-40', '40-60', '60-80', '80-100']
+        )
+        companies_df['risk_bin'] = pd.cut(
+            companies_df['final_risk_score'],
+            bins=[0, 20, 40, 60, 80, 100],
+            labels=['0-20', '20-40', '40-60', '60-80', '80-100']
+        )
+        
+        heatmap_data = companies_df.groupby(['risk_bin', 'exposure_bin']).size().reset_index(name='count')
+        heatmap_pivot = heatmap_data.pivot(index='exposure_bin', columns='risk_bin', values='count').fillna(0)
+        
+        fig3 = go.Figure(data=go.Heatmap(
+            z=heatmap_pivot.values,
+            x=[str(col) for col in heatmap_pivot.columns],
+            y=[str(idx) for idx in heatmap_pivot.index],
+            colorscale='YlOrRd',
+            text=heatmap_pivot.values,
+            texttemplate='%{text}',
+            textfont={"size": 12},
+            hoverongaps=False
+        ))
+        
+        fig3.update_layout(
+            title='Risk Score vs Exposure Score Heatmap',
+            xaxis_title='Risk Score Range',
+            yaxis_title='Exposure Score Range',
+            height=350
+        )
+        st.plotly_chart(fig3, use_container_width=True)
 
 
 def render_companies_table(companies_df: pd.DataFrame):
