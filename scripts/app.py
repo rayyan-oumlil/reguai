@@ -13,18 +13,92 @@ import json
 import os
 
 # Charger la configuration depuis .env si disponible
+# IMPORTANT: Charger AVANT les imports RAG pour que les credentials soient disponibles
+# Ne dépend QUE du .env, pas des variables d'environnement système
+import sys
 try:
     from dotenv import load_dotenv
-    env_path = Path('.env')
+    
+    # Trouver la racine du projet (où se trouve .env)
+    # Méthode robuste: remonter depuis le fichier app.py
+    script_file = Path(__file__).resolve()  # scripts/app.py
+    project_root = script_file.parent.parent  # Racine du projet
+    env_path = project_root / '.env'
+    
+    # Si .env n'existe pas à la racine, essayer depuis cwd
+    if not env_path.exists():
+        env_path = Path.cwd() / '.env'
+        # Si on est dans scripts/, remonter
+        if not env_path.exists() and 'scripts' in str(Path.cwd()):
+            env_path = Path.cwd().parent / '.env'
+    
     if env_path.exists():
-        load_dotenv(env_path)
-        # Afficher la configuration chargée dans la sidebar (optionnel)
-        if os.environ.get('S3_BUCKET_NAME'):
-            st.sidebar.success(f"☁️ S3: {os.environ.get('S3_BUCKET_NAME')}")
+        # Charger le .env et OVERRIDE toutes les variables existantes
+        # pour être sûr qu'on utilise uniquement le .env
+        load_dotenv(env_path, override=True)
+        
+        # Vérifier que les credentials sont bien chargées dans os.environ
+        # Gérer le BOM UTF-8 qui peut être présent au début du fichier .env
+        access_key = (
+            os.environ.get('AWS_ACCESS_KEY_ID') or 
+            os.environ.get('AWS_ACCESS_KEY') or
+            os.environ.get('\ufeffAWS_ACCESS_KEY_ID') or  # BOM UTF-8
+            os.environ.get('\ufeffAWS_ACCESS_KEY')
+        )
+        has_access = bool(access_key)
+        has_secret = bool(os.environ.get('AWS_SECRET_ACCESS_KEY') or os.environ.get('AWS_SECRET_KEY'))
+        has_token = bool(os.environ.get('AWS_SESSION_TOKEN'))
+        
+        # Si trouvé avec BOM, corriger automatiquement
+        if not has_access:
+            bom_key = '\ufeffAWS_ACCESS_KEY_ID'
+            if bom_key in os.environ:
+                os.environ['AWS_ACCESS_KEY_ID'] = os.environ[bom_key]
+                access_key = os.environ['AWS_ACCESS_KEY_ID']
+                has_access = True
+        
+        # Si pas trouvé, recharger une fois de plus (au cas où Streamlit aurait modifié os.environ)
+        if not has_access or not has_secret:
+            load_dotenv(env_path, override=True)
+            # Réessayer avec gestion BOM
+            access_key = (
+                os.environ.get('AWS_ACCESS_KEY_ID') or 
+                os.environ.get('AWS_ACCESS_KEY') or
+                os.environ.get('\ufeffAWS_ACCESS_KEY_ID') or
+                os.environ.get('\ufeffAWS_ACCESS_KEY')
+            )
+            has_access = bool(access_key)
+            # Corriger si BOM présent
+            if not has_access:
+                bom_key = '\ufeffAWS_ACCESS_KEY_ID'
+                if bom_key in os.environ:
+                    os.environ['AWS_ACCESS_KEY_ID'] = os.environ[bom_key]
+                    access_key = os.environ['AWS_ACCESS_KEY_ID']
+                    has_access = True
+            has_secret = bool(os.environ.get('AWS_SECRET_ACCESS_KEY') or os.environ.get('AWS_SECRET_KEY'))
+            has_token = bool(os.environ.get('AWS_SESSION_TOKEN'))
+        
+        if has_access and has_secret:
+            print(f"✅ .env chargé depuis: {env_path.absolute()}")
+            if has_token:
+                print(f"   ✅ Credentials temporaires (session token) détectées")
+            else:
+                print(f"   ✅ Credentials permanentes détectées")
+        else:
+            # Mode silencieux pour ne pas spammer dans Streamlit
+            # Les modules RAG feront leur propre chargement avec debug détaillé
+            pass
+    else:
+        print(f"❌ .env non trouvé!")
+        print(f"   Cherché à: {env_path.absolute()}")
+        print(f"   Working directory: {Path.cwd()}")
+        print(f"   Script file: {script_file}")
 except ImportError:
-    pass  # python-dotenv non installé, ce n'est pas critique
+    print("❌ python-dotenv non installé - impossible de charger .env")
 except Exception as e:
-    pass  # Erreur silencieuse si .env ne peut pas être chargé
+    print(f"❌ Erreur chargement .env: {e}")
+    import traceback
+    traceback.print_exc()
 
 # Import helpers
 from scripts.document_analysis_helper import (
@@ -50,6 +124,11 @@ from scripts.chatbot_helper import (
     chat_with_claude,
     format_chat_message,
     get_example_questions
+)
+from scripts.rag import (
+    initialize_rag_system,
+    chat_with_rag,
+    get_rag_stats
 )
 
 # Configuration de la page
@@ -206,11 +285,32 @@ def _display_extraction_results(result: dict):
         st.json(result)
 
 # Sidebar - Navigation
-st.sidebar.title("🧭 Navigation")
-page = st.sidebar.selectbox(
+# Menu de navigation stylisé
+st.sidebar.markdown("""
+    <div style='margin-bottom: 1.5rem;'>
+        <h2 style='color: #1f77b4; margin-bottom: 0.5rem;'>🧭 Navigation</h2>
+        <p style='color: #666; font-size: 0.9rem; margin-top: 0;'>Sélectionnez une page</p>
+    </div>
+""", unsafe_allow_html=True)
+
+# Pages disponibles
+pages_options = [
+    "🏠 Dashboard",
+    "📄 Analyse de Documents",
+    "📈 Analyse d'Impact",
+    "🤖 Chatbot Financier",
+    "📚 Documentation"
+]
+
+# Menu de navigation avec radio buttons (plus intuitif qu'un selectbox)
+page = st.sidebar.radio(
     "Choisir une page",
-    ["🏠 Dashboard", "📊 Analyse", "🤖 Chatbot Financier"]
+    pages_options,
+    label_visibility="collapsed"
 )
+
+# Séparateur visuel
+st.sidebar.markdown("---")
 
 # Titre principal
 st.markdown('<h1 class="main-header">ReguAI</h1>', unsafe_allow_html=True)
@@ -235,12 +335,10 @@ if page == "🏠 Dashboard":
                     st.session_state.composition_sp500 = composition_df
                     st.session_state.stocks_performance = performance_df
                     st.session_state.data_loaded = True
-                    st.success("✅ Company Universe chargé avec succès ! (Market Data + 10-K Filings)")
                 else:
-                    st.error("❌ Erreur lors de la conversion du Company Universe")
+                    print("❌ [LOG] Erreur lors de la conversion du Company Universe")
             else:
-                st.error("❌ Company Universe non trouvé. Vérifiez que company_universe.json existe.")
-                st.info("💡 Le Company Universe contient les données fusionnées de Market Data et 10-K Filings")
+                print("❌ [LOG] Company Universe non trouvé. Vérifiez que company_universe.json existe.")
     
     if st.session_state.data_loaded:
         composition = st.session_state.composition_sp500
@@ -254,315 +352,992 @@ if page == "🏠 Dashboard":
         render_composition_table(composition)
         render_performance_table(performance, composition)
 
-# PAGE 2: Analyse (Documents + Impact)
-elif page == "📊 Analyse":
-    st.header("📊 Analyse de Documents et d'Impact Réglementaire")
+# PAGE 2: Analyse de Documents
+elif page == "📄 Analyse de Documents":
+    st.header("📄 Analyse de Documents Réglementaires")
+    st.info("💡 Uploadez ou analysez des documents réglementaires pour extraire automatiquement les informations clés")
     
-    # Onglets principaux : Analyse de Documents et Analyse d'Impact
-    main_tab1, main_tab2 = st.tabs(["📄 Analyse de Documents", "📈 Analyse d'Impact"])
+    # Check for completed extractions first
+    needs_refresh = _check_running_extractions()
     
-    # TAB PRINCIPAL 1: Analyse de Documents
-    with main_tab1:
-        # Check for completed extractions first
-        needs_refresh = _check_running_extractions()
+    # Note: Extractions process immediately when triggered (Streamlit limitation)
+    # We check for completion on each page load
+    
+    # Clean up old running extractions (in case page was refreshed during processing)
+    if st.session_state.running_extractions:
+        # Clean up stale entries (older than 10 minutes)
+        current_time = datetime.now()
+        stale = []
+        for filename, info in st.session_state.running_extractions.items():
+            start_time = info.get('start_time')
+            if start_time and (current_time - start_time).total_seconds() > 600:
+                stale.append(filename)
+        for filename in stale:
+            del st.session_state.running_extractions[filename]
+    
+    # Upload Section (always visible at top)
+    with st.expander("📤 Upload Nouveau Document", expanded=False):
+        uploaded_file = st.file_uploader(
+            "Choisir un document réglementaire",
+            type=['html', 'xml', 'pdf', 'txt'],
+            help="Formats supportés: HTML, XML, PDF, TXT",
+            key="doc_uploader"
+        )
         
-        # Note: Extractions process immediately when triggered (Streamlit limitation)
-        # We check for completion on each page load
-        
-        st.subheader("📄 Analyse de Documents Réglementaires")
-        st.info("💡 Uploadez ou analysez des documents réglementaires pour extraire automatiquement les informations clés")
-        
-        # Clean up old running extractions (in case page was refreshed during processing)
-        if st.session_state.running_extractions:
-            # Clean up stale entries (older than 10 minutes)
-            current_time = datetime.now()
-            stale = []
-            for filename, info in st.session_state.running_extractions.items():
-                start_time = info.get('start_time')
-                if start_time and (current_time - start_time).total_seconds() > 600:
-                    stale.append(filename)
-            for filename in stale:
-                del st.session_state.running_extractions[filename]
-        
-        # Upload Section (always visible at top)
-        with st.expander("📤 Upload Nouveau Document", expanded=False):
-            uploaded_file = st.file_uploader(
-                "Choisir un document réglementaire",
-                type=['html', 'xml', 'pdf', 'txt'],
-                help="Formats supportés: HTML, XML, PDF, TXT",
-                key="doc_uploader"
-            )
+        if uploaded_file is not None:
+            st.success(f"✅ Fichier '{uploaded_file.name}' sélectionné")
+            st.caption(f"Taille: {uploaded_file.size / 1024:.1f} KB")
             
-            if uploaded_file is not None:
-                st.success(f"✅ Fichier '{uploaded_file.name}' sélectionné")
-                st.caption(f"Taille: {uploaded_file.size / 1024:.1f} KB")
+            # Button to save the file
+            if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded"):
+                # Save the file directly to documents directory
+                save_result = save_uploaded_file(uploaded_file)
                 
-                # Button to save the file
-                if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded"):
-                    # Save the file directly to documents directory
-                    save_result = save_uploaded_file(uploaded_file)
-                    
-                    if save_result['success']:
-                        st.success(f"✅ Document '{save_result['filename']}' ajouté avec succès !")
-                        st.info("💡 Le document apparaît maintenant dans la liste ci-dessous. Vous pouvez l'analyser en cliquant sur le bouton 🔍")
-                        st.balloons()
-                        # Auto-refresh to show the new document in the list
-                        st.rerun()
+                if save_result['success']:
+                    st.success(f"✅ Document '{save_result['filename']}' ajouté avec succès !")
+                    st.info("💡 Le document apparaît maintenant dans la liste ci-dessous. Vous pouvez l'analyser en cliquant sur le bouton 🔍")
+                    st.balloons()
+                    # Auto-refresh to show the new document in the list
+                    st.rerun()
+                else:
+                    st.error(f"❌ Erreur lors de l'enregistrement: {save_result.get('error', 'Erreur inconnue')}")
+    
+    st.divider()
+    
+    # Main Documents View - Unified Table
+    st.subheader("📚 Tous les Documents")
+    
+    # Filter options
+    col1, col2, col3 = st.columns([2, 2, 1])
+    with col1:
+        filter_status = st.selectbox(
+            "Filtrer par statut",
+            ["Tous", "Analysés", "Non analysés"],
+            key="filter_status"
+        )
+    with col2:
+        show_hidden = st.checkbox("Afficher documents masqués", value=False, key="show_hidden")
+    with col3:
+        st.write("")  # Spacer
+    
+    # Get all documents with status
+    all_documents = get_all_documents_with_status()
+    
+    # Apply filters
+    filtered_docs = []
+    for doc in all_documents:
+        # Status filter
+        if filter_status == "Analysés" and doc['status'] != 'analyzed':
+            continue
+        elif filter_status == "Non analysés" and doc['status'] == 'analyzed':
+            continue
+        
+        # Hidden filter
+        if doc['is_hidden'] and not show_hidden:
+            continue
+        
+        filtered_docs.append(doc)
+    
+    if filtered_docs:
+        st.info(f"📊 {len(filtered_docs)} document(s) trouvé(s)")
+        
+        # Display as table with actions
+        for idx, doc in enumerate(filtered_docs):
+            with st.container():
+                # Create columns for document info and actions
+                col_info, col_date, col_status, col_actions = st.columns([3, 2, 1.5, 2.5])
+                
+                with col_info:
+                    # Document name with icon
+                    icon = "📄" if not doc['is_hidden'] else "👁️‍🗨️"
+                    st.markdown(f"**{icon} {doc['filename']}**")
+                    st.caption(f"{doc['size'] / 1024:.1f} KB")
+                
+                with col_date:
+                    upload_date_str = doc['upload_date'].strftime("%Y-%m-%d %H:%M")
+                    st.text(f"📅 {upload_date_str}")
+                
+                with col_status:
+                    if doc['status'] == 'analyzed':
+                        st.success("✅ Analysé")
                     else:
-                        st.error(f"❌ Erreur lors de l'enregistrement: {save_result.get('error', 'Erreur inconnue')}")
-        
-        st.divider()
-        
-        # Main Documents View - Unified Table
-        st.subheader("📚 Tous les Documents")
-        
-        # Filter options
-        col1, col2, col3 = st.columns([2, 2, 1])
-        with col1:
-            filter_status = st.selectbox(
-                "Filtrer par statut",
-                ["Tous", "Analysés", "Non analysés"],
-                key="filter_status"
-            )
-        with col2:
-            show_hidden = st.checkbox("Afficher documents masqués", value=False, key="show_hidden")
-        with col3:
-            st.write("")  # Spacer
-        
-        # Get all documents with status
-        all_documents = get_all_documents_with_status()
-        
-        # Apply filters
-        filtered_docs = []
-        for doc in all_documents:
-            # Status filter
-            if filter_status == "Analysés" and doc['status'] != 'analyzed':
-                continue
-            elif filter_status == "Non analysés" and doc['status'] == 'analyzed':
-                continue
-            
-            # Hidden filter
-            if doc['is_hidden'] and not show_hidden:
-                continue
-            
-            filtered_docs.append(doc)
-        
-        if filtered_docs:
-            st.info(f"📊 {len(filtered_docs)} document(s) trouvé(s)")
-            
-            # Display as table with actions
-            for idx, doc in enumerate(filtered_docs):
-                with st.container():
-                    # Create columns for document info and actions
-                    col_info, col_date, col_status, col_actions = st.columns([3, 2, 1.5, 2.5])
+                        st.warning("⏳ Non analysé")
+                
+                with col_actions:
+                    # Action buttons in a row
+                    action_col1, action_col2, action_col3 = st.columns(3)
                     
-                    with col_info:
-                        # Document name with icon
-                        icon = "📄" if not doc['is_hidden'] else "👁️‍🗨️"
-                        st.markdown(f"**{icon} {doc['filename']}**")
-                        st.caption(f"{doc['size'] / 1024:.1f} KB")
-                    
-                    with col_date:
-                        upload_date_str = doc['upload_date'].strftime("%Y-%m-%d %H:%M")
-                        st.text(f"📅 {upload_date_str}")
-                    
-                    with col_status:
-                        if doc['status'] == 'analyzed':
-                            st.success("✅ Analysé")
-                        else:
-                            st.warning("⏳ Non analysé")
-                    
-                    with col_actions:
-                        # Action buttons in a row
-                        action_col1, action_col2, action_col3 = st.columns(3)
-                        
-                        with action_col1:
-                            # Analyze button
-                            if doc['status'] != 'analyzed':
-                                if st.button("🔍", key=f"analyze_{idx}", help="Analyser ce document"):
-                                    # Process immediately with clear feedback
-                                    progress_msg = st.empty()
-                                    with progress_msg.container():
-                                        st.warning(f"⏳ Analyse de '{doc['filename']}' en cours...")
-                                        st.caption("⏱️ Cela peut prendre 1-3 minutes. Vous pouvez continuer à naviguer dans l'application.")
+                    with action_col1:
+                        # Analyze button
+                        if doc['status'] != 'analyzed':
+                            if st.button("🔍", key=f"analyze_{idx}", help="Analyser ce document"):
+                                # Process immediately with clear feedback
+                                progress_msg = st.empty()
+                                with progress_msg.container():
+                                    st.warning(f"⏳ Analyse de '{doc['filename']}' en cours...")
+                                    st.caption("⏱️ Cela peut prendre 1-3 minutes. Vous pouvez continuer à naviguer dans l'application.")
+                                
+                                try:
+                                    result = extract_from_local_file(
+                                        doc['path'], 
+                                        use_cache=True, 
+                                        use_aws_services=True
+                                    )
                                     
-                                    try:
-                                        result = extract_from_local_file(
-                                            doc['path'], 
-                                            use_cache=True, 
-                                            use_aws_services=True
-                                        )
+                                    progress_msg.empty()
+                                    
+                                    if result.get('processing_status') == 'completed':
+                                        st.success("✅ Analyse terminée avec succès !")
                                         
-                                        progress_msg.empty()
+                                        # Show suggested filename if different
+                                        suggested_name = generate_filename_from_extraction(result, Path(doc['filename']).suffix)
+                                        if suggested_name != doc['filename']:
+                                            st.info(f"📝 Nom suggéré: `{suggested_name}`")
                                         
-                                        if result.get('processing_status') == 'completed':
-                                            st.success("✅ Analyse terminée avec succès !")
-                                            
-                                            # Show suggested filename if different
-                                            suggested_name = generate_filename_from_extraction(result, Path(doc['filename']).suffix)
-                                            if suggested_name != doc['filename']:
-                                                st.info(f"📝 Nom suggéré: `{suggested_name}`")
-                                            
-                                            st.balloons()
-                                            st.rerun()  # Refresh to show updated status
-                                        else:
-                                            st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
-                                    except Exception as e:
-                                        progress_msg.empty()
-                                        st.error(f"❌ Erreur: {str(e)}")
-                        
-                        with action_col2:
-                            # View/Delete extraction results
-                            if doc['status'] == 'analyzed' and doc['extraction']:
-                                if st.button("🗑️", key=f"delete_ext_{idx}", help="Supprimer résultat"):
-                                    if delete_extraction(doc['extraction']['path'], doc['extraction']['source']):
-                                        st.success("✅ Résultat supprimé")
-                                        st.rerun()
+                                        st.balloons()
+                                        st.rerun()  # Refresh to show updated status
                                     else:
-                                        st.error("❌ Erreur lors de la suppression")
-                        
-                        with action_col3:
-                            # Hide/Show toggle
-                            hide_label = "👁️" if doc['is_hidden'] else "👁️‍🗨️"
-                            hide_help = "Afficher" if doc['is_hidden'] else "Masquer"
-                            if st.button(hide_label, key=f"toggle_{idx}", help=hide_help):
-                                toggle_document_visibility(doc['filename'], hide=not doc['is_hidden'])
-                                st.rerun()
+                                        st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
+                                except Exception as e:
+                                    progress_msg.empty()
+                                    st.error(f"❌ Erreur: {str(e)}")
                     
-                    # Expandable section for viewing results
-                    if doc['status'] == 'analyzed' and doc['extraction']:
-                        with st.expander("📋 Voir les résultats d'extraction"):
-                            data = doc['extraction']['data']
-                            if data.get('processing_status') == 'completed':
-                                _display_extraction_results(data)
-                            else:
-                                st.error(f"❌ Statut: {data.get('processing_status', 'unknown')}")
-                                if 'error' in data:
-                                    st.error(f"Erreur: {data['error']}")
+                    with action_col2:
+                        # View/Delete extraction results
+                        if doc['status'] == 'analyzed' and doc['extraction']:
+                            if st.button("🗑️", key=f"delete_ext_{idx}", help="Supprimer résultat"):
+                                if delete_extraction(doc['extraction']['path'], doc['extraction']['source']):
+                                    st.success("✅ Résultat supprimé")
+                                    st.rerun()
+                                else:
+                                    st.error("❌ Erreur lors de la suppression")
                     
-                    st.divider()
-        else:
-            st.info("Aucun document trouvé. Uploadez un document pour commencer.")
-    
-    # TAB PRINCIPAL 2: Analyse d'Impact
-    with main_tab2:
-        st.subheader("📈 Analyse d'Impact Réglementaire sur le Portefeuille")
-        st.info("💡 Cette section permet d'analyser l'impact des réglementations extraites sur le S&P 500")
-        
-        if st.session_state.data_loaded:
-            composition = st.session_state.composition_sp500
-            performance = st.session_state.stocks_performance
-            
-            # Sélection d'une réglementation
-            st.subheader("Sélectionner une Réglementation")
-            regulations = [
-                "EU AI Act (12 juillet 2024)",
-                "Loi énergétique chinoise (9 novembre 2024)",
-                "Inflation Reduction Act (16 août 2022)",
-                "Directive UE 2019/2161"
-            ]
-            selected_reg = st.selectbox("Choisir une réglementation", regulations)
-            
-            if st.button("🔍 Analyser l'Impact", type="primary"):
-                st.success(f"Analyse de '{selected_reg}' en cours...")
+                    with action_col3:
+                        # Hide/Show toggle
+                        hide_label = "👁️" if doc['is_hidden'] else "👁️‍🗨️"
+                        hide_help = "Afficher" if doc['is_hidden'] else "Masquer"
+                        if st.button(hide_label, key=f"toggle_{idx}", help=hide_help):
+                            toggle_document_visibility(doc['filename'], hide=not doc['is_hidden'])
+                            st.rerun()
                 
-                # Placeholder pour les résultats
-                col1, col2 = st.columns(2)
+                # Expandable section for viewing results
+                if doc['status'] == 'analyzed' and doc['extraction']:
+                    with st.expander("📋 Voir les résultats d'extraction"):
+                        data = doc['extraction']['data']
+                        if data.get('processing_status') == 'completed':
+                            _display_extraction_results(data)
+                        else:
+                            st.error(f"❌ Statut: {data.get('processing_status', 'unknown')}")
+                            if 'error' in data:
+                                st.error(f"Erreur: {data['error']}")
                 
-                with col1:
-                    st.metric("Entreprises affectées", "127", delta="25.2%")
-                    st.metric("Score de risque global", "62/100", delta="Moyen")
-                
-                with col2:
-                    st.metric("Impact financier estimé", "-2.34%", delta="Négatif")
-                    st.metric("Secteurs exposés", "5", delta="Tech, Energie, ...")
-                
-                # Graphique d'impact simulé
-                st.subheader("Impact Simulé par Entreprise (Top 10)")
-                # Données d'exemple
-                impact_data = pd.DataFrame({
-                    'Symbol': composition.head(10)['Symbol'].tolist(),
-                    'Impact_Score': np.random.randint(20, 95, 10),
-                    'Impact_Percent': np.random.uniform(-15, 5, 10)
-                })
-                
-                fig = px.bar(
-                    impact_data,
-                    x='Symbol',
-                    y='Impact_Score',
-                    title='Score d\'Impact par Entreprise',
-                    labels={'Impact_Score': 'Score d\'Impact', 'Symbol': 'Symbole'},
-                    color='Impact_Percent',
-                    color_continuous_scale='RdYlGn_r'
-                )
-                st.plotly_chart(fig, width='stretch')
-                
-                st.info("⚠️ Fonctionnalité d'analyse d'impact en cours de développement")
-        else:
-            st.warning("⚠️ Veuillez d'abord charger les données depuis le Dashboard")
+                st.divider()
+    else:
+        st.info("Aucun document trouvé. Uploadez un document pour commencer.")
 
-# PAGE 3: Chatbot Financier
+# PAGE 3: Analyse d'Impact
+elif page == "📈 Analyse d'Impact":
+    st.header("📈 Analyse d'Impact Réglementaire")
+    st.info("💡 Cette section permet d'analyser l'impact des réglementations extraites sur le S&P 500")
+    
+    if st.session_state.data_loaded:
+        composition = st.session_state.composition_sp500
+        performance = st.session_state.stocks_performance
+        
+        # Sélection d'une réglementation
+        st.subheader("Sélectionner une Réglementation")
+        regulations = [
+            "EU AI Act (12 juillet 2024)",
+            "Loi énergétique chinoise (9 novembre 2024)",
+            "Inflation Reduction Act (16 août 2022)",
+            "Directive UE 2019/2161"
+        ]
+        selected_reg = st.selectbox("Choisir une réglementation", regulations)
+        
+        if st.button("🔍 Analyser l'Impact", type="primary"):
+            st.success(f"Analyse de '{selected_reg}' en cours...")
+            
+            # Placeholder pour les résultats
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.metric("Entreprises affectées", "127", delta="25.2%")
+                st.metric("Score de risque global", "62/100", delta="Moyen")
+            
+            with col2:
+                st.metric("Impact financier estimé", "-2.34%", delta="Négatif")
+                st.metric("Secteurs exposés", "5", delta="Tech, Energie, ...")
+            
+            # Graphique d'impact simulé
+            st.subheader("Impact Simulé par Entreprise (Top 10)")
+            # Données d'exemple
+            impact_data = pd.DataFrame({
+                'Symbol': composition.head(10)['Symbol'].tolist(),
+                'Impact_Score': np.random.randint(20, 95, 10),
+                'Impact_Percent': np.random.uniform(-15, 5, 10)
+            })
+            
+            fig = px.bar(
+                impact_data,
+                x='Symbol',
+                y='Impact_Score',
+                title='Score d\'Impact par Entreprise',
+                labels={'Impact_Score': 'Score d\'Impact', 'Symbol': 'Symbole'},
+                color='Impact_Percent',
+                color_continuous_scale='RdYlGn_r'
+            )
+            st.plotly_chart(fig, width='stretch')
+            
+            st.info("⚠️ Fonctionnalité d'analyse d'impact en cours de développement")
+    else:
+        st.warning("⚠️ Veuillez d'abord charger les données depuis le Dashboard")
+
+# PAGE 4: Chatbot Financier
 elif page == "🤖 Chatbot Financier":
-    st.header("🤖 Financial Chatbot")
-    st.info("💡 Interface conversationnelle pour poser des questions sur les réglementations et les entreprises")
+    st.header("🤖 Chatbot Financier avec RAG")
+    st.info("💡 Interface conversationnelle avec RAG - Posez des questions sur les réglementations et les entreprises basées sur nos documents")
+    
+    # Initialiser RAG au chargement (avec cache Streamlit)
+    @st.cache_resource
+    def init_rag():
+        """Initialise le système RAG (cache avec Streamlit)"""
+        result = initialize_rag_system(
+            use_cache=True,
+            tenk_limit=100  # MVP : 100 fichiers 10-K pour performance
+        )
+        return result
+    
+    # Initialiser RAG si pas déjà fait
+    if 'rag_initialized' not in st.session_state:
+        with st.spinner("🚀 Initialisation système RAG (première fois, peut prendre 2-3 minutes)..."):
+            rag_result = init_rag()
+            if rag_result['success']:
+                st.session_state.rag_initialized = True
+                st.session_state.rag_from_cache = rag_result.get('from_cache', False)
+                
+                if rag_result.get('from_cache'):
+                    print(f"✅ [LOG] RAG initialisé depuis cache (rapide)")
+                else:
+                    print(f"✅ [LOG] RAG initialisé avec {rag_result.get('num_documents', 0)} documents")
+                    print(f"💾 [LOG] Le système est maintenant mis en cache pour les prochaines utilisations")
+            else:
+                error_msg = rag_result.get('error', 'Erreur inconnue')
+                suggestion = rag_result.get('suggestion', '')
+                
+                st.error(f"❌ Erreur initialisation RAG: {error_msg}")
+                if suggestion:
+                    st.info(f"💡 {suggestion}")
+                
+                st.warning("⚠️ Le chatbot fonctionnera sans RAG (mode basique)")
+                st.session_state.rag_initialized = False
+    
+    # Afficher stats RAG dans sidebar
+    if st.session_state.get('rag_initialized'):
+        stats = get_rag_stats()
+        # RAG actif (pas besoin d'afficher, c'est implicite si le chatbot fonctionne)
+        if stats.get('cache_exists'):
+            print(f"💾 [LOG] Cache RAG disponible")
     
     # Initialisation de l'historique de chat
     if "messages" not in st.session_state:
         st.session_state.messages = []
     
-    # Afficher l'historique
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    # Initialisation de la question en attente (pour questions d'exemple)
+    if "pending_question" not in st.session_state:
+        st.session_state.pending_question = None
     
-    # Input utilisateur
-    if prompt := st.chat_input("Posez votre question sur les réglementations ou les entreprises..."):
-        # Ajouter le message utilisateur
-        st.session_state.messages.append({"role": "user", "content": prompt})
+    # Mode RAG ou basique
+    use_rag = st.session_state.get('rag_initialized', False)
+    if use_rag:
+        st.caption("🟢 Mode RAG activé - Réponses basées sur la base de connaissances")
+    else:
+        st.caption("🟡 Mode basique - Réponses générales (sans base de connaissances)")
+    
+    # Container pour forcer le scroll
+    scroll_container = st.container()
+    
+    with scroll_container:
+        # Afficher l'historique (sauf si on est en train de générer une nouvelle réponse)
+        # On vérifie s'il y a une question en cours pour éviter d'afficher l'ancienne réponse en double
+        generating_new_response = (
+            ("pending_question" in st.session_state and st.session_state.pending_question) or
+            st.session_state.get("_generating", False)
+        )
+        
+        for idx, message in enumerate(st.session_state.messages):
+            # Si c'est la dernière réponse d'assistant et qu'on génère une nouvelle réponse, skip
+            # (elle sera affichée dans le bloc de génération)
+            if generating_new_response and message["role"] == "assistant" and idx == len(st.session_state.messages) - 1:
+                continue
+                
+            with st.chat_message(message["role"]):
+                st.markdown(message["content"])
+                
+                # Afficher sources si disponibles (mode RAG)
+                if message["role"] == "assistant" and "sources" in message and message["sources"]:
+                    with st.expander("📚 Sources utilisées"):
+                        for i, source in enumerate(message["sources"][:5], 1):  # Top 5 sources
+                            source_type = source.get('type', 'unknown')
+                            if source_type == 'regulation':
+                                st.write(f"**{i}. [{source_type}]** {source.get('title', 'Réglementation')}")
+                                if source.get('country'):
+                                    st.caption(f"   Pays: {source['country']}")
+                            elif source_type in ['10k', 'company_universe']:
+                                st.write(f"**{i}. [{source_type}]** {source.get('company_name', 'N/A')} ({source.get('ticker', 'N/A')})")
+                            else:
+                                st.write(f"**{i}. [{source_type}]** {source.get('content_preview', '')[:100]}...")
+    
+    # Script JavaScript pour auto-scroll vers le bas après chaque nouveau message
+    if st.session_state.messages:
+        st.markdown("""
+        <script>
+            // Auto-scroll vers le bas
+            function scrollToBottom() {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+            
+            // Scroll immédiatement
+            scrollToBottom();
+            
+            // Re-scroll après un court délai (au cas où le contenu n'est pas encore rendu)
+            setTimeout(scrollToBottom, 100);
+            setTimeout(scrollToBottom, 500);
+        </script>
+        """, unsafe_allow_html=True)
+    
+    # Traiter une question d'exemple si elle a été cliquée (AVANT chat_input)
+    if "pending_question" in st.session_state and st.session_state.pending_question:
+        prompt = st.session_state.pending_question
+        st.session_state.pending_question = None  # Reset
+        st.session_state["_generating"] = True  # Marquer qu'on génère
+        
+        # Ajouter le message utilisateur (si pas déjà présent)
+        if not st.session_state.messages or st.session_state.messages[-1].get("content") != prompt:
+            st.session_state.messages.append({"role": "user", "content": prompt})
+        
+        # Afficher message utilisateur
         with st.chat_message("user"):
             st.markdown(prompt)
+            
+            # Scroll immédiatement après affichage question
+            st.markdown("""
+            <script>
+                setTimeout(function() {
+                    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                }, 50);
+            </script>
+            """, unsafe_allow_html=True)
         
-        # Réponse via Bedrock
+        # Générer réponse (même logique que pour chat_input)
         with st.chat_message("assistant"):
-            with st.spinner("🤔 Réflexion en cours..."):
-                # Convertir l'historique au format Claude
-                claude_messages = [
-                    format_chat_message(msg["role"], msg["content"])
-                    for msg in st.session_state.messages
-                ]
-                
-                # Appel à Claude
-                result = chat_with_claude(claude_messages)
-                
-                if result['error']:
-                    response = f"❌ Erreur: {result['error']}"
-                    st.error(response)
-                else:
-                    response = result['response']
-                    st.markdown(response)
+            if use_rag:
+                # Mode RAG
+                with st.spinner("🔍 Recherche dans la base de connaissances..."):
+                    rag_response = chat_with_rag(prompt, return_sources=True)
                     
-                    # Afficher usage si disponible
-                    if result['usage']:
-                        with st.expander("📊 Usage (Tokens)"):
-                            usage = result['usage']
-                            col1, col2, col3 = st.columns(3)
-                            with col1:
-                                st.metric("Input", usage.get('input_tokens', 0))
-                            with col2:
-                                st.metric("Output", usage.get('output_tokens', 0))
-                            with col3:
-                                total = usage.get('input_tokens', 0) + usage.get('output_tokens', 0)
-                                st.metric("Total", total)
+                    if rag_response['error']:
+                        response = f"❌ Erreur: {rag_response['error']}"
+                        st.error(response)
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": response,
+                            "sources": []
+                        })
+                    else:
+                        response = rag_response['answer']
+                        st.markdown(response)
+                        
+                        # Ajouter réponse avec sources
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": response,
+                            "sources": rag_response.get('sources', [])
+                        })
+                        
+                        # Afficher info sur sources
+                        if rag_response.get('sources'):
+                            num_sources = len(rag_response['sources'])
+                            st.caption(f"📚 Réponse basée sur {num_sources} document(s) de la base de connaissances")
+                        
+                        # Force scroll après affichage réponse (pending_question)
+                        st.markdown("""
+                        <script>
+                            setTimeout(function() {
+                                window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                            }, 100);
+                        </script>
+                        """, unsafe_allow_html=True)
+            else:
+                # Mode basique (sans RAG) - pending_question
+                with st.spinner("🤔 Réflexion en cours..."):
+                    # Convertir l'historique au format Claude
+                    claude_messages = [
+                        format_chat_message(msg["role"], msg["content"])
+                        for msg in st.session_state.messages
+                    ]
+                    
+                    # Appel à Claude (mode basique)
+                    # Utiliser un modèle disponible dans votre compte
+                    result = chat_with_claude(
+                        claude_messages,
+                        model="global.anthropic.claude-sonnet-4-5-20250929-v1:0",  # Modèle disponible dans votre compte
+                        max_tokens=4000
+                    )
+                    
+                    if result['error']:
+                        response = f"❌ Erreur: {result['error']}"
+                        st.error(response)
+                    else:
+                        response = result['response']
+                        st.markdown(response)
+                        
+                        # Afficher usage si disponible
+                        if result['usage']:
+                            with st.expander("📊 Usage (Tokens)"):
+                                usage = result['usage']
+                                col1, col2, col3 = st.columns(3)
+                                with col1:
+                                    st.metric("Input", usage.get('input_tokens', 0))
+                                with col2:
+                                    st.metric("Output", usage.get('output_tokens', 0))
+                                with col3:
+                                    total = usage.get('input_tokens', 0) + usage.get('output_tokens', 0)
+                                    st.metric("Total", total)
+                    
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": response,
+                        "sources": []
+                    })
+                    
+                    # Force scroll après affichage réponse (pending_question - basique)
+                    st.markdown("""
+                    <script>
+                        setTimeout(function() {
+                            window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                        }, 100);
+                    </script>
+                    """, unsafe_allow_html=True)
         
-        st.session_state.messages.append({"role": "assistant", "content": response})
+        # Marquer génération terminée
+        st.session_state["_generating"] = False
     
-    # Exemples de questions
-    st.subheader("💡 Exemples de questions")
+    # Input utilisateur - Plus grand et visible
+    if prompt := st.chat_input(
+        "Posez votre question sur les réglementations ou les entreprises...",
+        key="chat_input_main"
+    ):
+        st.session_state["_generating"] = True  # Marquer qu'on génère
+        
+        # Ajouter le message utilisateur (si pas déjà présent)
+        if not st.session_state.messages or st.session_state.messages[-1].get("content") != prompt:
+            st.session_state.messages.append({"role": "user", "content": prompt})
+        
+        # Afficher message utilisateur
+        with st.chat_message("user"):
+            st.markdown(prompt)
+            
+            # Scroll immédiatement après affichage question
+            st.markdown("""
+            <script>
+                setTimeout(function() {
+                    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                }, 50);
+            </script>
+            """, unsafe_allow_html=True)
+        
+        # Générer réponse
+        with st.chat_message("assistant"):
+            if use_rag:
+                # Mode RAG
+                with st.spinner("🔍 Recherche dans la base de connaissances..."):
+                    rag_response = chat_with_rag(prompt, return_sources=True)
+                    
+                    if rag_response['error']:
+                        response = f"❌ Erreur: {rag_response['error']}"
+                        st.error(response)
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": response,
+                            "sources": []
+                        })
+                    else:
+                        response = rag_response['answer']
+                        st.markdown(response)
+                        
+                        # Ajouter réponse avec sources
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": response,
+                            "sources": rag_response.get('sources', [])
+                        })
+                        
+                        # Afficher info sur sources
+                        if rag_response.get('sources'):
+                            num_sources = len(rag_response['sources'])
+                            st.caption(f"📚 Réponse basée sur {num_sources} document(s) de la base de connaissances")
+                        
+                        # Force scroll après affichage réponse (chat_input - RAG)
+                        st.markdown("""
+                        <script>
+                            setTimeout(function() {
+                                window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                            }, 100);
+                        </script>
+                        """, unsafe_allow_html=True)
+            else:
+                # Mode basique (sans RAG) - chat_input
+                with st.spinner("🤔 Réflexion en cours..."):
+                    # Convertir l'historique au format Claude
+                    claude_messages = [
+                        format_chat_message(msg["role"], msg["content"])
+                        for msg in st.session_state.messages
+                    ]
+                    
+                    # Appel à Claude (mode basique)
+                    # Utiliser un modèle disponible dans votre compte
+                    result = chat_with_claude(
+                        claude_messages,
+                        model="global.anthropic.claude-sonnet-4-5-20250929-v1:0",  # Modèle disponible dans votre compte
+                        max_tokens=4000
+                    )
+                    
+                    if result['error']:
+                        response = f"❌ Erreur: {result['error']}"
+                        st.error(response)
+                    else:
+                        response = result['response']
+                        st.markdown(response)
+                        
+                        # Afficher usage si disponible
+                        if result['usage']:
+                            with st.expander("📊 Usage (Tokens)"):
+                                usage = result['usage']
+                                col1, col2, col3 = st.columns(3)
+                                with col1:
+                                    st.metric("Input", usage.get('input_tokens', 0))
+                                with col2:
+                                    st.metric("Output", usage.get('output_tokens', 0))
+                                with col3:
+                                    total = usage.get('input_tokens', 0) + usage.get('output_tokens', 0)
+                                    st.metric("Total", total)
+                    
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": response,
+                        "sources": []
+                    })
+                    
+                    # Force scroll après affichage réponse (chat_input - basique)
+                    st.markdown("""
+                    <script>
+                        setTimeout(function() {
+                            window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+                        }, 100);
+                    </script>
+                    """, unsafe_allow_html=True)
+        
+        # Marquer génération terminée
+        st.session_state["_generating"] = False
+    
+    # Exemples de questions - Style compact et discret
+    st.markdown("---")
+    st.markdown("### 💡 Questions d'exemple")
+    
     example_questions = get_example_questions()
-    for q in example_questions:
-        if st.button(q, key=f"example_{q}"):
-            st.session_state.messages.append({"role": "user", "content": q})
-            st.rerun()
+    
+    # Style CSS pour boutons plus petits avec couleur bleue + agrandir la barre de saisie
+    st.markdown("""
+    <style>
+        /* Boutons d'exemples de questions - plus petits et bleus */
+        div[data-testid="stButton"] > button[kind="secondary"] {
+            min-height: 45px !important;
+            font-size: 13px !important;
+            font-weight: 400 !important;
+            padding: 10px 15px !important;
+            text-align: left !important;
+            border: 1.5px solid #1f77b4 !important;
+            border-radius: 8px !important;
+            background-color: rgba(31, 119, 180, 0.06) !important;
+            color: #1f77b4 !important;
+            transition: all 0.2s ease !important;
+            white-space: normal !important;
+            word-wrap: break-word !important;
+            margin-bottom: 8px !important;
+        }
+        div[data-testid="stButton"] > button[kind="secondary"]:hover {
+            background-color: rgba(31, 119, 180, 0.12) !important;
+            border-color: #2c9ae8 !important;
+            transform: translateY(-1px) !important;
+            box-shadow: 0 2px 4px rgba(31, 119, 180, 0.15) !important;
+        }
+        
+        /* Barre de saisie plus grande */
+        div[data-testid="stChatInput"] > div > div {
+            min-height: 80px !important;
+            font-size: 16px !important;
+            padding: 15px 20px !important;
+        }
+        div[data-testid="stChatInput"] textarea {
+            min-height: 60px !important;
+            font-size: 16px !important;
+            line-height: 1.6 !important;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Afficher questions en 2 colonnes
+    cols = st.columns(2)
+    for idx, q in enumerate(example_questions):
+        with cols[idx % 2]:
+            if st.button(
+                q, 
+                key=f"example_{idx}", 
+                use_container_width=True,
+                type="secondary"
+            ):
+                # Marquer la question comme en attente
+                st.session_state.pending_question = q
+                st.rerun()
+
+# PAGE 5: Documentation
+elif page == "📚 Documentation":
+    st.header("📚 Documentation ReguAI")
+    st.markdown("**Guide complet de l'application Regulatory Intelligence Assistant**")
+    
+    # Table des matières
+    st.markdown("---")
+    st.markdown("### 📑 Table des matières")
+    toc_col1, toc_col2 = st.columns(2)
+    with toc_col1:
+        st.markdown("""
+        - [🎯 Vue d'ensemble](#vue-densemble)
+        - [🏠 Dashboard](#dashboard)
+        - [📄 Analyse de Documents](#analyse-de-documents)
+        - [📈 Analyse d'Impact](#analyse-dimpact)
+        - [🤖 Chatbot Financier](#chatbot-financier)
+        """)
+    with toc_col2:
+        st.markdown("""
+        - [🔧 Architecture Technique](#architecture-technique)
+        - [⚙️ Configuration](#configuration)
+        - [📊 Sources de Données](#sources-de-données)
+        - [❓ FAQ](#faq)
+        """)
+    
+    st.markdown("---")
+    
+    # Vue d'ensemble
+    st.markdown("## 🎯 Vue d'ensemble")
+    st.markdown("""
+    **ReguAI** est une application d'intelligence réglementaire conçue pour aider les gestionnaires de portefeuilles
+    à comprendre et analyser l'impact des réglementations sur leurs investissements dans le S&P 500.
+    
+    ### Objectifs principaux :
+    - 📊 **Visualiser** la composition et la performance du portefeuille S&P 500
+    - 📄 **Analyser** des documents réglementaires pour extraire les informations clés
+    - 📈 **Évaluer** l'impact des réglementations sur les entreprises
+    - 🤖 **Interroger** une base de connaissances via un chatbot RAG (Retrieval Augmented Generation)
+    """)
+    
+    st.markdown("---")
+    
+    # Dashboard
+    st.markdown("## 🏠 Dashboard")
+    st.markdown("""
+    La page **Dashboard** offre une vue globale du portefeuille S&P 500 avec :
+    
+    ### KPIs Principaux
+    - **Nombre total d'entreprises** dans le portefeuille
+    - **Capitalisation boursière totale** (Market Cap)
+    - **Répartition sectorielle** avec visualisations interactives
+    - **Indicateurs de performance** (P/E ratio, Profit Margin, etc.)
+    
+    ### Visualisations
+    - 🌳 **Treemap sectoriel** : Visualisation hiérarchique des secteurs et industries
+    - 📊 **Graphiques de composition** : Répartition par poids, secteurs, industries
+    - 📈 **Tableaux de performance** : Métriques financières détaillées par entreprise
+    
+    ### Données
+    Les données proviennent du **Company Universe** qui contient :
+    - Composition du portefeuille (Symbol, Company, Weight, Price, Sector, Industry)
+    - Performance financière (Market Cap, Revenue, Op. Income, Net Income, EPS, FCF, P/E Ratio, Profit Margin)
+    - Informations opérationnelles (Has NA Operations, Has EU Operations, Num Segments, Company Type)
+    """)
+    
+    st.markdown("---")
+    
+    # Analyse de Documents
+    st.markdown("## 📄 Analyse de Documents")
+    st.markdown("""
+    La page **Analyse de Documents** permet d'analyser des documents réglementaires avec extraction automatique d'informations.
+    
+    ### Fonctionnalités
+    - 📤 **Upload de documents** : Formats supportés (HTML, XML, PDF, TXT)
+    - 🔍 **Extraction automatique** : Utilisation d'Amazon Textract, Comprehend et Claude (Bedrock)
+    - 📋 **Affichage des résultats** : Visualisation structurée des données extraites
+    
+    ### Processus d'extraction
+    1. **Upload** : Sélectionner un document réglementaire
+    2. **Traitement** : Analyse via AWS services (Textract, Comprehend)
+    3. **Extraction** : Utilisation de Claude Sonnet pour extraire les data points clés
+    4. **Résultat** : Affichage structuré avec :
+       - Titre et date du document
+       - Secteurs affectés
+       - Exigences clés
+       - Pénalités
+       - Confiance LegalBERT
+    
+    ### Filtres disponibles
+    - Filtrer par statut (Tous, Analysés, Non analysés)
+    - Afficher/Masquer des documents
+    - Supprimer des résultats d'extraction
+    """)
+    
+    st.markdown("---")
+    
+    # Analyse d'Impact
+    st.markdown("## 📈 Analyse d'Impact")
+    st.markdown("""
+    La page **Analyse d'Impact** évalue l'impact des réglementations sur le portefeuille S&P 500.
+    
+    ### Fonctionnalités
+    - 🎯 **Sélection de réglementation** : Choisir parmi les réglementations analysées
+    - 📊 **Métriques d'impact** :
+      - Nombre d'entreprises affectées
+      - Score de risque global
+      - Impact financier estimé
+      - Secteurs exposés
+    
+    ### Visualisations
+    - 📈 **Graphiques d'impact par entreprise** : Top 10 des entreprises les plus impactées
+    - 🎨 **Carte de chaleur** : Colorisation selon l'intensité de l'impact
+    
+    ### Processus
+    1. Sélectionner une réglementation depuis la liste
+    2. Cliquer sur "Analyser l'Impact"
+    3. Visualiser les métriques et graphiques générés
+    
+    ⚠️ **Note** : Cette fonctionnalité est en cours de développement avancé pour intégrer des calculs d'impact réels basés sur les extractions de documents.
+    """)
+    
+    st.markdown("---")
+    
+    # Chatbot Financier
+    st.markdown("## 🤖 Chatbot Financier")
+    st.markdown("""
+    Le **Chatbot Financier** utilise la technologie **RAG (Retrieval Augmented Generation)** pour répondre à vos questions
+    basées sur la base de connaissances de l'application.
+    
+    ### Fonctionnalités RAG
+    - 🔍 **Recherche sémantique** : Trouve les documents pertinents via embeddings
+    - 📚 **Base de connaissances** : Contient :
+      - Extraits de documents réglementaires
+      - Extraits de 10-K filings
+      - Données du Company Universe
+    - 💬 **Réponses contextuelles** : Génération de réponses basées sur les documents trouvés
+    
+    ### Technologies utilisées
+    - **LangChain** : Framework pour applications LLM
+    - **FAISS** : Vector store pour recherche sémantique performante
+    - **AWS Bedrock** :
+      - **Embeddings** : Cohere Embed v4 (`global.cohere.embed-v4:0`)
+      - **LLM** : Claude Sonnet 4.5 (`global.anthropic.claude-sonnet-4-5-20250929-v1:0`)
+    
+   ### Utilisation
+    1. Tapez votre question dans le champ de saisie
+    2. Ou cliquez sur une question d'exemple
+    3. Le chatbot recherche dans la base de connaissances
+    4. Affiche la réponse avec les sources utilisées
+    
+    ### Exemples de questions
+    - "Quel est l'impact de l'EU AI Act sur les entreprises tech du S&P 500 ?"
+    - "Quelles entreprises sont le plus exposées aux réglementations chinoises ?"
+    - "Compare l'impact de deux réglementations sur le portefeuille"
+    """)
+    
+    st.markdown("---")
+    
+    # Architecture Technique
+    st.markdown("## 🔧 Architecture Technique")
+    st.markdown("""
+    ### Stack Technologique
+    
+    #### Frontend
+    - **Streamlit** : Interface utilisateur interactive
+    - **Plotly** : Graphiques interactifs
+    - **Pandas** : Manipulation de données
+    
+    #### Backend & IA
+    - **Python 3.x** : Langage principal
+    - **LangChain** : Framework RAG
+    - **FAISS** : Vector store (recherche sémantique)
+    
+    #### AWS Services
+    - **Amazon S3** : Stockage de données
+    - **Amazon Bedrock** : Modèles LLM et embeddings
+      - Claude Sonnet 4.5 (génération)
+      - Cohere Embed v4 (embeddings)
+    - **Amazon Textract** : Extraction de texte (PDF, images)
+    - **Amazon Comprehend** : NLP et classification
+    - **Amazon DynamoDB** : Base de données (si utilisée)
+    
+    #### Données
+    - **Company Universe JSON** : 500 entreprises S&P 500
+    - **Documents réglementaires** : Stockés localement et dans S3
+    - **Extractions** : Résultats d'analyse stockés en JSON
+    
+    ### Structure du Projet
+    ```
+    Datathon2025/
+    ├── scripts/
+    │   ├── app.py                    # Application Streamlit principale
+    │   ├── dashboard_helper.py        # Helpers pour Dashboard
+    │   ├── document_analysis_helper.py  # Extraction de documents
+    │   ├── impact_orchestrator.py     # Analyse d'impact
+    │   ├── chatbot_helper.py          # Chatbot basique
+    │   ├── rag/                       # Module RAG
+    │   │   ├── config.py              # Configuration RAG
+    │   │   ├── data_loader.py         # Chargement données
+    │   │   ├── embeddings.py           # Embeddings Bedrock
+    │   │   ├── vector_store.py        # FAISS vector store
+    │   │   ├── rag_chain.py           # Chaîne RAG LangChain
+    │   │   └── rag_helper.py          # Orchestrateur RAG
+    │   └── aws_services_helper.py      # Helpers AWS
+    ├── notebooks/                     # Notebooks Jupyter
+    ├── data/                          # Données locales
+    ├── documents/                     # Documents réglementaires
+    └── .env                           # Variables d'environnement AWS
+    ```
+    """)
+    
+    st.markdown("---")
+    
+    # Configuration
+    st.markdown("## ⚙️ Configuration")
+    st.markdown("""
+    ### Variables d'environnement (.env)
+    
+    L'application nécessite un fichier `.env` à la racine avec :
+    ```env
+    AWS_ACCESS_KEY_ID=your_access_key
+    AWS_SECRET_ACCESS_KEY=your_secret_key
+    AWS_SESSION_TOKEN=your_session_token  # Si credentials temporaires
+    AWS_DEFAULT_REGION=us-west-2
+    AWS_REGION=us-west-2
+    S3_BUCKET_NAME=your_bucket_name
+    ```
+    
+    ### Installation des dépendances
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    ### Lancement de l'application
+    ```bash
+    python -m streamlit run scripts/app.py
+    ```
+    
+    L'application sera accessible sur `http://localhost:8501`
+    
+    ### Permissions AWS requises
+    - **Bedrock** : Accès aux modèles Claude et Cohere
+    - **S3** : Lecture/Écriture sur le bucket
+    - **Textract** : Extraction de texte depuis documents
+    - **Comprehend** : Analyse NLP
+    """)
+    
+    st.markdown("---")
+    
+    # Sources de Données
+    st.markdown("## 📊 Sources de Données")
+    st.markdown("""
+    ### 1. Company Universe
+    - **Format** : JSON (`data/company_universe.json`)
+    - **Contenu** : 500 entreprises S&P 500
+    - **Champs principaux** :
+      - Composition : Symbol, Company, Weight, Price, Sector, Industry
+      - Performance : Market Cap, Revenue, Op. Income, Net Income, EPS, FCF, P/E Ratio, Profit Margin
+      - Opérations : Has NA Operations, Has EU Operations, Num Segments, Company Type
+    
+    ### 2. Documents Réglementaires
+    - **Localisation** : `documents/`
+    - **Formats supportés** : HTML, XML, PDF, TXT
+    - **Traitement** : Extraction via AWS services
+    
+    ### 3. Extractions 10-K
+    - **Format** : JSON
+    - **Contenu** : Data points extraits des filings 10-K
+    - **Usage** : Intégré dans la base de connaissances RAG
+    
+    ### 4. Extraits Réglementaires
+    - **Format** : JSON
+    - **Contenu** : Data points extraits des documents réglementaires
+    - **Usage** : Base de connaissances RAG + Analyse d'Impact
+    """)
+    
+    st.markdown("---")
+    
+    # FAQ
+    st.markdown("## ❓ FAQ")
+    
+    faq_items = [
+        {
+            "question": "Comment charger les données du Dashboard ?",
+            "reponse": "Les données se chargent automatiquement au démarrage. Si besoin, utilisez le bouton 'Rafraîchir les données' dans le Dashboard."
+        },
+        {
+            "question": "Pourquoi le RAG ne fonctionne pas ?",
+            "reponse": "Vérifiez vos credentials AWS dans le fichier `.env`. Le RAG nécessite un accès à Bedrock pour les embeddings et le LLM."
+        },
+        {
+            "question": "Combien de temps prend l'analyse d'un document ?",
+            "reponse": "L'analyse complète prend généralement 1-3 minutes selon la taille du document et la complexité de l'extraction."
+        },
+        {
+            "question": "Les données sont-elles stockées dans le cloud ?",
+            "reponse": "Les documents peuvent être stockés dans S3, mais par défaut, les données sont stockées localement. Les extractions sont sauvegardées localement en JSON."
+        },
+        {
+            "question": "Puis-je utiliser mes propres modèles ?",
+            "reponse": "L'application utilise actuellement les modèles Bedrock disponibles dans votre région. Vous pouvez modifier les identifiants de modèles dans `scripts/rag/config.py`."
+        },
+        {
+            "question": "Comment puis-je ajouter de nouveaux documents ?",
+            "reponse": "Utilisez la section 'Upload Nouveau Document' dans la page 'Analyse de Documents'. Les documents seront ensuite disponibles pour analyse."
+        },
+        {
+            "question": "Le chatbot utilise-t-il Internet ?",
+            "reponse": "Non, le chatbot RAG fonctionne uniquement avec votre base de connaissances locale (extractions réglementaires, 10-K, Company Universe). Il ne fait pas de recherches externes."
+        },
+        {
+            "question": "Comment améliorer les réponses du RAG ?",
+            "reponse": "Ajoutez plus de documents réglementaires et d'extractions 10-K à votre base de connaissances. Plus la base est riche, meilleures sont les réponses."
+        }
+    ]
+    
+    for idx, faq in enumerate(faq_items, 1):
+        with st.expander(f"**Q{idx}** : {faq['question']}"):
+            st.markdown(faq['reponse'])
+    
+    st.markdown("---")
+    
+    # Contact et Support
+    st.markdown("## 📞 Support")
+    st.markdown("""
+    **ReguAI** - Regulatory Intelligence Assistant
+    
+    Développé pour le **Datathon PolyFinances 2025**
+    
+    Pour toute question ou problème technique, consultez la documentation du projet ou contactez l'équipe de développement.
+    
+    ---
+    
+    *Transformant la complexité réglementaire en décisions stratégiques* 📊
+    """)
 
 
 # Footer

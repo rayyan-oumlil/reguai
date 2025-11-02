@@ -30,7 +30,6 @@ def load_sp500_composition():
             obj = s3.get_object(Bucket=bucket_name, Key=s3_key)
             df = pd.read_csv(obj['Body'])
             print(f"✅ [LOG] SUCCÈS - Données chargées depuis S3: {bucket_name}/{s3_key}")
-            st.success(f"✅ Données chargées depuis **S3**: `{bucket_name}/{s3_key}`")
             # Convertir Weight et Price de string (format européen) en float
             if 'Weight' in df.columns:
                 df['Weight'] = df['Weight'].astype(str).str.replace(',', '.').astype(float)
@@ -40,10 +39,8 @@ def load_sp500_composition():
         except ClientError as e:
             error_code = e.response['Error']['Code']
             print(f"❌ [LOG] ERREUR S3 ({error_code}): {e}")
-            st.warning(f"⚠️ Impossible de charger depuis S3 ({error_code}). Essai depuis local...")
         except Exception as e:
             print(f"❌ [LOG] ERREUR S3 (autre): {e}")
-            st.warning(f"⚠️ Impossible de charger depuis S3: {e}. Essai depuis local...")
     else:
         print("ℹ️ [LOG] S3_BUCKET_NAME non configuré - utilisation locale uniquement")
     
@@ -66,7 +63,6 @@ def load_sp500_composition():
                     df['Weight'] = df['Weight'].astype(str).str.replace(',', '.').astype(float)
                 if 'Price' in df.columns:
                     df['Price'] = df['Price'].astype(str).str.replace(',', '.').astype(float)
-                st.info(f"📁 Données chargées depuis **local**: `{full_path}`")
                 return df
             else:
                 print(f"❌ [LOG] Fichier non trouvé: {full_path}")
@@ -75,7 +71,6 @@ def load_sp500_composition():
             continue
     
     print(f"❌ [LOG] ÉCHEC - Fichier non trouvé ni S3 ni local")
-    st.error("⚠️ Fichier '2025-08-15_composition_sp500.csv' non trouvé (ni S3 ni local)")
     return None
 
 
@@ -132,16 +127,13 @@ def load_stocks_performance():
             
             print(f"✅ [LOG] SUCCÈS - Données chargées depuis S3: {bucket_name}/{s3_key} ({len(df)} lignes)")
             print(f"✅ [LOG] Colonnes disponibles: {list(df.columns[:8])}")
-            st.success(f"✅ Données chargées depuis **S3**: `{bucket_name}/{s3_key}`")
             # Note: CSV contient plus que S&P 500, sera filtré dans dashboard
             return df
         except ClientError as e:
             error_code = e.response['Error']['Code']
             print(f"❌ [LOG] ERREUR S3 ({error_code}): {e}")
-            st.warning(f"⚠️ Impossible de charger depuis S3 ({error_code}). Essai depuis local...")
         except Exception as e:
             print(f"❌ [LOG] ERREUR S3 (autre): {e}")
-            st.warning(f"⚠️ Impossible de charger depuis S3: {e}. Essai depuis local...")
     else:
         print("ℹ️ [LOG] S3_BUCKET_NAME non configuré - utilisation locale uniquement")
     
@@ -192,7 +184,6 @@ def load_stocks_performance():
                 
                 print(f"✅ [LOG] CSV chargé: {len(df)} lignes (contient toutes entreprises, sera filtré)")
                 print(f"✅ [LOG] Colonnes disponibles: {list(df.columns[:8])}")
-                st.info(f"📁 Données chargées depuis **local**: `{full_path}`")
                 # Note: CSV contient plus que S&P 500, sera filtré dans dashboard
                 return df
             else:
@@ -202,7 +193,6 @@ def load_stocks_performance():
             continue
     
     print(f"❌ [LOG] ÉCHEC - Fichier non trouvé ni S3 ni local")
-    st.error("⚠️ Fichier '2025-09-26_stocks-performance.csv' non trouvé (ni S3 ni local)")
     return None
 
 
@@ -222,7 +212,6 @@ def load_company_universe():
             obj = s3.get_object(Bucket=bucket_name, Key=s3_key)
             company_universe = json.loads(obj['Body'].read().decode('utf-8'))
             print(f"✅ [LOG] Company Universe chargé depuis S3: {bucket_name}/{s3_key} ({len(company_universe)} entreprises)")
-            st.success(f"✅ Company Universe chargé depuis **S3**: `{bucket_name}/{s3_key}`")
             return company_universe
         except ClientError as e:
             error_code = e.response['Error']['Code']
@@ -237,7 +226,6 @@ def load_company_universe():
             with open(company_universe_path, 'r', encoding='utf-8') as f:
                 company_universe = json.load(f)
             print(f"✅ [LOG] Company Universe chargé depuis local: {len(company_universe)} entreprises")
-            st.info(f"📁 Company Universe chargé depuis **local**: `{company_universe_path}`")
             return company_universe
         except Exception as e:
             print(f"⚠️ [LOG] Erreur chargement company_universe: {e}")
@@ -425,12 +413,12 @@ def render_sector_treemap(performance):
             )
             st.plotly_chart(fig_treemap, use_container_width=True)
         else:
-            st.warning("⚠️ Aucune donnée de secteur valide disponible")
+            print("⚠️ [LOG] Aucune donnée de secteur valide disponible")
     else:
         if performance is None:
-            st.info("ℹ️ Données de performance non disponibles")
+            print("ℹ️ [LOG] Données de performance non disponibles")
         elif 'Sector' not in performance.columns:
-            st.info("ℹ️ Colonne 'Sector' non disponible dans performance")
+            print("ℹ️ [LOG] Colonne 'Sector' non disponible dans performance")
 
 
 def render_composition_charts(composition):
@@ -515,7 +503,7 @@ def render_performance_table(performance, composition):
                 width='stretch',
                 height=400
             )
-            st.info(f"⚠️ Colonnes disponibles: {', '.join(available_cols[:5])}...")
+            print(f"ℹ️ [LOG] Colonnes disponibles: {', '.join(available_cols[:5])}...")
 
 
 def render_composition_table(composition):

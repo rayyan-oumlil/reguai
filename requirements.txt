@@ -60,6 +60,14 @@ transformers>=4.21.0         # Hugging Face Transformers (LegalBERT)
 torch>=2.0.0                 # PyTorch (backend pour transformers)
 
 # ============================================
+# RAG & LangChain (pour Chatbot)
+# ============================================
+langchain>=0.1.0            # Framework RAG
+langchain-aws>=0.1.0        # Intégration AWS Bedrock
+langchain-community>=0.0.20 # Vector stores (FAISS, etc.)
+faiss-cpu>=1.7.4            # Vector store (recherche performante)
+
+# ============================================
 # Utilities de Base
 # ============================================
 requests>=2.31.0            # Requêtes HTTP
