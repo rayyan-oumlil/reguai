@@ -251,7 +251,7 @@ result = client.chat.completions.create(
     
     # Documents disponibles
     st.subheader("📚 Documents Réglementaires Disponibles")
-    directives_path = Path('data/raw/directives')
+    directives_path = Path('directives')
     if directives_path.exists():
         directives = list(directives_path.glob('*.html')) + list(directives_path.glob('*.xml'))
         for doc in directives:

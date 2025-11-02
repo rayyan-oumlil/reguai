@@ -54,6 +54,8 @@ data/generated/
 
 # Exception: garder les fichiers de configuration et petits CSV
 !data/README.md
+!data/generated/
+!data/generated/**/*
 !requirements.txt
 !*.md
 
