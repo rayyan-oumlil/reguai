@@ -1,0 +1,98 @@
+{
+  "ticker": "XEL",
+  "company_name": "Xcel Energy Inc.",
+  "company_type": "Regulated Electric and Natural Gas Utility",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Colorado": 0.31,
+      "Minnesota": 0.29,
+      "Texas and New Mexico": 0.14,
+      "Wisconsin and Michigan": 0.09,
+      "Other": 0.17
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Regulated Electric Utility",
+    "Regulated Natural Gas Utility",
+    "NSP-Minnesota",
+    "NSP-Wisconsin",
+    "PSCo",
+    "SPS"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Significant capital investment requirements for utility operations",
+      "Dependence on suppliers to deliver components in accordance with short and long-term project schedules",
+      "Globally sourced components from suppliers",
+      "Large global demand for energy-related infrastructure has stretched equipment supply chains",
+      "Extended delivery dates and increased prices for items like combustion turbines, transformers and other large electrical equipment",
+      "Labor market for skilled engineering and construction resources strained",
+      "Scarcity of certain raw materials and interruptions in production and shipping",
+      "Inflationary pressures, geopolitical events and federal policies exacerbating supply chain situation"
+    ],
+    "risks": [
+      "Shortage of key components where alternative supplier is not identified could significantly impact operations and project plans",
+      "Supply chain constraints may impact capital expenditures and ability to obtain financing on favorable terms",
+      "Disruptions in imports from key suppliers could impact project timelines and costs",
+      "Tariffs and trade complaints may impact procurement activities and project costs",
+      "Inability to secure sufficient insurance coverage or increased costs of insurance"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in regulation may impair ability to recover costs from customers",
+    "Adverse regulatory rulings or imposition of additional regulations could negatively impact results",
+    "FERC can impose penalties of up to $1.5 million per violation per day for energy trading activities",
+    "NERC electric reliability standards and critical infrastructure protection requirements subject to potential financial penalties",
+    "PHMSA authority to assess penalties for pipeline safety violations",
+    "State agencies have authority to impose substantial penalties",
+    "Legislative and regulatory responses to climate change may create financial risk",
+    "EPA regulations addressing control of CO2 emissions from power sector",
+    "EPA proposed air regulations for municipal waste combustors",
+    "EPA rules designating certain PFAS as hazardous substances under CERCLA",
+    "EPA rules setting enforceable drinking water standards for certain PFAS",
+    "EPA rules under Clean Water Act setting Effluent Limitations Guidelines for steam generating coal plants",
+    "Colorado Senate Bill 23-291 establishing fuel cost mechanisms and natural gas planning rules",
+    "Colorado Senate Bill 24-218 accelerating investment in electric distribution",
+    "Changes in environmental laws and regulations may result in substantial costs",
+    "Federal Clean Water Act Section 316(b) requirements for cooling water intake structures",
+    "EPA Good Neighbor provisions establishing NOx allowance trading program",
+    "CCR Rule imposing requirements for handling, storage, treatment and disposal of coal ash",
+    "Amendments to CCR Rule widening scope to include legacy surface impoundments and areas where CCR was placed on land",
+    "State regulatory commissions impose dividend limitations and capital structure requirements",
+    "Issuance of securities by utility subsidiaries subject to state regulatory commission and/or FERC jurisdiction",
+    "Rate regulation premised on providing opportunity to earn reasonable rate of return on invested capital",
+    "Regulatory commissions authorize ROE, capital structure and depreciation rates in rate proceedings",
+    "Decisions by regulators can significantly impact results of operations and credit quality",
+    "Public perception of high commodity prices passed through to customer bills could impact ability to recover costs",
+    "Regulatory changes or limitations related to use of natural gas as energy source"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Prohibiting Russian Uranium Imports Act signed into law in May 2024 - NSP-Minnesota no longer permitted to accept deliveries of enriched nuclear material from Russia beginning August 2024 unless specific waivers requested and received",
+      "Tariffs and trade complaints may impact procurement activities including company owned projects and PPAs",
+      "Executive orders issued in early 2025 imposing new tariffs on certain imports which may impact procurement activities",
+      "Policy actions or restrictions on solar and storage imports could impact project timelines and costs"
+    ]
+  },
+  "revenue_by_segment": {
+    "Regulated Electric": 0.83,
+    "Regulated Natural Gas": 0.17
+  }
+}

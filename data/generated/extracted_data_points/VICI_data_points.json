@@ -1,0 +1,85 @@
+{
+  "ticker": "VICI",
+  "company_name": "VICI Properties Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Gaming, Hospitality, Entertainment & Leisure",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Las Vegas Strip": 0.48,
+      "Other U.S. Regions": 0.52
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Gaming Properties",
+    "Other Experiential Properties",
+    "Golf Courses",
+    "Real Estate Debt Investments"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "MGM Resorts International",
+      "Caesars Entertainment, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on tenants for substantially all revenues",
+      "Caesars and MGM comprise approximately 74% of total leasing revenues",
+      "Properties on Las Vegas Strip generated approximately 48% of revenues",
+      "Reliance on third-party golf resort operator (Cabot-Managed Properties)",
+      "Dependence on gaming industry performance"
+    ],
+    "risks": [
+      "Tenant default or bankruptcy risk",
+      "Concentration risk with Caesars (39% of annualized rent) and MGM (35% of annualized rent)",
+      "Geographic concentration risk - Las Vegas Strip properties",
+      "Gaming industry cyclicality and regulatory changes",
+      "Tenant financial performance directly impacts VICI's credit loss allowances"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive gaming regulation from state and county gaming authorities",
+    "Gaming license requirements for tenants and VICI as landlord",
+    "Suitability determinations for stockholders, officers, and directors by gaming authorities",
+    "Ownership limits - stockholders owning >5% may require licensing or suitability findings",
+    "VICI charter provides shares held by unsuitable investors subject to redemption",
+    "Required regulatory approvals can delay or prohibit property transfers",
+    "Gaming authorities can revoke, suspend, condition or limit licenses",
+    "Gaming compliance issues in one jurisdiction may trigger reviews in other jurisdictions",
+    "Corporate actions (acquisitions, financing, management changes) require gaming authority approval",
+    "REIT qualification requirements - must distribute 90% of taxable income annually",
+    "Environmental compliance laws (federal, state, local) for property ownership",
+    "Climate change laws and building performance standards (energy emissions reduction)",
+    "Twelve leased properties subject to energy benchmarking/building performance standards",
+    "New climate disclosure rules from SEC (pending litigation stay)",
+    "ASC 326 credit loss accounting requirements",
+    "Tax law changes including OECD Pillar Two global minimum tax (15%)",
+    "Foreign currency regulations in Canada and UK",
+    "Ground lease compliance requirements",
+    "Insurance coverage requirements under lease agreements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Leasing revenue": 0.934,
+    "Income from loans": 0.035,
+    "Other income": 0.02,
+    "Golf revenues": 0.011
+  }
+}

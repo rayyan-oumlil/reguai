@@ -1,0 +1,148 @@
+{
+  "ticker": "META",
+  "company_name": "Meta Platforms, Inc.",
+  "company_type": "Technology - Social Media & Internet Services",
+  "geography": {
+    "regions": [
+      "United States & Canada",
+      "Europe",
+      "Asia-Pacific",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "India",
+      "Turkey",
+      "Russia",
+      "Brazil",
+      "Australia",
+      "Hong Kong",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Korea",
+      "Iran",
+      "North Korea",
+      "Mexico",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Venezuela",
+      "Egypt",
+      "Israel",
+      "Saudi Arabia",
+      "South Africa",
+      "UAE"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States and Canada": 0.384,
+      "Europe": 0.233,
+      "Asia-Pacific": 0.274,
+      "Rest of World": 0.109
+    },
+    "assets_by_region": {
+      "United States": 0.862,
+      "Rest of the world": 0.138
+    }
+  },
+  "segments": [
+    "Family of Apps (FoA)",
+    "Reality Labs (RL)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia"
+    ],
+    "dependencies": [
+      "Third-party manufacturers for consumer hardware products with significant operations in Asia",
+      "Small number of third-party equipment and components for technical infrastructure manufactured by few third parties with significant operations in single region such as Asia",
+      "Third-party providers for substantial portion of technical infrastructure",
+      "Reliance on specific third-party equipment and components for technical infrastructure that are manufactured by small number of third parties"
+    ],
+    "risks": [
+      "Supply chain disruptions from geopolitical challenges, trade disputes, international conflicts",
+      "Tariffs, sanctions, export controls, and other measures that restrict international trade",
+      "Supply or labor shortages, strikes or other disruptions in logistics and supply chain",
+      "Manufacturing depends on small number of third parties with significant operations in single region such as Asia",
+      "Actions by governments or geopolitical events such as international conflicts could reduce or eliminate ability of suppliers to manufacture or limit ability to purchase key components",
+      "Concentration risk - reliance on third-party equipment and components manufactured by small number of third parties often with significant operations in single region",
+      "Difficulties in staffing, managing, and overseeing global operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "General Data Protection Regulation (GDPR) compliance and evolving interpretation",
+    "Digital Markets Act (DMA) restrictions on data combination, mergers, product design",
+    "Digital Services Act (DSA) content moderation and platform requirements",
+    "EU AI Act requirements for artificial intelligence",
+    "UK Digital Markets, Competition and Consumer Act (DMCC)",
+    "California Consumer Privacy Act (CCPA) and other U.S. state privacy laws",
+    "Children's Online Privacy Protection Act (COPPA) compliance",
+    "Youth social media laws restricting services to minors in multiple U.S. states (Arkansas, Utah, Texas, California, Florida)",
+    "Australia social media ban for users under 16 years old",
+    "ePrivacy Directive requirements on cookies and data use across messaging",
+    "FTC modified consent order requiring enhanced privacy compliance and oversight",
+    "Section 230 Communications Decency Act protections under legislative and judicial scrutiny",
+    "EU-U.S. Data Privacy Framework (EU-U.S. DPF) and Standard Contractual Clauses (SCCs) for data transfers",
+    "Irish Data Protection Commission (IDPC) investigations and fines",
+    "European Commission competition investigations (Facebook Marketplace tying, subscription model compliance)",
+    "FTC antitrust lawsuit seeking divestiture of Instagram and WhatsApp",
+    "Antitrust investigations by U.S. Department of Justice",
+    "Content removal and moderation requirements in Germany, India, Turkey, Brazil",
+    "European Copyright Directive requiring authorizations for copyrighted content",
+    "Online Safety Act in UK and Online Safety and Media Regulation Act in Ireland",
+    "Digital services taxes and other non-income-based tax levies",
+    "Data localization and storage requirements in UK, India, Turkey",
+    "Anti-money laundering and counter-terrorist financing regulations for Payments",
+    "CFPB Larger Participant Rule for digital consumer payment applications",
+    "Import and export controls, trade restrictions, and sanctions (U.S. Office of Foreign Assets Control)",
+    "Foreign Corrupt Practices Act and UK Bribery Act 2010 compliance",
+    "Hong Kong National Security Law affecting content and user data",
+    "Russian government service restrictions and prohibitions",
+    "Chinese government potential actions affecting advertising revenue",
+    "Turkish social media legislation with fines and service restrictions",
+    "Canadian legislation requiring payment to publishers for news content",
+    "Brazilian intermediary liability framework under constitutional review",
+    "Indian Digital Personal Data Protection Act",
+    "Korean Personal Information Protection Act",
+    "Tax Act (2017 Tax Cuts and Jobs Act) mandatory capitalization of R&D expenses",
+    "OECD Base Erosion and Profit Shifting Project and 15% global minimum tax regime",
+    "Transfer pricing regulations and IRS examinations",
+    "State and federal legislative efforts to modify Section 230 protections",
+    "Electoral-related and AI-generated content regulations",
+    "Counterfeit goods and copyright-infringing material liability",
+    "Gambling, banking, and lending regulations for evolving Payments products"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "North Korea",
+      "Hong Kong",
+      "Turkey",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. Office of Foreign Assets Control sanctions compliance",
+      "Economic sanctions and import/export restrictions",
+      "Potential elimination of China-based advertising revenue due to trade dispute with United States or tariffs",
+      "Russia service restrictions and prohibitions following war in Ukraine",
+      "Iran and North Korea access restrictions",
+      "Hong Kong National Security Law enforcement risks",
+      "Actions by governments affecting technical infrastructure and operations",
+      "Geopolitical events such as international conflicts affecting supply chain and operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Family of Apps": 0.987,
+    "Reality Labs": 0.013
+  }
+}

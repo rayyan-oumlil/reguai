@@ -1,0 +1,112 @@
+{
+  "ticker": "MKTX",
+  "company_name": "MarketAxess Holdings Inc.",
+  "company_type": "Financial Services - Electronic Trading Platforms",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia and Pacific (APAC)",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Netherlands",
+      "Singapore",
+      "Canada",
+      "Brazil",
+      "Hong Kong",
+      "Australia",
+      "Switzerland",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Norway",
+      "Finland",
+      "Denmark",
+      "China",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "South Africa"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.696,
+      "United Kingdom": 0.198,
+      "Other": 0.106
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commissions (Credit)",
+    "Commissions (Rates)",
+    "Commissions (Other - Equities and Foreign Exchange)",
+    "Information Services",
+    "Post-trade Services",
+    "Technology Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Third-party software and hardware vendors",
+      "Data center hosting providers",
+      "Third-party clearing brokers",
+      "Bond reference database providers",
+      "Cybersecurity service providers",
+      "Data processors",
+      "Cloud service providers",
+      "ICBC Financial Services (clearing provider for U.S. government bonds)",
+      "Online service providers",
+      "Settlement agents",
+      "Communications providers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party suppliers for key products and services including computers, equipment, software licenses, bond reference databases, clearing and settlement of Open Trading transactions, and technology underpinning key portions of MarketAxess Rates platform. Dependence on external data sources from competitors, clients, self-regulatory organizations, rating agencies and third-party data providers.",
+    "risks": "Third-party vendors may not continue to provide services efficiently or cost-effectively. Vendors may not adequately expand services to meet needs or meet increasing regulatory requirements. Disruptions in third-party services (including cybersecurity incidents) could materially adversely affect business. Example: November 2023 ransomware attack on ICBC (clearing provider) required switching to different clearing arrangement. Competitors could revise terms or cease providing data/information services. Adverse changes in relationships with third-party service providers could have material adverse effect.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive government and self-regulatory organization regulation in U.S. and internationally",
+    "SEC proposed rules to expand Regulation ATS and Regulation SCI to alternative trading systems trading government securities",
+    "SEC proposed amendment to definition of 'exchange' to include Communication Protocol Systems (RFQ protocols)",
+    "SEC final rules on central clearing of U.S. Treasury securities (effective December 31, 2025 for cash transactions, June 30, 2026 for repo)",
+    "MiFID II and MiFIR compliance requirements in EU and UK",
+    "MiFIR Review changes including consolidated tape framework, data quality standards, organizational requirements for APAs and ARMs",
+    "Digital Operational Resilience Act (DORA) applicable from January 2025 with ICT governance, risk management, resilience testing requirements",
+    "Brexit-related divergence of UK and EU legal/regulatory requirements increasing complexity and costs",
+    "GDPR and UK Data Protection regime compliance",
+    "California Consumer Privacy Act (CCPA) compliance",
+    "Privacy and data protection laws across multiple jurisdictions",
+    "Regulatory capital requirements for broker-dealer subsidiaries",
+    "Rule 15c3-3 special reserve requirements",
+    "FCA regulation in UK, AFM and DNB regulation in Netherlands, ESMA regulation in EU",
+    "FINRA, MSRB, NFA, CFTC regulation in U.S.",
+    "Regulatory approval requirements for changes in control of subsidiaries",
+    "Increasing regulatory focus on cybersecurity governance and risk management",
+    "AI technology regulation evolving with potential intellectual property and compliance impacts",
+    "Potential new U.S. presidential administration policy changes affecting pending regulatory proposals"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions levied against states or individuals could expose company to significant operational and regulatory risks",
+      "February 2022 sanctions following Russia-Ukraine war prohibited transactions with Russian entities including major banks, limited transactions in Russian sovereign debt, constrained investment/trade/financing in certain Ukraine regions",
+      "Sanctions may limit ability to effect transactions in certain instruments on platforms",
+      "Expanded sanctions or ongoing war/geopolitical tensions may adversely affect global economy and platform participants",
+      "Sanctions may limit ability to effect transactions in certain instruments on platforms"
+    ]
+  },
+  "revenue_by_segment": {
+    "Commissions": 0.871,
+    "Information services": 0.062,
+    "Post-trade services": 0.052,
+    "Technology services": 0.015
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+  "category": "Category: PRIVACY\n\nExplanation: This appears to be the EU's Artificial Intelligence Act, which primarily focuses on regulating AI systems to protect personal data and fundamental privacy rights while ensuring trustworthy AI development. The reference to Articles 16 (right to protection of personal data) in the legal basis and emphasis on protecting fundamental rights indicates its core privacy focus.",
+  "legalbert_confidence": 1.0,
+  "extracted_info": {
+    "title": "Artificial Intelligence Act",
+    "country": "European Union",
+    "effective_date": "2026-08-02",
+    "affected_sectors": [
+      "All sectors developing or deploying AI systems",
+      "Law enforcement",
+      "Border control",
+      "Immigration",
+      "Education",
+      "Employment",
+      "Critical infrastructure",
+      "Healthcare",
+      "Financial services",
+      "Public sector"
+    ],
+    "key_requirements": [
+      "Data governance and quality requirements",
+      "Technical documentation and record keeping",
+      "Transparency obligations to users",
+      "Human oversight requirements",
+      "Cybersecurity requirements",
+      "Registration in EU database",
+      "Post-market monitoring system",
+      "Risk management system",
+      "Conformity assessments",
+      "Privacy and data protection safeguards",
+      "Fundamental rights impact assessments"
+    ],
+    "penalties": [
+      "Up to €35 million or 7% of global annual turnover for prohibited AI practices",
+      "Up to €15 million or 3% of global annual turnover for non-compliance with other requirements",
+      "Up to €7.5 million or 1% of global annual turnover for supplying incorrect information",
+      "Penalties must be effective, proportionate and dissuasive",
+      "Specific considerations for SMEs and startups"
+    ]
+  },
+  "processing_status": "completed"
+}

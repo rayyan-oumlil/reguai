@@ -1,0 +1,147 @@
+{
+  "ticker": "WBD",
+  "company_name": "Warner Bros. Discovery, Inc.",
+  "company_type": "Media and Entertainment",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe",
+      "Latin America",
+      "Asia",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Netherlands",
+      "Belgium",
+      "Poland",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Turkey",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "New Zealand",
+      "South Korea",
+      "Singapore",
+      "Thailand",
+      "Indonesia",
+      "Philippines",
+      "Russia",
+      "Ukraine",
+      "Georgia",
+      "Texas"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.672,
+      "Non-United States": 0.328
+    },
+    "assets_by_region": {
+      "United States": 0.729,
+      "United Kingdom": 0.163,
+      "Other non-United States": 0.108
+    }
+  },
+  "segments": [
+    "Studios",
+    "Networks",
+    "DTC"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Content production dependent on third-party producers and sports associations",
+      "Distribution dependent on cable, DTH satellite, telecommunications and digital service providers",
+      "Reliance on communications satellites and transmitter facilities for programming transmission",
+      "Dependence on technology platforms including cloud services and content delivery networks"
+    ],
+    "risks": [
+      "Service disruptions or failure of communications satellites or transmitter facilities",
+      "Consolidation of distribution customers reducing negotiating leverage",
+      "Dependence on third-party platforms owned by competitors for digital and linear distribution",
+      "Limited number of service providers for transmission of programming",
+      "Concentration risk with distributors having increased market power"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulations on content networks and distributors",
+    "Program access rules preventing discrimination against unaffiliated MVPDs",
+    "Program carriage rules prohibiting favoritism of affiliated networks",
+    "Must-carry and retransmission consent regulations",
+    "Closed-captioning and accessibility requirements for persons with disabilities",
+    "Children's advertising restrictions under COPPA",
+    "Emergency alert regulations and CALM Act compliance",
+    "Obscenity restrictions on content transmission",
+    "U.S. federal and state privacy laws including CCPA and VPPA",
+    "Data security and data breach notification obligations",
+    "Comprehensive U.S. state privacy laws in multiple jurisdictions",
+    "Online safety regulations for children and teens",
+    "Content moderation and user-generated content regulations",
+    "FCC consideration of digital services as MVPDs",
+    "Foreign laws and regulations in international jurisdictions on content production, monetization and distribution",
+    "Consumer protection laws in international markets",
+    "Data privacy and security regulations internationally including GDPR",
+    "Advertising regulations in international markets",
+    "Competition law restrictions in international markets",
+    "Content limitations and censorship in foreign jurisdictions",
+    "Local content quotas and investment obligations",
+    "Foreign ownership restrictions",
+    "Intellectual property laws and copyright regulations",
+    "Anti-corruption laws including Foreign Corrupt Practices Act and UK Bribery Act",
+    "Sanction laws administered by Office of Foreign Assets Control",
+    "Sanctions on Russia, Ukraine, China and other countries",
+    "Restrictions on transfers of personal data under foreign privacy laws",
+    "U.S. national security regulations on sensitive personal data",
+    "Environmental, social and governance laws including EU Corporate Sustainability Reporting Directive",
+    "Greenhouse gas emission regulations in California and other jurisdictions",
+    "OECD Pillar Two Global Anti-Base Erosion rules introducing 15% global minimum corporate tax",
+    "State aid scrutiny by European Commission affecting financial incentives",
+    "Tax policy changes and international tax system reforms",
+    "Potential restrictions on financial incentives for content production in various jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "North Korea"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed on Russia and certain Ukrainian territories",
+      "Sanctions imposed on China",
+      "Sanctions administered by Office of Foreign Assets Control restricting dealings with sanctioned countries, territories, individuals and entities",
+      "Increased cybersecurity risks from state-sponsored parties or supporters in connection with geopolitical events including conflicts in Europe and Middle East and tensions with Russia, China, North Korea, Iran",
+      "Potential for political, social or economic unrest, terrorism, hostilities, cyber-attacks or war including ongoing conflicts in Europe and the Middle East"
+    ]
+  },
+  "revenue_by_segment": {
+    "Studios": 0.295,
+    "Networks": 0.513,
+    "DTC": 0.262,
+    "Corporate and Inter-segment Eliminations": -0.07
+  }
+}

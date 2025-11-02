@@ -1,0 +1,43 @@
+{
+  "document_id": "5.中华人民共和国能源法__中国政府网.html",
+  "category": "Category: Environmental\n\nExplanation: This is China's Energy Law which primarily focuses on energy development, sustainability, and environmental protection. It includes provisions for renewable energy, carbon emissions reduction, and promoting clean energy development while protecting ecological systems.",
+  "legalbert_confidence": 1.0,
+  "extracted_info": {
+    "title": "Energy Law of the People's Republic of China",
+    "country": "China",
+    "effective_date": "January 1, 2025",
+    "affected_sectors": [
+      "Energy production and supply",
+      "Power generation",
+      "Oil and gas",
+      "Coal industry",
+      "Renewable energy",
+      "Nuclear energy",
+      "Energy storage",
+      "Energy transmission and distribution",
+      "Energy trading",
+      "Energy conservation"
+    ],
+    "key_requirements": [
+      "Prioritize development of renewable energy and clean energy sources",
+      "Establish energy reserve systems and emergency response mechanisms",
+      "Improve energy efficiency and reduce energy consumption",
+      "Build unified national energy trading markets",
+      "Implement energy measurement and monitoring systems",
+      "Ensure fair access to energy transmission networks",
+      "Develop energy technology innovation capabilities",
+      "Protect energy infrastructure security",
+      "Coordinate urban and rural energy development",
+      "Report energy-related data and information to authorities"
+    ],
+    "penalties": [
+      "Administrative sanctions for government officials who abuse power or neglect duties",
+      "Fines of 100,000-200,000 yuan for violations of information disclosure requirements",
+      "Fines up to twice the amount of economic losses for unfair network access",
+      "Fines of 10,000-50,000 yuan for individuals and 100,000-500,000 yuan for organizations violating emergency response duties",
+      "Business suspension or license revocation for serious violations",
+      "Criminal liability for actions constituting crimes"
+    ]
+  },
+  "processing_status": "completed"
+}

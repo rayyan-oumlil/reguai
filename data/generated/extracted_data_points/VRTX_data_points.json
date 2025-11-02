@@ -1,0 +1,154 @@
+{
+  "ticker": "VRTX",
+  "company_name": "Vertex Pharmaceuticals Incorporated",
+  "company_type": "Biotechnology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Canada",
+      "Australia",
+      "Middle East",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "European Union member states",
+      "Canada",
+      "Australia",
+      "Saudi Arabia",
+      "Bahrain",
+      "United Arab Emirates",
+      "Switzerland",
+      "China",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Luxembourg",
+      "Austria",
+      "New Zealand",
+      "Massachusetts",
+      "Boston",
+      "San Diego",
+      "London"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.607,
+      "Europe": 0.313,
+      "Other": 0.08
+    },
+    "assets_by_region": {
+      "United States": 0.926,
+      "United Kingdom": 0.068,
+      "Other": 0.006
+    }
+  },
+  "segments": [
+    "Cystic Fibrosis",
+    "Sickle Cell Disease and Transfusion-Dependent Beta Thalassemia",
+    "Acute Pain",
+    "APOL1-Mediated Kidney Disease",
+    "IgA Nephropathy",
+    "Type 1 Diabetes",
+    "Myotonic Dystrophy Type 1",
+    "Autosomal Dominant Polycystic Kidney Disease",
+    "Peripheral Neuropathic Pain"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "CRISPR Therapeutics AG",
+      "Moderna, Inc.",
+      "Entrada Therapeutics, Inc.",
+      "Contract manufacturing organizations in China",
+      "Lloyds Pharmacy",
+      "Lonza",
+      "McKesson Corporation",
+      "Walgreen Co.",
+      "Third-party manufacturers in Europe",
+      "Accredo Health Group, Inc."
+    ],
+    "manufacturing_locations": [
+      "Boston, Massachusetts (internal small molecule manufacturing)",
+      "China (third-party contract manufacturers)",
+      "European Union (third-party contract manufacturers)",
+      "Global network of third parties"
+    ],
+    "dependencies": [
+      "Third-party contract manufacturers for majority of commercial supply",
+      "Single sourced critical steps and key materials for manufacturing process",
+      "Global supply chain for raw materials sourcing",
+      "Multi-step international manufacturing process",
+      "Third-party manufacturers for CASGEVY cell culture reagents and gene-editing components",
+      "Complex manufacturing for biological and cell/genetic therapies requiring different systems, equipment, facilities, and expertise"
+    ],
+    "risks": [
+      "Supply chain disruptions from geopolitical actions including war and terrorism",
+      "Production shortages from events affecting raw material supply or manufacturing capabilities abroad",
+      "Import and export licensing requirements, tariffs, and trade restrictions",
+      "Reliance on third-party manufacturers including some in China",
+      "Potential inability of third-party manufacturers to meet requirements",
+      "Manufacturing facilities subject to FDA and foreign government inspections",
+      "Regulatory approval delays for manufacturing facilities",
+      "Single sourced critical manufacturing steps and materials",
+      "Complex multi-step global supply chain",
+      "Coordination challenges for CASGEVY manufacturing across multiple facilities",
+      "Potential U.S. legislation limiting use of Chinese biotechnology equipment/services",
+      "Risk of Chinese service providers being restricted from U.S. business"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA approval requirements and delays",
+    "EMA and foreign regulatory authority approval processes",
+    "cGMP compliance requirements for manufacturing",
+    "Post-approval regulatory oversight and potential restrictions",
+    "Clinical trial regulatory requirements and potential holds",
+    "Product labeling restrictions and warnings",
+    "Risk of product approval withdrawal",
+    "Foreign regulatory approval uncertainties",
+    "Differing regulatory requirements across jurisdictions",
+    "Cell and gene therapy specific regulatory scrutiny",
+    "Potential revised regulatory requirements for cell/genetic therapies",
+    "Healthcare fraud and abuse laws (Anti-Kickback Statute, False Claims Act)",
+    "Promotional and marketing regulation restrictions",
+    "Off-label promotion prohibitions",
+    "Medicaid Drug Rebate Program compliance",
+    "340B Drug Discount Program requirements",
+    "Government pricing program obligations",
+    "Inflation Reduction Act drug pricing provisions",
+    "Medicare Drug Price Negotiation Program",
+    "State Prescription Drug Affordability Boards (PDABs)",
+    "Drug importation programs",
+    "Price transparency laws",
+    "FCPA compliance for international operations",
+    "U.K. Bribery Act compliance",
+    "Data privacy regulations (GDPR, state privacy laws)",
+    "HIPAA compliance risks",
+    "Environmental, health and workplace safety regulations",
+    "Potential compulsory licensing or march-in rights",
+    "State laws regulating manufacturer-pharmacy relationships",
+    "BIOSECURE Act potential restrictions on Chinese suppliers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in tariffs, trade barriers, and regulatory requirements",
+      "U.S.-China trade policy uncertainty",
+      "Potential restrictions on Chinese biotechnology service providers",
+      "Legislation limiting use of Chinese equipment/services",
+      "Import/export control law compliance",
+      "Sanctions affecting ability to conduct business with specific vendors",
+      "Trade restrictions impacting foreign third-party manufacturers and suppliers"
+    ]
+  },
+  "revenue_by_segment": {
+    "Pharmaceuticals": 1.0
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "ticker": "WFC",
+  "company_name": "Wells Fargo & Company",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "Philippines",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Banking and Lending",
+    "Commercial Banking",
+    "Corporate and Investment Banking",
+    "Wealth and Investment Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "",
+    "risks": "",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Enhanced supervision and regulation of systemically important firms under Dodd-Frank Act",
+    "Regulatory capital, leverage and liquidity requirements (Basel III, stress testing)",
+    "Living will requirements and orderly liquidation authority",
+    "Deposit insurance assessments and potential special assessments by FDIC",
+    "Consumer Financial Protection Bureau (CFPB) regulations on consumer financial products",
+    "CFPB rule on personal financial data rights (Section 1033 of Dodd-Frank Act) requiring data sharing with third parties",
+    "CFTC and SEC comprehensive regulation of swaps and security-based swaps",
+    "Climate change disclosure requirements (SEC rules, California laws, EU CSRD and CSDDD)",
+    "USA PATRIOT Act requirements on anti-money laundering, economic sanctions, and due diligence",
+    "Consent orders and regulatory actions requiring changes to business operations and risk management",
+    "Privacy provisions under Gramm-Leach-Bliley Act and Fair Credit Reporting Act",
+    "Community Reinvestment Act (CRA) performance requirements",
+    "Restrictions on dividend payments and share repurchases based on capital planning and stress test results",
+    "Federal Reserve Board enhanced prudential requirements for large BHCs",
+    "OCC heightened governance and risk management standards for large national banks",
+    "Sarbanes-Oxley Act corporate governance and accounting measures",
+    "State-level climate-related disclosure laws and sustainability restrictions",
+    "Varying and potentially conflicting approaches by governments on climate change regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "OFAC sanctions compliance - accounts held by Government of Iran employees blocked and reported",
+      "Executive Order 13224 sanctions - wire deposits related to legal services for designated persons"
+    ]
+  }
+}

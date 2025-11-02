@@ -1,0 +1,137 @@
+{
+  "ticker": "MCHP",
+  "company_name": "Microchip Technology Incorporated",
+  "company_type": "Semiconductor",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Central America",
+      "South America",
+      "Germany",
+      "China",
+      "Taiwan",
+      "Thailand",
+      "Philippines",
+      "India",
+      "France",
+      "United Kingdom",
+      "Ireland",
+      "Malta",
+      "Malaysia",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Japan",
+      "Singapore",
+      "Hong Kong",
+      "Macau",
+      "Iran",
+      "North Korea",
+      "Syria",
+      "Venezuela",
+      "Cuba",
+      "Burma",
+      "Cambodia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.302,
+      "Europe": 0.199,
+      "Asia": 0.499
+    },
+    "assets_by_region": {
+      "United States": 0.653,
+      "Thailand": 0.093,
+      "Various other countries": 0.254
+    }
+  },
+  "segments": [
+    "Mixed-signal Microcontrollers",
+    "Analog",
+    "FPGA",
+    "Memory",
+    "Technology Licensing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Arrow Electronics"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Thailand",
+      "Philippines",
+      "Taiwan",
+      "Malaysia",
+      "China"
+    ],
+    "dependencies": "Reliance on outside wafer foundries for approximately 64% of wafer fabrication needs; dependence on third-party contractors for assembly and test operations; single or limited number of suppliers for certain raw materials and equipment",
+    "risks": "Supply chain disruptions due to geopolitical tensions, tariffs, trade restrictions, public health concerns, natural disasters, transit disruptions; concentration risk with wafer foundries in Taiwan and China; rare earth minerals primarily available from China; potential restrictions on sales to certain customers or countries; increased costs due to tariffs and supply constraints",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export Administration Regulations (EAR) compliance and export license requirements",
+    "International Traffic in Arms Regulations compliance",
+    "Economic embargoes and trade sanctions against certain countries (Russia, Belarus, China, Iran, North Korea, Syria, Venezuela, Cuba, Burma, Cambodia)",
+    "Foreign Corrupt Practices Act compliance",
+    "U.S. Commerce Department restrictions on advanced computing ICs and semiconductor manufacturing items involving China, Hong Kong, and Macau",
+    "Entity List additions restricting transactions with certain Chinese companies",
+    "Prohibition on sales to military end-users or for military intelligence end-use in certain countries",
+    "U.S. National Defense Authorization Act (NDAA) Section 5949 prohibiting procurement from certain Chinese semiconductor manufacturers (SMIC, YMTC, CXMT) effective December 2027",
+    "Cybersecurity Maturity Model Certification requirements for government contracts",
+    "CHIPS Act restrictions and operational requirements for grant recipients",
+    "EU General Data Protection Regulation (GDPR) and UK GDPR compliance",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) compliance",
+    "Data localization and cross-border data transfer restrictions",
+    "EU Cyber Resilience Act and Cybersecurity Act compliance",
+    "AI regulations in U.S., EU, and China",
+    "Environmental regulations including greenhouse gas emissions limits (Colorado Regulation 27)",
+    "SEC climate-related disclosure requirements",
+    "Conflict minerals regulations (Dodd-Frank Act)",
+    "Responsible Minerals Initiative compliance requirements",
+    "Income tax regulations and transfer pricing audits in multiple jurisdictions",
+    "GILTI (Global Intangible Low-Taxed Income) taxation",
+    "OECD Base Erosion Profit Shifting (BEPS) recommendations and Global Minimum Tax",
+    "Corporate Alternative Minimum Tax under Inflation Reduction Act",
+    "National Industrial Security Program Operating Manual requirements for classified contracts",
+    "Controlled unclassified information and export-controlled data handling regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Taiwan",
+      "Iran",
+      "North Korea",
+      "Syria",
+      "Venezuela",
+      "Cuba",
+      "Burma",
+      "Cambodia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions against Russia due to invasion of Ukraine impacting sales to Russia and Belarus",
+      "U.S. export controls and sanctions targeting China, including restrictions on Huawei and related companies",
+      "Potential restrictions on sales of products to Chinese companies or for Chinese military end-use",
+      "Risk of retaliatory tariffs and trade restrictions by China and other countries",
+      "Sanctions prohibiting sales to Iran, North Korea, Syria, Venezuela, Cuba, Burma, Cambodia for military or intelligence end-use",
+      "Potential disruption to supply chain due to sanctions affecting raw materials from Russia, Belarus, Ukraine (neon, palladium, cesium, rubidium, nickel)",
+      "Risk of Chinese government restrictions on sales of Microchip products or requirements to purchase Chinese-made alternatives",
+      "Geopolitical tensions between China and Taiwan potentially disrupting operations of Taiwan-based foundries and subcontractors"
+    ]
+  },
+  "revenue_by_segment": {
+    "Mixed-signal Microcontrollers": 0.511,
+    "Analog": 0.263,
+    "Other": 0.226
+  }
+}

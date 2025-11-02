@@ -1,0 +1,139 @@
+{
+  "ticker": "VRSK",
+  "company_name": "Verisk Analytics, Inc.",
+  "company_type": "Data Analytics and Technology Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Europe",
+      "Asia Pacific",
+      "Canada",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "China",
+      "Costa Rica",
+      "France",
+      "Germany",
+      "India",
+      "Ireland",
+      "Italy",
+      "Japan",
+      "Nepal",
+      "Poland",
+      "Republic of Korea",
+      "Singapore",
+      "Spain",
+      "Sweden",
+      "Puerto Rico",
+      "Guam",
+      "Virgin Islands",
+      "District of Columbia",
+      "Austria",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.828,
+      "United Kingdom": 0.074,
+      "Other countries": 0.098
+    },
+    "assets_by_region": {
+      "United States": 0.681,
+      "United Kingdom": 0.166,
+      "Other countries": 0.129
+    }
+  },
+  "segments": [
+    "Insurance",
+    "Underwriting",
+    "Claims",
+    "Extreme Event Solutions",
+    "Life Insurance Solutions",
+    "Specialty Business Solutions",
+    "Marketing Solutions",
+    "International Underwriting Solutions",
+    "Property Estimating Solutions",
+    "Anti-Fraud Solutions",
+    "Casualty Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Citibank, N.A.",
+      "JPMorgan Chase N.A.",
+      "Goldman Sachs Bank USA",
+      "Bank of America N.A.",
+      "HSBC Bank USA, N.A.",
+      "Wells Fargo Bank, National Association",
+      "Northern Trust Company",
+      "Morgan Stanley Bank, N.A.",
+      "TD Bank, N.A."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on data from external sources including customers and government/public record services",
+      "Reliance on third-party service providers for cloud-based infrastructure and critical services",
+      "Dependence on large numbers of skilled employees",
+      "Reliance on higher credit quality financial institutions for cash management",
+      "Dependence on technology vendors for cloud-based infrastructure creating single point of failure risk"
+    ],
+    "risks": [
+      "Data sources could withdraw or increase prices for their data",
+      "Loss of access to data due to government regulation or policy",
+      "Third-party data collection issues could prevent legal use/processing of data",
+      "Cloud provider disruption or interference would impact operations",
+      "Difficulty switching cloud providers due to lock-in risk",
+      "Increased competition for skilled employees",
+      "Attrition rate increases could decrease operating efficiency",
+      "Technology vendor providing critical services creates pricing and contract lock-in risk"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Fair Credit Reporting Act regulations on consumer credit report information use",
+    "Gramm-Leach-Bliley Act regulations on nonpublic personal financial information",
+    "Drivers Privacy Protection Act prohibiting disclosure of personal information from motor vehicle records",
+    "European Union General Data Protection Regulation (GDPR) compliance requirements",
+    "State insurance codes licensing requirements in all 50 states, Puerto Rico, Guam, U.S. Virgin Islands, and District of Columbia",
+    "McCarran-Ferguson Act subjecting operations to state rather than federal regulation",
+    "State antitrust and trade practice statutes enforcement",
+    "Data privacy and protection laws restricting use and disclosure of personal information",
+    "Changes in cultural and consumer attitudes favoring restrictions on information collection and sharing",
+    "Potential amendments or enactments of laws restricting access and use of personal information",
+    "State regulatory requirements for statistical data reporting by P&C insurers",
+    "Periodic examinations by state regulators of licensed advisory organization activities",
+    "U.S. government procurement laws and regulations affecting government contracts",
+    "Government contract termination rights for convenience or default",
+    "Anti-corruption laws including U.K. Bribery Act 2010 and U.S. Foreign Corrupt Practices Act",
+    "U.S. Office of Foreign Assets Control regulations",
+    "Export controls and sanctions compliance requirements",
+    "California Consumer Privacy Act (CCPA) compliance",
+    "Health Insurance Portability and Accountability Act (HIPAA) compliance",
+    "Payment Card Industry (PCI) standard compliance",
+    "Dodd Frank Wall Street Reform and Consumer Protection Act requirements",
+    "Daniel's Law compliance for judicial and law enforcement officer data protection",
+    "California Invasion of Privacy Act compliance",
+    "Potential mandatory global carbon pricing regulations",
+    "Climate-related reporting obligations",
+    "Visa and immigration policy changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. Office of Foreign Assets Control sanctions compliance",
+      "Potential restrictions on repatriation of earnings from foreign operations",
+      "Export controls and sanctions affecting international operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Underwriting": 0.703,
+    "Claims": 0.297
+  }
+}

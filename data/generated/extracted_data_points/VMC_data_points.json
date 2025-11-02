@@ -1,0 +1,101 @@
+{
+  "ticker": "VMC",
+  "company_name": "Vulcan Materials Company",
+  "company_type": "Construction Materials",
+  "geography": {
+    "regions": [
+      "East",
+      "Gulf Coast",
+      "West"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Canada",
+      "Honduras",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "East": 0.31,
+      "Gulf Coast": 0.48,
+      "West": 0.27
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aggregates",
+    "Asphalt",
+    "Concrete"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Bahamas",
+      "Canada",
+      "Honduras",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Aggregates have a high weight-to-price ratio that makes transportation expensive relative to the cost of material",
+      "Approximately 80% of total aggregates shipments are delivered exclusively from the producing location to the customer by truck",
+      "Production requires explosives, hydrocarbon fuels and electric power",
+      "Asphalt mix production requires liquid asphalt cement purchased from third-party producers",
+      "Ready-mixed concrete production requires cement purchased from third-party producers"
+    ],
+    "risks": [
+      "Availability and cost of trucks, railcars, barges and ships, as well as their licensed operators, for transport of materials",
+      "Energy costs",
+      "Costs of hydrocarbon-based raw materials",
+      "Truck driver and rail crew shortages",
+      "Capacity constraints and minimum tonnage requirements",
+      "Rail service interruptions or rate increases",
+      "Tariffs",
+      "Rising fuel costs",
+      "Truck/railcar/barge shortages"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Zoning and permitting regulations curtail expansion in certain areas",
+    "Stricter laws and regulations, or more stringent interpretations of existing laws or regulations, may impose new liabilities, taxes or tariffs",
+    "Regulations may reduce operating hours, require additional investment in pollution control equipment, create restrictions on products, impede access to reserves or hamper opening of new or expansion of existing plants or facilities",
+    "Federal, state and local laws and regulations relating to protection of environment and worker health and safety",
+    "Regulation of facility air emissions and water discharges",
+    "Waste management regulations",
+    "Protection of wetlands, listed and threatened species",
+    "Noise and dust exposure control for workers",
+    "Safety regulations under Mine Safety and Health Administration (MSHA) and Occupational Safety and Health Administration (OSHA)",
+    "Comprehensive Environmental Response, Compensation and Liability Act (CERCLA or Superfund)",
+    "Climate change legislation or regulations may adversely impact business including provisions for cap and trade system or carbon tax",
+    "Changes in tax laws, guidance and interpretations",
+    "Elimination of deductions (particularly the depletion deduction) or credits",
+    "Expectations relating to environmental, social and governance considerations and related reporting obligations",
+    "Federal, state or international laws and regulations related to sustainability goals",
+    "Claims that products do not meet regulatory requirements or contractual specifications",
+    "Building code or other regulatory requirements for products",
+    "Changes in international trade policies such as United States-Mexico-Canada Agreement (USMCA)",
+    "Imposition of duties, tariffs, taxes or government royalties",
+    "Arbitrary changes to permits, zoning classifications or operating agreements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Mexican government has taken actions adverse to property and operations in Mexico including arbitrary shutdown orders to immediately cease underwater quarrying and extraction operations at Calica operations in Quintana Roo, Mexico (May 2022)",
+      "Mexican government suspended three-year customs permit granted to Calica and began proceeding that could result in revocation of that permit (May 2022)",
+      "Mexican government ordered closure of Calica's already-suspended quarrying activities and shutdown of certain activities at Calica's Punta Venado port facilities (September 2024)",
+      "President of Mexico signed presidential decree declaring entirety of Calica's properties as Natural Protected Area (ANP Decree) prohibiting extraction of petrous or construction materials (September 2024)",
+      "NAFTA arbitration claim filed against United Mexican States for treatment of quarrying operations in Quintana Roo, Mexico arising from Mexico's failure to comply with legally binding zoning agreement and other unfair, arbitrary and capricious actions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Aggregates": 0.74,
+    "Asphalt": 0.17,
+    "Concrete": 0.09
+  }
+}

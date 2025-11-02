@@ -1,0 +1,167 @@
+{
+  "ticker": "WAB",
+  "company_name": "Westinghouse Air Brake Technologies Corporation",
+  "company_type": "Transportation Equipment & Rail Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe",
+      "Asia Pacific",
+      "Africa",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Italy",
+      "Austria",
+      "Czech Republic",
+      "Netherlands",
+      "Poland",
+      "Spain",
+      "Turkey",
+      "Australia",
+      "China",
+      "India",
+      "Kazakhstan",
+      "Republic of North Macedonia",
+      "South Africa",
+      "Egypt"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.474,
+      "Canada": 0.059,
+      "Mexico": 0.026,
+      "North America": 0.56,
+      "South America": 0.043,
+      "Germany": 0.036,
+      "France": 0.036,
+      "United Kingdom": 0.028,
+      "Italy": 0.016,
+      "Other Europe": 0.059,
+      "Europe": 0.175,
+      "India": 0.056,
+      "Kazakhstan / CIS": 0.054,
+      "Australia / New Zealand": 0.046,
+      "China": 0.023,
+      "Other Asia / Middle East": 0.025,
+      "Egypt": 0.003,
+      "Other Africa": 0.016
+    },
+    "assets_by_region": {
+      "United States": 0.641,
+      "Canada": 0.005,
+      "Mexico": 0.024,
+      "North America": 0.669,
+      "South America": 0.028,
+      "Germany": 0.037,
+      "France": 0.041,
+      "United Kingdom": 0.023,
+      "Italy": 0.026,
+      "Other Europe": 0.04,
+      "Europe": 0.167,
+      "India": 0.082,
+      "Kazakhstan / CIS": 0.024,
+      "Australia / New Zealand": 0.011,
+      "China": 0.017,
+      "Egypt": 0.0,
+      "Other Africa": 0.002
+    }
+  },
+  "segments": [
+    "Freight Segment",
+    "Transit Segment",
+    "Equipment",
+    "Digital Intelligence",
+    "Components",
+    "Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Italy",
+      "Czech Republic",
+      "Poland",
+      "China",
+      "India",
+      "Kazakhstan",
+      "Australia"
+    ],
+    "dependencies": [
+      "Third-party suppliers including certain single-sourced suppliers for various components",
+      "Global supply chain for key production inputs including steel, aluminum, copper, rubber, chemicals, polymers",
+      "Reliance on third-party suppliers for raw materials and key inputs with no long-term pricing contracts"
+    ],
+    "risks": [
+      "Supply chain disruptions including component, raw material and chip shortages",
+      "Supplier disputes regarding pricing or performance could adversely affect ability to supply products",
+      "Shortage or discontinuation of certain raw materials or key inputs",
+      "Disruption of supply chain could reduce, prevent or delay production and shipment",
+      "Concentration risk with single-sourced suppliers",
+      "Transportation and distribution route disruptions",
+      "Broad-based inflation, escalation of commodities costs, transportation and logistics costs, labor costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Railroad Administration (FRA) regulations and standards",
+    "Association of American Railroads (AAR) standards",
+    "International Union of Railways (UIC) standards",
+    "European Railway Agencies regulations",
+    "European Committees for Standardization requirements",
+    "Technical Standards of Interoperability in Europe",
+    "Environmental laws and regulations governing air emissions, water discharges, hazardous substances",
+    "U.S. Environmental Protection Agency emissions and noise standards",
+    "European Union emissions and noise standards",
+    "Climate change regulation and greenhouse gas emission restrictions",
+    "Anti-corruption laws including U.S. Foreign Corrupt Practices Act, French Sapin II Law, U.K. Bribery Act",
+    "Export control regulations administered by U.S. Department of Commerce Bureau of Industry and Security",
+    "Economic sanctions by U.S. Department of Treasury Office of Foreign Assets Control",
+    "Customs requirements and currency exchange regulations",
+    "Transfer pricing regulations",
+    "Product safety, operations, maintenance and mechanical standards",
+    "Positive Train Control (PTC) equipment regulations",
+    "Certification and qualification requirements for suppliers in various jurisdictions",
+    "New product testing and approval processes mandated by government agencies",
+    "Inflation Reduction Act of 2022 provisions including book minimum tax and excise tax on stock buybacks"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Kazakhstan",
+      "China",
+      "India",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and embargoes related to Russia-Ukraine conflict",
+      "Potential retaliatory action by Russian government including nationalization of foreign businesses and assets in Russia",
+      "Economic sanctions on countries and persons administered by U.S. Treasury Office of Foreign Assets Control",
+      "Supply and distribution impacts in Kazakhstan as indirect result from Russian invasion of Ukraine",
+      "Currency impacts in Kazakhstan from ongoing conflict",
+      "Regional instability and geopolitical shifts from international conflicts",
+      "Strategic decisions to alter transportation and distribution routes due to conflicts"
+    ]
+  },
+  "revenue_by_segment": {
+    "Freight Segment": 0.719,
+    "Transit Segment": 0.281
+  }
+}

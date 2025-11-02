@@ -1,0 +1,136 @@
+{
+  "ticker": "MOS",
+  "company_name": "The Mosaic Company",
+  "company_type": "Crop Nutrients and Fertilizer Production",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Asia Pacific",
+      "Europe",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "Peru",
+      "China",
+      "India",
+      "Paraguay",
+      "Saudi Arabia",
+      "Mexico",
+      "Argentina",
+      "Japan",
+      "Colombia",
+      "Australia",
+      "Honduras",
+      "Dominican Republic",
+      "Thailand",
+      "Indonesia",
+      "Belgium",
+      "Morocco",
+      "Russia",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.357,
+      "Brazil": 0.386,
+      "Canpotex": 0.08,
+      "China": 0.048,
+      "Other International": 0.129
+    },
+    "assets_by_region": {
+      "United States": 0.515,
+      "Canada": 0.329,
+      "Brazil": 0.123,
+      "Other": 0.033
+    }
+  },
+  "segments": [
+    "Phosphates",
+    "Potash",
+    "Mosaic Fertilizantes"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Various ammonia suppliers",
+      "CF Industries Inc.",
+      "Oil and natural gas refiners (sulfur suppliers)",
+      "North American oil and natural gas refiners"
+    ],
+    "manufacturing_locations": [
+      "United States (Florida, Louisiana, New Mexico)",
+      "Canada (Saskatchewan)",
+      "Brazil",
+      "Peru"
+    ],
+    "dependencies": [
+      "Sulfur from North American oil and gas refiners",
+      "Ammonia from CF Industries and spot market suppliers",
+      "Natural gas for ammonia production and potash mining",
+      "Phosphate rock from owned mines in Florida, Brazil, and Peru",
+      "Canpotex export association for international potash sales"
+    ],
+    "risks": [
+      "Reduced oil refinery operating rates could decrease sulfur availability",
+      "Volatile pricing and availability of sulfur, ammonia, and natural gas",
+      "Transportation disruptions (trucks, railcars, barges, ships)",
+      "Concentration of phosphate production in Florida subject to hurricanes",
+      "Brine inflows at potash shaft mines",
+      "Single-source dependencies for certain raw materials",
+      "Supply chain challenges including transportation and labor shortages"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations (EPA RCRA compliance, water quality standards, greenhouse gas emissions)",
+    "Permitting requirements for mining operations (delays, denials, or restrictive conditions)",
+    "Financial assurance requirements for reclamation and closure obligations",
+    "Canadian resource taxes and royalties (Potash Production Tax, resource surcharge)",
+    "Brazilian mining and environmental regulations (ANM oversight, CFEM resource taxes)",
+    "Climate change regulations (Paris Agreement commitments, carbon taxes in Canada)",
+    "Countervailing duty orders on phosphate imports from Morocco and Russia",
+    "U.S. tariffs on Canadian potash imports (25% tariff risk)",
+    "Trade protection laws and tariff changes",
+    "Environmental justice considerations in permitting",
+    "CERCLA (Superfund) liability for hazardous substance releases",
+    "Consent decrees with EPA and state regulators (Florida, Louisiana)",
+    "Water management and treatment requirements (FDEP, EPA)",
+    "Tailings and gypstack management regulations",
+    "Product registration and labeling requirements",
+    "Tax regulations and audit practices (U.S., Canada, Brazil)",
+    "Foreign currency exchange controls",
+    "Labor and employment regulations",
+    "Mine safety regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Morocco",
+      "China",
+      "Saudi Arabia",
+      "Peru",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict and related sanctions impacting raw material supply",
+      "Countervailing duty orders on phosphate imports from Morocco and Russia",
+      "U.S. tariffs on Canadian potash (25% tariff risk)",
+      "Retaliatory tariffs by Canada on U.S. exports",
+      "Trade tensions between U.S. and China affecting product tariffs",
+      "Political and economic instability in Brazil and Peru",
+      "Nationalization risks in foreign jurisdictions",
+      "Government-imposed restrictions on exports (e.g., Chinese phosphate export taxes)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Phosphates": 0.406,
+    "Potash": 0.215,
+    "Mosaic Fertilizantes": 0.398,
+    "Corporate, Eliminations and Other": -0.019
+  }
+}

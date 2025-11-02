@@ -1,0 +1,123 @@
+{
+  "ticker": "LRCX",
+  "company_name": "Lam Research Corporation",
+  "company_type": "Semiconductor Equipment Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "China",
+      "Europe",
+      "Japan",
+      "Korea",
+      "Southeast Asia",
+      "Taiwan"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Japan",
+      "Korea",
+      "Taiwan",
+      "Malaysia",
+      "India",
+      "Austria",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "China": 0.34,
+      "Korea": 0.22,
+      "Taiwan": 0.19,
+      "Japan": 0.1,
+      "United States": 0.07,
+      "Southeast Asia": 0.05,
+      "Europe": 0.03
+    },
+    "assets_by_region": {
+      "United States": 0.632,
+      "Southeast Asia": 0.166,
+      "Korea": 0.11,
+      "Europe": 0.05,
+      "Taiwan": 0.036,
+      "Japan": 0.003,
+      "China": 0.003
+    }
+  },
+  "segments": [
+    "Deposition",
+    "Etch",
+    "Clean",
+    "Customer Support Business Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "California",
+      "Ohio",
+      "Oregon",
+      "Austria",
+      "Korea",
+      "Malaysia",
+      "Taiwan"
+    ],
+    "dependencies": [
+      "Certain components and sub-assemblies may only be obtained from a single supplier",
+      "Some key parts are subject to long lead-times or available only from a single supplier or limited group of suppliers",
+      "Some sourcing or subassembly is provided by suppliers located in countries other than the countries where manufacturing is conducted"
+    ],
+    "risks": [
+      "Prolonged inability to obtain certain components could impair ability to manage operations, ship products, and generate revenues",
+      "Shortages of semiconductor or other components or materials as a result of increases in demand or decreases in supply, including as a result of export restrictions",
+      "Volatility in the availability and cost of parts, materials or services, including increased costs due to tariffs, rising inflation or interest rates",
+      "Difficulties or delays in obtaining required import or export approvals",
+      "Restrictions on the import and sale of products that incorporate technologies developed or manufactured in whole or in part in certain countries",
+      "Shipment delays and increased costs of shipment due to transportation interruptions, capacity constraints, or fuel shortages",
+      "Information technology or infrastructure failures, including those of a third-party supplier or service provider",
+      "Transportation or supply disruptions based on factors outside control, such as strikes, acts of God, wars, terrorist activities, international conflict, widespread outbreak of illness, or natural or man-made disasters"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export controls and licensing requirements, particularly for sales to China",
+    "U.S. government export restrictions and entity listings of multiple customers in China",
+    "Compliance with U.S. and international laws and regulations, including U.S. export restrictions",
+    "Tariffs and other trade barriers",
+    "Compliance with anti-trust regulations",
+    "Compliance with anti-bribery, anti-corruption, anti-boycott laws (including Foreign Corrupt Practices Act)",
+    "Compliance with conflict minerals and human trafficking regulations",
+    "Compliance with environmental regulations, including management of hazardous materials and carbon emissions",
+    "Compliance with privacy regulations, including General Data Protection Regulation (GDPR)",
+    "Compliance with tax laws and regulations in multiple jurisdictions",
+    "Increasing and evolving environmental regulations, including restrictions on per- and polyfluoroalkyl substances (PFAS)",
+    "California reporting requirements for climate-related disclosures",
+    "Potential additional tariffs on imports",
+    "Changes in state, federal and international tax laws",
+    "Compliance with labor, health and safety regulations",
+    "Intellectual property compliance and protection requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. export license requirements for sales to China significantly impact trade",
+      "U.S. government entity listings restricting sales to certain Chinese entities",
+      "Expanded foreign direct product rule affecting sales to Huawei Technologies Co. Ltd and its affiliates",
+      "Potential for foreign governments to take retaliatory actions",
+      "Risk of additional Chinese companies being added to restricted entity list or unverified list",
+      "Implementation of broad export controls restricting access to technology may cause customers to reconsider use of products",
+      "Trade disputes, impacts and/or disruptions affecting semiconductor industry, particularly with China, Japan, Korea, Taiwan and Asia Pacific region",
+      "Sanctions compliance requirements",
+      "Support of Russia as factor in entity listings"
+    ]
+  },
+  "revenue_by_segment": {
+    "Foundry": 0.45,
+    "Memory": 0.42,
+    "Logic/integrated device manufacturing": 0.13
+  }
+}

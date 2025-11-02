@@ -1,0 +1,92 @@
+{
+  "ticker": "WMB",
+  "company_name": "The Williams Companies, Inc.",
+  "company_type": "Energy Infrastructure - Natural Gas Midstream",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 1.0
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Gas & NGL Marketing Services",
+    "Other",
+    "Transmission & Gulf of America",
+    "West",
+    "Northeast G&P"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party pipelines and facilities interconnected to Williams' pipelines for natural gas and NGL transportation",
+      "Dependence on natural gas supplies from producers in supply basins",
+      "Reliance on third-party service providers for accounting and information technology services",
+      "Dependence on skilled labor, equipment, materials, permits for construction activities"
+    ],
+    "risks": [
+      "Construction cost overruns including due to inflation or tariffs on foreign-made materials and goods (including steel and steel pipes)",
+      "Supplier concentration risks from dependence on single or limited number of suppliers",
+      "Failure of service providers or disruptions to outsourcing relationships",
+      "Third-party pipeline unavailability could reduce capacity to transport or deliver products",
+      "Supply chain disruptions affecting capital project execution"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EPA and state environmental regulations including air quality standards",
+    "Potential new laws restricting natural gas use in buildings or power generation",
+    "FERC regulations and rate case proceedings",
+    "Federal and state pipeline safety regulations",
+    "Cybersecurity regulations from TSA and Coast Guard",
+    "Rate case proceedings and potential rate refunds",
+    "FERC Updated Certificate Policy Statement uncertainty",
+    "Potential changes to depreciation rates through FERC rate cases",
+    "FERC regulation of interstate natural gas pipeline rates and operations",
+    "Climate Commitment Act of Washington State requiring emission allowances",
+    "New or revised emissions standards for volatile organic compounds and methane",
+    "Delays or denials of necessary permits for expansion projects",
+    "Natural Gas Act Section 5 rate adjustments",
+    "State regulations including Washington State Climate Commitment Act requiring carbon allowance purchases",
+    "Pipeline safety regulations under Natural Gas Pipeline Safety Act and PHMSA requirements",
+    "Environmental remediation obligations under CERCLA and state laws",
+    "Environmental laws and regulations including climate change and greenhouse gas emissions regulations",
+    "Gathering regulations by state authorities (Texas Railroad Commission, Louisiana, Ohio, New York)",
+    "Opposition to hydrocarbon-based energy development",
+    "State-level carbon pricing programs",
+    "Regulatory actions that could decrease tariff rates or increase costs",
+    "Environmental restoration and remediation requirements",
+    "Changes in government regulations or their interpretation affecting business operations",
+    "Outer Continental Shelf Lands Act requirements for offshore pipelines",
+    "Greenhouse gas emission regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OPEC and other oil exporting nations' production controls affecting domestic production",
+      "Conflicts in Middle East affecting global financial markets and operations",
+      "Geopolitical turmoil in Middle East and Eastern Europe affecting commodity markets",
+      "Russian invasion of Ukraine creating uncertainty and potential operational impacts",
+      "Acts of terrorism and geopolitical conflicts potentially targeting energy infrastructure"
+    ]
+  },
+  "revenue_by_segment": {
+    "Transmission & Gulf of America": 0.44,
+    "Northeast G&P": 0.19,
+    "West": 0.25,
+    "Gas & NGL Marketing Services": 0.17,
+    "Other": -0.05
+  }
+}

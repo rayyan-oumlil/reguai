@@ -1,0 +1,104 @@
+{
+  "ticker": "WM",
+  "company_name": "Waste Management, Inc.",
+  "company_type": "Environmental Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Western Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Ireland",
+      "United Kingdom",
+      "Belgium",
+      "France",
+      "Germany",
+      "Luxembourg",
+      "Netherlands",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.956,
+      "Canada": 0.039,
+      "Western Europe and other": 0.005
+    },
+    "assets_by_region": {
+      "United States": 0.93,
+      "Canada": 0.063,
+      "Western Europe and other": 0.007
+    }
+  },
+  "segments": [
+    "Collection and Disposal - East Tier",
+    "Collection and Disposal - West Tier",
+    "Recycling Processing and Sales",
+    "WM Renewable Energy",
+    "WM Healthcare Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Natural gas fueling infrastructure not yet broadly available in U.S. and Canada",
+      "Reliance on third-party transportation providers",
+      "Dependence on third-party disposal facilities and transfer stations",
+      "Supply chain constraints on truck deliveries"
+    ],
+    "risks": [
+      "Labor shortages and external strikes impacting operations",
+      "Supply chain constraints reducing availability of certain assets",
+      "Increased costs for wage adjustments and training due to constrained labor market",
+      "Geopolitical conflicts leading to volatility in commodity prices and vendor disruptions",
+      "Significant new restrictions and tariffs on foreign trade could increase cost of equipment procured from outside U.S.",
+      "Shortages in diesel fuel supply or increases in diesel fuel prices",
+      "Market disruption from port strikes negatively impacting recycling commodity prices"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive federal, state, provincial and local environmental regulations (RCRA, CERCLA, Clean Water Act, Clean Air Act)",
+    "Changes in regulations regarding emerging contaminants such as PFAS could result in increased compliance costs",
+    "Extended producer responsibility (EPR) regulations could significantly impact waste and recycling streams",
+    "Regulations requiring diversion of organic wastes away from landfills",
+    "State and local governments mandating recycling and waste reduction, prohibiting disposal of certain materials",
+    "Flow control regulations requiring waste be deposited at specific sites",
+    "Fitness laws allowing agencies to deny or revoke contracts based on compliance history",
+    "Medical waste regulations varying by state with lack of uniformity",
+    "Controlled Substances Act compliance requirements for collection and disposal of controlled substances",
+    "EPA focus on landfill emissions standards and methane measurement technologies",
+    "California Climate Corporate Data Accountability Act requiring Scope 1, 2, and 3 GHG emissions disclosure",
+    "SEC climate-related disclosure rules (currently stayed pending judicial review)",
+    "European Union Corporate Sustainability Reporting Directive (CSRD) requiring extensive sustainability disclosures",
+    "Regulations mandating transition to electric powered vehicles could impair natural gas fleet investments",
+    "Changes to Renewable Fuel Standard (RFS) program could impact RNG business and RINs market volatility",
+    "New U.S. presidential administration may reduce existing renewable fuel targets or increase small refinery exemptions",
+    "Environmental justice requirements in permitting decisions",
+    "Privacy and data protection laws (U.S. and international) related to secure information destruction services",
+    "Foreign Corrupt Practices Act and anti-corruption laws compliance",
+    "Potential changes to tax laws including expiration of alternative fuel tax credits",
+    "Inflation Reduction Act provisions creating uncertainty around tax credits and incentives"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "New U.S. presidential administration calling for substantial changes to foreign trade policy",
+      "Significant new restrictions and tariffs on foreign trade could negatively impact recycling export business and cross-border commerce with Canada",
+      "Geopolitical conflicts and international responses may lead to volatility in commodity prices and vendor disruptions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Collection and Disposal - East Tier": 0.394,
+    "Collection and Disposal - West Tier": 0.375,
+    "Collection and Disposal - Other Ancillary": 0.124,
+    "Recycling Processing and Sales": 0.073,
+    "WM Renewable Energy": 0.014,
+    "WM Healthcare Solutions": 0.018,
+    "Corporate and Other": 0.001
+  }
+}

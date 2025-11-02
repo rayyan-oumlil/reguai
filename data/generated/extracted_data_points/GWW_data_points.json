@@ -1,0 +1,84 @@
+{
+  "ticker": "GWW",
+  "company_name": "W.W. Grainger, Inc.",
+  "company_type": "Industrial Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "Japan",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.82,
+      "Japan": 0.11,
+      "Canada": 0.04,
+      "Other foreign countries": 0.04
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "High-Touch Solutions North America",
+    "Endless Assortment"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia",
+      "United States"
+    ],
+    "dependencies": "More than 5,000 primary suppliers worldwide, no single supplier accounts for more than 5% of total purchases. Products sourced from Asia and other areas increase risk due to lead times and geopolitical risks.",
+    "risks": "Supply chain disruptions from natural disasters, extreme weather, pandemic disease, geopolitical unrest, tariffs, trade issues, detention orders, labor problems, transportation availability, supplier consolidation, inflation, cybersecurity attacks",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Advertising, marketing and internet regulations including use of cookies",
+    "Anti-bribery and corruption laws",
+    "Competition and antitrust regulations",
+    "Data protection including Payment Card Industry Data Security Standard",
+    "Data privacy including California Consumer Privacy Act, Privacy Rights Act, Japan Act on Protection of Personal Information, EU General Data Protection Regulation",
+    "Cybersecurity requirements including protection of information and incident responses",
+    "Environmental protection laws including climate-related regulations, carbon pricing mechanisms, emissions trading systems",
+    "Currency exchange controls and cash repatriation restrictions",
+    "Health and safety laws",
+    "Import and export compliance including U.S. Commerce Department Export Administration Regulations, trade sanctions by Office of Foreign Asset Control, anti-money laundering regulations",
+    "Intellectual property laws",
+    "Labor laws including federal and state wage and hour laws",
+    "Product compliance or safety laws",
+    "Supplier regulations regarding sources of supplies or products",
+    "Tax laws including U.S. taxes on international subsidiaries",
+    "Unclaimed property laws",
+    "Government contract regulations related to procurement, formation and performance",
+    "Disaster or emergency declaration pricing statutes",
+    "New or stricter environmental laws or regulations including climate change disclosure requirements from SEC and California",
+    "EU Corporate Sustainability Reporting Directive",
+    "EU Corporate Sustainability Due Diligence Directive",
+    "Climate-related policies on transportation emissions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions promulgated by Office of Foreign Asset Control",
+      "Changes in U.S. trade policy including new or additional increases in duties or tariffs",
+      "Retaliatory actions by U.S. trade partners",
+      "Geopolitical conflicts and related international responses exacerbating inflationary pressures",
+      "Escalation of geopolitical tensions across the world and potential actions taken in response including sanctions, embargoes or other trade barriers",
+      "Geopolitical unrest affecting supply chain and sourcing"
+    ]
+  },
+  "revenue_by_segment": {
+    "High-Touch Solutions N.A.": 0.8,
+    "Endless Assortment": 0.18,
+    "Other": 0.02
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "ticker": "RTX",
+  "company_name": "RTX Corporation",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia Pacific",
+      "Middle East and North Africa",
+      "Other regions"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Poland",
+      "Romania",
+      "Greece",
+      "Saudi Arabia",
+      "China",
+      "India",
+      "Singapore",
+      "Japan",
+      "Australia",
+      "Israel",
+      "Syria",
+      "Ukraine",
+      "Russia",
+      "Taiwan",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.57,
+      "Europe": 0.2,
+      "Asia Pacific": 0.13,
+      "Middle East and North Africa": 0.04,
+      "Other regions": 0.06
+    },
+    "assets_by_region": {
+      "United States": 0.81,
+      "Europe": 0.07,
+      "Asia Pacific": 0.05,
+      "Middle East and North Africa": 0.01,
+      "Other regions": 0.06
+    }
+  },
+  "segments": [
+    "Collins Aerospace",
+    "Pratt & Whitney",
+    "Raytheon"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "MTU Aero Engines AG",
+      "Japanese Aero Engines Corporation",
+      "Rolls-Royce",
+      "Boeing",
+      "Airbus"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "India",
+      "Mexico",
+      "Singapore",
+      "Puerto Rico",
+      "Canada",
+      "United Kingdom",
+      "Israel"
+    ],
+    "dependencies": [
+      "Single source suppliers for certain raw materials including cobalt, tantalum, chromium, rhenium, nickel, and titanium",
+      "Dependence on foreign sources for certain raw materials",
+      "Reliance on specific procurement requirements that limit suppliers and subcontractors",
+      "Dependence on powder metal suppliers for engine parts manufacturing",
+      "Supply chain disruptions driven by market constraints, inflation, and labor shortages"
+    ],
+    "risks": [
+      "Supply chain disruptions impacting ability to procure raw materials, microelectronics, and commodities",
+      "Geopolitical conditions including conflicts and strained intercountry relations",
+      "Sanctions and trade restrictive activities",
+      "Supplier capacity constraints and quality issues",
+      "Price increases and inflation affecting material and component costs",
+      "Supplier closing, bankruptcy, or financial difficulties",
+      "Concentration risk in certain geographic regions for critical materials",
+      "Rare condition in powder metal used in engine parts requiring accelerated inspections"
+    ],
+    "supplier_concentration": {
+      "Airbus": 0.14,
+      "Boeing": 0.02
+    }
+  },
+  "regulatory_risks": [
+    "U.S. government contract termination for convenience or default",
+    "Federal Acquisition Regulation (FAR) compliance requirements",
+    "Defense Federal Acquisition Regulation Supplement (DFARS) compliance",
+    "Export Administration Regulations (EAR) compliance",
+    "International Traffic in Arms Regulations (ITAR) compliance",
+    "Arms Export Control Act (AECA) compliance",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Federal Aviation Administration (FAA) certification and airworthiness requirements",
+    "Environmental regulations including greenhouse gas emissions and carbon pricing",
+    "Cost Accounting Standards (CAS) compliance disputes",
+    "Deferred Prosecution Agreements (DPA) compliance and monitoring requirements",
+    "SEC Administrative Order compliance",
+    "Department of State Consent Agreement compliance for export controls",
+    "Suspension or debarment from U.S. government contracting",
+    "Industrial cooperation and offset obligations (ICIP agreements)",
+    "Cybersecurity regulations and mandatory disclosure obligations",
+    "Data privacy regulations including EU regulations",
+    "Trade compliance and sanctions regulations",
+    "Clean Air Act and Clean Water Act compliance",
+    "Comprehensive Environmental Response Compensation and Liability Act (Superfund)",
+    "Product safety and quality regulations across multiple jurisdictions",
+    "Anti-bribery and anti-corruption laws in multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Ukraine",
+      "Syria",
+      "Taiwan",
+      "Israel",
+      "Gaza",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions impacting supply chain and business operations",
+      "China sanctions against Raytheon and Collins joint venture",
+      "Potential additional sanctions enforcement by China",
+      "Iran sanctions impact on operations",
+      "Export controls targeting Russia aerospace sector",
+      "Russian counter-sanctions against U.S. entities and individuals",
+      "Sanctions on Russian-owned entities affecting titanium supply",
+      "Risk of sanctions on other countries affecting operations",
+      "U.S. government approval delays for foreign military sales due to sanctions",
+      "Trade restrictions and tariffs affecting international operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Collins Aerospace": 0.35,
+    "Pratt & Whitney": 0.35,
+    "Raytheon": 0.33,
+    "Eliminations and other": -0.03
+  }
+}

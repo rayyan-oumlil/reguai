@@ -1,0 +1,50 @@
+{
+  "document_id": "PLAW-119publ21_uslm.xml",
+  "category": "Category: Tax\n\nExplanation: This appears to be a tax reconciliation bill, as evidenced by multiple tax-related sections in Title VII including tax relief for middle-class families, tax credits, and modifications to the Internal Revenue Code. The document primarily deals with changes to tax rates, deductions, and credits.",
+  "legalbert_confidence": 0.9022543907165528,
+  "extracted_info": {
+    "title": "Public Law 119-21: To provide for reconciliation pursuant to title II of H. Con. Res. 14",
+    "country": "United States",
+    "effective_date": "2025-07-04",
+    "affected_sectors": [
+      "Agriculture",
+      "Energy",
+      "Tax",
+      "Environment",
+      "Financial Services",
+      "Housing",
+      "Tax and Revenue",
+      "Border Security",
+      "Healthcare",
+      "Defense",
+      "Immigration",
+      "Law Enforcement",
+      "Transportation",
+      "Education"
+    ],
+    "key_requirements": [
+      "Establishes new reporting and compliance requirements for certain tax benefits",
+      "Creates new tax incentives for opportunity zones and rural development",
+      "Changes to student loan programs and Pell Grants",
+      "Modifies rules for charitable contributions and tax-exempt organizations",
+      "Modifications to tax credits and deductions",
+      "Changes to Medicaid and Medicare eligibility and enrollment",
+      "New immigration fees and restrictions",
+      "Modifies tax rates, deductions, and credits for individuals and businesses",
+      "Enhanced border security funding and infrastructure",
+      "Funding for law enforcement and detention facilities",
+      "Extends and makes permanent certain tax provisions from prior laws",
+      "Adjusts federal spending levels across multiple agencies and programs",
+      "Changes requirements for federal program funding and administration",
+      "Restrictions on clean energy tax credits"
+    ],
+    "penalties": [
+      "Civil penalties up to $5,000 for first violation and $10,000 for subsequent violations of remittance transfer rules",
+      "Accuracy-related penalties for substantial understatements related to energy credits",
+      "Penalties up to $5,000 for substantial misstatements on supplier certifications",
+      "Recovery of overpayments for improper Medicaid claims",
+      "Fees and penalties for immigration violations"
+    ]
+  },
+  "processing_status": "completed"
+}

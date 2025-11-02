@@ -1,0 +1,129 @@
+{
+  "ticker": "WST",
+  "company_name": "West Pharmaceutical Services, Inc.",
+  "company_type": "Healthcare Manufacturing - Pharmaceutical Packaging & Drug Delivery Systems",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Brazil",
+      "Denmark",
+      "England",
+      "France",
+      "Germany",
+      "Ireland",
+      "Serbia",
+      "China",
+      "India",
+      "Singapore",
+      "Japan",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.45,
+      "Europe, Middle East, Africa": 0.46,
+      "Asia Pacific": 0.09
+    },
+    "assets_by_region": {
+      "United States": 0.485,
+      "Germany": 0.111,
+      "Ireland": 0.175,
+      "France": 0.049,
+      "Other European countries": 0.057,
+      "Other": 0.123
+    }
+  },
+  "segments": [
+    "Proprietary Products",
+    "Contract-Manufactured Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "The Goodyear Tire & Rubber Company",
+      "ExxonMobil Chemical Company",
+      "Daikyo Seiko, Ltd."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Puerto Rico",
+      "Brazil",
+      "Denmark",
+      "England",
+      "France",
+      "Germany",
+      "Ireland",
+      "Serbia",
+      "China",
+      "India",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Single-source suppliers for many critical raw materials due to regulatory control and qualification costs",
+      "Reliance on sole source availability for certain components",
+      "Dependence on petroleum-based synthetic elastomers subject to crude oil price fluctuations",
+      "Key value-added products exclusively licensed from Daikyo (Crystal Zenith, FluroTec, B2-coating technologies)",
+      "Long-term supply contracts with clauses for oil-based surcharges"
+    ],
+    "risks": [
+      "Supply chain interruption from supplier production or distribution problems",
+      "Single-source supplier dependency creates risk if supplier has issues",
+      "Raw material price volatility (petroleum-based elastomers, aluminum, plastic)",
+      "Inability to quickly establish alternative sources due to FDA regulations",
+      "Heightened inflation may increase raw material costs",
+      "Supplier capacity constraints and transportation delays",
+      "Geopolitical developments impacting supply",
+      "Labor shortages affecting suppliers"
+    ],
+    "supplier_concentration": {
+      "The Goodyear Tire & Rubber Company": null,
+      "ExxonMobil Chemical Company": null
+    }
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval requirements for product design, development, manufacturing, marketing and labeling",
+    "European Medicines Agency regulatory oversight",
+    "National Medical Products Administration (China) regulatory requirements",
+    "Compliance with healthcare fraud and abuse laws",
+    "Global anti-corruption laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Export control regulations",
+    "Data privacy regulations (EU GDPR, UK GDPR, California CCPA/CPRA, multiple state data privacy laws)",
+    "Environmental protection regulations (federal, state, local, foreign)",
+    "Occupational health and safety regulations",
+    "Product safety and efficacy regulations",
+    "Changes in tax policy or trade regulations",
+    "Imposition of new tariffs on imported products",
+    "Increased regulatory enforcement actions in healthcare sector",
+    "Foreign regulatory requirements including testing, authorization, labeling, import/export licensing",
+    "Potential product recalls required by regulatory authorities",
+    "Compliance with anti-money laundering laws",
+    "SEC climate change and ESG reporting requirements",
+    "Greenhouse gas emissions regulations",
+    "Waste taxes and recycling mandates for plastic materials",
+    "Cross-border data transfer restrictions and data localization requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Israel",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential sanctions compliance issues in foreign operations",
+      "Risk of sanctions impacting international operations",
+      "U.S. relations with foreign governments affecting business operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Proprietary Products": 0.807,
+    "Contract-Manufactured Products": 0.193
+  }
+}

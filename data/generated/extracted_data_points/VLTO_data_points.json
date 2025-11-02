@@ -1,0 +1,109 @@
+{
+  "ticker": "VLTO",
+  "company_name": "Veralto Corporation",
+  "company_type": "Water Quality and Product Quality & Innovation Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Western Europe",
+      "Other developed markets",
+      "High-growth markets"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Belgium",
+      "Brazil",
+      "China",
+      "Germany",
+      "Netherlands",
+      "United Kingdom",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Latin America (multiple countries)",
+      "Middle East (multiple countries)",
+      "Eastern Europe (multiple countries)",
+      "Africa (multiple countries)",
+      "Asia (multiple countries)"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.48,
+      "Western Europe": 0.22,
+      "Other developed markets": 0.02,
+      "High-growth markets": 0.28
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Water Quality",
+    "Product Quality & Innovation"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Latin America",
+      "High-growth markets"
+    ],
+    "dependencies": [
+      "Wide variety of raw materials including metallic-based components, electronic components, chemistries, OEM products, plastics and other petroleum-based products",
+      "For some components that require particular specifications or regulatory qualifications there may be a single supplier or a limited number of suppliers",
+      "Supply chain disruptions and labor availability constraints experienced since 2021"
+    ],
+    "risks": [
+      "Supply chain disruptions due to supplier capacity constraints, transportation and logistics issues, fluctuations in demand, decreased availability of key raw materials or commodities",
+      "Legislative or regulatory changes affecting supply",
+      "Bankruptcy or exiting of business by suppliers",
+      "External events such as natural disasters, pandemic health issues, war, terrorist actions and governmental actions",
+      "Single or limited source suppliers for certain requirements due to quality assurance, regulatory requirements, cost effectiveness, availability or uniqueness of design",
+      "Interruptions in supply or increases in cost of key components, raw materials, other commodities and labor",
+      "Extended lead times during market upturn",
+      "Price increases and supply limitations from suppliers",
+      "Labor availability constraints and labor cost increases"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Data privacy and security laws including GDPR in European Union with fines up to €20 million or 4% of total worldwide annual turnover",
+    "State privacy laws in California and other U.S. states with similar requirements",
+    "Potential federal privacy requirements in the United States",
+    "Countries requiring personal data to be maintained on local servers (China, Russia)",
+    "Environmental, health and safety laws and regulations concerning generation, storage, use and transportation of hazardous materials, emissions or discharges into environment",
+    "Chemical constituents in products and end-of-life disposal and take-back programs",
+    "Antitrust laws in U.S. federal, state and international jurisdictions",
+    "Export/import control and economic sanctions laws including International Traffic in Arms Regulations, Export Administration Regulations, OFAC regulations",
+    "Anti-boycott laws and regulations",
+    "Government contracting requirements and regulations",
+    "Product and other regulatory approvals in foreign jurisdictions",
+    "Compliance requirements for companies doing business with government entities",
+    "Rules of industrial standards bodies such as International Standards Organization",
+    "Climate change and sustainability legal or regulatory measures",
+    "Tax law changes relating to multinational corporations including OECD base erosion and profit shifting initiatives",
+    "Changes in tax laws and regulations including potential changes to U.S. Tax Cuts and Jobs Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Company suspended shipment of products to Russia in 2022",
+      "Exposure to economic sanctions regulations administered by U.S. Department of Treasury Office of Foreign Assets Control",
+      "Limited business dealings in countries subject to comprehensive sanctions",
+      "Export control restrictions on certain products, services and technologies",
+      "Trade protection measures, tariffs, embargoes and import or export restrictions",
+      "Russia's reduction of natural gas exports to Europe creating uncertainty on prices and supply for European manufacturing facilities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Water Quality": 0.604,
+    "Product Quality & Innovation": 0.396
+  }
+}

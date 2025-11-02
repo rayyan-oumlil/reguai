@@ -1,0 +1,62 @@
+{
+  "ticker": "PSA",
+  "company_name": "Public Storage",
+  "company_type": "Real Estate Investment Trust (REIT) - Self-Storage",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 1.0
+    },
+    "assets_by_region": {
+      "United States": 0.93,
+      "Europe (via Shurgard investment)": 0.07
+    }
+  },
+  "segments": [
+    "Self-Storage Operations",
+    "Ancillary Operations (Tenant Reinsurance, Merchandise Sales, Third-Party Management)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Self-storage operations depend on construction materials and labor for development and redevelopment projects",
+    "risks": "Cost and availability of construction materials and labor; supply chain disruptions affecting development projects; international trade disputes and tariffs impacting costs for steel, lumber and other materials",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Emergency regulations limiting rents or restricting access to facilities in response to wildfires, floods, or public health crises (e.g., California wildfire regulations, COVID-19 restrictions)",
+    "Property tax increases due to changes in assessed values or elimination of Proposition 13 benefits in California",
+    "Wage regulations including minimum wage increases",
+    "REIT qualification requirements under Internal Revenue Code - failure to qualify would result in federal corporate income tax",
+    "State and local business licensing laws and regulations",
+    "Zoning and permitting limitations for development projects",
+    "Consumer protection laws related to lien sales",
+    "Privacy laws including California Privacy Rights Act and California Consumer Privacy Act",
+    "Environmental regulations and remediation requirements",
+    "Americans with Disabilities Act compliance requirements",
+    "Insurance licensing and regulation by state departments of insurance",
+    "Labor and employment laws",
+    "Securities laws and SEC reporting requirements",
+    "Potential changes to federal tax laws affecting REITs or shareholders",
+    "California SB 253 and SB 261 requiring climate-related disclosures starting 2026",
+    "Rent control or eviction restrictions imposed by local governments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International trade disputes including U.S. trade tariffs and retaliatory tariffs could result in inflationary pressures impacting costs for steel, lumber and other materials for development projects"
+    ]
+  },
+  "revenue_by_segment": {
+    "Self-storage facilities": 0.936,
+    "Ancillary operations": 0.064
+  }
+}

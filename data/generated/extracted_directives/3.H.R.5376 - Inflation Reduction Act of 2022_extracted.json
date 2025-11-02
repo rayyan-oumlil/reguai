@@ -1,0 +1,49 @@
+{
+  "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+  "category": "Category: TAX\n\nExplanation: This document is the Inflation Reduction Act of 2022, which includes significant tax provisions, particularly focusing on corporate alternative minimum tax and tax reform measures for corporations.",
+  "legalbert_confidence": 0.8904633522033691,
+  "extracted_info": {
+    "title": "Inflation Reduction Act of 2022 - Tax Provisions",
+    "country": "United States",
+    "effective_date": "2022-08-16",
+    "affected_sectors": [
+      "Agriculture",
+      "Energy companies",
+      "Corporate taxpayers",
+      "Energy and utilities",
+      "Manufacturers",
+      "Financial institutions",
+      "Construction",
+      "Healthcare",
+      "Healthcare companies",
+      "Tax-exempt organizations",
+      "Insurance companies",
+      "Transportation",
+      "Manufacturing"
+    ],
+    "key_requirements": [
+      "Provides funding for IRS enforcement and operations",
+      "Creates programs to reduce greenhouse gas emissions and support climate resilience",
+      "Establishes environmental justice and community grant programs",
+      "Establishes 15% corporate alternative minimum tax for corporations with average annual adjusted financial statement income over $1 billion",
+      "Extends and expands renewable energy tax credits",
+      "Establishes clean energy tax credits for renewable energy, electric vehicles, and energy efficiency",
+      "Expands healthcare premium tax credits through 2025",
+      "Sets corporate minimum tax rate of 15% for large corporations",
+      "Creates 1% excise tax on stock buybacks by publicly traded companies",
+      "Increases royalty rates for oil and gas production on federal lands and waters",
+      "Provides tax credits for clean vehicles and energy efficient homes/buildings",
+      "Requires drug manufacturers to pay rebates for certain Medicare drugs",
+      "Creates incentives for domestic clean energy manufacturing and supply chains",
+      "Increases IRS funding for enforcement and operations"
+    ],
+    "penalties": [
+      "Failure to pay corporate alternative minimum tax subject to standard IRS penalties and interest",
+      "Failure to pay stock buyback excise tax subject to IRS penalties",
+      "Violations of prevailing wage requirements subject to payment of back wages plus penalties",
+      "Non-compliance with drug pricing provisions subject to rebate requirements and civil monetary penalties",
+      "Failure to meet clean energy credit requirements may result in recapture of credits"
+    ]
+  },
+  "processing_status": "completed"
+}

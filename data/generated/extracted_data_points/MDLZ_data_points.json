@@ -1,0 +1,146 @@
+{
+  "ticker": "MDLZ",
+  "company_name": "Mondelēz International, Inc.",
+  "company_type": "Food and Beverage - Snack Foods",
+  "geography": {
+    "regions": [
+      "Latin America",
+      "Asia, Middle East and Africa (AMEA)",
+      "Europe",
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "China",
+      "India",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Egypt",
+      "Nigeria",
+      "South Africa",
+      "Pakistan",
+      "Vietnam",
+      "Philippines",
+      "Russia",
+      "Ukraine",
+      "Turkey",
+      "Kazakhstan",
+      "Georgia",
+      "Poland",
+      "Czech Republic",
+      "Slovak Republic",
+      "Hungary",
+      "Bulgaria",
+      "Romania",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Switzerland",
+      "Norway",
+      "Sweden",
+      "Greece",
+      "Portugal"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Latin America": 0.135,
+      "AMEA": 0.2,
+      "Europe": 0.365,
+      "North America": 0.3
+    },
+    "assets_by_region": {
+      "United States": 0.189,
+      "Mexico": 0.087,
+      "Other": 0.724
+    }
+  },
+  "segments": [
+    "Latin America",
+    "AMEA (Asia, Middle East and Africa)",
+    "Europe",
+    "North America",
+    "Biscuits & Baked Snacks",
+    "Chocolate",
+    "Gum & Candy",
+    "Beverages",
+    "Cheese & Grocery"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "China",
+      "India",
+      "Europe (multiple countries)",
+      "Ukraine",
+      "Russia",
+      "Turkey",
+      "Egypt",
+      "Nigeria",
+      "Canada"
+    ],
+    "dependencies": "Large quantities of commodities including cocoa, dairy, wheat, edible oils, sugar and other sweeteners, flavoring agents and nuts. Significant quantities of packaging materials, natural gas, fuels and electricity. Cocoa supply is particularly sensitive to climate change, weather events, local regulations in cocoa-producing countries, and global regulations such as the EU Deforestation Regulation.",
+    "risks": "Commodity price volatility and availability constraints (especially cocoa). Climate change impacts on agricultural productivity. Supply chain disruptions from geopolitical conflicts (Ukraine war, Middle East conflicts). Transportation and labor market disruptions. Currency exchange rate fluctuations. Supplier capacity constraints. Concentration risk in cocoa supply. Limited ability to hedge certain commodities like dairy. Dependence on smallholder farmers who may lack resources to adapt to changing conditions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Selective food taxes and front-of-pack labeling requirements based on nutrient profiles",
+    "Sales and marketing restrictions on products with specified nutrient profiles (e.g., UK ban on TV and online advertising of high fat/sugar/salt products effective October 2025)",
+    "Extended Producer Responsibility (EPR) policies for packaging waste in EU, India, Vietnam, and certain US states",
+    "Single-use plastic bans and plastic taxes in Europe and Southeast Asia",
+    "EU Deforestation Regulation affecting cocoa supply",
+    "Data privacy and cybersecurity regulations including GDPR",
+    "Sanctions and export controls (Russia sanctions, trade restrictions)",
+    "Tariffs and trade barriers (including announced 25% tariffs on imports from Mexico and Canada, 10% on China as of February 1, 2025)",
+    "Antitrust and competition law compliance",
+    "Anti-bribery laws (FCPA, UK Bribery Act)",
+    "Climate change and greenhouse gas emissions regulations including carbon pricing",
+    "Food safety and labeling regulations",
+    "Packaging regulations including PFAS restrictions",
+    "Corporate tax policy changes including OECD global minimum tax",
+    "California climate-related reporting requirements and SEC climate disclosure rules",
+    "EU Corporate Sustainability Reporting Directive",
+    "Forced labor regulations and human rights laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Argentina",
+      "Turkey",
+      "Egypt",
+      "Nigeria",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions due to Ukraine invasion - restrictions on capital investments, advertising spending suspended, risk of asset expropriation or deconsolidation",
+      "International sanctions and export controls making it difficult to operate in Russia",
+      "Potential sanctions related to Middle East conflicts",
+      "Trade restrictions and tariffs between US and other countries (China, Mexico, Canada)",
+      "Compliance risks with US laws affecting operations outside US including FCPA"
+    ]
+  },
+  "revenue_by_segment": {
+    "Biscuits & Baked Snacks": 0.489,
+    "Chocolate": 0.309,
+    "Gum & Candy": 0.111,
+    "Beverages": 0.03,
+    "Cheese & Grocery": 0.062
+  }
+}

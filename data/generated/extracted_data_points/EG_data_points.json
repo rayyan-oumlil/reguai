@@ -1,0 +1,129 @@
+{
+  "ticker": "EG",
+  "company_name": "Everest Group, Ltd.",
+  "company_type": "Insurance and Reinsurance",
+  "geography": {
+    "regions": [
+      "United States",
+      "Bermuda",
+      "Europe",
+      "Canada",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Ireland",
+      "United Kingdom",
+      "Switzerland",
+      "Canada",
+      "Singapore",
+      "Australia",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Netherlands",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Brazil",
+      "China",
+      "India",
+      "Puerto Rico",
+      "Guam",
+      "Bolivia",
+      "Dominican Republic",
+      "Ecuador",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Panama",
+      "Paraguay",
+      "Philippines",
+      "Venezuela"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.57,
+      "Europe": 0.25,
+      "All other": 0.18
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Reinsurance",
+    "Insurance",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Marsh and McLennan",
+      "Aon"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on brokers and agents for business development",
+      "Dependence on ceding companies for accurate and timely loss reporting",
+      "Reliance on reinsurers to meet obligations under retrocessional agreements",
+      "Dependence on third-party investment managers for portfolio management",
+      "Reliance on information technology platform and third-party service providers"
+    ],
+    "risks": [
+      "Concentration risk with top brokers (Marsh and McLennan 21.9%, Aon 19.2% of gross written premiums)",
+      "Credit risk from reinsurers unable to meet obligations",
+      "Dependence on ceding companies for accurate data and timely reporting",
+      "Reliance on third-party claims service providers",
+      "Cybersecurity risks from third-party vendors and service providers",
+      "Operational risk from technology system failures or breaches"
+    ],
+    "supplier_concentration": {
+      "Marsh and McLennan": 0.219,
+      "Aon": 0.192
+    }
+  },
+  "regulatory_risks": [
+    "Insurance holding company regulations requiring prior approval for change of control",
+    "Dividend restrictions under Bermuda and U.S. state insurance laws",
+    "Capital adequacy requirements (Bermuda BSCR and U.S. NAIC RBC models)",
+    "Licensing requirements in multiple jurisdictions for insurance and reinsurance operations",
+    "Compliance with U.S., state and foreign insurance laws and regulations",
+    "Potential changes in U.S. federal oversight of insurance industry",
+    "European regulatory updates and new capital adequacy directives",
+    "Cybersecurity and data privacy regulations (NAIC Insurance Data Security Model Law, NY DFS cybersecurity regulation)",
+    "International tax law changes including OECD Base Erosion and Profit Shifting initiatives and Pillar Two 15% global minimum tax",
+    "U.S. tax law changes including Tax Cuts and Jobs Act provisions and potential future legislation",
+    "Bermuda Corporate Income Tax Act 2023 imposing 15% corporate income tax effective January 1, 2025",
+    "Potential U.S. taxation if Bermuda entities deemed engaged in U.S. trade or business",
+    "U.S. excise and withholding tax increases",
+    "Reinsurance premium excise tax of 1% on U.S. risks",
+    "Compliance with insurance laws in over 100 countries across six continents",
+    "Rate and policy form requirements in multiple U.S. states",
+    "Residual market participation requirements",
+    "Anti-takeover provisions in insurance laws",
+    "Foreign jurisdictions requiring reinsurer registration",
+    "Collateral requirements for unlicensed or non-admitted reinsurers",
+    "Potential increased supervision and regulation of reinsurers domiciled outside the U.S."
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Potential impact from international sanctions on business operations",
+      "Regulatory restrictions from domestic or foreign government measures"
+    ]
+  },
+  "revenue_by_segment": {
+    "Reinsurance": 0.751,
+    "Insurance": 0.236,
+    "Other": 0.013
+  }
+}

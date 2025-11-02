@@ -1,0 +1,108 @@
+{
+  "ticker": "WYNN",
+  "company_name": "Wynn Resorts, Limited",
+  "company_type": "Gaming and Hospitality",
+  "geography": {
+    "regions": [
+      "Macau Special Administrative Region",
+      "North America",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Macau",
+      "Hong Kong",
+      "Taiwan",
+      "United Arab Emirates",
+      "Singapore",
+      "South Korea",
+      "Philippines",
+      "Vietnam",
+      "Cambodia",
+      "Malaysia",
+      "Australia",
+      "Japan",
+      "Thailand"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Macau": 0.517,
+      "United States": 0.481,
+      "Other": 0.002
+    },
+    "assets_by_region": {
+      "Macau": 0.386,
+      "United States": 0.464,
+      "Corporate and other": 0.218
+    }
+  },
+  "segments": [
+    "Wynn Palace",
+    "Wynn Macau",
+    "Las Vegas Operations",
+    "Encore Boston Harbor"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on limited number of resorts and locations for all cash flow",
+      "Dependence on subsidiaries' ability to pay dividends and distributions",
+      "Reliance on Macau government land concessions with 25-year terms renewable for successive 10-year periods"
+    ],
+    "risks": [
+      "Disruptions caused by extreme weather patterns including typhoons and heavy rainstorms in Macau",
+      "Supply chain disruptions for construction materials and furniture, fixtures, and equipment",
+      "Competition for limited labor resources in Macau",
+      "Restrictions on ability to employ imported labor in certain job classifications in Macau"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive state and local regulation and licensing requirements in Nevada, Macau, and Massachusetts",
+    "Gaming authorities have significant control over operations and can limit, condition, suspend or revoke licenses",
+    "Compliance with anti-money laundering laws and regulations",
+    "Foreign Corrupt Practices Act (FCPA) and other anti-corruption laws compliance",
+    "Macau government may rescind gaming concession if obligations not fulfilled or for public interest reasons",
+    "Nevada Gaming Authorities can require licensing of debt or securities holders",
+    "Massachusetts Gaming Commission has broad authority to suspend, revoke or condition licenses",
+    "Changes in gaming laws or regulations in various jurisdictions",
+    "Changes in tax laws or regulations including rates of taxation",
+    "Environmental regulation compliance requirements",
+    "Data privacy and cybersecurity regulations including GDPR and state privacy laws",
+    "Smoking control legislation in Macau restricting smoking to segregated lounges",
+    "Currency exchange controls and restrictions on export of renminbi from PRC",
+    "Intellectual property protection and enforcement challenges across jurisdictions",
+    "Labor union regulations and collective bargaining requirements",
+    "Visa and travel restrictions impacting customer visitation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Macau",
+      "Hong Kong",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Office of Foreign Assets Control sanctions compliance",
+      "Potential barriers to travel, trade and immigration from global political trends",
+      "International relations and national security policies impacting visitor numbers",
+      "Anti-corruption campaigns in China affecting customer spending patterns",
+      "Monetary outflow policies and tighter monetary transfer regulations in China",
+      "Geopolitical tensions affecting discretionary consumer spending",
+      "Company and industry specific restrictions from government agencies",
+      "Risks from operations in emerging markets including Macau"
+    ]
+  },
+  "revenue_by_segment": {
+    "Wynn Palace": 0.311,
+    "Wynn Macau": 0.206,
+    "Las Vegas Operations": 0.361,
+    "Encore Boston Harbor": 0.12,
+    "Corporate and other": 0.002
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "ticker": "MPC",
+  "company_name": "Marathon Petroleum Corporation",
+  "company_type": "Downstream Energy",
+  "geography": {
+    "regions": [
+      "Gulf Coast",
+      "Mid-Continent",
+      "West Coast",
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Peru",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.99,
+      "International": 0.01
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Refining & Marketing",
+    "Midstream",
+    "Renewable Diesel"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Gulf Coast region",
+      "Mid-Continent region",
+      "West Coast region"
+    ],
+    "dependencies": [
+      "Third-party transportation of crude oil and refined products via pipelines, railways, vessels",
+      "Crude oil supply from various domestic and foreign suppliers",
+      "Natural gas and electricity supply for refinery operations"
+    ],
+    "risks": [
+      "Interruptions of supply due to reliance on third-party transportation",
+      "Prolonged disruption or cessation of pipeline or railway service",
+      "Crude oil supply constraints from producers",
+      "Concentration risk in certain transportation modes",
+      "Dependence on third-party vessels, pipelines, railcars for crude oil and refined products"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws and regulations (Clean Air Act, Clean Water Act, RCRA, CERCLA, OPA-90)",
+    "GHG emissions and climate change regulations",
+    "Renewable Fuel Standard (RFS2) compliance and RIN requirements",
+    "Low Carbon Fuel Standard (LCFS) programs in California and other states",
+    "California Senate Bill No. 2 (SB X1-2) - maximum gross gasoline refining margin and penalties",
+    "California Assembly Bill No. 1 (AB X2-1) - minimum inventory requirements",
+    "EPA regulations on methane emissions from Oil and Natural Gas Sector",
+    "NAAQS (National Ambient Air Quality Standards) changes",
+    "California SCAQMD Rule 1109.1 - NOx and CO emission limits",
+    "PFAS (per- and polyfluoroalkyl substances) regulations",
+    "Vehicle fuel economy and GHG emission standards (CAFE, EPA CO2 standards)",
+    "California Advanced Clean Cars I and II programs",
+    "Zero emission vehicle mandates in California and other states",
+    "DOT regulations on crude-by-rail transportation",
+    "OSHA Process Safety Management and EPA Risk Management Program requirements",
+    "Maritime Transportation Security Act",
+    "Pipeline Security Guidelines",
+    "Native American tribal land regulations",
+    "Rate regulation by FERC under Interstate Commerce Act",
+    "Data privacy laws (GDPR, CCPA)",
+    "Windfall profit taxes or maximum margin penalties",
+    "Trade tariffs on imported crude oil and feedstocks",
+    "Sanctions compliance (Iran, Russia)",
+    "Climate-related litigation and disclosure requirements",
+    "SEC climate-related disclosure rules (Release No. 33-11275)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Middle East countries",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions against Russia impacting crude oil supply",
+      "Hostilities in the Middle East affecting crude oil markets",
+      "Retaliatory tariffs from foreign governments",
+      "Trade restrictions on energy exports/imports"
+    ]
+  },
+  "revenue_by_segment": {
+    "Refining & Marketing": 0.948,
+    "Midstream": 0.037,
+    "Renewable Diesel": 0.015
+  }
+}

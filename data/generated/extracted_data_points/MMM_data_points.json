@@ -1,0 +1,161 @@
+{
+  "ticker": "MMM",
+  "company_name": "3M Company",
+  "company_type": "Diversified Technology and Manufacturing",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia Pacific",
+      "Europe, Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Hong Kong",
+      "Germany",
+      "Belgium",
+      "United Kingdom",
+      "France",
+      "Japan",
+      "India",
+      "Australia",
+      "Brazil",
+      "Singapore",
+      "Switzerland",
+      "Russia",
+      "Netherlands",
+      "New Jersey",
+      "New Hampshire",
+      "Vermont",
+      "Maine",
+      "Minnesota",
+      "Alabama",
+      "Illinois",
+      "Wisconsin",
+      "Delaware",
+      "Connecticut",
+      "Ohio",
+      "South Carolina",
+      "Massachusetts",
+      "Virginia",
+      "Michigan",
+      "Georgia",
+      "Canada",
+      "British Columbia",
+      "Quebec",
+      "Manitoba",
+      "Ontario"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.545,
+      "Asia Pacific": 0.285,
+      "Europe, Middle East and Africa": 0.17
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Safety and Industrial",
+    "Transportation and Electronics",
+    "Consumer",
+    "Abrasives",
+    "Automotive Aftermarket",
+    "Electrical Markets",
+    "Industrial Adhesives and Tapes",
+    "Industrial Specialties",
+    "Personal Safety",
+    "Roofing Granules",
+    "Advanced Materials",
+    "Automotive and Aerospace",
+    "Commercial Branding and Transportation",
+    "Electronics",
+    "Consumer Safety and Well-Being",
+    "Home and Auto Care",
+    "Home Improvement",
+    "Packaging and Expression"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Germany",
+      "Belgium",
+      "International (26 countries)"
+    ],
+    "dependencies": [
+      "Dependence on various components, compounds, raw materials, and energy (including oil and natural gas and their derivatives) supplied by others",
+      "Some suppliers are limited- or sole-source suppliers",
+      "Supply chain disruptions impacting distribution of products",
+      "Disruption to key manufacturing sites' operations due to natural disasters, government actions, strikes or labor disruptions"
+    ],
+    "risks": [
+      "Supplier material shortage",
+      "Climate impacts and severe weather events",
+      "Natural and other disasters",
+      "Military conflicts",
+      "Government actions relating to discharge or emission permits",
+      "Strikes or other labor disruptions",
+      "Supply chain interruptions",
+      "Manufacturing site disruptions",
+      "Regulatory developments",
+      "Sustained interruption in receipt of adequate supplies",
+      "Inability to source adequate alternatives in a cost-effective manner",
+      "Fluctuations in costs and availability of purchased components, compounds, raw materials, energy, and labor"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "PFAS regulations in United States, Europe and internationally",
+    "EPA drinking water standards for PFAS (PFOA, PFOS, PFHxS, PFNA, HFPO-DA)",
+    "CERCLA designation of PFOA and PFOS as hazardous substances",
+    "EU REACH restrictions on PFAS manufacturing and use",
+    "EU POPs Regulation listing PFOA, PFOS, PFHxS",
+    "EU Food Contaminants Regulation on PFAS in foodstuff",
+    "EU Drinking Water Directive limits on PFAS",
+    "State-level PFAS regulations (Maine, Minnesota, California, etc.)",
+    "Clean Water Act NPDES permit requirements for PFAS",
+    "Toxic Substances Control Act (TSCA) reporting and restrictions",
+    "Resource Conservation and Recovery Act (RCRA) hazardous waste regulations",
+    "Clean Air Act hazardous air pollutant listings",
+    "Environmental remediation obligations under CERCLA and state laws",
+    "Compliance with False Claims Act, anti-kickback laws, Sunshine Act",
+    "Foreign Corrupt Practices Act (FCPA) and anti-bribery laws",
+    "International import and export requirements and trade sanctions compliance",
+    "Antitrust and competition laws",
+    "Securities and corporate governance regulations",
+    "Product liability regulations",
+    "Intellectual property laws",
+    "Tax laws and regulations (including BEPS, GILTI, FDII)",
+    "Occupational Safety and Health Administration (OSHA) requirements",
+    "Data privacy and cybersecurity regulations (including EU regulations)",
+    "Artificial intelligence regulatory developments",
+    "Climate change and environmental regulations",
+    "Trade restrictions such as tariffs and retaliatory measures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-China trade tensions and potential tariffs",
+      "Trade restrictions and retaliatory counter measures",
+      "Iran sanctions (payments to Iran Intellectual Property Office through Bank Melli)",
+      "Russia exit and asset disposal (completed 2023)",
+      "International trade sanctions compliance requirements",
+      "Export controls on certain products",
+      "Financial and economic sanctions on certain industry sectors and parties in conflict zones"
+    ]
+  },
+  "revenue_by_segment": {
+    "Safety and Industrial": 0.446,
+    "Transportation and Electronics": 0.341,
+    "Consumer": 0.201
+  }
+}

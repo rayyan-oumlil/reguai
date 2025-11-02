@@ -1,0 +1,76 @@
+{
+  "ticker": "LNT",
+  "company_name": "Alliant Energy Corporation",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "Midwest United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Interstate Power and Light Company (IPL)",
+    "Wisconsin Power and Light Company (WPL)",
+    "Alliant Energy Corporate Services",
+    "Alliant Energy Finance (AEF)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Natural gas supply from producers, marketers and brokers",
+      "Coal supply from Wyoming Powder River Basin",
+      "Electric transmission services from ITC Midwest LLC (ITC) for IPL",
+      "Electric transmission services from American Transmission Company LLC (ATC) for WPL",
+      "Participation in MISO wholesale energy markets"
+    ],
+    "risks": [
+      "Disruptions to ongoing operations and supply of materials, services, equipment and commodities due to geopolitical issues, tariffs, supplier manufacturing constraints, regulatory requirements, labor issues or transportation issues",
+      "Changes in the price of delivered natural gas, transmission, purchased electric energy, purchased electric capacity and delivered coal due to market conditions",
+      "Disruptions in the supply and delivery of natural gas, purchased electricity and coal",
+      "Changes to creditworthiness of counterparties including fuel suppliers and transporters",
+      "Supply chain disruptions due to geopolitical issues, supplier manufacturing constraints, labor issues, transportation issues, tariffs, changes in laws, executive orders, resource availability, long lead times, tighter credit markets, inflation, pandemics and weather"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Inability to obtain adequate and timely rate relief from IUC and PSCW to recover costs and earn authorized rates of return",
+    "IPL's retail electric base rate moratorium through September 2029",
+    "Changes in regulations or laws to permit third parties to provide renewable energy directly to customers without being treated as a utility",
+    "Provisions of Wisconsin Utility Holding Company Act limiting ability to invest in or grow non-utility activities",
+    "Environmental laws and regulations affecting power generation and electric and gas distribution",
+    "EPA regulations to regulate greenhouse gas emissions at fossil-fuel fired electric generating units under Clean Air Act Section 111(d) and Section 111(b)",
+    "Cross-State Air Pollution Rule (CSAPR) revisions for ozone season nitrogen oxides emission caps",
+    "New Source Performance Standards (NSPS) for Combustion Turbines proposed by EPA in December 2024",
+    "Effluent Limitation Guidelines revising discharge limits for wastewater from steam electric generating units",
+    "Coal Combustion Residuals (CCR) Rule revised in May 2024 expanding scope of regulation",
+    "Pipeline and Hazardous Materials Safety Administration safety requirements for gas transmission pipelines",
+    "North American Electric Reliability Corporation mandatory reliability standards and cybersecurity standards",
+    "Department of Homeland Security Transportation Security Administration regulations for physical and cybersecurity of natural gas pipeline systems",
+    "FERC jurisdiction over utility securities issuance, wholesale electric rates, interstate electric transmission rates, dividend payments, and accounting practices",
+    "IUC regulation of IPL's retail utility rates, construction of electric generating units, and asset acquisitions/sales",
+    "PSCW regulation of WPL's retail utility rates, construction approvals, securities issuance, and affiliate transactions",
+    "MISO's seasonal resource adequacy process establishing capacity planning reserve margins and capacity accreditation requirements",
+    "Potential repeal or amendment of Inflation Reduction Act of 2022 affecting renewable tax credits",
+    "Changes in tax code including tax rates, minimum tax rates, and availability to transfer renewable tax credits",
+    "Iowa tax reform enacted in 2022 reducing corporate income tax rates",
+    "Failure to comply with labor requirements under Inflation Reduction Act of 2022 for renewable projects"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Electric utility": 0.847,
+    "Gas utility": 0.117,
+    "Other utility": 0.014,
+    "Non-utility": 0.023
+  }
+}

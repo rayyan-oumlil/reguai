@@ -1,0 +1,89 @@
+{
+  "ticker": "WDC",
+  "company_name": "Western Digital Corporation",
+  "company_type": "Data Storage Technology",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia Pacific",
+      "Europe, Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Japan",
+      "Malaysia",
+      "Philippines",
+      "Thailand",
+      "Hong Kong",
+      "Singapore",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.48,
+      "Asia": 0.36,
+      "Europe_Middle_East_Africa": 0.16
+    },
+    "assets_by_region": {
+      "United_States": 0.34,
+      "Malaysia": 0.16,
+      "Thailand": 0.34,
+      "Rest_of_Asia": 0.12,
+      "China": 0.04
+    }
+  },
+  "segments": [
+    "Cloud",
+    "Client",
+    "Consumer"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Thailand",
+      "Malaysia",
+      "Philippines",
+      "China",
+      "United States"
+    ],
+    "dependencies": "The Company depends on an external supply base for components and materials. Some key components are purchased from single source vendors for which alternative sources are currently not available. The Company also relies on third-party subcontractors to assemble and test a portion of its products.",
+    "risks": "Shortages could occur in essential materials due to an interruption of supply or increased demand in the industry. The Company does not have long-term contracts with some subcontractors and cannot directly control product delivery schedules or manufacturing processes. This could lead to product shortages or quality assurance problems. Suppliers may be acquired by competitors, decide to exit the industry or redirect their investments or increase costs. Some suppliers may also be competitors in other areas of business.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in U.S. trade policy including tariffs, trade agreements or other trade restrictions",
+    "Retaliatory measures on U.S. goods and exports",
+    "Export controls, export bans, import restrictions, embargoes, sanctions, license and certification requirements",
+    "Compliance with Foreign Corrupt Practices Act, United Kingdom Bribery Act 2010, anti-bribery laws of other countries",
+    "Compliance with conflict minerals regulations",
+    "Complex customs regulations",
+    "Environmental laws and regulations compliance",
+    "Labor, health and safety regulations",
+    "Public company reporting and disclosure requirements",
+    "Climate change and financial reform legislation",
+    "Data protection and privacy laws (including GDPR implications)",
+    "Income tax law changes including Tax Cuts and Jobs Act (TCJA), Inflation Reduction Act (IRA), One Big Beautiful Bill Act (OBBBA)",
+    "Global Minimum Tax (GMT) / Pillar Two implementation in multiple jurisdictions",
+    "Corporate Alternative Minimum Tax (CAMT)",
+    "Policies and financial incentives by governments in China, United States, and countries in Europe and Asia designed to reduce dependence on foreign manufacturing capabilities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade restrictions including tariffs, quotas and embargoes",
+      "Prohibition or restriction of sales to key customers by law, regulation or other government action",
+      "Geopolitical tensions or conflicts may create heightened risk of cybersecurity incidents",
+      "Political instability and civil unrest in operating regions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Cloud": 0.88,
+    "Client": 0.06,
+    "Consumer": 0.06
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
+  "category": "Category: Trade\n\nExplanation: This law focuses on promoting research, development and utilization of AI-related technologies for economic and industrial development in Japan. It establishes a national strategy for AI technology advancement and implementation across various sectors of business and trade.",
+  "legalbert_confidence": 1.0,
+  "extracted_info": {
+    "title": "Act on Promotion of Research and Development and Utilization of AI-Related Technologies",
+    "country": "Japan",
+    "effective_date": "2025 (Law No. 53 of 2023)",
+    "affected_sectors": [
+      "Government agencies",
+      "Research institutions",
+      "Universities",
+      "Private businesses",
+      "Technology companies",
+      "AI service providers",
+      "Public sector"
+    ],
+    "key_requirements": [
+      "Establish national AI development strategy",
+      "Promote research and development of AI technologies",
+      "Ensure transparency in AI development and implementation",
+      "Foster international cooperation in AI development",
+      "Develop human resources and expertise in AI",
+      "Ensure proper use and prevent misuse of AI technologies",
+      "Establish facilities and infrastructure for AI development",
+      "Promote cooperation between government, research institutions and private sector"
+    ],
+    "penalties": [
+      "No specific penalties outlined in the law",
+      "Focus is on promotion and guidance rather than punishment"
+    ]
+  },
+  "processing_status": "completed"
+}

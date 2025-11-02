@@ -1,0 +1,95 @@
+{
+  "ticker": "VZ",
+  "company_name": "Verizon Communications Inc.",
+  "company_type": "Telecommunications",
+  "geography": {
+    "regions": [
+      "United States",
+      "Mid-Atlantic",
+      "Northeastern U.S.",
+      "Washington D.C.",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "United Kingdom",
+      "Switzerland",
+      "Canada",
+      "Australia",
+      "Costa Rica"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Verizon Consumer Group",
+    "Verizon Business Group",
+    "Enterprise and Public Sector",
+    "Business Markets and Other",
+    "Wholesale"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Limited number of companies capable of supplying network infrastructure equipment",
+      "Single vendor for manufacture and supply of critical components such as chipsets used in devices",
+      "Suppliers located or rely on operations outside of the U.S."
+    ],
+    "risks": [
+      "Disruption to global supply chain as a result of geopolitical factors",
+      "Disruption from public health crises",
+      "Disruption from natural disasters or potential impacts of global climate change",
+      "Performance issues or delays from key suppliers",
+      "Failure to provide equipment or service on a timely basis",
+      "International operations increase exposure to economic and geopolitical instability, fluctuations in exchange rates, and labor-related risks",
+      "Certain business practices in foreign countries may not align with U.S. laws and regulations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulation of wireless operations including construction, operation, acquisition and transfer of wireless communications systems",
+    "FCC spectrum license renewal challenges",
+    "Open access FCC regulations requiring licensees to allow customers to use devices and applications of their choice",
+    "State and local regulation of terms and conditions of wireless service",
+    "State reporting and consumer protection requirements",
+    "State laws addressing safety issues such as use of wireless handsets while driving",
+    "State universal service funding requirements",
+    "State taxation matters",
+    "State and local zoning and land use regulation for wireless tower and antenna facilities",
+    "Potential utility-style common carriage regulation of broadband services under Title II of the Communications Act",
+    "State net neutrality laws and executive orders",
+    "New York law requiring discounted broadband pricing for low income customers",
+    "State pricing or other rules related to broadband built with federal or state funding",
+    "FCC digital discrimination rules",
+    "State public utility commission regulation of telephone operations",
+    "State network reliability or service quality requirements for wireline and wireless voice services",
+    "Local, state, federal, and international privacy and data protection laws including California Consumer Privacy Act and Europe's General Data Protection Regulation",
+    "Potential laws and regulations on the use of artificial intelligence at local, state, federal and international levels",
+    "FCC regulations on emergency communications services and continuity of service during disasters",
+    "California Public Utilities Commission regulations on back-up power for communications facilities",
+    "FCC and other regulators increasing regulation of cybersecurity practices",
+    "FCC restrictions on use of equipment from certain companies deemed to cause national security risks",
+    "FCC regulation of intercarrier compensation and network access rates",
+    "Climate-related regulation including direct regulation of greenhouse gas emissions or carbon policies",
+    "Policy-driven changes in prices of fuel or energy",
+    "Increased taxes on fuel",
+    "Changes in tax laws or regulations or their interpretation",
+    "Challenges to tax positions resulting in additional tax expense or liabilities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Consumer": 0.76,
+    "Business": 0.22,
+    "Corporate and other": 0.02
+  }
+}

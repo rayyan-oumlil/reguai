@@ -1,0 +1,144 @@
+{
+  "ticker": "UPS",
+  "company_name": "United Parcel Service, Inc.",
+  "company_type": "Package Delivery and Logistics",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Indian sub-continent",
+      "Middle East",
+      "Africa",
+      "Canada",
+      "Latin America",
+      "Asia",
+      "Greater China"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Germany",
+      "United Kingdom",
+      "China",
+      "Hong Kong",
+      "India",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Italy",
+      "Spain",
+      "Japan",
+      "Australia",
+      "Brazil",
+      "France",
+      "Netherlands",
+      "Belgium",
+      "Poland",
+      "Czech Republic",
+      "Turkey",
+      "South Africa",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "Singapore",
+      "South Korea",
+      "Taiwan",
+      "Thailand",
+      "Malaysia",
+      "Philippines",
+      "Vietnam",
+      "Indonesia",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.773,
+      "International": 0.227
+    },
+    "assets_by_region": {
+      "United States": 0.714,
+      "International": 0.286
+    }
+  },
+  "segments": [
+    "U.S. Domestic Package",
+    "International Package",
+    "Supply Chain Solutions",
+    "Forwarding",
+    "Logistics",
+    "Digital"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party carriers for certain international and domestic routes",
+      "Dependence on fuel suppliers for jet fuel, diesel, and gasoline",
+      "Reliance on aircraft manufacturers (Boeing, Airbus) for fleet expansion",
+      "Dependence on vehicle manufacturers for ground fleet",
+      "Reliance on technology vendors for IT systems and software",
+      "Dependence on USPS for final delivery of SurePost product (until January 2025)"
+    ],
+    "risks": [
+      "Disruption in energy supplies due to war, conflicts, weather-related events, natural disasters, or actions by producers",
+      "Supply chain disruptions from severe weather, natural disasters, pandemics, conflicts, or terrorist attacks",
+      "Reliance on third-party transportation providers exposes us to service disruptions",
+      "Concentration of air operations in Louisville, Kentucky hub creates single point of failure risk",
+      "Dependence on fuel availability and pricing volatility",
+      "Aircraft and vehicle supply chain delays could impact fleet replacement and expansion",
+      "Technology system failures or cybersecurity incidents affecting third-party vendors",
+      "Temporary supply chain disruptions in Canada due to retail sector issues (mentioned in Q4 2024)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with increasingly stringent aviation regulations (FAA, DOT, TSA)",
+    "Compliance with ground transportation regulations (FMCSA, DOT)",
+    "Customs and border protection regulations in multiple jurisdictions",
+    "Environmental regulations including greenhouse gas emissions standards",
+    "ReFuelEU Aviation initiative in Europe mandating sustainable aviation fuel (SAF) targets",
+    "Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA)",
+    "Climate change disclosure requirements (SEC, European regulators)",
+    "Data protection and privacy regulations (GDPR, California Privacy Rights Act, Virginia Consumer Data Protection Act, China's Personal Information Protection Law)",
+    "Labor and employment regulations across multiple jurisdictions",
+    "Pension Protection Act of 2006 requirements for multiemployer pension plans",
+    "Tax regulations including OECD Pillar Two global minimum tax (15%)",
+    "Trade regulations including tariffs, export requirements, embargoes, and sanctions",
+    "Potential changes to U.S. federal and state tax laws",
+    "Postal regulations affecting competitive services (Postal Regulatory Commission)",
+    "Health and safety regulations (OSHA)",
+    "Potential future regulation of greenhouse gas emissions in the U.S. and internationally",
+    "Aircraft noise standards (FAA, international jurisdictions)",
+    "Hazardous materials transportation regulations (DOT Pipeline and Hazardous Materials Safety Administration)",
+    "Foreign government regulations on aviation rights, customs, and immigration",
+    "Antitrust and competition regulations (Spain's National Markets and Competition Commission investigation)",
+    "Securities regulations (SEC investigation into impairment analyses)",
+    "Potential withdrawal from Paris Climate Accords and impact on future U.S. GHG policy"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements in various jurisdictions",
+      "Impact of U.S. sanctions on operations in restricted countries",
+      "Potential sanctions related to geopolitical conflicts (Ukraine, Middle East)",
+      "Trade restrictions and embargoes affecting international operations",
+      "Completed liquidation of Small Package subsidiaries in Russia and Belarus",
+      "Ongoing liquidation of Forwarding and Logistics subsidiaries in Russia",
+      "Indefinite suspension of operations in Ukraine"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. Domestic Package": 0.663,
+    "International Package": 0.197,
+    "Supply Chain Solutions": 0.14
+  }
+}

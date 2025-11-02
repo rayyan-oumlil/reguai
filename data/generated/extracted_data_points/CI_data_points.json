@@ -1,0 +1,105 @@
+{
+  "ticker": "CI",
+  "company_name": "The Cigna Group",
+  "company_type": "Health Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Singapore",
+      "Hong Kong",
+      "Spain",
+      "India",
+      "United Kingdom",
+      "Australia",
+      "Turkey",
+      "Switzerland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.98,
+      "Foreign countries": 0.02
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Evernorth Health Services",
+    "Pharmacy Benefit Services",
+    "Specialty and Care Services",
+    "Cigna Healthcare",
+    "U.S. Healthcare",
+    "International Health",
+    "Other Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "UnitedHealth Group",
+      "pharmaceutical manufacturers",
+      "Change Healthcare",
+      "health care providers",
+      "retail pharmacies",
+      "hospitals",
+      "wholesalers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on pharmaceutical manufacturers for rebates and drug access; reliance on retail pharmacy networks; concentration with one wholesaler for approximately half of pharmaceutical purchases; dependence on third-party vendors for services and technology",
+    "risks": "Concentration risk with single wholesaler for ~50% of pharmaceutical purchases; termination or material alteration of relationships with pharmaceutical manufacturers; loss of key pharmacy providers; consolidation of pharmacy chains; supply chain disruptions; reliance on third-party vendors for critical services",
+    "supplier_concentration": {
+      "Single wholesaler": 0.5
+    }
+  },
+  "regulatory_risks": [
+    "Patient Protection and Affordable Care Act (ACA) compliance and potential changes",
+    "Medicare and Medicaid regulations and reimbursement changes",
+    "CMS Star Rating system requirements",
+    "Risk Adjustment Data Validation (RADV) audits",
+    "Health care fraud and abuse laws including False Claims Act",
+    "HIPAA privacy and security requirements",
+    "State insurance and HMO regulatory restrictions",
+    "Pharmacy benefit manager regulations and transparency requirements",
+    "Drug pricing regulations including Inflation Reduction Act",
+    "Federal Acquisition Regulations for government contracts",
+    "ERISA requirements",
+    "State and federal consumer protection laws",
+    "Office of Foreign Assets Control sanctions compliance",
+    "Anti-money laundering regulations",
+    "Corporate practice of medicine laws",
+    "Pharmacy network access regulations",
+    "Maximum allowable cost (MAC) pricing laws",
+    "PCI DSS compliance for payment card data",
+    "GDPR and international data protection laws",
+    "EU Corporate Sustainability Reporting Directive (CSRD)",
+    "California Climate Corporate Data Accountability Act",
+    "State data breach notification laws",
+    "FTC enforcement on unfair and deceptive practices",
+    "AI and machine learning regulations",
+    "Pillar Two minimum tax directive (OECD)",
+    "State insurance guaranty association assessments",
+    "Minimum medical loss ratio (MLR) requirements",
+    "Prior authorization and utilization management restrictions",
+    "Balance billing and surprise medical bill regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Turkey"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Office of Foreign Assets Control sanctions compliance",
+      "Restrictions on operations in sanctioned jurisdictions",
+      "Impact of economic or political sanctions on international operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Evernorth Health Services": 0.82,
+    "Cigna Healthcare": 0.21,
+    "Other Operations": 0.0,
+    "Corporate and eliminations": -0.04
+  }
+}
