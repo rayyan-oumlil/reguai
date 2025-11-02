@@ -15,6 +15,7 @@ Example:
 import json
 import os
 import argparse
+import re
 from pathlib import Path
 from typing import Dict, List, Any
 from datetime import datetime
@@ -203,10 +204,18 @@ class ImpactOrchestrator:
             except:
                 extracted_info = {}
         
+        # Helper function to normalize list/string inputs
+        def normalize_to_list(value, default=None):
+            if value is None:
+                return default if default is not None else []
+            if isinstance(value, list):
+                return value
+            return [value] if value else []
+        
         # Extract bill metadata
-        bill_country = extracted_info.get('country', '').upper()
-        bill_sectors = [s.lower() for s in extracted_info.get('affected_sectors', [])]
-        bill_entities = [e.lower() for e in extracted_info.get('affected_entities', [])]
+        bill_country = str(extracted_info.get('country', '')).upper()
+        bill_sectors = [str(s).lower() for s in normalize_to_list(extracted_info.get('affected_sectors', []))]
+        bill_entities = [str(e).lower() for e in normalize_to_list(extracted_info.get('affected_entities', []))]
         
         # Extract entities and phrases from Comprehend
         comprehend_entities = comprehend_results.get('entities', [])
@@ -264,8 +273,8 @@ class ImpactOrchestrator:
             data_points = company_data.get('data_points', {})
             
             # 1. Sector Matching (0-30 points)
-            company_sector = market_data.get('sector', '').lower()
-            company_industry = market_data.get('industry', '').lower()
+            company_sector = str(market_data.get('sector', '')).lower()
+            company_industry = str(market_data.get('industry', '')).lower()
             
             for bill_sector in bill_sectors:
                 # Direct sector match
@@ -316,8 +325,8 @@ class ImpactOrchestrator:
             exposure_factors['geography_match'] = min(exposure_factors['geography_match'], 25.0)
             
             # 3. Explicit Company Mention (0-20 points)
-            company_name = market_data.get('company_name', '').lower()
-            ticker_lower = ticker.lower()
+            company_name = str(market_data.get('company_name', '')).lower()
+            ticker_lower = str(ticker).lower()
             
             # Check if company name or ticker appears in org names from Comprehend
             for org_name in org_names:
@@ -348,7 +357,12 @@ class ImpactOrchestrator:
             
             # 5. Supply Chain Match (0-10 points)
             supply_chain = data_points.get('supply_chain', {})
-            dependencies = supply_chain.get('dependencies', '').lower()
+            dependencies_raw = supply_chain.get('dependencies', '')
+            # Handle both string and list formats
+            if isinstance(dependencies_raw, list):
+                dependencies = ' '.join([str(d).lower() for d in dependencies_raw])
+            else:
+                dependencies = str(dependencies_raw).lower() if dependencies_raw else ''
             suppliers = ' '.join([s.lower() for s in supply_chain.get('key_suppliers', [])])
             
             supply_chain_text = dependencies + ' ' + suppliers
@@ -364,7 +378,7 @@ class ImpactOrchestrator:
             risk_text = ' '.join([r.lower() for r in regulatory_risks])
             
             # Check if bill category aligns with existing regulatory risks
-            category = directive.get('category', '').lower()
+            category = str(directive.get('category', '')).lower()
             if any(keyword in category for keyword in ['environmental', 'tax', 'trade', 'privacy', 'labor', 'financial']):
                 for risk in regulatory_risks:
                     risk_lower = risk.lower()
@@ -451,6 +465,7 @@ class ImpactOrchestrator:
                 except:
                     extracted_info = {}
             
+            # Store full analysis for this directive (with all matches)
             directive_analysis = {
                 'document_id': document_id,
                 'title': extracted_info.get('title', 'Unknown'),
@@ -459,52 +474,132 @@ class ImpactOrchestrator:
                 'effective_date': extracted_info.get('effective_date'),
                 'total_matches': len(matches),
                 'filtered_matches': len(filtered_matches),
-                'top_companies': filtered_matches[:20],  # Top 20 by exposure score
+                'all_companies': filtered_matches,  # All companies above threshold
                 'comprehend_summary': {
                     'entities_found': len(comprehend_results.get('entities', [])),
                     'key_phrases_found': len(comprehend_results.get('key_phrases', [])),
                     'sentiment': comprehend_results.get('sentiment', {}).get('Sentiment') if comprehend_results.get('sentiment') else None
+                },
+                'analysis_metadata': {
+                    'analysis_date': datetime.now().isoformat(),
+                    'exposure_threshold': exposure_threshold,
+                    'total_companies_in_universe': len(company_universe)
                 }
             }
             
-            results['directive_analyses'].append(directive_analysis)
+            results['directive_analyses'].append({
+                'document_id': document_id,
+                'title': extracted_info.get('title', 'Unknown'),
+                'total_matches': len(matches),
+                'filtered_matches': len(filtered_matches),
+                'top_companies': filtered_matches[:10]  # Top 10 for summary
+            })
+            
+            # Store full analysis for individual file saving
+            results['_full_analyses'] = results.get('_full_analyses', [])
+            results['_full_analyses'].append(directive_analysis)
             
             print(f"✅ Found {len(matches)} company matches ({len(filtered_matches)} above threshold)")
         
         return results
     
     def save_results(self, results: Dict[str, Any], output_path: str):
-        """Save analysis results to JSON file"""
+        """Save analysis results - one file per directive plus a summary index"""
         output_file = Path(output_path)
-        output_file.parent.mkdir(parents=True, exist_ok=True)
+        output_dir = output_file.parent
+        output_dir.mkdir(parents=True, exist_ok=True)
         
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(results, f, indent=2, ensure_ascii=False)
+        # Extract full analyses for individual file saving
+        full_analyses = results.get('_full_analyses', [])
         
-        print(f"\n💾 Results saved to: {output_path}")
+        # Save individual files for each directive
+        saved_files = []
+        for directive_analysis in full_analyses:
+            document_id = directive_analysis['document_id']
+            
+            # Create safe filename from document_id
+            safe_filename = self._create_safe_filename(document_id)
+            individual_file = output_dir / f"{safe_filename}_impact.json"
+            
+            # Save individual directive impact analysis
+            with open(individual_file, 'w', encoding='utf-8') as f:
+                json.dump(directive_analysis, f, indent=2, ensure_ascii=False)
+            
+            saved_files.append({
+                'document_id': document_id,
+                'title': directive_analysis.get('title', 'Unknown'),
+                'filename': individual_file.name,
+                'total_matches': directive_analysis['total_matches'],
+                'filtered_matches': directive_analysis['filtered_matches']
+            })
+            
+            print(f"💾 Saved: {individual_file.name} ({directive_analysis['filtered_matches']} companies)")
+        
+        # Create summary index file
+        summary_data = {
+            'analysis_date': results.get('analysis_date', datetime.now().isoformat()),
+            'total_directives': len(full_analyses),
+            'total_companies': results['total_companies'],
+            'exposure_threshold': results['exposure_threshold'],
+            'directives': saved_files,
+            'summary_stats': {
+                'total_matches': sum(d['total_matches'] for d in full_analyses),
+                'total_filtered_matches': sum(d['filtered_matches'] for d in full_analyses),
+                'avg_companies_per_directive': sum(d['filtered_matches'] for d in full_analyses) / len(full_analyses) if full_analyses else 0
+            }
+        }
+        
+        # Save summary index
+        summary_file = output_dir / 'impact_analysis_index.json'
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            json.dump(summary_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n💾 Summary index saved: {summary_file.name}")
         
         # Print summary
         print("\n" + "="*80)
         print("📊 ANALYSIS SUMMARY")
         print("="*80)
-        print(f"Total Directives Analyzed: {results['total_directives']}")
+        print(f"Total Directives Analyzed: {len(full_analyses)}")
         print(f"Total Companies in Universe: {results['total_companies']}")
         print(f"Exposure Threshold: {results['exposure_threshold']*100:.1f}%")
+        print(f"Individual Files Saved: {len(saved_files)}")
         
-        total_matches = sum(d['total_matches'] for d in results['directive_analyses'])
-        total_filtered = sum(d['filtered_matches'] for d in results['directive_analyses'])
+        total_matches = sum(d['total_matches'] for d in full_analyses)
+        total_filtered = sum(d['filtered_matches'] for d in full_analyses)
         
         print(f"Total Company-Directive Matches: {total_matches}")
         print(f"Matches Above Threshold: {total_filtered}")
         
         print("\n📋 Per-Directive Summary:")
-        for directive in results['directive_analyses']:
-            print(f"  • {directive['document_id'][:60]}")
+        for directive in saved_files:
+            print(f"  • {directive['filename']}")
             print(f"    {directive['filtered_matches']}/{directive['total_matches']} matches above threshold")
-            if directive['top_companies']:
-                top_3 = directive['top_companies'][:3]
-                top_str = ', '.join([f"{c['ticker']} ({c['exposure_score']:.1f})" for c in top_3])
-                print(f"    Top: {top_str}")
+            print(f"    Title: {directive['title'][:70]}")
+    
+    def _create_safe_filename(self, document_id: str) -> str:
+        """Create a safe filename from document_id"""
+        # Remove or replace problematic characters
+        safe_name = document_id
+        
+        # Remove file extensions if present
+        safe_name = safe_name.replace('.html', '').replace('.xml', '').replace('.pdf', '')
+        
+        # Replace problematic characters
+        safe_name = re.sub(r'[<>:"/\\|?*]', '_', safe_name)
+        safe_name = re.sub(r'[^\w\s-]', '_', safe_name)
+        
+        # Replace spaces with underscores
+        safe_name = safe_name.replace(' ', '_')
+        
+        # Limit length
+        if len(safe_name) > 100:
+            safe_name = safe_name[:100]
+        
+        # Remove trailing underscores
+        safe_name = safe_name.rstrip('_')
+        
+        return safe_name
 
 
 def main():
@@ -528,7 +623,7 @@ def main():
         '--output',
         type=str,
         default='data/generated/impact_analysis/impact_analysis.json',
-        help='Output path for analysis results'
+        help='Output directory path (individual files will be saved here, plus an index file)'
     )
     parser.add_argument(
         '--threshold',

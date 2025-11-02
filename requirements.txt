@@ -72,5 +72,6 @@ faiss-cpu>=1.7.4            # Vector store (recherche performante)
 # ============================================
 requests>=2.31.0            # Requêtes HTTP
 python-dotenv>=1.0.0        # Variables d'environnement
+python-dateutil>=2.8.0     # Date parsing utilities
 tqdm>=4.65.0                # Barres de progression
 

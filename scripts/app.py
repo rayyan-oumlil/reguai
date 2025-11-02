@@ -2,6 +2,11 @@
 # Datathon PolyFinances 2025
 # Application Streamlit principale
 
+# Fix OpenMP initialization conflict on macOS
+# Must be set before importing any libraries that use OpenMP (numpy, etc.)
+import os
+os.environ.setdefault('KMP_DUPLICATE_LIB_OK', 'TRUE')
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -10,7 +15,6 @@ import plotly.express as px
 from pathlib import Path
 from datetime import datetime
 import json
-import os
 
 # Charger la configuration depuis .env si disponible
 # IMPORTANT: Charger AVANT les imports RAG pour que les credentials soient disponibles
@@ -129,6 +133,25 @@ from scripts.rag import (
     initialize_rag_system,
     chat_with_rag,
     get_rag_stats
+)
+from scripts.impact_helper import (
+    load_impact_results,
+    load_recommendations,
+    impact_results_to_dataframes,
+    render_impact_summary,
+    render_tier1_fcf_chart,
+    render_tier2_risk_chart,
+    render_tier3_price_impact_chart,
+    render_final_risk_distribution,
+    render_companies_table,
+    render_recommendations_table,
+    render_regulation_selector,
+    render_company_details_table
+)
+from scripts.streamlit_impact_runner import (
+    list_available_regulations,
+    run_impact_pipeline,
+    get_pipeline_status
 )
 
 # Configuration de la page
@@ -555,60 +578,164 @@ elif page == "📄 Analyse de Documents":
 
 # PAGE 3: Analyse d'Impact
 elif page == "📈 Analyse d'Impact":
-    st.header("📈 Analyse d'Impact Réglementaire")
-    st.info("💡 Cette section permet d'analyser l'impact des réglementations extraites sur le S&P 500")
+    st.header("📈 Analyse d'Impact Réglementaire - 3-Tier Valuation")
+    st.info("💡 Analyse quantitative de l'impact réglementaire via architecture 3-tiers (FCF Impact → Risk Premium → DCF Valuation)")
     
-    if st.session_state.data_loaded:
-        composition = st.session_state.composition_sp500
-        performance = st.session_state.stocks_performance
+    # Control Panel
+    with st.expander("⚙️ Control Panel - Run Analysis", expanded=False):
+        # List available regulations
+        available_regs = list_available_regulations()
+        pipeline_status = get_pipeline_status()
         
-        # Sélection d'une réglementation
-        st.subheader("Sélectionner une Réglementation")
-        regulations = [
-            "EU AI Act (12 juillet 2024)",
-            "Loi énergétique chinoise (9 novembre 2024)",
-            "Inflation Reduction Act (16 août 2022)",
-            "Directive UE 2019/2161"
-        ]
-        selected_reg = st.selectbox("Choisir une réglementation", regulations)
+        st.markdown("### Current Status")
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            if pipeline_status['has_matching_pairs']:
+                st.success(f"✅ {pipeline_status['pair_count']} pairs")
+            else:
+                st.info("❌ No pairs yet")
+        with col2:
+            if pipeline_status['has_quant_analysis']:
+                st.success("✅ Quant analysis ready")
+            else:
+                st.info("❌ No quant analysis")
+        with col3:
+            if pipeline_status['has_recommendations']:
+                st.success(f"✅ {pipeline_status['recommendation_count']} recommendations")
+            else:
+                st.info("❌ No recommendations")
         
-        if st.button("🔍 Analyser l'Impact", type="primary"):
-            st.success(f"Analyse de '{selected_reg}' en cours...")
-            
-            # Placeholder pour les résultats
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.metric("Entreprises affectées", "127", delta="25.2%")
-                st.metric("Score de risque global", "62/100", delta="Moyen")
-            
-            with col2:
-                st.metric("Impact financier estimé", "-2.34%", delta="Négatif")
-                st.metric("Secteurs exposés", "5", delta="Tech, Energie, ...")
-            
-            # Graphique d'impact simulé
-            st.subheader("Impact Simulé par Entreprise (Top 10)")
-            # Données d'exemple
-            impact_data = pd.DataFrame({
-                'Symbol': composition.head(10)['Symbol'].tolist(),
-                'Impact_Score': np.random.randint(20, 95, 10),
-                'Impact_Percent': np.random.uniform(-15, 5, 10)
-            })
-            
-            fig = px.bar(
-                impact_data,
-                x='Symbol',
-                y='Impact_Score',
-                title='Score d\'Impact par Entreprise',
-                labels={'Impact_Score': 'Score d\'Impact', 'Symbol': 'Symbole'},
-                color='Impact_Percent',
-                color_continuous_scale='RdYlGn_r'
+        st.divider()
+        
+        st.markdown("### Run New Analysis")
+        
+        # Configuration options
+        col1, col2 = st.columns(2)
+        with col1:
+            exposure_threshold = st.slider(
+                "Exposure Threshold",
+                0.0, 1.0, 0.3, 0.05,
+                help="Minimum exposure score to include (0.0-1.0)"
             )
-            st.plotly_chart(fig, width='stretch')
-            
-            st.info("⚠️ Fonctionnalité d'analyse d'impact en cours de développement")
+            enable_quant = st.checkbox(
+                "Enable 3-Tier Valuation",
+                value=True,
+                help="Run full DCF analysis (slower but more precise)"
+            )
+        with col2:
+            limit_pairs = st.number_input(
+                "Limit Pairs (Testing)",
+                min_value=1,
+                max_value=500,
+                value=500,
+                step=1,
+                help="Limit number of pairs to process (use for testing)"
+            )
+            enable_recs = st.checkbox(
+                "Generate Recommendations",
+                value=True,
+                help="Generate Bedrock recommendations"
+            )
+        
+        # Risk thresholds for recommendations
+        if enable_recs:
+            col1, col2 = st.columns(2)
+            with col1:
+                high_risk_threshold = st.slider(
+                    "High Risk Threshold",
+                    0.0, 100.0, 60.0, 5.0,
+                    help="Risk score >= this for REDUCE"
+                )
+            with col2:
+                low_risk_threshold = st.slider(
+                    "Low Risk Threshold",
+                    0.0, 100.0, 30.0, 5.0,
+                    help="Risk score <= this for INCREASE"
+                )
+        
+        # Run analysis button
+        if st.button("🚀 Run Impact Analysis", type="primary"):
+            with st.spinner("Running impact analysis pipeline..."):
+                success, message, results = run_impact_pipeline(
+                    selected_regulation="all",
+                    exposure_threshold=exposure_threshold,
+                    enable_quant_engine=enable_quant,
+                    limit_pairs=None if limit_pairs == 500 else limit_pairs,
+                    high_risk_threshold=high_risk_threshold if enable_recs else 60.0,
+                    low_risk_threshold=low_risk_threshold if enable_recs else 30.0
+                )
+                
+                if success:
+                    st.success("✅ Analysis complete!")
+                    st.text_area("Log Output", message, height=200)
+                    st.rerun()  # Refresh to show new data
+                else:
+                    st.error("❌ Analysis failed")
+                    st.text_area("Error Output", message, height=200)
+    
+    st.divider()
+    
+    # Load and display results
+    impact_results = load_impact_results()
+    
+    if impact_results is None:
+        st.warning("⚠️ No impact analysis found. Use the Control Panel above to run a new analysis.")
     else:
-        st.warning("⚠️ Veuillez d'abord charger les données depuis le Dashboard")
+        # Convert to DataFrames
+        companies_df, regulations_df = impact_results_to_dataframes(impact_results)
+        
+        # Display summary
+        render_impact_summary(companies_df, regulations_df)
+        
+        st.divider()
+        
+        # Load recommendations
+        recommendations = load_recommendations()
+        
+        # Main tabs
+        tab1, tab2, tab3 = st.tabs(["📊 3-Tier Analysis", "🤖 Recommendations", "📋 Companies Details"])
+        
+        with tab1:
+            st.subheader("Three-Tier Valuation Architecture")
+            
+            # Tier 1: FCF Impact
+            render_tier1_fcf_chart(companies_df)
+            
+            st.divider()
+            
+            # Tier 2: Risk Premium
+            render_tier2_risk_chart(companies_df)
+            
+            st.divider()
+            
+            # Tier 3: Price Impact
+            render_tier3_price_impact_chart(companies_df)
+            
+            st.divider()
+            
+            # Risk Distribution
+            render_final_risk_distribution(companies_df)
+        
+        with tab2:
+            if recommendations:
+                render_recommendations_table(recommendations)
+            else:
+                st.warning("⚠️ Recommendations not found. Run `python scripts/recommendation_generator.py`")
+        
+        with tab3:
+            # Regulation selector
+            selected_reg = render_regulation_selector(regulations_df)
+            
+            if selected_reg:
+                st.markdown(f"**Selected:** {selected_reg['regulation_title']}")
+                
+            # Companies table
+            reg_id = selected_reg.get('regulation_id') if selected_reg else None
+            render_company_details_table(companies_df, filter_regulation_id=reg_id)
+            
+            # Full companies table
+            st.subheader("All Companies")
+            render_companies_table(companies_df)
 
 # PAGE 4: Chatbot Financier
 elif page == "🤖 Chatbot Financier":
