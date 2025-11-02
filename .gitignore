@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Data files (trop volumineux pour Git)
+data/*.html
+data/*.json
+data/*.csv
+data/generated/
+*.zip
+*.csv
+*.html
+*.json
+
+# Exception: garder les fichiers de configuration et petits CSV
+!data/README.md
+!requirements.txt
+!*.md
+
+# AWS
+.aws/
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+__pycache__/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.local
+*.key
+secrets.json
+aws_credentials.py
+credentials.py
+*.credentials.py
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+

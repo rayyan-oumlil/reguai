@@ -1,0 +1,61 @@
+# Requirements ESSENTIELS pour le Datathon PolyFinances 2025
+# Installation: pip install -r requirements_essential.txt
+# 
+# Ce fichier contient UNIQUEMENT les dépendances absolument nécessaires
+# pour faire fonctionner l'application de base.
+
+# ============================================
+# Core Data Science (MINIMUM)
+# ============================================
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ============================================
+# AWS Services (OBLIGATOIRE)
+# ============================================
+boto3>=1.28.0              # SDK AWS (Bedrock, S3, Comprehend)
+
+# ============================================
+# Amazon Bedrock & IA Générative (OBLIGATOIRE)
+# ============================================
+instructor[bedrock]>=1.0.0  # Extraction structurée avec Bedrock (Pydantic)
+anthropic>=0.18.0           # Client Anthropic
+
+# ============================================
+# NLP & Text Processing (OBLIGATOIRE)
+# ============================================
+beautifulsoup4>=4.12.0      # Parsing HTML/XML des documents réglementaires
+lxml>=4.9.0                 # Parseur XML efficace
+
+# ============================================
+# Extraction de Rapports 10-K (OBLIGATOIRE)
+# ============================================
+sec-parser>=0.25.0         # Parsing rapports SEC (10-K)
+
+# ============================================
+# Data Validation (OBLIGATOIRE)
+# ============================================
+pydantic>=2.0.0             # Validation et structuration de données
+
+# ============================================
+# Web Interface (OBLIGATOIRE)
+# ============================================
+streamlit>=1.28.0           # Framework pour applications web
+
+# ============================================
+# Visualisation (OBLIGATOIRE)
+# ============================================
+plotly>=5.17.0              # Graphiques interactifs
+
+# ============================================
+# APIs Externes (RECOMMANDÉ)
+# ============================================
+yfinance>=0.2.0             # Yahoo Finance API
+tavily-python>=0.3.0        # Tavily API (recherche web)
+
+# ============================================
+# Utilities de Base
+# ============================================
+requests>=2.31.0            # Requêtes HTTP
+python-dotenv>=1.0.0        # Variables d'environnement
+
