@@ -1,0 +1,62 @@
+{
+  "ticker": "MOH",
+  "company_name": "Molina Healthcare, Inc.",
+  "company_type": "Managed Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Medicaid",
+    "Medicare",
+    "Marketplace",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "CVS Caremark"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Pharmacy benefit management services outsourced to CVS Caremark for claims processing, pharmacy network contracting, rebate processing and mail and specialty pharmacy fulfillment services",
+    "risks": "Dependence on third-party vendors for information technology services and pharmacy benefit management; vendor failures could adversely affect operations",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal or state legislative or regulatory changes to Medicaid, Medicare, or Marketplace programs including funding changes, block grants, per capita caps, work requirements, non-renewal of Marketplace subsidies, provider taxes, or amendments of the Affordable Care Act",
+    "Budget pressures on state governments and states' efforts to reduce rates or limit rate increases",
+    "Changes in interpretation or implementation of federal or state medical cost expenditure floors, administrative cost and profit ceilings, premium stabilization programs, profit-sharing arrangements, and risk adjustment provisions",
+    "HIPAA and HITECH Act compliance requirements for privacy and security of protected health information",
+    "Federal and state fraud and abuse laws including anti-kickback statutes, False Claims Act, and civil monetary penalties",
+    "State licensing and solvency requirements including minimum statutory capital and surplus requirements",
+    "Regulatory restrictions on dividends and distributions by health plan subsidiaries",
+    "Risk adjustment data validation (RADV) audits by CMS with potential for extrapolation of audit results and payment adjustments",
+    "Medicare Star Ratings requirements with potential for contract non-renewal if ratings fall below 3.0 for three consecutive years",
+    "State and federal privacy laws including California Consumer Privacy Act (CCPA), California Privacy Rights Act (CPRA), and Gramm-Leach-Bliley Act (GLBA)",
+    "Healthcare reform proposals that could significantly reduce federal or state spending on Medicaid and Medicare programs",
+    "Potential elimination or reduction of advanced premium tax credits and cost sharing reductions for Marketplace",
+    "Changes to Medicare Advantage risk adjustment model and phase-in of new methodology through 2026",
+    "Transition requirements for Medicare-Medicaid Plans (MMPs) to end no later than December 2025",
+    "Compliance with No Surprises Act and independent dispute resolution requirements for out-of-network providers",
+    "State-specific minimum medical loss ratio requirements and quality performance measures",
+    "Federal medical assistance percentage (FMAP) adjustments and retroactive premium rate changes by states"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Medicaid": 0.79,
+    "Medicare": 0.14,
+    "Marketplace": 0.06,
+    "Other": 0.01
+  }
+}

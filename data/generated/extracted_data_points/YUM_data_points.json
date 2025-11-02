@@ -1,0 +1,122 @@
+{
+  "ticker": "YUM",
+  "company_name": "Yum! Brands, Inc.",
+  "company_type": "Restaurant Franchising",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "China",
+      "Asia-Pacific",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "Latin America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Australia",
+      "India",
+      "Malaysia",
+      "Indonesia",
+      "Turkey",
+      "Russia",
+      "Ukraine",
+      "Canada",
+      "Mexico",
+      "Singapore",
+      "Israel",
+      "Switzerland",
+      "Japan",
+      "Korea",
+      "Thailand",
+      "Philippines",
+      "Pakistan",
+      "Iran",
+      "North Africa"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.57,
+      "China": 0.05,
+      "Other (Outside U.S. and China)": 0.38
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "KFC Division",
+    "Taco Bell Division",
+    "Pizza Hut Division",
+    "Habit Burger & Grill Division"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Restaurant Supply Chain Solutions, LLC (RSCS)",
+      "McLane Foodservice, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "The Company and franchisees are substantial purchasers of chicken, cheese, beef and pork products, paper and packaging materials. McLane Foodservice, Inc. is the distributor for the majority of items used in Company-owned restaurants and for a substantial number of franchisee restaurants in the U.S. International franchisees generally select and manage their own third-party suppliers and distributors.",
+    "risks": "Shortages or interruptions in the availability and delivery of food, equipment and other supplies may increase costs or reduce revenues. Supply chain disruptions have been experienced and may continue due to natural disasters, health epidemics and pandemics, social unrest, impacts of climate change, inaccurate forecasting, restrictions on imports or exports including due to trade disputes, inability of vendors to obtain credit, political instability, financial instability of suppliers and distributors, product quality issues or recalls, inflation, labor unrest or work stoppages, food safety warnings or advisories, cancellation of supply or distribution agreements.",
+    "supplier_concentration": {
+      "McLane Foodservice, Inc.": 0.0
+    }
+  },
+  "regulatory_risks": [
+    "Federal, state and local laws affecting business including information security, privacy, labor and employment, health, marketing, food labeling, competition, public accommodation, sanitation and safety",
+    "Licensing requirements and regulations from health, sanitation, safety, fire and zoning agencies",
+    "State and federal laws regulating franchisor/franchisee relationship",
+    "Laws relating to nutritional content, nutritional labeling, product safety, product marketing and menu labeling",
+    "Health care benefits regulations (Patient Protection and Affordable Care Act)",
+    "Laws relating to union organizing rights and activities",
+    "Data security, privacy, cashless payments, consumer protection laws and use of AI and emerging technologies",
+    "Anti-bribery and anti-corruption laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Environmental laws and regulations including climate change and greenhouse gas emissions",
+    "Federal and state immigration laws and regulations",
+    "Public company compliance, disclosure and governance matters",
+    "International laws and regulations including tariffs on imported commodities and equipment, laws regulating foreign investment",
+    "Broader joint employer standards under National Labor Relations Act",
+    "State legislation regarding misclassification of independent contractors (including California)",
+    "Minimum wage increases (e.g., California AB 1228 raising minimum wage to $20/hour for quick service restaurants)",
+    "Tax legislation changes and OECD Pillar Two initiative (15% global minimum tax)",
+    "GDPR and U.K. General Data Protection Regulations",
+    "State privacy and data protection requirements",
+    "FTC enforcement on privacy policies and digital advertising practices",
+    "Legal requirements for AI and machine learning applications",
+    "Laws relating to biometric information and data collected from minors",
+    "Payment Card Industry Data Security Standards compliance",
+    "Legislation or regulation taxing and/or regulating food with high-fat, sugar and salt content"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Turkey",
+      "India",
+      "Iran",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions restricting cross-border commerce",
+      "Trade or economic sanction regimes in jurisdictions where the Company does business",
+      "Potential expansion of sanctions if current conflicts expand",
+      "Russia sanctions exposure (completed exit from Russia market in 2023)",
+      "Compliance with sanctions or similar legal requirements could result in damages, penalties, suspension of business licenses, or cessation of operations",
+      "Restrictive actions of foreign or U.S. governmental authorities affecting trade or foreign investment",
+      "Potential increases in tariffs, import restrictions and controls"
+    ]
+  },
+  "revenue_by_segment": {
+    "KFC Division": 0.41,
+    "Taco Bell Division": 0.38,
+    "Pizza Hut Division": 0.21,
+    "Habit Burger & Grill Division": 0.01
+  }
+}
