@@ -1,7 +1,16 @@
 """
 Script pour enrichir les données avec Yahoo Finance (yfinance)
-Enrichit les entreprises avec prix actuels, beta, volatilité, etc.
+Enrichit les entreprises avec prix actuels, beta, volatilité, P/E Ratio, etc.
 Peut aussi ajouter Weight S&P 500 depuis CSV ou calcul approximatif.
+
+Métriques incluses :
+- Prix actuel vs prix CSV (variation)
+- Beta (volatilité)
+- P/E Ratio (Price-to-Earnings Ratio) : Indique combien les investisseurs sont prêts à payer 
+  pour chaque dollar de bénéfices. Utilisé pour évaluer si une action est surévaluée ou sous-évaluée.
+  Calcul : Prix de marché / Bénéfice par action (EPS)
+- Market Cap, Volume, 52-week High/Low
+- Facteur de volatilité (basé sur Beta)
 """
 
 import yfinance as yf
@@ -109,6 +118,19 @@ def enrich_ticker_with_yfinance(ticker: str, csv_price: float, include_sp500_wei
         week_52_high = info.get('fiftyTwoWeekHigh', 0)
         week_52_low = info.get('fiftyTwoWeekLow', 0)
         
+        # P/E Ratio (Price-to-Earnings Ratio)
+        # Indique combien les investisseurs sont prêts à payer pour chaque dollar de bénéfices
+        # Utilisé pour évaluer si une action est surévaluée ou sous-évaluée
+        trailing_pe = info.get('trailingPE')  # P/E basé sur les bénéfices passés
+        forward_pe = info.get('forwardPE')  # P/E basé sur les bénéfices futurs estimés
+        
+        # Calculer P/E si EPS disponible et P/E non fourni
+        pe_ratio = trailing_pe or forward_pe
+        if not pe_ratio:
+            eps = info.get('trailingEps') or info.get('forwardEps')
+            if eps and eps > 0 and current_price > 0:
+                pe_ratio = current_price / eps
+        
         # Calcul variation prix
         price_change_pct = 0.0
         if csv_price > 0:
@@ -137,6 +159,9 @@ def enrich_ticker_with_yfinance(ticker: str, csv_price: float, include_sp500_wei
             'volume': volume,
             'week_52_high': round(week_52_high, 2) if week_52_high else 0,
             'week_52_low': round(week_52_low, 2) if week_52_low else 0,
+            'pe_ratio': round(pe_ratio, 2) if pe_ratio else None,  # P/E Ratio
+            'trailing_pe': round(trailing_pe, 2) if trailing_pe else None,
+            'forward_pe': round(forward_pe, 2) if forward_pe else None,
             'volatility_factor': round(volatility_factor, 3),
             'volatility_risk': volatility_risk,
             'enriched_at': pd.Timestamp.now().isoformat(),
@@ -160,6 +185,9 @@ def enrich_ticker_with_yfinance(ticker: str, csv_price: float, include_sp500_wei
             'csv_price': csv_price,
             'price_change_pct': 0.0,
             'beta': 1.0,
+            'pe_ratio': None,
+            'trailing_pe': None,
+            'forward_pe': None,
             'volatility_factor': 1.0,
             'volatility_risk': "Non disponible",
             'success': False,
@@ -309,5 +337,6 @@ if __name__ == "__main__":
         print(f"  Prix actuel: ${data.get('current_price', 0):.2f}")
         print(f"  Variation: {data.get('price_change_pct', 0):+.2f}%")
         print(f"  Beta: {data.get('beta', 1.0):.2f}")
+        print(f"  P/E Ratio: {data.get('pe_ratio', 'N/A')}")
         print(f"  Facteur volatilité: {data.get('volatility_factor', 1.0):.3f}")
 
