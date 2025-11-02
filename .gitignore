@@ -44,13 +44,8 @@ env/
 
 # Data files (trop volumineux pour Git)
 data/*.html
-data/*.json
-data/*.csv
-data/generated/
 *.zip
 *.csv
-*.html
-*.json
 
 # Exception: garder les fichiers de configuration et petits CSV
 !data/README.md
