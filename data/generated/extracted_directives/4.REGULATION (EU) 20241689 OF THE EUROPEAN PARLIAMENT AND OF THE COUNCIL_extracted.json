@@ -1,0 +1,18 @@
+{
+  "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+  "category": "Unknown",
+  "legalbert_confidence": 0.0,
+  "extracted_info": {
+    "title": "Regulation on Artificial Intelligence (EU)",
+    "country": "European Union",
+    "effective_date": "Not Provided",
+    "affected_sectors": "All sectors that use artificial intelligence systems",
+    "key_requirements": [
+      "Compliance with requirements for high-risk AI systems, including risk management, data and data governance, technical documentation, transparency and information to users, human oversight, and accuracy and robustness.",
+      "Obligations for providers and users of high-risk AI systems, including quality management, cooperation with competent authorities, and responsibilities regarding fundamental rights.",
+      "Notification requirements for high-risk AI systems, including registration, conformity assessment, and CE marking."
+    ],
+    "penalties": "Not Provided"
+  },
+  "processing_status": "completed"
+}
