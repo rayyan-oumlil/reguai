@@ -1,0 +1,92 @@
+{
+  "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html": {
+    "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
+    "category": "Unknown",
+    "legalbert_confidence": 0.0,
+    "extracted_info": {
+      "title": "Regulation on Artificial Intelligence (EU)",
+      "country": "European Union",
+      "effective_date": "Not Provided",
+      "affected_sectors": "All sectors that use artificial intelligence systems",
+      "key_requirements": [
+        "Compliance with requirements for high-risk AI systems, including risk management, data and data governance, technical documentation, transparency and information to users, human oversight, and accuracy and robustness.",
+        "Obligations for providers and users of high-risk AI systems, including quality management, cooperation with competent authorities, and responsibilities regarding fundamental rights.",
+        "Notification requirements for high-risk AI systems, including registration, conformity assessment, and CE marking."
+      ],
+      "penalties": "Not Provided"
+    },
+    "processing_status": "completed"
+  },
+  "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html": {
+    "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+    "category": "Unknown",
+    "legalbert_confidence": 0.0,
+    "extracted_info": {
+      "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules",
+      "country": "European Union",
+      "effective_date": "Not specified",
+      "affected_sectors": "Businesses that interact with consumers",
+      "key_requirements": [
+        "Improving the enforcement of consumer protection rules and increasing the deterrence of infringements",
+        "Enhancing transparency for consumers, including on online marketplaces",
+        "Providing for stronger consumer remedies and better redress possibilities"
+      ],
+      "penalties": "Not specified"
+    },
+    "processing_status": "completed"
+  },
+  "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html": {
+    "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
+    "category": "Unknown",
+    "legalbert_confidence": 0.0,
+    "extracted_info": {
+      "title": "Act on the Promotion of Research, Development and Utilization of AI-related Technologies",
+      "country": "Japan",
+      "effective_date": "Not specified",
+      "affected_sectors": "All sectors",
+      "key_requirements": [
+        "Promote research and development of AI-related technologies as a foundation for economic and social development",
+        "Ensure the appropriate and effective utilization of AI-related technologies to significantly improve the efficiency and sophistication of administrative work and private business activities, as well as create new industries",
+        "Maintain Japan's capacity to conduct research and development of AI-related technologies and enhance the international competitiveness of the AI industry"
+      ],
+      "penalties": "Not specified"
+    },
+    "processing_status": "completed"
+  },
+  "5.中华人民共和国能源法__中国政府网.html": {
+    "document_id": "5.中华人民共和国能源法__中国政府网.html",
+    "category": "Unknown",
+    "legalbert_confidence": 0.0,
+    "extracted_info": {
+      "title": "Energy Law of the People's Republic of China",
+      "country": "China",
+      "effective_date": "2024-11-08",
+      "affected_sectors": "Energy sector, including coal, oil, natural gas, nuclear, hydropower, wind, solar, biomass, geothermal, and marine energy, as well as electricity, heat, and hydrogen",
+      "key_requirements": [
+        "Promote high-quality energy development, ensure national energy security, and support the green and low-carbon transformation of the economy and society",
+        "Establish a clean, low-carbon, safe, and efficient new energy system",
+        "Implement the new energy security strategy, including energy consumption revolution, energy supply revolution, energy technology revolution, energy system reform, and comprehensive international cooperation"
+      ],
+      "penalties": "Not specified"
+    },
+    "processing_status": "completed"
+  },
+  "3.H.R.5376 - Inflation Reduction Act of 2022.xml": {
+    "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+    "category": "Unknown",
+    "legalbert_confidence": 0.0,
+    "extracted_info": {
+      "title": "Public Law 117-169: To provide for reconciliation pursuant to title II of S. Con. Res. 14",
+      "country": "United States",
+      "effective_date": "2022-08-16",
+      "affected_sectors": "Corporations (other than S corporations, regulated investment companies, or real estate investment trusts) with average annual adjusted financial statement income exceeding $1 billion or $100 million",
+      "key_requirements": [
+        "Imposition of a 15% alternative minimum tax on applicable corporations' adjusted financial statement income, with an offset for foreign tax credits",
+        "Definition of 'applicable corporation' based on average annual adjusted financial statement income thresholds",
+        "Exceptions for corporations with certain ownership changes or losses"
+      ],
+      "penalties": "Not specified"
+    },
+    "processing_status": "completed"
+  }
+}

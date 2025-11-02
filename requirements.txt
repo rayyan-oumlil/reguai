@@ -54,6 +54,12 @@ yfinance>=0.2.0             # Yahoo Finance API
 tavily-python>=0.3.0        # Tavily API (recherche web)
 
 # ============================================
+# NLP & Machine Learning (OBLIGATOIRE)
+# ============================================
+transformers>=4.21.0         # Hugging Face Transformers (LegalBERT)
+torch>=2.0.0                 # PyTorch (backend pour transformers)
+
+# ============================================
 # Utilities de Base
 # ============================================
 requests>=2.31.0            # Requêtes HTTP
