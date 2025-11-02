@@ -54,6 +54,8 @@ from scripts.rag.data_loader import (
     load_regulatory_extractions,
     load_10k_extractions,
     load_company_universe,
+    load_impact_analysis,
+    load_recommendations,
     create_documents_from_data
 )
 from scripts.rag.vector_store import RAGVectorStore
@@ -196,13 +198,17 @@ def initialize_rag_system(
         regulatory_data = load_regulatory_extractions()
         tenk_data = load_10k_extractions(limit=tenk_limit)
         company_universe = load_company_universe()
+        impact_analysis = load_impact_analysis()
+        recommendations = load_recommendations()
         
         # 4. Créer documents LangChain
         print("📝 Création des documents...")
         documents = create_documents_from_data(
             regulatory_data=regulatory_data,
             tenk_data=tenk_data,
-            company_universe=company_universe
+            company_universe=company_universe,
+            impact_analysis=impact_analysis,
+            recommendations=recommendations
         )
         
         if not documents:
@@ -278,14 +284,16 @@ def _is_general_greeting(query: str) -> bool:
 
 def chat_with_rag(
     query: str,
-    return_sources: bool = True
+    return_sources: bool = True,
+    conversation_history: Optional[List[Dict[str, str]]] = None
 ) -> Dict[str, Any]:
     """
-    Chat avec RAG - Point d'entrée principal
+    Chat avec RAG - Point d'entrée principal avec historique de conversation
     
     Args:
         query: Question utilisateur
         return_sources: Si True, retourne sources utilisées
+        conversation_history: Liste des messages précédents [{"role": "user|assistant", "content": "..."}]
     
     Returns:
         Dictionnaire avec 'answer', 'sources', 'error'
@@ -323,8 +331,8 @@ Posez-moi une question spécifique pour commencer ! Par exemple :
     qa_chain = _rag_system['qa_chain']
     vector_store = _rag_system['vector_store']
     
-    # Exécuter RAG
-    return invoke_rag_chain(qa_chain, query, vector_store, return_sources=return_sources)
+    # Exécuter RAG avec historique
+    return invoke_rag_chain(qa_chain, query, vector_store, return_sources=return_sources, conversation_history=conversation_history)
 
 
 def search_rag_context(

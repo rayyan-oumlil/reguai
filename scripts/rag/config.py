@@ -17,6 +17,8 @@ DATA_PATHS = {
     'regulatory_extractions': BASE_DIR / 'data' / 'generated' / 'extracted_directives',
     'tenk_extractions': BASE_DIR / 'data' / 'generated' / 'extracted_data_points',
     'company_universe': BASE_DIR / 'data' / 'generated' / 'company_universe' / 'company_universe.json',
+    'impact_analysis': BASE_DIR / 'data' / 'generated' / 'impact_analysis' / 'matching_pairs.json',
+    'recommendations': BASE_DIR / 'data' / 'generated' / 'recommendations' / 'recommendations.json',
     'vector_store_cache': BASE_DIR / 'data' / 'generated' / 'rag_cache' / 'vector_store',  # Cache FAISS
 }
 
@@ -72,6 +74,14 @@ CHUNKING_PATTERNS = {
     'company_universe': {
         'preferred_separator': '\n',     # Lignes pour données entreprise
         'max_chunk_size': 500,
+    },
+    'impact_analysis': {
+        'preferred_separator': '\n',     # Lignes pour données impact
+        'max_chunk_size': 700,
+    },
+    'recommendations': {
+        'preferred_separator': '\n\n',  # Paragraphes pour recommendations
+        'max_chunk_size': 600,
     }
 }
 

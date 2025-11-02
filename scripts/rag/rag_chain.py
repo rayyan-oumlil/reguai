@@ -106,15 +106,16 @@ def create_rag_prompt_template() -> PromptTemplate:
 CONTEXTE (Base de connaissances extraite de nos documents):
 {context}
 
-QUESTION UTILISATEUR:
 {question}
 
 INSTRUCTIONS:
 - Utilise les informations du contexte pour répondre de manière directe et utile
+- Si un historique de conversation est fourni, utilise-le pour comprendre le contexte de la question actuelle et répondre en cohérence avec les échanges précédents
+- Référence-toi aux questions/réponses précédentes si elles sont pertinentes pour la réponse actuelle
 - Si le contexte contient des informations pertinentes (même partielles), SYNTHÉTISE-les pour répondre de façon constructive
 - Ne dis PAS systématiquement "cette information n'est pas disponible" - utilise ce qui est disponible pour donner une réponse utile
 - Si tu trouves des informations connexes (réglementations similaires, entreprises du même secteur, etc.), mentionne-les
-- Cite tes sources brièvement : type ([regulation], [10k], [company_universe]) et nom/titre quand disponible
+- Cite tes sources brièvement : type ([regulation], [10k], [company_universe], [impact_analysis], [recommendations]) et nom/titre quand disponible
 - Sois précis : utilise les tickers, dates, chiffres exacts du contexte
 - Réponds de manière naturelle et conversationnelle, sans être trop procédural
 - Structure ta réponse avec des sections courtes si nécessaire (titres courts en **gras**)
@@ -123,6 +124,7 @@ EXEMPLES DE BONNES RÉPONSES:
 - "D'après [regulation] X, voici les impacts principaux..."
 - "Dans notre base, nous avons des données sur les entreprises Y et Z du secteur tech qui pourraient être concernées..."
 - "Cette réglementation mentionne les secteurs suivants : A, B, C. Voici ce que cela implique..."
+- "Comme mentionné précédemment, [référence à conversation], voici des détails supplémentaires..."
 
 Réponse directe et utile:"""
     
@@ -158,10 +160,32 @@ def create_rag_chain(vector_store: RAGVectorStore, llm: Optional[ChatBedrock] = 
         return "\n\n".join([doc.page_content for doc in docs])
     
     # Créer une fonction chain simple qui fonctionne avec toutes versions
-    def rag_chain_function(query: str):
-        """Fonction RAG complète"""
-        # 1. Rechercher documents pertinents (avec plus de contexte)
-        docs = retriever.invoke(query)
+    def rag_chain_function(query: str, conversation_history: list = None):
+        """Fonction RAG complète avec historique de conversation"""
+        # Construire un contexte enrichi à partir de l'historique
+        enriched_query = query
+        
+        # Si on a un historique, l'inclure pour enrichir la recherche et le contexte
+        if conversation_history and len(conversation_history) > 0:
+            # Prendre les 3 derniers échanges (6 messages max : 3 user + 3 assistant)
+            recent_history = conversation_history[-6:] if len(conversation_history) > 6 else conversation_history
+            
+            # Construire un résumé de l'historique pour enrichir la requête de recherche
+            history_summary = []
+            for msg in recent_history:
+                role = msg.get('role', '')
+                content = msg.get('content', '')
+                if role == 'user' and content:
+                    history_summary.append(f"Question précédente: {content[:200]}")
+                elif role == 'assistant' and content:
+                    history_summary.append(f"Réponse précédente: {content[:200]}")
+            
+            # Enrichir la requête avec le contexte de l'historique
+            if history_summary:
+                enriched_query = f"{query}\n\nContexte de conversation précédente:\n" + "\n".join(history_summary[-2:])  # Garder seulement les 2 derniers pour la recherche
+        
+        # 1. Rechercher documents pertinents (avec contexte enrichi)
+        docs = retriever.invoke(enriched_query)
         
         # Si peu de documents trouvés, essayer une recherche plus large
         if len(docs) < 3:
@@ -182,10 +206,31 @@ def create_rag_chain(vector_store: RAGVectorStore, llm: Optional[ChatBedrock] = 
         
         context = format_docs(docs)
         
-        # 2. Formater prompt avec contexte
-        formatted_prompt = prompt.format(context=context, question=query)
+        # 2. Construire le prompt avec historique de conversation
+        conversation_context = ""
+        if conversation_history and len(conversation_history) > 0:
+            # Prendre les 4 derniers échanges (8 messages max)
+            recent_messages = conversation_history[-8:] if len(conversation_history) > 8 else conversation_history
+            
+            conv_parts = []
+            for msg in recent_messages:
+                role = msg.get('role', '')
+                content = msg.get('content', '')
+                if role == 'user' and content:
+                    conv_parts.append(f"Utilisateur: {content}")
+                elif role == 'assistant' and content:
+                    conv_parts.append(f"Assistant: {content}")
+            
+            if conv_parts:
+                conversation_context = "\n\nHISTORIQUE DE LA CONVERSATION:\n" + "\n".join(conv_parts) + "\n\nQUESTION ACTUELLE:\n"
         
-        # 3. Appeler LLM
+        # 3. Formater prompt avec contexte et historique
+        if conversation_context:
+            formatted_prompt = prompt.format(context=context, question=conversation_context + query)
+        else:
+            formatted_prompt = prompt.format(context=context, question=query)
+        
+        # 4. Appeler LLM
         try:
             response = llm.invoke(formatted_prompt)
             # Extraire contenu (format peut varier)
@@ -216,16 +261,18 @@ def invoke_rag_chain(
     qa_chain,
     query: str,
     vector_store: RAGVectorStore,
-    return_sources: bool = True
+    return_sources: bool = True,
+    conversation_history: Optional[List[Dict[str, str]]] = None
 ) -> Dict[str, Any]:
     """
-    Exécute la chain RAG avec une question
+    Exécute la chain RAG avec une question et historique de conversation
     
     Args:
         qa_chain: Chain RAG (peut être une fonction ou un runnable)
         query: Question utilisateur
         vector_store: Vector store pour récupérer sources
         return_sources: Si True, retourne aussi les sources
+        conversation_history: Liste des messages précédents [{"role": "user|assistant", "content": "..."}]
     
     Returns:
         Dictionnaire avec 'answer', 'sources', et éventuellement 'error'
@@ -233,20 +280,33 @@ def invoke_rag_chain(
     try:
         # Exécuter chain (supporte fonction ou runnable)
         if callable(qa_chain) and not hasattr(qa_chain, 'invoke'):
-            # C'est une fonction simple (fallback)
-            result = qa_chain(query)
+            # C'est une fonction simple (fallback) - passer l'historique
+            if conversation_history:
+                result = qa_chain(query, conversation_history=conversation_history)
+            else:
+                result = qa_chain(query)
             answer = result.get('result', '') if isinstance(result, dict) else str(result)
             source_docs = result.get('source_documents', []) if isinstance(result, dict) else []
         else:
-            # C'est un runnable LangChain
+            # C'est un runnable LangChain (pour l'instant, pas de support historique)
             if hasattr(qa_chain, 'invoke'):
                 answer = qa_chain.invoke(query)
             else:
                 answer = str(qa_chain(query))
             
-            # Récupérer sources séparément
+            # Récupérer sources séparément (avec requête enrichie si historique)
             if return_sources:
-                source_docs = vector_store.search(query, top_k=RAG_CONFIG['top_k'])
+                search_query = query
+                if conversation_history and len(conversation_history) > 0:
+                    # Enrichir la recherche avec le dernier échange
+                    last_user_msg = None
+                    for msg in reversed(conversation_history):
+                        if msg.get('role') == 'user':
+                            last_user_msg = msg.get('content', '')
+                            break
+                    if last_user_msg:
+                        search_query = f"{query} {last_user_msg[:100]}"
+                source_docs = vector_store.search(search_query, top_k=RAG_CONFIG['top_k'])
             else:
                 source_docs = []
         
@@ -273,6 +333,15 @@ def invoke_rag_chain(
                 elif doc.metadata.get('type') in ['10k', 'company_universe']:
                     source_info['ticker'] = doc.metadata.get('ticker', '')
                     source_info['company_name'] = doc.metadata.get('company_name', '')
+                elif doc.metadata.get('type') == 'impact_analysis':
+                    source_info['regulation_id'] = doc.metadata.get('regulation_id', '')
+                    source_info['regulation_title'] = doc.metadata.get('regulation_title', '')
+                    source_info['total_companies_matched'] = doc.metadata.get('total_companies_matched', 0)
+                elif doc.metadata.get('type') == 'recommendations':
+                    source_info['ticker'] = doc.metadata.get('ticker', '')
+                    source_info['company_name'] = doc.metadata.get('company_name', '')
+                    source_info['recommendation_type'] = doc.metadata.get('recommendation_type', '')
+                    source_info['risk_score'] = doc.metadata.get('risk_score', 0)
                 
                 if 'similarity_score' in doc.metadata:
                     source_info['similarity_score'] = doc.metadata['similarity_score']

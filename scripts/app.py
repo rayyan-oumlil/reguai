@@ -136,8 +136,7 @@ from scripts.dashboard_helper import (
 )
 from scripts.chatbot_helper import (
     chat_with_claude,
-    format_chat_message,
-    get_example_questions
+    format_chat_message
 )
 from scripts.rag import (
     initialize_rag_system,
@@ -679,7 +678,7 @@ elif page == "📈 Analyse d'Impact":
                 format_func=lambda x: reg_options[x],
                 help="Select one or more regulations to analyze. Leave empty for all."
             )
-            
+        
             if not selected_reg_indices:
                 st.info("ℹ️ No regulations selected - will analyze all by default")
                 selected_regs = "all"
@@ -747,7 +746,7 @@ elif page == "📈 Analyse d'Impact":
                 )
         
         st.divider()
-        
+            
         # Run analysis button
         if st.button("🚀 Run Impact Analysis", type="primary", use_container_width=True):
             with st.spinner("Running impact analysis pipeline..."):
@@ -847,14 +846,132 @@ elif page == "🤖 Chatbot Financier":
         )
         return result
     
-    # Initialiser RAG si pas déjà fait
+    # Gestion des conversations sauvegardées
+    conv_dir = Path('data/generated/saved_conversations')
+    conv_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Lister les conversations sauvegardées
+    saved_conversations = sorted(conv_dir.glob("conversation_*.json"), key=lambda x: x.stat().st_mtime, reverse=True)
+    
+    # Interface pour sauvegarder/charger
+    col1, col2, col3 = st.columns([2, 1, 1])
+    with col1:
+        # Sélecteur pour charger une conversation
+        if saved_conversations:
+            # Extraire le nom personnalisé du filename si disponible
+            def extract_conv_name(conv_path):
+                stem = conv_path.stem.replace('conversation_', '')
+                # Format: nom_personnalise_YYYYMMDD_HHMMSS ou YYYYMMDD_HHMMSS
+                parts = stem.split('_')
+                if len(parts) >= 3:
+                    # Il y a un nom personnalisé (tout sauf les 2 dernières parties qui sont date/heure)
+                    custom_name = '_'.join(parts[:-2])
+                    timestamp = '_'.join(parts[-2:])
+                    return f"{custom_name} - {datetime.strptime(timestamp, '%Y%m%d_%H%M%S').strftime('%Y-%m-%d %H:%M')}"
+                else:
+                    # Pas de nom personnalisé, juste timestamp
+                    timestamp = stem
+                    return f"Conversation - {datetime.strptime(timestamp, '%Y%m%d_%H%M%S').strftime('%Y-%m-%d %H:%M')}"
+            
+            conv_names = [extract_conv_name(conv) for conv in saved_conversations]
+            
+            # Initialiser le state pour suivre la dernière conversation chargée
+            if 'last_loaded_conversation' not in st.session_state:
+                st.session_state.last_loaded_conversation = None
+            
+            # Liste des options
+            options = ["Nouvelle conversation"] + conv_names
+            
+            # Trouver l'index actuel
+            current_index = 0
+            if st.session_state.last_loaded_conversation and st.session_state.last_loaded_conversation in conv_names:
+                current_index = conv_names.index(st.session_state.last_loaded_conversation) + 1
+            
+            selected_conv = st.selectbox(
+                "📂 Charger une conversation sauvegardée",
+                options,
+                key="load_conversation",
+                index=current_index
+            )
+            
+            # Charger seulement si la sélection a changé
+            if selected_conv != "Nouvelle conversation":
+                if st.session_state.last_loaded_conversation != selected_conv:
+                    try:
+                        # Trouver le fichier correspondant
+                        idx = conv_names.index(selected_conv)
+                        conv_file = saved_conversations[idx]
+                        
+                        # Charger la conversation
+                        with open(conv_file, 'r', encoding='utf-8') as f:
+                            loaded_messages = json.load(f)
+                        
+                        st.session_state.messages = loaded_messages
+                        st.session_state.last_loaded_conversation = selected_conv
+                        st.success(f"✅ Conversation chargée")
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"❌ Erreur chargement: {e}")
+            else:
+                # Si on sélectionne "Nouvelle conversation", effacer l'historique seulement si on vient d'une conversation chargée
+                if st.session_state.last_loaded_conversation and st.session_state.last_loaded_conversation != "Nouvelle conversation":
+                    st.session_state.messages = []
+                    st.session_state.last_loaded_conversation = None
+                    st.rerun()
+        else:
+            st.caption("Aucune conversation sauvegardée")
+    
+    with col2:
+        # Input pour le nom de la conversation
+        if 'save_conversation_name' not in st.session_state:
+            st.session_state.save_conversation_name = ""
+        
+        conv_name = st.text_input(
+            "Nom de la conversation",
+            value=st.session_state.save_conversation_name,
+            placeholder="Ex: Discussion sur Nvidia",
+            key="conversation_name_input"
+        )
+        
+        if st.button("💾 Sauvegarder", help="Sauvegarde la conversation actuelle", key="save_conversation"):
+            try:
+                # Vérifier que un nom a été fourni
+                if not conv_name.strip():
+                    st.error("❌ Veuillez entrer un nom pour la conversation avant de sauvegarder.")
+                else:
+                    # Nettoyer le nom (enlever caractères spéciaux pour nom de fichier)
+                    safe_name = "".join(c for c in conv_name.strip() if c.isalnum() or c in (' ', '-', '_')).strip()
+                    safe_name = safe_name.replace(' ', '_')
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    filename = f"conversation_{safe_name}_{timestamp}.json"
+                    
+                    conv_file = conv_dir / filename
+                    
+                    # Sauvegarder
+                    with open(conv_file, 'w', encoding='utf-8') as f:
+                        json.dump(st.session_state.messages, f, indent=2, ensure_ascii=False)
+                    
+                    st.success(f"✅ Conversation sauvegardée : {conv_name}")
+                    st.session_state.save_conversation_name = ""  # Réinitialiser le champ
+                    st.rerun()
+            except Exception as e:
+                st.error(f"❌ Erreur sauvegarde: {e}")
+    
+    with col3:
+        if st.button("🗑️ Effacer", help="Efface l'historique actuel", key="clear_conversation"):
+            st.session_state.messages = []
+            st.success("✅ Historique effacé")
+            st.rerun()
+    
+    # Initialiser RAG si pas déjà fait (silencieux - sans spinner visible)
     if 'rag_initialized' not in st.session_state:
-        with st.spinner("🚀 Initialisation système RAG (première fois, peut prendre 2-3 minutes)..."):
+        # Initialiser en arrière-plan sans afficher de spinner visible
             rag_result = init_rag()
             if rag_result['success']:
                 st.session_state.rag_initialized = True
                 st.session_state.rag_from_cache = rag_result.get('from_cache', False)
                 
+            # Messages seulement en console, pas visible dans l'UI
                 if rag_result.get('from_cache'):
                     print(f"✅ [LOG] RAG initialisé depuis cache (rapide)")
                 else:
@@ -882,9 +999,6 @@ elif page == "🤖 Chatbot Financier":
     if "messages" not in st.session_state:
         st.session_state.messages = []
     
-    # Initialisation de la question en attente (pour questions d'exemple)
-    if "pending_question" not in st.session_state:
-        st.session_state.pending_question = None
     
     # Mode RAG ou basique
     use_rag = st.session_state.get('rag_initialized', False)
@@ -899,10 +1013,7 @@ elif page == "🤖 Chatbot Financier":
     with scroll_container:
         # Afficher l'historique (sauf si on est en train de générer une nouvelle réponse)
         # On vérifie s'il y a une question en cours pour éviter d'afficher l'ancienne réponse en double
-        generating_new_response = (
-            ("pending_question" in st.session_state and st.session_state.pending_question) or
-            st.session_state.get("_generating", False)
-        )
+        generating_new_response = st.session_state.get("_generating", False)
         
         for idx, message in enumerate(st.session_state.messages):
             # Si c'est la dernière réponse d'assistant et qu'on génère une nouvelle réponse, skip
@@ -949,121 +1060,7 @@ elif page == "🤖 Chatbot Financier":
         """, unsafe_allow_html=True)
     
     # Traiter une question d'exemple si elle a été cliquée (AVANT chat_input)
-    if "pending_question" in st.session_state and st.session_state.pending_question:
-        prompt = st.session_state.pending_question
-        st.session_state.pending_question = None  # Reset
-        st.session_state["_generating"] = True  # Marquer qu'on génère
-        
-        # Ajouter le message utilisateur (si pas déjà présent)
-        if not st.session_state.messages or st.session_state.messages[-1].get("content") != prompt:
-            st.session_state.messages.append({"role": "user", "content": prompt})
-        
-        # Afficher message utilisateur
-        with st.chat_message("user"):
-            st.markdown(prompt)
-            
-            # Scroll immédiatement après affichage question
-            st.markdown("""
-            <script>
-                setTimeout(function() {
-                    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-                }, 50);
-            </script>
-            """, unsafe_allow_html=True)
-        
-        # Générer réponse (même logique que pour chat_input)
-        with st.chat_message("assistant"):
-            if use_rag:
-                # Mode RAG
-                with st.spinner("🔍 Recherche dans la base de connaissances..."):
-                    rag_response = chat_with_rag(prompt, return_sources=True)
-                    
-                    if rag_response['error']:
-                        response = f"❌ Erreur: {rag_response['error']}"
-                        st.error(response)
-                        st.session_state.messages.append({
-                            "role": "assistant",
-                            "content": response,
-                            "sources": []
-                        })
-                    else:
-                        response = rag_response['answer']
-                        st.markdown(response)
-                        
-                        # Ajouter réponse avec sources
-                        st.session_state.messages.append({
-                            "role": "assistant",
-                            "content": response,
-                            "sources": rag_response.get('sources', [])
-                        })
-                        
-                        # Afficher info sur sources
-                        if rag_response.get('sources'):
-                            num_sources = len(rag_response['sources'])
-                            st.caption(f"📚 Réponse basée sur {num_sources} document(s) de la base de connaissances")
-                        
-                        # Force scroll après affichage réponse (pending_question)
-                        st.markdown("""
-                        <script>
-                            setTimeout(function() {
-                                window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-                            }, 100);
-                        </script>
-                        """, unsafe_allow_html=True)
-            else:
-                # Mode basique (sans RAG) - pending_question
-                with st.spinner("🤔 Réflexion en cours..."):
-                    # Convertir l'historique au format Claude
-                    claude_messages = [
-                        format_chat_message(msg["role"], msg["content"])
-                        for msg in st.session_state.messages
-                    ]
-                    
-                    # Appel à Claude (mode basique)
-                    # Utiliser un modèle disponible dans votre compte
-                    result = chat_with_claude(
-                        claude_messages,
-                        model="global.anthropic.claude-sonnet-4-5-20250929-v1:0",  # Modèle disponible dans votre compte
-                        max_tokens=4000
-                    )
-                    
-                    if result['error']:
-                        response = f"❌ Erreur: {result['error']}"
-                        st.error(response)
-                    else:
-                        response = result['response']
-                        st.markdown(response)
-                        
-                        # Afficher usage si disponible
-                        if result['usage']:
-                            with st.expander("📊 Usage (Tokens)"):
-                                usage = result['usage']
-                                col1, col2, col3 = st.columns(3)
-                                with col1:
-                                    st.metric("Input", usage.get('input_tokens', 0))
-                                with col2:
-                                    st.metric("Output", usage.get('output_tokens', 0))
-                                with col3:
-                                    total = usage.get('input_tokens', 0) + usage.get('output_tokens', 0)
-                                    st.metric("Total", total)
-                    
-                    st.session_state.messages.append({
-                        "role": "assistant",
-                        "content": response,
-                        "sources": []
-                    })
-                    
-                    # Force scroll après affichage réponse (pending_question - basique)
-                    st.markdown("""
-                    <script>
-                        setTimeout(function() {
-                            window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
-                        }, 100);
-                    </script>
-                    """, unsafe_allow_html=True)
-        
-        # Marquer génération terminée
-        st.session_state["_generating"] = False
+    # Pas de logique de questions d'exemple - les utilisateurs saisissent directement leurs questions
     
     # Input utilisateur - Plus grand et visible
     if prompt := st.chat_input(
@@ -1092,9 +1089,14 @@ elif page == "🤖 Chatbot Financier":
         # Générer réponse
         with st.chat_message("assistant"):
             if use_rag:
-                # Mode RAG
+                # Mode RAG - s'assurer que _generating reste True pendant toute la recherche
+                # Utiliser un placeholder pour indiquer qu'on est en train de rechercher
+                st.session_state["_generating"] = True
+                st.session_state["_searching"] = True
                 with st.spinner("🔍 Recherche dans la base de connaissances..."):
-                    rag_response = chat_with_rag(prompt, return_sources=True)
+                    # Passer l'historique de conversation au RAG
+                    conversation_history = st.session_state.messages[:-1] if len(st.session_state.messages) > 1 else []
+                    rag_response = chat_with_rag(prompt, return_sources=True, conversation_history=conversation_history)
                     
                     if rag_response['error']:
                         response = f"❌ Erreur: {rag_response['error']}"
@@ -1182,40 +1184,70 @@ elif page == "🤖 Chatbot Financier":
         
         # Marquer génération terminée
         st.session_state["_generating"] = False
+        st.session_state["_searching"] = False
     
-    # Exemples de questions - Style compact et discret
+    # Afficher des exemples de questions dans un expander
+    # L'expander se ferme automatiquement pendant la génération mais peut être rouvert après
     st.markdown("---")
-    st.markdown("### 💡 Questions d'exemple")
     
-    example_questions = get_example_questions()
+    # Déterminer si une génération est en cours
+    is_generating = st.session_state.get("_generating", False) or st.session_state.get("_searching", False)
     
-    # Style CSS pour boutons plus petits avec couleur bleue + agrandir la barre de saisie
-    # Scoped to main content area to avoid affecting sidebar
+    # Initialiser l'état de l'expander si pas défini (ouvert au début)
+    if "examples_expanded" not in st.session_state:
+        st.session_state.examples_expanded = True
+    
+    # Fermer automatiquement si génération en cours
+    # (on ne rouvre pas automatiquement après, l'utilisateur peut le faire manuellement)
+    if is_generating:
+        st.session_state.examples_expanded = False
+    
+    # Déterminer l'état d'expansion : utiliser l'état sauvé sauf si génération en cours
+    expand_state = st.session_state.examples_expanded and not is_generating
+    
+    # Afficher l'expander (toujours visible, peut être contrôlé manuellement)
+    # On utilise une key pour que Streamlit puisse gérer l'état, mais on force la fermeture pendant génération
+    with st.expander("💡 Questions d'exemple", expanded=expand_state):
+        # Mettre à jour l'état si on n'est pas en génération (l'utilisateur peut contrôler)
+        if not is_generating:
+            # Si l'expander est ouvert maintenant (après le rendu), mettre à jour le state
+            # Note: On ne peut pas vraiment détecter le clic directement, mais on force l'état pendant génération
+            # et on laisse l'utilisateur contrôler après
+            st.session_state.examples_expanded = True  # On assume qu'il reste ouvert si pas de génération
+        
+        st.caption("Vous pouvez copier ces questions et les coller dans la barre de saisie")
+        
+        example_questions = [
+            "Quel est l'impact de l'EU AI Act sur les entreprises tech du S&P 500 ?",
+            "Quelles entreprises sont le plus exposées aux réglementations chinoises ?",
+            "Compare l'impact de deux réglementations sur le portefeuille",
+            "Explique-moi pourquoi Nvidia est recommandé à la réduction"
+        ]
+        
+        # Afficher chaque question dans une boîte copiable
+        for i, question in enumerate(example_questions):
+            st.markdown(f"""
+            <div style="
+                background-color: #f0f2f6;
+                border: 1px solid #d1d5db;
+                border-radius: 8px;
+                padding: 12px 16px;
+                margin-bottom: 10px;
+                cursor: text;
+                user-select: all;
+                -webkit-user-select: all;
+                -moz-user-select: all;
+                -ms-user-select: all;
+                font-size: 14px;
+                color: #1f2937;
+            ">
+                {question}
+            </div>
+            """, unsafe_allow_html=True)
+    
+    # Style CSS pour agrandir la barre de saisie
     st.markdown("""
     <style>
-        /* Boutons d'exemples de questions - scoped to main content only */
-        div[data-testid="stHorizontalBlock"] div[data-testid="stButton"] > button[kind="secondary"] {
-            min-height: 45px !important;
-            font-size: 13px !important;
-            font-weight: 400 !important;
-            padding: 10px 15px !important;
-            text-align: left !important;
-            border: 1.5px solid #1f77b4 !important;
-            border-radius: 8px !important;
-            background-color: rgba(31, 119, 180, 0.06) !important;
-            color: #1f77b4 !important;
-            transition: all 0.2s ease !important;
-            white-space: normal !important;
-            word-wrap: break-word !important;
-            margin-bottom: 8px !important;
-        }
-        div[data-testid="stHorizontalBlock"] div[data-testid="stButton"] > button[kind="secondary"]:hover {
-            background-color: rgba(31, 119, 180, 0.12) !important;
-            border-color: #2c9ae8 !important;
-            transform: translateY(-1px) !important;
-            box-shadow: 0 2px 4px rgba(31, 119, 180, 0.15) !important;
-        }
-        
         /* Barre de saisie plus grande */
         div[data-testid="stChatInput"] > div > div {
             min-height: 80px !important;
@@ -1227,22 +1259,30 @@ elif page == "🤖 Chatbot Financier":
             font-size: 16px !important;
             line-height: 1.6 !important;
         }
+        
+        /* Style pour les messages utilisateur (questions posées) - fond plus foncé */
+        /* Streamlit génère les messages avec une structure spécifique */
+        div[data-testid="stChatMessage"] > div > div:last-child {
+            background-color: #d1d5db !important;
+            border-radius: 8px !important;
+            padding: 12px 16px !important;
+            color: #1f2937 !important;
+            margin: 4px 0 !important;
+        }
+        
+        /* Essayer de cibler spécifiquement les messages utilisateur */
+        div[data-testid="stChatMessage"]:has(svg[viewBox*="24"]) > div > div:last-child {
+            background-color: #d1d5db !important;
+        }
+        
+        /* Style pour les questions d'exemple - sélection facile */
+        div[style*="user-select: all"]:hover {
+            background-color: #e5e7eb !important;
+            border-color: #9ca3af !important;
+        }
     </style>
     """, unsafe_allow_html=True)
     
-    # Afficher questions en 2 colonnes
-    cols = st.columns(2)
-    for idx, q in enumerate(example_questions):
-        with cols[idx % 2]:
-            if st.button(
-                q, 
-                key=f"example_{idx}", 
-                use_container_width=True,
-                type="secondary"
-            ):
-                # Marquer la question comme en attente
-                st.session_state.pending_question = q
-                st.rerun()
 
 # PAGE 5: Documentation
 elif page == "📚 Documentation":

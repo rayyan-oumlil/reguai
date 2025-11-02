@@ -1,0 +1,20 @@
+[
+  {
+    "role": "user",
+    "content": "hey"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour ! 👋\n\nJe suis votre assistant financier spécialisé dans l'analyse réglementaire et les portefeuilles S&P 500. Je peux vous aider à :\n\n📋 **Analyser les réglementations** - Comprendre les impacts des nouvelles lois (EU AI Act, Inflation Reduction Act, etc.)\n\n🏢 **Explorer les entreprises** - Informations sur les entreprises du S&P 500 et leur exposition réglementaire\n\n💡 **Évaluer les impacts** - Identifier quelles entreprises sont concernées par quelles réglementations\n\nPosez-moi une question spécifique pour commencer ! Par exemple :\n- \"Quel est l'impact de l'EU AI Act sur les entreprises tech ?\"\n- \"Quelles entreprises sont exposées aux réglementations chinoises ?\" ",
+    "sources": []
+  },
+  {
+    "role": "user",
+    "content": "salut ca va"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour ! 👋\n\nJe suis votre assistant financier spécialisé dans l'analyse réglementaire et les portefeuilles S&P 500. Je peux vous aider à :\n\n📋 **Analyser les réglementations** - Comprendre les impacts des nouvelles lois (EU AI Act, Inflation Reduction Act, etc.)\n\n🏢 **Explorer les entreprises** - Informations sur les entreprises du S&P 500 et leur exposition réglementaire\n\n💡 **Évaluer les impacts** - Identifier quelles entreprises sont concernées par quelles réglementations\n\nPosez-moi une question spécifique pour commencer ! Par exemple :\n- \"Quel est l'impact de l'EU AI Act sur les entreprises tech ?\"\n- \"Quelles entreprises sont exposées aux réglementations chinoises ?\" ",
+    "sources": []
+  }
+]
