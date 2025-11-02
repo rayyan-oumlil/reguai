@@ -1,0 +1,46 @@
+{
+  "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+  "category": "Category: Trade\n\nExplanation: This is a directive about consumer protection rules and trade practices, focusing on modernizing EU rules for consumer protection and establishing sanctions for businesses that violate these trade regulations across member states.",
+  "legalbert_confidence": 0.9080135345458984,
+  "extracted_info": {
+    "title": "Directive on better enforcement and modernization of EU consumer protection rules",
+    "country": "European Union",
+    "effective_date": "May 28, 2022",
+    "affected_sectors": [
+      "E-commerce and online marketplaces",
+      "Retail trade",
+      "Digital services",
+      "Consumer goods",
+      "Travel and transportation",
+      "Digital content providers"
+    ],
+    "key_requirements": [
+      "Transparency in online marketplace rankings and search results",
+      "Clear disclosure of paid advertising and sponsored listings",
+      "Information about whether third-party sellers are traders or private individuals",
+      "Disclosure of main parameters determining product rankings",
+      "Protection against fake reviews and manipulated consumer recommendations",
+      "Clear information about personalized pricing based on automated decision-making",
+      "Enhanced sanctions for widespread infringements",
+      "Protection against misleading dual-quality products marketing",
+      "New consumer rights for digital services and content"
+    ],
+    "penalties": {
+      "maximum_fine": "At least 4% of annual turnover in affected member states",
+      "alternative_fine": "Up to 2 million euros when turnover information is not available",
+      "enforcement": "Through administrative or judicial proceedings",
+      "criteria": [
+        "Nature, gravity and duration of infringement",
+        "Any actions taken to mitigate consumer damage",
+        "Previous violations",
+        "Financial benefits gained from infringement",
+        "Penalties in other member states",
+        "Other aggravating or mitigating factors"
+      ]
+    }
+  },
+  "processing_status": "completed",
+  "from_cache": false,
+  "cache_source": "local",
+  "filename": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html"
+}
