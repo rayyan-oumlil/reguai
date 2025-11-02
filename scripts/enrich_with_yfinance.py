@@ -100,7 +100,7 @@ def enrich_ticker_with_yfinance(ticker: str, csv_price: float, include_sp500_wei
         # Prix actuel
         history = stock.history(period='1d')
         if not history.empty:
-            current_price = float(history['Close'][0])
+            current_price = float(history['Close'].iloc[0])
         else:
             current_price = csv_price
         
@@ -215,7 +215,7 @@ def enrich_multiple_tickers(tickers: List[str], csv_prices: Dict[str, float],
     if max_tickers:
         tickers = tickers[:max_tickers]
     
-    print(f"📊 Enrichissement de {len(tickers)} entreprises avec Yahoo Finance...")
+    print(f"Enrichissement de {len(tickers)} entreprises avec Yahoo Finance...")
     
     for ticker in tqdm(tickers, desc="Enrichissement"):
         csv_price = csv_prices.get(ticker, 0)
@@ -229,7 +229,7 @@ def enrich_multiple_tickers(tickers: List[str], csv_prices: Dict[str, float],
             }
     
     successful = sum(1 for r in results.values() if r.get('success', False))
-    print(f"\n✅ {successful}/{len(tickers)} enrichissements réussis")
+    print(f"\n{successful}/{len(tickers)} enrichissements reussis")
     
     return results
 
@@ -286,21 +286,34 @@ def enrich_company_universe(company_universe: Dict,
     tickers_to_enrich = []
     
     for ticker, data in company_universe.items():
-        # Essayer différentes structures possibles
-        csv_price = 0
-        if 'market_data' in data:
-            csv_price = data['market_data'].get('stock_price', 0)
-        elif 'key_market_data' in data:
-            csv_price = data['key_market_data'].get('stock_price', 0)
+        # Essayer différentes structures possibles pour trouver le prix CSV
+        csv_price = None
         
-        if csv_price > 0:
-            csv_prices[ticker] = csv_price
+        # Chercher dans market_data en priorité
+        if 'market_data' in data and data['market_data']:
+            market_data = data['market_data']
+            # Chercher current_price d'abord (format Company Universe)
+            csv_price = market_data.get('current_price')
+            # Si pas trouvé ou invalide, chercher stock_price
+            if not csv_price or csv_price <= 0:
+                csv_price = market_data.get('stock_price')
+        
+        # Fallback vers key_market_data si nécessaire
+        if (not csv_price or csv_price <= 0) and 'key_market_data' in data and data['key_market_data']:
+            key_market_data = data['key_market_data']
+            csv_price = key_market_data.get('current_price')
+            if not csv_price or csv_price <= 0:
+                csv_price = key_market_data.get('stock_price')
+        
+        # Ajouter si prix valide trouvé
+        if csv_price and isinstance(csv_price, (int, float)) and csv_price > 0:
+            csv_prices[ticker] = float(csv_price)
             tickers_to_enrich.append(ticker)
     
     # Limiter aux top N
     tickers_to_enrich = tickers_to_enrich[:limit_top_n]
     
-    print(f"📊 Enrichissement de {len(tickers_to_enrich)} entreprises...")
+    print(f"Enrichissement de {len(tickers_to_enrich)} entreprises...")
     
     # Enrichir
     enrichment_results = enrich_multiple_tickers(
