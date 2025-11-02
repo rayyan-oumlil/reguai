@@ -47,6 +47,15 @@ data/*.html
 *.zip
 *.csv
 
+# Specific directive files to ignore
+data/raw/directives/1.DIRECTIVE\ \(UE\)\ 20192161\ DU\ PARLEMENT\ EUROPÉEN\ ET\ DU\ CONSEIL.html
+data/raw/directives/4.REGULATION\ \(EU\)\ 20241689\ OF\ THE\ EUROPEAN\ PARLIAMENT\ AND\ OF\ THE\ COUNCIL.html
+data/raw/directives/5.*.html
+data/raw/directives/6.*.html
+
+# Fillings directory (raw regulatory files)
+data/raw/fillings/
+
 # Exception: garder les fichiers de configuration et petits CSV
 !data/README.md
 !data/generated/

@@ -26,15 +26,20 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
   exit 1
 fi
 
-aws s3 sync "$LOCAL_DIR" "$S3_BUCKET" \
+.venv/bin/aws s3 sync "$LOCAL_DIR" "$S3_BUCKET" \
   --exclude ".venv/*" \
   --exclude ".venv/**" \
+  --exclude ".venv" \
+  --exclude "venv/*" \
+  --exclude "venv/**" \
+  --exclude "venv" \
   --exclude ".venv" \
   --exclude "jeu_de_donnees/*" \
   --exclude "jeu_de_donnees/**" \
   --exclude "jeu_de_donnees" \
   --exclude "fillings/*" \
   --delete
+
 
 echo ""
 echo "✅ Push completed successfully!"
