@@ -46,6 +46,16 @@ env/
 data/*.html
 *.zip
 *.csv
+.libs.json
+
+# Specific directive files to ignore
+data/raw/directives/1.DIRECTIVE*
+data/raw/directives/4.REGULATION*
+data/raw/directives/5.*
+data/raw/directives/6.*
+
+# Fillings directory (raw regulatory files)
+data/raw/fillings/
 
 # Exception: garder les fichiers de configuration et petits CSV
 !data/README.md
