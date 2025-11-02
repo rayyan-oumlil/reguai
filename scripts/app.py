@@ -359,8 +359,26 @@ elif page == "📊 Analyse":
                     with col_info:
                         # Document name with icon
                         icon = "📄" if not doc['is_hidden'] else "👁️‍🗨️"
-                        st.markdown(f"**{icon} {doc['filename']}**")
-                        st.caption(f"{doc['size'] / 1024:.1f} KB")
+                        
+                        # Get display name: use extracted title if available, otherwise use filename
+                        display_name = doc['filename']
+                        original_filename = doc['filename']  # Keep for duplicate detection
+                        
+                        if doc['status'] == 'analyzed' and doc.get('extraction') and doc['extraction'].get('data'):
+                            extracted_info = doc['extraction']['data'].get('extracted_info', {})
+                            title = extracted_info.get('title', '')
+                            if title:
+                                display_name = title
+                        
+                        # Display the title (or filename if not analyzed)
+                        st.markdown(f"**{icon} {display_name}**")
+                        
+                        # Show file info: size and original filename (hidden but accessible)
+                        if display_name != original_filename:
+                            # Show original filename in small text for reference/duplicate detection
+                            st.caption(f"📁 {original_filename} • {doc['size'] / 1024:.1f} KB")
+                        else:
+                            st.caption(f"{doc['size'] / 1024:.1f} KB")
                     
                     with col_date:
                         upload_date_str = doc['upload_date'].strftime("%Y-%m-%d %H:%M")
