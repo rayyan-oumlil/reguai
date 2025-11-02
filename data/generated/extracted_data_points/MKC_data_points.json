@@ -1,0 +1,105 @@
+{
+  "ticker": "MKC",
+  "company_name": "McCormick & Company, Incorporated",
+  "company_type": "Food Manufacturing - Spices, Seasonings, and Flavorful Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East, and Africa (EMEA)",
+      "Asia/Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Poland",
+      "Italy",
+      "China",
+      "Australia",
+      "Thailand",
+      "South Africa",
+      "India",
+      "Russia",
+      "Singapore",
+      "Switzerland",
+      "Taiwan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.714,
+      "EMEA": 0.184,
+      "APAC": 0.102
+    },
+    "assets_by_region": {
+      "United States": 0.805,
+      "EMEA": 0.112,
+      "Other countries": 0.083
+    }
+  },
+  "segments": [
+    "Consumer",
+    "Flavor Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Poland",
+      "Italy",
+      "China",
+      "Australia",
+      "Thailand"
+    ],
+    "dependencies": "Most significant raw materials are dairy products, pepper, onion, garlic, capsicums (red peppers and paprika), tomato products, sugar and salts. Pepper and other spices and herbs are generally sourced from countries other than the U.S.",
+    "risks": "Raw materials subject to fluctuations in market price and availability caused by weather, growing and harvesting conditions, climate change, market conditions, including inflationary cost increases, and other factors beyond control. Reduced availability of transportation capacity due to labor shortages and higher fuel costs. Reliance on third-party transportation providers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Food, Drug, and Cosmetic Act compliance",
+    "Food Safety Modernization Act requirements",
+    "Federal Trade Commission Act regulations",
+    "State consumer protection laws",
+    "Competition laws and anti-corruption laws",
+    "Customs and trade laws, including import and export of products and product ingredients",
+    "Privacy laws and data protection (GDPR, CCPA, CPRA)",
+    "Environmental protection laws (federal, state, and local)",
+    "Proposition 65 (California Safe Drinking Water and Toxic Enforcement Act)",
+    "Product labeling and marketing regulations",
+    "Foreign supplier verification requirements",
+    "Enforcement of existing laws and changes in legal requirements",
+    "Climate change regulations (greenhouse gas emissions, carbon pricing, cap and trade systems)",
+    "ESG disclosure rules and sustainability standards",
+    "Pillar 2 global 15% minimum tax (OECD framework)",
+    "Tariffs, quotas, trade barriers and similar restrictions",
+    "Changes in tax laws and interpretations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan",
+      "Middle East (Israel, Hamas conflict region)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions exposure (exited consumer business in Russia in 2022)",
+      "Potential broader economic disruption from ongoing conflicts between Russia and Ukraine",
+      "War in the Middle East impacts",
+      "Rising tensions between China and Taiwan",
+      "Trade restrictions and embargoes affecting ability to sell, ship products, collect payments in certain regions",
+      "Export control law restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumer": 0.572,
+    "Flavor Solutions": 0.428
+  }
+}

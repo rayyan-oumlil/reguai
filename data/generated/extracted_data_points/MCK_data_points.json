@@ -1,0 +1,96 @@
+{
+  "ticker": "MCK",
+  "company_name": "McKesson Corporation",
+  "company_type": "Healthcare Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Europe",
+      "Norway"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Norway",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.96,
+      "Foreign": 0.04
+    },
+    "assets_by_region": {
+      "United States": 0.96,
+      "Foreign": 0.04
+    }
+  },
+  "segments": [
+    "U.S. Pharmaceutical",
+    "Prescription Technology Solutions",
+    "Medical-Surgical Solutions",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third parties for supply of pharmaceutical and other products",
+      "Concentration of suppliers - few large suppliers control significant share of pharmaceuticals market",
+      "Largest supplier accounted for 11% of total purchases in fiscal 2025",
+      "Ten largest suppliers accounted for approximately 69% of total purchases"
+    ],
+    "risks": [
+      "Supplier failure to satisfy production demand",
+      "Supply disruptions from product rationalization, government actions, trade sanctions, tariffs, labor disputes, supplier financial distress, natural disasters, civil unrest, military conflicts, epidemics or pandemics",
+      "Changes in supplier pricing, selling, inventory, distribution or supply policies",
+      "Difficulties in sourcing products due to compliance challenges, access to raw materials, manufacturing shutdowns",
+      "Concentration risk - loss of large supplier could adversely affect business",
+      "Generic drug manufacturers may not fully indemnify against patent infringement claims",
+      "Tariffs and trade restrictions may require substantial additional sourcing costs or alternate supply sources"
+    ],
+    "supplier_concentration": {
+      "Largest supplier": 0.11,
+      "Ten largest suppliers": 0.69
+    }
+  },
+  "regulatory_risks": [
+    "DEA, FDA, HHS, CMS oversight and compliance requirements for pharmaceutical distribution",
+    "Controlled Substances Act compliance and monitoring requirements",
+    "Healthcare fraud and abuse laws (Anti-Kickback Statute, Stark Law, False Claims Act)",
+    "Drug Supply Chain Security Act (DSCSA) interoperable unit-level traceability requirements",
+    "State and federal licensing requirements for wholesale drug distributors",
+    "Privacy and data protection laws (HIPAA, GDPR, PIPEDA, state privacy laws)",
+    "Cybersecurity incident reporting requirements (Cyber Incident Reporting for Critical Infrastructure Act, SEC reporting)",
+    "Environmental laws and regulations (discharge of pollutants, hazardous waste management, contaminated site cleanup)",
+    "Climate change regulations and disclosure requirements",
+    "Antitrust and competition laws",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Healthcare reform impacts (ACA, Inflation Reduction Act drug pricing provisions)",
+    "340B Drug Pricing Program restrictions and litigation",
+    "State opioid taxes and assessments (New York Opioid Stewardship Act)",
+    "Provincial government drug pricing regulations in Canada",
+    "FDA product safety and efficacy regulations",
+    "Government contract procurement laws and compliance requirements",
+    "AI and generative AI regulatory guidance",
+    "Value Added Tax (VAT) assessments in foreign jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions and tariffs may disrupt supply chain and increase costs",
+      "Government requisition, diversion or allocation of inventory during geopolitical events",
+      "Retaliatory tariffs or trade restrictions imposed by other countries",
+      "Military conflicts and civil unrest may disrupt operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. Pharmaceutical": 0.913,
+    "Prescription Technology Solutions": 0.015,
+    "Medical-Surgical Solutions": 0.032,
+    "International": 0.041
+  }
+}

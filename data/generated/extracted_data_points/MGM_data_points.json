@@ -1,0 +1,110 @@
+{
+  "ticker": "MGM",
+  "company_name": "MGM Resorts International",
+  "company_type": "Gaming and Entertainment",
+  "geography": {
+    "regions": [
+      "United States",
+      "Macau Special Administrative Region",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Macau",
+      "Hong Kong",
+      "Taiwan",
+      "Japan",
+      "Sweden",
+      "Malta",
+      "Canada",
+      "United Arab Emirates"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.735,
+      "China": 0.233,
+      "Other": 0.032
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Las Vegas Strip Resorts",
+    "Regional Operations",
+    "MGM China",
+    "MGM Digital"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Limited labor resources in Macau competing with multiple casino properties",
+      "Transportation infrastructure capacity to and from Macau",
+      "Energy supply for large-scale resort operations",
+      "Water resources particularly in Las Vegas and other operating regions"
+    ],
+    "risks": [
+      "Labor competition and wage inflation in Macau",
+      "Supply chain disruptions affecting procurement of goods",
+      "Transportation infrastructure inadequacy in Macau could negatively impact visitation",
+      "Energy price volatility and supply constraints",
+      "Water scarcity in Las Vegas and other operating regions",
+      "Difficulty hiring and retaining sufficient employees",
+      "Disruptions to global supply chain from macroeconomic conditions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Gaming license revocation or non-renewal in various jurisdictions",
+    "Macau government can terminate MGM Grand Paradise's concession without compensation under certain circumstances",
+    "Macau government can redeem concession with one year notice from eighth year onwards",
+    "Changes in gaming tax rates and regulatory requirements",
+    "Compliance with Bank Secrecy Act and anti-money laundering regulations",
+    "Foreign Corrupt Practices Act (FCPA) violations and enforcement",
+    "New Macau illegal gaming law criminalizing unlicensed currency exchange and unauthorized credit for gaming",
+    "Privacy law compliance including CCPA, GDPR, and state privacy laws across multiple jurisdictions",
+    "Environmental regulations including Clean Air Act, Clean Water Act, Resource Conservation Recovery Act",
+    "Climate change reporting requirements including potential SEC regulations",
+    "OECD Pillar Two framework establishing global minimum tax of 15%",
+    "Smoking ban regulations in casinos",
+    "iGaming and online sports betting regulatory changes and enforcement uncertainties",
+    "Restrictions on Union Pay withdrawals and ATM limits in Macau",
+    "Cross-border currency monitoring and capital controls",
+    "Macau government investment commitments of MOP 19.7 billion over concession term",
+    "Gaming concession annual premiums and variable fees based on tables and machines",
+    "New York commercial gaming license application process",
+    "Japan integrated resort licensing and regulatory framework",
+    "UAE General Commercial Gaming Regulatory Authority framework development",
+    "State and local gaming expansion referendums and legislation",
+    "Increased scrutiny on corporate social responsibility and ESG initiatives"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Macau",
+      "Hong Kong",
+      "Taiwan",
+      "Japan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-China trade tensions and potential tariffs impacting cross-border travel and imported goods",
+      "China's anti-corruption campaign affecting gaming customer behavior",
+      "Restrictions on currency movements and capital controls in China",
+      "Potential changes to Hong Kong dollar and Macau pataca peg to US dollar",
+      "Travel restrictions between mainland China and Macau",
+      "Geopolitical tensions affecting Far East baccarat customer volumes",
+      "Protectionist legislation in response to trade tensions",
+      "Political instability and military conflicts affecting international travel",
+      "Sanctions compliance requirements across multiple jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Las Vegas Strip Resorts": 0.511,
+    "Regional Operations": 0.216,
+    "MGM China": 0.233,
+    "MGM Digital": 0.032,
+    "Corporate and other": 0.008
+  }
+}

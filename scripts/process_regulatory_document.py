@@ -143,13 +143,13 @@ class RegulatoryDocumentProcessor:
         """Classify regulation using LegalBERT for legal document understanding"""
         print("🔍 Classifying document using LegalBERT...")
         
-        # Truncate text to avoid token limit (512 tokens max for BERT)
-        truncated_text = text[:2000]
+        # Use first 10000 chars for classification (better context than just 2000)
+        truncated_text = text[:10000]
         
         try:
-            # Tokenize input
+            # Tokenize input for LegalBERT (limited to 512 tokens)
             inputs = self.legal_tokenizer(
-                truncated_text,
+                truncated_text[:2000],  # LegalBERT still needs small input
                 return_tensors="pt",
                 truncation=True,
                 max_length=512,
@@ -165,7 +165,7 @@ class RegulatoryDocumentProcessor:
             confidence = min(torch.norm(embeddings).item() / 10, 1.0)
             print(f"📋 LegalBERT confidence score: {confidence:.2%}")
             
-            # Use Claude for contextual classification
+            # Use Claude Sonnet for contextual classification (more text for better accuracy)
             prompt = f"""Based on this regulatory document excerpt, classify it into ONE category:
             - Environmental
             - Financial
@@ -179,10 +179,10 @@ class RegulatoryDocumentProcessor:
             Return only the category name and a brief 1-2 sentence explanation."""
             
             response = self.bedrock.invoke_model(
-                modelId='anthropic.claude-sonnet-4-5-20250929-v1:0',
+                modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',
                 body=json.dumps({
                     'anthropic_version': 'bedrock-2023-05-31',
-                    'max_tokens': 100,
+                    'max_tokens': 200,
                     'messages': [{'role': 'user', 'content': prompt}]
                 })
             )
@@ -201,47 +201,171 @@ class RegulatoryDocumentProcessor:
             return {'category': 'Unknown', 'legalbert_confidence': 0.0}
     
     def extract_key_info(self, text: str, category: str) -> Dict[str, Any]:
-        """Extract key regulatory information using Claude"""
+        """Extract key regulatory information using Claude with automatic chunking for large documents"""
         print(f"🔎 Extracting key information for {category} regulation...")
-        prompt = f"""Extract key information from this {category} regulation. Return all information in English.
+        
+        # Claude Sonnet 4.5 supports up to ~3.5M chars
+        MAX_CHARS_SONNET = 3500000
+        text_length = len(text)
+        
+        # Truncate to Claude's limit if needed
+        if text_length > MAX_CHARS_SONNET:
+            text = text[:MAX_CHARS_SONNET]
+            print(f"   ⚠️ Document very long ({text_length:,} → 3.5M chars)")
+        
+        prompt_template = """Extract key information from this {category} regulation. Return all information in English.
         
         Required fields:
         - title: Document title (translate to English if needed)
         - country: Country or region where this regulation applies (e.g., "United States", "European Union", "Japan", etc.)
         - effective_date: When it takes effect
-        - affected_sectors: Which business sectors are impacted
-        - key_requirements: Main compliance requirements (max 3)
+        - affected_sectors: Which business sectors are impacted (as a list)
+        - key_requirements: Main compliance requirements (as a list)
         - penalties: Potential penalties for non-compliance
         
-        Document: {text[:4000]}
+        Document: {document_text}
         
         Return ONLY valid JSON (no markdown, no code blocks, just pure JSON). Ensure all text fields are in English."""
         
-        response = self.bedrock.invoke_model(
-            modelId='anthropic.claude-3-haiku-20240307-v1:0',
-            body=json.dumps({
-                'anthropic_version': 'bedrock-2023-05-31',
-                'max_tokens': 500,
-                'messages': [{'role': 'user', 'content': prompt}]
-            })
-        )
-        
-        result = json.loads(response['body'].read())
-        content = result['content'][0]['text'].strip()
-        print("✅ Key information extracted")
-        
-        try:
-            # Remove markdown code blocks if present
-            if content.startswith('```'):
-                content = content.split('```')[1]
-                if content.startswith('json'):
-                    content = content[4:]
-                content = content.strip()
+        def merge_regulatory_info(info1: Dict, info2: Dict) -> Dict:
+            """Merge two regulatory information dictionaries"""
+            merged = info1.copy() if info1 else {}
             
-            return json.loads(content)
-        except json.JSONDecodeError as e:
-            print(f"⚠️ Failed to parse JSON: {e}")
-            return {'raw_content': content}
+            if not info2:
+                return merged
+            
+            # Title: take the longer one
+            if info2.get('title') and (not merged.get('title') or len(info2['title']) > len(merged.get('title', ''))):
+                merged['title'] = info2['title']
+            
+            # Country: take first non-empty
+            if info2.get('country') and not merged.get('country'):
+                merged['country'] = info2['country']
+            
+            # Effective date: take first non-empty
+            if info2.get('effective_date') and not merged.get('effective_date'):
+                merged['effective_date'] = info2['effective_date']
+            
+            # Affected sectors: merge lists
+            sectors1 = merged.get('affected_sectors', [])
+            if isinstance(sectors1, str):
+                sectors1 = [sectors1] if sectors1 else []
+            sectors2 = info2.get('affected_sectors', [])
+            if isinstance(sectors2, str):
+                sectors2 = [sectors2] if sectors2 else []
+            merged['affected_sectors'] = list(set(sectors1 + sectors2))
+            
+            # Key requirements: merge lists
+            reqs1 = merged.get('key_requirements', [])
+            if isinstance(reqs1, str):
+                reqs1 = [reqs1] if reqs1 else []
+            reqs2 = info2.get('key_requirements', [])
+            if isinstance(reqs2, str):
+                reqs2 = [reqs2] if reqs2 else []
+            merged['key_requirements'] = list(set(reqs1 + reqs2))
+            
+            # Penalties: take the longer one
+            if info2.get('penalties') and (not merged.get('penalties') or len(str(info2['penalties'])) > len(str(merged.get('penalties', '')))):
+                merged['penalties'] = info2['penalties']
+            
+            return merged
+        
+        def extract_recursive(text_chunk: str, depth: int = 0, max_depth: int = 10) -> Dict:
+            """Recursively extract information, splitting if document is too long"""
+            if depth > max_depth:
+                print(f"   {'  ' * depth}❌ Max depth ({max_depth}) reached")
+                return None
+            
+            chunk_length = len(text_chunk)
+            
+            # Stop splitting if chunk is too small (< 100 chars) - likely an API error, not length issue
+            if chunk_length < 100:
+                print(f"   {'  ' * depth}⚠️ Chunk too small ({chunk_length} chars), stopping recursion")
+                return None
+            
+            prompt = prompt_template.format(category=category, document_text=text_chunk)
+            
+            try:
+                response = self.bedrock.invoke_model(
+                    modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+                    body=json.dumps({
+                        'anthropic_version': 'bedrock-2023-05-31',
+                        'max_tokens': 1000,
+                        'messages': [{'role': 'user', 'content': prompt}]
+                    })
+                )
+                
+                result = json.loads(response['body'].read())
+                content = result['content'][0]['text']
+                
+                try:
+                    # Remove markdown code blocks if present
+                    if content.startswith('```'):
+                        content = content.split('```')[1]
+                        if content.startswith('json'):
+                            content = content[4:]
+                        content = content.strip()
+                    
+                    extracted_info = json.loads(content)
+                    print(f"   {'  ' * depth}✅ Chunk extracted ({chunk_length:,} chars)")
+                    return extracted_info
+                except json.JSONDecodeError:
+                    print(f"   {'  ' * depth}⚠️ Invalid JSON, returning raw content")
+                    return {'raw_content': content}
+                    
+            except Exception as e:
+                error_msg = str(e).lower()
+                
+                # ONLY split if it's specifically about the prompt/input being too long
+                # Check for explicit length-related error messages
+                is_length_error = (
+                    "prompt is too long" in error_msg or
+                    "too many tokens" in error_msg or
+                    "maximum context length" in error_msg or
+                    "input is too long" in error_msg or
+                    ("too long" in error_msg and "prompt" in error_msg)
+                )
+                
+                if is_length_error and chunk_length > 1000:
+                    # Document is too long for the model, split it
+                    print(f"   {'  ' * depth}⚠️ Input too long ({chunk_length:,} chars) → Splitting")
+                    
+                    mid_point = len(text_chunk) // 2
+                    split_point = text_chunk.rfind('\n', mid_point - 10000, mid_point + 10000)
+                    if split_point == -1:
+                        split_point = mid_point
+                    
+                    chunk1 = text_chunk[:split_point]
+                    chunk2 = text_chunk[split_point:]
+                    
+                    info1 = extract_recursive(chunk1, depth + 1, max_depth)
+                    info2 = extract_recursive(chunk2, depth + 1, max_depth)
+                    
+                    if info1 and info2:
+                        return merge_regulatory_info(info1, info2)
+                    return info1 or info2
+                    
+                elif "throttling" in error_msg or "throttled" in error_msg:
+                    import time
+                    wait = min(30, (depth + 1) * 5)
+                    print(f"   {'  ' * depth}⏳ Throttling, waiting {wait}s...")
+                    time.sleep(wait)
+                    return extract_recursive(text_chunk, depth, max_depth)
+                    
+                else:
+                    # Any other error - don't try to split, just report it
+                    print(f"   {'  ' * depth}❌ Error: {str(e)[:150]}")
+                    return None
+        
+        # Start recursive extraction
+        extracted_info = extract_recursive(text)
+        
+        if extracted_info:
+            print("✅ Key information extracted successfully")
+            return extracted_info
+        else:
+            print("⚠️ Extraction failed, returning basic structure")
+            return {'raw_content': text[:1000] + '...'}
     
     def process_document(self, file_path: str) -> Dict[str, Any]:
         """Process any document format"""

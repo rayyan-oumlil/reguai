@@ -1,0 +1,100 @@
+{
+  "ticker": "MHK",
+  "company_name": "Mohawk Industries, Inc.",
+  "company_type": "Flooring Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Latin America",
+      "Asia",
+      "Australasia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Belgium",
+      "France",
+      "Netherlands",
+      "Germany",
+      "United Kingdom",
+      "Ireland",
+      "Poland",
+      "Bulgaria",
+      "Russia",
+      "Spain",
+      "Italy",
+      "Luxembourg",
+      "Australia",
+      "New Zealand",
+      "Malaysia",
+      "China",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.55,
+      "Europe": 0.29,
+      "Latin America": 0.07,
+      "Other": 0.09
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Global Ceramic",
+    "Flooring North America",
+    "Flooring Rest of the World"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Brazil",
+      "Mexico",
+      "Russia",
+      "Australia",
+      "New Zealand",
+      "Malaysia"
+    ],
+    "dependencies": "Principal raw materials include triexta, nylon, polypropylene, polyester resins and fibers (carpet business); clay, talc, feldspar, glazes (ceramic tile business); wood, paper, resins (laminate/wood flooring); glass fiber, plasticizers, PVC resins (resilient flooring). Company is dependent on one or a small number of suppliers for certain raw materials.",
+    "risks": "Supply chain disruption from geopolitical conflict (Russia-Ukraine, Middle East conflicts), tariffs and global trade uncertainties, raw material sourcing from Ukraine (primarily clay), potential escalation of oil and petroleum-based chemical prices, transportation barriers, supplier relationship disruptions",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Increasingly numerous and complex laws and regulations in jurisdictions where company operates",
+    "Enhanced climate change and environmental regulation (California Climate Corporate Data Accountability Act, EU Corporate Sustainability Reporting Directive, EU Corporate Sustainability Due Diligence Directive)",
+    "Greenhouse gas emissions limitations and cap-and-trade systems",
+    "Federal, state, local and international environmental, social, health and safety laws",
+    "Import/export restrictions and licensing requirements",
+    "Compliance with laws governing international relations and trade, including US and EU sanctions and corruption laws",
+    "Foreign country regulatory requirements and differing labor laws",
+    "Tax law changes and foreign country tax rules",
+    "Data privacy and cybersecurity regulations (federal, state, international)",
+    "Product-related regulations and compliance requirements",
+    "Trade and tariff policies, including potential increased US tariffs on foreign imports from Mexico, China or other countries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US and EU sanctions on Russia due to military actions in Ukraine",
+      "Potential nationalization of foreign-owned businesses in Russia",
+      "Sanctions or transportation barriers from Middle East conflicts",
+      "Compliance with US and European Union laws relating to sanctions and corruption in emerging markets"
+    ]
+  },
+  "revenue_by_segment": {
+    "Global Ceramic": 0.39,
+    "Flooring NA": 0.35,
+    "Flooring ROW": 0.26
+  }
+}

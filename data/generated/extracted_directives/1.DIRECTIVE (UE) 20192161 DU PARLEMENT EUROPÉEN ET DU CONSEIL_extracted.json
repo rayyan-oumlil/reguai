@@ -1,18 +1,36 @@
 {
   "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
-  "category": "Unknown",
-  "legalbert_confidence": 0.0,
+  "category": "Category: Trade\n\nExplanation: This is a directive focused on consumer protection rules and trade practices within the EU, modifying earlier directives regarding consumer rights, business-to-consumer transactions, and enforcement of trade regulations. The document primarily deals with commercial relationships between businesses and consumers.",
+  "legalbert_confidence": 0.9080136299133301,
   "extracted_info": {
-    "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council",
+    "title": "Directive (EU) 2019/2161 on better enforcement and modernization of EU consumer protection rules",
     "country": "European Union",
-    "effective_date": "18.12.2019",
-    "affected_sectors": "Consumer protection",
-    "key_requirements": [
-      "Increase awareness of consumer protection laws among businesses and consumers",
-      "Improve enforcement of consumer rights and remedies available to consumers",
-      "Introduce more effective and proportionate penalties for breaches of EU consumer laws"
+    "effective_date": "May 28, 2022",
+    "affected_sectors": [
+      "E-commerce and online marketplaces",
+      "Retail trade",
+      "Digital services providers",
+      "Consumer goods manufacturers",
+      "Travel and tourism",
+      "Event ticket sellers"
     ],
-    "penalties": "More effective and proportionate penalties to deter and punish intra-EU infringements"
+    "key_requirements": [
+      "Transparency on price reductions and product rankings in online marketplaces",
+      "Clear identification of paid advertising in search results",
+      "Disclosure of whether sellers on online marketplaces are traders or private individuals",
+      "Verification and transparency of consumer reviews",
+      "Protection against fake reviews and manipulated recommendations",
+      "New rules on personalized pricing based on automated decision-making",
+      "Enhanced penalties for widespread infringements",
+      "Protection against ticket resale using automated software (bots)",
+      "New consumer rights for digital content and services"
+    ],
+    "penalties": [
+      "Maximum fines of at least 4% of annual turnover in affected EU member states",
+      "Alternative maximum fine of 2 million euros where turnover information is not available",
+      "Penalties must be effective, proportionate and dissuasive",
+      "Member states must consider factors like nature, gravity, duration of infringement when setting penalties"
+    ]
   },
   "processing_status": "completed"
 }

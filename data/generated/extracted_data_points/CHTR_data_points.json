@@ -1,0 +1,78 @@
+{
+  "ticker": "CHTR",
+  "company_name": "Charter Communications, Inc.",
+  "company_type": "Telecommunications / Broadband Connectivity",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Residential Internet",
+    "Residential Video",
+    "Residential Mobile",
+    "Residential Voice",
+    "Small and Medium Business (SMB)",
+    "Enterprise",
+    "Advertising Sales",
+    "Spectrum Reach",
+    "Spectrum Networks",
+    "Spectrum Community Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Verizon Communications Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "The Company depends on a limited number of third-party service providers, suppliers and licensors to supply services, hardware, software and operational support necessary to provide services and execute network evolution and rural construction initiatives. Some vendors represent sole source of supply or have positions of exclusivity through contract or intellectual property rights.",
+    "risks": "Ability to procure necessary services and equipment from vendors in a timely manner and at reasonable costs including in connection with network evolution and rural construction initiatives. Risk of vendor breach or termination of agreements, capacity constraints, tariffs impacting vendor obligations, vendor operating or financial difficulties, vendor network shutdowns or security breaches, significant price increases, cessation of production or software updates.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulation of broadband Internet access services including network management, broadband label requirements, broadband availability reporting, digital discrimination rules, and transparency rules",
+    "State-level regulation of Internet services including network resiliency rules, licensing requirements, service quality metrics, and low-income pricing mandates (e.g., New York legislation requiring discounted Internet service)",
+    "FTC rules making it easier for consumers to terminate subscription services",
+    "Must carry and retransmission consent regulations for local broadcast television stations",
+    "Pole attachment regulations and access challenges in rural areas",
+    "FCC regulations covering licensing, equal employment opportunity, customer service standards, technical standards, political advertising restrictions, children's programming, ownership restrictions, public file requirements, emergency alert systems, accessibility requirements, competitive availability of cable equipment, commercial leased access, and all-in pricing disclosure",
+    "Spectrum usage regulations and FCC auction authority that could benefit competitors",
+    "Copyright law and compulsory copyright license for broadcast signals",
+    "Franchise requirements from local and state governments including franchise fees capped at 5% of gross revenues from cable services",
+    "State-issued franchising laws with varying requirements",
+    "MVNO regulations including E911, local number portability, customer privacy, CALEA, Universal Service Fund contributions, robocall mitigation, hearing aid compatibility, and safety/emission requirements for mobile devices",
+    "VoIP telephone service regulations including E911, CALEA, Universal Service Fund contributions, customer privacy and CPNI protections, number portability, network/911 outage reporting, rural call completion, disability access, regulatory fees, back-up power, and robocall mitigation",
+    "State-level attempts to regulate VoIP services including California reporting obligations, backup power requirements, service quality metrics, and registration/certification requirements",
+    "Privacy and information security regulations including Communications Act restrictions on collecting/using/disclosing customer information, CALEA wiretap obligations, FTC authority over privacy practices, state data breach notification laws, comprehensive state consumer data privacy laws (CCPA, laws in Colorado, Connecticut, Delaware, Florida, Iowa, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Texas, Virginia, Utah, Tennessee, Minnesota, Maryland, Indiana, Kentucky, Rhode Island), biometric information regulations (Illinois, Texas, Washington), and Maine Act to Protect Privacy of Online Customer Information",
+    "RDOF and state broadband grant program requirements including construction milestones with potential financial penalties for non-compliance, carrier of last resort obligations, and Lifeline service requirements in RDOF areas",
+    "Universal Service Fund program challenges including constitutional violations found by one federal Court of Appeals",
+    "Potential expansion of federal, state, and local regulation of cable systems and services delivered over cable systems",
+    "Possible modification or elimination of compulsory copyright license",
+    "FCC cybersecurity guidelines and expanded cybersecurity requirements (subject to legal challenges)",
+    "Department of Homeland Security cyber incident reporting rules for critical infrastructure entities",
+    "Potential new privacy and data security legislation at federal level",
+    "Risk of state and local governments imposing new or additional taxes or fees on services, changes to income tax sourcing rules, central/unit-level assessment of property taxes",
+    "Potential changes from 2017 Tax Cuts and Jobs Act provisions expiring at end of 2025"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Internet": 0.424,
+    "Video": 0.275,
+    "Mobile service": 0.056,
+    "Voice": 0.026,
+    "Small and medium business": 0.079,
+    "Enterprise": 0.052,
+    "Advertising sales": 0.032,
+    "Other": 0.055
+  }
+}

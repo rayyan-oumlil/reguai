@@ -1,0 +1,135 @@
+{
+  "ticker": "MCO",
+  "company_name": "Moody's Corporation",
+  "company_type": "Financial Services - Credit Rating and Risk Assessment",
+  "geography": {
+    "regions": [
+      "United States",
+      "EMEA",
+      "Asia-Pacific",
+      "Americas"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "European Union",
+      "China",
+      "India",
+      "Indonesia",
+      "Japan",
+      "Republic of South Korea",
+      "Malaysia",
+      "Singapore",
+      "Sri Lanka",
+      "Thailand",
+      "Australia",
+      "Hong Kong",
+      "Canada",
+      "Mexico",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.541,
+      "EMEA": 0.307,
+      "Asia-Pacific": 0.089,
+      "Americas (excluding US)": 0.063
+    },
+    "assets_by_region": {
+      "United States": 0.51,
+      "Non-US": 0.49
+    }
+  },
+  "segments": [
+    "Moody's Analytics",
+    "Moody's Investors Service",
+    "Decision Solutions",
+    "Research and Insights",
+    "Data and Information",
+    "Banking",
+    "Insurance",
+    "KYC",
+    "Corporate Finance",
+    "Structured Finance",
+    "Financial Institutions",
+    "Public, Project and Infrastructure Finance"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party software providers",
+      "Data providers",
+      "Cloud-based service providers",
+      "Hosted solutions and data centers",
+      "Network infrastructure providers"
+    ],
+    "risks": [
+      "Dependence on third-party technology providers for software, data, hosted solutions, data centers, cloud and network infrastructure",
+      "Cybersecurity vulnerabilities from third-party vendors",
+      "Concentration of vendors for critical services",
+      "Risk of third-party service provider failures or security breaches",
+      "Migration risks from legacy systems to cloud-based solutions",
+      "Vendor cybersecurity incidents could significantly impact operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "SEC oversight and examination authority as NRSRO",
+    "ESMA supervision and periodic inspection in EU",
+    "FCA regulation in UK",
+    "Credit Rating Agency Reform Act of 2006 compliance",
+    "Dodd-Frank Act requirements",
+    "EU CRA regulation including procedural requirements for sovereign ratings",
+    "Liability standards in EU for intentional or grossly negligent failure",
+    "Mandatory analyst rotation requirements in EU",
+    "Ownership threshold restrictions in EU and UK",
+    "Hong Kong CRA regulations and code of conduct",
+    "China domestic CRA licensing requirements",
+    "Australia AFSL requirements for credit rating services",
+    "GDPR compliance in EU and UK",
+    "California Consumer Privacy Act (CCPA) and CPRA compliance",
+    "Data privacy laws in multiple US states",
+    "EU Digital Operational Resilience Act (DORA) effective 2025",
+    "EU AI Act adopted 2024",
+    "UK ESG ratings regulation expected 2025",
+    "EU ESG Ratings Activities Regulation",
+    "Competition and Markets Authority review in UK",
+    "Foreign Corrupt Practices Act compliance",
+    "UK Bribery Act compliance",
+    "Economic and trade sanctions compliance",
+    "Anti-corruption laws in multiple jurisdictions",
+    "Antitrust regulations",
+    "State and local regulations in US",
+    "Tax regulations including OECD Pillar II global minimum tax",
+    "Recordkeeping requirements for business communications",
+    "Climate-related disclosure requirements",
+    "Sustainability reporting requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US economic sanctions targeting Chinese persons",
+      "Russia sanctions including Russia-Ukraine military conflict",
+      "China blocking statute creating conflicts of law",
+      "Embargoes and sanctions laws compliance",
+      "Risk of being unable to operate in certain jurisdictions due to conflicting laws",
+      "MIS withdrawal of credit ratings on countries or entities due to political instability",
+      "Uncertainty regarding future US-China relationship",
+      "Potential restrictions by US government on doing business in China",
+      "Potential restrictions by Chinese government on foreign entities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Moody's Analytics": 0.465,
+    "Moody's Investors Service": 0.535
+  }
+}

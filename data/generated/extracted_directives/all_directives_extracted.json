@@ -1,91 +1,256 @@
 {
   "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html": {
     "document_id": "4.REGULATION (EU) 20241689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.html",
-    "category": "Unknown",
-    "legalbert_confidence": 0.0,
+    "category": "Category: PRIVACY\n\nExplanation: This appears to be the EU's Artificial Intelligence Act, which primarily focuses on regulating AI systems to protect personal data and fundamental privacy rights while ensuring trustworthy AI development. The reference to Articles 16 (right to protection of personal data) in the legal basis and emphasis on protecting fundamental rights indicates its core privacy focus.",
+    "legalbert_confidence": 1.0,
     "extracted_info": {
-      "title": "Regulation on Artificial Intelligence (EU)",
+      "title": "Artificial Intelligence Act",
       "country": "European Union",
-      "effective_date": "Not Provided",
-      "affected_sectors": "All sectors that use artificial intelligence systems",
-      "key_requirements": [
-        "Compliance with requirements for high-risk AI systems, including risk management, data and data governance, technical documentation, transparency and information to users, human oversight, and accuracy and robustness.",
-        "Obligations for providers and users of high-risk AI systems, including quality management, cooperation with competent authorities, and responsibilities regarding fundamental rights.",
-        "Notification requirements for high-risk AI systems, including registration, conformity assessment, and CE marking."
+      "effective_date": "2026-08-02",
+      "affected_sectors": [
+        "All sectors developing or deploying AI systems",
+        "Law enforcement",
+        "Border control",
+        "Immigration",
+        "Education",
+        "Employment",
+        "Critical infrastructure",
+        "Healthcare",
+        "Financial services",
+        "Public sector"
       ],
-      "penalties": "Not Provided"
+      "key_requirements": [
+        "Data governance and quality requirements",
+        "Technical documentation and record keeping",
+        "Transparency obligations to users",
+        "Human oversight requirements",
+        "Cybersecurity requirements",
+        "Registration in EU database",
+        "Post-market monitoring system",
+        "Risk management system",
+        "Conformity assessments",
+        "Privacy and data protection safeguards",
+        "Fundamental rights impact assessments"
+      ],
+      "penalties": [
+        "Up to €35 million or 7% of global annual turnover for prohibited AI practices",
+        "Up to €15 million or 3% of global annual turnover for non-compliance with other requirements",
+        "Up to €7.5 million or 1% of global annual turnover for supplying incorrect information",
+        "Penalties must be effective, proportionate and dissuasive",
+        "Specific considerations for SMEs and startups"
+      ]
     },
     "processing_status": "completed"
   },
   "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html": {
     "document_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
-    "category": "Unknown",
-    "legalbert_confidence": 0.0,
+    "category": "Category: Trade\n\nExplanation: This is a directive focused on consumer protection rules and trade practices within the EU, modifying earlier directives regarding consumer rights, business-to-consumer transactions, and enforcement of trade regulations. The document primarily deals with commercial relationships between businesses and consumers.",
+    "legalbert_confidence": 0.9080136299133301,
     "extracted_info": {
-      "title": "Directive (EU) 2019/2161 of the European Parliament and of the Council amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules",
+      "title": "Directive (EU) 2019/2161 on better enforcement and modernization of EU consumer protection rules",
       "country": "European Union",
-      "effective_date": "Not specified",
-      "affected_sectors": "Businesses that interact with consumers",
-      "key_requirements": [
-        "Improving the enforcement of consumer protection rules and increasing the deterrence of infringements",
-        "Enhancing transparency for consumers, including on online marketplaces",
-        "Providing for stronger consumer remedies and better redress possibilities"
+      "effective_date": "May 28, 2022",
+      "affected_sectors": [
+        "E-commerce and online marketplaces",
+        "Retail trade",
+        "Digital services providers",
+        "Consumer goods manufacturers",
+        "Travel and tourism",
+        "Event ticket sellers"
       ],
-      "penalties": "Not specified"
+      "key_requirements": [
+        "Transparency on price reductions and product rankings in online marketplaces",
+        "Clear identification of paid advertising in search results",
+        "Disclosure of whether sellers on online marketplaces are traders or private individuals",
+        "Verification and transparency of consumer reviews",
+        "Protection against fake reviews and manipulated recommendations",
+        "New rules on personalized pricing based on automated decision-making",
+        "Enhanced penalties for widespread infringements",
+        "Protection against ticket resale using automated software (bots)",
+        "New consumer rights for digital content and services"
+      ],
+      "penalties": [
+        "Maximum fines of at least 4% of annual turnover in affected EU member states",
+        "Alternative maximum fine of 2 million euros where turnover information is not available",
+        "Penalties must be effective, proportionate and dissuasive",
+        "Member states must consider factors like nature, gravity, duration of infringement when setting penalties"
+      ]
     },
     "processing_status": "completed"
   },
   "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html": {
     "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
-    "category": "Unknown",
-    "legalbert_confidence": 0.0,
+    "category": "Category: Trade\n\nExplanation: This law focuses on promoting research, development and utilization of AI-related technologies for economic and industrial development in Japan. It establishes a national strategy for AI technology advancement and implementation across various sectors of business and trade.",
+    "legalbert_confidence": 1.0,
     "extracted_info": {
-      "title": "Act on the Promotion of Research, Development and Utilization of AI-related Technologies",
+      "title": "Act on Promotion of Research and Development and Utilization of AI-Related Technologies",
       "country": "Japan",
-      "effective_date": "Not specified",
-      "affected_sectors": "All sectors",
-      "key_requirements": [
-        "Promote research and development of AI-related technologies as a foundation for economic and social development",
-        "Ensure the appropriate and effective utilization of AI-related technologies to significantly improve the efficiency and sophistication of administrative work and private business activities, as well as create new industries",
-        "Maintain Japan's capacity to conduct research and development of AI-related technologies and enhance the international competitiveness of the AI industry"
+      "effective_date": "2025 (Law No. 53 of 2023)",
+      "affected_sectors": [
+        "Government agencies",
+        "Research institutions",
+        "Universities",
+        "Private businesses",
+        "Technology companies",
+        "AI service providers",
+        "Public sector"
       ],
-      "penalties": "Not specified"
+      "key_requirements": [
+        "Establish national AI development strategy",
+        "Promote research and development of AI technologies",
+        "Ensure transparency in AI development and implementation",
+        "Foster international cooperation in AI development",
+        "Develop human resources and expertise in AI",
+        "Ensure proper use and prevent misuse of AI technologies",
+        "Establish facilities and infrastructure for AI development",
+        "Promote cooperation between government, research institutions and private sector"
+      ],
+      "penalties": [
+        "No specific penalties outlined in the law",
+        "Focus is on promotion and guidance rather than punishment"
+      ]
     },
     "processing_status": "completed"
   },
   "5.中华人民共和国能源法__中国政府网.html": {
     "document_id": "5.中华人民共和国能源法__中国政府网.html",
-    "category": "Unknown",
-    "legalbert_confidence": 0.0,
+    "category": "Category: Environmental\n\nExplanation: This is China's Energy Law which primarily focuses on energy development, sustainability, and environmental protection. It includes provisions for renewable energy, carbon emissions reduction, and promoting clean energy development while protecting ecological systems.",
+    "legalbert_confidence": 1.0,
     "extracted_info": {
       "title": "Energy Law of the People's Republic of China",
       "country": "China",
-      "effective_date": "2024-11-08",
-      "affected_sectors": "Energy sector, including coal, oil, natural gas, nuclear, hydropower, wind, solar, biomass, geothermal, and marine energy, as well as electricity, heat, and hydrogen",
-      "key_requirements": [
-        "Promote high-quality energy development, ensure national energy security, and support the green and low-carbon transformation of the economy and society",
-        "Establish a clean, low-carbon, safe, and efficient new energy system",
-        "Implement the new energy security strategy, including energy consumption revolution, energy supply revolution, energy technology revolution, energy system reform, and comprehensive international cooperation"
+      "effective_date": "January 1, 2025",
+      "affected_sectors": [
+        "Energy production and supply",
+        "Power generation",
+        "Oil and gas",
+        "Coal industry",
+        "Renewable energy",
+        "Nuclear energy",
+        "Energy storage",
+        "Energy transmission and distribution",
+        "Energy trading",
+        "Energy conservation"
       ],
-      "penalties": "Not specified"
+      "key_requirements": [
+        "Prioritize development of renewable energy and clean energy sources",
+        "Establish energy reserve systems and emergency response mechanisms",
+        "Improve energy efficiency and reduce energy consumption",
+        "Build unified national energy trading markets",
+        "Implement energy measurement and monitoring systems",
+        "Ensure fair access to energy transmission networks",
+        "Develop energy technology innovation capabilities",
+        "Protect energy infrastructure security",
+        "Coordinate urban and rural energy development",
+        "Report energy-related data and information to authorities"
+      ],
+      "penalties": [
+        "Administrative sanctions for government officials who abuse power or neglect duties",
+        "Fines of 100,000-200,000 yuan for violations of information disclosure requirements",
+        "Fines up to twice the amount of economic losses for unfair network access",
+        "Fines of 10,000-50,000 yuan for individuals and 100,000-500,000 yuan for organizations violating emergency response duties",
+        "Business suspension or license revocation for serious violations",
+        "Criminal liability for actions constituting crimes"
+      ]
     },
     "processing_status": "completed"
   },
   "3.H.R.5376 - Inflation Reduction Act of 2022.xml": {
     "document_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
-    "category": "Unknown",
-    "legalbert_confidence": 0.0,
+    "category": "Category: TAX\n\nExplanation: This document is the Inflation Reduction Act of 2022, which includes significant tax provisions, particularly focusing on corporate alternative minimum tax and tax reform measures for corporations.",
+    "legalbert_confidence": 0.8904633522033691,
     "extracted_info": {
-      "title": "Public Law 117-169: To provide for reconciliation pursuant to title II of S. Con. Res. 14",
+      "title": "Inflation Reduction Act of 2022 - Tax Provisions",
       "country": "United States",
       "effective_date": "2022-08-16",
-      "affected_sectors": "Corporations (other than S corporations, regulated investment companies, or real estate investment trusts) with average annual adjusted financial statement income exceeding $1 billion or $100 million",
-      "key_requirements": [
-        "Imposition of a 15% alternative minimum tax on applicable corporations' adjusted financial statement income, with an offset for foreign tax credits",
-        "Definition of 'applicable corporation' based on average annual adjusted financial statement income thresholds",
-        "Exceptions for corporations with certain ownership changes or losses"
+      "affected_sectors": [
+        "Agriculture",
+        "Energy companies",
+        "Corporate taxpayers",
+        "Energy and utilities",
+        "Manufacturers",
+        "Financial institutions",
+        "Construction",
+        "Healthcare",
+        "Healthcare companies",
+        "Tax-exempt organizations",
+        "Insurance companies",
+        "Transportation",
+        "Manufacturing"
       ],
-      "penalties": "Not specified"
+      "key_requirements": [
+        "Provides funding for IRS enforcement and operations",
+        "Creates programs to reduce greenhouse gas emissions and support climate resilience",
+        "Establishes environmental justice and community grant programs",
+        "Establishes 15% corporate alternative minimum tax for corporations with average annual adjusted financial statement income over $1 billion",
+        "Extends and expands renewable energy tax credits",
+        "Establishes clean energy tax credits for renewable energy, electric vehicles, and energy efficiency",
+        "Expands healthcare premium tax credits through 2025",
+        "Sets corporate minimum tax rate of 15% for large corporations",
+        "Creates 1% excise tax on stock buybacks by publicly traded companies",
+        "Increases royalty rates for oil and gas production on federal lands and waters",
+        "Provides tax credits for clean vehicles and energy efficient homes/buildings",
+        "Requires drug manufacturers to pay rebates for certain Medicare drugs",
+        "Creates incentives for domestic clean energy manufacturing and supply chains",
+        "Increases IRS funding for enforcement and operations"
+      ],
+      "penalties": [
+        "Failure to pay corporate alternative minimum tax subject to standard IRS penalties and interest",
+        "Failure to pay stock buyback excise tax subject to IRS penalties",
+        "Violations of prevailing wage requirements subject to payment of back wages plus penalties",
+        "Non-compliance with drug pricing provisions subject to rebate requirements and civil monetary penalties",
+        "Failure to meet clean energy credit requirements may result in recapture of credits"
+      ]
+    },
+    "processing_status": "completed"
+  },
+  "PLAW-119publ21_uslm.xml": {
+    "document_id": "PLAW-119publ21_uslm.xml",
+    "category": "Category: Tax\n\nExplanation: This appears to be a tax reconciliation bill, as evidenced by multiple tax-related sections in Title VII including tax relief for middle-class families, tax credits, and modifications to the Internal Revenue Code. The document primarily deals with changes to tax rates, deductions, and credits.",
+    "legalbert_confidence": 0.9022543907165528,
+    "extracted_info": {
+      "title": "Public Law 119-21: To provide for reconciliation pursuant to title II of H. Con. Res. 14",
+      "country": "United States",
+      "effective_date": "2025-07-04",
+      "affected_sectors": [
+        "Agriculture",
+        "Energy",
+        "Tax",
+        "Environment",
+        "Financial Services",
+        "Housing",
+        "Tax and Revenue",
+        "Border Security",
+        "Healthcare",
+        "Defense",
+        "Immigration",
+        "Law Enforcement",
+        "Transportation",
+        "Education"
+      ],
+      "key_requirements": [
+        "Establishes new reporting and compliance requirements for certain tax benefits",
+        "Creates new tax incentives for opportunity zones and rural development",
+        "Changes to student loan programs and Pell Grants",
+        "Modifies rules for charitable contributions and tax-exempt organizations",
+        "Modifications to tax credits and deductions",
+        "Changes to Medicaid and Medicare eligibility and enrollment",
+        "New immigration fees and restrictions",
+        "Modifies tax rates, deductions, and credits for individuals and businesses",
+        "Enhanced border security funding and infrastructure",
+        "Funding for law enforcement and detention facilities",
+        "Extends and makes permanent certain tax provisions from prior laws",
+        "Adjusts federal spending levels across multiple agencies and programs",
+        "Changes requirements for federal program funding and administration",
+        "Restrictions on clean energy tax credits"
+      ],
+      "penalties": [
+        "Civil penalties up to $5,000 for first violation and $10,000 for subsequent violations of remittance transfer rules",
+        "Accuracy-related penalties for substantial understatements related to energy credits",
+        "Penalties up to $5,000 for substantial misstatements on supplier certifications",
+        "Recovery of overpayments for improper Medicaid claims",
+        "Fees and penalties for immigration violations"
+      ]
     },
     "processing_status": "completed"
   }

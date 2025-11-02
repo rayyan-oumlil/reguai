@@ -1,0 +1,128 @@
+{
+  "ticker": "WSM",
+  "company_name": "Williams-Sonoma, Inc.",
+  "company_type": "Specialty Retail - Home Furnishings and Kitchenware",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Canada",
+      "Australia",
+      "United Kingdom",
+      "Middle East (multiple countries via franchisees)",
+      "Philippines",
+      "Mexico",
+      "South Korea",
+      "India",
+      "China",
+      "Vietnam",
+      "Netherlands",
+      "Italy",
+      "Portugal"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.956,
+      "International": 0.044
+    },
+    "assets_by_region": {
+      "United States": 0.971,
+      "International": 0.029
+    }
+  },
+  "segments": [
+    "Pottery Barn",
+    "West Elm",
+    "Williams Sonoma",
+    "Pottery Barn Kids and Teen",
+    "Williams Sonoma Home",
+    "Rejuvenation",
+    "Mark and Graham",
+    "GreenRow"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "India",
+      "Vietnam",
+      "North Carolina",
+      "Oregon",
+      "Mississippi"
+    ],
+    "dependencies": [
+      "Approximately 82% of merchandise purchases sourced from foreign suppliers",
+      "23% from China, 16% from India, 14% from Vietnam",
+      "Largest single supplier accounts for approximately 3% of purchases",
+      "Dependence on foreign suppliers and third-party agents for timely sourcing",
+      "Reliance on third-party carriers for merchandise shipments"
+    ],
+    "risks": [
+      "Global supply chain disruptions from labor disputes, union organizing activity, geopolitical instability, acts of terrorism, war, outbreaks of disease",
+      "Instability in Middle East deterring commercial vessels from Suez Canal, increasing transit times and costs",
+      "Disruptions in Panama Canal affecting shipping channels",
+      "Tariffs and trade restrictions",
+      "Foreign currency exchange rate fluctuations",
+      "Increasing labor costs in supplier countries",
+      "Shortages of raw materials used to make products",
+      "Supplier financial instability or going out of business",
+      "Failure of suppliers to adhere to quality control standards and global compliance program"
+    ],
+    "supplier_concentration": {
+      "Largest supplier": 0.03,
+      "China": 0.23,
+      "India": 0.16,
+      "Vietnam": 0.14,
+      "Rest of world": 0.29,
+      "United States": 0.18
+    }
+  },
+  "regulatory_risks": [
+    "Compliance with laws, rules and regulations of U.S. and multiple foreign jurisdictions",
+    "Changes in U.S. (federal, state and local) and international tax laws and trade policies",
+    "Impact of current and potential future tariffs",
+    "Export regulations related to franchise arrangements",
+    "Employment and labor law changes, including minimum wage and health care requirements",
+    "Wage-and-hour lawsuits and employment-related lawsuits",
+    "Data privacy regulations: GDPR (EU), CCPA and CPRA (California), CPPA (Canada)",
+    "16 effective comprehensive state privacy laws expected by end of 2025",
+    "Federal Trade Commission and state attorneys general proposing new AI-related laws",
+    "SEC Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure",
+    "California climate-related reporting requirements",
+    "Product safety and quality regulations, potential for increased recalls",
+    "Anti-dumping regulations and trade restrictions",
+    "Foreign Corrupt Practices Act compliance",
+    "OECD Pillar Two minimum tax regime (15% minimum tax) implemented in Canada, UK, Australia, Netherlands, Italy, Portugal, Vietnam",
+    "Sales and use tax, value-added tax, goods and services tax obligations",
+    "Regulations to address climate change"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance mentioned as regulatory risk",
+      "Geopolitical instability affecting global supply chain",
+      "War and fears of war impacting consumer spending and operations",
+      "Acts of terrorism affecting supply chain and operations",
+      "Instability in Middle East affecting shipping routes (Suez Canal disruptions)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Pottery Barn": 0.394,
+    "West Elm": 0.239,
+    "Williams Sonoma": 0.169,
+    "Pottery Barn Kids and Teen": 0.144,
+    "Other": 0.055
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "WBA",
+  "company_name": "Walgreens Boots Alliance, Inc.",
+  "company_type": "Integrated healthcare, pharmacy and retail",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "United Kingdom",
+      "Republic of Ireland",
+      "Thailand",
+      "Mexico",
+      "Germany",
+      "Chile"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.841,
+      "Germany": 0.082,
+      "United Kingdom": 0.065,
+      "Other": 0.013
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Retail Pharmacy",
+    "International",
+    "U.S. Healthcare"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cencora, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Cencora supplies and distributes substantially all generic and branded pharmaceutical products to the U.S. Retail Pharmacy segment pharmacies. Single wholesaler dependency for pharmaceutical products.",
+    "risks": "Disruption in global supply chain could negatively impact ability to provide products and services. Loss or disruption of supply arrangements due to health epidemics, pandemics, labor disputes, loss of key manufacturing sites, inability to procure raw materials, quality control issues, ethical sourcing issues, supplier financial distress, natural disasters, looting, vandalism, acts of war, foreign conflict, or terrorism. Dependence on single wholesaler (Cencora) for substantially all branded and generic pharmaceutical products creates operational and financial risk if Cencora experiences disruptions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in healthcare industry and regulatory environments may adversely affect business",
+    "Regulations relating to Medicare, Medicaid and other publicly financed health benefit plans",
+    "Regulations prohibiting kickbacks, beneficiary inducement and submission of false claims",
+    "Stark Law compliance",
+    "HIPAA (Health Insurance Portability and Accountability Act) compliance",
+    "ACA (Affordable Care Act) compliance and potential changes",
+    "IRA (Inflation Reduction Act of 2022) impact on drug pricing and Medicare rebates",
+    "FDA (U.S. Food and Drug Administration) regulations",
+    "DEA (U.S. Drug Enforcement Administration) regulations on controlled substances",
+    "FTC (U.S. Federal Trade Commission) regulations",
+    "U.S. Consumer Product Safety Commission regulations",
+    "Licensing and registration requirements for pharmacy operations",
+    "Federal 340B drug pricing program regulations",
+    "State and local pharmacy regulations",
+    "Foreign regulatory requirements in countries of operation",
+    "Data privacy and security laws including GDPR in UK and Germany",
+    "Environmental, health and safety regulations",
+    "Employment and labor law compliance",
+    "Anti-kickback laws and false claims laws",
+    "Laws against corporate practice of medicine",
+    "Reimbursement policy changes by government and private payors",
+    "Changes in Medicare Part D and Medicaid reimbursement rates",
+    "Potential changes to pharmaceutical pricing benchmarks (e.g., NADAC)",
+    "Medical malpractice and professional liability regulations",
+    "Opioid-related regulatory investigations and litigation",
+    "DOJ (Department of Justice) investigations",
+    "State Attorneys General investigations",
+    "Potential suspension or exclusion from government programs",
+    "Loss of required government certifications or licenses",
+    "OECD Pillar Two Global Anti-Base Erosion Rules (15% global minimum tax)",
+    "Tax law changes in U.S. and foreign jurisdictions",
+    "Trade regulations and tariffs",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "UK Bribery Act compliance",
+    "Export control and economic sanctions laws",
+    "Anti-money laundering laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions impact on operations",
+      "U.S. and China trade relations and tariffs",
+      "Impact of war in Ukraine on operations",
+      "Impact of conflict in the Middle East",
+      "Red Sea crisis affecting delivery routes",
+      "Foreign conflict disrupting supply chain",
+      "Economic sanctions compliance requirements"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. Retail Pharmacy": 0.784,
+    "International": 0.159,
+    "U.S. Healthcare": 0.056
+  }
+}

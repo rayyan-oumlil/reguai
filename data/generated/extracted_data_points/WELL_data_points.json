@@ -1,0 +1,108 @@
+{
+  "ticker": "WELL",
+  "company_name": "Welltower Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Healthcare & Seniors Housing",
+  "geography": {
+    "regions": [
+      "United Kingdom",
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "United Kingdom",
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.821,
+      "United Kingdom": 0.109,
+      "Canada": 0.07
+    },
+    "assets_by_region": {
+      "United States": 0.822,
+      "United Kingdom": 0.115,
+      "Canada": 0.063
+    }
+  },
+  "segments": [
+    "Seniors Housing Operating",
+    "Outpatient Medical",
+    "Triple-net"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party operators and managers for property operations",
+      "Dependence on construction materials and labor for development projects",
+      "Reliance on financial institutions for credit facilities and financing"
+    ],
+    "risks": [
+      "Dependence on operators' and tenants' ability to manage supply chain for their operations",
+      "Labor shortages for medical and non-medical staff at operated properties",
+      "Material shortages and price volatility in construction",
+      "Supply chain disruptions affecting construction materials and labor",
+      "Operator performance risk - substantially all revenues depend on operators' ability to generate sufficient cash to make payments; operator transitions and bankruptcies (e.g., Genesis HealthCare exit); concentration risk with top operators"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "State and local healthcare regulations affecting operators",
+    "Federal Anti-Kickback Statute (AKS) and Stark Law compliance",
+    "Foreign regulatory requirements in Canada and UK",
+    "Potential changes to RIDEA (REIT Investment Diversification and Empowerment Act) regulations",
+    "Sustainability and ESG reporting regulations (evolving)",
+    "Americans with Disabilities Act compliance",
+    "Americans with Disabilities Act and Fair Housing Act compliance",
+    "AI-related regulations (emerging and uncertain)",
+    "Canadian provincial healthcare and privacy regulations",
+    "UK Data Protection Act 2018 and UK GDPR compliance",
+    "State-specific healthcare regulations (e.g., California SB-525 minimum wage requirements)",
+    "Environmental contamination remediation requirements",
+    "State and federal healthcare licensing and certification requirements",
+    "Changes in healthcare reimbursement policies (Medicare, Medicaid)",
+    "Occupational Safety and Health Administration (OSHA) standards",
+    "Environmental regulations and compliance costs",
+    "Healthcare facility licensing and regulatory compliance requirements",
+    "EU GDPR compliance for cross-border data transfers",
+    "Corporate Alternative Minimum Tax (15%) under Inflation Reduction Act of 2022 (Pillar 2)",
+    "REIT qualification requirements under Internal Revenue Code",
+    "CMS minimum staffing standards for long-term care facilities",
+    "Washington My Health My Data Act and Nevada consumer health data privacy law",
+    "OECD Pillar 2 global minimum tax rules (UK and Canada implementation)",
+    "Securities regulations and NYSE listing requirements",
+    "HIPAA and data privacy regulations (federal and state-level)",
+    "REIT qualification requirements under Internal Revenue Code - must distribute at least 90% of taxable income",
+    "UK Care Quality Commission (CQC) regulations for care homes",
+    "Anti-ESG legislation and policies in certain jurisdictions",
+    "Tax law changes affecting REIT status",
+    "Medicare and Medicaid reimbursement rate changes and operational requirements",
+    "HIPAA and patient privacy regulations",
+    "Corporate governance and Sarbanes-Oxley compliance",
+    "Certificate of Need (CON) laws restricting facility expansion",
+    "State-specific consumer data privacy laws (California, Colorado, Connecticut, etc.)",
+    "Federal False Claims Act (FCA) enforcement"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "UK economic volatility from geopolitical tensions and energy crisis",
+      "Foreign currency exchange rate fluctuations (CAD, GBP) due to geopolitical events",
+      "Trade disputes and tariffs impacting construction material costs and supply chain",
+      "Potential sanctions compliance requirements affecting international operations",
+      "Impact of geopolitical tensions (Russia-Ukraine conflict, Middle East conflicts) on operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Seniors Housing Operating": 0.537,
+    "Triple-net": 0.266,
+    "Outpatient Medical": 0.197,
+    "Non-Segment/Corporate": 0.04
+  }
+}

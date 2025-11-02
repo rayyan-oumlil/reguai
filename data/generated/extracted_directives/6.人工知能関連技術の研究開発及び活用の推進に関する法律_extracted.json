@@ -1,18 +1,34 @@
 {
   "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
-  "category": "Unknown",
-  "legalbert_confidence": 0.0,
+  "category": "Category: Trade\n\nExplanation: This law focuses on promoting research, development and utilization of AI-related technologies for economic and industrial development in Japan. It establishes a national strategy for AI technology advancement and implementation across various sectors of business and trade.",
+  "legalbert_confidence": 1.0,
   "extracted_info": {
-    "title": "Act on the Promotion of Research, Development and Utilization of AI-related Technologies",
+    "title": "Act on Promotion of Research and Development and Utilization of AI-Related Technologies",
     "country": "Japan",
-    "effective_date": "Not specified",
-    "affected_sectors": "All sectors",
-    "key_requirements": [
-      "Promote research and development of AI-related technologies as a foundation for economic and social development",
-      "Ensure the appropriate and effective utilization of AI-related technologies to significantly improve the efficiency and sophistication of administrative work and private business activities, as well as create new industries",
-      "Maintain Japan's capacity to conduct research and development of AI-related technologies and enhance the international competitiveness of the AI industry"
+    "effective_date": "2025 (Law No. 53 of 2023)",
+    "affected_sectors": [
+      "Government agencies",
+      "Research institutions",
+      "Universities",
+      "Private businesses",
+      "Technology companies",
+      "AI service providers",
+      "Public sector"
     ],
-    "penalties": "Not specified"
+    "key_requirements": [
+      "Establish national AI development strategy",
+      "Promote research and development of AI technologies",
+      "Ensure transparency in AI development and implementation",
+      "Foster international cooperation in AI development",
+      "Develop human resources and expertise in AI",
+      "Ensure proper use and prevent misuse of AI technologies",
+      "Establish facilities and infrastructure for AI development",
+      "Promote cooperation between government, research institutions and private sector"
+    ],
+    "penalties": [
+      "No specific penalties outlined in the law",
+      "Focus is on promotion and guidance rather than punishment"
+    ]
   },
   "processing_status": "completed"
 }

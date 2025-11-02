@@ -1,0 +1,143 @@
+{
+  "ticker": "MDT",
+  "company_name": "Medtronic plc",
+  "company_type": "Medical Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe",
+      "Asia Pacific",
+      "China",
+      "Japan"
+    ],
+    "countries": [
+      "Ireland",
+      "United States",
+      "Puerto Rico",
+      "Mexico",
+      "China",
+      "Dominican Republic",
+      "Switzerland",
+      "France",
+      "Italy",
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "Canada",
+      "Israel",
+      "India",
+      "Korea",
+      "Brazil",
+      "Costa Rica",
+      "Singapore",
+      "Australia",
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Iran",
+      "Syria",
+      "Cuba",
+      "Crimea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.512,
+      "International": 0.488
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Cardiovascular Portfolio",
+    "Cardiac Rhythm & Heart Failure",
+    "Structural Heart & Aortic",
+    "Coronary & Peripheral Vascular",
+    "Neuroscience Portfolio",
+    "Cranial & Spinal Technologies",
+    "Specialty Therapies",
+    "Neuromodulation",
+    "Medical Surgical Portfolio",
+    "Surgical & Endoscopy",
+    "Acute Care & Monitoring",
+    "Diabetes Operating Unit"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Mexico",
+      "China",
+      "Ireland",
+      "Dominican Republic",
+      "Switzerland",
+      "France",
+      "Italy"
+    ],
+    "dependencies": [
+      "Certain components and raw materials are available only from a sole supplier",
+      "Global shortages of certain components such as semiconductors and resins have previously caused disruptions",
+      "Several key products are manufactured or sterilized at particular facilities with constrained capacity and limited options for alternate sterilization facilities",
+      "Reliance on third-party sterilization services"
+    ],
+    "risks": [
+      "Reduction or interruption in supply from sole suppliers",
+      "Global shortages of semiconductors and resins",
+      "Stringent FDA regulations may prevent quickly establishing replacement sources",
+      "Commodity price volatility for resins, petroleum-based materials, and pulp",
+      "Tariffs may impact supply costs",
+      "Supplier facility shutdowns or closures",
+      "Natural disasters, pandemics, and geopolitical conflicts affecting supply chain",
+      "Regulatory requirements on safe use of chemicals including ethylene oxides and PFAS"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation by FDA and other government agencies worldwide",
+    "Medical Device Regulation (EU MDR) implementation with extended deadlines through 2028",
+    "Pillar Two Model Rules defining global minimum tax at 15% effective in fiscal year 2025",
+    "Data privacy and security laws including GDPR, HIPAA, HITECH, UK privacy laws, China PIPL",
+    "European Health Data Space (EHDS) regulation",
+    "EU AI Act regulating artificial intelligence use",
+    "Potential workforce reductions and agency reorganization at US FDA impacting approval timelines",
+    "Changes in reimbursement policies by Medicare, Medicaid, and private payors",
+    "Physician Payments Sunshine Act (Open Payments) transparency reporting requirements",
+    "Environmental health and safety laws on hazardous materials and chemical constituents",
+    "Trade regulations including tariffs and export controls",
+    "Anti-boycott laws",
+    "Foreign Corrupt Practices Act (FCPA) and anti-corruption laws globally",
+    "Economic sanctions by OFAC and export restrictions by BIS",
+    "Italian medical device payback legislation",
+    "Potential changes to US tax laws affecting foreign corporations",
+    "Denial of US government contracts to companies that redomicile abroad"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Iran",
+      "Syria",
+      "Cuba",
+      "Crimea",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US economic sanctions on Iran, Syria, Cuba, Crimea, Russia, and Belarus",
+      "Limited business dealings in sanctioned countries expose to heightened risk of violating sanctions regulations",
+      "Russia-Ukraine conflict sanctions creating barriers to doing business in Russia and Belarus",
+      "Potential impact on global supply chains from sanctions including materials like palladium and neon dependent on Russia supply",
+      "OFAC and BIS restrictions on transactions with certain countries, governments, entities, and individuals",
+      "Potential penalties including civil fines, criminal sanctions, denial of export privileges, and debarment from government contracts"
+    ]
+  },
+  "revenue_by_segment": {
+    "Cardiovascular": 0.372,
+    "Neuroscience": 0.294,
+    "Medical Surgical": 0.251,
+    "Diabetes": 0.082
+  }
+}

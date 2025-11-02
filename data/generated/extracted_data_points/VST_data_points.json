@@ -1,0 +1,124 @@
+{
+  "ticker": "VST",
+  "company_name": "Vistra Corp.",
+  "company_type": "Integrated Retail Electricity and Power Generation",
+  "geography": {
+    "regions": [
+      "NYISO (New York)",
+      "ERCOT (Texas)",
+      "CAISO (California)",
+      "PJM (Eastern Interconnection)",
+      "MISO (Midwest)",
+      "ISO-NE (New England)",
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "ERCOT (Texas)": 0.313,
+      "PJM/MISO/ISO-NE/NYISO (East)": 0.329,
+      "CAISO (West)": 0.051,
+      "Other": 0.307
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Texas",
+    "West",
+    "East",
+    "Retail",
+    "Asset Closure"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Texas",
+      "Maine",
+      "West Virginia",
+      "Virginia",
+      "Pennsylvania",
+      "New York",
+      "Connecticut",
+      "Ohio",
+      "California",
+      "Illinois",
+      "New Jersey",
+      "Massachusetts"
+    ],
+    "dependencies": "Nuclear fuel requirements through 2029 contracted with diverse global suppliers; coal purchased from multiple suppliers under various contracts; natural gas purchased through spot market and near-term contracts; reliance on rail, barge, and pipeline infrastructure for fuel delivery; potential impacts from Russia-Ukraine conflict on nuclear fuel supply",
+    "risks": [
+      "Supply chain constraints and labor shortages reducing equipment availability and increasing lead times for materials; inflationary environment driving elevated costs; Russia-Ukraine conflict potentially impacting nuclear fuel supply (Russian uranium import restrictions under PRUI Act); concentration risk in nuclear fuel supply; fuel delivery infrastructure disruptions; extreme weather events affecting fuel availability and costs",
+      "Concentration risk in lignite mining operations in Texas; nuclear fuel supply dependencies; coal supply chain disruptions; natural gas price volatility; environmental regulations impacting coal and natural gas operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Moss Landing battery fire regulatory investigations by CPUC, EPA, and other authorities",
+    "Illinois coal ash disposal and storage legislation",
+    "Corporate Alternative Minimum Tax (CAMT) on book income of certain large corporations",
+    "NERC mandatory reliability standards and cybersecurity requirements",
+    "Renewable portfolio standards and clean energy mandates",
+    "Illinois coal ash disposal and storage legislation requiring closure alternative analysis",
+    "Winter Storm Uri regulatory investigations by ERCOT, ERCOT Independent Market Monitor, and Texas Attorney General",
+    "Regional Haze Program and BART requirements for visibility",
+    "Price-Anderson Act nuclear liability coverage requirements",
+    "Cross-State Air Pollution Rule (CSAPR) and Good Neighbor Plan (GNP) Federal Implementation Plan (FIP) for ozone emissions",
+    "Inflation Reduction Act (IRA) tax credits and corporate alternative minimum tax (CAMT)",
+    "Coal Combustion Residuals (CCR) rule and Legacy CCR rulemaking",
+    "Trade restrictions including tariffs on imported products and materials",
+    "State public utility commission regulations on retail electric providers (REP certification)",
+    "Nuclear Regulatory Commission (NRC) licensing and safety requirements",
+    "Section 163(j) limitations on business interest expense deductions",
+    "PUCT (Public Utility Commission of Texas) creditworthiness requirements for retail electric providers",
+    "Unleashing American Energy Executive Order requiring EPA review of GHG, CSAPR, Legacy CCR and ELG rules",
+    "Effluent Limitation Guidelines (ELGs) for steam electricity generation wastewater streams",
+    "Potential re-regulation of competitive electricity markets",
+    "FERC (Federal Energy Regulatory Commission) market manipulation investigations and compliance",
+    "Effluent Limitation Guidelines (ELGs) for wastewater streams",
+    "FERC wholesale market regulations",
+    "NRC (Nuclear Regulatory Commission) oversight of nuclear power plants including decommissioning requirements",
+    "Texas energy market reforms (Dispatchable Reliability Reserve Service)",
+    "Changes to market structure and design in ERCOT, PJM, ISO-NE, MISO, NYISO, CAISO",
+    "Federal and state subsidies for renewable generation and competing technologies",
+    "New or increased taxes or fees on operations",
+    "ISO/RTO creditworthiness rules requiring collateral support",
+    "Coal Combustion Residuals (CCR) Rule revisions and Legacy CCR Rulemaking expanding groundwater monitoring and closure requirements",
+    "State-level climate change regulations (RGGI, California cap-and-trade)",
+    "Inflation Reduction Act (IRA) nuclear production tax credits (PTCs) and investment tax credits (ITCs) compliance",
+    "EPA regulations on greenhouse gas emissions (GHG rule requiring carbon capture and sequestration/storage)",
+    "Telephone Consumer Protection Act compliance for retail marketing",
+    "Cross-State Air Pollution Rule (CSAPR) and Good Neighbor Plan for ozone NAAQS",
+    "SO2 nonattainment designations for areas surrounding Martin Lake generation plant in Texas",
+    "MSHA mine safety regulations",
+    "Data privacy and data protection laws affecting retail customer data",
+    "Regional Haze BART (Best Available Retrofit Technology) requirements for SO2 emissions in Texas",
+    "Price Anderson Act liability limits for nuclear accidents",
+    "EPA Particulate Matter (PM2.5) rule lowering annual standard from 12.0 to 9.0 µg/m3",
+    "Prohibiting Russian Uranium Imports Act (PRUI Act) affecting nuclear fuel supply",
+    "Environmental justice and community concerns affecting project siting and permitting",
+    "EPA Greenhouse Gas Emissions (GHG) rule requiring carbon capture and sequestration/storage (CCS) at coal-fired units by 2032"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions impacting nuclear fuel supply and enrichment services",
+      "Prohibiting Russian Uranium Imports Act creating supply chain disruption risk through 2027",
+      "Potential additional U.S. sanctions against Russia affecting energy deliveries",
+      "Russian Federation suspension of uranium shipments to U.S. (November 2024)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Retail": 0.743,
+    "Texas": 0.313,
+    "East": 0.329,
+    "West": 0.051,
+    "Asset Closure": 0.0
+  }
+}

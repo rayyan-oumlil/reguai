@@ -1,0 +1,116 @@
+{
+  "ticker": "VRSN",
+  "company_name": "VeriSign, Inc.",
+  "company_type": "Internet Infrastructure and Domain Name Registry Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "EMEA",
+      "APAC",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Japan",
+      "Singapore",
+      "Australia",
+      "Canada",
+      "United Kingdom",
+      "Switzerland",
+      "India",
+      "Virginia",
+      "Delaware"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.665,
+      "EMEA": 0.16,
+      "APAC": 0.113,
+      "Other": 0.062
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Domain Name Registry Services",
+    ".com gTLD",
+    ".net gTLD",
+    ".name gTLD",
+    ".cc ccTLD",
+    "IDN gTLDs",
+    "Root Zone Maintainer Services",
+    "Root Server Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "ICANN"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Internet service providers for DNS resolution connectivity",
+      "Internet exchange point operators",
+      "Internet backbone service providers",
+      "Regional internet registries (RIRs) for RPKI system",
+      "Data center facilities in Dulles Virginia, Ashburn Virginia, and New Castle Delaware",
+      "Colocation service providers",
+      "Telecommunication carriers",
+      "Hardware and software vendors",
+      "SaaS providers",
+      "Network systems manufacturers"
+    ],
+    "risks": [
+      "Dependence on internet service providers and backbone providers for DNS connectivity",
+      "Vulnerabilities in global routing system (BGP protocol)",
+      "Route hijacks and route leaks beyond company control",
+      "RPKI system dependencies on regional internet registries",
+      "Data center concentration in same geographic region (Virginia/Delaware)",
+      "Single points of failure in Shared Registration System",
+      "Supplier vulnerabilities in third-party software and hardware",
+      "Risks from consultants, advisors, and contractors",
+      "Dependence on external technology systems and services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "ICANN Consensus Policies and Temporary Policies requirements",
+    "U.S. Department of Commerce oversight of .com Registry Agreement",
+    "Pricing restrictions in .com and .net Registry Agreements",
+    "China Ministry of Industry and Information Technology licensing requirements",
+    "China regulations requiring government-issued licenses for each gTLD/ccTLD",
+    "China regulatory mandates making domain registration more difficult",
+    "EU GDPR compliance requirements if personal registrant data obtained",
+    "EU Network and Information Security Directive (NIS 2) implementation",
+    "Data transfer framework challenges between U.S. and EU",
+    "Data localization requirements in various jurisdictions",
+    "OFAC economic and trade sanctions compliance",
+    "Cybersecurity regulations in multiple jurisdictions",
+    "California data security and privacy regulations",
+    "UK data security and privacy regulations",
+    "Content-neutral operation requirements under Cooperative Agreement",
+    "IETF technical standards compliance requirements",
+    "Potential changes to multi-stakeholder internet governance model",
+    "OECD Pillar One and Pillar Two tax regulations",
+    "International digital services tax regimes",
+    "State income tax apportionment rule changes",
+    "Trade restrictions and tariff regulations",
+    "U.S. government data collection policy concerns internationally"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Political tensions between United States and China",
+      "U.S. tariffs or proposed tariffs on China",
+      "U.S. government restrictions on certain Chinese companies",
+      "Chinese government potential restrictions on non-Chinese companies",
+      "Trade barriers and restrictions in international locations",
+      "State suppression of internet operations risk",
+      "Terrorist groups targeting U.S. interests abroad"
+    ]
+  }
+}

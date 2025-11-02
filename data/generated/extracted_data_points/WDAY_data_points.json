@@ -1,0 +1,93 @@
+{
+  "ticker": "WDAY",
+  "company_name": "Workday, Inc.",
+  "company_type": "Enterprise Cloud Software",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia Pacific",
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Singapore",
+      "Japan",
+      "India",
+      "China",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.75,
+      "Other countries": 0.25
+    },
+    "assets_by_region": {
+      "United States": 0.76,
+      "Ireland": 0.14,
+      "Other countries": 0.1
+    }
+  },
+  "segments": [
+    "Subscription Services",
+    "Professional Services",
+    "Financial Management",
+    "Spend Management",
+    "Human Capital Management",
+    "Planning",
+    "Analytics and Reporting"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Google Cloud",
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "We depend on data centers and other infrastructure operated by third parties, including Amazon Web Services (AWS) and Google Cloud. We rely upon third-party partners to operate certain aspects of our services.",
+    "risks": "Disruption of or interference at third-party data centers may impact our operations. We rely on third-party hosted infrastructure partners for computing infrastructure. Any disruption at these facilities could adversely impact our business. Supply chain attacks have increased in frequency and severity.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "General Data Protection Regulation (GDPR) compliance and potential penalties up to 4% of worldwide revenue",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) compliance",
+    "EU AI Act compliance requirements with various deadlines in coming years",
+    "Data localization requirements in countries such as Russia, China, and India",
+    "FedRAMP authorization requirements for U.S. federal government contracts",
+    "OECD Pillar Two global minimum tax rules (15% minimum tax for large multinational corporations)",
+    "Privacy and data protection laws evolving globally",
+    "Export restrictions, duties, quotas, tariffs, trade disputes, and sanctions",
+    "Increased tariffs impacting operations",
+    "Government procurement regulations for public sector contracts",
+    "Cybersecurity and data breach notification requirements",
+    "Anti-corruption laws and regulations",
+    "Employment and immigration laws across multiple jurisdictions",
+    "Intellectual property regulations",
+    "Environmental, social, and governance (ESG) disclosure requirements",
+    "State and local tax regulations",
+    "Anti-ESG policies and legislation in certain jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Restrictive governmental actions focused on cross-border trade including sanctions",
+      "Retaliatory cyber-attacks stemming from the Russia-Ukraine conflict",
+      "Trade restrictions and barriers that may prevent offering services to particular markets"
+    ]
+  },
+  "revenue_by_segment": {
+    "Subscription services": 0.91,
+    "Professional services": 0.09
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "ticker": "VTRS",
+  "company_name": "Viatris Inc.",
+  "company_type": "Pharmaceutical",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Greater China",
+      "Japan, Australia and New Zealand",
+      "Emerging Markets",
+      "Asia",
+      "Africa",
+      "Eastern Europe",
+      "Latin America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Portugal",
+      "Sweden",
+      "Norway",
+      "Poland",
+      "Turkey",
+      "China",
+      "Taiwan",
+      "Hong Kong",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "India",
+      "Singapore",
+      "South Korea",
+      "Puerto Rico",
+      "Egypt",
+      "South Africa",
+      "Israel",
+      "Gaza",
+      "Russia",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Developed Markets": 0.607,
+      "Greater China": 0.147,
+      "JANZ": 0.091,
+      "Emerging Markets": 0.153
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Developed Markets",
+    "Greater China",
+    "JANZ",
+    "Emerging Markets"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cencora, Inc. (formerly AmerisourceBergen Corporation)",
+      "Cardinal Health, Inc.",
+      "McKesson Corporation",
+      "Matrix Pharma Private Limited"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Singapore",
+      "India",
+      "Australia",
+      "China",
+      "Ireland",
+      "France",
+      "Italy"
+    ],
+    "dependencies": [
+      "Limited number of manufacturing facilities",
+      "Certain third-party suppliers produce substantial portion of API and products",
+      "Highly exacting and complex manufacturing process required for some products",
+      "Single-sourced raw materials in certain cases",
+      "Significant API purchased from Matrix Pharma Private Limited under manufacturing and supply agreement following API business divestiture"
+    ],
+    "risks": [
+      "Concentration risk with limited manufacturing facilities",
+      "Third-party supplier failure to fulfill obligations",
+      "Supply chain disruptions from natural disasters, civil unrest, export/import restrictions",
+      "API supply shortages and price volatility",
+      "Quality deficiencies at supplier facilities",
+      "Equipment malfunction, failure to follow protocols, raw material problems",
+      "Cybersecurity or compliance issues at facilities",
+      "Labor disputes",
+      "Power outages",
+      "Environmental, health and safety issues"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA and foreign regulatory authority compliance requirements",
+    "cGMP and quality standards compliance",
+    "Warning letters and import alerts from FDA",
+    "Manufacturing facility inspections and potential shutdowns",
+    "Product approval delays or denials",
+    "Regulatory changes in pharmaceutical pricing and reimbursement",
+    "Government-imposed price reductions and controls",
+    "Volume-based procurement (VBP) policies in China",
+    "Medicare and Medicaid regulatory changes",
+    "Inflation Reduction Act implementation",
+    "Drug pricing transparency requirements",
+    "Controlled substances regulations (DEA)",
+    "Environmental and occupational health and safety laws",
+    "Data privacy regulations (GDPR, HIPAA, China data security laws)",
+    "Anti-corruption laws (FCPA, UK Bribery Act, Chinese anti-corruption laws)",
+    "Trade controls and sanctions (OFAC, Iran sanctions)",
+    "Patent and intellectual property challenges",
+    "Antitrust and competition law enforcement",
+    "Product liability regulations",
+    "Supply chain transparency and due diligence requirements",
+    "Climate and environmental disclosure regulations",
+    "Pillar Two Global Anti-Base Erosion Rules (15% minimum tax)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza",
+      "Iran",
+      "Syria",
+      "Turkey",
+      "Egypt"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US Treasury OFAC sanctions compliance",
+      "Iran Threat Reduction and Syria Human Rights Act compliance",
+      "Trade controls and sanctions related to Russia-Ukraine conflict",
+      "Potential reciprocal tariffs on products between US and other countries",
+      "Export/import restrictions impacting supply chain",
+      "Sanctions impacting ability to market or sell pharmaceuticals in certain countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Brands": 0.626,
+    "Generics": 0.374
+  }
+}

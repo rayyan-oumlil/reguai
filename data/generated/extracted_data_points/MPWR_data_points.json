@@ -1,0 +1,107 @@
+{
+  "ticker": "MPWR",
+  "company_name": "Monolithic Power Systems, Inc.",
+  "company_type": "Semiconductor - Fabless Power Electronics Solutions",
+  "geography": {
+    "regions": [
+      "Asia",
+      "Europe",
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Singapore",
+      "Malaysia",
+      "Hong Kong",
+      "Japan",
+      "Netherlands",
+      "Bermuda"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "China": 0.534,
+      "Taiwan": 0.262,
+      "South Korea": 0.076,
+      "Europe": 0.039,
+      "Southeast Asia": 0.036,
+      "Japan": 0.028,
+      "United States": 0.025
+    },
+    "assets_by_region": {
+      "China": 0.48,
+      "United States": 0.346,
+      "Taiwan": 0.086,
+      "Other": 0.088
+    }
+  },
+  "segments": [
+    "Enterprise Data",
+    "Storage and Computing",
+    "Automotive",
+    "Communications",
+    "Consumer",
+    "Industrial"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Singapore",
+      "Malaysia"
+    ],
+    "dependencies": "Fabless business model - relies entirely on third-party foundries for wafer manufacturing and third-party subcontractors for assembly and testing. Significant concentration in Asia, particularly China. Proprietary process technologies installed on third-party equipment.",
+    "risks": "Concentration of manufacturing and testing facilities in China exposes company to political, regulatory, economic, foreign exchange, and operational risks. Dependence on limited number of suppliers for wafer purchases. Potential capacity constraints from suppliers. Natural disasters (earthquakes, flooding, heatwaves) in Asia could disrupt operations. Supply chain lead times of 16-26 weeks create inventory forecasting challenges.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export control laws and regulations (Export Administration Act, Export Administration Regulations) restricting technology transfers and sales to certain countries",
+    "International trade policies and tariffs - particularly U.S.-China tariffs and potential retaliatory measures",
+    "U.S. Uyghur Forced Labor Prevention Act - restrictions on goods from regions with forced labor concerns",
+    "China Cyber Security Law - requirements for data collection, use, storage, disclosure and security",
+    "China Data Security Law - regulations on data processing and cross-border transfers",
+    "China Personal Information Protection Law (PIPL) - controls on personal data use and cross-border transfers with potential fines",
+    "EU General Data Protection Regulation (GDPR) - data protection requirements with significant fines for non-compliance",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act - state-level data privacy requirements",
+    "Environmental regulations on product substances, recycling, and disposal (various EU and Asia jurisdictions)",
+    "ESG reporting requirements - California greenhouse gas emissions disclosure laws (enacted 2023-2024)",
+    "Supply chain compliance - conflict minerals regulations and human rights due diligence",
+    "Section 162(m) of Internal Revenue Code - tax deduction limitations on executive compensation",
+    "Bermuda Corporate Income Tax Act of 2023 - 15% corporate income tax for MNE groups effective 2025",
+    "OECD Pillar Two global minimum tax framework (15%) - implementation varies by jurisdiction",
+    "Potential AI technology export restrictions and regulations",
+    "Import/export licensing requirements for certain products and technologies",
+    "Changing tax regulations in China affecting operations in Chengdu, Hangzhou and other regions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Hong Kong",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions and export controls on Russia due to Ukraine conflict",
+      "Potential sanctions or restrictions related to Hong Kong due to Chinese government laws",
+      "U.S.-China trade tensions and potential for expanded export restrictions",
+      "Risk of being prohibited from selling to foreign customers requiring export licenses",
+      "Economic sanctions that could limit export of products and services",
+      "Restrictions on AI-enabling technologies and products"
+    ]
+  },
+  "revenue_by_segment": {
+    "Enterprise Data": 0.325,
+    "Storage and Computing": 0.227,
+    "Automotive": 0.188,
+    "Communications": 0.102,
+    "Consumer": 0.091,
+    "Industrial": 0.067
+  }
+}

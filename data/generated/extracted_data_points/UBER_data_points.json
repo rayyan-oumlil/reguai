@@ -1,0 +1,126 @@
+{
+  "ticker": "UBER",
+  "company_name": "Uber Technologies, Inc.",
+  "company_type": "Technology Platform - Mobility, Delivery, and Logistics Services",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Latin America",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Chile",
+      "Argentina",
+      "United Kingdom",
+      "Netherlands",
+      "Germany",
+      "Italy",
+      "Spain",
+      "France",
+      "Switzerland",
+      "Russia",
+      "Egypt",
+      "Saudi Arabia",
+      "Pakistan",
+      "United Arab Emirates",
+      "India",
+      "China",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Australia",
+      "New Zealand",
+      "Singapore",
+      "Hong Kong"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States and Canada": 0.537,
+      "Latin America": 0.064,
+      "Europe, Middle East and Africa": 0.285,
+      "Asia Pacific": 0.115
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Mobility",
+    "Delivery",
+    "Freight"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party payment service providers for payment processing",
+      "Third-party cloud computing services and co-located data centers",
+      "Google Maps for mapping functionality",
+      "Independent Drivers, Couriers, and Carriers as platform participants",
+      "Third-party insurance providers",
+      "Background check service providers for Driver qualification"
+    ],
+    "risks": [
+      "Reliance on limited number of ridesharing insurance providers",
+      "Dependence on third-party payment processors",
+      "Single background-check provider in certain jurisdictions",
+      "Reliance on Google Maps with no alternative global mapping solution",
+      "Dependence on third-party cloud services (AWS, Google Cloud)",
+      "Driver and Carrier supply constraints",
+      "Merchant concentration risk in Delivery business"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Driver classification as employees vs independent contractors (AB5 in California, Proposition 22)",
+    "Transportation Network Company (TNC) regulations and licensing requirements",
+    "Background check and Driver qualification requirements varying by jurisdiction",
+    "GDPR and data privacy regulations in EU",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "India's Digital Personal Data Protection Act",
+    "Payment services regulations (electronic money institution licensing in EU, UK, Mexico)",
+    "Strong Customer Authentication (SCA) requirements in EU, UK, Mexico",
+    "Money transmission and online payment regulations",
+    "Anti-money laundering and counter-terrorist financing regulations",
+    "Competition and antitrust laws (EU, US, Brazil, India)",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Autonomous vehicle regulations",
+    "Climate-related regulations (California zero emission vehicle requirements by 2030)",
+    "Corporate Sustainability Reporting Directive in EU",
+    "VAT and sales tax regulations (UK VAT Order 1987 dispute)",
+    "Employment and labor laws (minimum wage, workers' compensation)",
+    "Social security contribution requirements (Switzerland, Brazil)",
+    "Unemployment insurance regulations (New Jersey, California)",
+    "Ridesharing bans or restrictions in certain jurisdictions (Argentina, Germany, Italy, Japan, South Korea, Spain)",
+    "Airport operating licenses and regulations",
+    "Delivery network fee caps and surge pricing caps",
+    "Food delivery platform employment regulations (Spain)",
+    "Mexico Federal Labor Law amendments reclassifying mobility and delivery workers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Iran",
+      "Middle East (conflicts mentioned)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions on countries where operations exist",
+      "Russia-Ukraine conflict impact on operations",
+      "Middle East conflicts affecting business operations",
+      "Foreign investment restrictions in certain jurisdictions",
+      "Payments to sanctioned parties risk"
+    ]
+  },
+  "revenue_by_segment": {
+    "Mobility": 0.57,
+    "Delivery": 0.313,
+    "Freight": 0.117
+  }
+}

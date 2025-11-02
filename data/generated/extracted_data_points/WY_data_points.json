@@ -1,0 +1,124 @@
+{
+  "ticker": "WY",
+  "company_name": "Weyerhaeuser Company",
+  "company_type": "Timber, Land and Forest Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Japan",
+      "China",
+      "Korea"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.863,
+      "Canada": 0.077,
+      "Japan": 0.036,
+      "China": 0.013,
+      "Korea": 0.003,
+      "Other foreign countries": 0.007
+    },
+    "assets_by_region": {
+      "United States": 0.984,
+      "Canada": 0.016
+    }
+  },
+  "segments": [
+    "Timberlands",
+    "Real Estate, Energy and Natural Resources",
+    "Wood Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Alabama",
+      "Arkansas",
+      "Louisiana",
+      "Mississippi",
+      "Montana",
+      "North Carolina",
+      "Oklahoma",
+      "Oregon",
+      "Washington",
+      "Alberta",
+      "British Columbia",
+      "Michigan",
+      "West Virginia",
+      "Saskatchewan",
+      "Ontario"
+    ],
+    "dependencies": [
+      "Third-party service providers for logging and transportation services",
+      "Availability of contract loggers and haulers",
+      "Fuel, labor and insurance costs for service providers",
+      "Commercial truck driver availability",
+      "Transportation infrastructure (roads, bridges, rail, tunnels, shipping and port facilities)"
+    ],
+    "risks": [
+      "Shortage of third-party logging and hauling service providers in certain markets",
+      "Increased logging and hauling costs due to limited contractor availability",
+      "Disruption of transportation infrastructure",
+      "Labor shortages including commercial truck drivers",
+      "Failure of third-party transportation providers to timely deliver products",
+      "Increased operating costs for service providers (fuel, labor, insurance)",
+      "Natural disasters affecting transportation and supply chain"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local environmental laws protecting water quality, wetlands and wildlife habitat",
+    "Forest practice laws limiting clearcut sizes and requiring reforestation",
+    "Regulations on construction and maintenance of forest roads",
+    "Pesticide and herbicide use regulations",
+    "Endangered Species Act (ESA) protections for threatened and endangered species",
+    "Critical habitat designations for ESA-listed species",
+    "Canadian Species at Risk Act (SARA) requirements",
+    "Woodland caribou recovery strategy and range plans in Canada",
+    "Forest certification standards (SFI, FSC, PEFC)",
+    "Clean Air Act regulations including MACT standards and GHG emissions rules",
+    "EPA regulations on air emissions from wood products facilities and industrial boilers",
+    "Biomass emissions regulations",
+    "Climate change legislation and GHG emissions regulations",
+    "Carbon tax and GHG emission reduction programs in Canadian provinces",
+    "Clean Water Act regulations on discharge of pollutants",
+    "Total maximum daily load (TMDL) requirements",
+    "Canadian Federal Fisheries Act changes",
+    "CERCLA Superfund site remediation requirements",
+    "Hazardous waste management and disposal regulations",
+    "Asset retirement obligations including reforestation and landfill closure",
+    "Building codes and product regulations",
+    "Indigenous rights and treaty obligations in Canada",
+    "Changes in tax laws including mortgage interest and real estate tax deductions",
+    "Trade policy including tariffs and duties on imports/exports",
+    "Canadian softwood lumber export taxes and US countervailing/antidumping duties"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Canada"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-Canada softwood lumber trade disputes and tariffs",
+      "Potential tariffs on exports to China and other countries",
+      "Retaliatory trade policies from foreign jurisdictions",
+      "Changes in US foreign trade policy affecting exports",
+      "International trade disputes impacting log and wood product exports"
+    ]
+  },
+  "revenue_by_segment": {
+    "Timberlands": 0.212,
+    "Real Estate & ENR": 0.055,
+    "Wood Products": 0.733
+  }
+}

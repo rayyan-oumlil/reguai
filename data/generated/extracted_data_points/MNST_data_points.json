@@ -1,0 +1,154 @@
+{
+  "ticker": "MNST",
+  "company_name": "Monster Beverage Corporation",
+  "company_type": "Beverage Manufacturing - Energy Drinks",
+  "geography": {
+    "regions": [
+      "U.S. and Canada",
+      "EMEA",
+      "Asia Pacific (including Oceania)",
+      "Latin America and Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Romania",
+      "Turkey",
+      "Latvia",
+      "Lithuania",
+      "Armenia",
+      "Bulgaria",
+      "Czech Republic",
+      "Spain",
+      "Hungary",
+      "Slovakia",
+      "China",
+      "Japan",
+      "India",
+      "Pakistan",
+      "South Korea",
+      "Australia",
+      "New Zealand",
+      "Philippines",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Bahrain",
+      "Qatar",
+      "Oman",
+      "Kuwait",
+      "Egypt",
+      "Jordan",
+      "South Africa",
+      "Tanzania",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Uruguay",
+      "Paraguay",
+      "Ecuador",
+      "Honduras",
+      "Costa Rica",
+      "Dominican Republic",
+      "Panama"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "U.S. and Canada": 0.63,
+      "EMEA": 0.21,
+      "Asia Pacific (including Oceania)": 0.07,
+      "Latin America and Caribbean": 0.09
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Monster Energy Drinks",
+    "Strategic Brands",
+    "Alcohol Brands",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "American Fruits and Flavors LLC",
+      "TCCC network bottlers",
+      "The Coca-Cola Company"
+    ],
+    "manufacturing_locations": [
+      "United States (California - Corona, Rialto, San Fernando, Norwalk; Arizona - Phoenix)",
+      "Ireland (Athy, County Kildare)",
+      "China",
+      "Various international co-packing locations"
+    ],
+    "dependencies": [
+      "Limited number of suppliers for aluminum cans and certain raw materials",
+      "Reliance on third-party bottlers and co-packers for majority of finished goods manufacturing",
+      "Single-source suppliers for certain flavor ingredients and formulas",
+      "Dependence on TCCC distribution network domestically and internationally",
+      "Limited co-packing facilities with adequate capacity for certain products"
+    ],
+    "risks": [
+      "Disruption in supply of aluminum cans, flavors, ingredients, and packaging materials",
+      "Industry-wide shortages of flavor ingredients, fruits, juices, coffee, tea, dairy products, supplement ingredients, and sweeteners",
+      "Consolidation of co-packers leading to reliance on fewer co-packing groups",
+      "Inability to secure sufficient co-packing capacity or timely production",
+      "Dependence on limited suppliers for certain components with no alternative sources at commercially reasonable rates",
+      "Port congestion, strikes, and delays in import/export of products and ingredients",
+      "Tariffs and trade restrictions including proposed U.S. tariffs on imports from China, Canada, Mexico, EU",
+      "Retaliatory tariffs from U.S. trading partners",
+      "Geopolitical tensions affecting supply chain and raw material costs",
+      "Natural disasters, climate change, and extreme weather impacting production and supply"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Legislation restricting sale of energy drinks to minors (age restrictions in various jurisdictions including Lancaster CA, Honduras, Latvia, Lithuania, Poland, Romania, Turkey, Bahrain, Armenia, Kazakhstan)",
+    "Prohibition of energy drink sales at certain establishments (schools, sports facilities in Honduras, Latvia, Romania, Scotland, Mexico states)",
+    "Excise taxes on energy drinks and sweetened beverages (Berkeley CA, Oakland CA, San Francisco CA, Philadelphia PA, Seattle WA, Washington DC, France, UK, Ireland, South Africa, Mexico, Poland, Colombia, Slovakia, Hungary, Bahrain, Saudi Arabia, UAE, Qatar, Oman)",
+    "Caffeine content limitations (Canada 180mg limit, Netherlands 35mg/100ml, Norway 32mg/100ml, Turkey, India, Pakistan Punjab, Egypt, Colombia, Iraq, GCC member states)",
+    "Container size limitations on energy drinks (Colombia, Costa Rica, Egypt, Dominican Republic)",
+    "Product labeling and warning requirements (California Proposition 65, FDA nutrition labeling, EU Corporate Sustainability Reporting Directive, front-of-pack nutrition labeling proposals)",
+    "Ingredient restrictions (Tanzania restrictions on L-carnitine and ginseng, Peru challenge on L-carnitine, EU food additive re-evaluations including sucralose)",
+    "PFAS and BPA regulations in packaging materials",
+    "Marketing and advertising restrictions on energy drinks and alcohol beverages",
+    "SNAP program restrictions on energy drink purchases",
+    "Alcohol beverage regulations (TTB licensing, state and local alcohol regulatory requirements, excise taxes, trade practice enforcement)",
+    "Environmental compliance requirements (air emissions, water discharges, waste disposal, recycling, greenhouse gas reduction, water scarcity regulations)",
+    "Data privacy laws (GDPR, California Consumer Privacy Act)",
+    "FDA post-market review of food ingredients and GRAS process scrutiny",
+    "Bioengineered food disclosure requirements",
+    "Sustainability reporting and climate-related disclosure requirements (SEC, EU, Nasdaq, FASB)",
+    "Potential removal of sugar-sweetened beverages from government programs",
+    "Trade restrictions and import/export regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions and related activities impacting operations",
+      "EU sanctions affecting business operations",
+      "Retaliatory measures from affected U.S. trading partners",
+      "Trade disputes and tariffs proposed by recently inaugurated U.S. presidential administration",
+      "Geopolitical tensions and military conflicts causing supply chain disruptions and commodity price volatility"
+    ]
+  },
+  "revenue_by_segment": {
+    "Monster Energy Drinks": 0.916,
+    "Strategic Brands": 0.058,
+    "Alcohol Brands": 0.023,
+    "Other": 0.003
+  }
+}

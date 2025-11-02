@@ -1,0 +1,116 @@
+{
+  "ticker": "WEC",
+  "company_name": "WEC Energy Group, Inc.",
+  "company_type": "Diversified Utility Holding Company",
+  "geography": {
+    "regions": [
+      "North America",
+      "Midwest United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Wisconsin": 0.736,
+      "Illinois": 0.186,
+      "Minnesota": 0.084,
+      "Michigan": 0.047,
+      "Other states": 0.052,
+      "Non-utility energy infrastructure": 0.025
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Corporate and Other",
+    "Electric transmission",
+    "Other States",
+    "Other states",
+    "Corporate and other",
+    "Non-Utility Energy Infrastructure",
+    "Non-utility energy infrastructure",
+    "Illinois",
+    "Electric Transmission",
+    "Wisconsin"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Coal supply from mines in Wyoming and Pennsylvania; Natural gas supply from interstate pipelines; Dependence on rail transportation for coal deliveries; Reliance on third-party transmission providers for electric grid interconnection",
+    "risks": [
+      "Supply chain disruptions, inflation impacts on construction costs and materials, global supply chain disruptions affecting solar panel procurement, potential impacts from Uyghur Forced Labor Prevention Act on solar panel imports",
+      "Rail congestion and maintenance disruptions affecting coal deliveries; Supply chain disruptions for equipment and materials due to global conflicts; Inflation and tariffs increasing costs for labor, materials, and services; Solar panel shortages and delays due to UFLPA restrictions on imports from Xinjiang, China; Dependence on sophisticated information technology systems vulnerable to cybersecurity attacks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EPA Clean Water Act Section 316(b) cooling water intake structure requirements",
+    "Wisconsin Utility Holding Company Act limiting non-utility asset investments to 25% of utility assets",
+    "PHMSA proposed rulemaking on gas pipeline leak detection and repair",
+    "State regulatory commission approvals required for utility securities issuance",
+    "Coal Combustion Residuals (CCR) regulations",
+    "EPA Greenhouse Gas Power Plant Rule requiring carbon capture for certain facilities",
+    "Public Utility Holding Company Act of 2005 (PUHCA 2005) requirements",
+    "EPA Good Neighbor Rule for NOx emissions reductions",
+    "Potential changes to federal tax credits and incentives under new administration",
+    "EPA National Ambient Air Quality Standards for ozone and particulate matter",
+    "State renewable energy mandates (Wisconsin Act 141, Michigan Public Acts 295 and 342)",
+    "EPA environmental regulations on air emissions (CO2, methane, mercury, SO2, NOx) and water quality",
+    "Climate change regulations and emission reduction goals",
+    "Michigan Acts 229, 231, 235 requiring 60% renewable energy by 2035 and 100% clean energy by 2040",
+    "Potential electrification initiatives and mandates by local and state governments reducing natural gas demand",
+    "Clean Air Act NAAQS standards for ozone and particulate matter",
+    "Michigan Act 342 renewable energy requirements (15% by 2021 and beyond)",
+    "EPA Coal Combustion Residuals Rule for landfills and ash disposal",
+    "Cybersecurity and critical infrastructure protection standards",
+    "ICC rate case proceedings and potential disallowances of capital costs",
+    "Wisconsin Act 141 renewable energy requirements (8.27% for WE, 9.74% for WPS)",
+    "Mercury and Air Toxics Standards (MATS)",
+    "EPA Mercury and Air Toxics Standards (MATS) updates",
+    "Greenhouse Gas Power Plant Rule for fossil-fired steam generating units",
+    "Rate regulation by state utility commissions (PSCW, ICC, MPSC, MPUC) affecting cost recovery and ROE",
+    "Potential repeal or amendment of Inflation Reduction Act (IRA) tax credits for renewable energy",
+    "PSCW rate regulation and earnings sharing mechanisms",
+    "North American Electric Reliability Corporation mandatory reliability standards enforced by FERC",
+    "Chicago Building Decarbonization Ordinance (CABO) potentially prohibiting natural gas in new buildings",
+    "Illinois Commerce Commission (ICC) disallowances of capital costs in rate cases",
+    "FERC transmission rate regulation and ROE complaints",
+    "FERC regulation of wholesale electric sales and transmission rates",
+    "Changes in federal or state tax legislation affecting PTCs and ITCs",
+    "Consent Decrees with EPA for New Source Review violations at power plants",
+    "Illinois Public Act 98-0057 Natural Gas Consumer Safety & Reliability Act",
+    "EPA Steam Electric Effluent Limitation Guidelines for wastewater discharge",
+    "PHMSA pipeline safety regulations (49 CFR Parts 191, 192, 195)",
+    "Steam Electric Effluent Limitation Guidelines (ELG)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Israel",
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential impacts from geopolitical tensions on fuel prices and supply chains",
+      "Potential tariffs and trade policy changes under new presidential administration",
+      "Global supply chain disruptions from conflicts in Ukraine, Israel, and Middle East",
+      "Uncertainty from ongoing regional and international conflicts including Ukraine, Israel and Middle East",
+      "Uyghur Forced Labor Prevention Act (UFLPA) restrictions on solar panel imports from Xinjiang, China",
+      "Sanctions and trade restrictions impacting equipment and material availability",
+      "US Department of Commerce anti-dumping and countervailing duty investigations on solar panels from Malaysia, Vietnam, Thailand, and Cambodia"
+    ]
+  },
+  "revenue_by_segment": {
+    "Wisconsin": 0.736,
+    "Illinois": 0.186,
+    "Other states": 0.052,
+    "Electric transmission": 0.0,
+    "Non-utility energy infrastructure": 0.025,
+    "Corporate and other": 0.0
+  }
+}

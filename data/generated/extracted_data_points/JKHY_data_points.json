@@ -1,0 +1,80 @@
+{
+  "ticker": "JKHY",
+  "company_name": "Jack Henry & Associates, Inc.",
+  "company_type": "Financial Technology",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Latin America",
+      "Caribbean",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Core",
+    "Payments",
+    "Complementary",
+    "Corporate and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Epson",
+      "Digital Check",
+      "Panini",
+      "Dell",
+      "Canon",
+      "Hewlett Packard Enterprise",
+      "IBM Corporation",
+      "Lenovo",
+      "Cisco"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Hardware systems operate on various platforms with remarketing agreements with IBM and other hardware providers",
+    "risks": [
+      "Failures of third-party service providers could lead to financial loss",
+      "Reliance on third-party vendors for hosting environments increases as computing moves out of data centers",
+      "Vendor concentration risk as certain third-party vendors provide large portions of hosting needs",
+      "Third-party vendors subject to cybersecurity incidents, operational disruptions, hardware/software defects, human error, power losses, natural disasters"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive federal and state regulation of financial services industry",
+    "Federal truth-in-lending and truth-in-savings rules compliance",
+    "Privacy of Consumer Financial Information regulations",
+    "Electronic Funds Transfer Act compliance",
+    "Fair Credit Reporting Act compliance",
+    "Bank Secrecy Act compliance",
+    "USA Patriot Act compliance",
+    "Gramm-Leach-Bliley Act compliance",
+    "Community Reinvestment Act compliance",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act compliance",
+    "Subject to examination by OCC, Federal Reserve Board, FDIC, NCUA, CFPB",
+    "Bank Service Company Act examination requirements",
+    "Payment Card Data Security Standards compliance",
+    "Card association and network compliance rules (Visa, MasterCard, Zelle, FedNow, RTP)",
+    "State privacy and cybersecurity laws (New York DFS cybersecurity requirements, California Consumer Privacy Act, Iowa Consumer Data Protection Act, Virginia Consumer Data Protection Act)",
+    "Fragmented state-by-state data privacy requirements creating compliance complexity",
+    "Evolving AI and machine learning regulations at state and federal levels",
+    "Potential changes to existing regulations or new regulations requiring costly programming changes",
+    "Regulatory actions could influence client purchasing decisions and timing"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Core": 0.312,
+    "Payments": 0.369,
+    "Complementary": 0.279,
+    "Corporate and Other": 0.04
+  }
+}

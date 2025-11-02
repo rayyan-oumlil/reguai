@@ -64,4 +64,5 @@ torch>=2.0.0                 # PyTorch (backend pour transformers)
 # ============================================
 requests>=2.31.0            # Requêtes HTTP
 python-dotenv>=1.0.0        # Variables d'environnement
+tqdm>=4.65.0                # Barres de progression
 

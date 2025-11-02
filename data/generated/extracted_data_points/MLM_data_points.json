@@ -1,0 +1,98 @@
+{
+  "ticker": "MLM",
+  "company_name": "Martin Marietta Materials, Inc.",
+  "company_type": "Natural Resource-Based Building Materials",
+  "geography": {
+    "regions": [
+      "North America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "The Bahamas"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Texas": 0.81,
+      "North Carolina": 0.81,
+      "Colorado": 0.81,
+      "California": 0.81,
+      "Georgia": 0.81,
+      "Florida": 0.81,
+      "Minnesota": 0.81,
+      "Arizona": 0.81,
+      "South Carolina": 0.81,
+      "Iowa": 0.81
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Building Materials - East Group",
+    "Building Materials - West Group",
+    "Magnesia Specialties"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States - 28 states",
+      "Canada",
+      "The Bahamas",
+      "Michigan",
+      "Ohio",
+      "Texas"
+    ],
+    "dependencies": [
+      "Railroad operations for long-haul distribution network serving Texas, Southeast and Gulf Coast markets",
+      "Shipping companies for waterborne transport from Bahamas and Nova Scotia operations",
+      "Railcar availability and locomotive power for aggregates distribution",
+      "Third-party trucking services in Texas competing with oil and gas fields",
+      "Barge transportation along rivers in Ohio and West Virginia",
+      "Natural gas, coal, petroleum coke for Magnesia Specialties production",
+      "Diesel fuel for aggregates operations",
+      "Liquid asphalt for asphalt production",
+      "Cement for ready mixed concrete production"
+    ],
+    "risks": [
+      "Railroad track congestion, crew availability, locomotive availability affecting distribution",
+      "Limited availability of railcars and ships increasing lease rates",
+      "Shipping contract minimum tonnage requirements and demurrage costs",
+      "Third-party trucking availability constraints in Texas oil and gas regions",
+      "Water level fluctuations affecting barge transportation",
+      "Fuel and energy cost volatility (diesel, natural gas, coal, petroleum coke)",
+      "Supply chain interruptions from weather events",
+      "Transportation capacity constraints from railroad operational changes"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local environmental laws relating to air emissions, water use and discharges, waste management, noise and dust control",
+    "Greenhouse gas (GHG) emissions reporting requirements under USEPA Mandatory Greenhouse Gases Reporting Rule",
+    "Prevention of Significant Deterioration (PSD) permitting requirements for GHG emissions at cement and Magnesia Specialties facilities",
+    "California Climate Accountability Package requiring Scope 1, 2, 3 emissions reporting and climate-related risk disclosure",
+    "State and federal climate change legislation and carbon tax proposals",
+    "Clean Air Act compliance and nonattainment area designations in major metropolitan markets",
+    "Zoning and land use permit restrictions making quarry expansion and new site development more difficult",
+    "Mining regulations and federal health and safety requirements (MSHA, OSHA)",
+    "Crystalline silica exposure regulations",
+    "Environmental operating permit modifications, renewals and revocations",
+    "Asset retirement and reclamation obligations",
+    "Potential future restrictions on clinker substitution rates by USDOT",
+    "Antidumping orders on cement and clinker imports",
+    "Increased environmental regulations potentially raising costs versus foreign producers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential impact from trade disputes with nations affecting U.S. economy",
+      "Geopolitical conflicts including Russia-Ukraine war, Israel-Middle East conflict, potential China-Taiwan conflict affecting costs, supply chain, oil and gas prices"
+    ]
+  },
+  "revenue_by_segment": {
+    "East Group": 0.45,
+    "West Group": 0.5,
+    "Magnesia Specialties": 0.05
+  }
+}

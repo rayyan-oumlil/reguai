@@ -1,0 +1,136 @@
+{
+  "ticker": "WAT",
+  "company_name": "Waters Corporation",
+  "company_type": "Analytical Instruments and Software",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Puerto Rico",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Belgium",
+      "Spain",
+      "Portugal",
+      "Italy",
+      "Switzerland",
+      "Austria",
+      "Denmark",
+      "Finland",
+      "Norway",
+      "Sweden",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "China",
+      "Japan",
+      "Singapore",
+      "India",
+      "Hong Kong",
+      "South Korea",
+      "Malaysia",
+      "Taiwan",
+      "Australia",
+      "United Arab Emirates",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Asia": 0.328,
+      "Americas": 0.377,
+      "Europe": 0.295
+    },
+    "assets_by_region": {
+      "United States": 0.687,
+      "Americas Other": 0.003,
+      "Europe": 0.271,
+      "Asia": 0.042
+    }
+  },
+  "segments": [
+    "Waters",
+    "TA Instruments"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Ireland",
+      "United Kingdom",
+      "Germany",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Certain components or modules of LC and MS instruments are manufactured by outside contractors in Singapore",
+      "Outsourcing of manufacturing of certain electronic components such as computers, monitors and circuit boards to outside vendors",
+      "A number of items are purchased from limited or single sources of supply",
+      "Consolidation among suppliers could result in other limited or sole-source suppliers"
+    ],
+    "risks": [
+      "Disruption of sources could have at least a temporary adverse effect on shipments and financial results",
+      "Price increases from suppliers including as a result of imposed tariffs could adversely affect margins",
+      "Prolonged inability to obtain certain materials or components could adversely affect financial condition or results of operations",
+      "Failure by outside contractors to perform obligations could adversely affect supply chain and financial results",
+      "If contractors experience significant disruption in services or institute significant price increase, the Company may have to seek alternative providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in governmental regulations and compliance failures could harm the Company's business",
+    "Regulation by FDA and similar foreign regulatory agencies",
+    "Regulations governing product design, development, labeling, manufacturing, promotion, sales and distribution",
+    "Significant political shifts may result in regulatory uncertainty and substantial changes in regulatory regimes",
+    "Policy, regulatory and enforcement changes introduced by new presidential administration and regulatory leadership in the United States may impact business and capital expenditure strategies",
+    "Failure to comply with applicable governmental regulations could result in product recalls, imposition of fines, restrictions on ability to conduct or expand operations or cessation of operations",
+    "Changes in laws or regulations associated with enhanced protection of sensitive types of personal information could greatly increase cost of compliance",
+    "Failure to comply with laws and regulations on privacy, data security or consumer protection could result in lost or restricted business, proceedings, actions or fines",
+    "Compliance with rules of industrial standards bodies such as International Standards Organization",
+    "Compliance with Occupational Safety and Health Administration regulations",
+    "Compliance with Sarbanes-Oxley regulations requiring adequate internal control over financial reporting",
+    "SEC rules under Dodd-Frank Wall Street Reform and Consumer Protection Act requiring disclosure on conflict minerals",
+    "European Union and China Restrictions on use of certain Hazardous Substances in electrical and electronic equipment",
+    "European Union Waste Electrical and Electronic Equipment directives",
+    "New or increased legal and regulatory requirements to reduce or mitigate impacts to the environment related to climate change",
+    "Changing customer and consumer preferences or increased regulatory requirements regarding plastics and packaging materials",
+    "Increased demands or requirements regarding single-use and non-recyclable plastic products and packaging",
+    "FCPA and UK Bribery Act compliance requirements",
+    "Export and import compliance regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Impact and costs of war, in particular as a result of ongoing conflicts between Russia and Ukraine and in the Middle East",
+      "Possibility of further escalation resulting in new geopolitical and regulatory instability",
+      "Effect of new or proposed tariff or trade regulations",
+      "Trade tensions and tariffs between U.S. and China and their impact on business",
+      "U.S. government has raised and proposed to further raise tariffs on several Chinese goods",
+      "China has retaliated with increased tariffs on U.S. goods which may increase cost of doing business in China",
+      "Changes in U.S. trade policy could trigger retaliatory actions by affected countries including China resulting in trade wars",
+      "Embargoes and sanctions as trade protection measures"
+    ]
+  },
+  "revenue_by_segment": {
+    "Waters instrument systems": 0.349,
+    "Chemistry consumables": 0.191,
+    "TA instrument systems": 0.083,
+    "Waters service": 0.34,
+    "TA service": 0.036
+  }
+}
