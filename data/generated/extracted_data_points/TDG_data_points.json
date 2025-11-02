@@ -1,0 +1,99 @@
+{
+  "ticker": "TDG",
+  "company_name": "TransDigm Group Incorporated",
+  "company_type": "Aerospace & Defense Components",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Western Europe",
+      "Canada",
+      "Greater China"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "China",
+      "Mexico",
+      "Sri Lanka",
+      "Norway",
+      "Finland",
+      "Hungary",
+      "India",
+      "Portugal",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Israel",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Power & Control",
+    "Airframe",
+    "Non-aviation"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Canada",
+      "China",
+      "Mexico",
+      "Sri Lanka",
+      "Norway",
+      "Finland",
+      "Hungary"
+    ],
+    "dependencies": "Most raw materials and component parts are generally available from multiple suppliers at competitive prices. Company concentrates orders among a few suppliers to strengthen supplier relationships. Lengthy and expensive aviation authority and OEM certification processes could prevent efficient replacement of a supplier, raw material or component part.",
+    "risks": "Disruptions in the global supply chain has resulted in delays in the availability of certain raw materials and increased raw material costs. Supply chain constraints mentioned as a risk factor. Inability to timely obtain raw materials and components from suppliers in required quantities or on favorable terms. Destruction of suppliers' facilities, work stoppages, strikes by suppliers' employees, or failure of suppliers to provide materials of requisite quality.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Aviation Administration (FAA) regulations and certification requirements",
+    "European Union Aviation Safety Agency regulations",
+    "Military quality specifications and DOD regulations",
+    "Export control laws including Arms Export Control Act, ITAR, EAR, and OFAC sanctions",
+    "Environmental laws and regulations (federal, state, local, foreign) governing discharges, hazardous materials, remediation",
+    "Federal superfund laws and comparable state environmental laws",
+    "Climate-related regulations and carbon regulation",
+    "Data protection laws including GDPR, CCPA, PIPL, EU AI Act",
+    "Government procurement laws and regulations",
+    "U.S. Government contract compliance and audit requirements",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Changes in tax laws and regulations including OECD Pillar Two Global Anti-Base Erosion Rules",
+    "Trade policies, tariff regulations, and import/export regulations",
+    "Increased compliance costs from changes in laws and regulations",
+    "Government ability to unilaterally suspend, debar, terminate contracts, or revoke security clearances"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export controls and financial/economic sanctions on certain industry sectors including aviation sector in Russia",
+      "Sanctions on certain companies and parties in Russia",
+      "Uncertainty about future relationship between U.S. and China including trade policies, treaties, government regulations and tariffs",
+      "Increased trade barriers or restrictions on global trade including trade with China",
+      "Embargoes on flights from certain airlines",
+      "Ongoing conflicts between Russia and Ukraine and Israel and Hamas impacting global economy and aviation sector"
+    ]
+  }
+}

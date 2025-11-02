@@ -1,0 +1,113 @@
+{
+  "ticker": "EQIX",
+  "company_name": "Equinix, Inc.",
+  "company_type": "Data Center & Digital Infrastructure",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Colombia",
+      "Brazil",
+      "Chile",
+      "Peru",
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Spain",
+      "Italy",
+      "Poland",
+      "Finland",
+      "Sweden",
+      "Bulgaria",
+      "Turkey",
+      "Portugal",
+      "United Arab Emirates",
+      "South Africa",
+      "Nigeria",
+      "Ghana",
+      "Côte d'Ivoire",
+      "Japan",
+      "Singapore",
+      "China",
+      "Hong Kong",
+      "Australia",
+      "South Korea",
+      "India",
+      "Malaysia",
+      "Philippines",
+      "Indonesia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Americas",
+    "EMEA",
+    "Asia-Pacific"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third-party suppliers for data center equipment including generators and switchgear",
+      "Global supply chain challenges for data center equipment with lead-time constraints",
+      "Reliance on utility companies and third-party power providers for electricity supply",
+      "Dependence on internet service providers and telecommunications carriers for connectivity"
+    ],
+    "risks": [
+      "Global supply chain issues and inflation driving increased construction costs",
+      "Lack of availability and delays in delivery of data center equipment",
+      "Supply chain disruptions including potential impact from Middle East conflict affecting Red Sea shipping routes",
+      "Increased costs for building materials (steel, copper) and equipment procurement",
+      "Long lead-times to procure equipment such as generators",
+      "Risk of having to pre-buy equipment and materials before construction plans are finalized"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Evolving laws and regulations in countries of operation due to recent U.S. administration change",
+    "Compliance with economic and trade sanctions (OFAC, Bureau of Industry and Security)",
+    "Compliance with anti-bribery and corruption laws",
+    "Compliance with evolving cybersecurity laws including reporting requirements (CIRCIA 2022, SEC Cybersecurity Disclosure Rule, EU NIS 2, EU DORA)",
+    "Designation as critical infrastructure or essential services leading to additional regulations",
+    "Increasing sustainability regulations requiring mandatory reporting and decarbonization",
+    "Environmental regulations on GHG emissions, carbon pricing, renewable portfolio standards",
+    "Regulations on data center growth and development in markets with power/land/water shortages",
+    "Government regulations related to internet services and data flows/data localization",
+    "Potential regulations on responsible use of AI (EU Artificial Intelligence Act)",
+    "REIT qualification requirements and tax compliance",
+    "Reference rate reform (SOFR transition)",
+    "Pillar Two global minimum tax framework (15% minimum tax)",
+    "Property tax and indirect tax compliance across multiple jurisdictions",
+    "Net neutrality regulations and FCC rule changes",
+    "Environmental regulations on power plant emissions and water usage"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S.-China trade war and restrictive executive orders against Chinese customers",
+      "Sanctions against Russia due to Ukraine conflict affecting operations and customers",
+      "Compliance with sanctions lists and screening of Russian and Ukrainian customers",
+      "Risk of expanded U.S. executive orders restricting business with Chinese companies outside the U.S.",
+      "Potential revenue impact from ceasing business with sanctioned entities",
+      "Sanctions on semiconductors and telecommunications equipment from China",
+      "Middle East conflict creating regulatory and legal complexities"
+    ]
+  }
+}

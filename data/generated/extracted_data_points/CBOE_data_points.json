@@ -1,0 +1,96 @@
+{
+  "ticker": "CBOE",
+  "company_name": "Cboe Global Markets, Inc.",
+  "company_type": "Financial Services - Exchange Operator",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Netherlands",
+      "Canada",
+      "Australia",
+      "Japan",
+      "Singapore",
+      "Hong Kong",
+      "Philippines"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Options",
+    "North American Equities",
+    "Europe and Asia Pacific",
+    "Futures",
+    "Global FX",
+    "Digital"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on OCC as sole clearing provider for U.S. options and futures",
+      "Dependence on NSCC as sole clearing provider for U.S. equities",
+      "Dependence on third-party data center operators for production and disaster recovery",
+      "Dependence on FINRA for certain regulatory services",
+      "Dependence on third-party cloud service providers for data backup and distribution"
+    ],
+    "risks": [
+      "Interruption or cessation of clearing services by OCC, NSCC, or other clearing organizations could halt trading",
+      "Technology failures at third-party data centers could prevent market operations",
+      "Inadequate regulatory services from FINRA or OCC could result in SEC/CFTC enforcement action",
+      "FINRA CAT LLC service failures could prevent CAT cost recovery and result in SEC penalties",
+      "Third-party routing and clearing firm failures could expose Cboe Trading to counterparty credit risk"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "SEC oversight and potential enforcement actions for SRO compliance failures",
+    "CFTC oversight and potential enforcement actions for DCM/SEF/DCO compliance failures",
+    "SEC equity market structure proposals (Rule 605, Tick Size/Access Fee Cap, Best Execution, Order Competition) could increase costs and reduce revenues",
+    "Volume Based Pricing Proposal could prohibit volume-based transaction pricing and reduce competitiveness",
+    "Consolidated Data Plan could reduce Cboe's voting share and influence on market data revenue matters",
+    "EU MiFID II/MiFIR amendments including consolidated tape, payment for order flow ban, single volume cap could impact European operations",
+    "EU Benchmark Regulation could restrict international use of Cboe indices",
+    "EMIR 3.0 requirements for central counterparties (Cboe Clear Europe)",
+    "UK recognition requirements for non-UK CCPs - OCC must achieve permanent UK recognition by December 31, 2025 or UK participants face punitive capital charges",
+    "FCA regulatory oversight of Cboe Europe as UK RIE",
+    "DNB and AFM regulatory oversight of Cboe Clear Europe and Cboe NL in Netherlands",
+    "OSC and CIRO regulatory oversight of Cboe Canada Inc.",
+    "ASIC regulatory oversight of Cboe Australia",
+    "JFSA and JSDA regulatory oversight of Cboe Japan",
+    "SEC Rule 15c3-1 net capital requirements for broker-dealers (Cboe Trading, BIDS Trading, Cboe Fixed Income)",
+    "CFTC capital adequacy requirements for CFE, Cboe SEF, Cboe Digital Exchange, Cboe Clear U.S.",
+    "Cross-default provisions in debt agreements could trigger acceleration of all debt obligations",
+    "Ownership and voting restrictions on stockholders due to SRO status",
+    "Section 19 Exchange Act requirement for SEC approval of rule changes and fee changes",
+    "Potential SEC disapproval or delay of rule changes could prevent business activities or revenue recognition",
+    "CAT implementation delays and financial accountability milestones - failure could result in unrecoverable CAT funding costs",
+    "Litigation challenging CAT Funding Model could delay fee collection and prevent promissory note recovery",
+    "FX Global Code compliance expectations for spot FX market conduct",
+    "Potential new regulations on spot FX market",
+    "Changes to swap execution facility regulations affecting FX NDF business",
+    "BIDS Trading must maintain independence from registered exchanges to avoid 'facility' designation and exchange regulations",
+    "Risk of BIDS Trading being deemed exchange 'facility' could reduce competitiveness and result in fines",
+    "Potential loss of SRO immunity doctrine could increase litigation exposure",
+    "Risk of SEC or CFTC revocation of exchange/DCM/SEF/DCO registration for compliance failures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements could affect market participants and reduce trading activity",
+      "Geopolitical conflicts in Eastern Europe and Middle East could increase cybersecurity threats from nation-state actors"
+    ]
+  }
+}

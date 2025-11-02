@@ -1,0 +1,101 @@
+{
+  "ticker": "FFIV",
+  "company_name": "F5, Inc.",
+  "company_type": "Technology - Multicloud Application Security and Delivery",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, the Middle East, and Africa (EMEA)",
+      "Asia Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Israel",
+      "Saudi Arabia",
+      "India",
+      "Singapore",
+      "China",
+      "Japan",
+      "Australia",
+      "Ireland",
+      "Togo"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.561,
+      "EMEA": 0.268,
+      "APAC": 0.17
+    },
+    "assets_by_region": {
+      "Americas": 0.757,
+      "EMEA": 0.146,
+      "APAC": 0.098
+    }
+  },
+  "segments": [
+    "F5 Distributed Cloud Services",
+    "F5 NGINX",
+    "F5 BIG-IP"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Ingram Micro, Inc.",
+      "Synnex Corporation",
+      "Flex Ltd."
+    ],
+    "manufacturing_locations": [
+      "Mexico (Guadalajara)",
+      "China (Zhuhai)"
+    ],
+    "dependencies": "Single contract manufacturer (Flex Ltd.) for all hardware assembly; several hardware components purchased from single or limited sources with variable lead times",
+    "risks": "Reliance on single contract manufacturer; single or limited source suppliers for key hardware components; potential supply chain disruptions; component shortages; lead time variability; inventory obsolescence risk if components unused or products unsold within specified periods",
+    "supplier_concentration": {
+      "Ingram Micro, Inc.": 0.163,
+      "Synnex Corporation": 0.159
+    }
+  },
+  "regulatory_risks": [
+    "U.S. export controls and encryption technology regulations requiring export licenses",
+    "Foreign import regulations on encryption technology limiting product distribution",
+    "Changes in export/import regulations or enforcement could restrict customer deployments",
+    "Data protection and privacy laws (GDPR, evolving U.S. state laws) with increasing enforcement and sanctions",
+    "Changing definitions of personal data (IP addresses, machine identification, location data) may limit operations",
+    "Government certification requirements for federal sales may change, restricting market access",
+    "U.S. government procurement requirements (e.g., U.S. manufacturing mandates)",
+    "Conflict minerals disclosure requirements (SEC regulations)",
+    "OECD Pillar Two minimum tax framework enacted in multiple countries",
+    "EU Corporate Sustainability Reporting Directive compliance costs",
+    "Proposed AI regulations (e.g., EU AI legislation) creating legal/regulatory uncertainty",
+    "Sanctions compliance risks",
+    "Trade restrictions and tariff changes",
+    "Antitrust regulations (U.S. and foreign)",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "Climate-related and sustainability-focused laws and regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements may delay shipments and reduce quarterly revenue",
+      "Product misuse for censorship could damage reputation",
+      "Diversion of products to restricted third parties could result in investigations, penalties, fines, and trade restrictions",
+      "Geopolitical unrest and armed conflicts (e.g., Israel and surrounding region) may disrupt operations",
+      "Israeli employee reserve duty obligations could disrupt operations if called for active duty"
+    ]
+  },
+  "revenue_by_segment": {
+    "Products": 0.452,
+    "Services": 0.548
+  }
+}

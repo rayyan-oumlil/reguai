@@ -1,0 +1,117 @@
+{
+  "ticker": "LDOS",
+  "company_name": "Leidos Holdings, Inc.",
+  "company_type": "Technology Services and Defense Contractor",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "United Kingdom",
+      "Australia",
+      "Europe",
+      "Middle East",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "South Korea",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Belarus",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.92,
+      "International": 0.08
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "National Security & Digital",
+    "Health & Civil",
+    "Commercial & International",
+    "Defense Systems"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": [
+      "Complex and rapidly changing technologies",
+      "Suppliers of important technologies and components",
+      "Subcontractors for contract performance",
+      "Global supply chain for IT hardware and materials"
+    ],
+    "risks": [
+      "Global supply chain issues and inflationary pressures disrupting supply and increasing prices",
+      "Subcontractor performance deficiencies could result in termination for default",
+      "Dependence on teaming arrangements and relationships with other contractors and subcontractors",
+      "Supply chain disruption from physical or transition risks including natural disasters and climate change",
+      "Concentration risk in supply chain",
+      "Tariffs on imported goods and materials may increase procurement costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Acquisition Regulation (FAR) and supplements including DoD Federal Acquisition Regulation Supplement (DFARS)",
+    "Truthful Cost or Pricing Data Act compliance",
+    "Procurement Integrity Act restrictions",
+    "Civil False Claims Act violations",
+    "False Statements Act violations",
+    "U.S. government Cost Accounting Standards (CAS) compliance",
+    "International Trade in Arms Regulation (ITAR) compliance",
+    "Export Administration Regulations (EAR) and anti-boycott provisions",
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "U.K. Bribery Act of 2010 compliance",
+    "Anti-corruption and anti-bribery laws in jurisdictions where business is conducted",
+    "Data privacy and security laws including GDPR (EU), U.K. GDPR, California Consumer Privacy Act (CCPA), Health Insurance Portability and Accountability Act (HIPAA)",
+    "DFARS cybersecurity requirements and National Institute of Standards and Technology security controls",
+    "DOD Cybersecurity Maturity Model Certification (CMMC) program requirements",
+    "Environmental laws including Federal Clean Air Act and Clean Water Act",
+    "Organizational conflict of interest (OCI) rules",
+    "Small Business Administration set-aside program restrictions",
+    "Changes in U.S. government procurement rules and regulations",
+    "Other Transaction Authority (OTA) agreements regulations",
+    "EU Artificial Intelligence Act (AI Act)",
+    "Pillar Two global minimum tax framework (15% global minimum tax)",
+    "Import and export controls and sanctions",
+    "Employment and labor relations laws",
+    "Immigration laws",
+    "Taxation laws and regulations",
+    "Anti-competition restrictions",
+    "Securities regulation and disclosure control obligations",
+    "Climate change and environmental sustainability regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed by U.S. and other nations on Russia, Belarus and certain banks, companies and individuals due to Russia-Ukraine conflict",
+      "Enhanced export controls on certain products to Russia",
+      "Potential responses from Russia to sanctions",
+      "Iran sanctions impact on operations",
+      "Restrictions on international trade from geopolitical tensions",
+      "Changes in international trade policies including higher tariffs on imported goods"
+    ]
+  },
+  "revenue_by_segment": {
+    "National Security & Digital": 0.44,
+    "Health & Civil": 0.3,
+    "Commercial & International": 0.14,
+    "Defense Systems": 0.12
+  }
+}

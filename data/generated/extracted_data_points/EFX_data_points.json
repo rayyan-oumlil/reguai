@@ -1,0 +1,148 @@
+{
+  "ticker": "EFX",
+  "company_name": "Equifax Inc.",
+  "company_type": "Data, Analytics and Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia Pacific",
+      "Europe",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "India",
+      "United Kingdom",
+      "Spain",
+      "Portugal",
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Costa Rica",
+      "Dominican Republic",
+      "Ecuador",
+      "El Salvador",
+      "Honduras",
+      "Mexico",
+      "Paraguay",
+      "Peru",
+      "Uruguay",
+      "Ireland",
+      "Cambodia",
+      "Malaysia",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.76,
+      "Australia": 0.05,
+      "United Kingdom": 0.05,
+      "Canada": 0.05,
+      "Other": 0.09
+    },
+    "assets_by_region": {
+      "United States": 0.71,
+      "Australia": 0.15,
+      "Brazil": 0.05,
+      "United Kingdom": 0.03,
+      "Canada": 0.02,
+      "Other": 0.04
+    }
+  },
+  "segments": [
+    "Workforce Solutions",
+    "U.S. Information Solutions",
+    "International",
+    "Verification Services",
+    "Employer Services",
+    "Online Information Solutions",
+    "Mortgage Solutions",
+    "Financial Marketing Services",
+    "Latin America",
+    "Europe",
+    "Asia Pacific",
+    "Canada"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Google"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Outsourcing of network and security infrastructure to third parties",
+      "Data processing operations outsourced to third parties",
+      "Cloud-based solutions hosted by third parties",
+      "Dependence on Google for cloud platform services",
+      "Reliance on data from external sources including credit granting institutions, payroll processors, employers"
+    ],
+    "risks": [
+      "Third-party vendors failure to perform obligations could impair ability to operate effectively",
+      "Outsourcing in developing countries subject to geopolitical uncertainty",
+      "Loss of access to credit, employment, financial and other data from external sources",
+      "Data sources could withdraw, delay receipt or increase cost of data",
+      "Security breaches at third-party vendors",
+      "Transition to cloud-based technologies may expose to additional cyber threats",
+      "Disruption to outsourced systems or communication links could negatively affect operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Fair Credit Reporting Act (FCRA) compliance requirements",
+    "Consumer Financial Protection Bureau (CFPB) supervisory authority and enforcement actions",
+    "Dodd-Frank Act UDAAP provisions",
+    "Federal Trade Commission Act enforcement",
+    "Gramm-Leach-Bliley Act (GLBA) data protection requirements",
+    "Credit Repair Organizations Act (CROA) applicability",
+    "State data security breach notification laws in all 50 states",
+    "New York State Department of Financial Services (NYDFS) cybersecurity rules",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act",
+    "State privacy laws in Colorado, Connecticut, Delaware, Florida, Iowa, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Texas, Utah, Virginia, Indiana, Kentucky, Maryland, Minnesota, Rhode Island, Tennessee",
+    "State banking and financial services regulatory agency examinations",
+    "Financial Conduct Authority (FCA) regulation in UK",
+    "EU General Data Protection Regulation (GDPR)",
+    "UK equivalent GDPR provisions post-Brexit",
+    "Personal Information Protection and Electronic Documents Act (PIPEDA) in Canada",
+    "Provincial privacy legislation in Alberta, British Columbia, Quebec",
+    "Data protection laws in Argentina, Uruguay, Peru, Costa Rica, Mexico, Brazil",
+    "Australian Privacy Principles and Privacy Act 1988",
+    "Privacy Act 2020 in New Zealand",
+    "Information Technology Act of 2000 in India",
+    "Digital Personal Data Protection Act 2023 in India",
+    "Credit reporting legislation in Canadian provinces",
+    "Artificial intelligence regulation proposals in EU and US states",
+    "New regulations on personal financial data rights and open banking (CFPB Section 1033 rule)",
+    "CFPB rule requiring removal of medical collection debt from credit reports",
+    "Proposed changes to FCRA by CFPB",
+    "Federal and state tax law changes affecting Employer Services",
+    "Changes to Affordable Care Act employer mandate",
+    "E-Verify and immigration work authorization requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Argentina",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade protection measures",
+      "Implementation of exchange controls",
+      "Restrictions on import and export of technologies",
+      "Foreign laws and regulatory requirements",
+      "Geopolitical instability including terrorism and war",
+      "International conflict",
+      "Business licensing requirements or restrictions relating to foreign direct investments",
+      "Varying business practices and corruption levels in international markets",
+      "Argentina deemed highly inflationary economy with peso devaluation",
+      "Completed sale of joint venture in Russia in 2022"
+    ]
+  },
+  "revenue_by_segment": {
+    "Workforce Solutions": 0.43,
+    "U.S. Information Solutions": 0.33,
+    "International": 0.24
+  }
+}

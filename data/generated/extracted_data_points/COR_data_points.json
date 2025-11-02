@@ -1,0 +1,123 @@
+{
+  "ticker": "COR",
+  "company_name": "Cencora, Inc.",
+  "company_type": "Pharmaceutical Distribution and Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Canada",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "United Kingdom",
+      "Canada",
+      "Czech Republic",
+      "France",
+      "Lithuania",
+      "Netherlands",
+      "Norway",
+      "Romania",
+      "Spain",
+      "Turkey",
+      "Germany",
+      "Brazil",
+      "China",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.9,
+      "International": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Healthcare Solutions",
+    "International Healthcare Solutions",
+    "Human Health",
+    "Animal Health",
+    "Alliance Healthcare",
+    "Other Healthcare Solutions",
+    "Pharmaceutical Distribution Services",
+    "Specialty Pharmaceuticals",
+    "Consulting Services",
+    "MWI Animal Health",
+    "World Courier",
+    "PharmaLex",
+    "Innomar",
+    "Profarma"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Pharmaceutical manufacturers for product supply",
+      "No single supplier accounted for 10% or more of purchases",
+      "Top 10 suppliers accounted for approximately 53% of purchases in fiscal 2024",
+      "Reliance on pharmaceutical supply chain integrity"
+    ],
+    "risks": [
+      "Loss of a supplier could adversely affect business if alternate sources unavailable",
+      "Bankruptcy, insolvency, or credit failure of significant supplier",
+      "Supply chain disruptions from geopolitical events",
+      "Counterfeit, diverted, adulterated, or mislabeled pharmaceuticals",
+      "Drug shortages",
+      "Manufacturer pricing changes",
+      "Concentration risk with pharmaceutical manufacturers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "DEA regulations on controlled substances distribution",
+    "FDA regulations on pharmaceutical supply chain",
+    "Drug Supply Chain Security Act (DSCSA) compliance requirements",
+    "State boards of pharmacy regulations",
+    "Opioid distribution regulations and investigations",
+    "False Claims Act violations",
+    "Anti-kickback statute compliance",
+    "Healthcare fraud and abuse laws",
+    "HIPAA and data privacy regulations (GDPR, PIPEDA, state privacy laws)",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "U.K. Bribery Act compliance",
+    "Export control and trade sanction laws",
+    "Medicare and Medicaid reimbursement changes",
+    "Inflation Reduction Act (IRA) drug pricing reforms",
+    "340B drug discount program disputes",
+    "State drug pricing and affordability regulations",
+    "Prescription drug importation proposals",
+    "Licensing requirements for wholesale distributors and third-party logistics providers",
+    "Environmental laws and regulations",
+    "Safe working conditions and laboratory practices regulations",
+    "Tax law changes and challenges",
+    "Antitrust regulations",
+    "Product liability regulations",
+    "Intellectual property regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Turkey",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions related to Ukraine conflict",
+      "Economic sanctions related to Israel-Hamas conflict",
+      "Trade restrictions and tariffs",
+      "International trade policy changes",
+      "U.S. export control laws",
+      "Sanctions compliance in foreign operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. Healthcare Solutions": 0.9,
+    "International Healthcare Solutions": 0.1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "ticker": "PNW",
+  "company_name": "Pinnacle West Capital Corporation",
+  "company_type": "Electric Utility",
+  "geography": {
+    "regions": [
+      "Arizona",
+      "Southwestern United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Regulated Electricity Segment"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Navajo Transitional Energy Company, LLC"
+    ],
+    "manufacturing_locations": [
+      "Arizona",
+      "New Mexico"
+    ],
+    "dependencies": "Coal supply from Navajo Transitional Energy Company for Four Corners Power Plant through 2031; Nuclear fuel cycle dependencies including uranium mining, conversion, enrichment, and fabrication with contracts through 2028-2031; Natural gas transportation agreements through 2052",
+    "risks": "Fuel supply availability; Water supply limitations in southwestern United States; Supply chain constraints for critical spare parts and equipment; Prolonged drought conditions affecting water resources for thermal generation; Dependence on coal suppliers for Four Corners operations through 2031",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Arizona Corporation Commission rate regulation and cost recovery uncertainty",
+    "Federal Energy Regulatory Commission wholesale power and transmission rate regulation",
+    "Nuclear Regulatory Commission licensing and safety requirements for Palo Verde operations",
+    "EPA environmental regulations including greenhouse gas emissions standards for power plants",
+    "EPA Coal Combustion Residuals Rule compliance and corrective action requirements",
+    "EPA Effluent Limitation Guidelines requiring zero discharge standards",
+    "EPA Good Neighbor Plan for nitrogen oxide emissions",
+    "EPA Mercury and Air Toxics Standards revisions",
+    "Ozone National Ambient Air Quality Standards compliance",
+    "Clean Air Act, Clean Water Act, Endangered Species Act, RCRA, and Superfund compliance",
+    "Arizona renewable energy standard and tariff requirements",
+    "Energy efficiency standards and demand side management obligations",
+    "Potential retail electric market deregulation in Arizona",
+    "NERC mandatory electric reliability standards with penalties up to $1.2 million per day per violation",
+    "State and local environmental permits and approvals",
+    "Water rights adjudication proceedings in Arizona and New Mexico",
+    "Navajo Nation and tribal land lease and right-of-way requirements",
+    "DOE spent nuclear fuel disposal obligations and breach of contract",
+    "Price-Anderson Nuclear Industries Indemnity Act liability limits",
+    "FERC transmission rate formula adjustments",
+    "Arizona ballot initiatives and referenda affecting utility regulation",
+    "Potential changes to Arizona Corporation Commission retail electric competition rules",
+    "Climate change legislation and carbon regulation uncertainty",
+    "California AB 32 greenhouse gas cap-and-trade program requirements",
+    "California SB 219, SB 253, and SB 261 climate-related disclosure mandates",
+    "PURPA qualifying facility contract requirements",
+    "Dodd-Frank Act derivatives trading restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

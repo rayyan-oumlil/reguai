@@ -1,0 +1,120 @@
+{
+  "ticker": "RL",
+  "company_name": "Ralph Lauren Corporation",
+  "company_type": "Luxury Lifestyle Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Australia",
+      "New Zealand",
+      "Latin America",
+      "Middle East",
+      "Emerging Markets"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Germany",
+      "Switzerland",
+      "Spain",
+      "Sweden",
+      "China",
+      "Japan",
+      "South Korea",
+      "Hong Kong",
+      "Australia",
+      "New Zealand",
+      "Russia",
+      "Israel",
+      "India",
+      "Vietnam",
+      "Cambodia",
+      "Turkey",
+      "Bangladesh"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America",
+    "Europe",
+    "Asia",
+    "Other non-reportable segments",
+    "Retail",
+    "Wholesale",
+    "Licensing",
+    "Ralph Lauren Collection",
+    "Ralph Lauren Purple Label",
+    "Double RL",
+    "Polo Ralph Lauren",
+    "Lauren Ralph Lauren",
+    "Polo Ralph Lauren Children",
+    "Chaps",
+    "Ralph Lauren Home",
+    "Fragrances",
+    "Hospitality"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia",
+      "Europe",
+      "Latin America",
+      "Vietnam",
+      "Cambodia",
+      "China"
+    ],
+    "dependencies": "Approximately 96% of products produced outside the U.S., with approximately 20% sourced from Vietnam, 16% from Cambodia, and 12% from China. Company does not own or operate any manufacturing facilities and depends exclusively on independent third parties for manufacture.",
+    "risks": "Supply chain disruptions from capacity constraints, closed factories, labor shortages, pandemic diseases, labor disputes, strikes, port congestion, scrutiny or detention of goods from certain territories (UFLPA, CAATSA), shipping delays from Red Sea crisis, disruptions to Suez and Panama canals, inflationary pressures, scarcity of raw materials, man-made or natural disasters, severe weather, military conflicts, terrorist acts",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Imposition of additional tariffs, duties, taxes on imports or exports",
+    "Changes to existing trade agreements",
+    "Sanctions, restrictions, and other responses from trade policy changes",
+    "Uyghur Forced Labor Prevention Act (UFLPA) - detention, exclusion, or seizure of goods and monetary penalties",
+    "Countering America's Adversaries Through Sanctions Act (CAATSA)",
+    "Foreign Corrupt Practices Act compliance",
+    "U.K. Bribery Act compliance",
+    "Product labeling and product safety requirements",
+    "Consumer Product Safety Improvement Act",
+    "California Transparency in Supply Chains Act",
+    "Dodd-Frank conflict minerals disclosure requirements",
+    "Environmental regulations and climate change legislation",
+    "Data privacy and security regulations (including EU regulations)",
+    "Labor laws and regulations (minimum wage, overtime, working conditions, citizenship requirements)",
+    "Tax law changes (including OECD Pillar Two global minimum tax)",
+    "Import and export regulations",
+    "Anti-dumping and countervailing duties",
+    "Trademark and intellectual property protection laws (varying by jurisdiction)",
+    "ESG-related disclosure requirements",
+    "State and local regulations prohibiting or limiting ESG considerations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Israel",
+      "China",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine war impact on operations and broader macroeconomic implications",
+      "Israel-Hamas war and other Middle East hostilities",
+      "Militant attacks on cargo vessels in the Red Sea",
+      "Potential sanctions on countries from which products are sourced",
+      "UFLPA and CAATSA sanctions on goods from certain territories",
+      "U.S. tariff increases on imported goods and retaliatory tariffs from other countries",
+      "Diplomatic tensions between U.S. and other countries",
+      "Anti-American sentiment from changes in international trade relations"
+    ]
+  }
+}

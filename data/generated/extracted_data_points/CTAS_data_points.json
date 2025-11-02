@@ -1,0 +1,86 @@
+{
+  "ticker": "CTAS",
+  "company_name": "Cintas Corporation",
+  "company_type": "Business Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.9,
+      "Canada and Other": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Uniform Rental and Facility Services",
+    "First Aid and Safety Services",
+    "Fire Protection Services",
+    "Uniform Direct Sale"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Cintas sources finished products from many outside suppliers and operates five manufacturing facilities that provide for standard uniform needs. Cintas purchases fabric used in manufacturing from several suppliers.",
+    "risks": "Supply chain constraints and macroeconomic conditions including inflationary pressures; fluctuations in costs of materials and labor; inability to find qualified suppliers who meet standards; political and economic stability in countries where foreign suppliers are located; financial stability of suppliers; suppliers' failure to meet supplier standards; labor problems experienced by suppliers; availability of raw materials to suppliers; currency exchange rates; transport availability and cost; inflation; U.S. and foreign trade policies; tariffs and other impositions on imported goods; trade sanctions imposed on certain countries; limitation on importation of certain types of goods",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with federal and state regulations including employment laws and regulations",
+    "Minimum wage requirements",
+    "Overtime requirements",
+    "Working condition requirements",
+    "Citizenship requirements",
+    "Transportation laws and regulations",
+    "Sustainability-related regulations",
+    "Cybersecurity laws and regulations",
+    "Data privacy and protection laws and regulations",
+    "Environmental regulations",
+    "USDOT regulations",
+    "Occupational Safety and Health Act (OSHA)",
+    "Changes in laws, regulations and related interpretations",
+    "New laws or regulations enacted by current U.S. presidential administration and Congress",
+    "Increasing levels of regulation and disclosure requirements with respect to sustainability matters",
+    "Environmental laws and regulations relating to protection of environment and health and safety matters",
+    "Laws governing discharges of pollutants to air and water",
+    "Management and disposal of hazardous substances and wastes",
+    "Clean-up of contaminated sites",
+    "Clean Air Act",
+    "Clean Water Act",
+    "Resource Conservation and Recovery Act",
+    "Superfund Amendments and Reauthorization Act of 1986",
+    "Increasingly complex and changing laws and regulations regarding privacy, data protection and data security",
+    "Laws related to collection, storage, use, transmission and protection of personal information and other consumer, customer, vendor or employee data",
+    "Changes in income tax laws including Inflation Reduction Act (IRA)",
+    "Corporate alternative minimum tax",
+    "Excise tax on repurchase of corporate stock",
+    "Pillar Two global minimum tax",
+    "Transfer pricing regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions imposed on certain countries",
+      "U.S. and foreign trade policies, tariffs and other impositions on imported goods"
+    ]
+  },
+  "revenue_by_segment": {
+    "Uniform Rental and Facility Services": 0.771,
+    "First Aid and Safety Services": 0.118,
+    "Fire Protection Services": 0.079,
+    "Uniform Direct Sales": 0.032
+  }
+}

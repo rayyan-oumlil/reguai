@@ -1,0 +1,125 @@
+{
+  "ticker": "ALB",
+  "company_name": "Albemarle Corporation",
+  "company_type": "Specialty Chemicals and Lithium Production",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia Pacific",
+      "Europe",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Australia",
+      "Chile",
+      "Jordan",
+      "Netherlands",
+      "Germany",
+      "Belgium",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "United Kingdom",
+      "Brazil",
+      "France",
+      "Canada",
+      "Singapore",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Argentina",
+      "India",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Energy Storage",
+    "Specialties",
+    "Ketjen"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Windfield Holdings Pty. Ltd.",
+      "Talison Lithium Pty. Ltd.",
+      "Mineral Resources Limited"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Australia",
+      "Chile",
+      "Jordan",
+      "Netherlands",
+      "Germany",
+      "Belgium",
+      "Japan",
+      "Taiwan",
+      "Brazil"
+    ],
+    "dependencies": [
+      "Lithium concentrate from Windfield joint venture (Greenbushes mine)",
+      "Lithium concentrate from MARBL joint venture (Wodgina mine)",
+      "Lithium brine from Salar de Atacama, Chile",
+      "Lithium brine from Silver Peak, Nevada",
+      "Bromine from Dead Sea (Jordan Bromine Company Limited joint venture)",
+      "Bromine from Arkansas operations"
+    ],
+    "risks": [
+      "Concentration risk in lithium supply from joint ventures",
+      "Dependence on spodumene from Australia (Greenbushes and Wodgina)",
+      "Supply chain disruptions from geopolitical tensions",
+      "Raw material price volatility",
+      "Transportation and shipping cost increases",
+      "Energy and water availability constraints",
+      "Climate change impacts on resource extraction"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "REACH regulations in European Union requiring comprehensive chemical reporting and authorization",
+    "Toxic Substances Control Act (TSCA) requirements in United States",
+    "Environmental regulations on discharge of pollutants and hazardous waste management",
+    "CERCLA (Superfund) liability for environmental cleanup",
+    "Occupational Safety and Health Act (OSHA) compliance",
+    "Foreign Corrupt Practices Act (FCPA) violations and anti-bribery laws",
+    "Export control and economic embargo regulations",
+    "Uyghur Forced Labor Prevention Act import restrictions",
+    "Climate change regulations including carbon pricing and cap-and-trade legislation",
+    "Pillar Two Global Anti-Base Erosion Rules (15% global minimum tax)",
+    "Chemical Facility Anti-Terrorism Standards (CFATS) program requirements",
+    "Mining and environmental permits for resource extraction operations",
+    "Water usage restrictions in high water-risk areas",
+    "Brominated flame retardant regulations and potential bans",
+    "Product quality and safety regulations",
+    "Data privacy regulations including EU General Data Protection Regulation",
+    "Trade sanctions and tariffs",
+    "Indigenous land rights and community agreements",
+    "Tax law changes including Inflation Reduction Act impacts"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Jordan",
+      "Chile",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-China trade tensions and tariffs on electric vehicles and lithium-ion batteries",
+      "Export control restrictions on technology transfer to prohibited countries",
+      "Economic sanctions limiting business in certain jurisdictions",
+      "Potential tariffs on Chinese imports announced by US administration",
+      "Trade restrictions affecting raw material and product flows",
+      "Russia-Ukraine conflict impacts on global supply chains and energy costs",
+      "Middle East geopolitical instability affecting Jordan operations",
+      "Nationalization or expropriation risks in foreign jurisdictions",
+      "Currency exchange controls and capital repatriation restrictions"
+    ]
+  }
+}

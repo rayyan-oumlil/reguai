@@ -1,0 +1,109 @@
+{
+  "ticker": "IT",
+  "company_name": "Gartner, Inc.",
+  "company_type": "Research and Advisory Services",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Europe, Middle East and Africa",
+      "Other International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "India",
+      "Spain",
+      "Australia",
+      "Connecticut",
+      "Florida",
+      "Texas",
+      "Czech Republic",
+      "China",
+      "Japan",
+      "Euro area",
+      "British Pound area",
+      "Japanese Yen area",
+      "Australian dollar area",
+      "Canadian dollar area",
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "Iran",
+      "Malta",
+      "Cyprus",
+      "France",
+      "Germany",
+      "Saudi Arabia",
+      "Brazil",
+      "Arlington, Virginia",
+      "Illinois",
+      "Stamford"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States and Canada": 0.641,
+      "Europe, Middle East and Africa": 0.242,
+      "Other International": 0.117
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Research",
+    "Conferences",
+    "Consulting",
+    "Global Technology Sales",
+    "Global Business Sales"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on local distributors or sales agents in some international locations. If any of these arrangements are terminated, the Company may not be able to replace the arrangement on beneficial terms or on a timely basis.",
+    "risks": "Reliance on third-party vendors for website and service providers; potential vulnerabilities in outsourced services; supply chain disruptions mentioned in context of client challenges but not specific to Gartner's own supply chain operations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with U.S. Foreign Corrupt Practices Act",
+    "Compliance with UK Bribery Act",
+    "Compliance with Office of Foreign Assets Control (OFAC) regulations",
+    "European Union General Data Protection Regulation (GDPR)",
+    "California Consumer Privacy Act (CCPA)",
+    "California Privacy Rights Act (CPRA)",
+    "Brazilian General Data Protection Law (LGPD)",
+    "Chinese Cybersecurity, Data Security and Personal Information Protection laws",
+    "EU Artificial Intelligence Act (EU AI Act)",
+    "OECD BEPS 2.0 / Pillar Two global minimum tax proposals",
+    "Evolving sustainability regulatory requirements relating to environmental, social, and governance matters in Europe, U.S., and elsewhere",
+    "Changes in tax policy including global minimum tax legislation",
+    "Heightened scrutiny from various taxing authorities globally",
+    "Restrictive domestic immigration laws affecting international recruitment",
+    "Enforceability of restrictive covenant agreements due to recent regulatory scrutiny in the U.S.",
+    "Government contract compliance requirements including bidding procedures and efficiency considerations",
+    "Potential termination of government contracts for convenience or lack of funding",
+    "Sanctions compliance related to Russia-Ukraine war and other geopolitical conflicts",
+    "Trade restrictions and tariffs",
+    "Evolving AI regulations and compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance related to ongoing Russia-Ukraine war",
+      "Office of Foreign Assets Control (OFAC) regulations",
+      "Impact of sanctions imposed by governments or other authorities on international operations",
+      "Potential exposure to countries where corruption has historically penetrated the economy"
+    ]
+  },
+  "revenue_by_segment": {
+    "Research": 0.818,
+    "Conferences": 0.093,
+    "Consulting": 0.089
+  }
+}

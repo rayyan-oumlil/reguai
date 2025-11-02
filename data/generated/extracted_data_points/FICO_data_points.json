@@ -1,0 +1,91 @@
+{
+  "ticker": "FICO",
+  "company_name": "Fair Isaac Corporation",
+  "company_type": "Applied Analytics and Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "European Union",
+      "India",
+      "China",
+      "Singapore",
+      "Poland",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.84,
+      "Europe, Middle East and Africa": 0.1,
+      "Asia Pacific": 0.06
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Scores",
+    "Software"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Equifax",
+      "Experian",
+      "TransUnion"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party cloud services for SaaS infrastructure",
+      "Third-party data center hosting services",
+      "Consumer reporting agencies (Experian, TransUnion, Equifax) for Scores distribution"
+    ],
+    "risks": [
+      "Reliance on three major consumer reporting agencies for substantial portion of Scores revenue",
+      "Dependence on third-party cloud service providers for SaaS delivery",
+      "Potential disruption from third-party data center failures or outages",
+      "Cybersecurity threats to supply chain software and materials"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "GDPR compliance in European Union and United Kingdom - strict obligations on personal data collection, use, and cross-border transfers",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) - expanded privacy rights and disclosure requirements",
+    "Multiple U.S. state privacy laws with effective dates ranging from 2023 through 2026",
+    "EU AI Act - requirements for artificial intelligence systems including credit scoring, effective 2024-2026",
+    "CFPB inquiry into fees charged for credit reports and credit scores in mortgage market",
+    "CFPB potential rules extending FCRA to business practices not currently subject to the statute",
+    "Fair Credit Reporting Act (FCRA) compliance requirements for accuracy, fairness, and privacy",
+    "Gramm-Leach-Bliley Act (GLBA) requirements for non-public personal information security",
+    "HIPAA and HITECH compliance as business associate for healthcare clients",
+    "Dodd-Frank Act UDAAP provisions and CFPB supervision authority",
+    "FHFA validation and approval requirements for FICO Score use by Fannie Mae and Freddie Mac under 12 CFR Part 1254",
+    "Federal Trade Commission Act enforcement on data security and unfair/deceptive practices",
+    "Credit Repair Organizations Act (CROA) potential application to credit monitoring services",
+    "State insurance restrictions on use of credit-based insurance scores",
+    "Fair lending laws including Equal Credit Opportunity Act and Fair Housing Act",
+    "Algorithmic fairness and accountability regulations for AI and machine learning",
+    "Cybersecurity incident disclosure requirements for public companies under SEC regulations",
+    "Export control regulations and Office of Foreign Asset Control (OFAC) sanctions",
+    "Foreign Corrupt Practices Act and UK Bribery Act 2010 compliance",
+    "Climate-related disclosure requirements from California, SEC, and EU Corporate Sustainability Reporting Directive"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Office of Foreign Asset Control (OFAC) sanctions restricting transactions with sanctioned parties",
+      "Export Administration Regulations affecting FICO products delivered in non-U.S. countries or to foreign nationals",
+      "Geopolitical tensions and military conflicts impacting global operations",
+      "Trade policies and tariffs affecting international business"
+    ]
+  },
+  "revenue_by_segment": {
+    "Scores": 0.54,
+    "Software": 0.46
+  }
+}

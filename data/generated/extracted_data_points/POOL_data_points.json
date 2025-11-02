@@ -1,0 +1,79 @@
+{
+  "ticker": "POOL",
+  "company_name": "Pool Corporation",
+  "company_type": "Wholesale Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "France",
+      "Australia",
+      "Portugal",
+      "Italy",
+      "Spain",
+      "Belgium",
+      "Croatia",
+      "Germany",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "SCP Distributors (SCP)",
+    "Superior Pool Products (Superior)",
+    "Horizon Distributors (Horizon)",
+    "National Pool Tile (NPT)",
+    "Sun Wholesale Supply (Sun Wholesale)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Pentair plc",
+      "Zodiac Pool Systems, Inc.",
+      "Hayward Pool Products, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Largest suppliers are Pentair plc (20% of cost of products sold), Zodiac Pool Systems, Inc. (12%), and Hayward Pool Products, Inc. (11%). Decision by largest suppliers to sell directly to retailers bypassing distributors would adversely affect business.",
+    "risks": "Failure to maintain favorable relationships with suppliers could adversely affect business. Supplier difficulties or disruptions in operations could cause increased supply costs or delays. Loss of significant supplier due to financial failure or other reasons may affect profitability. Dependence on global network of manufacturers and suppliers for product quality.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental Protection Agency regulations on packaging, labeling, handling, transportation, storage and sale of chemicals and fertilizers",
+    "Consumer Product Safety Commission regulations",
+    "Department of Transportation regulations",
+    "Occupational Safety and Health Administration requirements",
+    "National Fire Protection Agency regulations",
+    "International Maritime Organization regulations",
+    "Local fire codes governing storage of chemicals",
+    "Federal Insecticide, Fungicide and Rodenticide Act regulations for algaecides and pest control products",
+    "State pesticide laws requiring labeling, annual registration and licensing",
+    "Restrictions on ability to grant liens, incur indebtedness, make investments, merge or consolidate, and sell or transfer assets under credit facilities",
+    "Changing climate pattern regulations - new or increased legal and regulatory requirements to reduce or mitigate effects of climate change",
+    "Greenhouse gas emissions regulation potentially resulting in additional taxes or costs",
+    "European Union and state government data privacy regulations (California Consumer Privacy Rights Act)",
+    "Income tax law changes and accounting standards related to tax matters",
+    "Global Anti-Base Erosion Model Rules (Pillar Two) - minimum effective tax rate of 15% adopted by several countries",
+    "European and United States governmental bodies adopting laws requiring disclosure of emissions and similar data",
+    "Minimum wage or living wage requirements changes",
+    "Classification of exempt and non-exempt employees regulations",
+    "Other wage, labor or workplace regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Major changes in tax policy, import or export regulations, or trade restrictions such as imposition of additional tariffs or duties on imported products could adversely affect business",
+      "Variability and complexity of tariffs and duties exposes to risk of higher costs and inadvertent noncompliance",
+      "United States has generally increased tariff rates and indicated additional increases could be forthcoming",
+      "Changes in laws, court rulings, or differences in interpretation on product classification could lead to changes in duty and tariff rates"
+    ]
+  }
+}

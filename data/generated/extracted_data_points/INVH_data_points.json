@@ -1,0 +1,85 @@
+{
+  "ticker": "INVH",
+  "company_name": "Invitation Homes Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Single-Family Residential Properties",
+  "geography": {
+    "regions": [
+      "Western United States",
+      "Florida",
+      "Southeast United States",
+      "Texas",
+      "Midwest United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Southern California",
+    "Northern California",
+    "Seattle",
+    "Phoenix",
+    "Las Vegas",
+    "Denver",
+    "South Florida",
+    "Tampa",
+    "Orlando",
+    "Jacksonville",
+    "Atlanta",
+    "Carolinas",
+    "Houston",
+    "Dallas",
+    "Chicago",
+    "Minneapolis"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third parties for key services including maintenance and specialty services (HVAC, roofing, painting, floor installations)",
+      "Multi-year contract with third-party vendor for large volume of property services",
+      "Reliance on homebuilders for acquisition of newly constructed homes",
+      "Dependence on local and national third-party vendors and service providers"
+    ],
+    "risks": [
+      "Supply chain disruptions and labor shortages could materially impact business operations",
+      "Labor inflation and workforce turnover affecting renovation and maintenance",
+      "Inability of suppliers and business partners to source labor or supply materials at ordinary levels",
+      "Limited number of companies capable of servicing needs at scale",
+      "Vendor performance failures could reflect poorly on company reputation",
+      "Risk of fraud, misconduct, incompetence, or theft by third-party service providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Fair Housing Act (FHA) compliance and state law counterparts prohibiting discrimination in housing",
+    "Municipal regulations, county and city ordinances affecting property use, operation and maintenance",
+    "Permit, license, and zoning requirements for property acquisitions and renovations",
+    "Broker licensure requirements in each state for real estate leasing transactions",
+    "Federal, state, and local accessibility requirements including Americans with Disabilities Act and Fair Housing Act",
+    "Affordability covenants on certain properties requiring sale below market value",
+    "Eviction, tenant rights, rent control, and rent stabilization laws limiting ability to collect rent, enforce remedies, or increase rental rates",
+    "California Tenant Protection Act of 2019 limiting rental rate increases and providing termination protections",
+    "Expanding tenant rights laws and restrictions on evictions and collections",
+    "Environmental laws and regulations (federal, state, local) regarding hazardous substances, lead-based paint, mold, asbestos",
+    "Fire and safety, seismic, asbestos-cleanup, hazardous material abatement requirements",
+    "HOA rules and regulations (covenants, conditions and restrictions)",
+    "Privacy and data protection laws including California Consumer Privacy Act (CCPA), California Privacy Rights Act (CPRA), Nevada Privacy Law, Colorado Privacy Act, Utah Consumer Privacy Act, Texas Data Privacy and Security Act",
+    "SEC climate-related disclosure requirements (pending effectiveness)",
+    "California Climate Corporate Data Accountability Act and Climate-Related Financial Risk Act",
+    "REIT qualification requirements under Internal Revenue Code Section 856(c)",
+    "Risk Retention Rules under Regulation RR requiring retention of 5% credit risk in securitizations",
+    "Increased political and regulatory scrutiny of single-family rental industry",
+    "Potential governmental inquiries and regulatory proceedings (e.g., FTC investigation)",
+    "Inconsistent federal and state regulations creating compliance complexity"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

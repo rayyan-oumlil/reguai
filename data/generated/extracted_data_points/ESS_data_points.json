@@ -1,0 +1,57 @@
+{
+  "ticker": "ESS",
+  "company_name": "Essex Property Trust, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT)",
+  "geography": {
+    "regions": [
+      "Southern California",
+      "Northern California",
+      "Seattle Metro"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Southern California",
+    "Northern California",
+    "Seattle Metro"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company is reliant on third party contractors' and vendors' ability to deliver services and products as planned for development and redevelopment projects",
+    "risks": "Supply chain issues may increase costs for labor, materials and leasing; inflationary pressures potentially exacerbated by the imposition of tariffs; labor shortages related to changing immigration policies; time and quality of services and products from third party contractors and vendors may differ from expectations",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rent control or rent stabilization laws and regulations that limit ability to charge market rents, increase rents, evict tenants or recover increases in operating expenses",
+    "Emergency orders and laws expanding tenants' rights or imposing additional costs on landlords",
+    "Eviction moratoria and temporary or permanent legislative restrictions on rent increases and collection efforts",
+    "Changes in federal income tax laws affecting REITs",
+    "Changes in laws increasing potential liability or operating costs (environmental, development, construction, safety requirements)",
+    "Zoning laws and building codes",
+    "Laws benefiting disabled persons",
+    "Landlord tenant laws",
+    "Environmental laws and regulations requiring investigation and remediation of hazardous substances",
+    "Federal, state and local tax laws",
+    "Employment laws and immigration laws",
+    "Laws regulating housing and revenue management software and practices",
+    "Climate change legislation and regulation requiring increased capital expenditures or operating costs",
+    "Electric vehicle charging mandates",
+    "Privacy and cybersecurity laws including California Consumer Privacy Act (CCPA)",
+    "Proposition 13 potential repeal or amendment affecting property tax assessments in California",
+    "State and local laws relating to climate risk disclosures and human capital management",
+    "Workplace Violence Prevention Program requirements",
+    "Fragmented regulation with respect to corporate responsibility and sustainability initiatives"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

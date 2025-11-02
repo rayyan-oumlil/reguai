@@ -1,0 +1,61 @@
+{
+  "ticker": "FRT",
+  "company_name": "Federal Realty Investment Trust",
+  "company_type": "Real Estate Investment Trust (REIT)",
+  "geography": {
+    "regions": [
+      "Mid-Atlantic",
+      "Northeast",
+      "California",
+      "South Florida"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "California": 0.238,
+      "Virginia": 0.178,
+      "Maryland": 0.169,
+      "Massachusetts": 0.084,
+      "New Jersey": 0.07,
+      "Pennsylvania": 0.068,
+      "New York": 0.056,
+      "Florida": 0.048,
+      "Arizona": 0.035,
+      "Illinois": 0.029,
+      "Connecticut": 0.016,
+      "Michigan": 0.007,
+      "District of Columbia": 0.002
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retail Properties",
+    "Mixed-Use Properties"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on tenants paying rent and maintaining lease obligations",
+    "risks": "Supply chain disruptions affecting construction materials and tenant build-outs, labor shortages, increased material costs due to inflation",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local environmental, health, safety and similar laws compliance",
+    "Americans with Disabilities Act compliance requirements",
+    "Energy and emissions regulations in certain jurisdictions with potential fines for exceeding limits",
+    "REIT qualification requirements under Internal Revenue Code Section 856(c)",
+    "Requirement to distribute at least 90% of taxable income to maintain REIT status",
+    "State and local licensing requirements, consumer protection laws, fire and life-safety requirements",
+    "Climate change legislation requiring capital expenditures for energy efficiency",
+    "Zoning and regulatory restrictions on property use",
+    "Real estate tax assessment changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

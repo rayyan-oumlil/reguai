@@ -1,0 +1,79 @@
+{
+  "ticker": "URI",
+  "company_name": "United Rentals, Inc.",
+  "company_type": "Equipment Rental Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Australia",
+      "New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Belgium",
+      "France",
+      "Germany",
+      "Netherlands",
+      "United Kingdom",
+      "Australia",
+      "New Zealand",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "General Rentals",
+    "Specialty"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Centralized equipment purchases from key suppliers",
+      "Dependence on minimum number of suppliers per equipment category",
+      "Supply chain disruptions may impact ability to obtain equipment on acceptable terms"
+    ],
+    "risks": [
+      "Insolvency or financial difficulties of key suppliers",
+      "Supply chain disruptions impacting equipment availability",
+      "Consolidation among suppliers",
+      "Inability to obtain equipment and supplies on acceptable terms or at all",
+      "Increased equipment costs due to commodity price pressures, inflation, and tariffs on raw materials"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws governing wastewater, storm water, solid and hazardous wastes and materials, and air quality",
+    "Occupational health and safety regulations",
+    "Liability for costs of investigating and remediating contamination at sites",
+    "Fines and penalties for environmental and safety non-compliance",
+    "Climate change regulation could increase compliance costs",
+    "Multiple state and local regulations across 49 U.S. states exposing to different requirements",
+    "Federal law and regulatory requirements as government contractor",
+    "Changes to income tax laws or regulations in U.S. and other jurisdictions",
+    "EU Pillar Two Directive establishing 15 percent minimum effective tax rate",
+    "Privacy and data protection laws including EU GDPR and U.S. state laws",
+    "Cyber incident reporting laws and regulations",
+    "Changes in laws affecting labor relations or operations",
+    "Compliance with foreign laws and regulations in Canada, Europe, Australia and New Zealand",
+    "Conflicting requirements among different jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical conflicts such as Russia's invasion of Ukraine and resultant sanctions",
+      "Sanctions and other measures imposed in response to geopolitical conflicts",
+      "Conflict in the Middle East"
+    ]
+  }
+}

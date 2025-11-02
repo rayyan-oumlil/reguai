@@ -1,0 +1,99 @@
+{
+  "ticker": "COST",
+  "company_name": "Costco Wholesale Corporation",
+  "company_type": "Membership Warehouse Retail",
+  "geography": {
+    "regions": [
+      "United States and Puerto Rico",
+      "Canada",
+      "Other International"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Canada",
+      "Mexico",
+      "Japan",
+      "United Kingdom",
+      "Korea",
+      "Australia",
+      "Taiwan",
+      "China",
+      "Spain",
+      "France",
+      "Iceland",
+      "New Zealand",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.72,
+      "Canada": 0.14,
+      "Other International": 0.14
+    },
+    "assets_by_region": {
+      "United States": 0.7,
+      "Canada": 0.1,
+      "Other International": 0.2
+    }
+  },
+  "segments": [
+    "Foods and Sundries",
+    "Non-Foods",
+    "Fresh Foods",
+    "Warehouse Ancillary",
+    "Other Businesses"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International locations for private-label production"
+    ],
+    "dependencies": "The Company depends heavily on ability to purchase quality merchandise in sufficient quantities at competitive prices. Large volumes demanded may not be consistently available, particularly for certain food items. The Company buys from numerous domestic and foreign suppliers and importers.",
+    "risks": "Suppliers subject to risks including labor disputes, union organizing activities, human and animal rights violations, financial liquidity, climate change, natural disasters, extreme weather conditions, environmental degradation, public health emergencies, supply constraints. Failure of suppliers to adhere to quality control, packaging, legal, regulatory, labor, human rights, environmental or animal welfare standards. Trade-related actions in various countries, particularly China and the United States, have affected costs of merchandise. Higher tariffs could adversely impact results.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Local land use and other regulations restricting construction and operation of warehouses and depots",
+    "Local community actions opposed to warehouse locations",
+    "Local laws restricting operations",
+    "Environmental regulations",
+    "Fuel economy standards and regulations related to climate change",
+    "Government regulations limiting carbon dioxide and other greenhouse gas emissions",
+    "Compliance with environmental, health and safety standards",
+    "Payment Card Industry Data Security Standards and data security rules",
+    "Electronic funds transfers rules and regulations",
+    "Product safety laws and labeling standards",
+    "Value added, sales-based, payroll, product, import or other non-income taxes",
+    "Changes in tax rates, new U.S. or foreign tax legislation",
+    "Transfer pricing disputes",
+    "ESG regulations including disclosure and compliance requirements",
+    "Wastewater and stormwater treatment and disposal regulations",
+    "Refrigeration systems regulations including ammonia-based chillers",
+    "OECD Pillar 2 global minimum corporate tax of 15%",
+    "Privacy and data protection regulations globally (European Union General Data Protection Regulation, California Consumer Privacy Act, Health Insurance Portability and Accountability Act, China's Personal Information Protection Act)",
+    "Evolving rules concerning artificial intelligence",
+    "Federal Insecticide, Fungicide and Rodenticide Act (FIFRA) compliance",
+    "FDA approval requirements",
+    "Jurisdictions enacted or proposed laws restricting operation or expansion of large retailers and warehouse clubs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade-related actions in various countries, particularly China and the United States affecting merchandise costs",
+      "Tariffs and trade sanctions impacting supply chain",
+      "Foreign trade restrictions and trade sanctions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Foods and Sundries": 0.41,
+    "Non-Foods": 0.26,
+    "Fresh Foods": 0.14,
+    "Warehouse Ancillary and Other": 0.2
+  }
+}

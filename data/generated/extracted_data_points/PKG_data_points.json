@@ -1,0 +1,58 @@
+{
+  "ticker": "PKG",
+  "company_name": "Packaging Corporation of America",
+  "company_type": "Packaging and Paper Products Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Hong Kong"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Packaging",
+    "Paper",
+    "Corporate and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Fiber is the largest raw material cost to manufacture containerboard. The Company consumes both virgin wood fiber and recycled fiber in containerboard mills. All mills can utilize virgin wood fiber and all mills, other than the Valdosta mill, can utilize some recycled fiber. The Company procures wood fiber through leases of cutting rights, long-term supply agreements, and market purchases.",
+    "risks": "The market price of wood fiber varies based upon availability, source, and the costs of fuels used in the harvesting and transportation of wood fiber. The cost and availability of wood fiber can be impacted by weather, general logging conditions, geography, and regulatory activity. The availability and cost of recycled fiber depends heavily on recycling rates and the domestic and global supply and demand for recycled products. Periods of higher recycled fiber costs and unusual price volatility have occurred in the past, including during 2024. Reduced truck and rail availability could lead to higher costs or poorer service. The Company has at times experienced lower availability of third-party trucking services, including truck and driver shortages, and service issues, interruptions, and delays in rail services.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental compliance requirements under Resource Conservation and Recovery Act (RCRA), Clean Water Act (CWA), Clean Air Act (CAA), Emergency Planning and Community Right-to-Know-Act (EPCRA), Toxic Substance Control Act (TSCA), and Safe Drinking Water Act (SDWA)",
+    "EPA risk assessments for each source category subject to maximum achievable control technologies (MACT) to determine if additional standards are necessary to reduce residual risks from hazardous air pollutants (HAP) emissions",
+    "EPA revised existing Pulp MACT standards - extensive pollutant testing scheduled to begin Spring 2025",
+    "More stringent particulate matter emissions standards enacted by EPA, which may make it more difficult to obtain or maintain air permits and more difficult and expensive to comply with permit limitations",
+    "Potential climate change legislation and regulation of greenhouse gas emissions through carbon cap and trade systems, carbon or other related taxes, or additional capital expenditures to modify facilities to reduce carbon emissions",
+    "Comprehensive Environmental Response, Compensation and Liability Act (federal Superfund law) and analogous state laws for remediation of soil or groundwater contamination",
+    "New and more stringent environmental regulations may require additional operating expenses and/or significant additional capital expenditures to modify or replace certain boilers and other equipment",
+    "Changes in U.S. trade policy, including renegotiating or potentially terminating existing bilateral or multilateral agreements as well as the imposition of tariffs or retaliatory tariffs from other nations",
+    "Changes in tax laws or tax rates",
+    "Antidumping and countervailing duties at various levels imposed on producers of uncoated freesheet papers produced in Australia, Brazil, China, Indonesia, and Portugal (duties remain in effect after sunset review in January 2022)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Australia",
+      "Brazil",
+      "China",
+      "Indonesia",
+      "Portugal"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in U.S. trade policy, including renegotiating or potentially terminating existing bilateral or multilateral agreements as well as the imposition of tariffs or retaliatory tariffs from other nations"
+    ]
+  }
+}

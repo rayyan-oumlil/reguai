@@ -1,0 +1,56 @@
+{
+  "ticker": "TYL",
+  "company_name": "Tyler Technologies, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Caribbean",
+      "United Kingdom",
+      "Australia",
+      "Philippines",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Enterprise Software",
+    "Platform Technologies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on Amazon Web Services for cloud hosting services and computing infrastructure for cloud solutions delivery",
+    "risks": "Third-party hosting service providers have no obligation to renew agreements on commercially reasonable terms. Disruption in services provided by third-party providers could adversely affect business. AWS has experienced significant service outages in the past and may do so again in the future.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in budgets or regulatory environments of clients (primarily local and state governments) that could negatively impact information technology spending",
+    "Varying bid procedures and internal processes for bid acceptance in public sector",
+    "Legislative changes affecting local government's authority to contract with third parties",
+    "Compliance with government and stock exchange regulations",
+    "Criminal Justice Information Systems (CJIS) security standards established by the FBI",
+    "Payment Card Industry Data Security Standards compliance",
+    "Evolving legal and regulatory landscape over artificial intelligence technologies creates uncertainties",
+    "Uncertainty about extent to which privacy and data protection laws apply to artificial intelligence technologies",
+    "Issues related to intellectual property rights in artificial intelligence technologies not fully addressed by courts or regulators",
+    "Potential regulatory enforcement actions and litigation related to data breaches",
+    "State and federal reporting mandates for public safety operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

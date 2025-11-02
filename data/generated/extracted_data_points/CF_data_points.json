@@ -1,0 +1,109 @@
+{
+  "ticker": "CF",
+  "company_name": "CF Industries Holdings, Inc.",
+  "company_type": "Nitrogen Fertilizer Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Trinidad and Tobago",
+      "China",
+      "India",
+      "Russia",
+      "Brazil",
+      "Middle East",
+      "Africa",
+      "Europe",
+      "Latin America",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Ammonia",
+    "Granular Urea",
+    "UAN",
+    "AN",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "The National Gas Company of Trinidad and Tobago Limited"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Trinidad and Tobago"
+    ],
+    "dependencies": [
+      "Natural gas is the principal raw material and primary fuel source",
+      "Reliance on third party natural gas pipeline transportation",
+      "Single natural gas pipeline dependency at certain plants",
+      "PLNL joint venture relies on natural gas supplied by NGC under contract expiring December 2025"
+    ],
+    "risks": [
+      "Delays or interruptions in delivery of raw materials and utilities",
+      "Natural gas pipeline capacity constraints, leaks or ruptures",
+      "Third party transportation provider failures",
+      "Aging infrastructure of rail lines, bridges, roadways, pipelines, river locks",
+      "Railroad industry liability shifting to shippers for hazardous materials",
+      "Limited number of key facilities concentration risk",
+      "Natural gas supply curtailments at PLNL Trinidad facility"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Clean Air Act compliance requirements",
+    "Clean Water Act discharge regulations",
+    "Resource Conservation and Recovery Act (RCRA) hazardous waste regulations",
+    "Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA) cleanup liabilities",
+    "Toxic Substances Control Act (TSCA) chemical regulations",
+    "Occupational Safety and Health Act (OSHA) workplace safety requirements",
+    "Prevention of Significant Deterioration (PSD) construction permits for GHG emissions",
+    "UK Emissions Trading Scheme (UK ETS) carbon allowance requirements",
+    "Canada Greenhouse Gas Pollution Pricing Act carbon pricing",
+    "Alberta and Ontario provincial carbon pricing regulations",
+    "Superfund tax on chemicals including ammonia and nitric acid",
+    "EU carbon border adjustment mechanism on nitrogenous fertilizers",
+    "Fertilizer transportation security regulations (Maritime Transportation Security Act, Chemical Facility Anti-Terrorism Standards)",
+    "Potential limitations on nitrogen fertilizer use and application due to environmental concerns",
+    "Canada 30% fertilizer emissions reduction target by 2030",
+    "UK assurance scheme limiting unprotected urea use January-March",
+    "Potential new climate and sustainability disclosure requirements",
+    "Antitrust and competition laws in various jurisdictions",
+    "Anti-corruption laws (US Foreign Corrupt Practices Act, UK Bribery Act, Canadian Corruption of Foreign Public Officials Act)",
+    "Economic sanctions programs (Iran sanctions, UN/EU/OFAC sanctions)",
+    "Inflation Reduction Act Section 45Q tax credits for carbon sequestration",
+    "Clean hydrogen production tax credits under IRA",
+    "Potential changes to IRA tax credits under new administration"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Trinidad and Tobago",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Comprehensive Iran Sanctions, Accountability, and Divestment Act compliance",
+      "UN, EU, and OFAC economic sanctions program compliance",
+      "Russia sanctions impact on global fertilizer trade flows",
+      "Potential violations of anti-corruption and sanctions laws by employees, consultants, agents or partners",
+      "Russia's invasion of Ukraine impact on European energy markets and natural gas prices",
+      "EU anti-dumping duties on UAN imports from Russia, Trinidad and United States",
+      "Proposed tariffs on imports into United States and potential retaliatory tariffs on US exports",
+      "Potential renegotiation of trade deals impacting nitrogen product trade flows"
+    ]
+  }
+}

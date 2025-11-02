@@ -1,0 +1,117 @@
+{
+  "ticker": "DRI",
+  "company_name": "Darden Restaurants, Inc.",
+  "company_type": "Full-Service Restaurant",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Latin America",
+      "Caribbean",
+      "Asia",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Costa Rica",
+      "Ecuador",
+      "El Salvador",
+      "Guatemala",
+      "Panama",
+      "Aruba",
+      "Jamaica",
+      "Bahamas",
+      "Barbados",
+      "Cayman Islands",
+      "Philippines",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "Indonesia",
+      "Singapore",
+      "Japan",
+      "India",
+      "Spain",
+      "Saudi Arabia",
+      "Qatar",
+      "Puerto Rico",
+      "Guam"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Olive Garden",
+    "LongHorn Steakhouse",
+    "Fine Dining",
+    "Other Business",
+    "Cheddar's Scratch Kitchen",
+    "Chuy's",
+    "Yard House",
+    "Ruth's Chris Steak House",
+    "The Capital Grille",
+    "Seasons 52",
+    "Eddie V's Prime Seafood",
+    "Bahama Breeze",
+    "The Capital Burger"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party national distribution companies for food and supply delivery",
+      "Darden Direct Distribution, Inc. manages inventory through third-party distribution partners",
+      "Products sourced from more than 1,400 suppliers originating in more than 30 countries",
+      "Limited number of suppliers and distributors for certain products and services"
+    ],
+    "risks": [
+      "Shortages, delays or interruptions in supply of food items due to severe weather, natural disasters, macroeconomic conditions (tariffs and trade disputes), labor issues, vendor solvency",
+      "Supply chain disruptions have increased costs and limited product availability",
+      "Introduction of or changes to tariffs or restrictive trade policies on imported food products (produce, seafood) could increase costs and impact supply",
+      "Dependence on third-party vendors and distributors for timely delivery",
+      "Potential for food safety issues at source or by suppliers/distributors"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, local and international laws affecting restaurant operations (licensing, health, safety, fire regulations)",
+    "Zoning, land use, environmental, traffic regulations for site development",
+    "Alcoholic beverage licensing and regulations (minimum age, hours of operation, advertising, inventory control)",
+    "Dram shop statutes (liability for serving intoxicated persons)",
+    "Federal, state and local minimum wage laws and employment practices regulations (overtime, tip credits, working conditions, paid leave, safety standards, hiring practices)",
+    "U.S. Department of Labor Fair Labor Standards Act overtime rules and salary thresholds",
+    "Americans with Disabilities Act (ADA) and related state accessibility statutes",
+    "Employer-provided health insurance regulations",
+    "Food preparation and sale regulations (product safety, nutritional content, menu labeling, calorie/fat/allergen disclosure)",
+    "Information security, privacy, cashless payments, consumer credit protection and fraud laws (Payment Card Industry Data Security Standard - PCI DSS)",
+    "Anti-corruption laws (Foreign Corrupt Practices Act) in U.S. and international jurisdictions",
+    "International franchising and intellectual property licensing laws",
+    "Federal and state environmental regulations (use, storage, discharge, emission, disposal of hazardous materials)",
+    "Climate change regulations (greenhouse gas emissions reduction, water consumption)",
+    "Immigration laws and work authorization requirements",
+    "Union organizing rights and labor relations laws",
+    "Unclaimed property laws",
+    "Changes in tax laws and regulations (federal, state, local income taxes)",
+    "SEC climate-related disclosure rules (currently stayed pending legal challenges)",
+    "Data privacy and data protection laws (evolving and increasingly demanding across jurisdictions)",
+    "Anti-ESG sentiment and related scrutiny from government institutions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Imposition of retaliatory tariffs on important U.S. imports and exports",
+      "Restrictive trade policies or trade disputes impacting imported food products (produce, seafood)",
+      "Tariffs on imported food products could increase costs and impact supply"
+    ]
+  }
+}

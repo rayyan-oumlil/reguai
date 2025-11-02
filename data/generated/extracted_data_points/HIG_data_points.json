@@ -1,0 +1,113 @@
+{
+  "ticker": "HIG",
+  "company_name": "The Hartford Insurance Group, Inc.",
+  "company_type": "Insurance",
+  "geography": {
+    "regions": [
+      "United Kingdom",
+      "International",
+      "United States"
+    ],
+    "countries": [
+      "Bermuda",
+      "United Kingdom",
+      "Hong Kong",
+      "Puerto Rico",
+      "Canada",
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.95,
+      "United Kingdom and other international": 0.05
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Hartford Funds",
+    "Employee Benefits",
+    "Personal Insurance",
+    "Business Insurance",
+    "Property & Casualty Other Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company outsources certain business and administrative functions and relies on third-party vendors to perform certain functions or provide certain services. Significant number of information technology and business processes outsourced with a single vendor.",
+    "risks": [
+      "Performance problems due to outsourcing and third-party relationships may compromise ability to conduct business. If unable to reach agreement in negotiation of contracts or renewals with certain third-party providers, or if such providers experience disruptions in their processes or with relied upon vendors, or if they do not perform as anticipated, may be unable to meet obligations to customers and claimants, incur higher costs and lose business.",
+      "Operational risk from inadequate or failed internal processes and systems, third party dependency, technology failure, cybersecurity threats"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "NAIC risk based capital formulas and state insurance regulators periodically reexamine existing laws and regulations",
+    "Asset management businesses subject to extensive regulation by Financial Industry Regulatory Authority, SEC and state securities administrators",
+    "Terrorism Risk Insurance Program Reauthorization Act (TRIPRA) coverage limitations",
+    "State insurance departments regulate many of the premium rates charged and propose rate changes",
+    "State insurance laws grant broad authority to state insurance departments to oversee and regulate the business of insurance",
+    "Federal Home Loan Bank of Boston (FHLBB) membership and collateral requirements",
+    "ISDA Master Agreement requirements for OTC derivatives",
+    "Certain states require insurers to participate in guaranty funds for impaired or insolvent insurance companies",
+    "Lloyd's of London regulatory requirements and capital requirements (Funds at Lloyd's)",
+    "Connecticut Department of Insurance approval requirements for dividends and capital transactions",
+    "New York insurance regulatory requirements for dividend payments",
+    "California laws imposing extensive climate-related disclosure compliance burdens",
+    "Insurance regulatory changes and compliance requirements across multiple state jurisdictions",
+    "Federal Insurance Office continues to analyze the potential for climate change to affect insurance and reinsurance coverage",
+    "State guaranty fund assessments and insurance-related assessments",
+    "Changes in federal, state or foreign tax laws and tax rates, regulations, or related executive orders could have material adverse effect",
+    "Reinsurance regulatory requirements and collateral posting requirements",
+    "SEC issued final rules in March 2024 to enhance and standardize climate-related disclosures for investors",
+    "SEC climate-related disclosure rules requiring extensive narrative and quantitative reporting on climate change",
+    "Central clearing house requirements for OTC-cleared derivatives",
+    "Potential changes in corporate tax rates by Congress",
+    "State regulators may adopt guidelines for insurers on use of algorithms, artificial intelligence and machine learning",
+    "Terrorism Risk Insurance Program Reauthorization Act of 2019 (TRIPRA 2019) expires on December 31, 2027",
+    "Securities Act of 1933 registration requirements for debt and equity offerings",
+    "Compliance with federal and state laws and regulations regarding data privacy becoming increasingly more onerous",
+    "Risk-based capital (RBC) requirements imposed by state insurance regulators",
+    "State laws limit an insurer's ability to withdraw from one or more lines of insurance except pursuant to a plan approved by the state's insurance department",
+    "NAIC statutory accounting practices and regulatory oversight",
+    "Dodd-Frank Act derivatives regulations",
+    "Changes in laws, regulations or executive orders, particularly relating to privacy and data security",
+    "State of California adopting mandatory climate reporting for companies doing business there",
+    "Regulatory requirements could delay, deter or prevent a takeover attempt",
+    "Solvency II capital adequacy requirements for UK domiciled insurers",
+    "Affordable Care Act requirements for health insurance coverage",
+    "NAIC has adopted a Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+    "Insurance holding company regulations require state insurance approval of acquisition of Domestic Insurers and prior review or approval of certain transactions between the Domestic Insurer and its affiliates",
+    "State insurance department deposit requirements",
+    "Internal Revenue Code limitations on pension benefits and deferred compensation",
+    "Employee Retirement Income Security Act (ERISA) pension funding requirements",
+    "State regulators require that an insurer offer property and casualty coverage to all consumers and often restrict an insurer's ability to charge desired price or enforce specific policy deductibles",
+    "State laws and regulations limit the payment of dividends and require notice to and approval by the state insurance commissioner for the declaration or payment of dividends above certain levels",
+    "UK PRA and UK FCA regulatory requirements for Lloyd's Syndicate operations",
+    "Derivative use plan requirements by state insurance regulators (Connecticut, Illinois, New York)",
+    "UK Company Law and regulatory restrictions on dividend payments",
+    "Foreign regulatory requirements for overseas deposits and capital"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in trade regulation including tariffs and other barriers or other potentially adverse macroeconomic developments",
+      "Military action, trade wars, tariffs or other actions with respect to international trade agreements or policies",
+      "Regional and/or global conflicts could expand resulting in insurance losses and adverse economic impacts more severe than currently foreseeable",
+      "Geopolitical crises or hostile actions taken by nation states or terrorist organizations may heighten the risk of cyber-attacks",
+      "Political instability, politically motivated violence or civil unrest may increase frequency and severity of insured losses"
+    ]
+  },
+  "revenue_by_segment": {
+    "Business Insurance": 0.543,
+    "Personal Insurance": 0.142,
+    "Employee Benefits": 0.266,
+    "Hartford Funds": 0.04,
+    "Property & Casualty Other Operations": 0.003,
+    "Corporate": 0.006
+  }
+}

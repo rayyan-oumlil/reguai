@@ -1,0 +1,100 @@
+{
+  "ticker": "TRV",
+  "company_name": "The Travelers Companies, Inc.",
+  "company_type": "Property and Casualty Insurance",
+  "geography": {
+    "regions": [
+      "Canada",
+      "Brazil",
+      "Republic of Ireland",
+      "United States",
+      "United Kingdom",
+      "Lloyd's (worldwide)"
+    ],
+    "countries": [
+      "Canada",
+      "Brazil",
+      "Republic of Ireland",
+      "Bermuda",
+      "United States",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.949,
+      "Canada": 0.028,
+      "Other International": 0.023,
+      "U.S.": 0.946,
+      "Non-U.S.": 0.054
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Personal Insurance",
+    "Business Insurance",
+    "Bond & Specialty Insurance"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on independent agents and brokers for distribution, technology systems for business operations, and reinsurance capacity for catastrophe risk management",
+    "risks": [
+      "Dependence on independent agents and brokers, technology system failures, reinsurance counterparty credit risk, third-party vendor performance risks, cloud-based technology vulnerabilities",
+      "Cybersecurity risks, technology system failures, reliance on third-party service providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes to workers' compensation laws",
+    "Rate and policy form approval requirements by state regulators",
+    "State insurance regulation changes may reduce profitability and limit growth",
+    "Risk-based capital (RBC) requirements and potential increases",
+    "Legislative expansion of liability coverage or removal of tort reforms",
+    "Foreign Corrupt Practices Act compliance in international operations",
+    "Potential changes to Terrorism Risk Insurance Program (authorized through December 31, 2027)",
+    "Data privacy and protection laws (biometric data laws, GDPR implications)",
+    "Climate change regulations potentially increasing costs for policyholders",
+    "Regulatory responses to catastrophe events affecting underwriting flexibility",
+    "Potential federal regulation expansion (Federal Insurance Office, FSOC SIFI designation)",
+    "Group Capital Calculation (GCC) requirements",
+    "Vaccine mandate related claims",
+    "Changes in tax laws including potential changes to U.S. Federal budget and tax regulations",
+    "Dividend limitations on insurance subsidiaries by state regulators",
+    "OECD base erosion and profit shifting rules with global minimum tax of 15%",
+    "State laws mandating discounts for risk mitigation practices",
+    "State insurance regulations restricting ability to cancel or non-renew policies in catastrophe-prone areas",
+    "Regulatory restrictions on capital requirements and surplus levels",
+    "Cannabis legalization impact on automobile accidents",
+    "Insurance holding company laws limiting dividend payments from subsidiaries",
+    "Terrorism Risk Insurance Program expiration (scheduled December 31, 2027)",
+    "Cyber-security regulations (NY DFS Cybersecurity Requirements, Insurance Data Security Model Law)",
+    "State guaranty fund and insurance-related assessments",
+    "International regulatory requirements (Solvency II in EU, PRA/FCA in UK, OSFI in Canada)",
+    "Residual market mechanisms and guaranty fund assessments",
+    "Climate change disclosure requirements (CSRD, CSDDD in EU)",
+    "Tax law changes (premium taxes, federal corporate taxes, investment tax exemptions)",
+    "Potential repeal of McCarran-Ferguson Act",
+    "Restrictions on exiting geographic markets or canceling/nonrenewing policies",
+    "Restrictions on underwriting criteria (credit scoring, use of external data, AI/algorithms)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran",
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical tensions increasing cyber-attack risks from nation-states",
+      "International trade regulation changes including tariffs could lead to inflation",
+      "Sanctions compliance requirements",
+      "Political instability in foreign markets causing financial market disruption"
+    ]
+  },
+  "revenue_by_segment": {
+    "Business Insurance": 0.509,
+    "Personal Insurance": 0.397,
+    "Bond & Specialty Insurance": 0.094
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "ticker": "CCI",
+  "company_name": "Crown Castle Inc.",
+  "company_type": "Communications Infrastructure",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Towers",
+    "Fiber"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Ground leases for land under towers with average remaining life of approximately 35 years; approximately 54% of towers are leased or subleased from AT&T and T-Mobile; fiber assets primarily located on public rights-of-way requiring franchise agreements and pole attachments",
+    "risks": "Loss of ground lease rights could adversely affect business; dependence on rights-of-way and franchise agreements for fiber operations; reliance on CLEC status for access to rights-of-way; potential inability to renew ground leases or fiber access agreements on favorable terms",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC and FAA regulations controlling siting, construction, modification, lighting and marking of towers",
+    "State and local zoning authorities' jurisdiction over tower and small cell siting",
+    "Environmental regulations under National Environmental Policy Act (NEPA) requiring environmental impact review",
+    "Occupational Safety and Health Administration guidelines regarding radio frequency exposure",
+    "Risk of changes to REIT qualification requirements under Internal Revenue Code",
+    "Potential loss of REIT status resulting in inability to deduct dividends and increased tax obligations",
+    "State authorizations including CLEC status required for telecommunications services",
+    "Compliance with federal, state, local and foreign environmental laws relating to hazardous substances",
+    "Potential changes to laws and regulations affecting communications infrastructure deployment",
+    "SEC climate-related disclosure rules and California carbon and climate disclosure laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Towers": 0.67,
+    "Fiber": 0.33
+  }
+}

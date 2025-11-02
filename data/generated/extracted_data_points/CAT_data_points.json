@@ -1,0 +1,112 @@
+{
+  "ticker": "CAT",
+  "company_name": "Caterpillar Inc.",
+  "company_type": "Manufacturing - Construction and Mining Equipment, Engines, Turbines, Locomotives",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "EAME (Europe, Africa, Middle East, Eurasia)",
+      "Asia/Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Netherlands",
+      "Belgium",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Russia",
+      "South Africa",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "Singapore",
+      "Thailand",
+      "Indonesia",
+      "South Korea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Construction Industries",
+    "Resource Industries",
+    "Energy & Transportation",
+    "Financial Products",
+    "All Other Segment"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Brazil",
+      "China",
+      "France",
+      "Hungary",
+      "India",
+      "Italy",
+      "Japan",
+      "Mexico",
+      "Netherlands",
+      "Poland",
+      "Thailand",
+      "United Kingdom",
+      "Indonesia",
+      "Australia",
+      "Germany",
+      "Czech Republic",
+      "South Korea"
+    ],
+    "dependencies": "The company sources raw materials and manufactured components from suppliers both domestically and internationally. These purchases include unformed materials (steel products), rough parts (castings and forgings), and finished parts. The company faces risks from material and component shortages, logistics constraints, and labor inefficiencies that could limit ability to meet customer demand.",
+    "risks": "Material price increases, fluctuations in demand, significant disruptions to supply chains, significant shortages of labor and material, production challenges at suppliers (including suppliers of semiconductors), disruption in deliveries from suppliers, decreased availability of raw materials or commodities, transportation delays, excess inventories",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and international environmental laws governing use, transport and disposal of substances and control of emissions",
+    "Air emissions standards applicable to internal combustion engines",
+    "Complex labor, tax, customs and other laws in Brazil",
+    "Income tax laws in numerous jurisdictions",
+    "U.S. Foreign Corrupt Practices Act and similar foreign anti-corruption laws",
+    "Import and export-related laws and regulations (U.S. Customs and Border Protection, Bureau of Industry and Security, Office of Antiboycott Compliance, Directorate of Defense Trade Controls, Office of Foreign Assets Control)",
+    "Embargoes and sanctions imposed by U.S. and other governments",
+    "Financial services industry regulations including U.S. Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "Data privacy regulations including European Union's General Data Protection Regulation and California Consumer Privacy Act",
+    "Changes in tax laws or treaties",
+    "Trade agreements modifications or withdrawals",
+    "New or additional tariffs or quotas",
+    "Buy national policies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Embargoes and sanctions restricting or prohibiting sales to specific persons or countries",
+      "U.S. sanctions laws exposure",
+      "Iran sanctions (company maintains trademark portfolio in Iran through IPC, with OFAC specific license, payments to Bank Melli which was designated under Executive Order 13224)",
+      "Restrictions on repatriation of earnings",
+      "Currency restrictions"
+    ]
+  }
+}

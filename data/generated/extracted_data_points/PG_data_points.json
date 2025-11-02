@@ -1,0 +1,138 @@
+{
+  "ticker": "PG",
+  "company_name": "The Procter & Gamble Company",
+  "company_type": "Consumer Goods",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Greater China",
+      "Latin America",
+      "Asia Pacific",
+      "India, Middle East and Africa (IMEA)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "China",
+      "Japan",
+      "Panama",
+      "Singapore",
+      "United Arab Emirates",
+      "Costa Rica",
+      "Philippines",
+      "Russia",
+      "Ukraine",
+      "Argentina",
+      "Nigeria"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Beauty",
+    "Grooming",
+    "Health Care",
+    "Fabric & Home Care",
+    "Baby, Feminine & Family Care",
+    "Hair Care",
+    "Personal Care",
+    "Skin Care",
+    "Oral Care",
+    "Personal Health Care",
+    "Fabric Care",
+    "Home Care",
+    "Baby Care",
+    "Feminine Care",
+    "Family Care"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International (32 countries)"
+    ],
+    "dependencies": [
+      "Almost all raw and packaging materials purchased from third parties, some single-source suppliers",
+      "Fuel, natural gas and derivative products important for manufacturing and transportation",
+      "Certain petroleum-derived materials like resins",
+      "Paper-based materials like pulp"
+    ],
+    "risks": [
+      "Disruptions in global supply chain",
+      "Labor disputes or controversies",
+      "Loss or impairment of key manufacturing sites",
+      "Discontinuity or disruptions in internal information and data systems or suppliers' systems",
+      "Cybersecurity incidents including ransomware attacks",
+      "Inability to procure sufficient raw or input materials (including water, recycled materials)",
+      "Significant changes in trade policy",
+      "Natural disasters",
+      "Increasing severity or frequency of extreme weather events due to climate change",
+      "Acts of war or terrorism",
+      "Disease outbreaks",
+      "Cost fluctuations due to commodity price volatility",
+      "Inflation pressures",
+      "Transportation cost increases",
+      "Tariffs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Food and Drug Administration (FDA) regulations",
+    "Environmental Protection Agency (EPA) regulations",
+    "Occupational Safety and Health Administration (OSHA) regulations",
+    "Federal Trade Commission (FTC) regulations",
+    "Consumer Product Safety Commission (CPSC) regulations",
+    "Anti-corruption laws (U.S. Foreign Corrupt Practices Act)",
+    "Antitrust and competition laws",
+    "Privacy and data protection laws (EU General Data Protection Regulation, U.S. state regulations)",
+    "Environmental protection and sustainability regulations",
+    "Non-financial reporting and diligence requirements",
+    "Labor and employment regulations",
+    "Trade regulations",
+    "Taxation regulations",
+    "Product liability regulations",
+    "Product and packaging composition regulations",
+    "Manufacturing process regulations",
+    "Intellectual property regulations",
+    "Artificial intelligence regulations",
+    "Climate change regulations",
+    "Waste production regulations",
+    "Water usage regulations",
+    "Human capital and human rights regulations",
+    "Risk oversight regulations",
+    "Income tax changes (2025 U.S. Tax Act, OECD Pillar Two global minimum tax)",
+    "Sanctions and export controls",
+    "Cross-border data transfer restrictions",
+    "Business licensing requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Argentina",
+      "Nigeria"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and export controls related to Russia-Ukraine war",
+      "Counter-sanctions impacting operations",
+      "Monetary, currency or payment controls",
+      "Restrictions on data transfers or access to financial institutions",
+      "Supply and transportation challenges due to geopolitical conflicts",
+      "Potential operational disruptions and asset impairments in sanctioned regions",
+      "Discriminatory or conflicting fiscal or trade policies in different countries",
+      "Changes to tariffs and existing trade policies and agreements",
+      "New or increased tariffs, quotas, exchange or price controls, trade barriers",
+      "Geopolitical tensions and trade controls disrupting business in key markets",
+      "Political instability, upheaval or acts of war",
+      "Boycotts in certain regions",
+      "Sovereign risk related to default or deterioration in creditworthiness of local governments"
+    ]
+  }
+}

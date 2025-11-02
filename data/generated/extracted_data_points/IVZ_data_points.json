@@ -1,0 +1,89 @@
+{
+  "ticker": "IVZ",
+  "company_name": "Invesco Ltd.",
+  "company_type": "Investment Management",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Luxembourg",
+      "Bermuda",
+      "China",
+      "Hong Kong",
+      "Japan",
+      "India",
+      "Taiwan",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "ETFs and Index",
+    "Fundamental Fixed Income",
+    "Fundamental Equities",
+    "Private Markets",
+    "APAC Managed",
+    "Multi-Asset/Other",
+    "Global Liquidity",
+    "QQQ"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The company depends on third-party service providers for technology infrastructure, data storage, and operational services. Failures by these providers could adversely impact operations.",
+    "risks": "Reliance on third-party service providers for critical functions including technology systems, data management, and operational support. Disruptions to these providers could materially impact business operations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "SEC regulations on investment management and mutual funds",
+    "Financial Industry Regulatory Authority (FINRA) oversight",
+    "Commodity Futures Trading Commission regulations",
+    "Department of Labor (DOL) regulations",
+    "FCA (Financial Conduct Authority) regulations in the UK",
+    "Securities Futures Commission of Hong Kong (SFC) regulations",
+    "China Securities Regulatory Commission regulations",
+    "Commission de Surveillance du Secteur Financier in Luxembourg",
+    "Central Bank of Ireland regulations",
+    "Bundesanstalt für Finanzdienstleistungsaufsicht in Germany",
+    "European Securities and Markets Authority (ESMA) regulations",
+    "EU Directives and Regulations including UCITS and AIFMD",
+    "GDPR (General Data Protection Regulation) in Europe",
+    "California Consumer Privacy Act",
+    "India's Digital Personal Data Protection Act",
+    "China's Personal Information Protection Law",
+    "Bermuda Personal Information Protection Act (PIPA)",
+    "Sustainable Finance Disclosure Regulation (SFDR) in EU",
+    "ESG disclosure requirements and greenwashing regulations",
+    "Anti-money laundering and terrorism financing regulations",
+    "EU Digital Operational Resilience Act",
+    "Antitrust and competition laws",
+    "U.S. Department of Treasury's Outbound Investment Screening Rule",
+    "Capital adequacy and liquidity requirements for regulated subsidiaries",
+    "Senior Managers and Certification Regime in UK",
+    "Manager-in-Charge Regime in Hong Kong"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions may impact business operations and client portfolios",
+      "Tensions between U.S. and China may impact AUM levels and investor sentiment",
+      "Changes to trade policies, tariffs, and import/export regulations could negatively affect global economic conditions"
+    ]
+  }
+}

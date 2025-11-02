@@ -1,0 +1,71 @@
+{
+  "ticker": "CZR",
+  "company_name": "Caesars Entertainment, Inc.",
+  "company_type": "Gaming and Hospitality",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Las Vegas",
+    "Regional",
+    "Caesars Digital",
+    "Managed and Branded"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services",
+      "SportRadar",
+      "NYRABets LLC",
+      "Genius Sports"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party technology providers including AWS for hosting online betting and gaming offerings, third-party sports data providers for sportsbook operations, and outsourced IT support vendors",
+    "risks": "Third-party service provider failures or interruptions could adversely affect business, cybersecurity risks from outsourced IT vendors (Data Incident from social engineering attack on outsourced IT support vendor), dependency on third-party platforms for distribution of mobile apps, reliance on third-party sports data providers for accurate information",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Gaming licenses subject to renewal and regulatory approval - failure to maintain or renew licenses would have material adverse effect",
+    "Gaming authorities may require holders of securities to file applications and be found suitable - unsuitable persons could trigger sanctions including loss of gaming approvals",
+    "Officers, directors and key employees subject to suitability findings - may be required to terminate employment if unsuitable",
+    "May require gaming authority approval to issue securities, incur debt and undertake financing activities",
+    "Financing counterparties including lenders subject to licensing and approval procedures in various jurisdictions",
+    "Subject to restrictions on indoor tobacco smoking - additional restrictions could decrease gaming revenue",
+    "FINCEN regulations require reporting of currency transactions exceeding $10,000 and suspicious activity - substantial penalties for non-compliance",
+    "FINCEN has increased focus on gaming companies for Bank Secrecy Act and Anti-Money Laundering compliance",
+    "IRS regulations require reporting of certain gambling winnings via Form W-2G - changes could increase compliance costs",
+    "Subject to various federal, state and local laws including alcoholic beverage restrictions, food service, environmental matters, employment practices, currency transactions, taxation, zoning and building codes, marketing and advertising",
+    "Gaming companies subject to significant taxes and fees in addition to normal income taxes - subject to increase at any time",
+    "Large number of state and local governments with budget deficits may seek to fund deficits with new or increased gaming taxes and property taxes",
+    "Privacy laws and regulations subject to frequent changes and vary by jurisdiction - may limit ability to market to customers",
+    "Expansion of online betting and gaming dependent on adoption of regulations permitting such activities in new jurisdictions - terms of regulations including restrictions, tax rates and license fees uncertain",
+    "May not be able to obtain required licenses for online betting and gaming in new jurisdictions",
+    "Pillar Two global minimum tax framework - various countries enacting legislation, potential future impacts uncertain"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Chinese government has taken steps to prohibit transfer of cash for payment of gaming debts - may reduce collectability of gaming debts from players from China"
+    ]
+  },
+  "revenue_by_segment": {
+    "Las Vegas": 0.38,
+    "Regional": 0.493,
+    "Caesars Digital": 0.103,
+    "Managed and Branded": 0.024
+  }
+}

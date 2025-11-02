@@ -1,0 +1,105 @@
+{
+  "ticker": "CMCSA",
+  "company_name": "Comcast Corporation",
+  "company_type": "Media and Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Italy",
+      "Europe",
+      "East Asia",
+      "South Asia",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Italy",
+      "Japan",
+      "China",
+      "Singapore",
+      "Germany",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.778,
+      "United Kingdom": 0.115,
+      "Other": 0.107
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Residential Connectivity & Platforms",
+    "Business Services Connectivity",
+    "Media",
+    "Studios",
+    "Theme Parks"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "Europe",
+      "East Asia",
+      "South Asia"
+    ],
+    "dependencies": "Limited number of suppliers for customer premise equipment including wireless gateways and set-top boxes, network equipment, and wireless devices. Limited number of vendors for customer billing. Reliance on third-party satellite transponder capacity for video services in Europe. Reliance on third-party wireless networks (Verizon in US, third parties in UK) for wireless services. Reliance on third-party telecommunications networks for broadband and voice services in UK and Italy.",
+    "risks": "Vendor operating or financial difficulties including cybersecurity vulnerabilities, faulty software updates, or supply chain compliance issues could adversely affect ability to provide products or services. Demand exceeding vendor capacity. Vendor breach or termination of agreements. Single-source or limited-source suppliers for certain equipment and services.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC reclassification of broadband internet access services as telecommunications service subject to Title II common carriage regulation (overturned by federal appellate court in January 2025)",
+    "Digital discrimination rules prohibiting discrimination in broadband access based on income, race, ethnicity, color, religion, and national origin",
+    "State and local broadband regulations including net neutrality and broadband affordability creating patchwork of regulatory regimes",
+    "Federal and state broadband deployment funding initiatives with conditions and constraints",
+    "Cable franchise requirements including channel capacity, public/educational/governmental access programming, franchise fees, customer service requirements",
+    "Must-carry and retransmission consent requirements for broadcast television stations",
+    "Program access regulations preventing affiliated cable networks from favoring affiliated operators",
+    "Broadcast television station licensing and renewal requirements",
+    "Local and national television ownership limits and foreign ownership restrictions",
+    "Children's programming regulations",
+    "MVNO regulations including E911 services and local number portability",
+    "VoIP regulations including privacy, E911, law enforcement assistance, outage reporting, Universal Service Fund contributions, robocall mitigation",
+    "Spectrum allocation and reallocation actions by FCC and federal agencies",
+    "International telecommunications and media regulations in Europe, Latin America, and other jurisdictions",
+    "Copyright laws and compulsory licensing requirements",
+    "Music licensing fee demands and negotiations",
+    "Privacy and data protection laws including state-level laws (CCPA-style), GDPR, UK Data Protection Act, Children's Online Privacy Protection Act",
+    "FTC enforcement authority over unfair and deceptive practices and children's privacy",
+    "Security breach notification requirements in all 50 US states and internationally",
+    "State and local taxes and fees on digital advertising, digital commerce, broadband services",
+    "Internet Tax Freedom Act (ITFA) challenges",
+    "Accessibility regulations for video and voice services and broadcast programming",
+    "Customer service standards, inside wiring, cable equipment, pole attachments, universal service fees, regulatory fees",
+    "Public safety, telemarketing, leased access, indecency, loudness of commercial advertisements, advertising, political broadcasting, sponsorship identification, Emergency Alert System, equal employment opportunity regulations",
+    "Environmental regulations",
+    "Equipment supply chain regulations",
+    "Technical standards for cable systems and television stations",
+    "International broadcasting, programming, and advertising regulations",
+    "Competition and antitrust laws and regulatory tools in US and foreign jurisdictions",
+    "Potential Congressional rewrite of Communications Act",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance for international operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements mentioned as regulatory risk",
+      "Geopolitical risks including acts of terror and war affecting international operations",
+      "Import/export restrictions, tariffs, sanctions and trade regulations affecting international business"
+    ]
+  },
+  "revenue_by_segment": {
+    "Residential Connectivity & Platforms": 0.578,
+    "Business Services Connectivity": 0.078,
+    "Media": 0.227,
+    "Studios": 0.09,
+    "Theme Parks": 0.07
+  }
+}

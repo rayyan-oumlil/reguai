@@ -1,0 +1,121 @@
+{
+  "ticker": "ENPH",
+  "company_name": "Enphase Energy, Inc.",
+  "company_type": "Energy Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Italy",
+      "Austria",
+      "Switzerland",
+      "Netherlands",
+      "Luxembourg",
+      "Belgium",
+      "Romania",
+      "Spain",
+      "Portugal",
+      "Sweden",
+      "Denmark",
+      "Finland",
+      "Greece",
+      "Australia",
+      "New Zealand",
+      "India",
+      "Brazil",
+      "Philippines",
+      "Thailand",
+      "South Africa",
+      "China",
+      "Colombia",
+      "Panama",
+      "Costa Rica",
+      "Vietnam",
+      "Malaysia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Microinverters",
+    "IQ Battery storage systems",
+    "IQ Gateway",
+    "IQ Energy Router",
+    "EV Chargers",
+    "Cloud-based monitoring services",
+    "Design and proposal software",
+    "Permitting services",
+    "Installation services",
+    "Lead generation services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Flex Ltd.",
+      "Salcomp Plc.",
+      "Sunwoda Electric Co. Ltd."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Mexico",
+      "India"
+    ],
+    "dependencies": "Sole-source and limited-source suppliers for key components such as ASICs and lithium-ion batteries. LFP battery cells for storage products are supplied solely via two suppliers in China. Dependence on small number of contract manufacturers (Flex, Salcomp, Sunwoda) for assembly and testing.",
+    "risks": "Supply chain disruptions including raw materials shortages, semiconductor and integrated circuit constraints, logistics issues, labor shortages. Concentration risk with contract manufacturers. Counterfeit parts risk. Climate-related physical risks to manufacturing facilities. Geopolitical tensions affecting supply from China. Tariffs on components imported to the United States.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Reduction, elimination or expiration of government subsidies and economic incentives for solar energy (ITC, AMPTC, NEM policies)",
+    "Changes to Net Energy Metering policies (NEM 3.0 in California significantly reduced export compensation)",
+    "Changes to Virtual NEM and NEM Aggregation programs in California",
+    "Potential modifications or elimination of IRA tax credits and incentives through future legislative or executive actions",
+    "Uncertainty regarding domestic content bonus tax credit qualification under IRA",
+    "Complex and evolving trade and customs laws, tariffs, and import/export regulations",
+    "U.S.-China trade tensions and existing/potential tariffs on products manufactured in China",
+    "Section 301 tariffs (10% increased to 25% in 2019) on solar products manufactured in China",
+    "Potential additional tariffs or trade restrictions",
+    "Compliance with anti-bribery laws (FCPA, U.K. Bribery Act, EU and Brazil anti-bribery laws)",
+    "Environmental laws including EU WEEE and RoHS regulations",
+    "Conflict minerals disclosure requirements",
+    "Data privacy and security regulations (EU GDPR, evolving U.S. state laws)",
+    "ESG-related disclosure requirements and stakeholder expectations",
+    "Antitrust and competition laws in multiple jurisdictions",
+    "Changes to utility pricing structures and interconnection requirements",
+    "State and local regulations on solar power system installations",
+    "Potential taxes levied on renewable energy in certain countries",
+    "Corporate Alternative Minimum Tax (CAMT) under IRA",
+    "OECD Pillar Two Global Minimum Tax rules (15% minimum tax for multinationals)",
+    "Uncertainty in interpretation and implementation of IRA provisions",
+    "Potential changes to tax laws affecting transfer pricing and foreign operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Gaza Strip",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Escalating U.S.-China trade tensions and tariffs",
+      "Potential impact of ongoing military conflicts in Ukraine and Gaza Strip on global operations",
+      "Uncertainty regarding China-Taiwan relations and potential impact on supply chain",
+      "Risk of additional sanctions or trade restrictions affecting component sourcing from China",
+      "Compliance risks with sanctions orders in various jurisdictions"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "ISRG",
+  "company_name": "Intuitive Surgical, Inc.",
+  "company_type": "Medical Devices - Robotic-Assisted Surgical Systems",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Canada",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Spain",
+      "Portugal",
+      "Greece",
+      "Eastern European countries",
+      "Switzerland",
+      "China",
+      "Japan",
+      "South Korea",
+      "India",
+      "Taiwan",
+      "Israel",
+      "Mexico",
+      "Bulgaria",
+      "Brazil",
+      "Australia",
+      "Hong Kong",
+      "Malta",
+      "San Marino"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "da Vinci Surgical Systems",
+    "Ion Endoluminal System",
+    "Instruments and Accessories",
+    "Services",
+    "Learning and Training",
+    "Digital Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (Sunnyvale, California; Peachtree Corners, Georgia)",
+      "Mexico (Mexicali)",
+      "China (Shanghai - Joint Venture)",
+      "Germany (endoscope manufacturing)",
+      "Bulgaria (planned facility)",
+      "Virginia (Blacksburg - Ion-related)"
+    ],
+    "dependencies": "Reliance on sole- and single-sourced suppliers for components; majority of instruments and accessories manufactured in Mexicali, Mexico",
+    "risks": "Supply chain constraints for engineered raw materials; subcontract suppliers operationally challenged; elevated material and labor prices; potential insolvency of suppliers due to elevated interest rates; cybersecurity threats; proposed 25% tariff on imports from Mexico; difficulties obtaining sufficient supply of materials",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA clearance and approval requirements for new products and indications",
+    "Compliance with FDA Quality System Regulation (QSR) and Quality Management System Regulation (QMSR)",
+    "EU Medical Devices Regulation (MDR) compliance and certification requirements",
+    "Medical device reporting regulations for adverse events",
+    "Recalls and field corrective actions",
+    "China NMPA regulatory approvals and quota system for surgical robots",
+    "Provincial limits in China on hospital charges for robotic surgeries",
+    "Japan MHLW approval and reimbursement processes",
+    "Healthcare reform legislation impacting reimbursement (ACA, Medicare, Medicaid)",
+    "Federal Anti-Kickback Statute and False Claims Act compliance",
+    "HIPAA privacy and security requirements",
+    "Physician Payments Sunshine Act reporting",
+    "State anti-kickback and false claims laws",
+    "Foreign Corrupt Practices Act (FCPA) and UK Bribery Act compliance",
+    "Antitrust and competition laws (US and EU)",
+    "GDPR and data privacy regulations (EU, UK, US states including CCPA)",
+    "China data compliance regime (Cybersecurity Law, Data Security Law, PIPL)",
+    "EU AI Act and automated decision-making regulations",
+    "Conflict minerals disclosure requirements (Dodd-Frank)",
+    "RoHS and WEEE Directives (EU)",
+    "Export controls and trade restrictions",
+    "Clinical trial and IDE regulations",
+    "Notified body designation delays in EU",
+    "Brexit-related regulatory changes (MHRA, UKCA marking)",
+    "Swiss tax law changes",
+    "OECD BEPS and global minimum tax (Pillar Two)",
+    "Product liability and negligence claims",
+    "Intellectual property litigation risks",
+    "FDA Warning Letters and enforcement actions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran",
+      "Belarus"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions due to Ukraine conflict",
+      "Belarus sanctions",
+      "Crimea Region sanctions",
+      "Donetsk and Luhansk sanctions",
+      "Potential sanctions on China impacting business operations",
+      "Middle East conflicts (Israel-Hamas) impacting operations",
+      "Export controls on technology to certain countries",
+      "US-China trade tensions and potential tariffs",
+      "Proposed 25% tariff on imports from Mexico",
+      "Entity List restrictions on exports to China",
+      "Currency control measures and restrictions in Russia"
+    ]
+  }
+}

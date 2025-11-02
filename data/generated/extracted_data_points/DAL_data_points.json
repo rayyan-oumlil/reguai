@@ -1,0 +1,110 @@
+{
+  "ticker": "DAL",
+  "company_name": "Delta Air Lines, Inc.",
+  "company_type": "Airline",
+  "geography": {
+    "regions": [
+      "Domestic",
+      "Atlantic",
+      "Latin America",
+      "Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "Paraguay",
+      "Peru",
+      "Uruguay",
+      "Argentina",
+      "United Kingdom",
+      "France",
+      "Netherlands",
+      "Spain",
+      "Italy",
+      "Germany",
+      "Romania",
+      "Denmark",
+      "Norway",
+      "Sweden",
+      "China",
+      "South Korea",
+      "Japan",
+      "Indonesia",
+      "Kenya",
+      "Saudi Arabia",
+      "Vietnam"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Domestic": 0.706,
+      "Atlantic": 0.171,
+      "Latin America": 0.074,
+      "Pacific": 0.049
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Airline",
+    "Refinery"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "American Express",
+      "Airbus",
+      "Republic Airways, Inc.",
+      "SkyWest Airlines, Inc.",
+      "Boeing",
+      "Endeavor Air, Inc."
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Dependent on limited number of aircraft and engine manufacturers (Airbus, Boeing). Regional carrier operations depend on third-party contract carriers. Monroe refinery sources crude oil from domestic and foreign providers.",
+    "risks": "Supply chain constraints from aircraft manufacturers affecting delivery schedules. Dependence on third-party regional carriers for connectivity. Fuel supply disruptions could impact operations. Aircraft and engine manufacturer defects or regulatory groundings could materially affect operations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FAA regulations and directives on aircraft maintenance and operations requiring significant expenditures",
+    "DOT jurisdiction over economic and consumer protection matters, joint venture approvals",
+    "International route authorities subject to bilateral agreements and foreign government policies",
+    "Airport slot regulations and capacity restrictions at slot-controlled airports (Reagan National, LaGuardia, JFK, London Heathrow)",
+    "TSA and Customs and Border Protection security requirements",
+    "Environmental regulations including greenhouse gas emissions (CORSIA, EU ETS, UK ETS)",
+    "EPA aircraft emission standards and certification requirements",
+    "SAF mandates in EU (2% by 2025, increasing to 70% by 2050) and UK",
+    "Noise regulations and airport flight reduction plans (e.g., Amsterdam Schiphol)",
+    "PFAS regulations under CERCLA and Safe Drinking Water Act",
+    "Renewable Fuel Standard (RFS) and RINs purchase requirements for refinery",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Data privacy and security laws (U.S. and foreign jurisdictions)",
+    "Trade sanctions and export/import requirements",
+    "Antitrust regulations affecting joint ventures and commercial arrangements",
+    "Railway Labor Act governing labor relations",
+    "Environmental laws governing hazardous substances, waste management, emissions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Netherlands"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions and restrictions could impact international operations",
+      "Geopolitical conflicts requiring avoidance of certain airspace",
+      "Targeting of commercial aircraft by parties to geopolitical conflicts",
+      "DOT tentative dismissal of Aeroméxico joint cooperation agreement antitrust immunity renewal (pending adjudication)",
+      "Netherlands flight reduction plan at Amsterdam Schiphol Airport (legal challenges ongoing)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Airline": 0.925,
+    "Refinery": 0.075
+  }
+}

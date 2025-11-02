@@ -1,0 +1,81 @@
+{
+  "ticker": "EQR",
+  "company_name": "Equity Residential",
+  "company_type": "Real Estate Investment Trust (REIT) - Multifamily Residential Properties",
+  "geography": {
+    "regions": [
+      "Established Markets",
+      "Expansion Markets"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Los Angeles": 0.167,
+      "Orange County": 0.047,
+      "San Diego": 0.037,
+      "Southern California": 0.251,
+      "Washington, D.C.": 0.151,
+      "San Francisco": 0.148,
+      "New York": 0.141,
+      "Boston": 0.113,
+      "Seattle": 0.099,
+      "Denver": 0.04,
+      "Atlanta": 0.031,
+      "Dallas/Ft. Worth": 0.023,
+      "Austin": 0.003
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Boston",
+    "New York",
+    "Washington, D.C.",
+    "Southern California (Los Angeles, Orange County, San Diego)",
+    "San Francisco",
+    "Seattle",
+    "Denver",
+    "Atlanta",
+    "Dallas/Ft. Worth",
+    "Austin"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Cost and availability of labor and materials required to maintain properties",
+      "Third-party service providers for information technology, security and business services",
+      "Third-party management companies for property management services"
+    ],
+    "risks": [
+      "Increases in operating expenses due to inflation, tariffs, immigration issues or other cost pressures",
+      "Supply chain disruptions affecting cost of labor and/or materials",
+      "Trade disputes, tariffs, immigration issues, labor unrest, geopolitical conflicts creating inflationary pressures",
+      "Third-party service providers systems may contain defects or lead to cyber breaches"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rent control or rent stabilization regulations and eviction restrictions",
+    "Federal government considering imposing rent regulations on multifamily properties secured by government-sponsored debt",
+    "State and local fire and life safety requirements",
+    "Building and zoning codes",
+    "Environmental regulations",
+    "Federal, state and local accessibility requirements (Americans with Disabilities Act, Fair Housing Act)",
+    "Laws and regulations requiring climate-related disclosures (SEC proposed rules, California legislation)",
+    "Federal, state and local laws relating to collection, use, and security of resident, tenant, employee data (California Privacy Rights Act - CPRA)",
+    "Potential privatization of Fannie Mae and Freddie Mac",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Tax law changes impacting REITs",
+    "State and local income, excise and franchise taxes",
+    "Compliance with financial covenants in credit agreements and indentures",
+    "Tax-exempt bond restrictive covenants and deed restrictions including affordability requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

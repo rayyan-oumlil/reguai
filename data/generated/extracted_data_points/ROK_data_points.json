@@ -1,0 +1,96 @@
+{
+  "ticker": "ROK",
+  "company_name": "Rockwell Automation, Inc.",
+  "company_type": "Industrial Automation and Digital Transformation",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East and Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Mexico",
+      "Italy",
+      "United Kingdom",
+      "Denmark",
+      "India",
+      "Singapore",
+      "Switzerland",
+      "Netherlands",
+      "Ontario (Canada)",
+      "Bengaluru (India)"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Intelligent Devices",
+    "Software & Control",
+    "Lifecycle Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Reliance on suppliers for equipment, components, and services including finished products, electronic components, and commodities",
+      "Single-source supplier relationships for certain components where alternative sources are not available or relationship is advantageous",
+      "Supply chain can introduce security vulnerabilities into technologies across the industry"
+    ],
+    "risks": [
+      "Shortages of components, commodities, or other materials affecting manufacturing efficiencies and timely delivery",
+      "Changes in cost of purchases due to inflation, exchange rate fluctuations, taxes, tariffs, commodity market volatility",
+      "Poor quality or insecure supply chain affecting reliability and reputation",
+      "Embargoes, sanctions, and other trade restrictions affecting ability to purchase from various suppliers",
+      "Intellectual property risks from suppliers",
+      "Unavailability or delivery delays for single-source components or products",
+      "Malware attacks could spread throughout supply chain via authorized network connections",
+      "Software supply chains can introduce security vulnerabilities"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Corporate income tax regulations including OECD BEPS Pillar Two minimum 15% tax rate",
+    "Environmental regulations including EU Eco-design for Sustainable Products Regulation",
+    "Material, product, certification, and labeling laws and regulations",
+    "Privacy and cybersecurity laws including EU Cyber Resiliency Act",
+    "Climate change regulations",
+    "Data privacy regulations",
+    "FDA approval requirements (implied for Life Sciences customers)",
+    "Trade controls, tariffs, embargoes affecting business activities",
+    "Compliance with environmental requirements for discharge of substances, disposal of hazardous wastes",
+    "Asbestos-related litigation and regulations",
+    "Export/import regulations and policies",
+    "Employment regulations in various jurisdictions",
+    "Contract and intellectual property rights enforcement challenges in certain countries",
+    "ESG reporting requirements with potential regulatory penalties for inaccurate or incomplete disclosures",
+    "Taxation policies in over 100 countries where company operates",
+    "ERISA requirements for pension plans"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Embargoes, sanctions, and other trade restrictions affecting supplier relationships",
+      "Compliance with existing and future export/import regulations",
+      "Economic, political, regulatory risks in emerging markets restricting ability to exchange, transact, or pay dividends with foreign currencies",
+      "Political instability in various global jurisdictions",
+      "Enforcement challenges in certain countries regarding contracts and intellectual property",
+      "Prevalence of corruption in certain countries"
+    ]
+  }
+}

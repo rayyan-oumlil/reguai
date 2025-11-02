@@ -1,0 +1,127 @@
+{
+  "ticker": "EXPD",
+  "company_name": "Expeditors International of Washington, Inc.",
+  "company_type": "Global Logistics Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "North Asia",
+      "South Asia",
+      "Europe",
+      "Middle East, Africa and India"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "Vietnam",
+      "India",
+      "Netherlands",
+      "United Kingdom",
+      "Lebanon",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza Strip",
+      "West Bank"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.307,
+      "Other North America": 0.04,
+      "Latin America": 0.02,
+      "North Asia": 0.277,
+      "South Asia": 0.131,
+      "Europe": 0.16,
+      "Middle East, Africa and India": 0.064
+    },
+    "assets_by_region": {
+      "United States": 0.54,
+      "Other North America": 0.036,
+      "Latin America": 0.022,
+      "North Asia": 0.122,
+      "South Asia": 0.071,
+      "Europe": 0.158,
+      "Middle East, Africa and India": 0.057
+    }
+  },
+  "segments": [
+    "Airfreight Services",
+    "Ocean Freight and Ocean Services",
+    "Customs Brokerage and Other Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "airlines",
+      "trucking lines",
+      "ocean shipping lines",
+      "ground transportation providers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Highly dependent on commercial airlines, ocean carriers, and ground transportation providers for cargo capacity. Non-asset-based model means reliance on third-party carriers for all transportation services.",
+    "risks": [
+      "Carrier financial stability and capacity constraints",
+      "Volatile fuel prices impacting carrier rates",
+      "Port labor disruptions",
+      "Red Sea security disruptions affecting ocean transit times",
+      "Carrier consolidation reducing available options",
+      "Sudden carrier rate increases with little notice"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Transportation Security Administration (TSA) security regulations for indirect air carriers",
+    "Federal Maritime Commission (FMC) economic regulations for Ocean Transportation Intermediaries",
+    "Customs and Border Protection (CBP) licensing and audit requirements",
+    "Air Cargo Advance Screening (ACAS) compliance",
+    "Customs Trade Partnership Against Terrorism (CTPAT) requirements",
+    "Authorized Economic Operator (AEO) programs in multiple countries",
+    "Foreign ownership restrictions on customs brokerage in some jurisdictions",
+    "Anti-corruption laws including U.S. Foreign Corrupt Practices Act",
+    "Trade and exchange control laws and embargoes",
+    "Anti-boycott laws and regulations",
+    "Environmental regulations on emissions and climate change",
+    "EU Emissions Trading System requirements",
+    "FuelEU Maritime initiative",
+    "Data privacy regulations",
+    "Employment and compensation regulations across jurisdictions",
+    "Cargo security regulations globally",
+    "Changes in tariffs and trade restrictions",
+    "Import and export regulations",
+    "Tax regulations including transfer pricing rules",
+    "OECD Pillar Two minimum 15% tax rate implementation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza Strip",
+      "West Bank",
+      "Lebanon",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with trade sanctions laws and regulations",
+      "Executive Orders imposing embargoes and sanctions",
+      "Restrictions on operations in hostile locations",
+      "Red Sea disruptions due to Middle East conflicts",
+      "US-China trade tensions and tariff increases",
+      "Potential tariffs on imports from Canada and Mexico",
+      "Retaliatory tariffs from trading partners",
+      "Inter-governmental trade disputes"
+    ]
+  },
+  "revenue_by_segment": {
+    "Airfreight services": 0.346,
+    "Ocean freight and ocean services": 0.297,
+    "Customs brokerage and other services": 0.357
+  }
+}

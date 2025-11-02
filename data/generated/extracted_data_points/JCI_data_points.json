@@ -1,0 +1,128 @@
+{
+  "ticker": "JCI",
+  "company_name": "Johnson Controls International plc",
+  "company_type": "Building Technology and Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "Latin America",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Ireland",
+      "China",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Luxembourg",
+      "Germany",
+      "Spain",
+      "Belgium",
+      "Switzerland",
+      "Japan",
+      "India",
+      "Hong Kong",
+      "Taiwan",
+      "Australia",
+      "Argentina",
+      "Brazil",
+      "Russia",
+      "Israel",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Building Solutions North America",
+    "Building Solutions EMEA/LA",
+    "Building Solutions Asia Pacific",
+    "Global Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Europe",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "dependencies": [
+      "Steel, aluminum, brass, copper, polypropylene supply",
+      "Semiconductors and electronic components",
+      "Fluorochemicals used in fire suppression agents",
+      "Global supplier network for raw materials and components",
+      "Single supplier or limited group of suppliers for certain key parts"
+    ],
+    "risks": [
+      "Supply chain disruptions and delays",
+      "Material cost inflation and component shortages",
+      "Supplier plant shutdowns or slowdowns",
+      "Transportation delays",
+      "Labor shortages and labor relations issues",
+      "Global geopolitical instability",
+      "Supplier financial issues including bankruptcy",
+      "Price inflation for input materials",
+      "Dependency on suppliers without guaranteed supply arrangements",
+      "Concentration risk with limited suppliers for key components"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws and regulations governing operations and remediation",
+    "Worker safety and health laws",
+    "PFAS regulations (PFOS, PFOA, and other per- and poly-fluoroalkyl substances)",
+    "EPA National Primary Drinking Water Regulation for PFAS compounds",
+    "CERCLA hazardous substance designation for PFOA and PFOS",
+    "Resource Conservation and Recovery Act (RCRA) proposed rules for PFAS",
+    "Refrigerant regulations and declining emission standards",
+    "Hydrofluorocarbon/emissions reduction regulations",
+    "Energy efficiency standards and building performance standards",
+    "Climate change regulations and greenhouse gas emission targets",
+    "Fire safety codes and alarm industry licensing laws",
+    "Security industry licensing and regulations",
+    "Data privacy laws and regulations (varying by jurisdiction)",
+    "Biometric security technology restrictions",
+    "Government procurement and security regulations",
+    "U.S. Foreign Corrupt Practices Act (FCPA)",
+    "U.K. Bribery Act and similar anti-bribery laws",
+    "Export controls and customs regulations",
+    "Anti-trust regulations",
+    "Currency exchange control and transfer pricing regulations",
+    "Tax laws and treaties (including OECD Pillar Two global minimum tax)",
+    "U.S. Inflation Reduction Act provisions",
+    "Product safety regulations and quality standards",
+    "Intellectual property regulations",
+    "Employment and labor regulations",
+    "Cybersecurity and data protection requirements from customers and governments",
+    "Wisconsin groundwater quality standards for PFAS",
+    "State and local environmental remediation requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions and embargoes affecting operations",
+      "U.S.-China trade tensions and tariffs",
+      "Export controls and trade restrictions",
+      "Retaliatory actions by governments",
+      "Sanctions compliance requirements",
+      "Regional instability from ongoing conflicts (Russia-Ukraine, Israel-Hamas)",
+      "Potential expansion of geopolitical conflicts",
+      "Collateral consequences from cyber conflicts between nation-states"
+    ]
+  }
+}

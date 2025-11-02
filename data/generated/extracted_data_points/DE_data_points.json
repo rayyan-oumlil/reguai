@@ -1,0 +1,139 @@
+{
+  "ticker": "DE",
+  "company_name": "Deere & Company",
+  "company_type": "Agricultural, Construction and Forestry Equipment Manufacturing",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Latin America",
+      "Western Europe",
+      "Central Europe and Commonwealth of Independent States (CIS)",
+      "Asia, Africa, Oceania, and Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Argentina",
+      "Brazil",
+      "Mexico",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Poland",
+      "Sweden",
+      "United Kingdom",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "Georgia",
+      "Hungary",
+      "Ireland",
+      "Latvia",
+      "Lithuania",
+      "Netherlands",
+      "Norway",
+      "Romania",
+      "Ukraine",
+      "Russia",
+      "China",
+      "India",
+      "Japan",
+      "Malaysia",
+      "Singapore",
+      "Taiwan",
+      "Thailand",
+      "South Africa",
+      "Australia",
+      "New Zealand",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.585,
+      "Canada": 0.075,
+      "Western Europe": 0.12,
+      "Central Europe and CIS": 0.029,
+      "Latin America": 0.107,
+      "Asia, Africa, Oceania, and Middle East": 0.084
+    },
+    "assets_by_region": {
+      "United States and Canada": 0.51
+    }
+  },
+  "segments": [
+    "Production and Precision Agriculture (PPA)",
+    "Small Agriculture and Turf (SAT)",
+    "Construction and Forestry (CF)",
+    "Financial Services (John Deere Financial)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Argentina",
+      "Austria",
+      "Brazil",
+      "China",
+      "Finland",
+      "France",
+      "Germany",
+      "India",
+      "Israel",
+      "Italy",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Spain"
+    ],
+    "dependencies": "Various raw materials including steel products, metal castings, forgings, plastics, hydraulics, electronics, and ready-to-assemble components from leading suppliers domestically and internationally. Some materials and components are acquired from a single supplier or are proprietary in nature and cannot be alternatively sourced expeditiously.",
+    "risks": "Changes in availability and price of raw materials, components, and whole goods have resulted in disruptions to supply chain causing production disruptions, increased costs, and lower profits. Global logistics network challenges resulted in delays, shortages of key manufacturing components, increased order backlogs, increased transportation costs, and production inefficiencies. Work interruption or union strikes by employees of suppliers could contribute to disruptions. Geopolitical tensions including Russia/Ukraine war and Middle East conflict have affected supply chain.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S., European Union, India, and other governments' laws and regulations to reduce off-road engine emissions requiring significant investments in new engine technologies and after-treatment systems",
+    "Laws regulating products across their life cycles including raw material sourcing, storage, distribution, sale, use, and disposal (right-to-know, restriction of hazardous substances, product take-back laws)",
+    "Complex and changing international, federal, state, and local laws including advertising, anti-money laundering, antitrust, consumer finance, environmental, climate-related, health and safety, foreign exchange controls, foreign ownership and investment, import/export and trade, human rights, labor and employment, product liability reporting, cybersecurity, data privacy, telematics, encryption, and telecommunications regulations",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and foreign anti-bribery and anti-corruption laws",
+    "Changes in tax laws and regulations affecting foreign income, tax loss carryforwards, and deferred tax assets",
+    "Government policies on spending affecting infrastructure development",
+    "Policies impacting exchange rates and commodity prices, or limiting export/import of commodities",
+    "Changes in government farm programs and policies influencing demand for agricultural equipment",
+    "Governmental actions designed to address climate change and transition to lower-carbon economy",
+    "Expanding export controls or limits on foreign investment impacting global supply of key materials and components",
+    "Trade restrictions, negotiation of new trade agreements, non-tariff trade barriers, local content requirements, and imposition of new or retaliatory tariffs",
+    "Federal Trade Commission (FTC) investigation regarding repair of John Deere brand agricultural equipment and information security practices",
+    "Regulations relating to climate and environmental risk for financial services segment",
+    "Right to repair or right to modify regulations and legislation",
+    "New or retaliatory tariffs against certain countries or covering certain products"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Argentina",
+      "China",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changing U.S. export controls and sanctions on various foreign countries affecting ability to collect receivables, provide aftermarket warranty support, and sell products",
+      "Russian government restrictions on companies' abilities to repatriate or remit cash from Russian-based operations",
+      "Suspension of shipments to Russia due to Russia/Ukraine war events",
+      "US-China trade conflict impacting business in China and sales/imports/exports with Chinese entities globally",
+      "Argentine government capital and currency controls restricting access to U.S. dollars and remitting earnings"
+    ]
+  },
+  "revenue_by_segment": {
+    "Production and Precision Agriculture": 0.403,
+    "Small Agriculture and Turf": 0.212,
+    "Construction and Forestry": 0.251,
+    "Financial Services": 0.112,
+    "Other": 0.022
+  }
+}

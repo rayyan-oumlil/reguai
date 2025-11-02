@@ -1,0 +1,97 @@
+{
+  "ticker": "HUBB",
+  "company_name": "Hubbell Incorporated",
+  "company_type": "Electrical Products and Utility Solutions Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Puerto Rico",
+      "Mexico",
+      "China",
+      "United Kingdom",
+      "Brazil",
+      "Australia",
+      "Spain",
+      "Ireland",
+      "Republic of the Philippines",
+      "Hong Kong",
+      "Singapore",
+      "Italy",
+      "India",
+      "South Korea",
+      "Chile"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Utility Solutions",
+    "Electrical Solutions",
+    "Grid Infrastructure",
+    "Grid Automation",
+    "Electrical Products",
+    "Industrial",
+    "Retail and Builder"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Puerto Rico",
+      "Mexico",
+      "China",
+      "United Kingdom",
+      "Brazil",
+      "Australia",
+      "Spain",
+      "Ireland",
+      "Republic of the Philippines"
+    ],
+    "dependencies": "Raw materials used include steel, aluminum, brass, copper, bronze, zinc, nickel, plastics, elastomers and petrochemicals. Certain materials are sourced from a limited number of suppliers. Materials, components and finished goods are sourced from or manufactured in foreign countries including Mexico, China, and other international countries.",
+    "risks": "Significant shortages in availability of raw materials or significant price increases could increase operating costs. Political instability in any country where business is conducted could have adverse impact. Reliance on suppliers to produce high quality materials according to specifications. Import tariffs and potential additional import tariffs have resulted or may result in increased prices for imported goods and materials. Supply chain disruptions and availability, costs and quantity of raw materials, purchased components, energy and freight may be affected.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in tax law relating to multinational corporations could adversely affect tax position",
+    "OECD base erosion and profit shifting plan adoption by many taxing authorities",
+    "Changes in U.S. and international trade policies may adversely impact business and operating results",
+    "Import and export laws compliance requirements",
+    "Export control and economic sanctions regulations may prohibit export of certain products",
+    "Environmental laws and regulations requiring investigation and remediation of potential contamination",
+    "U.S. Foreign Corrupt Practices Act and U.K. Bribery Act compliance",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act conflict minerals provisions",
+    "Data privacy and security laws including EU General Data Protection Regulation (GDPR)",
+    "EU ePrivacy Regulation and ePrivacy Directive implementation",
+    "California Consumer Privacy Act of 2018 and Connected Device Privacy Act of 2018",
+    "Data privacy statutes implemented by various U.S. states",
+    "Failure to comply with environmental laws and regulations could result in substantial costs",
+    "Future laws or regulations including those imposed in response to climate change concerns"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International tensions such as conflicts in the Middle East and Ukraine may affect demand for products and production costs",
+      "Trade tensions with China may affect demand and production costs",
+      "Changes in U.S. trade policy including renegotiating or terminating existing bilateral or multi-lateral trade agreements",
+      "New tariffs on imports from Canada, Mexico and China announced by U.S. President",
+      "Potential additional tariffs on imports from additional countries including those in Europe",
+      "Reactive trade policies from U.S. trading partners making it more difficult or costly to export products or import goods and materials"
+    ]
+  }
+}

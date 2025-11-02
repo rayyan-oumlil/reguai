@@ -1,0 +1,69 @@
+{
+  "ticker": "DGX",
+  "company_name": "Quest Diagnostics Incorporated",
+  "company_type": "Diagnostic Information Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Puerto Rico",
+      "Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Finland",
+      "Puerto Rico",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.98,
+      "Canada": 0.02
+    },
+    "assets_by_region": {
+      "United States": 0.97,
+      "Foreign": 0.03
+    }
+  },
+  "segments": [
+    "Diagnostic Information Services",
+    "Diagnostic Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on suppliers for testing equipment, supplies and other goods and services. Inflationary pressures have resulted in increases in costs of testing equipment, supplies and other goods and services purchased from manufacturers, suppliers and others.",
+    "risks": "Supply chain disruptions including shortages, delays and price increases in testing equipment and supplies. Suppliers and manufacturers may experience disruptions and delays stemming from raw material and labor shortages, supply challenges and significant disruptions in transport and logistics services due to facility closures, labor constraints and other challenges.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulation of laboratory developed tests (LDTs) - removal of enforcement discretion requiring compliance with Food, Drug and Cosmetic Act over four-year process",
+    "Clinical Laboratory Improvement Act (CLIA) certification requirements and potential violations resulting in monetary fines, criminal and civil penalties, suspension or exclusion from Medicare/Medicaid programs",
+    "Medicare and Medicaid billing compliance - anti-kickback laws and anti-self-referral laws prohibiting payments to influence referrals",
+    "PAMA (Protecting Access to Medicare Act) reimbursement rate reductions - potential 15% annual cuts from 2026-2028",
+    "State clinical laboratory licensing requirements with varying personnel qualifications, quality control, record maintenance and proficiency testing requirements",
+    "Privacy and security regulations including HIPAA, state laws (California), European Union GDPR, Canada's Personal Information Protection and Electronic Documents Act",
+    "Environmental, health and safety regulations related to handling, transportation and disposal of medical specimens, infectious and hazardous waste and radioactive materials",
+    "Occupational Safety and Health Administration (OSHA) workplace safety requirements for healthcare employers",
+    "Drug Enforcement Administration licensing requirements for controlled substances used in drugs-of-abuse testing",
+    "Substance Abuse and Mental Health Services Administration certification for drug testing for public sector and federally regulated employees",
+    "Corporate practice of medicine restrictions in certain jurisdictions prohibiting business corporations from engaging in practice of medicine",
+    "Physician licensing requirements in jurisdictions where medical services are provided",
+    "Federal and state interoperability requirements for healthcare data",
+    "Price transparency requirements including good faith estimates for self-pay patients and disclosure of cost information to consumers",
+    "Potential changes in healthcare regulation following 2024 Presidential election and new administration",
+    "Federal government budget pressures and potential changes in budgetary priorities affecting Medicare and other government programs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Diagnostic Information Services (DIS)": 0.97,
+    "Diagnostic Solutions (DS)": 0.03
+  }
+}

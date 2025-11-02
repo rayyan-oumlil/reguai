@@ -1,0 +1,101 @@
+{
+  "ticker": "UNP",
+  "company_name": "Union Pacific Corporation",
+  "company_type": "Railroad Transportation",
+  "geography": {
+    "regions": [
+      "Western United States",
+      "Midwest",
+      "Gulf Coast",
+      "Pacific Coast",
+      "Mexico",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Bulk",
+    "Industrial",
+    "Premium"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Limited number of domestic suppliers of locomotives",
+      "Limited number of steel producers for rail",
+      "High barriers to entry for locomotive equipment suppliers"
+    ],
+    "risks": [
+      "Supplier discontinuation of locomotive manufacturing or parts",
+      "Supplier bankruptcy or insolvency",
+      "Inability to manufacture locomotives meeting efficiency or regulatory emissions standards",
+      "Consolidation or mergers in steel rail industry",
+      "Significant cost increases for rail purchases",
+      "Difficulty obtaining sufficient rail for maintenance and projects",
+      "Increased tariffs on imported goods affecting rail purchases"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Surface Transportation Board (STB) jurisdiction over rates, service, and operations",
+    "STB proposed rulemaking on reciprocal switching and commodity exemptions",
+    "STB new procedures for smaller rate complaints under appellate court review",
+    "STB exploration of changes to railroad revenue adequacy methodology",
+    "STB authority to regulate service including emergency service orders",
+    "Federal Railroad Administration (FRA) regulations",
+    "Department of Transportation (DOT) regulations",
+    "Occupational Safety and Health Administration regulations",
+    "Pipeline and Hazardous Materials Safety Administration regulations",
+    "Department of Homeland Security (DHS) regulations",
+    "Transportation Security Administration (TSA) regulations including cybersecurity requirements",
+    "State and local environmental agency regulations",
+    "Environmental Protection Agency (EPA) regulations",
+    "California Air Resources Board (CARB) regulations",
+    "Texas Commission on Environmental Quality (TCEQ) regulations",
+    "Resource Conservation and Recovery Act compliance",
+    "Comprehensive Environmental Response, Compensation, and Liability Act (Superfund) compliance",
+    "Clean Air Act compliance",
+    "Clean Water Act compliance",
+    "Railway Labor Act (RLA) collective bargaining requirements",
+    "Common carrier obligations requiring transport of hazardous materials",
+    "Positive Train Control (PTC) requirements",
+    "Hazardous materials routing rules",
+    "Rail Security Sensitive Materials (RSSM) tracking and documentation requirements",
+    "Changes to federal corporate tax rates",
+    "Enactment of new tax laws or tariffs",
+    "Revision in tax regulations",
+    "United States-Mexico-Canada Agreement (USMCA) compliance",
+    "International trade agreement changes",
+    "Potential expansion of railroad operations and pricing regulation",
+    "Climate change related restrictions, caps, taxes, or controls on greenhouse gas emissions",
+    "Government mandates on premature adoption of unproven technology"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International armed conflicts including Russia-Ukraine war",
+      "International armed conflicts including Israel-Hamas war",
+      "Geopolitical tensions in the Middle East",
+      "Deterioration of security for international trade",
+      "Imposition of tariffs on imports",
+      "Changes to U.S. trade policy affecting international shipping demand",
+      "Shifts in patterns of international trade",
+      "Actions of taxing authorities affecting customers doing business in foreign countries",
+      "Significant interruptions of trade with Mexico, Canada, or Southeast Asia countries including China"
+    ]
+  }
+}

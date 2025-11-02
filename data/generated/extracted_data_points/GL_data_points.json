@@ -1,0 +1,50 @@
+{
+  "ticker": "GL",
+  "company_name": "Globe Life Inc.",
+  "company_type": "Insurance",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Life Insurance",
+    "Supplemental Health Insurance",
+    "Investments"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on independently-contracted insurance agents for distribution, with over 16,400 agents. The development and retention of producing agents are critical to supporting sales growth.",
+    "risks": "Misconduct of independent sales agents could result in violations of law or claims against the Company. The Company is at risk of being unable to meet legal, regulatory, financial or customer obligations if the data, information systems, facilities or networks of a third-party vendor are disrupted, damaged or fail.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Insurance companies are subject to extensive supervision and regulation in the states in which they conduct business, including premium rates, policy forms, capital adequacy, solvency, reserves and permitted investments",
+    "Regulatory agencies have broad administrative power and could impose suspension or revocation of licenses, cease and desist orders, fines, civil penalties, disgorgement, criminal penalties or other disciplinary action",
+    "Changes in accounting standards issued by accounting standard-setting bodies may affect financial statements, reduce reported profitability and change the timing of profit recognition",
+    "Non-compliance with laws or regulations related to customer and consumer privacy and information security, including GLBA, HITECH, and HIPAA, could result in material fines and penalties",
+    "Approximately half of the states have adopted a form of the NAIC's data security model law, which imposes security requirements",
+    "Changes in U.S. federal income tax law could increase tax costs or negatively impact insurance subsidiaries' capital",
+    "Obtaining timely and appropriate premium rate increases for certain supplemental health insurance policies is critical, particularly for Medicare Supplement insurance which is highly regulated at both state and federal level",
+    "Future regulatory changes that restrict the use of off-shore captive reinsurers might require Globe Life to obtain third-party financing",
+    "The Bermuda Corporate Income Tax Act was enacted on December 27, 2023, and included a new corporate income tax (CIT) going into effect for years beginning after January 1, 2025",
+    "The Inflation Reduction Act enacted on August 16, 2022 included a new corporate alternative minimum tax (CAMT) going into effect for tax years beginning after 2022"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

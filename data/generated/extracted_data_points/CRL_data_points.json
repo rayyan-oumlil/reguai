@@ -1,0 +1,94 @@
+{
+  "ticker": "CRL",
+  "company_name": "Charles River Laboratories International, Inc.",
+  "company_type": "Contract Research Organization (CRO) - Drug Development Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Hungary",
+      "Ireland",
+      "Sweden",
+      "China",
+      "Japan",
+      "Mauritius",
+      "Cambodia",
+      "Singapore",
+      "India",
+      "Israel",
+      "Brazil",
+      "Italy"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Research Models and Services (RMS)",
+    "Discovery and Safety Assessment (DSA)",
+    "Manufacturing Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Noveprim Group"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Europe",
+      "China",
+      "France",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Mauritius"
+    ],
+    "dependencies": "Limited international source of supply for large research models including non-human primates (NHPs). Cambodia previously supplied approximately 60% of NHPs to the United States. Single-source supplier dependencies for certain products. China previously supplied significant portion of large research models but subject to export restrictions since COVID-19 pandemic.",
+    "risks": "Disruptions from colony health problems, export/import restrictions, embargoes, tariffs, inflation, international trade regulations, foreign government instability, severe weather, increased competition, disruptions to air travel, activist campaigns, commercial disputes, supplier insolvency, geopolitical disputes. Cambodia NHP supply chain constriction due to legal matters. Limited global supply of NHPs. Dependence on third-party suppliers for raw materials in CDMO operations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Department of Justice (DOJ) and U.S. Fish and Wildlife Service (USFWS) investigations into non-human primate imports from Cambodia",
+    "SEC Enforcement Division inquiry related to NHP sourcing and related disclosures",
+    "Voluntary suspension of Cambodia NHP shipments to U.S. pending additional procedures with USFWS",
+    "FDA Modernization Act 2.0 eliminating animal use in research may materially affect business",
+    "Potential changes to animal welfare regulations (AWA, PHS Policy, AAALAC standards)",
+    "CITES restrictions on NHP exportation from certain countries",
+    "Endangered Species Act listing risks for certain NHP species",
+    "GLP and cGMP compliance requirements and FDA inspections",
+    "Data integrity and electronic records compliance (FDA, EMA, OECD)",
+    "Environmental, health, safety and sustainability law compliance (OSHA, EPA, Nuclear Regulatory Agency, DOT)",
+    "International trade compliance (export controls, import requirements, trade regulations)",
+    "Anti-bribery laws (FCPA, UK Bribery Act, OECD Convention)",
+    "Data privacy and security laws (EU GDPR, UK GDPR, China PIPL and DSL, U.S. state laws including CCPA/CPRA)",
+    "Healthcare reform and drug pricing legislation (Inflation Reduction Act provisions)",
+    "Tax law changes including global minimum taxation requirements and potential changes by current U.S. administration",
+    "Clinical holds by FDA or other regulators on client trials due to manufacturing compliance concerns",
+    "Product liability and quality control failures in CDMO operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Cambodia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Ongoing conflicts between Russia and Ukraine or Israel and Hamas could heighten geopolitical risks",
+      "US-China relationship potentially influencing sourcing patterns and tariff costs",
+      "Potential bar from engaging in business transactions with certain clients due to U.S. or foreign law changes",
+      "Exchange controls and legal restrictions on repatriation of funds"
+    ]
+  }
+}

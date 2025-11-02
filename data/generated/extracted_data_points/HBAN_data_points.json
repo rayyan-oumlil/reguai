@@ -1,0 +1,65 @@
+{
+  "ticker": "HBAN",
+  "company_name": "Huntington Bancshares Incorporated",
+  "company_type": "Regional Bank Holding Company",
+  "geography": {
+    "regions": [
+      "Midwest United States",
+      "Southeast United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer & Regional Banking",
+    "Commercial Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [],
+    "risks": [],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in banking regulations and supervision intensity",
+    "Dodd-Frank Act compliance requirements",
+    "Basel III capital requirements and potential increases",
+    "CFPB consumer protection regulations and enforcement",
+    "CRA (Community Reinvestment Act) compliance requirements",
+    "Bank Secrecy Act and anti-money laundering (AML) compliance",
+    "OFAC sanctions compliance",
+    "Cybersecurity and data privacy regulations (GLBA, FCRA, state laws including CCPA)",
+    "FDIC insurance assessments and special assessments",
+    "Debit card interchange fee regulations (Regulation II)",
+    "Overdraft fee regulations and CFPB final rule on overdraft credit",
+    "Federal Reserve stress testing (CCAR) and capital planning requirements",
+    "Enhanced prudential standards for banks over $100 billion in assets",
+    "Potential long-term debt requirements and clean holding company requirements",
+    "Resolution planning requirements",
+    "Merger and acquisition approval standards and increased scrutiny",
+    "Fair lending and equal credit opportunity regulations",
+    "State attorney general enforcement of consumer protection laws",
+    "Climate-related disclosure and risk management expectations",
+    "Volcker Rule restrictions on proprietary trading",
+    "Compensation regulations and clawback requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries (unspecified)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance risk",
+      "Potential impact from global conflicts (Ukraine-Russia, Middle East)",
+      "Trade policy changes including tariffs and retaliatory tariffs"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "ticker": "DAY",
+  "company_name": "Dayforce, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia Pacific Japan (APJ)",
+      "Europe, Middle East, and Africa (EMEA)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Australia",
+      "India",
+      "Philippines",
+      "Denmark",
+      "Mauritius",
+      "China",
+      "Mexico",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.66,
+      "Canada": 0.211,
+      "Australia": 0.044,
+      "Other": 0.085
+    },
+    "assets_by_region": {
+      "United States": 0.635,
+      "Canada": 0.173,
+      "Australia": 0.075,
+      "Other": 0.117
+    }
+  },
+  "segments": [
+    "Cloud recurring",
+    "Other recurring",
+    "Professional services and other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "MUFG Bank, Ltd.",
+      "Manulife Financial",
+      "CrowdStrike Holdings, Inc.",
+      "Microsoft Azure",
+      "The Dun & Bradstreet Corporation"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "We host our Cloud-based applications and serve our customers from facilities operated by third-party providers, primarily Microsoft Azure. We rely on third party vendors to initiate payments on behalf of our customers. We depend on strategic relationships with third parties who provide us with services including connected payroll partners, implementation partners, systems integrators, third party sales channel partners, the operators of data centers, and banks and other providers who execute wire transfers and other money movement services.",
+    "risks": "Disruptions in the financial markets can adversely affect our lenders, insurers, customers, and other counterparties. If our financial counterparties are unable to fund borrowings under their revolving credit commitments or investments under their Receivables Purchase Agreement, or we are unable to borrow or refinance our debt in the financial markets, it could substantially increase our cost of borrowing. Any disruption or delay to data flow in critical time periods could lead to the disruption of fund movement. We rely on third-party service providers to perform services in certain geographies where we do not currently have international operations. We have experienced, and may in the future experience, disruptions, outages, and other performance problems caused by hardware failures, infrastructure changes, human or software errors, viruses, security attacks, fraud, increased resource consumption, denial of service attacks and Cloud interruptions run by third party service providers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Privacy, data protection, and information security laws (EU GDPR, California Consumer Protection Act, California Privacy Rights Act, Canada's Personal Information Protection and Electronic Documents Act, Philippines Data Privacy Act, Australia's Privacy Act 1988, India's Digital Personal Data Protection Act)",
+    "Cross-border data transfer restrictions and data residency requirements",
+    "AI regulatory frameworks (Ottawa Statement on Generative AI, Government of Canada's AI Code of Conduct, developing regulations in United States and European Union)",
+    "Anti-corruption laws (U.S. Foreign Corrupt Practices Act)",
+    "Economic and trade sanctions (U.S. Treasury Department's Office of Foreign Assets Control)",
+    "Anti-money laundering laws (Bank Secrecy Act of 1970 as amended by the USA PATRIOT Act of 2000)",
+    "Office of Comptroller of the Currency (OCC) regulations for Dayforce National Trust Bank",
+    "Payroll and HR compliance laws across multiple jurisdictions",
+    "Employment and labor law matters",
+    "Wage compliance regulations",
+    "Securities law claims",
+    "FTC consent order from 2011 (20-year consent order requiring security program reviews)",
+    "Expansion of tariffs on goods and services",
+    "Export controls on software and mobile applications",
+    "Sustainability and ESG disclosure regulations at state and federal level",
+    "Income and non-income tax regulations across multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions programs administered by the U.S. Treasury Department's Office of Foreign Assets Control, which prohibit or restrict transactions with specified countries, their governments, and specially designated individuals including narcotics traffickers and terrorists",
+      "Application of tariffs on goods to countries in which we operate, including Canada, China, Mexico, and the U.S.",
+      "Expansion of export controls could impact ability to export software and mobile applications"
+    ]
+  }
+}

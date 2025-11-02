@@ -1,0 +1,70 @@
+{
+  "ticker": "TSCO",
+  "company_name": "Tractor Supply Company",
+  "company_type": "Rural Lifestyle Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Asia",
+      "Central America"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Livestock, Equine & Agriculture",
+    "Companion Animal",
+    "Seasonal & Recreation",
+    "Truck, Tool, & Hardware",
+    "Clothing, Gift, & Décor"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia",
+      "Central America",
+      "China"
+    ],
+    "dependencies": "The Company sources a portion of merchandise from manufacturers located outside the U.S., primarily in Asia and Central America. Many domestic suppliers also purchase products from foreign sources. The Company has no single vendor representing more than 10% of purchases, with approximately 400 core vendors accounting for 90% of merchandise purchases.",
+    "risks": "Reliance on foreign manufacturers exposes the Company to risks including political, economic, social, or environmental conditions, transportation delays, changes in laws and regulations, tariffs, global supply chain disruptions, and potential vendor financial difficulties. The Company sources a large percentage of merchandise from China, subject to U.S. tariffs and potential trade war impacts.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, and local employment laws (minimum wage, overtime, discrimination, harassment, wrongful termination)",
+    "Environmental regulations (EPA, state, local environmental protection laws)",
+    "Product safety regulations (FDA, USDA, OSHA)",
+    "Data privacy and security laws (state and federal data breach and privacy laws)",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Payment Card Industry Data Security Standards (PCI-DSS)",
+    "Sales tax compliance and audit risks",
+    "Climate-related disclosure regulations (California Climate Corporate Data Accountability Act, SEC climate disclosure rules)",
+    "Trade regulations and tariffs (U.S. tariffs on imports, potential changes in trade policies)",
+    "Building, land use, and zoning requirements",
+    "Workplace safety regulations (OSHA)",
+    "Income tax regulations and audits (federal, state, local)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential impact from U.S.-China trade tensions and tariffs on imported goods from China",
+      "Risk of retaliatory tariffs by China on U.S. exports",
+      "Uncertainty regarding future U.S. trade policies and tariffs under current administration"
+    ]
+  },
+  "revenue_by_segment": {
+    "Livestock, Equine, & Agriculture": 0.26,
+    "Companion Animal": 0.25,
+    "Seasonal & Recreation": 0.23,
+    "Truck, Tool, & Hardware": 0.16,
+    "Clothing, Gift, & Décor": 0.1
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "ticker": "BG",
+  "company_name": "Bunge Global SA",
+  "company_type": "Agribusiness and Food",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe",
+      "Asia-Pacific",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Paraguay",
+      "Uruguay",
+      "Switzerland",
+      "Netherlands",
+      "France",
+      "Poland",
+      "Latvia",
+      "Ukraine",
+      "Spain",
+      "Egypt",
+      "China",
+      "Vietnam",
+      "India",
+      "Australia",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Agribusiness",
+    "Refined and Specialty Oils",
+    "Milling",
+    "Sugar and Bioenergy"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "North America",
+      "South America",
+      "Europe",
+      "Asia-Pacific",
+      "Africa"
+    ],
+    "dependencies": [
+      "Dependence on agricultural commodity availability affected by weather, farmer decisions, government policies",
+      "Reliance on third-party transportation services including ocean vessels, river barges, rail, and truck",
+      "Dependence on energy commodities including electricity, natural gas, coal, and fuel oil",
+      "Reliance on third-party suppliers for raw materials procurement"
+    ],
+    "risks": [
+      "Adverse weather conditions and climate change impacts on commodity availability and quality",
+      "Supply and demand imbalances in agricultural commodities",
+      "Disruptions in transportation services due to weather or other factors",
+      "Counterparty non-performance risk on forward purchase and sale contracts",
+      "Energy price volatility and availability",
+      "Dependence on third parties for logistics, warehousing, and transportation",
+      "Operational risks including industrial accidents, natural disasters, pandemics, wars, and cybersecurity incidents"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Facility licensing and permitting requirements",
+    "Food and feed safety regulations",
+    "Nutritional and labeling requirements",
+    "Global trade compliance including tariffs and export restrictions",
+    "Environmental regulations including GHG emissions and carbon pricing programs",
+    "Land-use restrictions in protected areas and forestry reserve requirements",
+    "Water use limitations",
+    "EU Deforestation Regulation (EUDR) requiring proof of deforestation-free commodities",
+    "Corporate Sustainability Reporting Directive (CSRD) and European Sustainability Reporting Standards (ESRS)",
+    "Swiss law non-financial reporting requirements including climate, social, human rights, and anti-corruption matters",
+    "Swiss Code of Obligations due diligence requirements on child labor in supply chain",
+    "California Climate-Related Financial Risk Act and Climate Corporate Data Accountability Act",
+    "OECD Base Erosion and Profit Shifting (BEPS) initiative and global minimum tax requirements",
+    "Antitrust and competition laws scrutiny",
+    "Financial markets regulation affecting risk management practices",
+    "Price controls, tariffs, export restrictions imposed by governments",
+    "Biofuels mandates and incentives",
+    "Changes in tax laws and regulations across multiple jurisdictions",
+    "Income tax examinations and assessments in various countries",
+    "Data privacy and data protection regulations",
+    "ESG disclosure frameworks and sustainability reporting requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "Argentina",
+      "Egypt",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions imposed on Russia in connection with Ukraine-Russia war",
+      "Risk of retaliatory tariffs between US and China affecting agricultural products",
+      "Embargoes and sanctions restricting sales to specific persons or countries",
+      "Potential for increased sanctions or trade restrictions affecting operations"
+    ]
+  }
+}

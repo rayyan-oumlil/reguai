@@ -1,0 +1,107 @@
+{
+  "ticker": "PCG",
+  "company_name": "Pacific Gas and Electric Company",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "Northern California",
+      "Central California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electric",
+    "Electric Utility Operations",
+    "Natural Gas Utility Operations",
+    "Natural Gas"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Natural gas supplies from western Canada, Rocky Mountains, and southwestern United States",
+      "Electricity procurement from third-party power purchase agreements",
+      "Interstate pipeline transportation from third-party providers",
+      "Dependence on contractors for vegetation management, asset inspections, and construction work"
+    ],
+    "risks": [
+      "Natural gas transportation and storage dependencies",
+      "Supply chain disruptions from catastrophic events",
+      "Longer lead times and delivery delays for equipment, materials, and supplies",
+      "Single largest natural gas supplier represented approximately 50% of total natural gas volume purchased in 2024",
+      "Concentration risk in nuclear fuel supply chain",
+      "Supply chain disruptions due to domestic and international raw material and labor shortages",
+      "Inflation and tariffs increasing costs for equipment, materials, contractor services",
+      "Contractor performance risks - less control over contractors but retain liability for quality and completion",
+      "Dependence on third-party power producers for renewable energy compliance"
+    ],
+    "supplier_concentration": {
+      "Largest natural gas supplier": 0.5
+    }
+  },
+  "regulatory_risks": [
+    "OEIS may determine Utility failed to substantially comply with Wildfire Mitigation Plan, resulting in loss of safety certification",
+    "FERC Section 203 approval required for mergers, consolidations, change of control transactions",
+    "California GHG emissions targets: 40% reduction by 2030, carbon neutrality by 2045, 100% renewable/zero-carbon electricity by 2045",
+    "FERC has authority to impose fines up to $1 million per day for violations",
+    "Mandatory electric reliability standards enforced by FERC to protect bulk power system",
+    "Extensive federal, state, and local energy, environmental, and safety regulations subject to enforcement proceedings",
+    "CPUC may not authorize sufficient revenues or may disallow costs in ratemaking proceedings",
+    "Ownership restrictions in Amended Articles limiting shareholders to 4.75% combined value of equity securities",
+    "California privacy laws including California Privacy Rights Act with final regulations under development",
+    "FERC rate case outcomes and transmission cost recovery",
+    "Cargo Preference Act compliance for DOE loan",
+    "SB 100 requirement for 60% renewables by 2030 and 100% renewable/carbon-free by 2045 with potential penalties for non-compliance",
+    "Wildfire Fund reimbursement obligations if found imprudent",
+    "Loss of safety certification would eliminate access to Wildfire Fund and presumption of prudency under AB 1054",
+    "CPUC conditions governing relationship between Utility and PG&E Corporation including capital structure requirements",
+    "Pipeline and Hazardous Materials Safety Administration regulations for natural gas facilities",
+    "Environmental compliance costs and remediation liabilities",
+    "CPUC Safety and Enforcement Division can impose penalties up to $100,000 per day per violation, with administrative limit of $8 million per citation",
+    "NRC regulations may require substantial costs for nuclear facility compliance or force shutdown of DCPP",
+    "AB 1054 safety certification requirements and potential loss",
+    "California Public Utilities Code Section 451.1 prudency standard",
+    "Potential changes to federal environmental policies under Trump administration creating regulatory uncertainty",
+    "Nuclear Waste Policy Act obligations for spent fuel disposal",
+    "California Geologic Energy Management Division regulations for underground gas storage",
+    "DOE Loan Guarantee Agreement compliance requirements and conditions for advances",
+    "CPUC reasonableness review may result in cost disallowances for wildfire mitigation expenditures",
+    "Environmental regulations under EPA, CARB, and state agencies including Resource Conservation and Recovery Act, Comprehensive Environmental Response Compensation and Liability Act",
+    "Davis-Bacon Act compliance requirements for DOE loan",
+    "National Environmental Policy Act review requirements for DOE loan projects",
+    "CPUC Enhanced Oversight and Enforcement Process could result in appointment of independent monitor, chief restructuring officer, receivership, or review of operating license",
+    "Section 382 IRC ownership change limitations on use of net operating loss carryforwards",
+    "Nuclear Regulatory Commission licensing and operational requirements",
+    "Rate regulation changes affecting cost recovery mechanisms",
+    "CARB cap-and-trade program with declining emissions caps through 2030 and potential reforms to reduce allowance budgets",
+    "Permits, authorizations, and licenses required from multiple federal, state, and local agencies for facility construction and operation",
+    "CPUC cost recovery disallowances for wildfire-related costs",
+    "Potential penalties for non-compliance with wildfire mitigation requirements including EPSS, PSPS, vegetation management, asset inspections",
+    "Franchise agreements with approximately 300 cities and counties for use of public streets and highways",
+    "CPUC holding company rules and capital structure requirements",
+    "CPUC authorization required for securities issuances, asset dispositions, and major transactions",
+    "Potential municipalization attempts through eminent domain by jurisdictions including San Francisco",
+    "Climate change and greenhouse gas emission regulations",
+    "CPUC prudency review of capital expenditures and operating costs",
+    "New regulations on wildfire mitigation and prevention",
+    "Water quality and environmental remediation regulations",
+    "Potential penalties and fines from regulatory non-compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Electric operating revenues": 0.73,
+    "Natural gas operating revenues": 0.27,
+    "Electric": 0.729,
+    "Natural gas": 0.271
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "ticker": "VLO",
+  "company_name": "Valero Energy Corporation",
+  "company_type": "Energy - Refining & Marketing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Ireland",
+      "Mexico",
+      "Peru"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Refining",
+    "Renewable Diesel",
+    "Ethanol"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Darling Ingredients Inc."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "dependencies": "DGD sources waste and renewable feedstocks (predominantly animal fats, used cooking oils, vegetable oils, and inedible distillers corn oils) from suppliers throughout the world. Darling supplies some of DGD's waste feedstock at competitive pricing under a raw material supply agreement, but DGD must secure a significant amount of its waste and renewable feedstock requirements from other sources. Ethanol segment relies on corn sourced from local farmers and commercial elevators in the Mid-Continent region of the U.S.",
+    "risks": "If one or more supply contracts were terminated, or if political or other events were to disrupt traditional feedstock and other critical supplies, adequate alternative supplies may not be available or may only be available at increased prices or costs. Refineries and plants without access to waterborne deliveries or offtake must rely on rail, pipeline, or ground transportation and are more susceptible to supply disruption risks. DGD has increasingly sourced feedstocks from international sources due to increased production of renewable diesel and competition for feedstocks, intensifying exposure to political, geographic, regulatory, tax, and economic risks. Ethanol supply is exposed to weather and environmental events in the Mid-Continent region affecting crop production.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "California Senate Bill No. 2 (SBx 1-2) authorizes establishment of maximum gross gasoline refining margin and financial penalties for profits above that margin, significantly expands reporting obligations, and authorizes regulation of timing and aspects of refinery turnaround and maintenance activities",
+    "California Assembly Bill No. 1 (ABx 2-1) authorizes California Energy Commission to require refiners maintain minimum levels of inventories of refined transportation fuels and provides requirements for regulations governing timing of refinery turnarounds and maintenance",
+    "U.S. Environmental Protection Agency Renewable Fuel Standard (RFS) program requires blending of renewable fuels into petroleum-based transportation fuels with annual renewable volume obligations (RVOs)",
+    "California Low Carbon Fuel Standard (LCFS) requires reduction of carbon intensity of transportation fuels consumed in California with declining annual benchmarks",
+    "Canada Clean Fuel Regulations (CFR) require primary suppliers of gasoline or diesel produced in or imported into Canada to reduce carbon intensity with annual reduction requirements",
+    "U.K. Renewable Transport Fuel Obligation (RTFO) requires suppliers of transportation fuels produced or imported into U.K. to blend minimum specified percentage of qualifying low-carbon fuels annually",
+    "EPA regulations on methane and other air pollution from oil and gas operations",
+    "NHTSA fuel economy standards for light-duty vehicles (model years 2024-2026) and heavy-duty pickup trucks and vans (model years 2030-2035)",
+    "EPA greenhouse gas emissions standards for light-, medium-, and heavy-duty vehicles (model years 2027-2032)",
+    "California Advanced Clean Cars II rulemaking requiring increasing percentage of zero-emission light-duty vehicle sales through 2035",
+    "California Advanced Clean Trucks and Advanced Clean Fleets rulemakings for medium- and heavy-duty vehicles",
+    "Federal Highway Administration rules requiring state departments of transportation and metropolitan planning organizations to establish declining tailpipe carbon dioxide emissions targets",
+    "South Coast Air Quality Management District Rule 1109.1 on emissions of oxides of nitrogen from petroleum refineries",
+    "CARB Control Measure for Ocean-Going Vessels At Berth Rule and Airborne Toxic Control Measure for Commercial Harbor Craft",
+    "Reductions in National Ambient Air Quality Standards",
+    "Bans or restrictions on certain chemicals, feedstocks, products, or processes (such as hydrofluoric acid alkylation)",
+    "California cap-and-trade program, Quebec cap-and-trade program, U.K. Emissions Trading Scheme",
+    "Inflation Reduction Act of 2022 including corporate alternative minimum tax and one percent excise tax on stock buybacks",
+    "Section 45Z of Internal Revenue Code providing clean fuel production credit for years 2025-2027",
+    "Section 45Q of Internal Revenue Code providing tax credits for carbon capture and sequestration",
+    "IRS guidance regarding 45Z tax credit potentially disfavoring foreign feedstock supplies",
+    "Pillar Two global minimum tax framework (15% global minimum effective tax rate) implemented in Canada, U.K., and Ireland",
+    "California Senate Bill No. 1322 (SB 1322) requiring monthly reporting on crude oil volume and cost, wholesale gasoline quantity and price, and gross gasoline margin per barrel",
+    "California Oil Refinery Cost Disclosure Act (SB 1322)",
+    "Petroleum Industry Information Reporting Act of 1980 expanded reporting requirements",
+    "SEC cybersecurity and governance disclosure rules",
+    "U.S. Cyber Incident Reporting for Critical Infrastructure Act",
+    "Transportation Security Administration directive following Colonial Pipeline cybersecurity incident",
+    "EU General Data Protection Regulation",
+    "U.K. Data Protection Act 2018",
+    "Quebec Bill 64 on data privacy",
+    "California Consumer Privacy Act as amended by California Privacy Rights Act",
+    "U.S. Federal Trade Commission rules requiring reporting of certain data breaches",
+    "EU Corporate Sustainability Reporting Directive",
+    "EU Corporate Sustainability Due Diligence Directive",
+    "Climate-related disclosure obligations adopted by California in October 2023 including GHG emissions reporting, climate-related financial-risk reporting, and statements regarding GHG emissions reductions",
+    "New York and Vermont legislation establishing cost recovery programs for climate mitigation investments with strict liability for fossil fuel companies",
+    "Potential taxes, fees, assessments, or tax abatement limitations on fossil fuel companies by various state and local governments",
+    "U.S. sanctions targeting Russia, Iran, and Venezuela limiting petroleum-related transactions",
+    "Tariffs, duties, sanctions on U.S. and foreign trade, manufacturing, and investment"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Iran",
+      "Venezuela",
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions targeting Russia, Iran, and Venezuela limit or ban ability of most U.S. companies to engage in petroleum-related transactions involving these countries",
+      "U.S. and other government sanctions and actions by governments and private market participants to refrain from purchasing or transporting crude oil and petroleum-based products from particular countries have impacted and may continue to impact trade flows and access to business opportunities",
+      "Potential sanction adjustments related to Iran, Russia, and Venezuela could result in increased volatility in crude oil market and impact crude oil differentials",
+      "U.S. federal government under current presidential administration has implemented and indicated potential for new or revised tariffs, duties, sanctions, and other actions with respect to U.S. and foreign trade, manufacturing, and investment"
+    ]
+  }
+}

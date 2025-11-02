@@ -1,0 +1,163 @@
+{
+  "ticker": "NTRS",
+  "company_name": "Northern Trust Corporation",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "Middle East",
+      "North America",
+      "Europe",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "Netherlands",
+      "Switzerland",
+      "Luxembourg",
+      "Mexico",
+      "Australia",
+      "India",
+      "United Arab Emirates",
+      "United States",
+      "Canada",
+      "Belgium",
+      "Hong Kong",
+      "Sweden",
+      "Singapore",
+      "Ireland",
+      "Japan",
+      "China",
+      "Guernsey",
+      "Philippines",
+      "Germany",
+      "New Zealand",
+      "United Kingdom",
+      "Abu Dhabi",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.73,
+      "Non-U.S.": 0.27
+    },
+    "assets_by_region": {
+      "United States": 0.72,
+      "Non-U.S.": 0.28
+    }
+  },
+  "segments": [
+    "Asset Management",
+    "Wealth Management",
+    "Asset Servicing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Highly dependent on information technology systems and networks operated by third parties",
+      "Reliance on unaffiliated sub-custodians to a greater degree than certain competitors",
+      "Dependence on third-party vendors for data processing, recording and monitoring transactions, online banking interfaces and services, and network access"
+    ],
+    "risks": [
+      "Technology vendor cybersecurity vulnerabilities",
+      "Failure of third-party vendors to perform can result in losses",
+      "Risks from vendors' vendors (indirect third-party dependencies)",
+      "Third-party vendor failures or service disruptions",
+      "Operational risks from outsourcing arrangements",
+      "Concentration risk with critical service providers",
+      "Disruptions in service from key vendors could negatively affect ability to deliver products and services",
+      "Replacing third-party vendors could create significant delay and expense",
+      "Third-party vendors may not comply with servicing and contractual obligations including information security"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Interchange fee regulations",
+    "Enhanced prudential standards for large banking organizations",
+    "Restrictions on transactions with affiliates",
+    "Extensive regulation and supervision under state and federal laws in the United States and in each jurisdiction where business is conducted",
+    "AIFMD and UCITS depositary requirements",
+    "OFAC sanctions and economic sanctions programs",
+    "Anti-Money Laundering (AML) and Bank Secrecy Act requirements",
+    "Resolution planning requirements under Section 165(d) of Dodd-Frank Act",
+    "Restrictions on subsidiary dividends and capital distributions",
+    "Tax law changes and compliance",
+    "Orderly liquidation authority under Dodd-Frank Act",
+    "Regulatory divergence between UK and EU post-Brexit",
+    "Community Reinvestment Act (CRA) requirements and new CRA final rule",
+    "Dodd-Frank Act compliance requirements",
+    "Data privacy and security regulations (including GDPR)",
+    "Net Stable Funding Ratio (NSFR) requirements",
+    "Volcker Rule restrictions on proprietary trading and covered fund investments",
+    "Shareholder Rights Directive (SRD II)",
+    "Basel III capital requirements and potential changes from Basel III Endgame Proposal",
+    "Liquidity Coverage Ratio (LCR) requirements",
+    "FDIC special assessment related to 2023 bank failures",
+    "Data privacy and security regulations (GDPR, UK GDPR, CCPA, PIPL)",
+    "Securities Financing Transactions and Reuse of Collateral Regulation (SFTR)",
+    "Sanctions compliance (U.S., EU, and other jurisdictions)",
+    "Comprehensive regulation of derivatives businesses (CFTC and SEC rules)",
+    "Resolution planning requirements",
+    "CCAR (Comprehensive Capital Analysis and Review) stress testing",
+    "Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR) requirements",
+    "Sustainable Finance Disclosure Regulations (SFDR)",
+    "Central Securities Depositories Regulation (CSDR)",
+    "Capital planning and stress testing requirements (CCAR and DFAST)",
+    "FDIC deposit insurance and assessment requirements",
+    "Deposit Guarantee Schemes Directive (DGSD)",
+    "Enhanced prudential standards applicable to Category II banking organizations",
+    "Capital adequacy requirements under Basel III framework",
+    "Category II institution regulatory standards",
+    "EU and UK prudential regulatory frameworks (CRD, CRR, CRD VI, CRR III)",
+    "Markets regulation (MIFID, MIFIR, EMIR)",
+    "Fifth EU Money Laundering Directive (MLD5) and Sixth EU Money Laundering Directive",
+    "Potential changes under new U.S. presidential administration and Congress",
+    "FDIC insurance requirements and special assessments",
+    "Fiduciary duty standards and regulations",
+    "European Union Bank Recovery and Resolution Directive (BRRD) and UK special resolution regime",
+    "Anti-money laundering (AML) compliance",
+    "Securities and Exchange Commission (SEC) regulations",
+    "Prompt corrective action requirements",
+    "Consumer protection laws and regulations (CFPB oversight)",
+    "Community Reinvestment Act (CRA) obligations",
+    "EU Benchmarks Regulation (BMR)",
+    "Long-term debt and clean holding company requirements (proposed rule)",
+    "Foreign regulatory requirements in multiple jurisdictions",
+    "Federal Reserve and state banking regulations",
+    "AI regulation (evolving laws and regulations on artificial intelligence)",
+    "Broker-dealer and investment adviser regulations (SEC, FINRA, MSRB)",
+    "Climate-related disclosure requirements",
+    "Basel III Endgame Proposal (proposed rule to implement Basel III endgame agreement)",
+    "EU Taxonomy Regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Iran",
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Increased credit exposure to subcustodians in sanctioned jurisdictions",
+      "Russia sanctions impact - cash balances denominated in Russian rubles subject to distribution restrictions ($1.1 billion as of December 31, 2024)",
+      "Tensions between U.S. and China",
+      "Sanctions compliance requirements across multiple jurisdictions",
+      "Iran sanctions compliance",
+      "Trade policy changes including tariffs and retaliatory tariffs",
+      "Accumulation of cash deposits with Russian subcustodians subject to restrictions",
+      "Conflict in the Middle East",
+      "Compliance with financial and economic sanctions regimes",
+      "Potential sovereign debt defaults and related financial market stresses",
+      "Military conflict between Ukraine and Russian Federation",
+      "Economic sanctions and embargo programs administered by OFAC",
+      "Potential impact from U.S.-China tensions",
+      "Russia sanctions restricting ability to access or transfer cash or securities held through subcustodians"
+    ]
+  },
+  "revenue_by_segment": {
+    "Asset Servicing": 0.525,
+    "Wealth Management": 0.386,
+    "Other": 0.089
+  }
+}

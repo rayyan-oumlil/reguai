@@ -1,0 +1,115 @@
+{
+  "ticker": "GIS",
+  "company_name": "General Mills, Inc.",
+  "company_type": "Packaged Foods",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "United States",
+      "Canada",
+      "Latin America",
+      "Mexico",
+      "Europe",
+      "Australia",
+      "Asia",
+      "Middle East",
+      "Africa",
+      "Greater China",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Australia",
+      "China",
+      "India",
+      "Spain",
+      "France",
+      "Greece",
+      "United Kingdom",
+      "Switzerland",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America Retail",
+    "International",
+    "North America Pet",
+    "North America Foodservice"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Australia",
+      "China",
+      "India",
+      "Spain",
+      "France",
+      "Greece"
+    ],
+    "dependencies": [
+      "Grains (wheat, oats, corn)",
+      "Dairy products",
+      "Meat",
+      "Vegetable oils",
+      "Sugar",
+      "Vegetables",
+      "Fruits",
+      "Nuts",
+      "Carton board",
+      "Corrugated packaging",
+      "Plastic packaging",
+      "Metal packaging",
+      "Energy",
+      "Transportation"
+    ],
+    "risks": [
+      "Commodity price volatility due to weather, climate change, product scarcity, limited sources of supply, commodity market fluctuations, currency fluctuations, trade tariffs, pandemics, war, and changes in governmental agricultural and energy policies",
+      "Disruption of supply chain due to weather, climate change, natural disaster, fire, terrorism, cyber-attack, pandemics, war, governmental restrictions or mandates, labor shortages, strikes, import/export restrictions",
+      "Many product lines manufactured at a single location or sourced from a single supplier",
+      "Failure of third-party suppliers, contract manufacturers, commercial transport, distributors, contractors, and external business partners to meet obligations",
+      "Short term or sustained increases in consumer demand may exceed production capacity or strain supply chain"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with laws and regulations administered by USDA, FDA, OSHA, EPA, and other federal, state, local, and foreign governmental agencies relating to production, packaging, labelling, storage, distribution, quality, and safety of food products",
+    "New laws or regulations restricting marketing or sale of products due to ingredients or substances in products or product packaging",
+    "Requirements to highlight perceived concerns about a product or product packaging, warn consumers to avoid consumption of certain ingredients or substances, restrict audience to whom products are marketed or sold, limit locations where products may be available, or discontinue use of certain ingredients or packaging",
+    "Environmental laws and regulations (Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act, Comprehensive Environmental Response, Compensation, and Liability Act, Federal Insecticide, Fungicide, and Rodenticide Act)",
+    "Greenhouse gas emission regulations (e.g., carbon taxes)",
+    "Energy policies",
+    "Sustainability initiatives (e.g., single-use plastic limits)",
+    "Disclosure obligations related to climate change or other sustainability issues",
+    "False or deceptive advertising claims under federal, state, and foreign laws and regulations",
+    "Compliance with anti-corruption regulations",
+    "Foreign tax treaties and policies",
+    "Trade tariffs on products and ingredients (including recent tariffs imposed or threatened to be imposed by the United States on China, Canada, Mexico, and other countries and any retaliatory actions)",
+    "Import/export restrictions",
+    "Nationalization or government control of operations",
+    "Exchange controls and currency exchange rates",
+    "Restriction on the transfer of funds to and from foreign countries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed on Russia for its invasion of Ukraine",
+      "Tariffs imposed or threatened to be imposed by the United States on China, Canada, Mexico, and other countries and any retaliatory actions taken by such countries"
+    ]
+  }
+}

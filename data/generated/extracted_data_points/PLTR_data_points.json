@@ -1,0 +1,123 @@
+{
+  "ticker": "PLTR",
+  "company_name": "Palantir Technologies Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Middle East",
+      "Africa",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Japan",
+      "South Korea",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Palestinian territories",
+      "France",
+      "Germany",
+      "Switzerland",
+      "Delaware",
+      "Colorado",
+      "California",
+      "New York",
+      "Washington D.C.",
+      "Connecticut",
+      "Virginia",
+      "Florida",
+      "Montana",
+      "Oregon",
+      "Texas",
+      "Tennessee",
+      "Iowa",
+      "New Hampshire",
+      "New Jersey",
+      "Maryland",
+      "Minnesota",
+      "Nebraska",
+      "Indiana",
+      "Kentucky",
+      "Rhode Island"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Government",
+    "Commercial"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services (AWS)",
+      "Microsoft Azure"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on third-party cloud hosting services including AWS and Microsoft Azure for hosting customer platforms and internal operations",
+    "risks": [
+      "Reliance on third-party cloud infrastructure providers (AWS, Microsoft) for hosting services",
+      "Potential service disruptions or performance issues from third-party providers",
+      "Vendor lock-in risks with cloud providers",
+      "Minimum usage commitments with cloud providers ($1.95 billion commitment with one provider through 2033)",
+      "Third-party software and hardware dependencies across broad ecosystem",
+      "Supply chain vulnerabilities in customer environments and edge deployments",
+      "Cybersecurity risks from third-party vendors and supply chain attacks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Complex and evolving U.S. and non-U.S. laws regarding privacy, data protection and security (GDPR, CCPA, CPRA)",
+    "State-level comprehensive consumer privacy legislation (Connecticut, Virginia, Colorado, Utah, Florida, Montana, Oregon, Texas, Tennessee, Iowa, Delaware, New Hampshire, New Jersey, Maryland, Minnesota, Nebraska, Indiana, Kentucky, Rhode Island)",
+    "EU AI Act (EU AIA) imposing obligations on AI-related systems",
+    "Colorado Consumer Protections for Artificial Intelligence bill for high-risk AI systems",
+    "Export control regulations (EAR, ITAR) for software and technology",
+    "U.S. sanctions and economic sanctions laws",
+    "Foreign investment screening and regulatory review requirements",
+    "Government procurement regulations and compliance requirements",
+    "Federal Acquisition Streamlining Act (FASA) compliance",
+    "Anti-corruption laws (FCPA, U.K. Bribery Act, U.S. domestic bribery statute, Travel Act)",
+    "Cybersecurity risk management and disclosure rules (SEC requirements)",
+    "Data breach notification requirements",
+    "Intellectual property regulations and patent laws",
+    "Securities laws and regulations (Securities Act, Exchange Act)",
+    "Antitrust/competition law requirements",
+    "Employment laws and regulations in multiple jurisdictions",
+    "Tax regulations including GILTI, OECD Pillar Two global minimum tax",
+    "Inflation Reduction Act provisions (15% minimum tax, 1% excise tax on share repurchases)",
+    "Government contract-specific regulations (Truth in Negotiations Act, organizational conflicts of interest rules)",
+    "Classified information and national security clearance requirements",
+    "FedRAMP, IL2, IL4, IL5, IL6 authorization requirements",
+    "Foreign data transfer restrictions and adequacy decisions",
+    "Encryption technology export/import regulations",
+    "AI ethics and governance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Palestinian territories",
+      "Belarus",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict and related economic sanctions against Russia and Belarus",
+      "Export control restrictions against Russia, Belarus, and certain regions of Ukraine",
+      "Potential wider sanctions if Russia-Ukraine conflict escalates",
+      "Iran sanctions compliance requirements",
+      "Risk of being denied export privileges or subjected to fines for sanctions violations",
+      "Restrictions on technology transfer to sanctioned countries",
+      "Potential sanctions on customers or partners in high-risk jurisdictions"
+    ]
+  }
+}

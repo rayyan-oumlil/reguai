@@ -1,0 +1,127 @@
+{
+  "ticker": "AJG",
+  "company_name": "Arthur J. Gallagher & Co.",
+  "company_type": "Insurance Brokerage and Risk Management Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "Bermuda",
+      "Europe",
+      "Caribbean",
+      "Latin America",
+      "Middle East",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "Bermuda",
+      "Gibraltar",
+      "Guernsey",
+      "Isle of Man",
+      "Malta",
+      "Ireland",
+      "India",
+      "Norway",
+      "Singapore",
+      "Jamaica",
+      "Mexico",
+      "Czech Republic",
+      "China",
+      "Russia",
+      "Pakistan",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Brokerage",
+    "Risk Management",
+    "Corporate",
+    "Retail Insurance Brokerage",
+    "Wholesale Insurance Brokerage",
+    "Global Reinsurance Brokerage (Gallagher Re)",
+    "International Brokerage",
+    "Employee Benefit Consulting",
+    "Third-Party Claims Administration"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "RISX-FACS proprietary risk management information system for claims administration",
+      "Third-party vendors for technology and cloud services",
+      "Substantial operations in India providing client support and services",
+      "Underwriting enterprises for insurance placement capacity"
+    ],
+    "risks": [
+      "Disruption to RISX-FACS system could materially affect claims administration operations",
+      "Dependence on third-party cloud services and vendors for IT infrastructure",
+      "Concentration of operations in India exposed to geopolitical risks (India-Pakistan Kashmir dispute, India-China tensions, terrorism)",
+      "Reliance on underwriting enterprises for risk-taking capital capacity",
+      "Cybersecurity incidents affecting third-party vendors",
+      "Integration risks from acquisitions affecting technology systems"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "SEC, NYSE, DOJ, IRS, FTC, FINRA, Financial Crimes Enforcement Network regulations in the U.S.",
+    "Financial Conduct Authority (FCA) regulations in the U.K.",
+    "Australian Securities and Investments Commission (ASIC) regulations",
+    "Insurance regulators in nearly every jurisdiction of operation",
+    "Pension law and financial regulation in multiple countries",
+    "Cybersecurity and data privacy regulations (GDPR, CCPA, state-level privacy laws)",
+    "AI regulations (EU AI Act, emerging U.S. and global AI laws)",
+    "Climate-related disclosure regulations (CSRD, ESRS, TCFD, ISSB, California climate disclosure rules)",
+    "FCPA and U.K. Bribery Act 2010 anti-corruption compliance",
+    "FATCA (Foreign Account Tax Compliance Act) requirements",
+    "International sanctions laws (U.S., U.K., EU)",
+    "OECD Pillar 2 global minimum corporate tax (15% rate)",
+    "Bermuda corporate income tax regime (effective 2025)",
+    "State restrictions on non-compete agreements (Minnesota, North Dakota, Oklahoma, California, FTC ban)",
+    "IRS investigation of IRC 831(b) micro-captive advisory services (promoter investigation since 2013)",
+    "Compensation method regulations for insurance brokers",
+    "Licensing requirements across multiple jurisdictions",
+    "Employment and labor relations laws globally",
+    "Competition and antitrust laws",
+    "Currency and foreign exchange regulations",
+    "China blocking statute requiring compliance with Chinese laws conflicting with U.S. laws",
+    "Increased scrutiny of offshore labor centers (India operations)",
+    "DOJ Corporate Criminal Enforcement Policies on personal devices and third-party messaging apps",
+    "New York State Department of Financial Services Cybersecurity Regulation",
+    "Sustainability and ESG disclosure requirements (varying by jurisdiction)",
+    "Anti-ESG backlash and related legal risks"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "Middle East (unspecified countries)",
+      "China",
+      "India",
+      "Pakistan",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Armed conflicts in Ukraine and Middle East increasing sanctions laws and compliance complexity",
+      "Heightened cybersecurity attack risks due to Ukraine and Middle East conflicts",
+      "U.S., U.K., and EU sanctions laws restricting trade with designated governments and parties",
+      "Risk of violations of sanctions laws by employees or third parties in international operations",
+      "Potential for asset freezing under sanctions regimes",
+      "New sanctions laws resulting from armed conflicts affecting business operations",
+      "Compliance with conflicting sanctions laws across jurisdictions (U.S., U.K., EU)",
+      "Reputational and financial penalties for sanctions violations"
+    ]
+  }
+}

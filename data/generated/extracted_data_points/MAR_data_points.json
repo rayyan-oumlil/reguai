@@ -1,0 +1,117 @@
+{
+  "ticker": "MAR",
+  "company_name": "Marriott International, Inc.",
+  "company_type": "Hospitality - Hotel Management, Franchising & Licensing",
+  "geography": {
+    "regions": [
+      "U.S. & Canada",
+      "Europe, Middle East & Africa (EMEA)",
+      "Greater China",
+      "Asia Pacific excluding China (APEC)",
+      "Caribbean & Latin America (CALA)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Egypt",
+      "South Africa",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "Singapore",
+      "Thailand",
+      "Indonesia",
+      "South Korea",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Colombia",
+      "Jamaica",
+      "Bahamas"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "U.S. & Canada": 0.742,
+      "International": 0.258
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. & Canada",
+    "Europe, Middle East & Africa (EMEA)",
+    "Greater China",
+    "Asia Pacific excluding China (APEC)",
+    "Caribbean & Latin America (CALA)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Hotel owners for property development and operations",
+      "Third-party franchisees and licensees for brand operations",
+      "Co-branded credit card partners (JPMorgan Chase, American Express) for Loyalty Program funding",
+      "Technology service providers for reservation and property management systems",
+      "Centralized programs and services providers (marketing, reservations, IT infrastructure)"
+    ],
+    "risks": [
+      "Dependence on hotel owners' ability to obtain financing for property development and renovations",
+      "Reliance on third-party hotel owners and franchisees for brand standards compliance",
+      "Concentration of incentive management fees from International managed hotels (67% in 2024)",
+      "Dependence on co-branded credit card agreements for Loyalty Program funding",
+      "Reliance on third-party service providers for technology systems and cybersecurity",
+      "Supply chain disruptions from natural disasters and extreme weather events"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Employment practices regulations (labor laws, collective bargaining, wage requirements)",
+    "Marketing and advertising regulations (consumer protection, data privacy in marketing)",
+    "Consumer protection laws (pricing transparency, guest rights)",
+    "Trade and economic sanctions (U.S. sanctions on countries like Iran, Russia, Cuba)",
+    "Anti-bribery, anti-corruption, and anti-money laundering laws (FCPA, UK Bribery Act)",
+    "Intellectual property regulations (trademark protection, licensing requirements)",
+    "Cybersecurity and data privacy laws (GDPR in EU, CCPA in California, data localization requirements)",
+    "Data transfer restrictions (cross-border data flow regulations)",
+    "Competition and antitrust regulations",
+    "Climate and environmental regulations (emissions reduction targets, sustainability reporting)",
+    "Health, safety, and accessibility regulations (building codes, ADA compliance, food safety)",
+    "Liquor sales regulations (licensing requirements by jurisdiction)",
+    "Franchise disclosure and registration laws (FTC Franchise Rule, state franchise laws)",
+    "Credit card product regulations (consumer financial protection laws)",
+    "Data Security Incident regulatory resolutions (FTC and 49 state AG settlements with ongoing compliance requirements)",
+    "New or changing tax laws and interpretations (transfer pricing, digital services taxes)",
+    "Labor regulation changes (unionization requirements, work rules)",
+    "Insurance and self-insurance regulatory requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Cuba"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. trade and economic sanctions compliance (Iran, Russia, Cuba, other sanctioned countries)",
+      "Risk of operations being impacted by sanctions on countries where hotels operate",
+      "Potential for increased sanctions affecting hotel operations and development",
+      "Compliance costs and operational constraints from evolving sanctions regimes"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. & Canada": 0.742,
+    "EMEA": 0.096,
+    "Greater China": 0.023,
+    "APEC": 0.039,
+    "Unallocated corporate and other": 0.1
+  }
+}

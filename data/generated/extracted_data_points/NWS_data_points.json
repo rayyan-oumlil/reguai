@@ -1,0 +1,114 @@
+{
+  "ticker": "NWS",
+  "company_name": "News Corporation",
+  "company_type": "Media and Information Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Canada",
+      "Germany",
+      "India",
+      "Hong Kong",
+      "Ireland",
+      "Scotland",
+      "England",
+      "New Zealand",
+      "Papua New Guinea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Dow Jones",
+    "Digital Real Estate Services",
+    "Book Publishing",
+    "News Media"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services",
+      "Google",
+      "DMG Media"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "Australia"
+    ],
+    "dependencies": [
+      "Single or limited number of suppliers for certain products, services, data and information",
+      "Amazon Web Services for cloud-based services",
+      "Google for workspace and enterprise services",
+      "Third-party suppliers for paper deliveries",
+      "Third-party printing and distribution partners for books and newspapers",
+      "Content suppliers for data and information"
+    ],
+    "risks": [
+      "Reductions, interruptions or other issues affecting supply from single or limited suppliers",
+      "Significant increase in price from key suppliers",
+      "Supplier consolidation reducing number of providers and increasing leverage",
+      "Cybersecurity incidents, data center or systems outages at suppliers",
+      "Labor shortages, insufficient capacity and supply chain issues",
+      "Supplier breach or termination of agreements",
+      "Inflationary pressures, labor shortages, higher transportation costs and delays",
+      "Supply chain disruptions affecting paper and printing/distribution",
+      "Closure or conversion of newsprint mills",
+      "Consolidation among suppliers and partners",
+      "Natural disasters, extreme weather, pandemics affecting supply chain",
+      "Tariffs or other changes in trade policy affecting paper and supplies"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU Benchmarks Regulation (EU BMR) for OPIS price assessments",
+    "Data privacy laws including GDPR (EU), UK GDPR, CCPA (California), state data privacy laws in US",
+    "Children's Online Privacy Protection Act (COPPA)",
+    "California Age Appropriate Design Code (CAADC)",
+    "New York Child Data Protection Act",
+    "US Department of Justice data regulations restricting data transfer to countries of concern",
+    "UK Data (Use and Access) Act 2025 (DUA Act)",
+    "Privacy and Electronic Communications Regulations 2003 (PECR) in UK",
+    "Australia Privacy Act 1988 and Australian Privacy Principles (APPs)",
+    "Privacy and Other Legislation Amendment Bill 2024 in Australia",
+    "UK Press Recognition Panel and IPSO regulation",
+    "UK Digital Markets, Competition and Consumers Act 2024 restricting foreign ownership of newspapers",
+    "UK Communications Act 2003 and Broadcasting Code for radio stations",
+    "Ofcom regulation for radio and on-demand services in UK",
+    "Antitrust and competition laws in various jurisdictions",
+    "Intellectual property laws and regulations, including AI-related regulations",
+    "Tax laws and regulations in US and international jurisdictions including OECD Pillar 2 global minimum tax",
+    "Digital services taxes in certain jurisdictions",
+    "Trade restrictions, tariffs, and economic sanctions",
+    "Foreign Corrupt Practices Act and UK Bribery Act",
+    "ESG-related laws and regulations including anti-ESG and anti-DEI legislation",
+    "AI-focused consumer protection and data privacy laws",
+    "Employment and labor laws",
+    "Environmental regulations including EU Deforestation Regulation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with economic sanctions and trade restrictions",
+      "US sanctions affecting business operations",
+      "Restrictions on access by and transfer of sensitive personal data to countries of concern",
+      "Geopolitical tensions and conflicts affecting operations",
+      "Retaliatory actions by foreign governments including censorship, barring or detention of journalists"
+    ]
+  }
+}

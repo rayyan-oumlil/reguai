@@ -1,0 +1,141 @@
+{
+  "ticker": "LULU",
+  "company_name": "lululemon athletica inc.",
+  "company_type": "Technical Athletic Apparel, Footwear, and Accessories Retailer",
+  "geography": {
+    "regions": [
+      "Americas",
+      "China Mainland",
+      "Asia Pacific (APAC)",
+      "Europe and the Middle East (EMEA)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Hong Kong SAR",
+      "Taiwan",
+      "Macau SAR",
+      "Australia",
+      "South Korea",
+      "Japan",
+      "New Zealand",
+      "Singapore",
+      "Malaysia",
+      "Thailand",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Ireland",
+      "Spain",
+      "Netherlands",
+      "Sweden",
+      "Norway",
+      "Switzerland",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "Qatar",
+      "Kuwait",
+      "Bahrain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.749,
+      "China Mainland": 0.129,
+      "Rest of World": 0.123
+    },
+    "assets_by_region": {
+      "United States": 0.559,
+      "Canada": 0.211,
+      "People's Republic of China": 0.102,
+      "Other geographic areas": 0.127
+    }
+  },
+  "segments": [
+    "Americas",
+    "China Mainland",
+    "Rest of World"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Vietnam manufacturers (40% of products)",
+      "Bangladesh manufacturers (7% of products)",
+      "Cambodia manufacturers (17% of products)",
+      "South Korea fabric suppliers (11% of fabrics)",
+      "Indonesia manufacturers (11% of products)",
+      "Sri Lanka manufacturers (11% of products)",
+      "China Mainland fabric suppliers (28% of fabrics)",
+      "Taiwan fabric suppliers (35% of fabrics)"
+    ],
+    "manufacturing_locations": [
+      "Vietnam",
+      "Cambodia",
+      "Sri Lanka",
+      "Indonesia",
+      "Bangladesh",
+      "Taiwan",
+      "China Mainland",
+      "South Korea"
+    ],
+    "dependencies": "The Company relies on a limited number of suppliers to provide fabrics and manufacture products. Approximately 49% of products were manufactured by top five vendors, with the largest producing 15%. Approximately 52% of fabrics were produced by top five fabric suppliers, with the largest producing 18%. The Company has no long-term contracts with the majority of suppliers or manufacturing sources.",
+    "risks": [
+      "Disruption of supply chain due to trade restrictions, political instability, severe weather, natural disasters, public health crises, war, terrorism, product recalls, labor supply shortages or stoppages",
+      "Financial or operational instability of key suppliers and carriers",
+      "Changes in diplomatic or trade relationships including sanctions and restrictions related to geopolitical events",
+      "Concentration risk with limited number of vendors and fabric suppliers",
+      "Delays in production and shipments due to overseas sourcing and manufacturing",
+      "Increased costs due to inflationary pressures, macroeconomic conditions, reduced freight availability, port disruption, manufacturing facility closures, labor shortages",
+      "Inability to locate alternative suppliers of comparable quality at acceptable price",
+      "Supplier non-compliance with Vendor Code of Ethics or applicable laws",
+      "Fluctuating cost of raw materials including petroleum-based products, silver, cotton",
+      "Increasing labor costs in South Asia and South East Asia",
+      "Imposition of trade sanctions or loss of normal trade relations status with manufacturing countries"
+    ],
+    "supplier_concentration": {
+      "Top 5 manufacturers": 0.49,
+      "Largest manufacturer": 0.15,
+      "Top 5 fabric suppliers": 0.52,
+      "Largest fabric supplier": 0.18
+    }
+  },
+  "regulatory_risks": [
+    "Compliance with extensive regulations by Federal Trade Commission, Consumer Product Safety Commission, state attorneys general in the United States, Competition Bureau and Health Canada in Canada, State Administration for Market Regulation of the PRC, General Administration of Customs of the PRC, and other federal, state, provincial, local, and international regulatory authorities",
+    "Labeling, distribution, importation, marketing, and sale of products including chemicals subject to extensive regulation",
+    "Enforcement actions, imposition of significant penalties or claims for non-compliance",
+    "Adoption of new regulations or changes in interpretation of existing regulations resulting in significant compliance costs or discontinuation of product sales",
+    "Compliance with U.S. Foreign Corrupt Practices Act (FCPA) and other anti-bribery laws",
+    "Conflicting laws across multiple jurisdictions leading to non-compliance",
+    "Complex employee regulations in international expansion",
+    "Privacy and data protection laws including GDPR (European Union), PIPEDA (Canada), CCPA/CPRA (California), PIPL (People's Republic of China)",
+    "Prohibition of transfer of personal information to certain jurisdictions",
+    "Regulatory enforcement activity, fines, private litigation including class actions for privacy breaches",
+    "Uyghur Forced Labor Prevention Act and similar legislation leading to greater supply chain compliance costs and delays",
+    "New trade restrictions, quotas, duties, tariffs, or other restrictions or regulations",
+    "Changes to de minimis thresholds",
+    "Audits or disputes regarding trade restrictions with adverse effect on financial statements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions against the PRC",
+      "Tariffs imposed by the United States and the PRC",
+      "Possibility of additional tariffs or other trade restrictions",
+      "Changes in diplomatic or trade relationships including sanctions, restrictions, and other responses related to geopolitical events",
+      "Activism related to geopolitical conflict between the PRC and other countries",
+      "Political unrest and turmoil related to current geopolitical events and related sanctions, restrictions, or other responses negatively impacting guests, employees, consumer spending"
+    ]
+  },
+  "revenue_by_segment": {
+    "Women's product": 0.632,
+    "Men's product": 0.242,
+    "Other categories": 0.126
+  }
+}

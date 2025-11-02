@@ -1,0 +1,128 @@
+{
+  "ticker": "A",
+  "company_name": "Agilent Technologies, Inc.",
+  "company_type": "Life Sciences, Diagnostics and Applied Chemical Markets",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "Italy",
+      "Netherlands",
+      "Belgium",
+      "Denmark",
+      "France",
+      "Spain",
+      "Switzerland",
+      "China",
+      "Hong Kong",
+      "Japan",
+      "Singapore",
+      "Malaysia",
+      "Australia",
+      "India",
+      "South Korea",
+      "Taiwan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.395,
+      "Europe": 0.272,
+      "Asia Pacific": 0.333
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Life Sciences and Applied Markets",
+    "Diagnostics and Genomics",
+    "Agilent CrossLab"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "California",
+      "Colorado",
+      "Delaware",
+      "Massachusetts",
+      "Texas",
+      "Vermont",
+      "Rhode Island",
+      "Iowa",
+      "Australia",
+      "Canada",
+      "China",
+      "Denmark",
+      "Germany",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Netherlands",
+      "Singapore",
+      "United Kingdom",
+      "Belgium"
+    ],
+    "dependencies": [
+      "Parts requiring custom design work are not readily available from alternate suppliers due to unique design or length of time necessary for design work",
+      "Dependence on contract manufacturers and outsourcing portions of supply chain including logistics and third-party package delivery services",
+      "Some parts may experience shortages, extended lead times, limited supplies or increased prices due to capacity constraints"
+    ],
+    "risks": [
+      "Manufacturing capacity may not match demand for products",
+      "Contract manufacturers may fail to perform obligations in timely manner or at satisfactory quality levels",
+      "Disruptions in third-party package delivery or logistics providers",
+      "Supply chain disruptions from catastrophic events (fire, flood, terrorism, public health crises, extreme weather, earthquakes)",
+      "Supplier discontinuation of parts requiring product re-engineering",
+      "Excess manufacturing capacity during economic downturns affecting margins"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations and similar foreign regulatory agency requirements for products and services",
+    "EU In Vitro Diagnostic Regulation (EU IVDR) with stricter requirements effective May 2022",
+    "Government contracting laws and regulations compliance",
+    "U.S. Foreign Corrupt Practices Act and U.K. Bribery Act anti-corruption requirements",
+    "Data privacy and security laws including EU GDPR, Brazil's Lei Geral de Protecao de Dados, China's Personal Information Protection Law and Data Security Law, California Consumer Privacy Act",
+    "Environmental protection and health and safety laws and regulations",
+    "Toxic Substances Control Act (TSCA) regulations by U.S. EPA",
+    "Import/export controls and trade restrictions",
+    "Anti-competition regulations",
+    "Sanctions imposed by U.S. Office of Foreign Assets Control",
+    "Employment, labor and immigration regulations",
+    "Product content and packaging requirements",
+    "Forced labor laws in various jurisdictions",
+    "SEC Final Rule on Cybersecurity Risk Management, Strategy, Governance and Incident Disclosure",
+    "EU's NIS2 Directive on cybersecurity",
+    "OECD Pillar Two rules establishing global minimum tax rate of 15 percent"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed by U.S. Office of Foreign Assets Control and similar laws",
+      "Trade embargoes and sanctions as trade barriers",
+      "Tariffs enacted by U.S. government on various imports from China",
+      "Tariffs imposed by Chinese government on certain U.S. goods",
+      "Potential escalation of trade war and retaliatory measures",
+      "Uncertainties and instability caused by conflicts in Ukraine/Russia and Middle East",
+      "Political and trade uncertainties in greater China region"
+    ]
+  },
+  "revenue_by_segment": {
+    "Life Sciences and Applied Markets": 0.494,
+    "Diagnostics and Genomics": 0.254,
+    "Agilent CrossLab": 0.252
+  }
+}

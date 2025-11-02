@@ -1,0 +1,75 @@
+{
+  "ticker": "L",
+  "company_name": "Loews Corporation",
+  "company_type": "Diversified Holding Company",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Continental Europe",
+      "Bermuda",
+      "Luxembourg"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Luxembourg",
+      "Bermuda"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "CNA Financial Corporation (Commercial Property and Casualty Insurance)",
+    "Boardwalk Pipeline Partners, LP (Natural Gas and NGLs Transportation and Storage)",
+    "Loews Hotels Holding Corporation (Hotel Operations)",
+    "Corporate (including Altium Packaging LLC equity investment)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "CNA relies on third-party claims administrators for long-term care claims handling and policy services. Boardwalk Pipelines depends on pipeline infrastructure and equipment suppliers. Loews Hotels & Co depends on construction contractors, suppliers of furniture, fixtures, equipment, food and beverage, and commodities.",
+    "risks": "Disruptions or delays in supply chain for goods and materials used for hotel development, renovations and operations. Boardwalk Pipelines faces risks from potential tariffs impacting pricing and availability of materials with suppliers. CNA faces risks if third-party claims administrators fail to properly perform service functions. Potential loss of key vendor relationships or issues transitioning vendor relationships.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive state, local, federal and foreign governmental regulations restricting CNA's ability to do business and generate revenues",
+    "Insurance holding company laws limiting CNA's insurance subsidiaries' ability to pay dividends",
+    "Risk-based capital (RBC) requirements for CNA's insurance subsidiaries",
+    "FERC regulation of Boardwalk Pipelines' interstate natural gas transmission and storage operations under the Natural Gas Act and Natural Gas Policy Act",
+    "PHMSA regulation under the Natural Gas Pipeline Safety Act and Hazardous Liquids Pipeline Safety Act governing pipeline design, construction, operation and integrity management",
+    "Pipeline Safety legislative acts (2011, 2016, 2020) imposing increased pipeline safety requirements and potential for new regulations",
+    "Environmental regulations including Clean Water Act, Clean Air Act, EPA methane emissions rules (OOOOb and OOOOc)",
+    "Climate change regulations including potential cap-and-trade programs, carbon taxes, GHG reporting requirements, and methane emissions fees under the Inflation Reduction Act",
+    "NEPA (National Environmental Policy Act) requirements and potential changes to CEQ regulations",
+    "State insurance guaranty fund and insurance-related assessments",
+    "Terrorism Risk Insurance Program Reauthorization Act (TRIPRA) coverage limitations and potential changes",
+    "Federal financial services reforms and tax reforms affecting insurance industry",
+    "Solvency II capital adequacy regulations for CNA's European operations",
+    "IAIS Common Framework (ComFrame) for supervision of Internationally Active Insurance Groups",
+    "NAIC Group Capital Calculation (GCC) and Aggregation Method (AM) for group capital regulation",
+    "TSA cybersecurity security directives for pipeline owners and operators",
+    "SEC cybersecurity disclosure requirements",
+    "Data protection and privacy laws affecting CNA's customer and employee information",
+    "Compliance with environmental laws relating to discharge of substances, disposal of hazardous wastes, and protection of the environment",
+    "Occupational health and safety regulations",
+    "Potential federal legislation amending Section 5 of the Natural Gas Act to add refund provisions",
+    "Clean Water Act Section 404 Nationwide Permit 12 and Section 401 certification process uncertainties",
+    "Waters of the United States (WOTUS) jurisdictional reach uncertainties under the Clean Water Act",
+    "Increasing ESG-related regulatory scrutiny and disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "CNA's reinsurance coverage for unconventional terrorism events (nuclear, biological, chemical, radiological attacks) is limited",
+      "TRIPRA provides government backstop for terrorism losses but with mandatory deductible and limitations",
+      "Potential impact of tariffs imposed by the U.S. and retaliatory tariffs on claim costs and operations",
+      "Boardwalk Pipelines faces potential pricing and availability impacts from trade tariffs on materials from suppliers"
+    ]
+  }
+}

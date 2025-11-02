@@ -1,0 +1,94 @@
+{
+  "ticker": "TPR",
+  "company_name": "Tapestry, Inc.",
+  "company_type": "Accessories and Lifestyle Brands",
+  "geography": {
+    "regions": [
+      "North America",
+      "Greater China",
+      "Other Asia",
+      "Europe",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Taiwan",
+      "Hong Kong SAR",
+      "Macao SAR",
+      "Japan",
+      "Malaysia",
+      "Australia",
+      "South Korea",
+      "Singapore",
+      "United Kingdom",
+      "Netherlands",
+      "Spain",
+      "Vietnam",
+      "Cambodia",
+      "Philippines",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Coach",
+    "Kate Spade",
+    "Stuart Weitzman"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Vietnam",
+      "Cambodia",
+      "Philippines",
+      "India",
+      "China",
+      "Spain"
+    ],
+    "dependencies": "The Company requires independent manufacturers to operate in compliance with applicable laws and regulations, as well as the Company's Supplier Code of Conduct. The Company does not control these manufacturers or suppliers or their labor, environmental or other business practices.",
+    "risks": "Disruptions or delays in shipments due to port congestion, logistics carrier disruption, militant attacks on commercial shipping vessels in the Red Sea, shipping capacity constraints; loss or disruption of key manufacturing or fulfillment sites; imposition of additional duties, taxes and other charges or restrictions on imports or exports; unavailability or significant fluctuations in the cost of raw materials; compliance by independent manufacturers and suppliers with labor laws and other foreign governmental regulations; increases in the cost of labor, fuel, travel and transportation; compliance with Global Business Integrity Program; compliance with Supplier Code of Conduct; regulation or prohibition of transaction of business with specific individuals or entities by government or regulatory authority; inability to engage new independent manufacturers; product quality issues; political unrest, protests and civil disruption; public health crises; natural disasters or extreme weather events; acts of war or terrorism",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes to international trade agreements and imposition of additional tariffs on importing products",
+    "Compliance with U.S. Customs and Border Protection enforcement actions",
+    "Compliance with Foreign Corrupt Practices Act (FCPA)",
+    "Compliance with U.K. Bribery Act and other global anti-corruption laws",
+    "Compliance with laws regarding identification and reporting on the use of conflict minerals sourced from the Democratic Republic of the Congo",
+    "Compliance with U.S. and international regulations regarding sourcing of materials",
+    "Regulation or prohibition of transaction of business with Specially Designated Nationals or Blocked Persons by U.S. Department of the Treasury's Office of Foreign Assets Control or other sanctions regimes",
+    "Compliance with labor laws governing relationships with employees, including minimum wage requirements, overtime, working conditions and citizenship requirements",
+    "Compliance with General Data Protection Regulation (GDPR) in the E.U.",
+    "Compliance with UK GDPR",
+    "Compliance with California Consumer Privacy Act (CCPA) as amended by California Privacy Rights Act (CPRA)",
+    "Compliance with Virginia Consumer Data Protection Act (VCDPA)",
+    "Compliance with Colorado Privacy Act (CPA)",
+    "Compliance with Utah Consumer Privacy Act (UCPA)",
+    "Compliance with Connecticut Data Privacy Act (CTDPA)",
+    "Compliance with Montana Consumer Data Privacy Act (MCDPA)",
+    "Compliance with Washington My Health My Data Act (WMHMDA)",
+    "Compliance with Florida Digital Bill of Rights (FDBR)",
+    "Compliance with Texas Data Privacy and Security Act (TDPSA)",
+    "Changes to tax legislation including Corporate Alternative Minimum Tax (CAMT)",
+    "Implementation of Global Anti-Base Erosion Rules (GloBE) and Qualifying Domestic Minimum Top-Up Tax (QDMTT)",
+    "Compliance with climate change and environmental legislation",
+    "Compliance with product safety regulations",
+    "Expanded disclosure requirements regarding GHG emissions and climate-related information"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Regulation or prohibition of transaction of business with specific individuals or entities and their affiliates or goods manufactured in certain regions by any government or regulatory authority",
+      "Listing of a person or entity as a Specially Designated National or Blocked Person by the U.S. Department of the Treasury's Office of Foreign Assets Control or other sanctions regimes"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "ticker": "NOC",
+  "company_name": "Northrop Grumman Corporation",
+  "company_type": "Aerospace and Defense Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "France",
+      "Germany",
+      "Italy",
+      "United Kingdom",
+      "Japan",
+      "Republic of Korea",
+      "Poland",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aeronautics Systems",
+    "Defense Systems",
+    "Mission Systems",
+    "Space Systems"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Australia"
+    ],
+    "dependencies": "The company relies on subcontractors and suppliers for raw materials, chemicals, parts, components, subsystems, hardware elements, sub-assemblies, software, intellectual property, and services. Disruptions or performance problems with suppliers can adversely affect ability to meet commitments to customers.",
+    "risks": "Supply chain challenges due to macroeconomic environment including inflation, labor shortages, supply chain disruptions, extended material lead times, microelectronics shortages, sole source suppliers, counterfeit parts risk, supplier financial viability, and inability to procure from certain sources due to regulatory restrictions",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Acquisition Regulation (FAR) and Cost Accounting Standards (CAS) compliance requirements",
+    "Export/import restrictions and sanctions",
+    "Suspension or debarment from government contracts",
+    "Defense Contract Audit Agency (DCAA) and Defense Contract Management Agency (DCMA) audits and reviews",
+    "Environmental laws and regulations including climate change regulations",
+    "Greenhouse gas emissions regulations",
+    "California and European Union climate risk reporting requirements",
+    "Federal Clean Air Act and Clean Water Act compliance",
+    "Cybersecurity and information security regulatory requirements",
+    "Data privacy and protection regulations",
+    "Intellectual property regulations",
+    "Competition law and antitrust regulations",
+    "Securities laws and SEC regulations",
+    "Nunn-McCurdy Act cost breach requirements",
+    "Public Law 85-804, 10 U.S.C. 3861 indemnification requirements",
+    "Price-Anderson Nuclear Industries Indemnity Act",
+    "NASA Space Act",
+    "Commercial Space Launch Act",
+    "Terrorism Risk Insurance Reauthorization Act",
+    "Pension Benefit Guaranty Corporation (PBGC) regulations",
+    "ERISA compliance",
+    "Tax regulations including IRC Section 174 and Section 451(b)",
+    "Pillar Two global minimum tax regulations",
+    "Foreign Corrupt Practices Act (FCPA)",
+    "International trade regulations and tariffs",
+    "Country-specific regulations in international markets",
+    "Counterfeit parts regulations",
+    "Nuclear-related operations regulations",
+    "Energetic materials and explosives regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Middle East region",
+      "Pacific region",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed in countries where company does business or seeks to do business",
+      "Export authorization restrictions",
+      "Impact of geopolitical conflicts on supply chain and operations",
+      "Restrictions on technology transfer",
+      "Foreign government subsidies to competitors creating unequal competition"
+    ]
+  }
+}

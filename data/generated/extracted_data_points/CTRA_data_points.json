@@ -1,0 +1,84 @@
+{
+  "ticker": "CTRA",
+  "company_name": "Coterra Energy Inc.",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "Permian Basin",
+      "Marcellus Shale",
+      "Anadarko Basin"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Permian Basin",
+    "Marcellus Shale",
+    "Anadarko Basin"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": [
+      "Availability of gathering, transportation and processing facilities",
+      "Third-party systems and facilities for oil, natural gas and NGL delivery",
+      "Water availability for hydraulic fracturing operations",
+      "Drilling rigs, completion crews and related equipment",
+      "Pipeline capacity constraints"
+    ],
+    "risks": [
+      "Lack of available capacity on gathering systems and pipelines could reduce prices or result in shut-in of producing wells",
+      "Third-party systems may be unavailable due to market conditions or mechanical reasons",
+      "Construction of new pipelines and infrastructure may be slow",
+      "Constrained pipeline capacity and oversupply in certain geographic areas resulting in negative spot market pricing (e.g., Waha Hub in Permian Basin)",
+      "Basis differentials becoming more divergent due to constrained pipeline capacity",
+      "Water sourcing limitations or restrictions could impact operations",
+      "Produced water disposal restrictions or moratoriums in areas of seismicity",
+      "Availability and cost of drilling rigs, fracturing crews and equipment",
+      "Service company pricing and availability",
+      "Electric grid outages impacting electric fracturing systems"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local laws and regulations related to oil and gas development and hydraulic fracturing",
+    "Environmental regulations including Clean Water Act, Clean Air Act, Safe Drinking Water Act, CERCLA (Superfund), Oil Pollution Act",
+    "Endangered Species Act restrictions on drilling activities",
+    "Greenhouse gas and climate change regulations including EPA methane rules and waste emission charges",
+    "State and local restrictions or bans on hydraulic fracturing",
+    "Permitting requirements and delays",
+    "Water withdrawal, storage and use regulations",
+    "Produced water disposal regulations",
+    "Air emissions control requirements including PSD and Title V permits",
+    "GHG monitoring and reporting requirements",
+    "Potential repeal of tax incentives (percentage depletion, intangible drilling cost deductions)",
+    "CFTC regulations on derivative transactions",
+    "FERC regulations on natural gas transportation and pipeline rates",
+    "Interstate Commerce Act regulations on crude oil and NGL transportation",
+    "Occupational Safety and Health Act requirements",
+    "Data protection and privacy laws",
+    "Climate-related disclosure mandates (e.g., California climate disclosure laws)",
+    "Potential LNG export restrictions or limitations",
+    "Cross default and acceleration provisions in debt agreements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "Middle East region"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Geopolitical disruptions such as war in Ukraine or conflict in the Middle East",
+      "Actions by OPEC+ members affecting oil supply and prices",
+      "Potential retaliatory tariffs impacting LNG exports (including China's LNG tariffs)"
+    ]
+  }
+}

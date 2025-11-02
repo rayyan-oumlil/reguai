@@ -1,0 +1,72 @@
+{
+  "ticker": "PAYC",
+  "company_name": "Paycom Software, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "North America",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Payroll",
+    "Talent Acquisition",
+    "Talent Management",
+    "HR Management",
+    "Time and Labor Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "The Bancorp Bank, N.A.",
+      "JPMorgan Chase Bank, N.A."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party couriers for payroll check delivery, financial institutions for ACH and wire transfers, third parties for technology and content support, time clock manufacturing, and background check processing",
+    "risks": "Third parties may not perform as expected, global economic slowdown could affect third-party providers, systemic shutdown of banking industry or Federal Reserve disruption would impede payroll services",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Fair Credit Reporting Act compliance for background checks",
+    "Federal government contracting regulations including equal employment opportunity requirements",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "Illinois Biometric Information Privacy Act (IBIPA)",
+    "European Union General Data Protection Regulation (GDPR)",
+    "Canadian Personal Information Protection and Electronic Documents Act (PIPEDA)",
+    "Mexico Federal Law on Protection of Personal Data",
+    "AI and machine learning regulatory restrictions (EU AI Act, Colorado Artificial Intelligence Act)",
+    "Anti-corruption and anti-money laundering laws",
+    "Economic and trade sanctions (U.S. Treasury OFAC)",
+    "Bank Secrecy Act and USA Patriot Act compliance",
+    "Money transmitter and money services business licensing requirements",
+    "Affordable Care Act (ACA) employer reporting requirements",
+    "State and federal employment laws (Fair Labor Standards Act, Family Medical Leave Act, etc.)",
+    "State consumer privacy laws (Texas Data Privacy and Security Act, New York SHIELD Act)",
+    "Ban the box and fair chance hiring laws",
+    "Sales and use tax regulations for services provided electronically",
+    "OCC regulation of Paycom National Trust Bank"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. Treasury OFAC sanctions compliance",
+      "Blocked countries and specially designated individuals restrictions",
+      "Geopolitical tensions (Russia-Ukraine conflict, Israel-Hamas conflict, China tensions) may create heightened cybersecurity attack risks"
+    ]
+  }
+}

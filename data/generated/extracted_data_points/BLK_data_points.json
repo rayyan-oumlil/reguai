@@ -1,0 +1,130 @@
+{
+  "ticker": "BLK",
+  "company_name": "BlackRock, Inc.",
+  "company_type": "Investment Management",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, the Middle East and Africa (EMEA)",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Colombia",
+      "Chile",
+      "Dominican Republic",
+      "Peru",
+      "United Kingdom",
+      "Luxembourg",
+      "Netherlands",
+      "Switzerland",
+      "Ireland",
+      "France",
+      "Germany",
+      "Jersey",
+      "Belgium",
+      "Italy",
+      "Spain",
+      "Dubai",
+      "Saudi Arabia",
+      "Japan",
+      "Hong Kong",
+      "Singapore",
+      "Australia",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "New Zealand",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Equity",
+    "Fixed Income",
+    "Multi-asset",
+    "Alternatives",
+    "Cash Management",
+    "Technology Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for cloud hosting and technologies supporting cloud-based operations",
+      "Third-party providers of technology solutions for Aladdin's data architecture",
+      "Third-party data providers for analytical inputs",
+      "Third-party pricing vendors for valuation of Level 3 assets",
+      "Index providers for ETF and index products",
+      "Asset servicers, custodians, fund administrators, transfer agents"
+    ],
+    "risks": [
+      "Failure of key third-party providers to fulfill obligations could disrupt operations",
+      "Concentration of third-party index providers limits renegotiation ability",
+      "Reliance on third-party cloud services introduces infrastructure reliability risks",
+      "Third-party data quality and availability risks for analytics",
+      "Operational errors or failures by third-party servicers",
+      "Limited alternative vendors for certain key services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Potential designation as Systemically Important Financial Institution (SIFI) by FSOC",
+    "SEC proposed rules on equity market structure reforms",
+    "SEC rules on short sales and securities loan reporting",
+    "SEC predictive data analytics rules for broker-dealers and investment advisers",
+    "FinCEN anti-money laundering requirements for registered investment advisers",
+    "EU Digital Operational Resilience Act (DORA) oversight of technology service providers",
+    "EU Retail Investment Strategy package amendments",
+    "EU EMIR 3.0 changes to clearing, margining and reporting requirements",
+    "UK Financial Services and Markets Act 2023 (FSMA) reforms",
+    "UK Overseas Fund Regime (OFR) equivalence requirements",
+    "UK FCA Consumer Duty conduct regulation",
+    "UK Stewardship Code review reforms",
+    "Global sustainability regulations (ISSB standards, SEC climate disclosure rules, EU CSRD, CSDDD, Taxonomy Regulation)",
+    "EU and UK ESG fund naming rules and ESG rating provider regulations",
+    "Money market fund reforms in US, UK and EU",
+    "Macroprudential policies for open-ended funds and asset managers",
+    "Antitrust rules and merger guidelines (FTC/DOJ Hart-Scott-Rodino amendments)",
+    "US DOL fiduciary rule redefining investment advice fiduciary under ERISA",
+    "SEC US Treasury clearing mandate",
+    "SEC Form PF enhanced reporting requirements",
+    "Financial transaction taxes (FTT) proposed in US and EU",
+    "OECD Pillar Two global minimum tax (15%) implemented in EU and UK",
+    "China data security and data transfer regulations",
+    "Privacy and data protection laws (GDPR, UK GDPR, CCPA, CPRA)",
+    "Bank Secrecy Act compliance and sanctions regulations (OFAC, UN, EU, HMT)",
+    "Securities lending indemnification obligations",
+    "Investment Company Act and Investment Advisers Act compliance",
+    "ERISA fiduciary duties and prohibited transactions",
+    "CFTC and NFA commodity pool operator regulations",
+    "OCC banking regulations for BlackRock Institutional Trust Company",
+    "Net capital requirements for broker-dealers and regulated subsidiaries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East (unspecified countries)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US Treasury OFAC sanctions compliance",
+      "UN and EU sanctions compliance",
+      "Strategic competition between US and China creating regulatory uncertainty",
+      "Trade tensions and tariff impacts on global markets",
+      "Ukraine-Russia conflict causing geopolitical instability",
+      "Middle East conflicts affecting global economy and markets",
+      "Sanctions on Russia impacting investments and operations",
+      "China regulatory scrutiny of technology and nationally important industries",
+      "Restrictions on business with certain individuals, countries or groups"
+    ]
+  }
+}

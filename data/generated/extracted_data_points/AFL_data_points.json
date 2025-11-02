@@ -1,0 +1,96 @@
+{
+  "ticker": "AFL",
+  "company_name": "Aflac Incorporated",
+  "company_type": "Insurance - Supplemental Health and Life Insurance",
+  "geography": {
+    "regions": [
+      "Asia Pacific",
+      "North America",
+      "Japan",
+      "Bermuda",
+      "United States"
+    ],
+    "countries": [
+      "Bermuda",
+      "United Kingdom",
+      "Japan",
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aflac Japan",
+    "Corporate and other",
+    "Aflac U.S."
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party vendors for business support services and functions",
+      "Information technology systems and third-party providers",
+      "Distribution partners including Japan Post Group, Dai-ichi Life, Daido Life",
+      "Independent sales associates and brokers",
+      "Asset managers for investment sourcing and management"
+    ],
+    "risks": [
+      "Vendor operations outside the U.S. subject to political and military events",
+      "Operational risks of third-party vendors",
+      "Dependence on third-party vendors for IT systems and business operations",
+      "Limited control over third-party vendor information systems and networks",
+      "Dependence on third-party technology service providers for critical IT infrastructure and policy administration systems",
+      "Disruption risk from vendor cybersecurity incidents or system failures",
+      "Risk of vendor failure to deliver contracted services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Policyholder protection requirements in Japan (LIPPC)",
+    "U.S. federal and state tax law changes affecting insurance operations",
+    "Guaranty fund assessments in U.S. states",
+    "Japan Financial Services Agency (FSA) regulatory oversight and solvency margin requirements",
+    "Compliance with insurance guaranty association laws across 50 U.S. states plus Puerto Rico and District of Columbia",
+    "State guaranty association laws",
+    "Extensive regulation by Financial Services Agency (FSA) in Japan",
+    "Investment Advisers Act of 1940 for asset management subsidiaries",
+    "U.S. state insurance regulatory changes and guaranty fund assessments",
+    "Bermuda Insurance Act and Bermuda Monetary Authority regulation for Aflac Re",
+    "Securities and Exchange Commission disclosure and reporting requirements",
+    "Cybersecurity regulations from NIST, CISA, NAIC Model Bulletin on AI",
+    "Japan solvency standards including Solvency Margin Ratio (SMR) and Insurance Capital Standards (ICS)",
+    "Potential changes to international tax regulations affecting cross-border operations",
+    "State insurance regulation in the U.S. by Nebraska Department of Insurance and New York State Department of Financial Services",
+    "Privacy regulations including GLBA, HIPAA, APPI (Japan), CCPA, CPRA, UK GDPR, UK DPA, state privacy laws",
+    "Climate change-related regulatory changes",
+    "NAIC Risk-Based Capital requirements and modernization initiatives",
+    "Companies Act of Japan governing dividend distributions",
+    "Worker classification regulations and potential misclassification claims",
+    "Bermuda Insurance Act compliance for Aflac Re (Bermuda Solvency Capital Requirement)",
+    "Changes in Japanese insurance regulations and solvency requirements (Economic Solvency Ratio framework to be introduced in 2025)",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "Risk-based capital (RBC) requirements for U.S. insurance entities",
+    "Changes in tax laws in U.S. and Japan",
+    "Federal Insurance Office (FIO) monitoring",
+    "Japan Financial Instruments and Exchange Act for AAMJ",
+    "Patient Protection and Affordable Care Act (ACA) federal health care reform",
+    "NAIC statutory accounting practice changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Japan",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade restrictions driven by security concerns",
+      "Impact of armed conflicts in Ukraine and Middle East on commodity prices and market volatility",
+      "Sanctions compliance requirements",
+      "Trade tariffs and retaliatory tariffs from new U.S. administration policies"
+    ]
+  }
+}

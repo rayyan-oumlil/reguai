@@ -1,0 +1,94 @@
+{
+  "ticker": "MRNA",
+  "company_name": "Moderna, Inc.",
+  "company_type": "Biotechnology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Rest of world",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Australia",
+      "Japan",
+      "Taiwan",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Belgium",
+      "Ireland",
+      "Netherlands",
+      "Panama",
+      "Brazil",
+      "China",
+      "India",
+      "Russia",
+      "Iran",
+      "Israel",
+      "Norway",
+      "Iceland",
+      "Liechtenstein"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Respiratory virus vaccines",
+    "Latent and other virus vaccines",
+    "Oncology therapeutics",
+    "Rare disease therapeutics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Australia",
+      "United Kingdom"
+    ],
+    "dependencies": "Single-source suppliers for some components and materials used in manufacturing processes; dependence on third-party contract manufacturing organizations (CMOs) for fill-finish and production; reliance on third-party service providers for raw materials, components, parts, and consumables",
+    "risks": "Disruptions from single-source suppliers; supply chain interruptions due to raw material shortages; delays from third-party manufacturers; geopolitical tensions affecting supply chain; concentration risk in certain suppliers; potential for counterfeiting and theft of inventory; reliance on third parties for quality testing and shipping",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval delays or denials for product candidates",
+    "Changes in regulatory requirements or interpretations by FDA, EMA, and other global regulators",
+    "Post-approval regulatory scrutiny and potential product recalls",
+    "Compliance with cGMP manufacturing requirements",
+    "Risk of clinical holds or termination of clinical trials by regulators",
+    "Classification of mRNA therapies as gene therapies leading to increased regulatory burdens",
+    "Potential for new legislation or regulations restricting mRNA medicines",
+    "Compliance with GDPR and data privacy regulations in EU and UK",
+    "Export control regulations and trade restrictions (e.g., Export Administration Regulations)",
+    "Compliance with anti-bribery laws (FCPA, UK Bribery Act)",
+    "Healthcare fraud and abuse laws (Anti-Kickback Statute, False Claims Act, HIPAA)",
+    "Pricing and reimbursement regulations (Medicare, Medicaid, Inflation Reduction Act)",
+    "Potential government march-in rights on patents developed under government funding",
+    "Regulatory changes from Loper Bright decision affecting agency deference",
+    "Compulsory licensing laws in foreign countries",
+    "Vaccine mandate policies and public health authority recommendations",
+    "Regulatory requirements for pediatric studies and data",
+    "Risk Evaluation and Mitigation Strategies (REMS) requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions against Russia impacting operations",
+      "Potential sanctions affecting export of mRNA technology to certain markets",
+      "Trade restrictions and tariffs impacting supply chain and costs",
+      "Geopolitical tensions (US-China, Middle East conflicts) affecting market access and operations"
+    ]
+  }
+}

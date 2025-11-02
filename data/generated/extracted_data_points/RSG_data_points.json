@@ -1,0 +1,77 @@
+{
+  "ticker": "RSG",
+  "company_name": "Republic Services, Inc.",
+  "company_type": "Environmental Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Group 1",
+    "Group 2",
+    "Group 3",
+    "Collection",
+    "Transfer",
+    "Landfill",
+    "Recycling",
+    "Environmental Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on fuel purchased in the open market",
+      "Dependence on petrochemical-based products for landfill operations",
+      "Reliance on third-party disposal facilities under put-or-pay agreements"
+    ],
+    "risks": [
+      "Fuel price volatility due to geopolitical developments and actions by OPEC",
+      "Supply chain disruption related to vehicles, trucks and mechanical/electrical components",
+      "Dependence on third-party disposal facilities with take-or-pay commitments",
+      "Petrochemical price increases affecting landfill liner costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with Resource Conservation and Recovery Act (RCRA) Subtitle C and D regulations",
+    "Compliance with Comprehensive Environmental Response, Compensation and Liability Act (CERCLA)",
+    "Compliance with Clean Water Act discharge permits and wetlands regulations",
+    "Compliance with Clean Air Act landfill gas emission regulations and greenhouse gas controls",
+    "Compliance with Occupational Safety and Health Act (OSHA) standards",
+    "State and local environmental regulations for landfill design, operation, closure and post-closure",
+    "Waste reduction and recycling mandates by states and municipalities",
+    "Extended producer responsibility regulations",
+    "Organic diversion regulations (e.g., California food waste rules)",
+    "Minimum recycled content regulations (e.g., California packaging requirements)",
+    "Flow control laws restricting waste transportation across jurisdictional boundaries",
+    "Renewable Fuel Standard (RFS) program regulations affecting landfill gas-to-energy projects",
+    "Regulation of PFAS and other chemicals of emerging concern",
+    "Limitations or bans on disposal of certain waste types",
+    "Canadian federal and provincial environmental regulations (CEPA, provincial acts)",
+    "Canadian Greenhouse Gas Pollution Pricing Act carbon pricing system",
+    "Proposed Canadian regulations to reduce methane emissions from landfills",
+    "Maritime regulations including Jones Act cabotage laws for vessel operations",
+    "International Ship and Port Facility Security Code (ISPS Code) compliance",
+    "United States Nuclear Regulatory Commission (USNRC) regulations for radioactive waste",
+    "Toxic Substances Control Act (TSCA) regulations for PCBs and asbestos",
+    "Surface Transportation Board and Federal Highway Administration regulations",
+    "Permit requirements subject to denial, revocation, modification and renewal",
+    "Climate-related disclosure requirements (SEC Final Rule 33-11275)",
+    "Corporate Alternative Minimum Tax (CAMT) proposed regulations affecting renewable energy investments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

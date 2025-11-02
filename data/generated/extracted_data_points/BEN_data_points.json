@@ -1,0 +1,115 @@
+{
+  "ticker": "BEN",
+  "company_name": "Franklin Resources, Inc.",
+  "company_type": "Investment Management and Financial Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe, Middle East and Africa",
+      "Asia-Pacific",
+      "Americas excluding United States",
+      "Latin America",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Luxembourg",
+      "Ireland",
+      "United Kingdom",
+      "Australia",
+      "Brazil",
+      "Canada",
+      "China",
+      "Commonwealth of The Bahamas",
+      "Hong Kong",
+      "India",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Saudi Arabia",
+      "Singapore",
+      "Switzerland",
+      "South Korea",
+      "United Arab Emirates",
+      "Germany",
+      "Poland",
+      "Scotland",
+      "Cayman Islands",
+      "Vietnam",
+      "Romania"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Equity",
+    "Fixed Income",
+    "Alternative",
+    "Multi-Asset",
+    "Cash Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party providers for administration, technology, transfer agency and other services",
+      "Third-party distribution and sales channels including broker-dealers, banks, investment advisers and financial intermediaries",
+      "Technology systems and cybersecurity infrastructure",
+      "Key personnel including portfolio managers and investment analysts"
+    ],
+    "risks": [
+      "Failure of third-party providers to fulfill obligations could adversely impact business",
+      "Cybersecurity incidents or breaches of third-party providers",
+      "Dependence on third-party distribution channels not controlled by the company",
+      "Consolidation in broker-dealer or banking industries could adversely impact revenues",
+      "Technology system failures or limitations could impede business management and growth",
+      "Loss of key personnel could cause loss of clients and affect operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation by SEC, FINRA, CFTC, DOL, USDT and other U.S. regulators",
+    "Subject to MiFID II regulations in Europe",
+    "AIFMD regulations for alternative investment fund managers in EU",
+    "UCITS regulations for investment funds in Luxembourg and Ireland",
+    "GDPR data protection requirements in EU",
+    "California Consumer Privacy Act and state privacy laws",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Sanctions programs by USDT Office of Foreign Assets Control",
+    "Anti-money laundering and anti-terrorist financing regulations",
+    "DOL fiduciary rule changes and ERISA requirements",
+    "SEC rules on fund names, cybersecurity disclosure, climate-related disclosure",
+    "Potential designation as SIFI or G-SIFI with additional supervision",
+    "FTC Hart-Scott-Rodino Act premerger notification requirements",
+    "Derivatives regulations and restrictions on use by funds",
+    "Money market fund reform requirements",
+    "ESG and sustainable investing regulatory scrutiny",
+    "State escheatment laws for unclaimed property",
+    "Complex tax regimes in multiple jurisdictions",
+    "Banking and trust company regulations for fiduciary subsidiaries",
+    "Inducements and commission payment restrictions in EU, UK, Netherlands",
+    "Investment research financing rule changes under MiFID II",
+    "Form PF reporting requirements for private fund advisers",
+    "QPAM exemption requirements under DOL rules",
+    "Ongoing investigations by SEC, CFTC, DOJ into Western Asset Management trading activities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries (unspecified)",
+      "China",
+      "Emerging market countries (general)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Subject to sanctions programs administered by USDT Office of Foreign Assets Control",
+      "Subject to sanctions programs in non-U.S. jurisdictions where services offered",
+      "Geopolitical risks from Ukraine-Russia war may impact global economy and financial markets",
+      "Middle East wars and conflicts may expand globally and impact markets",
+      "Emerging market portfolios subject to risks from political developments, currency fluctuations, social instability, nationalization, asset confiscation"
+    ]
+  }
+}

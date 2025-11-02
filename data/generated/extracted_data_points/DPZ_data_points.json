@@ -1,0 +1,99 @@
+{
+  "ticker": "DPZ",
+  "company_name": "Domino's Pizza, Inc.",
+  "company_type": "Quick Service Restaurant (QSR) - Pizza Delivery and Carryout",
+  "geography": {
+    "regions": [
+      "United States",
+      "International (over 90 markets)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "India",
+      "United Kingdom",
+      "China",
+      "Mexico",
+      "Japan",
+      "Australia",
+      "Turkey",
+      "South Korea",
+      "France",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. stores",
+    "International franchise",
+    "Supply chain"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Single supplier for U.S. pizza cheese (contract expires December 2029)",
+      "Single supplier for majority of U.S. meat toppings (contract expires December 2025)",
+      "Coca-Cola (exclusive beverage supplier, contract expires December 31, 2030)"
+    ],
+    "manufacturing_locations": [
+      "United States (22 regional dough manufacturing and supply chain centers, 2 thin crust facilities, 1 vegetable processing center)",
+      "Canada (5 regional dough manufacturing and supply chain centers)"
+    ],
+    "dependencies": [
+      "Single-source supplier for U.S. pizza cheese",
+      "Single-source supplier for majority of U.S. meat toppings",
+      "Cheese represents approximately 25% of food basket purchased by Company-owned stores",
+      "Reliance on third-party suppliers for ingredients meeting strict quality standards",
+      "Dependence on frequent deliveries of fresh food products"
+    ],
+    "risks": [
+      "Shortages, interruptions or disruptions in supply or delivery of fresh food products and store equipment",
+      "Increased demand, capacity constraints, expiration of existing agreements, problems in production or distribution, product recalls, financial or other difficulties of suppliers, inclement weather",
+      "Commodity price fluctuations (particularly cheese)",
+      "Inflation and increased food costs",
+      "Supply chain disruptions from capacity, volume, systems, staffing and operational challenges",
+      "Climate change effects on weather impacts and operations",
+      "Supplier concentration risk (single suppliers for key ingredients)",
+      "Need to replace suppliers if current agreements expire or suppliers fail to meet requirements"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Trade Commission (FTC) rules and state laws regulating franchise offer and sale",
+    "Fair Labor Standards Act and state/local laws on minimum wage, overtime, working conditions, citizenship requirements",
+    "Minimum wage increases (including California AB 1228 raising minimum wage for fast food chains effective April 1, 2024)",
+    "Predictive scheduling legislation",
+    "Joint employer liability under National Labor Relations Act (NLRA) and state wage/hour laws (including California AB-5)",
+    "Privacy and data protection laws (California Privacy Rights Act, New York SHIELD Act, state comprehensive data protection laws)",
+    "Payment Card Industry Data Security Standard (PCI DSS) compliance",
+    "Health, safety, sanitation, building, zoning, environmental protection regulations",
+    "Franchise relationship regulations (terminations, refusal to renew)",
+    "Antitrust laws (including claims against franchisors for no-poach clauses)",
+    "Patient Protection and Affordable Care Act (health insurance requirements)",
+    "Tax law changes and increases in enacted tax rates",
+    "Legislation or regulation taxing/regulating 'unhealthy' foods",
+    "Laws targeting hidden fees and advertising/marketing price disclosures (California, Minnesota)",
+    "Immigration and labor organization laws",
+    "Tariffs and trade barriers",
+    "Foreign investment regulations in international markets",
+    "National and local laws in international markets (similar to U.S. regulations)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Middle East (geopolitical tensions mentioned)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "National and international conflicts, sanctions, acts of war or terrorist acts",
+      "Increases in anti-American sentiment and identification of Domino's as an American brand (including due to geopolitical tensions in the Middle East)",
+      "Russia market: Master franchisee filed for bankruptcy in August 2023; no royalties received since Russian invasion of Ukraine in February 2022",
+      "Tariffs announced on February 1, 2025 on imports from Canada and Mexico; potential for retaliatory tariffs or trade policy changes",
+      "Expropriation of private enterprises in foreign markets",
+      "Foreign policy changes and geopolitical risk"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "ticker": "CHRW",
+  "company_name": "C.H. Robinson Worldwide, Inc.",
+  "company_type": "Global Logistics and Transportation Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Oceania",
+      "South America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "China",
+      "Singapore",
+      "Australia",
+      "Argentina",
+      "Poland",
+      "Luxembourg",
+      "Hong Kong",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.839,
+      "Other locations": 0.161
+    },
+    "assets_by_region": {
+      "United States": 0.755,
+      "Other locations": 0.245
+    }
+  },
+  "segments": [
+    "North American Surface Transportation (NAST)",
+    "Global Forwarding",
+    "Robinson Fresh",
+    "Managed Solutions",
+    "Europe Surface Transportation"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party transportation providers including contracted motor carriers, railroads, ocean carriers, and air carriers",
+      "Dependence on 450,000 transportation providers on platform",
+      "No ownership of transportation equipment - relies entirely on contracted capacity",
+      "Single-source dependencies on certain transportation modes in specific lanes"
+    ],
+    "risks": [
+      "Equipment and driver shortages in the transportation industry, particularly among contracted motor carriers",
+      "Disruption in the supply or cost of fuel",
+      "Reduction or deterioration in rail service",
+      "Geopolitical factors that may limit the availability of certain carriers",
+      "Port congestion and availability of transportation equipment",
+      "Labor shortages affecting transportation providers",
+      "Regulatory changes impacting transportation providers",
+      "Concentration risk - largest truck transportation provider less than 1% of total cost, but reliance on many small carriers (73% of truckload shipments from carriers with fewer than 100 trucks)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Department of Transportation (DOT) licensing and regulation as property freight broker",
+    "Federal Maritime Commission (FMC) regulation as ocean transportation intermediary (NVOCC and freight forwarder)",
+    "Transportation Security Administration (TSA) regulations for Indirect Air Carrier (IAC) operations",
+    "U.S. Customs and Border Protection (CBP) customs brokerage licensing and CTPAT certification requirements",
+    "U.S. Department of Agriculture (USDA) licensing under Perishable Agricultural Commodities Act (PACA)",
+    "Federal and state safety and environmental regulations affecting contracted motor carriers",
+    "State economic regulation of motor carriers and brokers (partially preempted by federal law)",
+    "Federal and state food and drug statutes and regulations for sourcing business",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and UK Bribery Act 2010 compliance",
+    "European General Data Protection Regulation (GDPR) and California Consumer Privacy Act data privacy requirements",
+    "U.S. Department of Homeland Security regulations for importers and ocean carriers",
+    "Environmental regulations protecting the environment, including transitional risks relating to climate change",
+    "Evolving transportation technology regulations",
+    "Climate-related disclosure requirements from regulators",
+    "OECD Pillar Two Model Rules - global minimum tax of 15% for multinational enterprises (effective 2024 in EU, expanding 2025)",
+    "Changes in tariffs, trade restrictions, and trade agreements",
+    "Sanctions compliance (Iran, Russia, other sanctioned countries)",
+    "Changes to income tax regulations in U.S. and international jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Argentina",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Red Sea conflict impacting ocean freight routes and causing carriers to avoid Suez Canal throughout 2024",
+      "Geopolitical factors limiting availability of certain carriers",
+      "Sanctions compliance requirements under FCPA and similar regulations",
+      "Argentina operations divested in 2023 due to deteriorating economic conditions and political instability",
+      "Foreign currency risk exposure including Chinese Yuan, Euro, Singapore Dollar, Mexican Peso, Hong Kong Dollar, Polish Zloty, Australian Dollar",
+      "Wars, civil unrest, acts of terrorism impacting operations",
+      "Changes in political conditions and governmental policies",
+      "International compliance risks in multiple jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "NAST": 0.661,
+    "Global Forwarding": 0.215,
+    "All Other and Corporate": 0.124
+  }
+}

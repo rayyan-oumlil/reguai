@@ -1,0 +1,79 @@
+{
+  "ticker": "O",
+  "company_name": "Realty Income Corporation",
+  "company_type": "Real Estate Investment Trust (REIT)",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Ireland",
+      "Italy",
+      "Portugal",
+      "Spain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.826,
+      "United Kingdom": 0.106,
+      "Other Europe": 0.025
+    },
+    "assets_by_region": {
+      "United States": 0.627,
+      "United Kingdom": 0.109,
+      "Other Europe": 0.023
+    }
+  },
+  "segments": [
+    "Retail",
+    "Industrial",
+    "Gaming",
+    "Office",
+    "Agriculture",
+    "Country Clubs",
+    "Data Centers"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on clients' ability to pay rent under long-term net lease agreements; reliance on third-party property managers for international properties",
+    "risks": "Client defaults or bankruptcies; supply chain disruptions affecting clients' operations; reliance on external property managers for international assets",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "REIT qualification requirements under Internal Revenue Code Sections 856-860",
+    "Changes in U.S. or non-U.S. tax laws and regulations",
+    "Complex and changing laws, regulations, policies, and executive orders (local, international, federal)",
+    "Environmental laws and regulations (hazardous substances, asbestos, air emissions, water discharges)",
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "Fire, safety, building codes, and land use regulations",
+    "Gaming regulatory authorities oversight (licensing, operations, compliance)",
+    "Climate change and environmental disclosure requirements (federal, state, international)",
+    "Data privacy laws and regulations",
+    "Anti-money laundering and anti-bribery/corruption laws",
+    "Foreign laws and regulations in international jurisdictions (U.K., Europe)",
+    "Sanctions restrictions",
+    "Income tax laws in international territories",
+    "U.K. government migration from Retail Price Index (RPI) to alternative inflation measures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Sanctions restrictions mentioned as regulatory risk",
+      "Compliance with sanctions as part of regulatory obligations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Retail": 0.761,
+    "Industrial": 0.151,
+    "Gaming": 0.03,
+    "Other": 0.027
+  }
+}

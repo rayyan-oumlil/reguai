@@ -1,0 +1,112 @@
+{
+  "ticker": "ALL",
+  "company_name": "The Allstate Corporation",
+  "company_type": "Insurance",
+  "geography": {
+    "regions": [
+      "North America",
+      "Canada",
+      "Europe",
+      "Asia",
+      "United States",
+      "Australia"
+    ],
+    "countries": [
+      "Mexico",
+      "Canada",
+      "Japan",
+      "India",
+      "United Kingdom",
+      "Europe (multiple countries mentioned for Allstate Protection Plans)",
+      "Europe",
+      "Northern Ireland",
+      "Asia",
+      "United States",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.96,
+      "Canada": 0.03,
+      "Other International": 0.01
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Protection Services",
+    "Corporate and Other",
+    "Run-off Property-Liability",
+    "Allstate Health and Benefits",
+    "Allstate Protection"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The company relies on services and products provided by many vendors in the U.S. and abroad, including vendors of computer hardware, software, cloud technology and software as a service, as well as vendors or outsourcing of services such as claim and administrative services, call center services, human resource benefits management, information technology support, investment management services, and financial and business support services.",
+    "risks": [
+      "Loss of key vendor relationships, disruptions to the provision of products or services by a vendor, a vendor's failure to restore critical services after a cybersecurity event, or failure of a vendor to provide and protect reliable data, and proprietary information, or personal information of customers, claimants or employees could adversely affect operations. Service providers and other vendors may also be subject to cybersecurity risks.",
+      "Exposure to catastrophic events including wind/hail, wildfires, tornadoes, hurricanes, tropical storms, earthquakes, severe freeze events, volcanic eruptions, terrorism and industrial accidents"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Potential changes to National Flood Insurance Program (NFIP) authorization and reforms",
+    "Investment regulation specifying types of investments and concentration limits",
+    "State insurance regulatory restrictions on dividend payments by insurance subsidiaries",
+    "SEC climate disclosure rules (currently stayed pending litigation)",
+    "OECD Pillar Two 15% global minimum tax requirements",
+    "Restrictions on exiting geographic markets and canceling/non-renewing policies",
+    "Inflation Reduction Act of 2022 including 15% corporate alternative minimum tax and 1% excise tax on stock repurchases",
+    "State insurance laws limiting underwriting discretion and pricing flexibility",
+    "State insurance guaranty fund assessments",
+    "Insurance holding company regulation and change of control approval requirements",
+    "Regulation Best Interest and state-level enhanced conduct standards for broker-dealers",
+    "New York State Department of Financial Services cybersecurity regulation amendments",
+    "Inflation Reduction Act of 2022 - 15% corporate alternative minimum tax (CAMT)",
+    "NAIC Insurance Data Security Model Law adopted by many states",
+    "Participation requirements in state-based industry pools (MCCA, PLIGA, NCRF, FHCF)",
+    "California Climate Corporate Data Accountability Act requiring greenhouse gas emissions disclosure",
+    "NAIC group capital calculation requirements",
+    "SEC and Financial Industry Regulatory Authority regulations",
+    "SEC proposed rules on cybersecurity risk management and disclosure",
+    "Risk-based capital (RBC) requirements imposed by state insurance regulators",
+    "Regulatory restrictions on dividend payments by insurance subsidiaries",
+    "Mandatory participation in assigned risk plans, reinsurance facilities, and joint underwriting associations",
+    "OECD Pillar Two Model Rules - 15% global minimum tax rate",
+    "Climate disclosure requirements from SEC",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act and Federal Insurance Office oversight",
+    "U.S. Department of Justice oversight",
+    "State insurance laws and regulations restricting premium rates and requiring premium refunds",
+    "Federal and state privacy and data security regulations including California Consumer Privacy Act and similar state laws",
+    "Potential federal measures changing state insurance regulatory framework",
+    "Federal and state regulations on cybersecurity and privacy",
+    "U.S. Equal Employment Opportunity Commission requirements",
+    "Regulatory restrictions on use of artificial intelligence in underwriting and rating",
+    "California Insurance Commissioner mandatory one-year moratorium on non-renewing or canceling residential insurance coverage in wildfire-affected zip codes",
+    "Rate regulation and prior approval requirements in multiple states limiting ability to adjust rates",
+    "Restrictions on cancellations and non-renewals for certain periods due to catastrophe events",
+    "Assessments from California FAIR Plan Association, Michigan Catastrophic Claims Association, New Jersey Property-Liability Insurance Guaranty Association, North Carolina Reinsurance Facility, and Florida Hurricane Catastrophe Fund",
+    "Comprehensive Environmental Response Compensation and Liability Act and state environmental clean-up laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Middle East (region)",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Protectionist trade policy actions including tariffs and quotas affecting economic conditions",
+      "Potential trade policy actions such as tariffs and quotas",
+      "Imposition of new or increased tariffs impacting claim severity and investment valuations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Allstate Protection": 0.84,
+    "Protection Services": 0.05,
+    "Allstate Health and Benefits": 0.04,
+    "Corporate and Other": 0.0,
+    "Run-off Property-Liability": 0.0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "ticker": "LYB",
+  "company_name": "LyondellBasell Industries N.V.",
+  "company_type": "Chemicals and Polymers Manufacturing",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Spain",
+      "Poland",
+      "Belgium",
+      "China",
+      "Hong Kong",
+      "India",
+      "Japan",
+      "South Korea",
+      "Thailand",
+      "Indonesia",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Olefins and Polyolefins-Americas (O&P-Americas)",
+    "Olefins and Polyolefins-Europe, Asia, International (O&P-EAI)",
+    "Intermediates and Derivatives (I&D)",
+    "Advanced Polymer Solutions (APS)",
+    "Refining",
+    "Technology"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (Texas, Louisiana, Iowa, Illinois, New Jersey)",
+      "Netherlands (Rotterdam, Moerdijk, Botlek)",
+      "Germany (Wesseling, Frankfurt, Knapsack, Kerpen, Ludwigshafen)",
+      "Italy (Ferrara)",
+      "France (Fos-sur-Mer)",
+      "China",
+      "Saudi Arabia",
+      "Poland",
+      "South Korea",
+      "Thailand",
+      "Indonesia",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Natural gas liquids (NGLs) including ethane, propane, and butane - primarily from U.S. shale production",
+      "Crude oil-based liquids including naphtha, condensates, and gas oils",
+      "Heavy, high-sulfur crude oil for Houston refinery - historically imported from Canada, Mexico, and other global producers",
+      "Single or limited suppliers for certain raw materials and utilities specific to geographic regions",
+      "Sole dedicated sources for utilities (steam, electricity, gas) at some facilities",
+      "Propylene supplier for Brindisi, Italy site - potential shutdown risk mentioned",
+      "Water sources - concern over reliability around U.S. Gulf Coast facilities"
+    ],
+    "risks": [
+      "Concentration risk from limited number of suppliers for certain raw materials",
+      "Supply chain interruptions from natural disasters, water levels, marine route disruptions affecting vessels, barges, rails, trucks, and pipelines",
+      "Increased exports of NGLs and crude oil from U.S. could restrict raw material availability and increase costs",
+      "Greater restrictions on hydraulic fracturing could impact feedstock availability",
+      "Political instability in Middle East and Central/South America affecting raw material sourcing",
+      "Potential shutdown of propylene supplier impacting Brindisi, Italy operations",
+      "Water scarcity and drought conditions due to climate change could reduce fresh water availability",
+      "Transportation disruptions from hurricanes, floods, freezing conditions, tornadoes affecting U.S. Gulf Coast operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Climate change legislation and GHG emission reduction requirements - EU Emissions Trading System (ETS) with accelerated reduction of free allowances and higher market prices",
+    "Paris Agreement implementation - national legislation and protection plans in operating jurisdictions",
+    "U.S. state-level climate regulations (Vermont, New York 'climate superfund' laws imposing strict liability on hydrocarbon companies)",
+    "EU regulatory frameworks - REACH (Registration, Evaluation, Authorization and Restriction of Chemicals) and CLP (Classification, Labelling and Packaging Regulation) with potential increased compliance costs, restrictions, or bans",
+    "U.S. TSCA (Toxic Substances Control Act) risk evaluation process changes potentially resulting in restrictions or bans",
+    "International legally binding instrument on plastic pollution under development by UN Environment Program (target finalization 2025)",
+    "EU Circular Economy Action Plan including Single Use Plastics Directive (2019) with bans, product design requirements, extended producer responsibility, and labeling requirements",
+    "EU Packaging and Packaging Waste Regulation replacing prior Directive",
+    "Single-use plastic bans, taxes, and Extended Producer Responsibility (EPR) bills in countries and U.S. states/municipalities",
+    "Renewable Identification Numbers (RINs) requirements mandated by U.S. EPA affecting refinery profitability",
+    "Permitting requirements for operations and growth projects potentially delayed or denied",
+    "Environmental remediation obligations at current and former sites",
+    "Data privacy and security regulations in Europe, U.S., and other jurisdictions",
+    "EU Artificial Intelligence Act and other global AI legislative efforts",
+    "OECD Pillar Two Model Rules on minimum taxes implemented in UK and certain jurisdictions (effective January 1, 2024)",
+    "Potential changes to tax laws, regulations, or treaties substantially increasing tax liabilities",
+    "Trade protection measures including quotas, duties, tariffs, safeguard measures, or anti-dumping duties",
+    "Transfer pricing regulations and customs compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Saudi Arabia",
+      "Mexico",
+      "Middle East region (general)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements mentioned as regulatory risk",
+      "Potential for sanctions impacting operations in certain jurisdictions",
+      "Government actions including wars, terrorist activities, political instability affecting operations",
+      "Civil unrest, terrorist attacks, and demonstrations marked by violence in Middle East and South America",
+      "Political regime changes in Middle East potentially resulting in governments hostile to U.S. or Europe",
+      "Regional conflicts or civil wars spreading from current areas of unrest"
+    ]
+  }
+}

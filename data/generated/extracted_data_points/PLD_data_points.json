@@ -1,0 +1,87 @@
+{
+  "ticker": "PLD",
+  "company_name": "Prologis, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Logistics Real Estate",
+  "geography": {
+    "regions": [
+      "United States",
+      "Other Americas",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Canada",
+      "Mexico",
+      "Belgium",
+      "Czech Republic",
+      "France",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Netherlands",
+      "Poland",
+      "Slovakia",
+      "Spain",
+      "Sweden",
+      "United Kingdom",
+      "China",
+      "India",
+      "Japan",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Real Estate (Rental Operations and Development)",
+    "Strategic Capital"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Development activities depend on availability of construction materials and labor",
+      "Reliance on third-party contractors for development and construction management",
+      "Dependence on local permitting and zoning approvals for development projects"
+    ],
+    "risks": [
+      "Increases in material costs as a result of labor shortages and supply chain disruptions may make the development of properties more costly than originally budgeted",
+      "Supply chain disruptions may impact transportation routes of suppliers or customers",
+      "Government or labor restrictions may prevent completion of development or leasing of properties"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with Foreign Corrupt Practices Act and UK Bribery Act in international operations",
+    "Compliance with Americans with Disabilities Act and state/local fire, life-safety, energy and greenhouse gas emissions requirements",
+    "Changes in regulatory and environmental requirements, taxes, tariffs, trade wars and laws within countries of operation",
+    "REIT qualification requirements under Internal Revenue Code - must distribute at least 90% of taxable income",
+    "Risk of losing REIT status and being subject to corporate income taxes",
+    "Environmental remediation costs and liabilities under federal, state and local environmental laws",
+    "Currency exchange control regulations and transfer pricing regulations affecting cash transfers between subsidiaries",
+    "Compliance with multiple and potentially conflicting laws regarding corrupt practices, human rights, employment and licensing",
+    "Foreign ownership restrictions in certain countries",
+    "Changes in income tax laws and rates in multiple jurisdictions",
+    "Potential changes to REIT taxation rules",
+    "State and local property tax laws",
+    "Prohibited transaction rules for REITs (100% penalty tax on certain property sales)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in regulation or disruptions in supply chain due to geopolitical tensions",
+      "Political instability, uncertainty over property rights, territorial disputes, military conflict, war or expansion of hostilities",
+      "Impact of regional or country-specific economic instability, including government shutdowns or withdrawals from international trade alliances",
+      "Sanctions compliance requirements"
+    ]
+  }
+}

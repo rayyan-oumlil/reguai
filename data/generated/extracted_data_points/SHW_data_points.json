@@ -1,0 +1,134 @@
+{
+  "ticker": "SHW",
+  "company_name": "The Sherwin-Williams Company",
+  "company_type": "Paint, Coatings and Related Products Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Caribbean region",
+      "Europe",
+      "Asia",
+      "Australia",
+      "Middle East",
+      "Africa",
+      "India",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "Virgin Islands",
+      "Grenada",
+      "Trinidad and Tobago",
+      "St. Maarten",
+      "Jamaica",
+      "Curaçao",
+      "Aruba",
+      "St. Lucia",
+      "Barbados",
+      "Chile",
+      "Brazil",
+      "Ecuador",
+      "Uruguay",
+      "Peru",
+      "China",
+      "Argentina",
+      "Germany",
+      "United Kingdom",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Thailand",
+      "Indonesia",
+      "Vietnam",
+      "Singapore",
+      "New Jersey"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Paint Stores Group",
+    "Consumer Brands Group",
+    "Performance Coatings Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Latin America",
+      "Europe",
+      "Asia"
+    ],
+    "dependencies": [
+      "Raw materials derived from upstream petrochemical and related commodity feedstocks, notably propylene",
+      "Specialized resins and other products manufactured in house",
+      "Multiple suppliers globally, typically within the geographic region where products are being manufactured"
+    ],
+    "risks": [
+      "Political instability affecting availability and cost of raw materials and fuel supplies",
+      "Higher tariffs, import/export restrictions",
+      "Supply chain disruptions",
+      "Adverse weather conditions and natural disasters",
+      "Armed conflicts and wars",
+      "Public health crises",
+      "Supplier capacity constraints",
+      "Deterioration in relationships with or financial viability of suppliers",
+      "Limited or single-sources of supply in some cases",
+      "Disruptions in the Red Sea and surrounding waterways due to Israel-Hamas conflict",
+      "Inability to timely shift to internal production or secure alternate sources",
+      "Quality issues with raw materials from alternate sources"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Various federal, state and local environmental laws and regulations",
+    "Increasingly stringent environmental requirements",
+    "Climate change regulations and disclosure requirements",
+    "Producer responsibility regulations",
+    "Chemicals registration and management regulations",
+    "European Union Corporate Sustainability Reporting Directive",
+    "California legislation requiring greenhouse gas emissions disclosures",
+    "Restrictions or prohibitions on chemicals used in products, packaging and operations",
+    "New or additional requirements to fund energy efficiency activities or renewable energy use",
+    "Restrictions on production or operations",
+    "Increased costs associated with reporting and data assurance",
+    "Requirements to alter product contents and/or product packaging",
+    "European Union's General Data Protection Regulation",
+    "China's Personal Information Protection, Data Security and Cyber Security Laws",
+    "California Consumer Privacy Act as amended by California Privacy Rights Act",
+    "Other U.S. state privacy laws",
+    "Growing number of international and domestic data privacy regulations",
+    "Foreign Corrupt Practices Act",
+    "UK Bribery Act",
+    "Compliance with numerous complex and increasingly stringent domestic and foreign health, safety and environmental laws",
+    "Import and export requirements such as tariffs, sanctions, quotas or trade barriers",
+    "Governmental policies, laws and regulations affecting international trade",
+    "Export controls or limits on foreign investment",
+    "Brazilian antitrust approval requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance risks",
+      "Government actions in connection with United States-China trade conflict",
+      "Wars, armed conflicts, political instability, civil disturbances and unrest, terrorist attacks affecting supply of raw materials",
+      "Ongoing conflict between Russia and Ukraine",
+      "Ongoing conflict between Israel and Hamas and potential expansion or increase in severity",
+      "Shipping disruptions in the Red Sea and surrounding waterways"
+    ]
+  }
+}

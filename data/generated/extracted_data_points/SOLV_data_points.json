@@ -1,0 +1,101 @@
+{
+  "ticker": "SOLV",
+  "company_name": "Solventum Corporation",
+  "company_type": "Healthcare",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe, Middle East and Africa (EMEA)",
+      "Latin America (LATAM)",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "France",
+      "Germany",
+      "Ireland",
+      "Mexico",
+      "Poland",
+      "Russia",
+      "United Kingdom",
+      "India",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "MedSurg",
+    "Dental Solutions",
+    "Health Information Systems",
+    "Purification and Filtration"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "3M Company"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "China",
+      "France",
+      "Germany",
+      "Ireland",
+      "Mexico",
+      "Poland"
+    ],
+    "dependencies": "3M is the sole source of supply for certain chemical materials and inputs used in products including transparent IV film dressings, biological indicators for sterilization assurance, medical securement tapes and dental composites and cements. A material with a manufacturing process proprietary to 3M is used in products accounting for approximately $2 billion of revenue for fiscal year 2024. Solventum does not currently have the capability to manufacture such materials itself and has not identified an appropriate substitute input.",
+    "risks": "Supplier relationships could be interrupted due to supplier material shortages, equipment malfunctions, transportation delays, inflationary pricing pressures, work stoppages, labor shortages and other disruptive events. Some suppliers are limited- or sole-source suppliers. Solventum may experience sustained interruption in receipt of adequate supplies or distribution of products, or disruption to key manufacturing sites' operations. 3M's obligation to supply materials may end before Solventum can develop or secure an alternative source of supply, putting related product sales at risk.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations and compliance requirements for medical devices and pharmaceutical products",
+    "European Union Medical Device Regulation and CE Mark requirements",
+    "China NMPA (National Medical Products Administration) regulations",
+    "HIPAA (Health Insurance Portability and Accountability Act) compliance",
+    "GDPR (General Data Protection Regulation) in EU",
+    "UK Data Protection Act and UK GDPR",
+    "China Personal Information Protection Law (PIPL) and Personal Data Cross Border Transfer Rule (CBDT)",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "FCPA (Foreign Corrupt Practices Act) and anti-bribery laws",
+    "Anti-kickback and False Claims Act regulations",
+    "Physician Payments Sunshine Act requirements",
+    "REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals) regulations in EU",
+    "PFAS (perfluoroalkyl and polyfluoroalkyl substances) regulations and restrictions",
+    "European Union Corporate Sustainability Reporting Directive (CSRD)",
+    "California legislation requiring reporting of greenhouse gas emissions and climate risk",
+    "OSHA (Occupational Safety and Health Act) and occupational health and safety standards",
+    "Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act",
+    "Seveso-III Directive, European Machinery Directive, EU Industrial Emissions Directive",
+    "Extended producer responsibility laws and single-use plastic bans",
+    "Medicare and Medicaid reimbursement regulations",
+    "Government contract and public procurement regulations",
+    "Antitrust and competition laws",
+    "Consumer Product Safety Act and CPSC regulations",
+    "National Advertising Division (NAD) advertising regulations",
+    "Pillar Two Model Rules (OECD global minimum tax)",
+    "Export controls and trade sanctions compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US and other governments have imposed export controls on certain products and financial and economic sanctions on certain industry sectors and parties in Russia",
+      "3M suspended operations in Russia in March 2022 and exited Russian subsidiaries in June 2023",
+      "Solventum has operations that source certain raw materials from suppliers in Russia and has experienced supply disruption due to the conflict",
+      "Solventum maintains patents and trademarks in Iran, with renewal fees paid to Iran Intellectual Property Office's account with Bank Melli (designated pursuant to Executive Order 13224)",
+      "Escalation of trade tensions, including between US and China, could adversely impact business and operations",
+      "Conflicts between Russia and Ukraine and in the Middle East have impacted global economy",
+      "Geopolitical tensions could result in cyberattacks, supply chain disruptions, higher energy costs, lower consumer demand, and changes to foreign exchange rates"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "ticker": "KMB",
+  "company_name": "Kimberly-Clark Corporation",
+  "company_type": "Consumer Goods - Personal Care and Tissue Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "International Personal Care",
+      "International Family Care and Professional",
+      "Asia",
+      "Latin America",
+      "Europe",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Brazil",
+      "Indonesia",
+      "Australia",
+      "New Zealand",
+      "South Korea",
+      "United Kingdom",
+      "Argentina",
+      "Turkey",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "India",
+      "Eastern Europe countries",
+      "ASEAN countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.549,
+      "International Personal Care": 0.285,
+      "International Family Care and Professional": 0.166
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America (NA)",
+    "International Personal Care (IPC)",
+    "International Family Care and Professional (IFP)",
+    "Baby & Child Care",
+    "Adult Care",
+    "Feminine Care",
+    "Family Care",
+    "Professional"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Walmart Inc."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "International locations in approximately 60 countries",
+      "30 countries total including equity affiliates",
+      "Russia (one manufacturing facility)"
+    ],
+    "dependencies": [
+      "Cellulose fiber (kraft pulp or recycled fiber) for tissue products",
+      "Fluff pulp for disposable diapers, training pants, feminine and incontinence products",
+      "Polypropylene and other synthetics for nonwoven fabrics",
+      "Superabsorbent materials for disposable diapers and incontinence products",
+      "Petroleum-based materials subject to price volatility",
+      "Energy (electricity, natural gas, petroleum-based fuels)",
+      "Sole-source and single-source suppliers for certain commodities and raw materials",
+      "Third-party manufacturers for some products"
+    ],
+    "risks": [
+      "Significant price fluctuations in pulp and petroleum-based materials",
+      "Supplier constraints and supplier consolidation limiting sources of supply",
+      "Disruptions in supply chain due to natural disasters, power outages, fires, explosions, labor strikes, terrorism, epidemics, pandemics",
+      "Import restrictions and regional economic/political events",
+      "Sole-source supplier failures could adversely impact operations",
+      "Complex network of suppliers with potential disruptions",
+      "High input costs and supply chain complexities in Russia due to war in Ukraine",
+      "Restricted access to raw materials and production assets in Russia",
+      "Currency restrictions limiting ability to obtain currency exchange for U.S. dollar inputs"
+    ],
+    "supplier_concentration": {
+      "Walmart Inc.": 0.14
+    }
+  },
+  "regulatory_risks": [
+    "Product safety, efficacy, manufacturing, advertising, labeling and safety reporting regulations",
+    "Environmental protection statutes and regulations (water resources, wastewater discharge)",
+    "Expanding laws on sustainability-related matters, non-financial reporting and diligence",
+    "Labor and employment regulations",
+    "Trade regulations and taxation",
+    "Data privacy and protection laws (EU GDPR, Brazil GDPL, China PIPL, California CCPA)",
+    "Anti-corruption laws (U.S. Foreign Corrupt Practices Act)",
+    "Antitrust and competition laws",
+    "Product recalls if safety risks exist",
+    "Government trade or similar regulatory actions",
+    "Potential changes in U.S. trade programs and trade relations",
+    "Imposition of increased or new tariffs, sanctions, export controls, quotas, trade barriers",
+    "Climate change regulations and reporting requirements (including potential Anti-ESG legislation)",
+    "SEC climate-related disclosure rules (Release No. 33-11275)",
+    "Tax law changes and new interpretations",
+    "OECD/G20 Pillar 2 Global anti-Base Erosion rules (15% minimum tax)",
+    "Compliance with various environmental protection laws across jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Argentina",
+      "Turkey",
+      "China",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions impacting operations (supply chain, professional services, monetary, currency, trade and payment/investment sanctions)",
+      "Restricted access to financial institutions in Russia",
+      "Potential asset impairment in Russia if operations cannot be sustained",
+      "War in Ukraine causing cyber-based attacks, disruptions to foreign exchange rates and financial markets",
+      "Potential expropriation and political instabilities in foreign markets",
+      "Sanctions issued by U.S., European Union, Russia or other countries affecting operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Baby and Child Care": 0.352,
+    "Family Care": 0.307,
+    "Professional": 0.158,
+    "Adult Care": 0.093,
+    "Feminine Care": 0.086,
+    "All Other": 0.004
+  }
+}

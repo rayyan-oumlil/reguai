@@ -1,0 +1,118 @@
+{
+  "ticker": "KLAC",
+  "company_name": "KLA Corporation",
+  "company_type": "Semiconductor Capital Equipment",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "China",
+      "Taiwan",
+      "Korea",
+      "Japan",
+      "Israel",
+      "Singapore",
+      "Rest of Asia"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Taiwan",
+      "Korea",
+      "Japan",
+      "Singapore",
+      "Israel",
+      "Germany",
+      "United Kingdom",
+      "India",
+      "Italy",
+      "Belgium",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "China": 0.33,
+      "Taiwan": 0.27,
+      "Korea": 0.12,
+      "North America": 0.11,
+      "Japan": 0.09,
+      "Europe and Israel": 0.05,
+      "Rest of Asia": 0.03
+    },
+    "assets_by_region": {
+      "United States": 0.58,
+      "Europe": 0.2,
+      "Singapore": 0.12,
+      "Israel": 0.05,
+      "Rest of Asia": 0.04
+    }
+  },
+  "segments": [
+    "Semiconductor Process Control",
+    "Specialty Semiconductor Process",
+    "PCB and Component Inspection"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Singapore",
+      "Israel",
+      "Germany",
+      "United Kingdom",
+      "Italy",
+      "China"
+    ],
+    "dependencies": "Some critical parts, components and subassemblies are designed by KLA and manufactured by suppliers in accordance with specifications, while other parts are standard commercial products. Certain parts and raw materials may be obtained only from a single supplier or a limited group of suppliers. Partial or complete loss of certain sources could disrupt scheduled deliveries to customers.",
+    "risks": "Supply chain disruptions due to supplier financial difficulties, geopolitical tensions, natural disasters, pandemics, increased lead times, component shortages, and concentration of suppliers. Tariffs and trade restrictions may increase costs and disrupt supply chain. Rare earth mineral export controls by China may impact availability of critical components.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export controls and BIS Rules restricting sales to China-based entities on U.S. Entity List",
+    "Export licensing requirements for China-based customers that are military end users or engaged in military end uses",
+    "Commerce Department restrictions on semiconductor capital equipment exports to China for advanced node IC production",
+    "Tariffs imposed by U.S. government on imports and reciprocal tariffs by other countries",
+    "Section 232 investigations into effects on U.S. national security of imports of semiconductors and semiconductor manufacturing equipment",
+    "Environmental laws and regulations including restrictions on PFAS (per- and polyfluoroalkyl substances)",
+    "Climate change and GHG emissions regulations in European Union, California and other jurisdictions",
+    "Data privacy requirements and evolving regulations",
+    "Anti-corruption and anti-bribery laws",
+    "Antitrust regulations",
+    "Economic sanctions and export control regulations",
+    "Conflict minerals and responsible sourcing requirements",
+    "Tax law changes including GILTI/NCTI provisions, CAMT (corporate alternative minimum tax), and Pillar Two global minimum tax",
+    "California State Budget provisions suspending use of NOLs and limiting R&D tax credits",
+    "Sarbanes-Oxley Act Section 404 compliance",
+    "NASDAQ listing requirements",
+    "Securities laws and regulations including SEC disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Belarus",
+      "Israel",
+      "Lebanon",
+      "Gaza Strip"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions against Russia, Belarus and certain regions/entities due to war between Russia and Ukraine",
+      "U.S. Entity List restrictions preventing sales to certain China-based entities without export licenses",
+      "Export controls on China-based customers for military end uses",
+      "Potential additional sanctions, export controls or other measures by U.S., European Union and other countries",
+      "Chinese government retaliatory regulations in response to U.S. government actions",
+      "Restrictions on rare earth mineral exports by China impacting supply chain"
+    ]
+  },
+  "revenue_by_segment": {
+    "Semiconductor Process Control": 0.9,
+    "Specialty Semiconductor Process": 0.05,
+    "PCB and Component Inspection": 0.05
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "ticker": "EL",
+  "company_name": "The Estée Lauder Companies Inc.",
+  "company_type": "Beauty Products Manufacturing and Distribution",
+  "geography": {
+    "regions": [
+      "The Americas",
+      "Europe, the Middle East & Africa",
+      "Asia/Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Panama",
+      "Peru",
+      "Argentina",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Belgium",
+      "Switzerland",
+      "Nordic countries",
+      "Balkans",
+      "India",
+      "Middle East",
+      "Turkey",
+      "South Africa",
+      "Central Europe",
+      "Israel",
+      "Russia",
+      "Kazakhstan",
+      "China",
+      "Hong Kong SAR",
+      "Korea",
+      "Japan",
+      "Thailand",
+      "Malaysia",
+      "Vietnam",
+      "Indonesia",
+      "Philippines",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Skin Care",
+    "Makeup",
+    "Fragrance",
+    "Hair Care",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Belgium",
+      "Switzerland",
+      "United Kingdom",
+      "Japan"
+    ],
+    "dependencies": "Some products rely on single-source or a limited number of suppliers",
+    "risks": "Supply chain challenges, disruptions in ingredient, material or packaging supply, global shortages, capacity constraints, concentration risk in certain suppliers",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in laws, regulations and policies affecting the business",
+    "Accounting standards changes",
+    "Tax matters including corporate alternative minimum tax",
+    "Trade regulations and sanctions",
+    "Data privacy regulations (e.g., GDPR)",
+    "Cybersecurity regulations",
+    "Anti-corruption laws",
+    "Advertising and marketing regulations",
+    "Manufacturing and distribution regulations",
+    "Customs matters",
+    "Product registration requirements",
+    "Ingredient and chemical regulations",
+    "Packaging regulations",
+    "Selective distribution regulations",
+    "Environmental or climate change regulations",
+    "FDA approval requirements",
+    "Trade restrictions and tariffs",
+    "Foreign investment and trade policies",
+    "Immigration and travel restrictions",
+    "Currency exchange controls",
+    "Restrictions on imports and exports including license requirements",
+    "Income tax reserve adjustments and tax settlements",
+    "OECD Pillar Two Global Anti-Base Erosion model rules (15% global minimum tax)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Israel",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Impact of sanctions on foreign or domestic operations",
+      "Restrictions on trade due to geopolitical tensions",
+      "US-China geopolitical tensions could have material adverse effect"
+    ]
+  }
+}

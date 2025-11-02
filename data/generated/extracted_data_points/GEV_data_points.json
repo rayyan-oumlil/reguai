@@ -1,0 +1,143 @@
+{
+  "ticker": "GEV",
+  "company_name": "GE Vernova Inc.",
+  "company_type": "Electric Power Industry",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia",
+      "Middle East and Africa",
+      "ASEAN",
+      "EMEA"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Switzerland",
+      "China",
+      "India",
+      "Japan",
+      "South Korea",
+      "Australia",
+      "Brazil",
+      "Saudi Arabia",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Power",
+    "Wind",
+    "Electrification",
+    "Gas Power",
+    "Nuclear Power",
+    "Hydro Power",
+    "Steam Power",
+    "Onshore Wind",
+    "Offshore Wind",
+    "LM Wind Power",
+    "Grid Solutions",
+    "Power Conversion",
+    "Electrification Software",
+    "Solar & Storage Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Foxconn",
+      "TSMC",
+      "Hitachi, Ltd.",
+      "Baker Hughes Company",
+      "Xignux"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "India",
+      "Europe",
+      "ASEAN countries",
+      "Brazil",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Single or limited-source suppliers for certain materials and components including semiconductor chips, cobalt, certain steel, hafnium, and rare earth metals",
+      "Reliance on third-party suppliers, contract manufacturers and service providers",
+      "Internal dependency on LM Wind Power for wind turbine blade production",
+      "Internal manufacturing of specialized transformers for Grid Solutions business"
+    ],
+    "risks": [
+      "Supply chain shortages and inflationary pressures",
+      "Shortages of skilled labor",
+      "Transportation and logistics challenges",
+      "Manufacturing disruptions",
+      "High cost or unavailability of raw materials, components, and products",
+      "Geopolitical dynamics including tariffs and trade tensions",
+      "Global conflicts impacting supply chains",
+      "Cyber-attacks on suppliers",
+      "Concentration risk with single or limited-source suppliers",
+      "Disruptions in transport and logistics due to weather, strikes, inadequate infrastructure"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations including REACH regulation, PFAS restrictions",
+    "Nuclear regulatory requirements from NRC, Department of Energy",
+    "BSEE regulatory oversight for offshore wind operations",
+    "HSE and MMO oversight in UK offshore energy sector",
+    "SEC and FINRA regulations for Financial Services business",
+    "Investment Advisers Act compliance",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "UK Bribery Act compliance",
+    "Brazil Clean Companies Act",
+    "China's Unfair Competition Law",
+    "India's Prevention of Corruption Act",
+    "Antitrust and competition laws globally",
+    "Data privacy regulations including GDPR, CCPA",
+    "EU Corporate Sustainability Reporting Directive (CSRD)",
+    "EU Carbon Border Adjustment Mechanism",
+    "EU Deforestation Act",
+    "EU Corporate Sustainability Due Diligence Directive (CSDDD)",
+    "Pillar Two global minimum tax (15%)",
+    "Export control laws and sanctions compliance",
+    "Buy American Act and Trade Agreements Act",
+    "Defense Production Act potential invocation",
+    "EU Foreign Subsidies Regulation",
+    "OSHA health and safety requirements",
+    "ERISA pension funding requirements",
+    "Climate change and greenhouse gas emissions regulations",
+    "EPA air emissions standards for natural gas operators",
+    "Renewable energy incentive changes (IRA, feed-in tariffs, renewable portfolio standards)",
+    "Federal Acquisition Regulation for government contracts",
+    "Right to repair legislation",
+    "AI regulations including EU Artificial Intelligence Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran",
+      "Taiwan",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict sanctions impacting operations and asset values",
+      "Expansion of U.S. sanctions in 2023 causing additional impairments",
+      "Potential sanctions on countries with governmental corruption",
+      "Export restrictions and trade control measures",
+      "Sanctions limiting business in certain jurisdictions",
+      "Iran sanctions compliance",
+      "Restrictions on technology transfers to certain countries"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "ticker": "TMUS",
+  "company_name": "T-Mobile US, Inc.",
+  "company_type": "Wireless Telecommunications Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico",
+      "U.S. Virgin Islands"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "U.S. Virgin Islands"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Wireless"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "We have a diverse set of suppliers to help us develop, maintain, and troubleshoot products and services such as wireless and wireline network components, software development services, and billing and customer service support. In certain areas such as billing services, voice, and data communications transport services, wireless or wireline network infrastructure equipment, handsets, other devices, back-office processes and payment processing, there are a limited number of suppliers who can provide adequate support for us.",
+    "risks": [
+      "Limited number of suppliers in certain critical areas (billing, network infrastructure, handsets, payment processing)",
+      "Supplier performance below contractual requirements",
+      "Supplier failures or service degradation during transitions",
+      "Cybersecurity risks at supplier level",
+      "Economic, financial and credit conditions affecting suppliers",
+      "Labor force disruptions at suppliers",
+      "Geopolitical tensions affecting suppliers",
+      "Global supply chain disruptions",
+      "Natural catastrophic events (earthquakes, floods, hurricanes, storms, heatwaves, fires)",
+      "Energy shortages and power outages at suppliers",
+      "Equipment failures at suppliers",
+      "Terrorist attacks or hostile acts affecting suppliers",
+      "Public health crises affecting suppliers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC licensing, construction, operation and use of network regulations",
+    "FCC rules on 911, 988 and E-911 services",
+    "Telephone number porting regulations",
+    "Interconnection and roaming regulations",
+    "Internet openness or net neutrality regulations",
+    "Robocalling/robotexting regulations",
+    "Disabilities access requirements",
+    "Privacy and cybersecurity regulations",
+    "Digital discrimination regulations",
+    "Consumer protection regulations",
+    "Universal service and Lifeline program requirements",
+    "Spectrum license renewal and revocation risks",
+    "FCC authority to modify rules related to use of licensed spectrum",
+    "Foreign ownership limitations (20% direct, 25% indirect ownership limits)",
+    "State and local government regulations on billing, termination, early termination fees, advertising, network outages, device use while driving, service mapping, consumer information protection, zoning and land use",
+    "State-specific net neutrality requirements",
+    "State privacy laws (including California privacy legislation)",
+    "State broadband rate-setting laws (e.g., New York)",
+    "FTC jurisdiction over consumer protection and anticompetitive practices",
+    "Federal Aviation Administration regulations on tower siting, lighting and construction",
+    "Environmental and historic preservation regulations",
+    "Federal Universal Service Fund and state USF fees",
+    "Income tax laws and regulations changes",
+    "AI-related laws and regulations (evolving and varying by jurisdiction)",
+    "Data privacy laws (CCPA and similar state laws)",
+    "Government commitments from Merger approval (5G network build-out, high-speed wireless service delivery, in-home broadband product marketing, national security, pricing, service, employment, diversity support)",
+    "FCC enforcement actions and fines for regulatory violations",
+    "Potential FCC penalties for spectrum license non-compliance",
+    "Section 13(r) of the Exchange Act disclosure requirements for Iran-related activities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Iran sanctions compliance (through DT and SoftBank affiliates)",
+      "Telecommunications services to Embassy of Iran (through DT and SoftBank subsidiaries)",
+      "Roaming and interconnection with Iranian telecom providers (through DT subsidiaries)",
+      "Services to entities on OFAC Specially Designated Nationals list (through DT subsidiaries)",
+      "Geopolitical instability impacts including Ukraine-Russia and Israel-Hamas wars"
+    ]
+  }
+}

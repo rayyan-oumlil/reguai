@@ -1,0 +1,78 @@
+{
+  "ticker": "MU",
+  "company_name": "Micron Technology, Inc.",
+  "company_type": "Semiconductor Memory and Storage",
+  "geography": {
+    "regions": [
+      "United States",
+      "Asia Pacific",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Taiwan",
+      "Singapore",
+      "Japan",
+      "Malaysia",
+      "China",
+      "India",
+      "Canada",
+      "Germany",
+      "Italy",
+      "Hong Kong",
+      "South Korea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Compute and Networking Business Unit (CNBU)",
+    "Mobile Business Unit (MBU)",
+    "Embedded Business Unit (EBU)",
+    "Storage Business Unit (SBU)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Taiwan",
+      "Singapore",
+      "Japan",
+      "United States",
+      "Malaysia",
+      "China",
+      "India"
+    ],
+    "dependencies": "Only a limited number of suppliers are capable of delivering certain materials, components, and services that meet our standards and, in some cases, materials, components, or services are provided by a single or sole source. Certain materials are primarily available in a limited number of countries, including rare earth elements, minerals, and metals. China is the predominant producer of these materials.",
+    "risks": "Shortages or increases in lead times have occurred in the past, are currently occurring with respect to some materials and components, and may occur from time to time in the future. Constraints within our supply chain for certain materials and integrated circuit components could limit our bit shipments. Disruptions in transportation lines could delay our receipt of materials. Regional conflicts, civil unrest, labor disruptions, sanctions, tariffs, embargoes, or other trade restrictions could limit the supply of our materials and/or increase the cost.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export and import duties, changes to import and export regulations, customs regulations and processes, and restrictions on the transfer of funds, including currency controls in China",
+    "Compliance with U.S. and international laws involving international operations, including the Foreign Corrupt Practices Act of 1977, as amended, sanctions and anti-corruption laws, export and import laws",
+    "U.S. government restrictions on selling products and software to certain customers, including export controls administered by the Bureau of Industry and Security (BIS) of the U.S. Department of Commerce",
+    "China's Cyberspace Administration (CAC) decision that critical information infrastructure operators in China may not purchase Micron products",
+    "Tariffs imposed by countries in which our products are sold",
+    "Environmental, health, safety, and product laws and regulations, including regulations on per- and polyfluoroalkyl substances (PFAS)",
+    "Laws and regulations relating to cybersecurity, data privacy, and AI",
+    "Pillar Two Model Rules from the Organisation for Economic Co-operation and Development (OECD) - nearly all European Union member states have enacted Pillar Two legislation effective for 2025, with Singapore and other countries planning adoption for 2026",
+    "Compliance with trade, technical standards, and other laws in a variety of jurisdictions",
+    "Responsible sourcing requirements and related regulations, including conflict minerals and responsible sourcing practices",
+    "Environmental regulations regarding greenhouse gas emissions and climate change, use of raw materials and chemicals, discharges, emissions, waste disposal and management"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government restrictions on American firms, including Micron, from selling products and software to certain customers",
+      "CAC decision restricting critical information infrastructure operators in China from purchasing Micron products",
+      "Further actions by the Chinese government could impact revenue inside or outside China, operations in China, or ability to ship products to customers",
+      "Regional conflicts, civil unrest, sanctions, tariffs, embargoes, or other trade restrictions affecting suppliers and service providers",
+      "Political and economic instability in Taiwan - a majority of DRAM production output in 2024 was from fabrication facilities in Taiwan"
+    ]
+  }
+}

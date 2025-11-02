@@ -1,0 +1,81 @@
+{
+  "ticker": "LOW",
+  "company_name": "Lowe's Companies, Inc.",
+  "company_type": "Home Improvement Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Mexico",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 1.0
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Home Décor",
+    "Building Products",
+    "Hardlines",
+    "Appliances",
+    "Seasonal & Outdoor Living",
+    "Lumber",
+    "Lawn & Garden",
+    "Kitchens & Bath",
+    "Hardware",
+    "Building Materials",
+    "Millwork",
+    "Paint",
+    "Rough Plumbing",
+    "Tools",
+    "Electrical",
+    "Flooring",
+    "Décor"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Mexico"
+    ],
+    "dependencies": "The Company sources a portion of products from foreign manufacturers, with China and Mexico being the dominant import sources. Vendor funds from suppliers are critical to inventory cost management.",
+    "risks": "Disruptions in supply chain due to global health crises, geopolitical conflicts, trade policy changes, tariffs, port labor disputes, shipping delays, weather-related events, natural disasters, financial instability among key vendors, political instability, labor unrest in source countries, customs actions including regulatory enforcement inquiries, holds, detentions, and exclusions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Tax and trade policies, tariffs, and other regulations affecting trade between the United States and other countries, such as China and Mexico",
+    "Changes in tax rates and policy",
+    "Compliance with payment card association operating rules, including data security rules, certification requirements, rules governing electronic funds transfers and Payment Card Industry Data Security Standards",
+    "Compliance with applicable laws and regulations, including the Foreign Corrupt Practices Act and local anti-bribery laws",
+    "Compliance with federal, state, and local laws and regulations governing minimum wage requirements, collective bargaining, classification of exempt and non-exempt employees, distinction between employees and contractors, other wage, labor or workplace regulations, health care, data privacy and cybersecurity, sale and pricing of products, transportation, logistics, international trade, responsible sourcing, supply chain transparency, taxes, unclaimed property, sustainability, environment and climate change, including energy costs and consumption",
+    "Compliance with applicable recordkeeping requirements and lead-safe practices under the Toxic Substances Control Act, EPA's Lead Renovation, Repair and Painting Rules, and EPA civil consent decree",
+    "Government regulations limiting carbon dioxide and other greenhouse gas emissions",
+    "Regulations affecting energy inputs (natural gas, diesel fuel, gasoline, electricity)",
+    "Changes in legislation or regulations governing data privacy and security",
+    "Evolving legal and regulatory environment relating to AI and privacy"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Retaliatory trade restrictions imposed by either the United States or a major source country",
+      "Changes to existing free trade agreements, like the United States-Mexico-Canada Agreement (USMCA)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Home Décor": 0.369,
+    "Building Products": 0.315,
+    "Hardlines": 0.29,
+    "Other": 0.026
+  }
+}

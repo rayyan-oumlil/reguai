@@ -1,0 +1,65 @@
+{
+  "ticker": "KR",
+  "company_name": "The Kroger Co.",
+  "company_type": "Food and Drug Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retail Operations",
+    "Supermarkets",
+    "Pharmacies",
+    "Fuel Centers",
+    "Digital Ecosystem (Pickup, Delivery, Ship)",
+    "Our Brands (Private Label)",
+    "Manufacturing (Food Production Plants)",
+    "Alternative Profit Businesses (Data Analytics, Third-Party Media Revenue)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Approximately 31% of Our Brands units sold are produced in Company's 33 food production plants (14 dairies, 9 deli/bakery plants, 5 grocery product plants, 2 beverage plants, 1 meat plant, 2 cheese plants); remaining Our Brands items produced by outside manufacturers to strict specifications",
+    "risks": "Disruption in global supply chain could negatively affect business; loss or disruption of supply arrangements due to labor disputes, loss or impairment of key manufacturing sites, acts of war or terrorism, disruptive global political events, natural disasters or health crises, regulatory actions, trade sanctions, tariffs or other external factors; quality control issues; supplier financial distress; ethical sourcing issues",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in regulatory environment and increased enforcement actions by governmental and regulatory agencies",
+    "Compliance with laws and regulations involving antitrust and competition, privacy, data protection, environmental, healthcare, anti-bribery, anti-corruption, tax, accounting, and financial reporting",
+    "Changes in federal policy and at regulatory agencies",
+    "Health and sanitation standards, food labeling and safety regulations",
+    "Equal employment opportunity and minimum wage regulations",
+    "Licensing requirements for sale of food, drugs, and alcoholic beverages",
+    "Potential product reformulation requirements or recalls to meet new standards",
+    "Expanded record keeping, documentation, labeling, or scientific substantiation requirements",
+    "Climate-related legislation and regulations limiting greenhouse gas emissions and energy inputs",
+    "HFC refrigerant phasedown requirements under state and federal regulations",
+    "Increasing governmental and societal attention to ESG matters, including expanding voluntary reporting, diligence, and disclosure on climate change, waste production, water usage, human capital, labor, and risk oversight",
+    "Anti-ESG sentiment among certain stakeholders, including governmental authorities, regulators, shareholders and customers",
+    "Payment Card Industry Data Security Standards (PCI DSS) compliance requirements",
+    "Evolving payment card association and network operating rules, including data security rules and certification requirements",
+    "HIPAA (Health Insurance Portability and Accountability Act) compliance for pharmacy operations",
+    "California Consumer Privacy Act (CCPA) compliance",
+    "EU General Data Protection Regulation (GDPR) compliance for applicable international operations",
+    "FTC Act Section 5 compliance",
+    "Rapidly changing privacy and information security laws and standards"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Due to ongoing geopolitical conflicts, there is an increased possibility of cyberattacks that could either directly or indirectly affect operations",
+      "Geopolitical and catastrophic events, such as wars and conflicts, civil unrest, acts of terrorism or other acts of violence could materially affect results"
+    ]
+  }
+}

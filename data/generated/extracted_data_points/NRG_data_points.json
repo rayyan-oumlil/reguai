@@ -1,0 +1,104 @@
+{
+  "ticker": "NRG",
+  "company_name": "NRG Energy, Inc.",
+  "company_type": "Energy and Smart Home Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Texas",
+    "East",
+    "West/Services/Other",
+    "Vivint Smart Home",
+    "Corporate"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on natural gas pipelines and transportation facilities owned and operated by third parties",
+      "Dependence on transmission and distribution facilities owned and operated by others",
+      "Coal supply from Powder River Basin",
+      "Rail transportation and rail car lease agreements for coal transport",
+      "Single contracted supplier or small number of suppliers for fuel, chemicals and services at certain facilities",
+      "Sole or limited source suppliers for critical components for smart home products"
+    ],
+    "risks": [
+      "Disruption of fuel supplies or curtailments in production",
+      "Counterparty failure to perform or disruption in fuel delivery infrastructure",
+      "Transmission or distribution disruption",
+      "Transportation capacity constraints or inefficiencies",
+      "Supply interruptions",
+      "Supplier financial stability issues",
+      "Localized shortages and delays from extreme weather",
+      "Dependence on third-party cellular, telecommunications and internet providers for smart home services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state environmental laws requiring permits and approvals",
+    "Increasingly stringent air quality requirements",
+    "GHG emissions regulations",
+    "Combustion byproducts regulations",
+    "Water use and discharge regulations",
+    "Threatened and endangered species regulations",
+    "EPA rules on coal ash, GHG emissions, NAAQS revisions, effluent limitation guidelines",
+    "Cross-State Air Pollution Rule (CSAPR)",
+    "Regional Haze Proposal",
+    "Mercury and Air Toxics Standards (MATS)",
+    "Effluent Limitations Guidelines (ELG)",
+    "Coal combustion residuals (CCR) regulations under RCRA",
+    "FERC regulation and market-based rate authority",
+    "NERC reliability standards and potential penalties",
+    "State and provincial retail competition laws and regulations",
+    "PUCT and ERCOT standards and regulations in Texas",
+    "ISO and RTO market rules and tariff changes",
+    "State public utility commission regulations",
+    "Maryland legislation restricting competitive retail electric and natural gas market (Senate Bill 1)",
+    "Alberta Rate of Last Resort regulation",
+    "CFTC derivatives market regulations",
+    "Position limits on futures and derivatives",
+    "Margin requirements for derivatives",
+    "Federal and state laws related to consumer financing",
+    "State regulations governing smart home and electronic security systems",
+    "Licensing requirements for smart home services",
+    "FTC and Federal Communications Commission telemarketing regulations",
+    "Telephone Consumer Protection Act (TCPA)",
+    "Data privacy and data protection laws (PIPEDA in Canada, CCPA in California)",
+    "Enhanced data privacy legislation in multiple states",
+    "Federal Trade Commission settlement compliance requirements for Vivint Smart Home",
+    "New York State Public Service Commission Retail Reset Order",
+    "NYSPSC alleged non-compliance notices",
+    "Tax law changes including 15% Corporate Alternative Minimum Tax (CAMT) from Inflation Reduction Act",
+    "Capacity Performance product rules in PJM market",
+    "Changes to PJM Locational Deliverability Area Reliability Requirement",
+    "PJM Base Residual Auction revisions and delays",
+    "Independent Market Monitor Market Seller Offer Cap regulations",
+    "Final Rule on Reactive Power Payments",
+    "Change to Energy Efficiency in PJM Capacity Auction"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Impact of changing U.S. trade policies and potential additional tariffs",
+      "International conflict increasing risk of state-sponsored cyber threats",
+      "Geopolitical climate escalating cybersecurity risk for U.S. critical infrastructure"
+    ]
+  }
+}

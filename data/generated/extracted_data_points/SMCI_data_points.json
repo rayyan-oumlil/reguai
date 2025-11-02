@@ -1,0 +1,114 @@
+{
+  "ticker": "SMCI",
+  "company_name": "Super Micro Computer, Inc.",
+  "company_type": "Technology - Server and Storage Solutions",
+  "geography": {
+    "regions": [
+      "United States",
+      "Asia",
+      "Europe",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "Taiwan",
+      "Netherlands",
+      "China",
+      "Japan",
+      "South Korea",
+      "United Kingdom",
+      "Malaysia",
+      "Singapore",
+      "South Africa",
+      "Germany",
+      "Belgium",
+      "France",
+      "Italy",
+      "Spain",
+      "Australia",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Hong Kong"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Server and storage systems",
+    "Subsystems and accessories"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Ablecom Technology, Inc.",
+      "Compuware Technology, Inc.",
+      "NVIDIA Corporation",
+      "Intel Corporation",
+      "Advanced Micro Devices, Inc.",
+      "Broadcom Inc.",
+      "Samsung Electronics Company Limited",
+      "Micron Technology, Inc."
+    ],
+    "manufacturing_locations": [
+      "United States (San Jose, California)",
+      "Taiwan",
+      "Netherlands",
+      "Malaysia"
+    ],
+    "dependencies": [
+      "Two suppliers accounted for 65.4% and 6.3% of total purchases for fiscal year 2024",
+      "Ablecom manufactured approximately 93.6% of chassis included in products sold during fiscal year 2024",
+      "Certain materials used in manufacturing are available from a limited number of suppliers",
+      "Reliance on Ablecom and Compuware for contract manufacturing services and inventory warehousing"
+    ],
+    "risks": [
+      "Concentration risk with limited number of suppliers for certain components",
+      "Supply chain disruptions due to global economic conditions, regional conflicts, pandemics",
+      "Shortages of critical materials (GPUs, CPUs, memory, SSDs) during periods of high demand",
+      "Dependence on Taiwan-based manufacturing facilities subject to geopolitical risks",
+      "Potential inability to qualify substitute suppliers quickly if relationships deteriorate"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export control restrictions targeting China's semiconductor and supercomputing industries (October 2022, November 2023, January 2025)",
+    "Export licensing requirements for advanced GPUs and integrated circuits (NVIDIA A100, H100)",
+    "Worldwide authorization requirements for advanced computing products (January 2025)",
+    "Per-country and per-customer limits on advanced computing product exports",
+    "Trade sanctions enforced by U.S. Treasury Office of Foreign Assets Control",
+    "Export controls enforced by U.S. Commerce Department's Bureau of Industry and Security",
+    "GDPR compliance requirements in European Union",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "Data localization laws in Russia and China (Personal Information Protection Law)",
+    "Environmental regulations (EU eco-design requirements for servers, California Proposition 65)",
+    "Section 1502 of Dodd Frank Act concerning conflict minerals",
+    "OECD Pillar Two global minimum corporate tax (15%)",
+    "Potential new tariffs and trade restrictions under changing U.S. administration",
+    "Compliance with anti-corruption laws (U.S. Foreign Corrupt Practices Act)",
+    "Product safety and security regulations across multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Ukraine (restricted areas)",
+      "Taiwan",
+      "Hong Kong"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions on Russia, Belarus, and restricted areas in Ukraine (no sales since February 2022)",
+      "Export control restrictions on China including Hong Kong for advanced semiconductors",
+      "Restrictions on entities in China placed on U.S. government export control lists",
+      "Potential escalation of U.S.-China trade tensions and further export restrictions",
+      "Risk of being unable to provide warranty or service obligations due to licensing requirements",
+      "Deemed export control limitations impacting overseas operations",
+      "Potential foreign government responses (e.g., China) impacting supply chain or market access",
+      "Restrictions on high-end GPU products for AI applications in multiple countries including Middle East",
+      "Risk of customers or channel partners not adhering to trade compliance requirements"
+    ]
+  }
+}

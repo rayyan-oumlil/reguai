@@ -1,0 +1,68 @@
+{
+  "ticker": "REG",
+  "company_name": "Regency Centers Corporation",
+  "company_type": "Real Estate Investment Trust (REIT) - Retail Shopping Centers",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Shopping Centers",
+    "Property Management Services",
+    "Asset Management Services",
+    "Leasing Services",
+    "Transaction Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party contractors for construction and development",
+      "Dependence on market leading grocers as anchor tenants",
+      "Reliance on labor availability for construction and property operations"
+    ],
+    "risks": [
+      "Labor shortages and supply chain constraints impacting construction costs",
+      "Inflation increasing costs of construction materials and labor",
+      "Supply chain disruption from geopolitical events",
+      "Permitting delays extending project completion timelines",
+      "Material and labor availability constraints"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "Building, fire, and safety regulations and building codes",
+    "Environmental laws and regulations related to hazardous substances",
+    "REIT qualification requirements under Internal Revenue Code",
+    "State and local income and franchise taxes",
+    "Federal income tax on undistributed taxable income",
+    "Climate change and environmental disclosure regulations (SEC proposed rules, California legislation)",
+    "Data privacy and security laws (state and federal)",
+    "Changes in tax laws impacting REIT status or operations",
+    "Zoning and land use entitlement approvals for development",
+    "Changes in governmental policies relating to development"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Impact of war involving Russia and Ukraine on U.S. economy",
+      "Middle East conflicts and wars affecting global economy",
+      "Economic conflicts with China and slowing of China's economy",
+      "Potential tariffs impacting tenant costs and consumer spending"
+    ]
+  }
+}

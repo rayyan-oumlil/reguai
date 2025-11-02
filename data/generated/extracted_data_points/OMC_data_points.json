@@ -1,0 +1,125 @@
+{
+  "ticker": "OMC",
+  "company_name": "Omnicom Group Inc.",
+  "company_type": "Marketing and Communications Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "North America",
+      "Latin America",
+      "EMEA",
+      "Europe",
+      "Middle East and Africa",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Puerto Rico",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Turkey",
+      "Russia",
+      "Ukraine",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "Korea",
+      "Singapore",
+      "Philippines",
+      "Thailand",
+      "New Zealand",
+      "Colombia",
+      "Argentina"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.552,
+      "Latin America": 0.028,
+      "Europe": 0.282,
+      "Middle East and Africa": 0.02,
+      "Asia-Pacific": 0.118
+    },
+    "assets_by_region": {
+      "Americas": 0.693,
+      "EMEA": 0.214,
+      "Asia-Pacific": 0.093
+    }
+  },
+  "segments": [
+    "Media & Advertising",
+    "Precision Marketing",
+    "Public Relations",
+    "Healthcare",
+    "Branding & Retail Commerce",
+    "Experiential",
+    "Execution & Support"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers including cloud providers for data storage and processing",
+      "Media providers and production companies for client services",
+      "External service providers for information technology systems"
+    ],
+    "risks": [
+      "Cybersecurity threats and attacks on information technology systems",
+      "Security breaches and unauthorized access to data by third-party service providers",
+      "Risk of material loss from media purchases and production costs if clients default on payment",
+      "Sequential liability risk where agencies may be liable to media providers before client payment",
+      "Increased cybersecurity risks from remote work environments",
+      "Dependence on third-party cloud providers subject to malicious attacks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Government regulations limiting scope and content of marketing and communications services",
+    "Regulations limiting tax deductibility of advertising expenditures",
+    "Federal, state, and foreign data privacy laws (evolving requirements)",
+    "California climate-related disclosure laws",
+    "SEC climate-related reporting proposals",
+    "European Union Corporate Sustainability Reporting Directive (ESRS requirements)",
+    "UN Global Compact principles and UN Sustainable Development Goals compliance",
+    "Science Based Target initiative (SBTi) emissions reduction requirements",
+    "Foreign Corrupt Practices Act and anti-corruption/anti-bribery laws",
+    "Global Anti-Base Erosion (Pillar Two) minimum effective tax rate of 15% for multinational companies",
+    "OECD Pillar Two model rules implementation across jurisdictions",
+    "Regulatory requirements for AI use (ethical considerations, intellectual property, privacy)",
+    "New laws and guidance limiting use of AI technology",
+    "Increased scrutiny from governmental authorities due to business size and complexity post-merger",
+    "Environmental, social and governance (ESG) reporting requirements across multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions imposed on Russia by United States, United Kingdom, and European Union",
+      "Suspension of business operations in Ukraine due to war",
+      "Disposition of all businesses in Russia in 2022 due to war in Ukraine",
+      "Currency repatriation restrictions in high-growth markets and developing countries",
+      "Commercial laws in developing countries that are undeveloped, vague, inconsistently enforced, retroactively applied or frequently changed"
+    ]
+  },
+  "revenue_by_segment": {
+    "Media & Advertising": 0.54,
+    "Precision Marketing": 0.116,
+    "Public Relations": 0.107,
+    "Healthcare": 0.085,
+    "Branding & Retail Commerce": 0.051,
+    "Experiential": 0.047,
+    "Execution & Support": 0.054
+  }
+}

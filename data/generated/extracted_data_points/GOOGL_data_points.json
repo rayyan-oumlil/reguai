@@ -1,0 +1,133 @@
+{
+  "ticker": "GOOGL",
+  "company_name": "Alphabet Inc.",
+  "company_type": "Technology - Internet Services and Cloud Computing",
+  "geography": {
+    "regions": [
+      "United States",
+      "EMEA",
+      "APAC",
+      "Other Americas"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "European Union member states",
+      "Turkey",
+      "Japan",
+      "India",
+      "South Korea",
+      "Australia",
+      "Singapore",
+      "Canada",
+      "Brazil",
+      "Argentina",
+      "Mexico",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.49,
+      "EMEA": 0.29,
+      "APAC": 0.16,
+      "Other Americas": 0.06
+    },
+    "assets_by_region": {
+      "United States": 0.75,
+      "International": 0.25
+    }
+  },
+  "segments": [
+    "Google Services",
+    "Google Cloud",
+    "Other Bets",
+    "Google Search & other",
+    "YouTube ads",
+    "Google Network",
+    "Google advertising",
+    "Google subscriptions, platforms, and devices",
+    "Google Cloud Platform",
+    "Google Workspace",
+    "Waymo"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Multiple global locations for data centers",
+      "Contract manufacturers for servers and devices"
+    ],
+    "dependencies": [
+      "Contract manufacturers for assembly of servers and devices",
+      "Component suppliers for technical infrastructure",
+      "Single or limited source suppliers for certain technical infrastructure components",
+      "Industry supply capacity for AI accelerators including GPUs and custom-built TPUs is highly competitive"
+    ],
+    "risks": [
+      "Supply shortages and price increases driven by raw material/component availability",
+      "Manufacturing capacity constraints and labor shortages",
+      "Logistics capacity limitations",
+      "Foreign currency exchange rate fluctuations",
+      "Tariffs, sanctions, export controls, and trade disputes",
+      "Forced labor concerns in supply chain",
+      "Geopolitical tensions and armed conflicts affecting supply",
+      "Natural disasters, pandemics, and climate change effects (sea level rise, drought, flooding, heat waves, wildfires, power shutdowns)",
+      "Power and transmission availability challenges",
+      "Quality issues and product recalls from suppliers",
+      "Single-source or limited-source supplier dependencies for technical infrastructure components",
+      "Competitive supply constraints for AI accelerators (GPUs, TPUs)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Antitrust laws and competition enforcement (U.S. DOJ lawsuits, European Commission decisions, investigations in Australia, Japan, India, UK)",
+    "Digital Markets Act (EU) compliance requirements",
+    "Data privacy and security regulations (GDPR, UK GDPR, U.S. state privacy laws including California, Illinois, Texas, Washington, New York)",
+    "Children's Online Privacy Protection Act (COPPA) and state children's privacy laws",
+    "AI regulation (EU AI Act, U.S. federal and state AI regulations, deepfakes legislation)",
+    "Copyright and intellectual property laws (EU Directive on Copyright in the Digital Single Market)",
+    "Content moderation laws (Digital Services Act, Florida SB 7072, Texas HB 20, Singapore, Australia, UK regulations)",
+    "Online child safety regulations",
+    "Consumer protection laws (EU New Deal for Consumers)",
+    "Section 230 of Communications Decency Act and DMCA safe harbor protections",
+    "Environmental sustainability and climate change regulations",
+    "Export controls and sanctions compliance",
+    "Foreign Corrupt Practices Act and anti-corruption laws",
+    "Tax regulations including OECD minimum global tax rate initiatives",
+    "Digital services taxes and revenue-based taxes in various jurisdictions",
+    "Google Play billing and fee regulations (South Korea and other jurisdictions)",
+    "News publication payment requirements",
+    "Data localization and data transfer restrictions",
+    "Biometric information collection laws",
+    "Immigration policy affecting talent mobility"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Iran",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance affecting operations and customer access",
+      "Export controls limiting ability to operate in certain jurisdictions or offer products/services",
+      "Russia-related sanctions and ongoing legal matters",
+      "Potential sanctions affecting supply chain and component sourcing",
+      "Market access barriers due to political unrest and geopolitical tensions",
+      "Armed conflicts in Middle East and Ukraine affecting business continuity"
+    ]
+  },
+  "revenue_by_segment": {
+    "Google Search & other": 0.566,
+    "YouTube ads": 0.103,
+    "Google Network": 0.087,
+    "Google subscriptions, platforms, and devices": 0.115,
+    "Google Cloud": 0.123,
+    "Other Bets": 0.005
+  }
+}

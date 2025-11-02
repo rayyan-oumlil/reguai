@@ -1,0 +1,97 @@
+{
+  "ticker": "TGT",
+  "company_name": "Target Corporation",
+  "company_type": "General Merchandise Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "China",
+      "Mexico",
+      "Canada",
+      "Asia",
+      "Central America"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Apparel and Accessories",
+    "Beauty",
+    "Food and Beverage",
+    "Hardlines",
+    "Home Furnishings and Décor",
+    "Household Essentials",
+    "Advertising Revenue",
+    "Credit Card Profit Sharing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Asia",
+      "Central America"
+    ],
+    "dependencies": "A significant portion of merchandise is sourced from outside the U.S., with China as the single largest source of imported merchandise",
+    "risks": [
+      "Trade disputes or changes in tax or trade policy between the U.S. and countries from which merchandise is sourced",
+      "Imposition of additional tariffs or duties on imported products",
+      "Political or economic uncertainty or instability",
+      "Currency fluctuations",
+      "Outbreak of pandemics or other illnesses",
+      "Labor shortages",
+      "Labor unrest or strikes",
+      "Transport capacity and costs",
+      "Port security",
+      "Weather conditions",
+      "Natural disasters",
+      "Geopolitical conflicts",
+      "Social unrest",
+      "Terrorist attacks",
+      "Armed conflicts",
+      "Periodic closings and ship diversions",
+      "Congestion disrupting railways, trucking, waterways, and ports",
+      "Vendor failures to deliver on commitments",
+      "Common carrier capacity issues"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in laws or regulations affecting workforce (collective bargaining, minimum wage, advance scheduling, health care mandates, classification of exempt/non-exempt employees, classification of workers as employees vs independent contractors)",
+    "Changes in legal or regulatory environment through executive orders",
+    "Information security, cybersecurity, and data privacy laws and regulations (including reporting and disclosure regimes)",
+    "Supply chain requirements",
+    "Product safety regulations",
+    "Product quality standards",
+    "Payment methods regulations",
+    "Environmental, social, and governance regulations (including sustainability and diversity, equity, and inclusion)",
+    "Climate and emissions disclosure requirements",
+    "Foreign Corrupt Practices Act and other anti-bribery laws",
+    "Anti-money laundering laws",
+    "Import restrictions",
+    "Responsible sourcing laws",
+    "Sanctions programs",
+    "Pillar Two framework (OECD global minimum tax)",
+    "FDA approval requirements",
+    "Trade restrictions",
+    "Tariffs imposed or threatened on China, Mexico, Canada, and other countries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Mexico",
+      "Canada"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade policies, disputes, or sanctions affecting foreign trade",
+      "U.S. tariffs imposed or threatened on China, Mexico, Canada, and other countries",
+      "Retaliatory actions by countries subject to tariffs"
+    ]
+  }
+}

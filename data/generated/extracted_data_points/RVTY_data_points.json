@@ -1,0 +1,80 @@
+{
+  "ticker": "RVTY",
+  "company_name": "Revvity, Inc.",
+  "company_type": "Health Sciences Solutions & Technologies",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "United Kingdom",
+      "Germany",
+      "Sweden",
+      "India",
+      "Singapore",
+      "Finland",
+      "Luxembourg",
+      "Netherlands",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Life Sciences",
+    "Diagnostics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Countries outside the United States"
+    ],
+    "dependencies": "Wide variety of raw materials, key components and supplies generally available from alternate sources. For certain critical raw materials, key components and supplies required for production of some principal products, the Company has qualified only a limited or a single source of supply.",
+    "risks": "Disruptions in supply of raw materials and key components from limited or single source suppliers could adversely affect business operations and damage customer relationships. Global health crises, pandemics, changes in trade policy, wars, conflicts, or other changes in a country's or region's political or economic conditions could significantly adversely affect supply chain.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA and similar foreign agencies regulations governing product activities from design and development to labeling, manufacturing, promotion, sales and distribution",
+    "Potential product recalls and cease of manufacture and distribution if fail to comply with regulations",
+    "Subject to fines, penalties, criminal prosecution or other sanctions for non-compliance",
+    "Importation and exportation of products regulations",
+    "Anti-bribery, anti-corruption and competition laws in United States and abroad",
+    "Data privacy and information security laws and regulations (comprehensive regulatory systems in United States, European Union and United Kingdom)",
+    "GDPR and other evolving privacy and data protection laws worldwide",
+    "Failure to comply with data privacy laws could result in enforcement actions, fines, claims for damages, reputation damage",
+    "Healthcare industry extensive and frequently changing international and United States federal, state and local laws and regulations",
+    "Healthcare fraud and abuse laws, patient privacy violations and misconduct involving government insurance programs",
+    "Potential exclusion from participation in governmental healthcare programs",
+    "Loss of various licenses, certificates and authorizations necessary to operate business",
+    "Environmental, health and safety laws and regulations (handling, transportation, manufacture and disposal of toxic or hazardous substances, remediation of contaminated soil and groundwater, regulation of radioactive materials)",
+    "Comprehensive Environmental Response Compensation and Liability Act and comparable state statutes",
+    "Differing tax laws and changes in those laws, or changes in countries in which subject to taxation",
+    "Enactment by OECD countries of Base Erosion and Profit Shifting Pillar Two imposing minimum corporate income tax rate of at least 15%",
+    "Trade protection measures including embargoes, sanctions and tariffs",
+    "Import or export licensing requirements and potential delays or restrictions in shipment of products or receipt of products from suppliers",
+    "Policies in foreign countries benefiting domestic manufacturers or detrimental to companies headquartered in United States"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "Democratic Republic of the Congo"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and other restrictions implemented by United States and other governments on Russian Federation and related parties in connection with conflict in Ukraine",
+      "Trade barriers and tariffs",
+      "Wars, conflicts, or other changes in a country's or region's political or economic conditions, particularly in developing or emerging markets",
+      "Current conflicts in Ukraine and the Middle East could interfere with supply chain, customers and activities in particular locations"
+    ]
+  }
+}

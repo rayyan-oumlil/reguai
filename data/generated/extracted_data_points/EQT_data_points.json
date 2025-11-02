@@ -1,0 +1,74 @@
+{
+  "ticker": "EQT",
+  "company_name": "EQT Corporation",
+  "company_type": "Natural Gas Production and Midstream",
+  "geography": {
+    "regions": [
+      "Appalachian Basin"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Production",
+    "Gathering",
+    "Transmission"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Significant portions of natural gas production dependent on small number of key compression and processing stations",
+      "Dependence on third-party pipelines for transportation",
+      "Reliance on equipment, rigs, pipe, materials, qualified personnel, water for hydraulic fracturing",
+      "Concentration of assets in Appalachian Basin"
+    ],
+    "risks": [
+      "Supply chain disruptions or labor shortage impacts",
+      "Shortages of or delays in obtaining equipment, rigs, pipe, materials, qualified personnel, water",
+      "Equipment failures, accidents or unexpected operational events",
+      "Aging infrastructure and mechanical or structural problems",
+      "Damage to pipelines, wells and storage assets from natural phenomena, weather, sabotage, terrorism",
+      "Third-party pipeline unavailability or refusal to accept deliveries",
+      "Concentration risk in Appalachian Basin making company vulnerable to regional supply/demand factors, weather, processing/transportation capacity constraints"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state environmental regulations including Clean Water Act, Clean Air Act, CERCLA, RCRA",
+    "EPA regulation of hydraulic fracturing under Safe Drinking Water Act",
+    "FERC regulation of interstate natural gas transportation, storage, and rates",
+    "Pipeline safety regulations by PHMSA including integrity management requirements",
+    "Climate change and GHG emissions regulations including EPA methane rules",
+    "Inflation Reduction Act methane emissions waste charge",
+    "State regulations on hydraulic fracturing, water usage, wastewater disposal",
+    "Endangered Species Act and Migratory Bird Treaty Act restrictions",
+    "NEPA environmental review requirements",
+    "Commodity derivatives regulation under Dodd-Frank Act",
+    "State and local zoning ordinances and permitting requirements",
+    "Potential bans on hydraulic fracturing in certain jurisdictions",
+    "Changes to tax laws including potential elimination of oil and gas tax incentives",
+    "Regulatory approval delays for new pipeline construction",
+    "Potential changes to FERC Certificate Policy Statement",
+    "State participation in Regional Greenhouse Gas Initiative (RGGI)",
+    "California climate disclosure requirements",
+    "Potential windfall profits tax or LNG export restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Growing geopolitical instability and armed conflicts (Russia-Ukraine, Middle East) increasing risk of attacks on energy infrastructure",
+      "Potential tariffs imposed by United States or other countries on goods and natural resources including natural gas and LNG",
+      "Economic sanctions on Russia potentially affecting global energy markets"
+    ]
+  }
+}

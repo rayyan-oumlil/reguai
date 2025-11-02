@@ -1,0 +1,82 @@
+{
+  "ticker": "EOG",
+  "company_name": "EOG Resources, Inc.",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "United States",
+      "Trinidad and Tobago",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Trinidad and Tobago",
+      "Australia",
+      "Canada",
+      "Bahrain"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "United States Operations",
+    "Trinidad Operations",
+    "Other International Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Independent drilling contractors and third-party service contractors for all drilling and completion activities",
+      "Third-party gathering, processing, compression, storage, transportation, refining, liquefaction and export facilities",
+      "Availability of water for drilling and completion operations",
+      "Availability of drilling rigs, hydraulic fracturing services, pressure pumping equipment, tubular materials, sand, disposal facilities, qualified personnel"
+    ],
+    "risks": [
+      "Unavailability of third-party gathering, processing, compression, storage, transportation, refining, liquefaction and export facilities",
+      "Supply chain disruptions affecting availability of facilities and equipment",
+      "Inflationary pressures on costs of fuel, steel, labor, drilling and completion services",
+      "Limitations on ability to secure sufficient water due to drought or local restrictions",
+      "Shortages or delays in availability of drilling rigs, hydraulic fracturing services, equipment, materials, qualified personnel"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, tribal and local environmental, health and safety regulations",
+    "Climate change-related regulations and policies including GHG emissions regulations",
+    "U.S. EPA regulations on methane and VOC emissions from oil and gas operations",
+    "U.S. EPA final methane rules published March 2024",
+    "BLM Waste Prevention Rule requiring leak detection and waste minimization plans",
+    "Inflation Reduction Act methane emissions charge on certain oil and gas facilities",
+    "State and local regulations on hydraulic fracturing including disclosure requirements and restrictions on chemical additives",
+    "Regulations on access to and use of water for drilling operations",
+    "Regulations on disposal of produced water, drilling fluids and other wastes",
+    "Permitting requirements for oil and gas drilling on state, tribal and federal lands",
+    "Leasing restrictions or bans on federal lands for oil and gas development",
+    "Royalty calculation regulations for federal and state leases including increased royalty rates",
+    "U.S. federal income tax law changes affecting oil and gas companies",
+    "Potential elimination of intangible drilling cost deductions",
+    "Global minimum tax (GMT) implementation in various jurisdictions",
+    "Carbon tax or emissions-related tax proposals",
+    "SEC climate-related disclosure rules",
+    "California climate-related disclosure mandates",
+    "European Union methane emissions limits on crude oil and natural gas imports beginning 2030",
+    "Regulations on financial derivative transactions and hedging activities",
+    "Import and export regulations for crude oil, natural gas and related commodities",
+    "FERC regulations on natural gas sales and transportation",
+    "Trinidad government regulations on oil and gas operations and production sharing contracts"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Trinidad and Tobago"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Imposition of tariffs or trade or other economic sanctions",
+      "U.S. laws and policies affecting foreign trade and taxation including tariffs and economic sanctions",
+      "Potential impact of tariffs on operating costs and capital expenditures"
+    ]
+  }
+}

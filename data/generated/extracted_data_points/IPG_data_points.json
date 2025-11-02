@@ -1,0 +1,91 @@
+{
+  "ticker": "IPG",
+  "company_name": "The Interpublic Group of Companies, Inc.",
+  "company_type": "Advertising and Marketing Communications Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "United Kingdom",
+      "Continental Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "Canada",
+      "Mexico",
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Japan",
+      "Australia",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Media, Data & Engagement Solutions (MD&E)",
+    "Integrated Advertising & Creativity Led Solutions (IA&C)",
+    "Specialized Communications & Experiential Solutions (SC&E)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers including cloud computing services",
+      "Third-party vendors for production and media costs on behalf of clients",
+      "Technology and emerging media companies for marketing tools"
+    ],
+    "risks": [
+      "Cybersecurity incidents or data breaches affecting third-party service providers",
+      "System failures or network disruptions in third-party cloud computing services",
+      "Reliance on third-party vendors for client production and media commitments"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "General Data Protection Regulation (GDPR) in European Economic Area and United Kingdom",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "Comprehensive privacy laws in several U.S. states",
+    "Data protection and privacy laws affecting digital marketing and data transfers between countries",
+    "Export controls and economic sanctions (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Restrictions on operations in Russia and increasingly China due to sanctions",
+    "Content-related rules for specific products (pharmaceuticals, alcoholic beverages, tobacco, food)",
+    "Restrictions on media scheduling, placement, and advertising directed to children",
+    "Anti-corruption laws including FCPA and U.K. Anti-Bribery Act (2010)",
+    "Laws and regulations on user privacy, use of personal information, and online tracking technologies",
+    "Potential bans on advertising of specific products (alcohol, tobacco, marijuana)",
+    "Taxes on or denial of deductions for advertising",
+    "OECD Pillar 2 global tax reform (minimum 15% tax)",
+    "Climate change and ESG-related laws and regulations",
+    "Inflation Reduction Act of 2022 (book minimum tax and excise tax on share repurchases)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export controls and economic sanctions limiting operations in Russia",
+      "Increasing restrictions on operations in China",
+      "U.S. Foreign Corrupt Practices Act (FCPA) compliance risks",
+      "U.K. Bribery Act compliance risks",
+      "Office of Foreign Assets Control (OFAC) sanctions",
+      "Limitations on ability to operate in certain geographic regions or service certain clients"
+    ]
+  }
+}

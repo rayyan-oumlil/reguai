@@ -1,0 +1,107 @@
+{
+  "ticker": "KVUE",
+  "company_name": "Kenvue Inc.",
+  "company_type": "Consumer Health",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East, and Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Belgium",
+      "Luxembourg",
+      "Germany",
+      "Switzerland",
+      "Italy",
+      "China",
+      "Japan",
+      "India",
+      "Singapore",
+      "Malaysia",
+      "Australia",
+      "New Zealand",
+      "Brazil",
+      "Argentina",
+      "Turkey",
+      "Egypt",
+      "Russia",
+      "Ukraine",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Self Care",
+    "Skin Health and Beauty",
+    "Essential Health"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe, Middle East, and Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "dependencies": [
+      "Certain raw and packaging materials purchased from single-source suppliers or a limited number of suppliers",
+      "Over 60% of sales volume delivered by in-house manufacturing, remaining 40% by third-party suppliers",
+      "Reliance on third-party manufacturers for certain key products such as Tylenol and Zyrtec",
+      "Principal raw materials include resins, silicon, pulp and corn derivatives, paper, agrochemicals, vegetable oils, and oleochemicals"
+    ],
+    "risks": [
+      "Volatility in cost or availability of raw materials due to military conflicts",
+      "Inflationary pressures impacting costs of raw materials, packaging components, and other inputs",
+      "Disruptions to manufacturing or supplier operations due to regulatory action, quality control issues, labor disputes, natural disasters, cybersecurity incidents, epidemics, pandemics, geopolitical events",
+      "Concentration risk from single-source suppliers or limited number of suppliers for certain materials",
+      "Third-party manufacturers may not meet manufacturing requirements or allocate sufficient capacity",
+      "Supply chain disruptions from Russia-Ukraine War",
+      "Global shipping, logistics, transport and warehousing constraints"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on OTC drug products, cosmetics, and medical devices",
+    "New or more stringent laws or regulations globally",
+    "Modernization of Cosmetics Regulation Act expanding FDA authority over cosmetics",
+    "Medical Device Regulation (MDR) in EU requiring re-review of products",
+    "REACH regulations in EU and similar chemical regulations in other jurisdictions",
+    "Privacy and data protection laws (EU GDPR, UK GDPR, China PIPL, US state laws)",
+    "Anti-corruption laws (FCPA, UK Bribery Act, Chinese anti-corruption laws)",
+    "Environmental, health, and safety laws and regulations",
+    "Extended producer responsibility (EPR) laws",
+    "OECD Pillar Two minimum tax regulations",
+    "Trade controls including tariffs, sanctions, quotas, trade barriers",
+    "FDA proposed order to remove phenylephrine from OTC monograph",
+    "Regulatory status changes for pseudoephedrine products in EU countries",
+    "Climate change regulations and ESG-related legal requirements",
+    "Product labeling and claims regulations (FTC, FDA, EU directives)",
+    "Tax law changes including TCJA, GILTI provisions, state tax changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export controls and financial sanctions against Russia, Belarus, and specific areas of Ukraine due to Russia-Ukraine War",
+      "Sanctions imposed by US Treasury Department's Office of Foreign Assets Control",
+      "Trade embargoes and restrictions on doing business in certain countries",
+      "Rising geopolitical trade tensions in key markets such as between US, Western Europe, and China",
+      "Potential new or increased tariffs on various products"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "ticker": "HRL",
+  "company_name": "Hormel Foods Corporation",
+  "company_type": "Food Products Manufacturing and Distribution",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Brazil",
+      "Canada",
+      "China",
+      "England",
+      "Indonesia",
+      "Japan",
+      "Mexico",
+      "Philippines",
+      "Singapore",
+      "South Korea"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retail",
+    "Foodservice",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Brazil"
+    ],
+    "dependencies": [
+      "Concentration on pork, turkey, beef, chicken, and nuts as principal raw materials",
+      "Majority of turkeys raised by the Company",
+      "Purchases hogs for Austin, Minnesota processing facility",
+      "Long-term supply agreements for pork",
+      "Spot market purchases of pork",
+      "Cashews sourced internationally",
+      "Dependent on suppliers to meet raw material needs as Company shifts toward value-added portfolio"
+    ],
+    "risks": [
+      "Fluctuations in grain prices and fuel costs affecting turkey production",
+      "Certain raw materials such as cashews sourced internationally causing additional risks to pricing and availability",
+      "Increased dependence on suppliers as Company shifts focus toward value-added portfolio",
+      "Outbreaks of disease among livestock and poultry flocks (ASF, BSE, PCV2, PRRS, FMD, PEDv, HPAI)",
+      "HPAI detected within turkey supply chain in fiscal 2024 and first quarter of fiscal 2025",
+      "Fluctuations in commodity prices and availability of raw materials",
+      "Decreased availability or less favorable pricing for nuts, tomatoes, avocados, or other produce due to poor growing conditions",
+      "Supplies of natural and organic proteins may impact ability to ensure continuing supply",
+      "International trade barriers and restrictions could result in decreased foreign demand and increased domestic supply"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Regulation by U.S. Department of Agriculture",
+    "Regulation by U.S. Food and Drug Administration",
+    "Regulation by U.S. Department of Homeland Security",
+    "International, federal, and state taxing authorities regulations",
+    "Workforce mobility regulations",
+    "Animal welfare regulations",
+    "Food safety regulations",
+    "Processing, packaging, storage, distribution, advertising, and labeling regulations",
+    "Maximum production line speeds for pork harvest facilities under review by government",
+    "Loss of availability of government inspectors due to government furlough",
+    "New or modified laws, regulations, and accounting standards",
+    "Stringent environmental laws and regulations pertaining to discharge of materials and handling of wastes",
+    "Compliance with foreign regulations and tax laws",
+    "Compliance with U.S. Foreign Corrupt Practices Act",
+    "Enforcement of remedies in foreign jurisdictions",
+    "Class actions involving employees, consumers, competitors, suppliers, shareholders",
+    "Claims relating to product liability, contract disputes, antitrust regulations, intellectual property, advertising, labeling, wage and hour laws, employment practices, environmental matters",
+    "Pork Antitrust Litigation",
+    "Turkey Antitrust Litigation",
+    "Poultry Wages Antitrust Litigation",
+    "Red Meat Wages Antitrust Litigation",
+    "Tax deficiency notices from State of São Paulo Tax Authority Office in Brazil for ICMS and ICMS-ST taxes",
+    "Inflation Reduction Act of 2022 - 15% corporate minimum tax",
+    "OECD Pillar Two Framework - minimum effective tax rate of 15%"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries (unspecified)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Military conflicts in Russia, Ukraine, and Middle East causing inflated fuel costs and supply chain shortages",
+      "Potential for additional supply chain disruptions, rising prices for oil and commodities, volatility in capital markets and foreign exchange rates, rising interest rates, heightened cybersecurity risks due to geopolitical conflicts",
+      "International trade barriers and restrictions could result in decreased foreign demand",
+      "Imposition of tariffs, quotas, trade barriers and other restrictions on international sales",
+      "Potential political tariffs as risk to International segment outlook"
+    ]
+  }
+}

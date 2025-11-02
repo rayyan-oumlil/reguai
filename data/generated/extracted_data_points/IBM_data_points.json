@@ -1,0 +1,126 @@
+{
+  "ticker": "IBM",
+  "company_name": "International Business Machines Corporation",
+  "company_type": "Technology Services and Software",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Russia",
+      "Turkey",
+      "South Africa",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "South Korea",
+      "Singapore",
+      "Taiwan",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Philippines",
+      "Vietnam",
+      "New Zealand",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Software",
+    "Consulting",
+    "Infrastructure",
+    "Financing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Global locations"
+    ],
+    "dependencies": [
+      "Single or limited number of suppliers for certain businesses",
+      "Server processor technology for certain semiconductors",
+      "Reliance on suppliers for components, supplies, services and raw materials"
+    ],
+    "risks": [
+      "Changes in business condition of suppliers could subject company to losses",
+      "Failure of suppliers to deliver components in sufficient quantities or timely manner",
+      "Defective components or materials from suppliers could reduce product reliability",
+      "Supply chain disruptions from severe weather events, prolonged temperature changes, natural disasters, climate change impacts, uncertain political climates, international hostilities, terrorist activities, pandemics"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Development and enforcement of laws and regulations specifically targeted at technology industry",
+    "U.S. and foreign data privacy requirements",
+    "Outbound investment restrictions",
+    "AI and cloud regulations",
+    "Data localization requirements",
+    "Labor relations laws",
+    "Enforcement of IP protection laws",
+    "Anti-corruption laws",
+    "Anti-competition regulations",
+    "Import, export and trade restrictions",
+    "Enactment of EU AI Act",
+    "Cybersecurity, data protection and privacy laws and regulations",
+    "International data transfer mechanisms and data location requirements",
+    "Increased cybersecurity requirements and reporting obligations",
+    "Carbon taxes and new regulations affecting hardware products and data centers",
+    "Environmental laws and regulations including U.S. Superfund law",
+    "OECD global minimum tax rules",
+    "Premiums for mandatory pension insolvency insurance coverage outside the United States",
+    "Government investigations and legal proceedings",
+    "Debarment risks for government contractors",
+    "Regulations on security of critical infrastructure and IoT devices",
+    "Customer industry regulations (e.g., financial services, healthcare)",
+    "Government supply chain security programs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International trade disputes could create uncertainty",
+      "Tariffs and international trade sanctions could affect ability to move goods and services across borders",
+      "Sanctions compliance requirements",
+      "Trade restrictions and export controls",
+      "Measures to mitigate trade sanctions or tariffs could be made less effective if sanctions or tariffs change"
+    ]
+  }
+}

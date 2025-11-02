@@ -1,0 +1,109 @@
+{
+  "ticker": "TKO",
+  "company_name": "TKO Group Holdings, Inc.",
+  "company_type": "Sports and Entertainment",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe/Middle East/Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Scotland",
+      "Australia",
+      "China",
+      "Japan",
+      "Brazil",
+      "Russia",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Peru",
+      "Chile",
+      "Singapore",
+      "Ukraine",
+      "Haiti",
+      "Nigeria",
+      "Switzerland",
+      "India",
+      "Macau",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "UFC",
+    "WWE"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party distributors for media content distribution",
+      "Dependence on television and cable networks, satellite providers, digital streaming partners",
+      "Reliance on third-party venues for live events",
+      "Dependence on Endeavor for various operational functions under Services Agreement"
+    ],
+    "risks": [
+      "Failure to maintain or renew key distribution agreements could adversely affect ability to distribute media content",
+      "Reliance on limited number of distributors, licensees, and partners increases exposure to counterparty risk",
+      "Dependence on third-party technology platforms for streaming services",
+      "Supply chain disruptions from catastrophic events, severe weather, pandemics",
+      "Reliance on Endeavor services under Services Agreement - termination could impact operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Licensing laws for athletes and promotion of MMA events",
+    "Athletic commission regulations and medical clearances required for live events",
+    "Compliance with U.S. Foreign Corrupt Practices Act (FCPA)",
+    "Compliance with U.K. Bribery Act 2010",
+    "Anti-money laundering and countering terrorist financing rules",
+    "Data privacy and protection laws (GDPR, CCPA, state privacy laws)",
+    "Cybersecurity laws and regulations (NIS 2 Directive)",
+    "FCC regulations applicable to broadcast programming",
+    "Gaming laws and regulations in various jurisdictions",
+    "Immigration restrictions and visa requirements for talent and personnel",
+    "Employment and labor laws (worker classification, minimum wage, discrimination)",
+    "Americans with Disabilities Act and UK Disability Discrimination Act compliance",
+    "Environmental protection regulations",
+    "Antitrust and fair competition laws",
+    "International trade controls, sanctions, and embargoes",
+    "Tax laws and regulations (including OECD Pillar Two global minimum tax)",
+    "Content production incentive programs and compliance requirements",
+    "Marketing and advertising regulations (including gambling-related advertising)",
+    "Children's Online Privacy Protection Act (COPPA)",
+    "Video Privacy Protection Act (VPPA)",
+    "Telephone Consumer Protection Act",
+    "Cookie and tracking technology regulations (ePrivacy Directive)",
+    "Digital Services Act (DSA) in EU",
+    "Data Act in EU",
+    "SEC disclosure and corporate governance requirements",
+    "Sarbanes-Oxley Act compliance",
+    "NYSE listing requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S., European Union and United Kingdom trade and economic sanctions exposure",
+      "Counter-sanctions enacted by sanctioned countries (e.g., Russia)",
+      "Restrictions on transactions in certain markets and with certain entities",
+      "Impact of sanctions on distribution agreements and business relationships",
+      "Compliance with sanctions laws could restrict business activities",
+      "Russia subsidiary operations subject to sanctions risks"
+    ]
+  }
+}

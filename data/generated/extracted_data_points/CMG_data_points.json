@@ -1,0 +1,77 @@
+{
+  "ticker": "CMG",
+  "company_name": "Chipotle Mexican Grill, Inc.",
+  "company_type": "Restaurant - Fast Casual",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Kuwait",
+      "Dubai"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.982,
+      "International": 0.018
+    },
+    "assets_by_region": {
+      "United States": 0.978,
+      "International": 0.022
+    }
+  },
+  "segments": [
+    "U.S. Segment"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Hyphen Technologies Inc.",
+      "Nuro, Inc.",
+      "Tractor Beverages, Inc.",
+      "Vebu Inc."
+    ],
+    "manufacturing_locations": [
+      "Mexico",
+      "Canada",
+      "China"
+    ],
+    "dependencies": "Single or limited number of suppliers for some ingredients including lemon and lime juice, tomatoes and adobo. 26 independently owned and operated regional distribution centers.",
+    "risks": "Shortages or interruptions in supply due to higher demand, inclement weather, natural disasters, animal disease outbreaks, social or labor unrest, shortages of agricultural workers, operational disruptions at suppliers/distributors, financial distress of suppliers, global conflicts disrupting shipping routes, tariffs and trade restrictions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on food safety, inspections, mandatory food recalls, menu labeling and nutritional content",
+    "Employment practices regulations including minimum wage rates, wage and hour practices, meal and rest breaks, fair workweek/secure scheduling legislation, just cause termination legislation, employment of minors, discrimination, harassment, classification of employees, paid and family leave, workplace safety, immigration and overtime",
+    "Privacy and data security regulations including California Privacy Rights Act (CPRA), California Consumer Privacy Act (CCPA), GDPR in European Union, Personal Information Protection and Electronic Documents Act in Canada, state privacy laws on health data and biometric data",
+    "Health, sanitation, safety and fire standards and sale of alcoholic beverages regulations",
+    "Building and zoning requirements including state and local licensing and regulation governing design and operation of facilities and land use",
+    "Marketing and advertising claims regulations including nutritional information and sustainability impacts",
+    "Americans with Disabilities Act and similar state laws for public accommodations and safety conditions",
+    "Environmental regulations on emissions and air quality, water consumption, discharge, storage, handling, release and disposal of hazardous or toxic substances, local ordinances restricting packaging types",
+    "New or increased tariffs, trade sanctions or taxes",
+    "SEC and NYSE disclosure requirements including new climate disclosure rules (Climate Corporate Data Accountability Act, Greenhouse Gases: Climate-Related Financial Risk Bill)",
+    "California minimum wage law requiring $20 per hour for national restaurant chains",
+    "New York City Fair Workweek law and Earned Safe and Sick Time Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Tariffs on ingredients and restaurant equipment sourced outside the U.S. including from Mexico, Canada and China",
+      "Trade sanctions or taxes impacting imported ingredients (avocados, tomatoes, beef, pork, limes, peppers), restaurant equipment, packaging and paper products",
+      "Global conflicts disrupting shipping routes"
+    ]
+  }
+}

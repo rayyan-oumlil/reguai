@@ -1,0 +1,62 @@
+{
+  "ticker": "JBHT",
+  "company_name": "J.B. Hunt Transport Services, Inc.",
+  "company_type": "Transportation and Logistics",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Intermodal (JBI)",
+    "Dedicated Contract Services (DCS)",
+    "Integrated Capacity Solutions (ICS)",
+    "Final Mile Services (FMS)",
+    "Truckload (JBT)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Norfolk Southern",
+      "Class I railroads",
+      "BNSF Railway Company"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Majority of JBI business travels on BNSF and Norfolk Southern railways. Dependence on rail service providers for intermodal operations. Reliance on third-party carriers and independent contractors. Dependence on revenue equipment manufacturers for tractors, trailers, containers, and chassis.",
+    "risks": "Rail service disruptions due to contractual disagreements, labor disruptions or shortages, and rail network inefficiencies. Work stoppages at U.S. ports of call. Significant delays in availability of new revenue equipment or increases in equipment cost. Inability to obtain reliable third-party carriers and independent contractors.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "DOT and FMCSA regulations governing motor carrier operations, safety, hours-of-service, and financial reporting",
+    "Potential DOT restrictions or operational impacts from non-compliance audits",
+    "U.S. Customs and Border Protection regulations for cross-border trade and security compliance",
+    "Environmental laws and regulations (EPA) regarding hazardous materials, underground fuel storage tanks, storm water discharge and retention",
+    "Potential future laws and regulations on climate change and greenhouse gas emissions",
+    "Occupational Safety and Health Administration (OSHA) requirements",
+    "State and local government regulations",
+    "Risk of new laws, rules, or regulations that could substantially impair labor and equipment productivity, increase costs, or impact ability to offer certain services",
+    "Potential reclassification of independent contractors as employees under federal and state legislation (including California laws and U.S. Department of Labor rulemaking effective March 11, 2024)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Rapid changes in border or trade policies, including tariffs, could impact customer operations and reduce freight shipping demand or affect equipment cost/availability"
+    ]
+  },
+  "revenue_by_segment": {
+    "JBI": 0.493,
+    "DCS": 0.281,
+    "ICS": 0.094,
+    "FMS": 0.075,
+    "JBT": 0.058
+  }
+}

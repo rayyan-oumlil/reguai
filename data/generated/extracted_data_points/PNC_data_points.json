@@ -1,0 +1,112 @@
+{
+  "ticker": "PNC",
+  "company_name": "The PNC Financial Services Group, Inc.",
+  "company_type": "Financial Services - Diversified Banking",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "Canada",
+      "Germany",
+      "China",
+      "United States",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retail Banking",
+    "Asset Management Group",
+    "Corporate & Institutional Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party vendors and service providers for technology and operations",
+      "Payment networks such as Visa and Mastercard",
+      "Federal Reserve Bank and Federal Home Loan Bank for liquidity",
+      "Data aggregators for financial applications"
+    ],
+    "risks": [
+      "Data security breaches at merchants and payment processors",
+      "Supply chain attacks on software and systems",
+      "Reliance on third-party technology infrastructure",
+      "Cybersecurity threats from third-party vendors",
+      "Third-party vendor failures or disruptions could materially impact operations; concentration risk with certain technology and service providers; cybersecurity vulnerabilities through third-party access; operational dependencies on external processors and technology platforms",
+      "Operational failures at third-party service providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Reserve supervision and examination processes",
+    "Anti-money laundering and Bank Secrecy Act compliance requirements",
+    "Consumer protection regulations enforced by CFPB",
+    "Potential changes in tax laws and rates",
+    "Interchange fee regulations and potential changes",
+    "Basel III capital requirements and potential revisions",
+    "FINRA oversight of brokerage activities",
+    "FDIC deposit insurance assessments and special assessments",
+    "Dodd-Frank Act compliance including stress testing and resolution planning",
+    "Long-term debt and clean holding company requirements (proposed)",
+    "Enhanced prudential standards and supervision as a Category III banking organization",
+    "Community Reinvestment Act (CRA) requirements and new final rule",
+    "Liquidity requirements including LCR and NSFR regulatory minimums",
+    "Volcker Rule restrictions on proprietary trading and fund investments",
+    "State and local regulatory requirements that may conflict with federal law",
+    "Enhanced prudential standards for large bank holding companies",
+    "Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR) requirements",
+    "Changes to tax laws and regulations affecting financial institutions",
+    "FINRA oversight of broker-dealer activities",
+    "Mortgage lending regulations including ability-to-repay rules",
+    "Sanctions compliance including OFAC regulations",
+    "State banking regulations across multiple jurisdictions",
+    "Durbin Amendment interchange fee limitations",
+    "Volcker Rule restrictions on proprietary trading",
+    "Securities and derivatives regulation by SEC and CFTC",
+    "Single counterparty credit limit requirements",
+    "Stress testing requirements under CCAR and DFAST processes",
+    "CFPB enforcement of consumer financial protection laws",
+    "Climate-related regulatory expectations",
+    "Federal Reserve and OCC comprehensive supervision and examination",
+    "Department of Labor ERISA regulations",
+    "Fair lending and Community Reinvestment Act requirements",
+    "Overdraft and fee disclosure regulations",
+    "Single counterparty credit limits (SCCL)",
+    "Resolution and recovery planning requirements",
+    "Fair lending and consumer protection regulations",
+    "Changes to capital requirements under Basel III framework and potential implementation of Basel III Endgame rules",
+    "Dodd-Frank Act requirements and potential modifications",
+    "BSA/AML compliance requirements",
+    "Data privacy and security regulations",
+    "Data privacy and cybersecurity regulations",
+    "Climate-related disclosure and risk management expectations",
+    "Securities regulations and SEC oversight"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical tensions affecting international operations and correspondent banking relationships",
+      "Impact of tariffs and trade policies on customers and economic conditions",
+      "Compliance with U.S. sanctions on designated persons, companies, and foreign governments",
+      "Export and sanctions compliance requirements",
+      "Potential impact of geopolitical tensions on financial markets and economy",
+      "Compliance with U.S. sanctions programs including those targeting Russia, Iran, and other jurisdictions",
+      "Sanctions compliance requirements for cross-border transactions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Retail Banking": 0.673,
+    "Corporate & Institutional Banking": 0.388,
+    "Asset Management Group": 0.074
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ticker": "LHX",
+  "company_name": "L3Harris Technologies, Inc.",
+  "company_type": "Defense Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia-Pacific (APAC)",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "United Arab Emirates",
+      "Australia",
+      "Ukraine",
+      "Russia",
+      "China",
+      "Iran",
+      "Middle East countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Space & Airborne Systems (SAS)",
+    "Integrated Mission Systems (IMS)",
+    "Communication Systems (CS)",
+    "Aerojet Rocketdyne (AR)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "EMEA",
+      "APAC"
+    ],
+    "dependencies": [
+      "Limited number of certified microelectronics component suppliers",
+      "Single supplier dependencies for certain components",
+      "Reliance on U.S. Government-approved supply sources for certain materials and components including microelectronic components"
+    ],
+    "risks": [
+      "Component shortages from vendors due to global pandemic, natural disasters, or shifting regulatory landscape",
+      "Supply chain disruptions from material availability and supplier performance",
+      "Extended lead times, pricing volatility, inflationary pressures and labor issues",
+      "Difficulties in timely procurement of necessary materials and components including microelectronics",
+      "Geopolitical conditions including sanctions and trade restrictive activities",
+      "Some materials and components previously sourced from areas now under sanctions (specialty metals from Russia, certain equipment from China)",
+      "Supplier financial and operational difficulties outside direct control"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Government budget deficit and national debt affecting spending priorities",
+    "Congressional appropriations and administrative allotment of funds uncertainty",
+    "Continuing Resolution (CR) or government shutdown impacts",
+    "Changes in U.S. Government spending priorities with new Administration",
+    "Federal Acquisition Regulation (FAR) compliance requirements",
+    "Defense Federal Acquisition Regulation Supplement compliance",
+    "International Traffic in Arms Regulations (ITAR) compliance",
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "Export control laws and regulations",
+    "U.S. anti-boycott legislation",
+    "Product certification or stewardship requirements",
+    "Sourcing restrictions and tariffs",
+    "Cybersecurity regulations",
+    "Environmental standards including greenhouse gas emission limitations",
+    "Cost Accounting Standards (CAS) requirements",
+    "Procurement integrity requirements",
+    "Competition law compliance",
+    "Information security and data privacy regulations",
+    "Suspension or debarment risks from U.S. Government contracting",
+    "Loss of export privileges",
+    "Environmental laws (Comprehensive Environmental Response, Compensation and Liability Act, Resource Conservation Recovery Act)",
+    "Climate-related disclosure requirements (SEC Release Nos. 33-11275 and 34-99678)",
+    "Debt ceiling requirements",
+    "Fiscal Responsibility Act of 2023 (FRA) caps and automatic sequestration"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Middle East countries",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions including tariffs",
+      "Sanctions on Russia affecting specialty metals sourcing",
+      "Sanctions on China affecting equipment sourcing",
+      "Risk of sanctions or trade restrictive actions on current sourcing areas",
+      "International boycotts and U.S. anti-boycott legislation",
+      "Sanctions against U.S. defense companies"
+    ]
+  }
+}

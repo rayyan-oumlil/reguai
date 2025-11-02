@@ -1,0 +1,109 @@
+{
+  "ticker": "AOS",
+  "company_name": "A. O. Smith Corporation",
+  "company_type": "Water Heating and Treatment Products Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Rest of World",
+      "China",
+      "Europe",
+      "India",
+      "Middle East",
+      "Far East",
+      "South Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "India",
+      "Turkey",
+      "Vietnam",
+      "Hong Kong",
+      "Barbados",
+      "Netherlands"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.674,
+      "China": 0.199,
+      "Canada": 0.087,
+      "Other Foreign": 0.04
+    },
+    "assets_by_region": {
+      "United States": 0.577,
+      "China": 0.254,
+      "Canada": 0.071,
+      "Other Foreign": 0.098
+    }
+  },
+  "segments": [
+    "North America",
+    "Rest of World"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "India",
+      "Mexico",
+      "Canada"
+    ],
+    "dependencies": [
+      "Steel as primary raw material",
+      "Concentration risk in China manufacturing",
+      "Dependence on limited number of suppliers for certain raw materials and components"
+    ],
+    "risks": [
+      "Material and component price volatility, particularly steel",
+      "Tariffs could increase volatility in steel and other input materials",
+      "Supplier concentration - dependent on limited number of suppliers for some raw materials and components",
+      "Significant disruption or termination of supply from key suppliers could delay sales or increase costs",
+      "International operations subject to supply chain disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Department of Energy (DOE) efficiency rules for commercial water heaters effective 2026",
+    "DOE efficiency rules for residential water heaters effective 2029",
+    "New national drinking water standards regulating PFAS and lead",
+    "State and local government bans on gas-fired products in new construction to address greenhouse gas emissions",
+    "Federal, state and local environmental laws and regulations",
+    "U.S. Environmental Protection Agency regulations",
+    "Occupational Health and Safety Administration regulations",
+    "Consumer Product Safety Commission regulations",
+    "Federal Trade Commission regulations",
+    "State and local building codes",
+    "Foreign government regulations in countries where products are manufactured, distributed and sold",
+    "Laws requiring transition to non-fossil fuel based energy sources",
+    "Regulations significantly reducing or eliminating on-site combustion of fossil fuels in building sector",
+    "Foreign Corrupt Practices Act compliance",
+    "U.S. Export Administration Act restrictions",
+    "Laws prohibiting improper payments to government officials",
+    "Laws restricting business activities in certain countries",
+    "Laws restricting information sharing with non-U.S. governments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Turkey"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Import tariffs, taxes, customs duties imposed by U.S. government on foreign countries",
+      "Retaliatory tariffs from other countries on U.S.",
+      "Current U.S. administration desire to impose substantial new or increased tariffs",
+      "Trade restrictions and changes to trade agreements",
+      "Sanctions compliance requirements"
+    ]
+  },
+  "revenue_by_segment": {
+    "North America": 0.773,
+    "Rest of World": 0.241,
+    "Inter-segment elimination": -0.013
+  }
+}

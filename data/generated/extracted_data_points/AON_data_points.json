@@ -1,0 +1,121 @@
+{
+  "ticker": "AON",
+  "company_name": "Aon plc",
+  "company_type": "Professional Services - Risk Capital and Human Capital Solutions",
+  "geography": {
+    "regions": [
+      "Americas",
+      "United States",
+      "Americas other than United States",
+      "Europe, Middle East, & Africa",
+      "United Kingdom",
+      "Ireland",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Ireland",
+      "Netherlands",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Switzerland",
+      "Belgium",
+      "Poland",
+      "Russia",
+      "China",
+      "Japan",
+      "India",
+      "Singapore",
+      "Australia",
+      "Hong Kong",
+      "South Korea",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "South Africa",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "Turkey",
+      "Egypt",
+      "Kenya",
+      "Nigeria",
+      "Bolivia",
+      "Bermuda"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Risk Capital",
+    "Commercial Risk Solutions",
+    "Reinsurance Solutions",
+    "Human Capital",
+    "Health Solutions",
+    "Wealth Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third parties to perform key functions including technology, information security, funds transfers, data processing, support functions, and administration",
+      "Dependence on correspondents, agents and other brokerage intermediaries, insurance markets, data providers, plan trustees, payroll service providers, benefits administrators, software and system vendors, business process outsourcing providers"
+    ],
+    "risks": [
+      "Third parties may act in ways that could harm business",
+      "Failure by third parties to comply with service level agreements or regulatory requirements",
+      "Disruptions in service or cessation of service by any service provider due to systems failures, cybersecurity or data privacy incidents, capacity constraints, financial difficulties",
+      "Reliance on complex information technology systems and networks vulnerable to cyber-attacks, data breaches, and unauthorized access",
+      "Dependence on third-party vendors for technology systems with potential breakdowns or security breaches"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive governmental regulation in jurisdictions worldwide including Irish Companies Act, U.S. securities laws, FCA rules and regulations",
+    "Licensing requirements and regulation as insurance producers, brokers, agents, consultants, reinsurance brokers, or managing general agents",
+    "Investment of fiduciary funds subject to regulatory requirements and limits on types of investments",
+    "Pension and financial laws including oversight by FCA in U.K., SEC and DOL in U.S.",
+    "Investment advisory services regulated by SEC, DOL, FINRA, and state authorities",
+    "Conflict of interest regulations and anti-trust laws related to Market Derived Income (MDI)",
+    "Data privacy and protection regulations including General Data Protection Regulation in E.U., evolving privacy laws in China, Brazil, and U.S. jurisdictions",
+    "Schrems II case impacts on data export from E.U.",
+    "New regulations on automated decision making and artificial intelligence",
+    "ESG reporting, diligence and disclosure rules and regulations",
+    "Climate-related disclosure requirements",
+    "Competition authority scrutiny and potential enforcement actions",
+    "Anti-money laundering, wage-and-hour standards, employment and labor relations regulations",
+    "Anti-corruption laws including Foreign Corrupt Practices Act (U.S.) and Bribery Act of 2010 (U.K.)",
+    "Trade sanctions laws, restrictions and export controls",
+    "Currency and reserve requirements in certain countries",
+    "Health insurance industry changes and potential legislative changes affecting health care exchange business",
+    "Regulations affecting viability, value, use or delivery of benefits and human resources programs",
+    "Changes in laws governing health and welfare plans, defined contribution plans, or defined benefit plans",
+    "OECD Pillar Two global minimum tax regime (15% country-by-country minimum tax)",
+    "Potential changes in tax laws including U.S. Inflation Reduction Act (1% excise tax on stock redemptions)",
+    "Foreign Account Tax Compliance provisions of the Hiring Incentives to Restore Employment Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Iran",
+      "Bolivia",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions laws, restrictions and export controls may impact operations",
+      "Geopolitical conflicts including ongoing Russian war in Ukraine and conflicts in the Middle East",
+      "International risks associated with global operations including impacts from military conflicts or political instability",
+      "Potential governmental actions affecting flow of goods, services, and currency in emerging markets"
+    ]
+  }
+}

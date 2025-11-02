@@ -1,0 +1,90 @@
+{
+  "ticker": "KIM",
+  "company_name": "Kimco Realty Corporation",
+  "company_type": "Real Estate Investment Trust (REIT) - Open-Air Shopping Centers",
+  "geography": {
+    "regions": [
+      "United States",
+      "Sun Belt",
+      "Coastal Markets",
+      "Major Metropolitan Areas"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Top 18 Major Metro Markets (Sun Belt and Coastal)": 0.82,
+      "United States": 1.0
+    },
+    "assets_by_region": {
+      "United States": 1.0
+    }
+  },
+  "segments": [
+    "Net Leased Properties",
+    "Mixed-use properties",
+    "Shopping Centers",
+    "Residential Development",
+    "Mixed-Use Properties",
+    "Open-air shopping centers",
+    "Preferred Equity Investments",
+    "Investment Real Estate Management Programs"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "PetSmart",
+      "Ross Stores",
+      "TJX Companies",
+      "Burlington Stores",
+      "Dick's Sporting Goods",
+      "Kroger",
+      "Ahold Delhaize",
+      "The Home Depot",
+      "Albertsons Companies",
+      "Amazon/Whole Foods Market"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependent on construction materials (steel, lumber) and labor for redevelopment projects; supply chain disruptions and inflation impact construction costs and timelines",
+    "risks": [
+      "Tenant bankruptcy risk, lease termination risk, property market conditions, interest rate fluctuations affecting property values",
+      "Supply chain disruptions due to global factors; increased costs for materials and labor; labor shortages; delays in completing renovation projects or tenant buildouts; international trade disputes and tariffs on imported materials (steel, lumber)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal income tax at regular corporate rates if less than 100% of net taxable income is distributed",
+    "Increasing levels of regulation and disclosure requirements related to corporate responsibility and climate matters",
+    "United States Foreign Corrupt Practices Act (for past international operations)",
+    "Taxable REIT subsidiary (TRS) federal and state income tax obligations",
+    "California's climate disclosure rules",
+    "Securities regulations and NYSE listing standards",
+    "Environmental compliance requirements",
+    "State and local zoning, usage and other regulations relating to real property",
+    "Federal income tax regulations and annual distribution requirements (90% of REIT taxable income)",
+    "Federal income and excise taxes on undistributed taxable income",
+    "Stock exchange requirements (NYSE)",
+    "Environmental laws, ordinances and regulations regarding hazardous or toxic substances",
+    "Changes in governmental laws and regulations including data privacy, environmental (climate change), safety and health laws",
+    "State and local tax compliance on income and property",
+    "Americans with Disabilities Act (ADA) compliance requirements and potential future changes",
+    "Annual distribution requirement of at least 90% of net taxable income to maintain REIT status",
+    "Insider trading policy compliance requirements",
+    "Federal securities laws and regulations",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Real estate zoning and land use regulations",
+    "REIT qualification requirements under Internal Revenue Code Sections 856-860",
+    "Conflicting state laws regarding corporate responsibility matters (some requiring climate disclosures, others constraining such considerations)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade disputes could result in inflationary pressures impacting construction material costs",
+      "International trade disputes including U.S. trade tariffs and retaliatory tariffs could adversely impact tenant operations",
+      "Tariffs or trade restrictions could materially increase costs for tenants selling imported goods"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "ticker": "HSIC",
+  "company_name": "Henry Schein, Inc.",
+  "company_type": "Healthcare Distribution and Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "China",
+      "Czech Republic",
+      "France",
+      "Germany",
+      "Hong Kong SAR",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Liechtenstein",
+      "Luxembourg",
+      "Mexico",
+      "Morocco",
+      "Netherlands",
+      "New Zealand",
+      "Peru",
+      "Poland",
+      "Portugal",
+      "South Africa",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "United Arab Emirates",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Global Distribution and Value-Added Services",
+    "Global Specialty Products",
+    "Global Technology",
+    "Global Dental",
+    "Global Medical"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Switzerland",
+      "Germany",
+      "Brazil",
+      "France",
+      "Mexico"
+    ],
+    "dependencies": "Top 10 Global Distribution and Value-Added Services suppliers accounted for approximately 25% of aggregate purchases, with single largest supplier at 4%. Dependence on third parties for manufacture and supply of significant volume of products. Where company manufactures products, dependent on third parties for raw materials and purchased components.",
+    "risks": "Dependence on third-party suppliers for product manufacture and supply. Risk of supply interruptions due to supplier failure to comply with government requirements, manufacturing capability interruptions. Recent periods experienced increased costs and shortages of purchased components negatively impacting profit margins and sales. No long-term contracts with most suppliers. Some key suppliers provide significant portion of products sold.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state healthcare fraud and abuse laws including False Claims Act and Anti-Kickback laws",
+    "Physician Self-Referral Law (Stark Law)",
+    "HIPAA privacy and security requirements",
+    "FDA regulations on medical devices and pharmaceuticals",
+    "Controlled Substances Act and DEA regulations",
+    "Drug Supply Chain Security Act (DSCSA) track and trace requirements",
+    "EU Medical Device Regulation (MDR) compliance",
+    "GDPR and international data privacy laws (CCPA, PIPL in China)",
+    "Affordable Care Act (ACA) and healthcare reform changes",
+    "Physician Payments Sunshine Act transparency requirements",
+    "Medicare and Medicaid reimbursement rate changes",
+    "State prescription drug pricing transparency laws",
+    "Inflation Reduction Act drug pricing provisions",
+    "OECD Pillar Two global minimum tax rules (15% rate effective 2024)",
+    "Foreign Corrupt Practices Act and UK Bribery Act",
+    "Import/export regulations and customs policies",
+    "Cybersecurity incident reporting requirements",
+    "AI and machine learning medical device regulations",
+    "Climate disclosure requirements (California and EU)",
+    "EU CSRD sustainability reporting requirements",
+    "Antitrust and consumer protection laws",
+    "State and federal tax law changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes to laws and policies governing foreign trade, tariffs and sanctions",
+      "Greater restrictions on imports and exports",
+      "Geopolitical wars including war in Ukraine and Israel-Gaza war",
+      "Threat of wider European or global conflict",
+      "Supply chain disruption from geopolitical tensions",
+      "Customs policies or legislative import restrictions could hinder ability to import goods and result in government enforcement actions"
+    ]
+  }
+}

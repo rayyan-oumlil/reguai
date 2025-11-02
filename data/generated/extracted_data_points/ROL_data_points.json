@@ -1,0 +1,68 @@
+{
+  "ticker": "ROL",
+  "company_name": "Rollins, Inc.",
+  "company_type": "Pest and Termite Control Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Australia",
+      "Europe",
+      "Asia",
+      "Central and South America",
+      "Caribbean",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Australia",
+      "United Kingdom",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Residential",
+    "Commercial",
+    "Termite and Ancillary"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Relationships with a vast network of national pest control product distributors, manufacturers and other suppliers for pest and termite treatment products",
+    "risks": "Supply chain disruptions that are more than short-term in nature could impact levels of products, materials and other supplies",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws governing hazardous waste disposal and pesticide use",
+    "Federal, state, provincial and local laws governing pest and termite control industry",
+    "Antitrust laws",
+    "Employment and benefit laws (wage and hour laws, payroll taxes, anti-discrimination laws, pension laws, ERISA)",
+    "Immigration laws",
+    "Motor vehicle laws and regulations",
+    "Human health and safety laws (OSHA regulations)",
+    "Securities laws and SEC regulations",
+    "Consumer protection laws (Telephone Consumer Protection Act, Telemarketing Sales Rule, CAN-SPAM Act, Consumer Review Fairness Act)",
+    "Data privacy laws (California Consumer Privacy Act, California Privacy Rights Act, UK General Data Protection Regulation, Data Protection Act 2018, Personal Information Protection and Electronic Documents Act in Canada, Privacy Act and Australian Privacy Principles in Australia, Personal Data Protection Act and Spam Control Act in Singapore)",
+    "Franchise laws and regulations (Federal Trade Commission rules)",
+    "Environmental regulations governing management of hazardous waste and pesticide disposal in California",
+    "Noncompliance with changes in or expanded enforcement of laws governing hazardous waste disposal",
+    "Penalties including criminal sanctions, civil remedies, cancellation of licenses, fines"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with applicable export, anti-corruption and currency laws and regulations",
+      "Geopolitical conflicts such as the conflict between Russia and Ukraine and the conflict in Gaza"
+    ]
+  }
+}

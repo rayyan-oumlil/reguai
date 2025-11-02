@@ -1,0 +1,104 @@
+{
+  "ticker": "RF",
+  "company_name": "Regions Financial Corporation",
+  "company_type": "Financial Services - Banking",
+  "geography": {
+    "regions": [
+      "Midwest",
+      "South",
+      "Texas"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Bank",
+    "Corporate Bank",
+    "Wealth Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Third parties provide key components of business operations such as data processing, recording and monitoring transactions, online banking interfaces and services, Internet connections and network access",
+    "risks": [
+      "Disruptions in services provided by vendors",
+      "Failure to comply with applicable laws and regulations",
+      "Fraud or misconduct on the part of employees of vendors",
+      "Issues at third-party vendors to the vendors",
+      "Failure of vendors to handle current or higher volumes",
+      "Failure of vendors to provide services for any reason",
+      "Financial or operational difficulties for vendors",
+      "Poor performance of services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Prompt corrective action requirements under FDIA",
+    "Long-term debt requirements proposed for banking organizations with $100 billion or more in total assets",
+    "Basel III Endgame - New rules for capital requirements with broad-based changes to risk-weighting framework",
+    "CIRCIA requiring covered entities to report significant cyber incidents to CISA",
+    "State regulatory requirements across multiple jurisdictions",
+    "Dodd-Frank Act compliance requirements",
+    "Compensation practice oversight and limitations by Federal Reserve and FDIC",
+    "Resolution planning requirements for IDIs with $50 billion or more in total assets",
+    "HUD regulatory guidelines for mortgage operations",
+    "Stress Capital Buffer (SCB) requirements based on supervisory stress testing",
+    "Consumer Financial Protection Bureau (CFPB) regulations",
+    "SEC regulations requiring disclosure of material cybersecurity incidents",
+    "OFAC sanctions compliance requirements",
+    "Potential changes to tax laws affecting financial institutions",
+    "Consumer protection laws including Equal Credit Opportunity Act, Fair Credit Reporting Act, Truth in Lending Act, Home Mortgage Disclosure Act",
+    "Fair lending and consumer protection laws",
+    "Enhanced liquidity risk management and risk committee requirements for Category IV firms",
+    "Volcker Rule prohibiting proprietary trading and investing in hedge funds or private equity funds",
+    "Privacy and cybersecurity laws including GLBA, CCPA, state data breach notification laws",
+    "Cybersecurity notification rule requiring 36-hour incident reporting to primary federal regulator",
+    "CRA final rule materially revising current framework including assessment areas, evaluation tests, and data collection requirements",
+    "FDIC insurance assessment changes",
+    "Potential regulatory actions or enforcement proceedings",
+    "FDIC Part 370 recordkeeping requirements for rapid payment of insured deposits",
+    "Changes in federal and state banking regulations",
+    "Federal Reserve proposal to lower maximum interchange fee for large debit card issuers",
+    "Clean holding company requirements that would limit or prohibit certain transactions",
+    "Changes in laws and regulations affecting banking businesses including debit card interchange fees, special FDIC assessments, new long-term debt requirements",
+    "Fannie Mae and Freddie Mac regulatory requirements",
+    "Changes resulting from changes in U.S. presidential administration, control of U.S. Congress, and changes in personnel at bank regulatory agencies",
+    "CFPB rules on overdraft fees scheduled to take effect October 1, 2025",
+    "Anti-money laundering (AML) and Bank Secrecy Act (BSA) compliance",
+    "Enhanced prudential standards and regulatory tailoring rules for BHCs with over $100 billion in assets",
+    "Basel III capital requirements and potential Basel IV implementation",
+    "Community Reinvestment Act (CRA) requirements and ratings",
+    "Federal Reserve stress testing and capital planning requirements",
+    "Climate-related disclosure requirements",
+    "Anti-Money Laundering Act (AMLA) amendments to BSA requiring risk-based approach",
+    "Data privacy and cybersecurity regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Taiwan",
+      "Russia",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Territorial sanctions restricting trade with or investment in sanctioned countries",
+      "Blocking of assets where government or specially designated nationals of sanctioned country have an interest",
+      "OFAC sanctions compliance - U.S. economic sanctions affecting transactions with designated foreign countries, nationals, organizations, regimes and entities",
+      "Failure to comply with sanctions could have serious legal and reputational consequences",
+      "Specially Designated Nationals and Blocked Persons List compliance"
+    ]
+  },
+  "revenue_by_segment": {
+    "Corporate Bank": 0.396,
+    "Consumer Bank": 0.459,
+    "Wealth Management": 0.222,
+    "Other": -0.076
+  }
+}

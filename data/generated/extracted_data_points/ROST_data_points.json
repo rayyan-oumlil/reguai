@@ -1,0 +1,55 @@
+{
+  "ticker": "ROST",
+  "company_name": "Ross Stores, Inc.",
+  "company_type": "Off-Price Retail Apparel and Home Fashion",
+  "geography": {
+    "regions": [
+      "United States",
+      "Guam"
+    ],
+    "countries": [
+      "United States",
+      "Guam"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Ross Dress for Less",
+    "dd's DISCOUNTS"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia",
+      "China"
+    ],
+    "dependencies": "A predominant portion of the apparel and other goods sold is originally manufactured in other countries, predominantly in Asia (including China). The Company directly sources a portion of products from foreign vendors and also buys products that originate from foreign sources indirectly through domestic vendors.",
+    "risks": "Constraints on the availability of shipping capacity, changes in transportation or tariff costs, trade relationships or tax policies, geopolitical conflicts, natural disasters, or public health issues that reduce the supply or increase the relative cost of imported goods could result in disruptions to supply relationships. Global shipping capacity limitations, labor stoppages, or financial or political instability in countries where goods are manufactured could adversely affect merchandise flow.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in U.S. trade or tax policy regarding apparel and home-related merchandise produced in other countries",
+    "Tariff increases or threats of increases",
+    "Changes in tariffs, quotas, trade relationships, or tax provisions",
+    "Compliance with consumer product safety laws and regulations",
+    "Vendor compliance with environmental, employment and labor standards (including wages and working conditions), health, safety, and anti-bribery standards",
+    "Federal, state, and local rules and regulations affecting workforce management, employee benefits, minimum wages, advertising, comparative pricing, import/export, sourcing and manufacturing, data protection (customer and associate data privacy, choice, and notification rights), intellectual property",
+    "Potential changes in laws and policies creating uncertainty in planning sourcing strategies and forecasting margins",
+    "Regulations to address climate change",
+    "Product warranty and intellectual property issues",
+    "Pillar Two Model Rules providing for a global minimum tax of 15% on multinational entities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions related to ongoing military conflicts",
+      "Trade restrictions in the form of tariffs or quotas applicable to products sold"
+    ]
+  }
+}

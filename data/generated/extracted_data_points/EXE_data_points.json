@@ -1,0 +1,81 @@
+{
+  "ticker": "EXE",
+  "company_name": "Expand Energy Corporation",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Haynesville (Louisiana)": 0.406,
+      "Northeast Appalachia (Pennsylvania)": 0.418,
+      "Southwest Appalachia (West Virginia/Ohio)": 0.176
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Haynesville",
+    "Northeast Appalachia",
+    "Southwest Appalachia"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party midstream service companies and pipeline carriers for gathering, processing and transportation of natural gas",
+      "Dependence on drilling rigs, pressure pumping equipment and other oilfield services",
+      "Water supply requirements for hydraulic fracturing operations"
+    ],
+    "risks": [
+      "Pipeline and gathering system capacity constraints",
+      "Supply chain disruptions from regional epidemics or pandemics",
+      "Shortages of drilling rigs and oilfield equipment during periods of rising commodity prices",
+      "Competition for qualified personnel and supplies",
+      "Inflationary pressure including rising fuel costs, tightening steel market and labor shortages"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EPA regulations on methane and greenhouse gas emissions including new Subpart OOOOb and OOOOc standards",
+    "Inflation Reduction Act Methane Emissions Reduction Program imposing waste emissions charge",
+    "BLM regulations to reduce waste of natural gas from operations on federal and tribal land",
+    "PHMSA pipeline safety regulations and leak detection requirements",
+    "State and local hydraulic fracturing regulations and potential bans",
+    "Climate change legislation and carbon pricing initiatives",
+    "SEC climate-related disclosure requirements",
+    "Federal and state data privacy laws including CCPA and CPRA",
+    "Environmental remediation and compliance costs",
+    "Restrictions on federal oil and gas leasing and permitting",
+    "State seismicity response programs affecting disposal well operations",
+    "Water use restrictions and disposal regulations",
+    "DOE pause on LNG export approvals to non-free trade agreement countries",
+    "European Union methane emissions tracking and reduction regulation for energy imports",
+    "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) requirements",
+    "Section 382 limitations on tax attribute utilization following ownership changes",
+    "15% corporate alternative minimum tax on book income under Inflation Reduction Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Israel",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Armed conflict and instability in Europe and the Middle East affecting commodity prices and global growth",
+      "Russian invasion of Ukraine causing volatility in natural gas and oil prices",
+      "Armed conflict between Israel and Hamas potentially spilling over into broader region"
+    ]
+  },
+  "revenue_by_segment": {
+    "Natural gas, oil and NGL sales": 0.702,
+    "Marketing": 0.305,
+    "Natural gas, oil and NGL derivatives": -0.009,
+    "Gains on sales of assets": 0.003
+  }
+}

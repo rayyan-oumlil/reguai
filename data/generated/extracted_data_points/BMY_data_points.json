@@ -1,0 +1,122 @@
+{
+  "ticker": "BMY",
+  "company_name": "Bristol-Myers Squibb Company",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe",
+      "Japan",
+      "Asia Pacific",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Switzerland",
+      "Ireland",
+      "Netherlands",
+      "Japan",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Finland",
+      "Greece",
+      "Hungary",
+      "Lithuania",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Slovakia",
+      "Sweden",
+      "Canada",
+      "Australia",
+      "China",
+      "South Korea",
+      "Taiwan",
+      "India",
+      "Argentina",
+      "Mexico",
+      "Hawaii"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Oncology",
+    "Hematology",
+    "Immunology",
+    "Cardiovascular",
+    "Neuroscience",
+    "Growth Portfolio",
+    "Legacy Portfolio"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Switzerland",
+      "Ireland",
+      "Netherlands",
+      "Devens, Massachusetts",
+      "Bothell, Washington",
+      "Summit, New Jersey",
+      "Libertyville, Illinois",
+      "Leiden, Netherlands"
+    ],
+    "dependencies": "Rely on third parties to manufacture or supply active product ingredient or drug substance for various products including Eliquis, Opdivo, Pomalyst/Imnovid, Yervoy, Sprycel, Reblozyl, Abraxane, Zeposia, Camzyos, Sotyktu, Augtyro, Krazati and Cobenfy. Single source or sole source suppliers for some raw materials, components and supplies.",
+    "risks": "Product supply negatively impacted by difficulties, delays and disruptions in manufacturing, distribution and sale. Failure of suppliers to provide necessary raw materials, supplies or finished goods within reasonable timeframe. Manufacturing or distribution issues including limits to capacity, labor disputes or shortages. Geopolitical factors including trade regulations, tariffs, compliance requirements. Supply chain continuity disruptions from market forces, natural disasters, global disease outbreaks, acts of war or terrorism. Complex chain of identity and custody for CAR-T cell therapies. Logistical and shipment delays for cell therapy products.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Increased pricing pressure and restrictions in U.S. and abroad negatively affect revenues and profit margins",
+    "Government-mandated cost-containment programs and price controls in markets outside U.S.",
+    "IRA directs federal government to negotiate prices for select high-cost Medicare Part D and Part B drugs",
+    "IRA manufacturers must pay rebate for Medicare Part B and Part D drugs when prices increase faster than inflation",
+    "State laws seeking additional transparency into cost of prescription drugs and additional rebates",
+    "Pharmacy benefit manager practices under increased scrutiny from U.S. policymakers",
+    "New or changing legal or regulatory requirements for cybersecurity, data protection, storage and privacy",
+    "FDA authority to require confirmatory trials and additional enforcement mechanisms",
+    "Environmental policies relating to climate change, regulating greenhouse gas emissions, carbon taxes, emissions trading schemes",
+    "Countries enacting changes to tax laws to implement OECD global minimum tax agreement",
+    "340B Drug Pricing Program expanded utilization and restrictions on pharmaceutical companies",
+    "Potential march-in rights allowing government to license drugs to third parties based on pricing",
+    "FDA mandates for Risk Evaluation and Mitigation Strategy (REMS) programs",
+    "Compliance with anti-corruption and anti-bribery regulations including U.S. Foreign Corrupt Practices Act and UK Bribery Act",
+    "EU General Data Protection Regulation compliance requirements",
+    "Requirements for reporting payments and value transfers to healthcare professionals",
+    "Good manufacturing practice (cGMP) regulations and FDA inspections",
+    "Product labeling changes and safety-related requirements",
+    "Patent and intellectual property protection varying by country",
+    "Generic and biosimilar approval processes and market exclusivity rules",
+    "Pillar Two legislation implementing OECD/G20 Inclusive Framework global minimum tax"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical tensions including Ukraine-Russia conflict impact operations",
+      "Tensions between U.S. and China create volatility and potential negative consequences",
+      "New tariffs imposed in jurisdictions where company operates",
+      "Trade restrictions and compliance requirements from geopolitical events",
+      "Foreign currency devaluation in countries like Argentina"
+    ]
+  }
+}

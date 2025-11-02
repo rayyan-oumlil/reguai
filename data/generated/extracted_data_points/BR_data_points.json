@@ -1,0 +1,105 @@
+{
+  "ticker": "BR",
+  "company_name": "Broadridge Financial Solutions, Inc.",
+  "company_type": "Financial Technology Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia-Pacific",
+      "EMEA"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Ireland",
+      "Romania",
+      "Poland",
+      "Germany",
+      "France",
+      "Sweden",
+      "Czechia",
+      "India",
+      "Singapore",
+      "Japan",
+      "Hong Kong",
+      "Philippines",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.857,
+      "Canada": 0.067,
+      "Europe": 0.067,
+      "Other": 0.008
+    },
+    "assets_by_region": {
+      "United States": 0.663,
+      "Canada": 0.072,
+      "Europe": 0.234,
+      "Other": 0.03
+    }
+  },
+  "segments": [
+    "Investor Communication Solutions",
+    "Global Technology and Operations",
+    "Regulatory Solutions",
+    "Data-Driven Fund Solutions",
+    "Corporate Issuer Solutions",
+    "Customer Communications Solutions",
+    "Capital Markets Solutions",
+    "Wealth and Investment Management Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Kyndryl, Inc.",
+      "Presidio Networked Solutions LLC",
+      "Kyndryl Canada Limited",
+      "Amazon Web Services, Inc.",
+      "Amazon Web Services (AWS)",
+      "United States Postal Service (USPS)",
+      "United Parcel Service"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party service providers for data center and cloud services, including Kyndryl for IT infrastructure and AWS for cloud services. Heavy dependence on USPS and third-party carriers for physical delivery of communications.",
+    "risks": "Failure of third-party service providers to perform their functions could result in material interruptions. Single or limited number of service providers for certain businesses. USPS financial losses may lead to service disruptions. Carrier disruptions due to strikes, weather, or increased costs.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in SEC rules and regulations affecting proxy materials distribution and stockholder communications",
+    "Changes in NYSE rules regarding reimbursement rates for proxy services",
+    "FINRA regulatory oversight of broker-dealer operations",
+    "DOL ERISA regulations on plan fiduciaries and retirement plan services",
+    "Federal Financial Institutions Examination Council (FFIEC) regulatory examination",
+    "Privacy and information security regulations including GLBA, HIPAA, CPRA, and GDPR",
+    "Payment Card Industry Data Security Standard (PCI DSS) compliance",
+    "Anti-money laundering (AML) laws and Bank Secrecy Act compliance",
+    "OFAC sanctions and trade control laws",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Sustainability and ESG reporting requirements",
+    "New or changing legal requirements related to AI use",
+    "State and foreign privacy laws with inconsistent requirements across jurisdictions",
+    "Increased focus on cybersecurity and vendor risk management by regulators",
+    "Colorado Division of Banking and Arizona Department of Insurance regulations for trust company operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Restrictions on transactions with specified countries and individuals on sanctions lists",
+      "Impact of international conflicts such as Russia-Ukraine war and Middle East conflicts on operations",
+      "Trade policies, disputes, barriers and restrictions affecting international operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Investor Communication Solutions": 0.742,
+    "Global Technology and Operations": 0.258
+  }
+}

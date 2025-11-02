@@ -1,0 +1,91 @@
+{
+  "ticker": "TTD",
+  "company_name": "The Trade Desk, Inc.",
+  "company_type": "Advertising Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "China",
+      "Japan",
+      "India",
+      "Australia",
+      "Canada",
+      "Singapore",
+      "Hong Kong",
+      "Indonesia",
+      "Switzerland",
+      "Iceland",
+      "Liechtenstein",
+      "Norway"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Advertising Technology Platform"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party data center hosting facilities and cloud computing providers",
+      "Real-time advertising exchanges and supply-side platforms for inventory access",
+      "Third-party data vendors (over 350 integrated as of December 31, 2024)",
+      "Dependence on major inventory suppliers including Google",
+      "Third-party technology and systems for platform operations"
+    ],
+    "risks": [
+      "Concentration risk with few inventory suppliers holding significant programmatic inventory",
+      "Google is both a major advertising inventory supplier and competitor",
+      "Suppliers generally not bound by long-term contracts",
+      "Potential disruptions from third-party data center and cloud provider outages",
+      "Reliance on third-party APIs and technology that may become unavailable or change terms",
+      "Supply chain inefficiencies controlled by inventory suppliers' bidding processes"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. federal and state privacy legislation including state omnibus consumer privacy laws (California, Virginia, Colorado, etc.)",
+    "FTC enforcement under Section 5 of the FTC Act for unfair or deceptive trade practices",
+    "EU General Data Protection Regulation (GDPR) and UK GDPR compliance",
+    "ePrivacy Directive and proposed ePrivacy Regulation in EU",
+    "Children's Online Privacy Protection Act (COPPA) updates",
+    "State laws restricting targeted advertising to minors under 18",
+    "Washington's My Health My Data Act (MHMD) regarding health data",
+    "Cross-border data transfer restrictions (EU-U.S. Data Privacy Framework challenges)",
+    "Data residency and localization requirements in various jurisdictions",
+    "Political advertising transparency and disclosure requirements",
+    "Anti-bribery and anti-corruption laws (U.S. Foreign Corrupt Practices Act, UK Bribery Act 2010)",
+    "U.S. export control and economic sanctions regulations",
+    "OECD Pillar Two Model Rules (global minimum tax of 15%)",
+    "Digital services taxes in various jurisdictions",
+    "Browser and device-level privacy controls (cookie deprecation, IDFA restrictions)",
+    "Global Privacy Control (GPC) and similar opt-out signal requirements",
+    "IAB Europe Transparency and Control Framework (TCF) viability under review"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. economic sanctions and export controls restricting business with sanctioned countries and entities",
+      "Restrictions on doing business with countries, governments and persons targeted by U.S. sanctions",
+      "Potential violations leading to criminal/civil fines and reputational harm",
+      "Risk of inadvertent business with sanctioned parties despite preventive measures",
+      "Treasury Department's Office of Foreign Assets Control (OFAC) compliance requirements"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "ticker": "NOW",
+  "company_name": "ServiceNow, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "EMEA",
+      "Asia Pacific and Other"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Switzerland",
+      "Australia",
+      "Japan",
+      "Singapore",
+      "India",
+      "China",
+      "Russia",
+      "Belarus",
+      "Iran",
+      "California"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Technology Workflows",
+    "Customer and Industry Workflows",
+    "Employee Workflows",
+    "Creator Workflows",
+    "IT Asset Management",
+    "Enterprise Asset Management",
+    "Integrated Risk Management",
+    "IT Operations Management",
+    "IT Service Management",
+    "Operational Technology Management",
+    "Security Operations",
+    "Strategic Portfolio Management",
+    "Customer Service Management",
+    "Field Service Management",
+    "Financial Services",
+    "Healthcare and Life Sciences",
+    "Manufacturing",
+    "Public Sector",
+    "Retail",
+    "Technology",
+    "Telecom",
+    "HR Service Delivery",
+    "Legal Service Delivery",
+    "Workplace Service Delivery",
+    "App Engine",
+    "Automation Engine",
+    "Platform Privacy and Security",
+    "Source-to-Pay Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party data center providers for hosting services",
+      "Public cloud service providers (Amazon Web Services, Microsoft Azure, Google Cloud)",
+      "Third-party hardware and software equipment for data center infrastructure",
+      "Global system integrators (Accenture, Cognizant, Deloitte, EY, KPMG)",
+      "Managed service providers and resale partners",
+      "NVIDIA for AI agent development",
+      "Open-source software dependencies"
+    ],
+    "risks": [
+      "Reliance on third-party data center providers for service availability",
+      "Dependence on public cloud service providers for infrastructure",
+      "Supply chain attacks and third-party security incidents",
+      "Vulnerabilities in third-party or open-source software",
+      "Concentration of business with small number of third-party distributors for U.S. federal government sales",
+      "Partner ecosystem performance risks",
+      "Third-party service provider failures or security breaches",
+      "Global supply chain disruptions from geopolitical events"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Data privacy and security laws (EU Data Act, GDPR, Trans-Atlantic Data Privacy Framework)",
+    "Data sovereignty and residency requirements",
+    "AI and machine learning regulations (EU AI Act)",
+    "Export control laws and economic sanctions (Russia, Belarus, Iran sanctions)",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "UK Bribery Act compliance",
+    "Government procurement regulations and contracting requirements",
+    "Industry-specific regulations (financial services, healthcare, telecommunications)",
+    "Customs laws and tariffs",
+    "Global trade laws and restrictions",
+    "Intellectual property laws and patent regulations",
+    "Tax laws and regulations (U.S. federal, state, international)",
+    "OECD Pillar 2 global minimum tax rules",
+    "Environmental, social, and governance (ESG) regulations",
+    "Climate change regulations and reporting requirements",
+    "Securities laws and SEC regulations",
+    "Labor laws and employment regulations",
+    "Antitrust and competition laws",
+    "Cybersecurity regulations and incident reporting requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions against Russia and Belarus due to Russia-Ukraine conflict",
+      "Potential wider economic and trade sanctions if conflicts continue or worsen",
+      "Export control restrictions on Russia and Belarus",
+      "Sanctions compliance risks in heavily-regulated industries",
+      "Potential sanctions on other countries if geopolitical conflicts arise",
+      "Impact on business operations in sanctioned countries"
+    ]
+  }
+}

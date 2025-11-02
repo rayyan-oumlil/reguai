@@ -1,0 +1,99 @@
+{
+  "ticker": "CAG",
+  "company_name": "Conagra Brands, Inc.",
+  "company_type": "Branded Food Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Panama",
+      "Philippines"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.918,
+      "International": 0.082
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Grocery & Snacks",
+    "Refrigerated & Frozen",
+    "International",
+    "Foodservice"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "dependencies": "The Company uses many different raw materials, most of which are commodities. Raw materials include wheat, corn, oats, various vegetables, vegetable oils, beef, pork, poultry, dairy products, steel, aluminum, and energy. The Company procures a wide spectrum of commodities globally.",
+    "risks": "Supply chain disruptions have in the past and could continue to negatively impact profitability. Disruptions include transportation issues, labor challenges, global economic conditions, inflation, rising interest rates, decreased availability of capital, volatility in financial markets, declining consumer spending rates, recessions, decreased energy availability and increased energy costs (including fuel surcharges). Disruptions or inefficiencies in supply chain and/or operations. Risks related to the availability and prices of commodities and other supply chain resources, including raw materials, packaging, energy, and transportation, weather conditions, health pandemics or outbreaks of disease, or other geopolitical uncertainty. Dependency on contract manufacturing arrangements could impact sales volume and adversely affect results of operations. Operations are dependent on a wide array of third parties including suppliers, contract manufacturers, third-party outsourcers, warehousing partners, and transportation providers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Food and drug laws",
+    "Environmental laws",
+    "Laws related to advertising and marketing practices",
+    "Accounting standards",
+    "Taxation requirements",
+    "Competition laws",
+    "Labor and employment laws",
+    "Data privacy laws",
+    "Human rights laws",
+    "Anti-corruption laws",
+    "United States Department of Agriculture regulations",
+    "Federal Food and Drug Administration regulations",
+    "Federal Trade Commission regulations",
+    "Consumer Product Safety Commission regulations",
+    "Occupational Safety and Health Administration regulations",
+    "Environmental Protection Agency regulations",
+    "Department of Labor regulations",
+    "Processing, packaging, transportation, storage, distribution, advertising, labeling, quality, and safety of food products regulations",
+    "Health and safety of employees regulations",
+    "Protection of the environment regulations",
+    "Data privacy and security regulations",
+    "Anticorruption, anti-bribery, trade sanction and export regulations",
+    "Tax and securities laws and regulations",
+    "Changes in legal or regulatory requirements (such as new food safety requirements, new food labeling requirements for allergens, ingredients, and nutrition information, updated requirements for the use of 'healthy' in connection with food products, and bans on certain food ingredients or packaging materials)",
+    "Increased government regulations to limit carbon dioxide and other greenhouse gas emissions as a result of concern over climate change",
+    "New or revised regulations or interpretations",
+    "Changes in enforcement priorities",
+    "Federal Food, Drug & Cosmetic Act (including as amended by the Food Safety Modernization Act)",
+    "Federal Meat, Poultry Products, and Egg Products Inspection Acts"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export controls and economic sanctions related to the continuing military conflict between Russia and Ukraine",
+      "Conflicts in the Middle East",
+      "Rising tensions between China and Taiwan",
+      "Increased or fluctuating trade barriers or restrictions on global trade",
+      "Increased or fluctuating tariffs",
+      "Sanctions or restrictions relating to Russia, Ukraine, the Middle East, China, or Taiwan",
+      "Changes in international trade, tariff, immigration, and tax policies"
+    ]
+  },
+  "revenue_by_segment": {
+    "Grocery & Snacks": 0.422,
+    "Refrigerated & Frozen": 0.401,
+    "International": 0.082,
+    "Foodservice": 0.094
+  }
+}

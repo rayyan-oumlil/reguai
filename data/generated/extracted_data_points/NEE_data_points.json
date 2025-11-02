@@ -1,0 +1,72 @@
+{
+  "ticker": "NEE",
+  "company_name": "NextEra Energy, Inc.",
+  "company_type": "Electric Utility and Renewable Energy",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Florida"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "FPL",
+    "NEER",
+    "Florida Power & Light Company",
+    "NextEra Energy Resources"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Contracts for supply of uranium and conversion, enrichment and fabrication of nuclear fuel",
+      "Firm transportation contracts with ten different transportation suppliers for natural gas pipeline capacity",
+      "Contracts for purchase of wind turbines, wind towers, solar modules and batteries",
+      "Dependence on international supply chain for solar panels, batteries and associated equipment"
+    ],
+    "risks": [
+      "Governmental or regulatory actions have caused minor, and could in the future cause material, disruptions in the ability to acquire solar panels and batteries on time and at acceptable costs",
+      "Supply chain disruptions",
+      "Escalating costs for materials and labor",
+      "Inability to obtain or renew necessary licenses, rights-of-way, permits or other approvals on acceptable terms or on schedule",
+      "Disputes involving contractors, labor organizations, land owners, governmental entities, environmental groups, Native American and aboriginal groups, lessors, joint venture partners, suppliers and other third parties"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation by FPSC, FERC, NRC, EPA, NERC and other federal, state and local organizations",
+    "FPSC authority to disallow recovery of costs considered excessive or imprudently incurred",
+    "Regulatory decisions may be materially adversely affected by political, regulatory, operational and economic factors",
+    "Reductions or modifications to, or elimination of, governmental incentives or policies that support clean energy, including tax laws, policies and incentives, RPS and feed-in-tariffs",
+    "Imposition of additional taxes, tariffs, duties or other costs or assessments on clean energy or equipment necessary to generate, store or deliver it",
+    "New or revised laws, regulations or executive orders, including international trade laws, regulations and interpretations",
+    "Constitutional ballot or regulatory initiatives seeking deregulation or restructuring of the energy industry",
+    "New or revised regulations affecting commodities trading and derivatives markets, emissions, water consumption, water discharges, wetlands, gas and oil infrastructure operations, and environmental and other permitting requirements",
+    "Actions taken, or not taken, by government agencies as a result of executive orders, such as failing to issue, delaying the issuance of, or increasing the requirements necessary to obtain approvals, rights-of-way, permits, determinations, leases or loans related to wind or other clean energy projects",
+    "Federal executive order issued in January 2025 calling for a pause in federal land leasing, permitting and approvals for wind development facilities",
+    "Changes in Florida law or regulation through new or modified legislation, regulation or executive action or through citizen-approved state constitutional ballot initiatives",
+    "FERC regulation of transmission and wholesale power transactions evolves over time",
+    "Changes in FERC rules or policies of RTOs and ISOs, such as rules governing generator interconnection procedures and transmission planning requirements and cost allocation methodologies",
+    "Extensive federal, state and local environmental statutes, rules and regulations relating to air quality, water quality and usage, soil quality, climate change, greenhouse gas emissions, waste management, hazardous wastes, marine, avian, bat and other wildlife mortality and habitat protection",
+    "Federal or state laws or regulations mandating new or additional limits on greenhouse gas emissions, including carbon dioxide and methane",
+    "Mandatory reliability standards established and enforced by NERC",
+    "NRC regulations and jurisdiction over operation of nuclear power plants",
+    "Changes in tax laws, guidance or policies, including changes in corporate income tax rates, renewable energy tax credits and transferability of renewable energy tax credits"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Policies in place that limit certain imports from China and other Southeast Asian countries"
+    ]
+  }
+}

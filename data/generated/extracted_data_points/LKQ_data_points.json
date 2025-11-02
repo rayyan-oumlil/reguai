@@ -1,0 +1,111 @@
+{
+  "ticker": "LKQ",
+  "company_name": "LKQ Corporation",
+  "company_type": "Automotive Parts Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Germany",
+      "United Kingdom",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Italy",
+      "Czech Republic",
+      "Austria",
+      "Slovakia",
+      "France",
+      "Taiwan",
+      "Mexico",
+      "India",
+      "Sweden",
+      "Norway",
+      "Tunisia",
+      "Poland",
+      "Switzerland",
+      "Hungary",
+      "Slovenia",
+      "Bosnia",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Wholesale - North America",
+    "Europe",
+    "Specialty",
+    "Self Service"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Taiwan",
+      "Mexico",
+      "Tunisia",
+      "Netherlands",
+      "Poland",
+      "China"
+    ],
+    "dependencies": "Approximately 49% of aftermarket purchases from top six vendors, with largest vendor providing approximately 19% of annual inventory purchases for Wholesale - North America segment. Approximately 56% of aftermarket products purchased from U.S. vendors in 2024, though majority believed manufactured in Taiwan, Mexico or other foreign countries. Lead times may be 40 days or more on imported aftermarket products.",
+    "risks": "Substantial volume of sales involves products manufactured from sheet metal - adverse impact if sheet metal becomes unavailable or only available at higher prices. Limited supply of salvage vehicles in North America. Concentration risk with top suppliers. Supply chain disruptions from work stoppages at port facilities. Risks from doing business abroad including natural disasters, weather conditions, transportation costs and delays, political instability, currency fluctuations, tariffs, import/export controls.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental protection and health and safety laws governing emission and discharge of hazardous materials",
+    "Environmental permits required for operations",
+    "Contamination liability under environmental laws for present and past facilities",
+    "State laws limiting use of aftermarket products in collision repair",
+    "Consumer disclosure requirements for aftermarket products",
+    "Vehicle owner consent requirements for aftermarket products",
+    "Certification requirements for aftermarket products by independent testing organizations",
+    "Laws prohibiting or restricting sale of certain recycled products (e.g., airbags)",
+    "California Proposition 65 affecting vehicle emissions parts",
+    "Federal legislation potentially restricting aftermarket or recycled automotive products",
+    "Motor Vehicle Block Exemption Regulations (MVBER) in Europe extended for 5 years in April 2023",
+    "U.K. Motor Vehicle Block Exemption Order in force until May 31, 2029",
+    "Federal Trade Commission guides regulating use of terms like 'rebuilt' or 'remanufactured'",
+    "Operating licenses and permits required from state and local governments for salvage, self service, and refurbishing operations",
+    "Privacy and data protection laws including GDPR in European Union",
+    "Stricter data protection laws being enacted in certain U.S. states",
+    "SEC disclosure rules for material cybersecurity incidents",
+    "Anti-corruption laws including U.K. Bribery Act 2010 and Foreign Corrupt Practices Act",
+    "Labor and employment laws in numerous jurisdictions",
+    "Union and works council regulations particularly in Europe",
+    "Tariffs and import laws affecting products imported into U.S.",
+    "Import and export requirements and compliance",
+    "Intellectual property claims and design patents/trademarks by OEMs",
+    "U.S. Customs and Border Protection trademark enforcement actions",
+    "Climate change legislation and regulatory proposals on greenhouse gas emissions",
+    "Fuel economy requirements and emissions restrictions",
+    "OECD Pillar Two framework implementing global minimum corporate tax rate of 15%",
+    "Inflation Reduction Act including Corporate Alternative Minimum Tax and Stock Repurchase Excise Tax"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "War or threats of war affecting operations",
+      "Sanctions affecting supply chain and costs",
+      "Ukraine/Russia conflict monitoring with presence in Ukraine",
+      "Suppliers based in China and Taiwan - increasing strains and political repercussions may impact supply chain",
+      "Israel and Hamas conflict and related geopolitical tensions including Red Sea crisis",
+      "Increased trade barriers or restrictions on global trade",
+      "State-sponsored cybersecurity threats from political instability in certain geographic regions",
+      "U.S. tariffs imposed on materials imported from China with additional tariffs announced and threatened",
+      "Countermeasures taken by countries in retaliation for U.S.-imposed tariffs"
+    ]
+  }
+}

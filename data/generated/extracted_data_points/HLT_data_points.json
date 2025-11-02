@@ -1,0 +1,123 @@
+{
+  "ticker": "HLT",
+  "company_name": "Hilton Worldwide Holdings Inc.",
+  "company_type": "Hospitality",
+  "geography": {
+    "regions": [
+      "Americas",
+      "U.S.",
+      "Americas (excluding U.S.)",
+      "EMEA",
+      "Europe",
+      "Middle East & Africa",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Caribbean nations",
+      "South America",
+      "Central America",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Netherlands",
+      "Austria",
+      "Sweden",
+      "Belgium",
+      "Scotland",
+      "Iceland",
+      "Russia",
+      "Middle East",
+      "Africa",
+      "Egypt",
+      "Mauritius",
+      "Croatia",
+      "United Arab Emirates",
+      "Israel",
+      "Turkey",
+      "Ethiopia",
+      "Trinidad",
+      "India",
+      "China",
+      "Japan",
+      "Singapore",
+      "Australia",
+      "New Zealand",
+      "Pacific Island nations",
+      "Brazil",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Management and Franchise",
+    "Ownership"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party property owners for management and franchise contracts",
+      "Developers and owners ability to access capital for development, maintenance and renovation of properties",
+      "Third-party service providers for operational and technical services",
+      "Third-party internet and travel intermediaries who sell hotel rooms"
+    ],
+    "risks": [
+      "Financial condition of third-party property owners, developers and joint venture partners",
+      "Owners may terminate or fail to comply with management, franchise, joint venture or strategic partner contracts",
+      "Delays in or cancellations of planned or future development or refurbishment projects",
+      "Shortages of desirable locations for development",
+      "Dependence on third parties for operational and technical services",
+      "Third-party security incidents could expose company to liability",
+      "Delays in service from third-party service providers",
+      "Supply chain disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Foreign and U.S. federal and state laws and regulations governing hospitality properties",
+    "Licensing and regulation by health, sanitation, fire and safety standards",
+    "Laws governing relationships with employees including minimum wage requirements, overtime, working conditions and citizenship requirements",
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "Changes in U.S. federal, state and local or foreign tax law",
+    "Environmental, health and safety laws and regulations",
+    "Laws intended to lessen the impact of climate change",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Trade sanctions administered by Office of Foreign Assets Control (OFAC)",
+    "U.K. Bribery Act 2010 and local anti-corruption laws",
+    "Modern slavery, human trafficking and forced labor reporting and due diligence laws (U.K. Modern Slavery Act 2015, German Supply Chain Due Diligence Act)",
+    "Data protection, cybersecurity and privacy laws (GDPR, California Privacy Rights Act, CAN-SPAM Act, Telephone Consumer Protection Act)",
+    "Marketing and advertising laws including direct marketing regulations",
+    "Casino gaming licensing and regulatory control",
+    "Terrorism Risk Insurance Program expiration risks",
+    "Collective bargaining agreements and labor regulations",
+    "Franchise laws and regulations at federal and state levels",
+    "Building and zoning requirements",
+    "Alcoholic beverage service regulations",
+    "Food preparation and sale regulations",
+    "Sustainability reporting regulations (European Union Corporate Sustainability Reporting Directive)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance - hotels may provide services to or receive funds from persons subject to sanctions",
+      "Voluntary disclosures to OFAC for potential violations identified",
+      "Trade sanctions and embargoes affecting international operations",
+      "U.S. anti-boycott legislation compliance"
+    ]
+  }
+}

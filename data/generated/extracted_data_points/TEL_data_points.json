@@ -1,0 +1,97 @@
+{
+  "ticker": "TEL",
+  "company_name": "TE Connectivity plc",
+  "company_type": "Industrial Technology",
+  "geography": {
+    "regions": [
+      "EMEA",
+      "Asia-Pacific",
+      "Americas"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "Switzerland",
+      "Germany",
+      "China",
+      "United Kingdom",
+      "Luxembourg",
+      "Japan",
+      "India",
+      "Brazil",
+      "Czech Republic",
+      "France",
+      "Hong Kong",
+      "Italy",
+      "Mexico",
+      "Morocco",
+      "Singapore",
+      "South Korea",
+      "Spain",
+      "Thailand",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Transportation Solutions",
+    "Industrial Solutions",
+    "Communications Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "United States",
+      "Germany",
+      "Asia-Pacific region",
+      "EMEA region",
+      "Americas region"
+    ],
+    "dependencies": "Wide variety of raw materials including plastic resins, precious metals (gold, silver, palladium), and other metals (copper, aluminum, brass, steel). Many raw materials produced in limited number of countries or available from limited number of suppliers.",
+    "risks": "Raw material availability and price fluctuations, supply chain disruptions, inflationary cost pressures, limited number of suppliers for certain materials, force majeure events affecting feedstock and resins, concentration risk with third-party suppliers and manufacturers",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU Restriction of Hazardous Substances (RoHS) Directive compliance",
+    "EU Waste Electrical and Electronic Equipment (WEEE) Directive compliance",
+    "China Administrative Measures for the Restriction of Hazardous Substances (China RoHS) regulation",
+    "EU Registration, Evaluation, Authorization, and Restriction of Chemicals (REACH) regulation",
+    "Greenhouse gas emissions regulations and global minimum tax requirements",
+    "EU Anti-Tax Avoidance Directive",
+    "OECD global minimum corporate tax (15%) implementation",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "United Kingdom Bribery Act compliance",
+    "Environmental protection and health and safety laws compliance",
+    "Product hazardous material content regulations",
+    "Circular economy and recycling requirements",
+    "Trade compliance and export/import regulations",
+    "U.S. Department of Commerce Bureau of Industry and Security (BIS) trade controls",
+    "U.S. State Department Directorate of Defense Trade Controls (DDTC) regulations",
+    "Antitrust and competition laws (U.S. and EU)",
+    "Data privacy laws (EU GDPR, California Consumer Privacy Act, China Personal Information Protection Law)",
+    "Data localization and data residency laws",
+    "Conflict minerals regulations (3TG from DRC and adjoining countries)",
+    "EU Conflict Minerals Regulation",
+    "Climate disclosure rules (SEC Enhancement and Standardization of Climate-Related Disclosures)",
+    "Science Based Targets initiative (SBTi) commitments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S.-China trade tensions and tariffs",
+      "Sanctions compliance requirements",
+      "Military conflicts in certain parts of the world impacting operations",
+      "Geopolitical tensions in surrounding countries",
+      "Trade barriers and trade disputes",
+      "Changes in global trade policies"
+    ]
+  }
+}

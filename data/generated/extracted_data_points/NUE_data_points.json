@@ -1,0 +1,78 @@
+{
+  "ticker": "NUE",
+  "company_name": "Nucor Corporation",
+  "company_type": "Steel Manufacturing",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Trinidad and Tobago"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Steel Mills",
+    "Steel Products",
+    "Raw Materials"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Trinidad and Tobago"
+    ],
+    "dependencies": [
+      "Scrap steel as primary raw material",
+      "Pelletized iron ore for DRI facilities",
+      "Natural gas for DRI production",
+      "Electricity for EAF steelmaking"
+    ],
+    "risks": [
+      "Volatility in scrap steel prices and availability",
+      "Dependence on third-party energy suppliers",
+      "Scrap export restrictions by foreign countries",
+      "Global sourcing of raw materials from politically unstable regions (Ukraine, Russia, Brazil)",
+      "Potential scarcity of high-quality scrap",
+      "Third-party supplier disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental compliance regulations (Clean Air Act, Clean Water Act, RCRA, CERCLA)",
+    "Greenhouse gas emissions regulations and climate change policies",
+    "State and local environmental laws",
+    "OSHA workplace safety regulations",
+    "Revisions to National Ambient Air Quality Standards (NAAQS)",
+    "Environmental Product Declaration (EPD) requirements (Buy Clean California Act, federal Buy Clean guidance)",
+    "Potential carbon policy mandates and legislation",
+    "Decarbonization of electricity generation impacting power costs and reliability",
+    "Trade remedies and tariffs (Section 232 steel tariffs, antidumping and countervailing duties)",
+    "Circumvention of trade duties",
+    "Foreign Corrupt Practices Act compliance",
+    "Complex foreign tax laws and treaties",
+    "Changes in U.S. tax laws",
+    "Increased regulatory enforcement posture"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential sanctions impacting raw material sourcing from politically unstable regions",
+      "Trade tensions with China affecting steel imports and overcapacity"
+    ]
+  }
+}

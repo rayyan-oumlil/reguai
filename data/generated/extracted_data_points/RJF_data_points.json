@@ -1,0 +1,119 @@
+{
+  "ticker": "RJF",
+  "company_name": "Raymond James Financial, Inc.",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "Canada",
+      "United States",
+      "Europe",
+      "United Kingdom"
+    ],
+    "countries": [
+      "Canada",
+      "United States",
+      "Germany",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.915,
+      "Canada": 0.047,
+      "Europe": 0.038
+    },
+    "assets_by_region": {
+      "United States": 0.928,
+      "Canada": 0.04,
+      "Europe": 0.032
+    }
+  },
+  "segments": [
+    "Capital Markets",
+    "Bank",
+    "Other",
+    "Asset Management",
+    "Private Client Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third-party service providers for business operations",
+      "Reliance on clearing agents, exchanges, clearing houses, and financial intermediaries for securities and derivative transactions",
+      "Dependence on third-party banks for RJBDP (Raymond James Bank Deposit Program)",
+      "Reliance on technology systems and data processing systems",
+      "Dependence on telecommunications infrastructure"
+    ],
+    "risks": [
+      "Cyber-attacks or security breaches of third-party vendors",
+      "Cybersecurity threats, system failures, reliance on third-party technology vendors, operational disruptions",
+      "Risk of operational failure, termination or capacity constraints of clearing agents, exchanges, clearing houses or other financial intermediaries",
+      "Dependence on third-party service providers with insufficient information security protocols",
+      "Technology system failures or inability to effectively update technology systems",
+      "Consolidation among clearing agents, exchanges, and clearing houses increasing exposure to certain financial intermediaries"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "OECD Global Anti-Base Erosion Model Rules (Pillar II) requiring minimum 15% effective corporate tax rate in each jurisdiction",
+    "FDICIA prompt corrective action requirements",
+    "Compliance with Bank Holding Company Act and Federal Reserve capital requirements",
+    "FINRA capital requirements and net capital rules for broker-dealer subsidiaries",
+    "FDIC insurance requirements and bank regulatory capital standards",
+    "Economic sanctions compliance (OFAC, EU sanctions)",
+    "DOL fiduciary rule on investment advice",
+    "Increased regulatory scrutiny and rulemaking by SEC and other agencies",
+    "Extensive regulation and supervision by SEC, Fed, FDIC, OFR, PDBS, CFPB, OCC, NHBD, FINRA, CIRO, FCA and other regulatory bodies",
+    "AI-related regulations in various jurisdictions",
+    "State and local regulatory requirements across multiple jurisdictions",
+    "Basel III capital requirements and potential changes to regulatory capital rules",
+    "UK Consumer Duty requirements",
+    "Regulation Best Interest and Form CRS compliance",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act compliance",
+    "UK Financial Conduct Authority regulations for Charles Stanley operations",
+    "SEC Regulation S-P amendments on cybersecurity incident response",
+    "Dodd-Frank Act compliance including Volcker Rule restrictions",
+    "Fair lending laws (Equal Credit Opportunity Act, Fair Housing Act)",
+    "FCA Voluntary Application for Imposition of Requirements (VREQ) restricting onboarding of new branches or financial advisors in UK subsidiary",
+    "SEC Division of Enforcement investigation regarding cash sweep programs for investment advisory clients",
+    "Anti-money laundering regulations (BSA, PATRIOT Act, AMLA)",
+    "Canadian securities regulations for RJ Ltd. operations",
+    "Overlapping and divergent regulations across U.S. states and international jurisdictions",
+    "Regulatory reviews and inspections by SEC, FINRA, FCA, and other regulatory authorities",
+    "SEC settlement for violations of records preservation requirements relating to business communications over unapproved electronic messaging channels - $50 million civil monetary penalty",
+    "German regulatory requirements for European operations",
+    "State-level regulations on financial services and data privacy",
+    "Anti-bribery and corruption laws (FCPA, UK Bribery Act)",
+    "Community Reinvestment Act obligations for bank subsidiaries",
+    "Privacy and data protection regulations (CPRA, GDPR, Canadian privacy laws)",
+    "Potential changes to TCJA provisions expiring in 2025",
+    "Securities Investors Protection Corporation (SIPC) membership requirements",
+    "State-level laws on employment practices and advisor relationships",
+    "Basel III regulatory capital reforms implementation",
+    "Enhanced prudential standards if assets exceed $100 billion (Category IV bank holding company)",
+    "CRA (Community Reinvestment Act) requirements for bank subsidiaries",
+    "Resolution planning requirements for insured depository institutions over $50 billion in assets"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Israel",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Indirect impact of wars and conflicts (Ukraine, Israel) on macroeconomic conditions",
+      "Compliance with EU sanctions programs",
+      "Risk of sanctions violations leading to regulatory fines and penalties",
+      "Compliance with OFAC economic and trade sanctions programs"
+    ]
+  },
+  "revenue_by_segment": {
+    "Private Client Group": 0.738,
+    "Capital Markets": 0.115,
+    "Asset Management": 0.08,
+    "Bank": 0.134,
+    "Other": -0.067,
+    "Other and intersegment eliminations": -0.067
+  }
+}

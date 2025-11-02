@@ -1,0 +1,95 @@
+{
+  "ticker": "MTCH",
+  "company_name": "Match Group, Inc.",
+  "company_type": "Technology - Online Dating Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Saudi Arabia",
+      "Turkey",
+      "Argentina",
+      "Brazil",
+      "Indonesia",
+      "Chile",
+      "Australia",
+      "Mexico",
+      "India",
+      "Netherlands",
+      "California",
+      "Texas",
+      "New York",
+      "British Columbia",
+      "Delaware"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Tinder",
+    "Hinge",
+    "Evergreen & Emerging",
+    "Match Group Asia"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Apple App Store",
+      "Google Play Store",
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Relies heavily on Apple App Store and Google Play Store for distribution and monetization of mobile applications. Purchases required to be processed through in-app payment systems provided by Apple and Google in most cases. Relies on third-party data centers and cloud-based hosted web service providers, primarily Amazon Web Services.",
+    "risks": "Apple and Google have broad discretion to change policies regarding mobile operating systems and app stores. Both platforms can limit, eliminate, or interfere with ability to distribute or market applications. Apple and Google are known to retaliate against application developers who challenge their app store rules. Problems with third-party data centers or cloud providers could impair ability to provide services. Apple and Google receive key user data that Match Group would otherwise receive if transacting directly with users.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU General Data Protection Regulation (GDPR) compliance and potential penalties",
+    "EU Digital Services Act (DSA) requirements on moderation, transparency, and platform safety",
+    "UK Online Safety Bill requirements to protect children from inappropriate material",
+    "Potential amendments to Section 230 of the Communications Decency Act in the United States",
+    "EU Payment Services Directive (PSD2) impacting auto-renewal payments",
+    "New legislation in Germany and France on automatic renewal and cancellation of online subscriptions",
+    "State and federal legislation regulating artificial intelligence use (Colorado, California, Utah)",
+    "Federal Trade Commission investigations and enforcement actions on privacy and data security",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "Comprehensive privacy laws in Virginia, Colorado, Connecticut, Utah, Florida, Montana, Oregon, and Texas",
+    "EU Pillar Two Directive establishing minimum 15% effective tax rate for multinational enterprises",
+    "Digital sales taxes (Canada implemented retroactive to 2022)",
+    "State and country-specific laws governing dating services",
+    "Proposed U.S. federal privacy legislation",
+    "Regulation of subscription payment models in various U.S. states",
+    "Irish Data Protection Commission inquiry regarding Tinder's GDPR compliance",
+    "FTC lawsuit regarding Match.com practices",
+    "Potential regulation of app store fees and payment systems",
+    "Laws regarding romance scams, financial fraud, and sex-trafficking on platforms"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East (wars mentioned)",
+      "China",
+      "Saudi Arabia"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Suspended services in Russia due to wars in Middle East and Ukraine",
+      "Azar service blocked in Saudi Arabia due to compliance challenges"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "ticker": "GOOG",
+  "company_name": "Alphabet Inc.",
+  "company_type": "Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "EMEA",
+      "APAC",
+      "Other Americas"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "European Union",
+      "Japan",
+      "India",
+      "South Korea",
+      "Australia",
+      "Singapore",
+      "Canada",
+      "Brazil",
+      "Argentina",
+      "Turkey",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.49,
+      "EMEA": 0.29,
+      "APAC": 0.16,
+      "Other Americas": 0.06
+    },
+    "assets_by_region": {
+      "United States": 0.75,
+      "International": 0.25
+    }
+  },
+  "segments": [
+    "Google Services",
+    "Google Cloud",
+    "Other Bets",
+    "Google Search & other",
+    "YouTube ads",
+    "Google Network",
+    "Google advertising",
+    "Google subscriptions, platforms, and devices",
+    "Google Cloud Platform",
+    "Google Workspace"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Contract manufacturers for assembly of servers and devices",
+      "Third-party suppliers for components",
+      "Single or limited sources for some technical infrastructure components",
+      "Industry supply capacity for AI accelerators (GPUs and TPUs) is highly competitive"
+    ],
+    "risks": [
+      "Supply shortages, price increases, quality issues, longer lead times",
+      "Raw material and component availability constraints",
+      "Manufacturing capacity and labor shortages",
+      "Geopolitical tensions and armed conflicts affecting supply",
+      "Natural disasters, pandemics, climate change effects",
+      "Sanctions, export controls, trade disputes and barriers",
+      "Forced labor concerns and sustainability sourcing requirements",
+      "Concentration risk - some components available from only one or limited sources",
+      "Competitors may claim supply or capacity first for AI accelerators"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Competition laws and antitrust enforcement (US DOJ, state AGs, European Commission)",
+    "Digital Markets Act (EU) - data sharing, consent requirements, interoperability",
+    "AI regulations (EU AI Act, US Executive Order on AI, state-level AI laws)",
+    "Data privacy and security laws (GDPR, UK GDPR, US state privacy laws, COPPA)",
+    "Copyright and intellectual property laws (EU Copyright Directive, news publisher rights)",
+    "Content moderation laws (Digital Services Act, state laws in Florida and Texas)",
+    "Consumer protection laws (EU New Deal for Consumers)",
+    "Online child safety regulations",
+    "Environmental sustainability and climate change regulations",
+    "Tax law changes and OECD minimum global tax rate (15%)",
+    "Digital services taxes and revenue-based taxes in various jurisdictions",
+    "Google Play billing policies and fee regulations (South Korea, Japan, India, UK)",
+    "Sanctions and export controls",
+    "Data localization laws and data transfer restrictions",
+    "Biometric information laws (Illinois, Texas, Washington)",
+    "Age-appropriate design codes and children's privacy laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and export controls may prevent operations in certain jurisdictions",
+      "State-sponsored cyber attacks from nation-states",
+      "Geopolitical tensions and armed conflicts (Middle East, Ukraine) may increase cyber attack risks",
+      "Russia-related legal matters and sanctions",
+      "Iran sanctions impact"
+    ]
+  },
+  "revenue_by_segment": {
+    "Google Search & other": 0.566,
+    "YouTube ads": 0.103,
+    "Google Network": 0.087,
+    "Google subscriptions, platforms, and devices": 0.115,
+    "Google Cloud": 0.123,
+    "Other Bets": 0.005
+  }
+}

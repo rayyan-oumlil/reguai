@@ -1,0 +1,91 @@
+{
+  "ticker": "AZO",
+  "company_name": "AutoZone, Inc.",
+  "company_type": "Automotive Aftermarket Retail",
+  "geography": {
+    "regions": [
+      "United States",
+      "Mexico",
+      "Brazil",
+      "Americas"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Brazil",
+      "China",
+      "Turkey",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.88,
+      "Mexico": 0.11,
+      "Brazil": 0.01
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Auto Parts Stores",
+    "Domestic Auto Parts",
+    "Mexico",
+    "Brazil",
+    "ALLDATA",
+    "E-commerce"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Turkey"
+    ],
+    "dependencies": "One class of similar products accounted for approximately 15 percent of total revenues and one individual vendor provided 12 percent of total purchases",
+    "risks": "Disruptions in supply chain and distribution network could adversely impact ability to receive and distribute inventory in a timely manner. Ports, rails and domestic long-hauls have been negatively impacted by capacity constraints, congestion and delays, periodic labor disputes, security issues, weather-related events, and natural disasters. Risks associated with products sourced outside the U.S. including civil unrest, acts of war, currency fluctuations, disruptions in maritime lanes, port labor disputes, economic instability in supplier countries, financial instability of suppliers, labor practices issues, availability and cost of raw materials, increased import duties or tariffs, merchandise quality or safety issues, shipping and transport availability and cost, increases in wage rates and taxes, transport security, foreign trade policies, trade sanctions, import limitations",
+    "supplier_concentration": {
+      "One individual vendor": 0.12
+    }
+  },
+  "regulatory_risks": [
+    "Marketing and sale of products regulations",
+    "Proper handling and disposal of hazardous materials (used oil, oil filter and battery recycling programs)",
+    "Occupational health and safety regulations",
+    "Environmental matters regulations",
+    "Labor and employment laws",
+    "Employee wages and benefits regulations (minimum wage, benefits, scheduling requirements, overtime exemptions)",
+    "Information security and data privacy laws (multiple states have passed data protection laws)",
+    "Real property regulations",
+    "Financial reporting and disclosure requirements",
+    "Antitrust and fair competition laws",
+    "International trade regulations",
+    "Transportation, logistics and delivery operations regulations",
+    "Climate change related legislative and regulatory proposals (GHG emissions reporting and reduction requirements)",
+    "Fuel economy requirements",
+    "Federal or state restrictions on emissions of carbon dioxide",
+    "Federal or state incentive programs for vehicles",
+    "Regulations on automobile fuels",
+    "Access restrictions to telematics and diagnostic tools and repair information imposed by original vehicle manufacturers or governmental regulation",
+    "Foreign Corrupt Practices Act compliance",
+    "Local anti-bribery and anti-corruption laws",
+    "Pillar Two global minimum tax rules (15% minimum tax)",
+    "ESG mandatory and voluntary reporting requirements",
+    "National Labor Relations Board (NLRB) decisions affecting unionization"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Mexico",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions impact on imported products",
+      "Import limitations on certain types of goods or goods containing certain materials from other countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Failure": 0.49,
+    "Maintenance items": 0.36,
+    "Discretionary": 0.15
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ticker": "ERIE",
+  "company_name": "Erie Indemnity Company",
+  "company_type": "Insurance Services",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Management Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Dependent on independent insurance agencies as sole distribution channel for the Exchange",
+    "risks": "Disruption in independent agency relationships could impair ability to retain and attract business",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "State insurance regulations requiring approval of intercompany service agreements and material amendments",
+    "Insurance holding company system regulations requiring registration and disclosure of operations",
+    "Extensive regulatory supervision of property and casualty insurers including licensing, examination, rate setting, market conduct, policy forms, investment limitations, claims practices, mandated participation in involuntary markets and guaranty funds, reserve adequacy, insurer solvency, restrictions on underwriting standards, accounting standards, transactions between affiliates, risk management, cybersecurity and data privacy",
+    "Changes in applicable insurance laws, tax statutes, cyber, privacy, and other laws and regulations could adversely impact business",
+    "Changes in the way regulators administer laws, tax statutes, or regulations could adversely impact business",
+    "Risk of class action lawsuits and regulatory investigations and inquiries",
+    "Federal and state laws relating to privacy and security of nonpublic personal information",
+    "Compliance with complex and evolving laws and regulations including internal control over financial reporting, securities regulation, data privacy and protection, cybersecurity, taxation, immigration, wage-and-hour standards and employment and labor relations",
+    "New and evolving regulations regarding cybersecurity, artificial intelligence and ESG matters"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

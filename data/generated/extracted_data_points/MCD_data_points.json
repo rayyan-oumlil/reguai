@@ -1,0 +1,89 @@
+{
+  "ticker": "MCD",
+  "company_name": "McDonald's Corporation",
+  "company_type": "Quick Service Restaurant / Food Service",
+  "geography": {
+    "regions": [
+      "U.S.",
+      "International Operated Markets",
+      "International Developmental Licensed Markets & Corporate"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Canada",
+      "France",
+      "Germany",
+      "Italy",
+      "Poland",
+      "Spain",
+      "United Kingdom",
+      "China",
+      "Japan",
+      "Argentina",
+      "Lebanon",
+      "Venezuela",
+      "Israel",
+      "South Korea",
+      "Russia",
+      "Hong Kong",
+      "Macau"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S.",
+    "International Operated Markets",
+    "International Developmental Licensed Markets & Corporate"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Relies on numerous independent suppliers for food, packaging, equipment and other goods",
+      "Supply chain effectiveness critical for reliable and sufficient supply of quality products",
+      "Certain items have limited suppliers which increases reliance on those suppliers"
+    ],
+    "risks": [
+      "Supply chain interruptions from shortages, inflationary pressures, unexpected demand increases, transportation issues, labor issues, technology issues, weather events, natural disasters, acts of war, terrorism or other hostilities",
+      "Interruptions can increase costs, impact ingredient quality, delay new restaurant openings, limit product availability",
+      "Ineffective contingency planning can impact operations",
+      "Dependence on third-party suppliers and their performance"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Increasing regulatory and legal complexity across multiple jurisdictions",
+    "Complex compliance and litigation risks affecting operations and results",
+    "Regulations involving restaurant operations, product packaging, marketing, use of information technology systems, nutritional and allergen content and safety of food, labeling and other disclosure practices",
+    "Increasing public focus on environmental, social responsibility and corporate governance matters",
+    "Employment laws and regulations on wages, hours, healthcare, immigration, retirement, workplace practices",
+    "Potential liability from franchisee or supplier actions if legal distinction challenged",
+    "Privacy and data protection requirements including GDPR and U.S. state-level laws with substantial fines and penalties for non-compliance",
+    "Government regulations on advertising, franchising, health, safety, environment, competition, zoning, employment and taxation",
+    "Governmental actions such as price controls, foreign exchange controls, trade-related tariffs, trade policies and regulations, sanctions and counter sanctions",
+    "Government-mandated closure of operations",
+    "Asset seizures",
+    "Income tax law changes and unfavorable tax audit resolutions",
+    "Organization of Economic Corporation and Development's framework on global minimum tax (Pillar 2)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Israel",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Disruptions from governmental sanctions and counter sanctions",
+      "Impact of war in the Middle East on Systemwide sales and revenue",
+      "Broader impact of acts of war and related sanctions on macroeconomic conditions, geopolitical tensions, consumer demand",
+      "Challenges heightened in developing markets with political instability, economic volatility, crime, corruption, social and ethnic unrest",
+      "Uncertainty in how local law is applied and enforced in areas relevant to commercial transactions and foreign investment"
+    ]
+  }
+}

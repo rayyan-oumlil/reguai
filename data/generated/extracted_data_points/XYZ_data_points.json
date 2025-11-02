@@ -1,0 +1,81 @@
+{
+  "ticker": "XYZ",
+  "company_name": "Block, Inc.",
+  "company_type": "Financial Technology / Payment Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Japan",
+      "Australia",
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Spain",
+      "New Zealand",
+      "Singapore",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Square",
+    "Cash App",
+    "TIDAL",
+    "Bitkey",
+    "Proto"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China"
+    ],
+    "dependencies": "Hardware products manufactured by third-party contract manufacturers located outside the U.S., primarily in China. Limited number of component and product suppliers for hardware devices.",
+    "risks": "Reliance on single or limited sources of supply for key hardware components. Risk of shortage, price increases, tariffs, changes, delay or discontinuation of key components. Supply chain disruptions including strikes, port shutdowns, intellectual property theft, quality control issues, and geopolitical risks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation and oversight in payments, money transmission, lending, deposit-taking, cross-border money transmission, foreign exchange, cryptocurrency, trading in shares, consumer protection, anti-money laundering, anti-bribery, anti-corruption, sanctions regimes and export controls, AI, privacy, data protection and cybersecurity",
+    "State and federal money transmitter licensing requirements and compliance obligations",
+    "Consumer Financial Protection Bureau (CFPB) regulation and enforcement actions",
+    "BNPL regulatory scrutiny and potential new regulations",
+    "SEC and FINRA regulation of Cash App Investing as a broker-dealer, including net capital requirements",
+    "FDIC regulation of Square Financial Services (industrial loan company) including capital requirements and source of financial strength obligations",
+    "Virtual currency regulation including New York BitLicense and evolving state and federal cryptocurrency regulations",
+    "GDPR and UK data protection regulations with penalties up to 4% of worldwide annual revenue or €20 million/£17.5 million",
+    "California Consumer Privacy Act (CCPA) and similar state privacy laws",
+    "Payment Card Industry Data Security Standard (PCI DSS) compliance",
+    "Potential changes to interchange fees and assessment fees by payment card networks or government regulation",
+    "Tax regulations including OECD Pillar Two global minimum tax, state gross receipts taxes, digital services taxes, and reporting requirements",
+    "Climate-related disclosure requirements including SEC rules and California climate laws",
+    "ESG reporting and disclosure requirements",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Office of Foreign Assets Control (OFAC) sanctions compliance",
+    "Bank Secrecy Act / Anti-Money Laundering program requirements",
+    "Health Insurance Portability and Accountability Act (HIPAA) compliance for certain products",
+    "Evolving AI regulations and governance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Risk of processing transactions with sanctioned persons or entities",
+      "Exposure to nation-state cyber-attacks related to Russia's invasion of Ukraine and other geopolitical conflicts",
+      "Potential impact of tariffs on hardware products manufactured in China (25% tariffs on some devices, 7.5% on others)",
+      "Risk of increased or new tariffs as proposed by new U.S. presidential administration"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "ticker": "PAYX",
+  "company_name": "Paychex, Inc.",
+  "company_type": "Human Capital Management Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Denmark",
+      "Germany",
+      "India",
+      "Serbia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Management Solutions",
+    "PEO and Insurance Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party service providers including banks for electronic fund transfers, information technology vendors servicing cloud-based platforms, and other third-party providers supporting customer interactions"
+    ],
+    "risks": [
+      "Failure by third-party service providers to deliver services in a timely manner and in compliance with applicable laws and regulations could result in material interruptions to operations",
+      "Third-party vendors could be a source of security and reputational risk in the event of failure of their own security systems and infrastructure"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in government regulations mandating the amount of tax withheld or the timing of remittances could adversely impact interest income",
+    "Changes in regulations could affect the extent and type of benefits employers are required to provide employees or the amount and type of taxes employers and employees are required to pay",
+    "Failure to comply with anti-money laundering laws and regulations, including the Bank Secrecy Act of 1970, could result in civil and criminal penalties",
+    "Failure to comply with economic sanctions and embargo programs administered by OFAC could subject the Company to regulatory enforcement action and significant civil and criminal penalties",
+    "Violation of the Foreign Corrupt Practices Act (FCPA) or similar laws prohibiting certain payments to governmental officials could subject the Company to regulatory enforcement action and significant civil and criminal penalties",
+    "Failure to comply with data privacy and AI laws and regulations including HIPAA, Family Medical Leave Act, Patient Protection and Affordable Care Act, California Consumer Privacy Act, biometric information privacy laws, and European Union's General Data Privacy Regulation could result in consent orders or civil and criminal penalties including fines",
+    "Regulatory framework for privacy, AI, and machine learning issues is rapidly evolving and future enactment of more restrictive laws, rules, or regulations could have a materially adverse impact through increased costs or restrictions on business",
+    "Compliance with SECURE Act 2.0 and other federal, state, and local regulations",
+    "Failure to update services to comply with modified or new legislation in areas of payment networks, health care reform and retirement plans could adversely impact business reputation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Violation of economic sanctions and embargo programs administered by OFAC could subject the Company to regulatory enforcement action and significant civil and criminal penalties"
+    ]
+  }
+}

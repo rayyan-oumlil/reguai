@@ -1,0 +1,61 @@
+{
+  "ticker": "AVB",
+  "company_name": "AvalonBay Communities, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Multifamily Residential",
+  "geography": {
+    "regions": [
+      "New England",
+      "New York/New Jersey Metro Area",
+      "Mid-Atlantic",
+      "Pacific Northwest",
+      "Northern California",
+      "Southern California",
+      "Southeast Florida",
+      "Denver, Colorado",
+      "Raleigh-Durham, North Carolina",
+      "Charlotte, North Carolina",
+      "Dallas, Texas",
+      "Austin, Texas"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Same Store",
+    "Other Stabilized",
+    "Development/Redevelopment",
+    "Unconsolidated"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Development and construction activities rely on third-party contractors, suppliers, and materials. The Company may use third-party developers and general contractors in expansion regions where it has limited resources or scale.",
+    "risks": "Inflation or tariffs may increase costs of materials, labor and services from third-party contractors and suppliers. Supply chain disruptions could impact construction costs and schedules. Changes in immigration laws or their enforcement could impact labor availability and costs.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rent control and rent stabilization laws in California (statewide rent control limiting increases to lesser of 10% or 5% plus local CPI for communities older than 15 years)",
+    "Rent control and rent stabilization laws in New York (limits on rent increases for rent-controlled and rent-stabilized units)",
+    "Emergency orders in California limiting rent increases to 10% during declared states of emergency (e.g., wildfires)",
+    "State and local regulations limiting ability to charge market rents, increase rents, use algorithmic pricing tools, charge non-rent fees, or evict tenants",
+    "Antitrust litigation and investigations related to use of revenue management systems (District of Columbia Antitrust Litigation, Maryland Antitrust Litigation, U.S. Department of Justice lawsuit against other multifamily providers)",
+    "Proposed federal and state legislation to regulate use of algorithmic revenue management systems (San Francisco has adopted such legislation)",
+    "Zoning laws, building codes, and requirements for accessibility under Americans with Disabilities Act and Fair Housing Act",
+    "Environmental laws and regulations governing wetlands protection, storm water runoff, wastewater discharge, asbestos, lead paint, mold, and hazardous substances",
+    "REIT qualification requirements under Internal Revenue Code Section 422",
+    "Federal securities laws and regulations, NYSE listing requirements",
+    "Privacy and data security laws (California Consumer Privacy Act as amended by California Privacy Rights Act, Texas Data Privacy and Security Act)",
+    "Climate-related disclosure requirements (SEC rules, California legislation)",
+    "Tax protection payment obligations from Archstone Acquisition (estimated $43,815,000 if triggering actions taken in 2024)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "ticker": "PCAR",
+  "company_name": "PACCAR Inc",
+  "company_type": "Commercial Vehicle Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "South America",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "United Kingdom",
+      "Belgium",
+      "Germany",
+      "Australia",
+      "Brasil",
+      "Poland",
+      "Spain",
+      "France",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Truck",
+    "Parts",
+    "Financial Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cummins Inc.",
+      "Eaton Corporation Plc",
+      "ZF Friedrichshafen AG",
+      "Magna International Inc.",
+      "Renault V.I."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "United Kingdom",
+      "Brasil",
+      "Australia"
+    ],
+    "dependencies": [
+      "Significant portion of engines purchased from Cummins Inc.",
+      "Significant portion of transmissions from Eaton Corporation Plc and ZF Friedrichshafen AG",
+      "Significant portion of North America stampings from Magna International Inc.",
+      "Semiconductors as essential component sourced from various suppliers",
+      "DAF purchases fully assembled cabs from Renault V.I. for European light/medium-duty product line"
+    ],
+    "risks": [
+      "Loss of supply from Cummins, Eaton, ZF or Magna would have material effect on results",
+      "Supplier interruptions could affect production",
+      "Semiconductor supply chain disruptions",
+      "Sudden inability of supplier to deliver components could have temporary adverse effect",
+      "Suppliers also supply automotive manufacturers - automotive industry issues can affect PACCAR suppliers",
+      "Increased demand exceeding supplier production capacity"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "National Traffic and Motor Vehicle Safety Act and Federal Motor Vehicle Safety Standards",
+    "Environmental laws and regulations in all operating countries",
+    "EPA Greenhouse Gas Emissions Standards and Fuel Efficiency Standards for Medium and Heavy-Duty Engines and Vehicles",
+    "EPA Clean Truck Initiative",
+    "European Union CO2 emission reduction targets and regulations",
+    "Regulation of the European Parliament and of the Council on Monitoring and Reporting of CO2 Emissions from New Heavy-Duty Vehicles",
+    "California Air Resources Board Heavy-Duty Omnibus Regulation",
+    "California Advanced Clean Truck (ACT) regulation requiring increasing percentage of zero emissions trucks",
+    "ACT regulation adopted by several other states",
+    "Paris Agreement climate change requirements",
+    "Noise, emission and safety regulations",
+    "International trade regulations including customs and import/export laws",
+    "Government embargoes and sanctions prohibiting sales to specific persons or countries",
+    "Anti-corruption laws",
+    "Privacy laws and government regulations on telematics data",
+    "Cellular frequency allocations regulated by government agencies",
+    "Changes in statutory income tax rates",
+    "New tax legislation",
+    "Extensive trade, competition and anti-corruption laws in global operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Government embargoes and sanctions prohibiting sales to specific persons or countries",
+      "International trade policy changes may impact demand and competitive position"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ticker": "CPRT",
+  "company_name": "Copart, Inc.",
+  "company_type": "Vehicle Remarketing Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Middle East",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "Brazil",
+      "United Arab Emirates",
+      "Spain",
+      "Finland",
+      "Oman",
+      "Republic of Ireland",
+      "Bahrain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S.",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on independent subhaulers for vehicle transportation in U.S., Canada, Brazil, Republic of Ireland, Germany, Finland, U.A.E., Oman, Bahrain, and Spain",
+      "Company-owned fleet for transportation in U.S., U.K., and Germany",
+      "Dependence on third-party vehicle transport companies"
+    ],
+    "risks": [
+      "Increase in fuel costs may lead to increased prices charged by independent subhaulers",
+      "Disruptions in transportation infrastructure",
+      "Accidents and related injury claims",
+      "Availability and price of fuel",
+      "Inclement weather affecting trucking operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Regulation, supervision and licensing under various international, federal, provincial, state, and local statutes, ordinances and regulations",
+    "Vehicle acquisition and sales regulated by various state, provincial and foreign motor vehicle departments",
+    "Local zoning requirements for location of storage facilities",
+    "Environmental laws and regulations regarding protection of the environment",
+    "Potential for enhanced regulation due to increased focus on climate change and environmental matters",
+    "Changes in laws or interpretation of laws affecting import and export of vehicles",
+    "Imposition of import duties by foreign countries",
+    "Changes in foreign customs regulations",
+    "Compliance with anti-bribery laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act, Brazil Clean Companies Act, India's Prevention of Corruption Act)",
+    "Trade controls and economic sanctions",
+    "Anti-money laundering regulations",
+    "Data privacy regulations (GDPR in EU, CCPA in California, LGPD in Brazil)",
+    "Vehicle titling, sales, and registration rules and procedures",
+    "Business and occupational licensure requirements",
+    "Exporting regulations and reporting requirements to agencies and law enforcement",
+    "Potential violations of money laundering laws under investigation by U.S. Department of Justice"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with trade controls and economic sanctions",
+      "Potential impact from military conflicts including Russian invasion of Ukraine and recent events in the Middle East",
+      "Tariffs, trade barriers, trade disputes affecting international operations"
+    ]
+  }
+}

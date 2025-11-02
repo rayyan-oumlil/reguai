@@ -1,0 +1,114 @@
+{
+  "ticker": "FI",
+  "company_name": "Fiserv, Inc.",
+  "company_type": "Financial Services Technology",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Europe, Middle East and Africa (EMEA)",
+      "Latin America (LATAM)",
+      "Asia Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Ireland",
+      "Poland",
+      "Mexico",
+      "Uruguay",
+      "Argentina",
+      "Brazil",
+      "India",
+      "Australia",
+      "Singapore",
+      "Malaysia",
+      "United Arab Emirates",
+      "China",
+      "Austria"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "U.S. and Canada": 0.85,
+      "International": 0.15
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Merchant Solutions",
+    "Financial Solutions",
+    "Small Business",
+    "Enterprise",
+    "Processing",
+    "Digital Payments",
+    "Issuing",
+    "Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party vendors for POS devices and hardware",
+      "Factories that manufacture point-of-sale devices, payment cards and computer chips",
+      "Third-party delivery service providers",
+      "Third-party customer support, software development and technology hosting facilities"
+    ],
+    "risks": [
+      "Disruption to supply chain or third-party delivery service providers",
+      "Temporary closure or workforce shortages at factories manufacturing POS devices, payment cards or computer chips",
+      "Shipping services interruptions or delays",
+      "Increased lead times, shortages or higher costs for certain materials and components",
+      "Workforce shortages at third-party customer support, software development or technology hosting facilities",
+      "Inability to renew contracts with key vendors and service providers at same cost"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Bank Service Company Act examination by U.S. Federal Banking Agencies",
+    "FFIEC uniform principles, standards and guidance",
+    "Consumer Financial Protection Bureau (CFPB) rule-making, supervision and enforcement",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act compliance",
+    "Federal Reserve Board Regulation II (debit interchange rate caps)",
+    "Payment institution and electronic money licenses regulation",
+    "Georgia Department of Banking and Finance regulation (Merchant Acquirer Limited Purpose Bank)",
+    "Financial Conduct Authority (FCA) and Payment Systems Regulator regulation in UK",
+    "Federal Financial Supervision Agency regulation in Germany",
+    "Central Bank regulations in Netherlands, Ireland, Poland, Brazil, Uruguay, Singapore, Malaysia",
+    "Reserve Bank of Australia and Australian Transaction Reports and Analysis Centre regulation",
+    "Visa and Mastercard network rules and penalties",
+    "Nacha ACH network operating rules",
+    "Privacy and cybersecurity laws: GLBA, HIPAA, FCRA, FTC Act, California Consumer Privacy Act",
+    "GDPR in EU and UK (penalties up to €20 million or 4% of global revenue)",
+    "Data protection laws in Brazil, India, UAE, China",
+    "SOCI Act in Australia, EBA Outsourcing Requirements, Digital Operational Resilience Act in EU, CERT-In obligations in India",
+    "Money transmission and payment instrument licensing (state and foreign)",
+    "Anti-money laundering laws including Bank Secrecy Act (BSA)",
+    "OFAC economic and trade sanctions programs",
+    "Fair Debt Collection Practices Act",
+    "State and federal antitrust requirements",
+    "Intellectual property infringement claims",
+    "Tax law changes and OECD global minimum tax initiatives",
+    "Communications laws governing telephone calls, text messages and marketing emails"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Argentina",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions on specified countries, governments, individuals and entities including narcotics traffickers and terrorists",
+      "Equivalent sanctions in other jurisdictions",
+      "State-sponsored cybersecurity attacks on U.S. financial system",
+      "Military or political conflicts and terrorist attacks impact"
+    ]
+  },
+  "revenue_by_segment": {
+    "Merchant Solutions": 0.47,
+    "Financial Solutions": 0.46,
+    "Corporate and Other": 0.07
+  }
+}

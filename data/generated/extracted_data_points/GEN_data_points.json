@@ -1,0 +1,107 @@
+{
+  "ticker": "GEN",
+  "company_name": "Gen Digital Inc.",
+  "company_type": "Cybersecurity and Digital Safety Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APJ"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Ireland",
+      "Czech Republic",
+      "Germany",
+      "United Kingdom",
+      "Japan",
+      "Australia",
+      "India",
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.66,
+      "EMEA": 0.24,
+      "APJ": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Security",
+    "Identity and Information Protection",
+    "Online Privacy",
+    "Legacy"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Third-party data center facilities",
+      "Account transaction and card processing companies",
+      "Broadcom Inc.",
+      "E-commerce partners",
+      "Cloud computing web services providers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependent on Broadcom for certain engineering and threat response services critical to many products",
+      "Reliant on third-party service providers and vendors for cloud computing, data center facilities, and payment processing",
+      "Dependent on e-commerce partners as payment processors and merchant of record for subset of customers",
+      "Reliance on third-party data sources for identity protection offerings"
+    ],
+    "risks": [
+      "Failure of third-party service providers could degrade platform functionality and adversely affect business",
+      "Loss of key third-party partners, service providers or vendors could impose additional costs or disadvantage competitively",
+      "Broadcom dependency - if Broadcom fails to deliver Engine-Related Services it would result in significant business disruption",
+      "E-commerce partner financial difficulties and payment failures",
+      "Third-party data center facilities vulnerable to damage, interference, interruption from natural disasters, terrorism, pandemics, geopolitical tensions",
+      "Supply chain disruptions minimized due to small portion of distribution through physical retail and OEM partners"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Privacy and data security laws - CCPA, GDPR, state privacy laws",
+    "Federal Trade Commission Act and state consumer protection laws",
+    "Gramm-Leach-Bliley Act (GLBA) requirements",
+    "Fair Credit Reporting Act compliance",
+    "SEC Regulation S-P for investment adviser and broker-dealer subsidiaries",
+    "BSA/AML compliance program requirements and OFAC sanctions",
+    "Consumer Financial Protection Bureau (CFPB) regulatory authority and enforcement",
+    "State licensing requirements for money transmitter and financial services activities",
+    "Military Lending Act compliance",
+    "Digital services taxes in multiple jurisdictions",
+    "EU AI Act requirements for AI systems and models",
+    "State AI regulations and deepfake laws",
+    "BitLicense requirements in New York for digital asset activities",
+    "OECD Pillar Two global minimum tax implementation",
+    "Open banking regulatory framework evolution",
+    "Earned wage access product regulatory scrutiny",
+    "Auto-renewal and consumer protection regulations",
+    "Data localization laws in various jurisdictions",
+    "Export controls and trade restrictions",
+    "Changing immigration laws affecting talent acquisition"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Risk of doing business in countries subject to sanctions",
+      "Counter-sanctions that may be enacted",
+      "Restrictions on business with sanctioned persons or entities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumer security": 0.626,
+    "Identity and information protection": 0.361,
+    "Legacy": 0.013
+  }
+}

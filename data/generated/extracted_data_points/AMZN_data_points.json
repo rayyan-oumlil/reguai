@@ -1,0 +1,88 @@
+{
+  "ticker": "AMZN",
+  "company_name": "Amazon.com, Inc.",
+  "company_type": "E-commerce, Cloud Services, Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "AWS (Global)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Japan",
+      "India",
+      "China",
+      "Brazil",
+      "Australia",
+      "Luxembourg",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America",
+    "International",
+    "AWS"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "United States"
+    ],
+    "dependencies": "We purchase electronic device components from a variety of suppliers and use several contract manufacturers. We enter into agreements with contract manufacturers and suppliers for certain electronic device components with non-cancellable purchase commitments based on forecasted customer demand.",
+    "risks": "Constrained labor markets increase payroll costs. We rely on a limited number of shipping companies to deliver inventory and completed orders. China-based sellers account for significant portions of third-party seller services and advertising revenues, and China-based suppliers provide significant portions of components and finished goods. Regulatory and trade restrictions, data protection and cybersecurity laws, economic factors, geopolitical events, or security issues negatively impacting China-based sellers and suppliers could adversely affect operating results.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Government regulation of internet, IT infrastructure, data centers, retail, delivery, and other sectors",
+    "Internet content restrictions",
+    "Sale of media and other products and services restrictions",
+    "Foreign investment restrictions in China and India",
+    "PRC and India regulatory licensing and cybersecurity requirements",
+    "Data protection and cybersecurity laws (including GDPR)",
+    "Privacy, data use, data protection, data security, data localization, network security regulations",
+    "Consumer protection laws",
+    "Payments regulations and compliance requirements",
+    "Tax laws and regulations changes (including global minimum taxes)",
+    "Competition and antitrust regulations",
+    "Advertising regulations",
+    "Product labeling requirements",
+    "Healthcare regulations",
+    "Environmental and climate-related regulations",
+    "Trade protection measures, export duties, quotas, custom duties and tariffs",
+    "Restrictions on import and export of certain products, technologies, and components",
+    "Business licensing and certification requirements",
+    "Sanctions compliance",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "Electronic device certification requirements",
+    "Electronic waste regulations",
+    "Unmanned aircraft systems (drones) commercial operation regulations",
+    "Works councils and labor union regulations",
+    "Income tax regulations and audits in multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "India"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Restrictive governmental actions including trade protection measures and sanctions",
+      "Regulatory and trade restrictions impacting China-based sellers and suppliers",
+      "Geopolitical events including war and terrorism",
+      "Armed hostilities and political conflicts including those involving China"
+    ]
+  }
+}

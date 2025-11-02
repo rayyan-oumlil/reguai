@@ -1,0 +1,127 @@
+{
+  "ticker": "HD",
+  "company_name": "The Home Depot, Inc.",
+  "company_type": "Home Improvement Retail",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "Guam",
+      "Canada",
+      "Mexico",
+      "China",
+      "India",
+      "Vietnam",
+      "Taiwan",
+      "Europe",
+      "Poland",
+      "Italy",
+      "Türkiye"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Primary segment (U.S., Canada, Mexico retail operations)",
+    "Building Materials",
+    "Décor",
+    "Hardlines",
+    "Appliances",
+    "Bath",
+    "Electrical",
+    "Flooring",
+    "Hardware",
+    "Indoor Garden",
+    "Kitchen & Blinds",
+    "Lighting",
+    "Lumber",
+    "Millwork",
+    "Outdoor Garden",
+    "Paint",
+    "Plumbing",
+    "Power",
+    "Storage & Organization",
+    "SRS - Roofing and complementary building products",
+    "SRS - Landscape",
+    "SRS - Pool"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "China",
+      "India",
+      "Vietnam",
+      "Taiwan",
+      "Europe"
+    ],
+    "dependencies": [
+      "Global sourcing program to obtain products directly from manufacturers around the world",
+      "Sourcing offices in Mexico, Canada, China, India, Vietnam, Taiwan, and Europe",
+      "Reliance on third-party service providers for payment processing",
+      "Dependence on suppliers for product availability and quality",
+      "Supply chain network including distribution centers, fulfillment centers, and stores"
+    ],
+    "risks": [
+      "Disruptions in supply chain from natural disasters, weather events, cybersecurity incidents, international trade disputes, tariffs, customs actions, strikes, labor shortages, shipping capacity constraints, fuel costs, geopolitical conflicts, acts of war, sanctions, public health issues including pandemics",
+      "Port congestion and delays, labor disputes, strikes, security issues at ports",
+      "Increased demand for online purchases impacting fulfillment operations",
+      "Labor shortages at distribution and fulfillment centers",
+      "Supplier financial instability and noncompliance with laws",
+      "Raw material shortages",
+      "Concentration risk in certain geographic areas for sourcing",
+      "Dependence on qualified suppliers meeting quality and responsible sourcing standards",
+      "Trade restrictions and tariffs impacting product costs",
+      "Currency exchange rate fluctuations",
+      "Inability to sell products due to customs actions including regulatory enforcement inquiries, holds, detentions, and exclusions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in federal, state, local or international laws and regulations governing minimum wage, living wage, employee classification, immigration, healthcare, data privacy, cybersecurity, product sale and marketing, transportation and logistics, international trade, supply chain transparency, sourcing of raw materials including timber and minerals, taxes, carbon emissions restrictions, hazardous waste disposal, environmental matters, competition and antitrust, sustainability reporting, unclaimed property, energy costs",
+    "EPA compliance requirements for installation services business including lead-safe work practices and potential penalties",
+    "Compliance with responsible sourcing standards including prohibitions on child and forced labor, health and safety, environmental laws, compensation, hours of work",
+    "Product safety and security concerns including health-related and privacy-related concerns, potential product recalls, litigation, governmental enforcement actions",
+    "PFAS-related litigation and enforcement actions involving suppliers",
+    "Compliance with payment network rules, data security standards, electronic funds transfer rules",
+    "Income tax regulations and changes in tax laws including corporate tax rates",
+    "Department of Transportation regulations on vehicles and drivers",
+    "Foreign Corrupt Practices Act and local anti-bribery law compliance",
+    "Consumer protection laws and regulations including pricing, discounting, and advertising practices",
+    "Changing regulatory landscape potentially resulting in additional costs or delays",
+    "State-specific regulations such as Washington State refrigerant sales restrictions",
+    "Data privacy and governance regulations including state privacy laws",
+    "Regulations on data-driven technologies such as artificial intelligence",
+    "Increased regulatory scrutiny and enforcement actions on cybersecurity, data privacy, human capital management, sustainability, and consumer protection"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Import-related governmental sanctions or restrictions",
+      "Geopolitical or military conflicts or acts of war and related sanctions or other government or private responses",
+      "Trade tensions between U.S. and China leading to tariffs on certain product categories",
+      "Proposed and enacted tariffs on imports from Mexico, Canada, China, and other countries",
+      "Retaliatory tariffs and changes in trade policies by foreign countries in response to U.S. trade policy changes",
+      "Nation-state actors carrying out cyber-attacks for espionage, monetary gain, disruption, and destruction",
+      "Increased cybersecurity threats due to geopolitical conflicts in Europe and the Middle East",
+      "Politically-motivated cyber-attacks and supply chain disruptions",
+      "Sanctions compliance requirements"
+    ]
+  }
+}

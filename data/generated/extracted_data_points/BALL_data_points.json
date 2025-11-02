@@ -1,0 +1,138 @@
+{
+  "ticker": "BALL",
+  "company_name": "Ball Corporation",
+  "company_type": "Aluminum Packaging Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Central America",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "South America",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Serbia",
+      "France",
+      "Spain",
+      "Egypt",
+      "Czech Republic",
+      "Sweden",
+      "Denmark",
+      "Germany",
+      "United Kingdom",
+      "Austria",
+      "Turkey",
+      "Finland",
+      "Italy",
+      "Poland",
+      "Switzerland",
+      "Ireland",
+      "Brazil",
+      "Argentina",
+      "Paraguay",
+      "Chile",
+      "India",
+      "Saudi Arabia",
+      "Myanmar",
+      "Vietnam",
+      "Guatemala",
+      "Panama",
+      "Belgium",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.46,
+      "Brazil": 0.12,
+      "Other": 0.42
+    },
+    "assets_by_region": {
+      "United States": 0.43,
+      "Brazil": 0.15,
+      "Other": 0.42
+    }
+  },
+  "segments": [
+    "Beverage Packaging, North and Central America",
+    "Beverage Packaging, EMEA",
+    "Beverage Packaging, South America",
+    "Beverage Packaging, Other",
+    "Personal & Home Care",
+    "Aluminum Cups"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Serbia",
+      "France",
+      "Spain",
+      "Egypt",
+      "Czech Republic",
+      "Sweden",
+      "Denmark",
+      "Germany",
+      "United Kingdom",
+      "Austria",
+      "Turkey",
+      "Finland",
+      "Italy",
+      "Poland",
+      "Switzerland",
+      "Ireland",
+      "Brazil",
+      "Argentina",
+      "Paraguay",
+      "Chile",
+      "India",
+      "Saudi Arabia",
+      "Myanmar",
+      "Belgium"
+    ],
+    "dependencies": "Five global aluminum suppliers provide almost all of aluminum can and end sheet requirements in North America. In EMEA, five global suppliers provide almost all aluminum can and end sheet requirements. In South America, two global suppliers provide virtually all aluminum can and end sheet requirements with certain requirements also being imported from Asia.",
+    "risks": "Fluctuations and disruptions in the supply and price of raw materials, particularly aluminum. Economic, financial, and operational factors, including strikes or labor shortages, as well as governmental action, could impact suppliers, thereby causing supply shortages. Increases in raw material costs, including potential increases due to tariffs, sanctions, or other trade actions. Global supply chain disruptions can negatively impact results. Delayed timing in recovering the pass-through of increasing raw material costs may impact short-term profitability and certain costs due to price increases or supply chain inefficiencies may be unrecoverable.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in laws and governmental regulations may adversely affect business and operations",
+    "Federal, state, provincial and local licensing and regulation by health, environmental, workplace safety and other agencies in multiple jurisdictions",
+    "Requirements regarding manufacturing facility locations within the jurisdiction, product content and safety, climate change, workplace safety and health, environmental, expropriation of assets",
+    "Enacted regulatory developments regarding the reporting and use of conflict minerals mined from the Democratic Republic of the Congo and adjoining countries",
+    "Deposit systems and other container-related legislation",
+    "Environmental, social and governance reporting requirements and other legislation and regulatory requirements",
+    "Increased regulation on raw materials utilized in packaging operations, including epoxy-based coatings containing Bisphenol-A (BPA)",
+    "Various U.S. states have passed or are contemplating legislation restricting the use of materials that contain intentionally added per- and polyfluoroalkyl substances (PFAS)",
+    "EU is reviewing a proposal to restrict the use of PFAS-containing materials",
+    "OECD, European Commission and other trans-national initiatives that seek to impose minimum tax thresholds on most multi-national companies",
+    "Data privacy and protection laws are evolving and present increasing compliance challenges"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Myanmar",
+      "Argentina",
+      "Egypt"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Continuation or escalation of global conflicts, including the conflict between Russia and Ukraine and the instability in the Middle East and Myanmar, and related sanctions or market disruptions",
+      "War, political instability and sanctions, including relating to the situation in Russia and Ukraine and its impact on Ball's supply chain and its ability to operate in Europe, the Middle East and Africa regions generally",
+      "Tariffs, trade actions, or other governmental actions, including business restrictions and orders affecting goods produced by Ball or in its supply chain, including imported raw materials"
+    ]
+  },
+  "revenue_by_segment": {
+    "Beverage Packaging North and Central America": 0.48,
+    "Beverage Packaging EMEA": 0.29,
+    "Beverage Packaging South America": 0.17,
+    "Other": 0.06
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ticker": "ES",
+  "company_name": "Eversource Energy",
+  "company_type": "Electric and Natural Gas Utility",
+  "geography": {
+    "regions": [
+      "New England",
+      "New Hampshire",
+      "Massachusetts",
+      "Connecticut"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Natural Gas Distribution",
+    "Water Distribution",
+    "Electric Transmission",
+    "Electric Distribution"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party suppliers for equipment, materials, and services",
+      "Outsourcing of services including information technology, transaction processing, human resources, payroll",
+      "Global supply chain for specialized equipment with long lead times",
+      "Interstate pipelines for natural gas supply (Tennessee Gas Pipeline Company, Algonquin Gas Transmission Company)",
+      "Water supplies from owned surface water sources and groundwater supplies"
+    ],
+    "risks": [
+      "Dependence on external suppliers for materials and equipment",
+      "Disruptions in delivery of electricity, natural gas and water",
+      "Rising geo-political tensions could negatively impact the global supply chain",
+      "Substandard performance or inability to fulfill obligations by third-party suppliers and service providers",
+      "Contractor performance issues could affect service reliability",
+      "Supply constraints in New England leading to significant increases in commodity costs",
+      "Supply chain disruptions could impact construction projects and system maintenance",
+      "Global supply chain disruptions or inflationary impacts"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FERC Supplemental NOPR on Transmission Incentives proposing to eliminate existing RTO ROE incentive adder",
+    "Changes in tax laws and potential tax effects of business decisions",
+    "Compliance with nuclear waste disposal regulations and DOE obligations",
+    "Requirements for purchases of renewable energy credits with increasing costs and alternative compliance payments",
+    "Massachusetts Future of Gas docket (DPU 20-80) requiring new processes for natural gas investments",
+    "Connecticut statute requiring electric utilities to file distribution rate case within four years",
+    "Massachusetts climate compliance plans required every five years beginning April 2025",
+    "Disallowance of incurred costs by regulators",
+    "Regulatory approval requirements for rate increases and capital investments",
+    "Massachusetts DPU requirements for electric distribution companies to file distribution rate schedules every five years",
+    "Rate regulation by state regulatory commissions (PURA, DPU, NHPUC) affecting cost recovery and returns",
+    "Potential disallowance of storm restoration costs by regulators",
+    "Changes in environmental regulations affecting operations and costs",
+    "Regulatory decisions requiring cancellation, reduction, or delay of planned development activities or capital expenditures",
+    "Massachusetts natural gas LDCs required to file distribution rate schedules every 10 years",
+    "Water quality regulations compliance (PFAS and lead treatment, customer lead service lines replacement)",
+    "State energy policy mandates requiring renewable energy purchases",
+    "Changes in tax laws and regulations affecting deferred tax assets",
+    "Regulatory approval required for sale of Aquarion water business",
+    "Potential penalties for failure to meet performance standards",
+    "Regulatory review of prudency of costs incurred",
+    "Compliance with environmental laws and regulations",
+    "Regulatory mechanisms affecting revenue decoupling and cost recovery",
+    "Connecticut law prohibiting CL&P's ESI capital tracking mechanism reauthorization",
+    "PURA performance-based regulation (PBR) implementation for electric distribution companies",
+    "EPA final regulation setting drinking water standards for six PFAS compounds with phased compliance approach",
+    "Actions or inaction of local, state and federal regulatory, public policy and taxing bodies",
+    "New Hampshire NHPUC rate review discretion and two-year investigation limitation",
+    "Costs of compliance with environmental laws and regulations, including those related to climate change",
+    "Compliance with FERC ROE complaint proceedings and potential refunds",
+    "FERC changes to methodology on developing ROEs",
+    "More stringent laws and regulations governing operations (reliability and customer service quality standards, vegetation management requirements)",
+    "Changes in laws, regulations, Presidential executive orders or regulatory policy",
+    "FERC regulation of transmission rates and wholesale electricity markets",
+    "Downward adjustments in allowed ROE and assessment of penalties and fines by regulators",
+    "Competition for transmission projects within existing service territories",
+    "FERC policy changes regarding transmission rate incentives (RTO participation ROE incentive adder, CWIP in rate base incentive, abandoned plant incentive)",
+    "Regulatory scrutiny of performance standards and service quality"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Electric Distribution": 0.762,
+    "Electric Transmission": 0.178,
+    "Natural Gas Distribution": 0.177,
+    "Water Distribution": 0.019
+  }
+}

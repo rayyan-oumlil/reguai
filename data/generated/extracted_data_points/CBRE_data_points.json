@@ -1,0 +1,113 @@
+{
+  "ticker": "CBRE",
+  "company_name": "CBRE Group, Inc.",
+  "company_type": "Commercial Real Estate Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "India",
+      "Japan",
+      "Switzerland",
+      "China",
+      "Singapore",
+      "Brazil",
+      "France",
+      "Germany",
+      "Spain",
+      "Russia",
+      "Eastern Europe",
+      "Middle East",
+      "Africa",
+      "Asia",
+      "Continental Europe"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.564,
+      "United Kingdom": 0.139,
+      "Euro": 0.091,
+      "Canada": 0.03,
+      "Australia": 0.026,
+      "India": 0.021,
+      "Japan": 0.015,
+      "Switzerland": 0.014,
+      "China": 0.014,
+      "Singapore": 0.012,
+      "Other": 0.074
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Advisory Services",
+    "Global Workplace Solutions",
+    "Real Estate Investments",
+    "Corporate and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for information technology and communications systems",
+      "Third-party data center hosting facilities and cloud computing platform providers",
+      "Subcontracted vendor work for facilities management and project management services"
+    ],
+    "risks": [
+      "Failure by third parties to comply with service level agreements or regulatory requirements",
+      "Disruptions to information technology systems and network infrastructure",
+      "Reliance on third-party vendors for critical services",
+      "Infrastructure disruptions from climate change, geopolitical tensions, or other events"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local laws and regulations specific to real estate services (brokerage, property management, valuation)",
+    "Real estate licensing requirements in U.S. states and non-U.S. jurisdictions",
+    "SEC, FINRA, and state securities regulators oversight for CBRE Capital Markets and CBRE Investment Management",
+    "Fair Labor Standards Act and occupational health and safety regulations",
+    "U.S. state wage-and-hour laws",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and U.K. Bribery Act compliance",
+    "Anti-bribery, anti-money laundering and corruption laws",
+    "Trade sanctions and embargoes",
+    "Data privacy and protection regulations (GDPR, California Consumer Privacy Act, state privacy laws)",
+    "Cybersecurity incident reporting requirements",
+    "Environmental laws and regulations governing hazardous substances and greenhouse gas emissions",
+    "U.K. Building Safety Act of 2022 and fire safety remediation requirements",
+    "OECD Pillar Two Model Rules establishing minimum global corporate tax rate of 15%",
+    "Changes in tax laws or regulations in multiple jurisdictions",
+    "Sustainability and ESG disclosure requirements (EU Corporate Sustainability Reporting Directive, TCFD-aligned requirements)",
+    "Foreign ownership restrictions in certain countries (particularly Asia Pacific and Middle East)",
+    "Changes in laws governing foreign trade, investment, or use of foreign workers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Eastern Europe",
+      "Middle East",
+      "Asia",
+      "Africa",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with U.S. and other countries' trade sanctions",
+      "Impact of government sanctions on business operations",
+      "Risks from geopolitical conflicts (Russia-Ukraine, Middle East tensions)",
+      "Potential cyberattacks on critical infrastructure during geopolitical conflicts",
+      "Currency restrictions and transfer pricing rules in foreign jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Advisory Services": 0.269,
+    "Global Workplace Solutions": 0.703,
+    "Real Estate Investments": 0.029
+  }
+}

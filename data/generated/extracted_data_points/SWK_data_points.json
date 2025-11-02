@@ -1,0 +1,109 @@
+{
+  "ticker": "SWK",
+  "company_name": "Stanley Black & Decker, Inc.",
+  "company_type": "Tools & Outdoor Equipment Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Emerging Markets",
+      "Canada",
+      "Asia",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Brazil",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Australia",
+      "India",
+      "Israel",
+      "Luxembourg",
+      "Japan",
+      "New Zealand",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Venezuela",
+      "Belgium",
+      "Netherlands",
+      "Spain",
+      "Italy",
+      "Poland",
+      "Czech Republic",
+      "Russia",
+      "Ukraine",
+      "Middle East"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Tools & Outdoor",
+    "Industrial",
+    "Power Tools Group (PTG)",
+    "Hand Tools, Accessories & Storage (HTAS)",
+    "Outdoor Power Equipment",
+    "Engineered Fastening"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Europe",
+      "Asia",
+      "Mexico",
+      "Brazil",
+      "Taiwan"
+    ],
+    "dependencies": "The Company imports large quantities of finished goods, component parts and raw materials. The Company sources materials from South Korea, China and Taiwan. The Company sources many products from China and other low-cost countries for resale in other regions.",
+    "risks": "Global trade and supply chain constraints due to geopolitical tensions and conflicts have adversely impacted availability, pricing and lead times for products, component parts and raw materials. Potential disruptions from tensions or conflicts in South Korea, China, Taiwan and the Middle East could cause material supply chain disruptions, product shortages, delays in delivery and/or cost increases. Lead times vary significantly and may be impacted by global shortages of critical components. Port issues, transportation provider disruptions, labor disputes and shortages, severe weather, and increased homeland security requirements can delay importation.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Tariffs and trade restrictions including Section 301 tariffs and Section 232 steel and aluminum tariffs",
+    "Import and export controls, trade regulations, procurement regulations",
+    "Changes in tax laws and regulations including global minimum tax (Pillar Two)",
+    "Environmental laws and regulations including climate change regulations",
+    "Data privacy and governance laws (EU GDPR, UK data protection, China and India privacy laws, U.S. state privacy regulations)",
+    "Consumer Product Safety Commission (CPSC) regulations and product recall requirements",
+    "Government contract compliance requirements and procurement regulations",
+    "Anti-bribery and anti-corruption regulations (U.S. Foreign Corrupt Practices Act, UK Bribery Act)",
+    "Sanctions administered by Office of Foreign Assets Control",
+    "Labor regulations in various jurisdictions",
+    "Intellectual property laws and trademark regulations",
+    "Product liability and safety standards",
+    "Environmental remediation requirements under CERCLA (Superfund)",
+    "FDA approval requirements (mentioned generically)",
+    "Cybersecurity and data breach notification laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Taiwan",
+      "South Korea",
+      "Iran",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions administered by Office of Foreign Assets Control",
+      "Potential sanctions exposure from operations in high-risk countries",
+      "Compliance with economic and trade sanctions",
+      "Risk of supply chain disruptions due to sanctions on Russia and potential sanctions related to China-Taiwan tensions"
+    ]
+  }
+}

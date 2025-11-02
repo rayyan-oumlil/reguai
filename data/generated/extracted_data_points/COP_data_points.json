@@ -1,0 +1,120 @@
+{
+  "ticker": "COP",
+  "company_name": "ConocoPhillips",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "Alaska",
+      "Lower 48",
+      "Canada",
+      "Europe, Middle East and North Africa",
+      "Asia Pacific",
+      "Other International"
+    ],
+    "countries": [
+      "United States",
+      "Norway",
+      "Canada",
+      "Australia",
+      "Malaysia",
+      "Libya",
+      "China",
+      "Qatar",
+      "Equatorial Guinea",
+      "United Kingdom",
+      "Singapore",
+      "Japan",
+      "Colombia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Alaska",
+    "Lower 48",
+    "Canada",
+    "Europe, Middle East and North Africa",
+    "Asia Pacific",
+    "Other International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Trans-Alaska Pipeline System (TAPS) for North Slope production transport",
+      "Reliance on third-party gathering, processing, compression, transportation and pipeline facilities",
+      "Dependence on availability of diluents for crude oil and bitumen transport",
+      "Joint venture partners for operations where ConocoPhillips is not operator or lacks majority control"
+    ],
+    "risks": [
+      "Unavailability of adequate gathering, processing, compression, transportation, and pipeline facilities",
+      "Capacity constraints in facilities and equipment may not be sufficient for production",
+      "Construction and permitting delays for new facilities",
+      "Temporary unavailability due to market conditions, extreme weather events, permitting delays, mechanical reasons",
+      "Increased costs or curtailed production if facilities become unavailable",
+      "Supply chain disruptions",
+      "Failures by suppliers, contract manufacturers, contractors, joint venture partners to meet obligations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Federal Clean Air Act governing air emissions",
+    "U.S. Federal Clean Water Act governing discharges to water bodies",
+    "EU Regulation for Registration, Evaluation, Authorization and Restriction of Chemicals (REACH)",
+    "U.S. Federal Comprehensive Environmental Response, Compensation and Liability Act (CERCLA/Superfund)",
+    "U.S. Federal Resource Conservation and Recovery Act (RCRA)",
+    "U.S. Federal Oil Pollution Act of 1990 (OPA90)",
+    "U.S. Federal Emergency Planning and Community Right-to-Know Act (EPCRA)",
+    "U.S. Federal Safe Drinking Water Act",
+    "U.S. Department of the Interior regulations for offshore operations",
+    "EU Trading Directive and EU Emissions Trading Scheme (EU ETS)",
+    "U.K. Emissions Trading Scheme (U.K. ETS)",
+    "Alberta Technology Innovation and Emissions Reduction (TIER) regulation",
+    "British Columbia Output Based Pricing System (BC OBPS)",
+    "EU regulation on reduction of methane emissions in energy sector",
+    "Australia Safeguard Mechanism under National Greenhouse and Energy Reporting Act 2007",
+    "U.S. EPA New Source Performance Standards (OOOOb) and Emissions Guidelines (OOOOc)",
+    "U.S. EPA Methane Super Emitter Program",
+    "U.S. EPA Waste Emissions Charge (WEC) under Methane Emission Reduction Program (MERP)",
+    "White House Council on Environmental Quality NEPA Phase 2 implementation regulations",
+    "Climate Superfund laws (New York and Vermont legislation holding energy companies financially responsible for climate mitigation)",
+    "Climate Private Action laws (California, New Hampshire, Oregon bills creating private right of action for climate damages)",
+    "Hydraulic fracturing regulations at local, state, federal and national levels",
+    "Restrictions or prohibitions on hydraulic fracturing in some jurisdictions",
+    "Price controls and government-imposed limitations on production or exports",
+    "Restrictions on LNG exports (U.S. temporary pause on new LNG export authorizations)",
+    "Permitting requirements and delays for exploration, drilling, production activities",
+    "Restrictions on operations in certain areas (offshore, arctic, oil sands, unconventional plays)",
+    "Dismantlement, abandonment and restoration obligations at end of asset life",
+    "Carbon taxes in various jurisdictions (Norway, Canada)",
+    "GHG emissions trading schemes and reduction policies",
+    "Paris Agreement commitments and COP28 global stocktake recommendations",
+    "Inflation Reduction Act of 2022 (15% minimum tax on book income, 1% excise tax on stock repurchases)",
+    "Corporate Sustainability Reporting Directive (EU)",
+    "International Sustainability Standards Board reporting standards",
+    "California climate-related disclosure laws",
+    "Australian climate-related disclosure legislation",
+    "Ballot initiatives and challenges to project permits restricting oil and gas development"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Venezuela",
+      "Libya",
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government authority to prevent or restrict business in foreign jurisdictions",
+      "Sanctions limiting ability to operate in or access opportunities in various jurisdictions",
+      "Venezuela sanctions impacting collection of arbitration awards",
+      "Compliance with U.S. sanctions against Venezuela in arbitration award collection actions",
+      "Diplomatic relations between U.S. and foreign jurisdictions affecting ability to collect awards",
+      "Restrictions on commodity exports and imports in response to domestic energy costs or national emergency",
+      "OPEC and other producing countries' actions affecting supply and prices"
+    ]
+  }
+}

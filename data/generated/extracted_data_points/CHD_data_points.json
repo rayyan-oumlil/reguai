@@ -1,0 +1,115 @@
+{
+  "ticker": "CHD",
+  "company_name": "Church & Dwight Co., Inc.",
+  "company_type": "Consumer Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Australia",
+      "China",
+      "Japan",
+      "Korea",
+      "Taiwan",
+      "Brazil",
+      "Ukraine",
+      "Russia",
+      "Iran",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Domestic",
+    "Consumer International",
+    "Specialty Products Division"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Tata Chemicals (Soda Ash) Partners",
+      "Occidental Chemical Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Asia",
+      "Wyoming",
+      "Ohio"
+    ],
+    "dependencies": [
+      "Trona mineral reserves in Wyoming for sodium bicarbonate production",
+      "Partnership with Tata Chemicals for soda ash supply",
+      "Single source suppliers for certain raw materials and packaging",
+      "Third-party contract manufacturers for certain products",
+      "Concentration of manufacturing in specific facilities with limited alternate qualified facilities"
+    ],
+    "risks": [
+      "Supply chain disruptions from labor shortages impacting raw material availability",
+      "Out-of-stock conditions due to supplier labor shortages",
+      "Dependence on materials and components from Asia subject to supply chain disruptions",
+      "Reduced availability of transportation (truck, rail, ship) due to labor shortages, weather, natural disasters",
+      "Port closures or shutdowns affecting distribution",
+      "Supplier insolvency or financial distress",
+      "Inability to qualify alternative suppliers in timely manner",
+      "Disruptions from pandemics, geopolitical conflicts (Ukraine, Middle East)",
+      "Tariff impacts on imported materials from China and other countries"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on product development, manufacturing, labeling, and distribution",
+    "EPA regulations under Federal Insecticide, Fungicide and Rodenticide Act and Toxic Substances Control Act",
+    "FTC regulations on advertising claims and marketing practices",
+    "CPSC regulations on consumer product safety and recalls",
+    "FCC regulations on electromagnetic spectrum and radiation-emitting products",
+    "Medical device clearance and approval requirements (510(k) for class II devices)",
+    "OTC pharmaceutical monograph system changes under CARES Act",
+    "cGMP compliance requirements for pharmaceutical and dietary supplement manufacturing",
+    "Food Safety Modernization Act (FSMA) requirements for food and animal feed products",
+    "New dietary ingredient notification requirements for supplements",
+    "Environmental regulations on hazardous waste handling and disposal",
+    "State-level Extended Producer Responsibility programs",
+    "California climate reporting legislation",
+    "EU Corporate Sustainability Reporting Directive (CSRD)",
+    "Data privacy regulations (GDPR, CCPA, state privacy laws)",
+    "Payment Card Industry (PCI) compliance requirements",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Conflict minerals regulations",
+    "Changes in tax laws and regulations including Pillar Two global minimum tax",
+    "Potential new tariffs and trade restrictions from new U.S. presidential administration",
+    "Export/import and trade law changes",
+    "Increased regulation of ESG practices and disclosures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. trade sanctions against state sponsors of terrorism",
+      "Sanctions related to Russia/Ukraine conflict",
+      "Retaliatory sanctions by countries subject to U.S. sanctions",
+      "Delisting of branded products by retailers in response to U.S. sanctions",
+      "Impact of sanctions on financial institutions and commerce"
+    ]
+  }
+}

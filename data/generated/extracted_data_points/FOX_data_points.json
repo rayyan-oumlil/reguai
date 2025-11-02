@@ -1,0 +1,94 @@
+{
+  "ticker": "FOX",
+  "company_name": "Fox Corporation",
+  "company_type": "News, Sports and Entertainment",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Caribbean",
+      "United Kingdom",
+      "European Union",
+      "China",
+      "North Korea",
+      "Russia",
+      "Middle East",
+      "Europe"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Cable Network Programming",
+    "Television",
+    "Credible",
+    "FOX Studio Lot"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Limited number of communications satellites available for transmission of programming",
+      "Dependence on satellite systems to transmit broadcast and cable networks to affiliates",
+      "Reliance on cloud services, content delivery and other networks, information systems and technologies for production and distribution"
+    ],
+    "risks": [
+      "Failure or destruction of satellites or transmitter facilities could materially adversely affect business",
+      "FCC reallocation of satellite transmission spectrum (C-Band) reduces availability for television industry",
+      "Potential further reallocation of C-Band spectrum for commercial wireless/broadband services",
+      "Cybersecurity threats and attacks on network and information systems",
+      "Supply chain disruption from geopolitical events including tensions with China, North Korea, Russia and conflicts in Middle East and Europe"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulations governing television broadcasting and station licensing",
+    "FCC ownership regulations including national television ownership cap (39% audience reach limit)",
+    "FCC dual network rules prohibiting common ownership of four major broadcast networks",
+    "Foreign ownership restrictions (25% limit on non-U.S. ownership of broadcast licensees)",
+    "Must-carry/retransmission consent regulations",
+    "Children's programming requirements and commercial limitations",
+    "FCC content regulations (obscenity, indecency, profanity restrictions)",
+    "Political advertising regulations and Emergency Alert System compliance",
+    "Closed captioning and audio description requirements",
+    "FTC regulations on unfair and deceptive advertising practices",
+    "State legislation on AI disclosure in political advertising",
+    "Privacy and data protection laws (CCPA, CPRA, Virginia, Colorado, Connecticut, Utah laws)",
+    "EU General Data Protection Regulation (GDPR)",
+    "UK, Canada, Australia, China, Mexico data protection legislation",
+    "Children's Online Privacy Protection Act (COPPA)",
+    "Video Privacy Protection Act (VPPA)",
+    "Telephone Consumer Protection Act",
+    "Gramm-Leach-Bliley Act",
+    "U.S. national security restrictions on transfer of sensitive personal data",
+    "Data breach notification legislation (federal and all 50 states)",
+    "Consumer finance regulations (Truth-in-Lending Act, Equal Credit Opportunity Act, Fair Credit Reporting Act, Fair Housing Act, RESPA, UDAAP laws)",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "SAFE Act (mortgage licensing)",
+    "State insurance licensing laws",
+    "Intellectual property laws and regulations",
+    "Tax law changes including The One Big Beautiful Bill Act of 2025",
+    "Communications Act and FCC rules governing broadcast licenses",
+    "FCC spectrum reallocation policies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "North Korea",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Ongoing tensions with China, North Korea, Russia may lead to cyberattacks or actions negatively impacting systems",
+      "Conflicts in Middle East and Europe may lead to cyberattacks or supply chain disruption",
+      "Nation state-sponsored cybersecurity activities and attacks",
+      "Geopolitical events may negatively impact advertising revenues"
+    ]
+  }
+}

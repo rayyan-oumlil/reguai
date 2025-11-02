@@ -1,0 +1,92 @@
+{
+  "ticker": "BRO",
+  "company_name": "Brown & Brown, Inc.",
+  "company_type": "Insurance Agency and Brokerage Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Europe",
+      "Asia",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Belgium",
+      "Bermuda",
+      "Canada",
+      "Cayman Islands",
+      "France",
+      "Germany",
+      "Hong Kong",
+      "Republic of Ireland",
+      "Italy",
+      "Malaysia",
+      "Netherlands",
+      "Singapore",
+      "United Arab Emirates",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.861,
+      "United Kingdom": 0.113,
+      "Republic of Ireland": 0.01,
+      "Canada": 0.008,
+      "Other": 0.007
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retail",
+    "Programs",
+    "Wholesale Brokerage"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on insurance companies for commission payments",
+      "Dependence on third-party vendors for technology, information security, funds transfers, business process management",
+      "Reliance on insurance carrier relationships for underwriting capacity"
+    ],
+    "risks": [
+      "Loss of or significant change to insurance company or intermediary relationships",
+      "Cybersecurity attacks or interruptions in information technology systems of third parties",
+      "Failure by third-party service providers to comply with service level agreements or maintain adequate internal controls",
+      "Reduced insurer capacity due to reinsurance availability or insurance company failures"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "State-level insurance regulation changes restricting products, markets, methods, prices, or compensation forms",
+    "Data privacy and protection law changes (GDPR, California Consumer Privacy Act, New York State Department of Financial Services Cybersecurity Requirements)",
+    "Potential federal regulation of insurance industry due to financial services modernization legislation",
+    "Changes in tort reform legislation affecting liability insurance demand",
+    "Restrictions on contingent commission arrangements by state legislatures or regulators",
+    "Licensing law amendments or reinterpretation by regulatory authorities",
+    "Non-U.S. laws and regulations compliance risks (international labor, employment, data privacy)",
+    "Climate change-related environmental regulations and reporting requirements",
+    "ESG (Environmental, Social, Governance) disclosure and compliance requirements",
+    "AI and RPA (Robotic Process Automation) governance and ethical regulations",
+    "Anti-corruption laws compliance in foreign countries",
+    "Changes to National Flood Insurance Program (NFIP) authorization or funding",
+    "Regulatory changes affecting F&I (automobile dealer services) products",
+    "Potential changes to Affordable Care Act",
+    "Federal and state government programs competing with private insurance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Potential violations of sanctions laws through acquisitions or operations",
+      "Risk of non-compliance with anti-corruption laws in foreign jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Retail": 0.578,
+    "Programs": 0.292,
+    "Wholesale Brokerage": 0.13
+  }
+}

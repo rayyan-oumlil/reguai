@@ -1,0 +1,147 @@
+{
+  "ticker": "BKR",
+  "company_name": "Baker Hughes Company",
+  "company_type": "Energy Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe/CIS/Sub-Saharan Africa",
+      "Middle East/Asia"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "Norway",
+      "Scotland",
+      "England",
+      "France",
+      "Italy",
+      "Ireland",
+      "Czech Republic",
+      "Angola",
+      "Nigeria",
+      "China",
+      "India",
+      "Singapore",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Qatar",
+      "Algeria",
+      "Argentina",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Oilfield Services & Equipment",
+    "Well Construction",
+    "Completions, Intervention, and Measurements",
+    "Production Solutions",
+    "Subsea & Surface Pressure Systems",
+    "Industrial & Energy Technology",
+    "Gas Technology Equipment",
+    "Gas Technology Services",
+    "Industrial Products",
+    "Industrial Solutions",
+    "Climate Technology Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "GE Vernova",
+      "GE Aerospace"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Italy",
+      "France",
+      "United Kingdom",
+      "Germany",
+      "China",
+      "India",
+      "Brazil",
+      "Norway",
+      "Scotland",
+      "Czech Republic",
+      "Qatar",
+      "Algeria",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Angola",
+      "Nigeria",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Long-term supply agreement for heavy-duty gas turbines with GE Vernova",
+      "Second Amended and Restated Supply and Technology Development Agreement with GE Aerospace",
+      "Intellectual property agreements with GE Aerospace",
+      "Aeroderivative joint venture (Aero JV) with GE Vernova for products and services",
+      "Dependence on rail, storage, and trucking services to transport raw materials",
+      "Reliance on third-party suppliers for raw materials including steel alloys, chromium, nickel, titanium, barite, beryllium, copper, lead, tungsten carbide, synthetic and natural diamonds, gels, sand and other proppants, printed circuit boards and electronic components, and hydrocarbon-based chemical feed stocks",
+      "Constrained availability of nickel based super alloys"
+    ],
+    "risks": [
+      "Disruptions in supply chain from pandemic, inflation, rising interest rates, and labor supply shortages",
+      "Price increases from vendors for raw materials and transportation",
+      "Delays in arrival or constraints on supply of raw materials due to rail, storage, and trucking service issues",
+      "Partial or complete loss of GE Vernova or GE Aerospace as suppliers",
+      "Failure of GE Aerospace to perform obligations under contracts with Aero JV",
+      "Failure of Aero JV to perform could prevent fulfillment of contractual obligations",
+      "Concentration risk and supply chain disruptions",
+      "Pricing and fulfillment volatility for certain raw materials, components, and logistics lanes expected to continue through 2025"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with extensive domestic and international environmental, health and safety regulations",
+    "Changes in environmental laws and regulations including air and water quality, waste management, occupational health and safety, and wildlife and land protection",
+    "Enactment of new legislation or issuance of judicial or agency opinions or orders requiring modification, supplement or replacement of equipment or facilities",
+    "Compliance with foreign exchange control, transfer pricing and customs laws regulating import and export of goods and flow of funds",
+    "Extensive trade laws and regulations governing shipment of goods, services and technology across international borders",
+    "Economic sanctions against certain countries, persons and entities that may restrict or prohibit transactions",
+    "Compliance with U.S. Foreign Corrupt Practices Act and other countries' anti-corruption and anti-bribery regimes",
+    "Compliance with anti-money laundering and anti-terrorism financing laws",
+    "Changes to tax laws, rates, treaties, and regulations in various jurisdictions",
+    "Expansion of trade restrictions, changes to government policies related to tariffs or trade agreements",
+    "Compliance with data privacy and security laws including GDPR in European Economic Area and UK",
+    "Various federal and state laws concerning personal information, privacy and data security including more stringent state laws",
+    "EPA regulations on greenhouse gas emissions under Clean Air Act",
+    "Greenhouse Gas Reporting Rule requiring monitoring and reporting of GHG emissions",
+    "International developments including UN Framework Convention on Climate Change, Paris Agreement, Kyoto Protocol, Glasgow Climate Pact, EU Emission Trading System, EU Energy Efficiency Directive, UK Streamlined Energy and Carbon Reporting framework, and EU carbon border adjustment mechanism",
+    "Caps or fees on carbon emissions including methane fees under Inflation Reduction Act",
+    "Corporate Alternative Minimum Tax based on financial statement book income",
+    "Labor and employment laws including regulations on working conditions, paid leave, workplace safety, wage and hour standards, and hiring and employment practices",
+    "Regulations established by U.S. Department of Labor and local regulatory agencies",
+    "ESG and sustainability reporting requirements adopted in European Union, Australia, and State of California",
+    "Regulatory disclosure requirements related to sustainability matters expected to expand globally"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran",
+      "Mexico",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions against Russia and certain Russian interests enacted by U.S., UK, EU, and other countries due to conflict between Russia and Ukraine",
+      "Completed sale of part of OFSE Russia business and suspended substantially all remaining operational activities in Russia",
+      "Ongoing efforts to close local entities within scope of western sanctions and local regulation in Russia",
+      "Economic sanctions against certain countries, persons and entities that may limit or prevent conduct of business in certain jurisdictions",
+      "Governments may impose economic sanctions that restrict or prohibit transactions involving such countries, persons and entities",
+      "Compliance with applicable laws and regulations as Company fulfilled existing contractual obligations in Russia",
+      "Changes to sanctions making ongoing operations increasingly complex and challenging"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "ticker": "LW",
+  "company_name": "Lamb Weston Holdings, Inc.",
+  "company_type": "Food Manufacturing - Frozen Potato Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "Austria",
+      "Belgium",
+      "Germany",
+      "France",
+      "United Kingdom",
+      "China",
+      "Australia",
+      "Argentina",
+      "Japan",
+      "Korea",
+      "Taiwan",
+      "Saudi Arabia",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.647,
+      "Other": 0.353
+    },
+    "assets_by_region": {
+      "United States": 0.582,
+      "Netherlands": 0.216,
+      "Other": 0.202
+    }
+  },
+  "segments": [
+    "North America",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "McDonald's Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Argentina",
+      "Australia",
+      "Austria",
+      "China",
+      "Netherlands",
+      "United Kingdom"
+    ],
+    "dependencies": "Raw potatoes sourced primarily from Washington, Idaho, Oregon (US), Netherlands, Austria, Belgium, Germany, France, UK (Europe), Canada, China, Australia, Argentina. Significant portion sourced under strategic long-term grower relationships and short-term annual contracts. Edible oils sourced through strategic relationships with key suppliers. Packaging and energy inputs sourced through multiple suppliers.",
+    "risks": "Potato crop performance dependent on environmental and climate conditions. Severe weather (extreme heat, cold, heavy rainfall, flooding) can significantly affect potato crop yield and quality. Potatoes susceptible to pests and diseases. Concentration of ideal growing conditions in few geographic regions globally. Unfavorable crop conditions in one region can lead to significant demand on other regions. Supply chain disruptions from execution issues, extreme weather, natural disasters, fire, terrorism, pandemics, armed hostilities, strikes, labor shortages, cybersecurity breaches, governmental restrictions, supplier capacity constraints. Increased costs for raw materials (potatoes, edible oils, packaging, grains, starches, energy). Limited number of competent high-quality co-packers. Third-party supplier, co-packer, logistics provider performance risks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Food, Drug and Cosmetic Act compliance (FDA)",
+    "Food Safety Modernization Act compliance",
+    "Public Health Security and Bioterrorism Preparedness and Response Act compliance",
+    "Good Manufacturing Practices compliance",
+    "Nutrition Label Reform Act compliance",
+    "State and local food safety regulations",
+    "Product labeling and nutrition information requirements",
+    "Acrylamide regulation (FDA and EFSA guidance, California limits)",
+    "Environmental regulations (EPA and state agencies) - air, land, water discharge, waste handling, noise, odor emissions",
+    "Wastewater treatment requirements",
+    "Occupational Safety and Health Administration (OSHA) compliance",
+    "Foreign Corrupt Practices Act compliance",
+    "Import/export restrictions, tariffs, sanctions, quotas, trade barriers",
+    "New or increased tariffs (including April 2025 US tariffs on imports)",
+    "Retaliatory tariffs by foreign governments",
+    "Trade agreement modifications or terminations",
+    "Currency exchange controls and capital controls",
+    "Climate change regulations (greenhouse gas reduction, water rights)",
+    "Packaging material regulations and bans",
+    "Front of pack labeling requirements",
+    "Allergen labeling requirements",
+    "False or deceptive advertising claims (federal and state consumer protection laws)",
+    "Product recall and withdrawal requirements",
+    "Antitrust law compliance",
+    "Immigration law changes affecting labor recruitment"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "Middle East countries",
+      "China",
+      "Taiwan",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Import/export sanctions and quotas",
+      "Retaliatory tariffs on US exports",
+      "Trade protection measures by foreign governments favoring local producers"
+    ]
+  },
+  "revenue_by_segment": {
+    "North America": 0.661,
+    "International": 0.339
+  }
+}

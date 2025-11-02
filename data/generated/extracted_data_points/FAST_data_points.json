@@ -1,0 +1,110 @@
+{
+  "ticker": "FAST",
+  "company_name": "Fastenal Company",
+  "company_type": "Industrial and Construction Supplies Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Central & South America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Dominican Republic",
+      "Guam",
+      "Puerto Rico",
+      "Panama",
+      "Brazil",
+      "Chile",
+      "Singapore",
+      "China",
+      "Malaysia",
+      "Thailand",
+      "Netherlands",
+      "Hungary",
+      "United Kingdom",
+      "Germany",
+      "Czech Republic",
+      "Italy",
+      "Romania",
+      "Sweden",
+      "Poland",
+      "Austria",
+      "Switzerland",
+      "Ireland",
+      "Spain",
+      "France",
+      "Belgium",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Fasteners",
+    "Tools",
+    "Cutting tools",
+    "Hydraulics & pneumatics",
+    "Material handling",
+    "Janitorial supplies",
+    "Electrical supplies",
+    "Welding supplies",
+    "Safety supplies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Taiwan",
+      "Asia",
+      "Malaysia",
+      "Czech Republic",
+      "United Kingdom"
+    ],
+    "dependencies": "Significant quantity of products sourced from Asia, primarily China and Taiwan. Most items distributed can be purchased from several sources, though preferred sourcing is used for some stock items. Single supplier accounts for more than 5% of inventory purchases in 2024. Heavy concentration of fastener and private label non-fastener suppliers in Asia.",
+    "risks": "Products manufactured in foreign countries may cease to be available due to foreign government regulations, domestic government regulations, disruption in trade relationships and agreements, political unrest, war, disease, labor availability, or changes in local economic conditions. Shipment of goods from foreign countries could be delayed by container shipping companies encountering financial, capacity, or other difficulties. Trade policies could make sourcing product from overseas more difficult and/or more costly. Changes in trade policies, tariffs, product restrictions between Canada, U.S., and Mexico, or disruption in trading relationships can adversely impact business. Long supply chain lead times for products sourced from Asia create lag in ability to adjust inventory levels or costs in response to rapid changes in economic or cost conditions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Import and export requirements",
+    "Anti-bribery and corruption laws",
+    "Product compliance laws",
+    "Environmental laws",
+    "Foreign exchange controls and cash repatriation restrictions",
+    "Advertising regulations",
+    "Data privacy regulations (California Consumer Privacy Act, California Privacy Rights Act, European Union General Data Protection Regulation 2016)",
+    "Cybersecurity requirements (protection of information and incident responses)",
+    "Regulations on suppliers regarding sources of supplies or products",
+    "Labor and employment laws",
+    "Anti-competition regulations",
+    "Laws and regulations relating specifically to governmental contracts",
+    "Tax laws and regulations changes",
+    "Changes in accounting standards",
+    "Climate change legislative and regulatory initiatives aimed at reducing greenhouse gas emissions",
+    "Mandatory annual reporting requirements related to carbon emissions and sustainability-related information",
+    "Product liability claims",
+    "Potential liability and reputational damage if products are defective"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in trade policies or tariffs",
+      "Trading disruption (tariffs, product restrictions) between Canada, U.S., and Mexico",
+      "Disruption in trading relationships with other nations",
+      "Executive orders imposing increased duties on imports from Canada, Mexico, and China",
+      "China retaliation with tariffs on certain products imported from U.S.",
+      "Government sanctions and denied party listings monitoring"
+    ]
+  }
+}

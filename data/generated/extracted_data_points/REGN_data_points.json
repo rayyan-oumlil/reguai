@@ -1,0 +1,110 @@
+{
+  "ticker": "REGN",
+  "company_name": "Regeneron Pharmaceuticals, Inc.",
+  "company_type": "Biotechnology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Japan",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "China",
+      "Canada",
+      "Mexico",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "France",
+      "Italy",
+      "Netherlands",
+      "Belgium",
+      "South Korea",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "EYLEA HD",
+    "EYLEA",
+    "Dupixent",
+    "Libtayo",
+    "Praluent",
+    "Kevzara",
+    "REGEN-COV",
+    "Evkeeza",
+    "Ordspono",
+    "Inmazeb",
+    "Veopoz",
+    "ARCALYST",
+    "ZALTRAP"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Besse Medical (subsidiary of Cencora, Inc.)",
+      "McKesson Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States (Rensselaer, New York)",
+      "Ireland (Limerick)"
+    ],
+    "dependencies": "Single-source unaffiliated third-party suppliers for certain raw materials; reliance on collaborators and third parties for filling, finishing, packaging, labeling, distribution, and laboratory testing; dependence on China-based suppliers for certain raw materials, products, and services",
+    "risks": "Supply chain interruptions or constraints; contaminations; fire; climate change; natural disasters; acts of war or terrorism; business interruptions; labor shortages or disputes; regional or single-source dependencies; geopolitical developments between United States and China; potential impact of BIOSECURE Act or similar legislation restricting China-based suppliers",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval requirements and delays",
+    "EMA regulatory requirements in European Union",
+    "MHLW regulatory requirements in Japan",
+    "Good Manufacturing Practice (cGMP) compliance requirements",
+    "Good Clinical Practice (GCP) compliance requirements",
+    "Risk Evaluation and Mitigation Strategy (REMS) requirements",
+    "Post-approval study requirements (Phase 4 studies)",
+    "Medicaid Drug Rebate program compliance and reporting obligations",
+    "340B drug pricing program compliance",
+    "Medicare Part B and Part D pricing and rebate requirements",
+    "Inflation Reduction Act (IRA) drug price negotiation program",
+    "Medicare inflation rebate requirements",
+    "Federal anti-kickback statute compliance",
+    "False Claims Act exposure",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "U.K. Bribery Act compliance",
+    "HIPAA privacy and security regulations",
+    "GDPR data protection requirements in EU",
+    "State consumer privacy laws compliance",
+    "Environmental, health, and safety laws and regulations",
+    "OECD Pillar Two minimum tax framework",
+    "Prescription Drug Affordability Boards and state pricing controls",
+    "Patent litigation and intellectual property challenges",
+    "Biosimilar competition regulatory pathways",
+    "Trade restrictions and sanctions compliance",
+    "Tariffs and trade barriers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine armed conflict impact on clinical trials and operations",
+      "Hamas-Israel armed conflict impact on clinical trials and operations",
+      "U.S.-China trade tensions and potential tariffs",
+      "Potential restrictions on China-based suppliers due to BIOSECURE Act or similar legislation",
+      "Office of Foreign Assets Control (OFAC) sanctions compliance",
+      "Trade embargoes and sanctions affecting international operations",
+      "Russian government decree allowing exploitation of patents without compensation"
+    ]
+  }
+}

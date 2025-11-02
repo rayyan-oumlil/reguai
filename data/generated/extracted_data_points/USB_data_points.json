@@ -1,0 +1,73 @@
+{
+  "ticker": "USB",
+  "company_name": "U.S. Bancorp",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Midwest",
+      "West",
+      "Canada",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "European Union member states"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Wealth, Corporate, Commercial and Institutional Banking",
+    "Consumer and Business Banking",
+    "Payment Services",
+    "Treasury and Corporate Support"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on third-party service providers for certain operations, including technology and operational services.",
+    "risks": "Failures or disruptions in or breaches of operational, technology or security systems or infrastructure of the Company or third parties, including as a result of cybersecurity incidents. Supply chain disruptions mentioned as a risk factor.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes to statutes, regulations, or regulatory policies or practices, including capital and liquidity requirements",
+    "Changes in trade policy, including the imposition of tariffs or the impacts of retaliatory tariffs",
+    "Uncertainty regarding the content, timing and impact of changes to regulatory capital, liquidity and resolution-related requirements applicable to large banking organizations",
+    "Actions taken by governmental agencies to stabilize the financial system",
+    "Increased Federal Deposit Insurance Corporation (FDIC) assessments, including due to bank failures",
+    "Risks related to originating and selling mortgages, including repurchase and indemnity demands",
+    "Impacts of current, pending or future litigation and governmental proceedings",
+    "Breaches in data security and failures to safeguard personal information",
+    "Effects of changes in or interpretations of tax laws and regulations",
+    "Consumer protection laws and regulations enforced by the Consumer Financial Protection Bureau (CFPB)",
+    "Anti-Money Laundering (AML) and sanctions laws compliance",
+    "Community Reinvestment Act (CRA) requirements",
+    "Regulation of brokerage, investment advisory and insurance activities by SEC, FINRA, and state regulators",
+    "Regulation of derivatives and swaps marketplace under Dodd-Frank Act",
+    "Volcker Rule prohibiting proprietary trading and certain hedge fund/private equity fund interests",
+    "Privacy and data protection laws including GLBA, CCPA, GDPR, and state privacy laws",
+    "Fair Credit Reporting Act (FCRA) and related consumer reporting regulations",
+    "Cybersecurity incident notification and disclosure requirements",
+    "Environmental, social and governance (ESG) matters including climate-related financial risk management principles",
+    "State 'anti-ESG' measures that may conflict with other regulatory requirements",
+    "Basel III Endgame proposed rule implementing stricter capital requirements",
+    "Long-term debt requirements proposed for Category III banking organizations",
+    "Resolution planning requirements by Federal Reserve and FDIC",
+    "Recovery planning requirements by OCC for large national banks",
+    "Enhanced prudential standards under Dodd-Frank Act for large banking organizations",
+    "Stress testing requirements under CCAR and Dodd-Frank Act",
+    "Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR) requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Restrictions on transactions with persons, companies, or foreign governments sanctioned by United States authorities under International Emergency Economic Powers Act and Trading with the Enemy Act",
+      "Compliance with Office of Foreign Assets Control (OFAC) sanctions laws"
+    ]
+  }
+}

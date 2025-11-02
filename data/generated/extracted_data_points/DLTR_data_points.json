@@ -1,0 +1,76 @@
+{
+  "ticker": "DLTR",
+  "company_name": "Dollar Tree, Inc.",
+  "company_type": "Discount Retail",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.971,
+      "Canada": 0.029
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Dollar Tree"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "United States"
+    ],
+    "dependencies": "China is the source of the majority of direct imports. Approximately 40% of Dollar Tree segment's total retail value purchases are imported directly, with a significant portion of goods purchased from domestic vendors also being imported.",
+    "risks": "Disruptions from tariffs, duties, anti-dumping or countervailing duty orders, trade restrictions, geopolitical tensions, international disputes, military confrontation, economic sanctions, supply chain constraints, ocean shipping disruptions, port congestion, labor disagreements at ports, natural disasters, climate change impacts on distribution network",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Product and food safety regulations (FDA oversight)",
+    "Labor and employment regulations (wage and hour, benefits, healthcare, workplace safety, OSHA rules)",
+    "Minimum wage increases by federal, state and local governments",
+    "Fair Labor Standards Act changes to exempt status salary thresholds",
+    "Pricing and antitrust regulations",
+    "Privacy and information security regulations (data protection laws, PCI-DSS compliance)",
+    "Tariff and trade regulations (anti-dumping and countervailing duty orders)",
+    "Environmental regulations (hazardous waste, recycling, single-use plastics, chemicals of concern, extended producer responsibility, carbon pricing, product energy efficiency, animal welfare standards, product labeling)",
+    "Consumer credit regulations",
+    "Licensing and intellectual property regulations",
+    "Tax regulations and changes in corporate tax rates",
+    "Climate change-related government or industry actions",
+    "Compliance with DC 202 resolution requirements (internal controls, compliance codes, periodic DOJ reporting for three years)",
+    "SNAP (Supplemental Nutrition Assistance Program) eligibility requirements",
+    "Municipal regulations on store placement, proximity, labor relations, product types",
+    "DEI (Diversity, Equity and Inclusion) scrutiny and potential legal challenges",
+    "ESG (Environmental, Social and Governance) disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Mexico",
+      "Canada"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. tariffs imposed or threatened on China, Mexico, Canada and other countries in early 2025",
+      "Reciprocal tariffs announced by Trump administration",
+      "Retaliatory countermeasures by China and other countries subject to U.S. tariffs",
+      "Fees on Chinese shipping companies and Chinese-built vessels entering U.S. ports",
+      "Geopolitical tensions, international disputes, military confrontation, blockade, war, economic sanctions affecting international shipping",
+      "Red Sea tensions and Panama Canal traffic restrictions causing supply chain disruptions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumable": 0.488,
+    "Variety": 0.452,
+    "Seasonal": 0.06
+  }
+}

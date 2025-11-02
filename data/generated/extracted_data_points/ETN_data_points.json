@@ -1,0 +1,110 @@
+{
+  "ticker": "ETN",
+  "company_name": "Eaton Corporation plc",
+  "company_type": "Intelligent Power Management",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Latin America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "Brazil",
+      "Ireland",
+      "United Kingdom",
+      "China",
+      "India",
+      "Dominican Republic",
+      "Switzerland",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.609,
+      "Canada": 0.043,
+      "Latin America": 0.068,
+      "Europe": 0.182,
+      "Asia Pacific": 0.099
+    },
+    "assets_by_region": {
+      "United States": 0.533,
+      "Canada": 0.008,
+      "Latin America": 0.125,
+      "Europe": 0.212,
+      "Asia Pacific": 0.121
+    }
+  },
+  "segments": [
+    "Electrical Americas",
+    "Electrical Global",
+    "Aerospace",
+    "Vehicle",
+    "eMobility"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Puerto Rico",
+      "Dominican Republic",
+      "Mexico",
+      "China",
+      "United States",
+      "Brazil"
+    ],
+    "dependencies": "Raw materials include iron, steel, copper, nickel, aluminum, lead, silver, gold, titanium, rubber, plastic, electronic components, chemicals, and fluids",
+    "risks": "Supply chain disruptions, global shortages affecting raw material prices, logistics and wage inflation, labor shortages in select markets, supplier price increases due to increased costs of raw materials and energy",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in government legislation, regulations and policies in multiple jurisdictions",
+    "Tariffs and trade barriers",
+    "Investment restrictions",
+    "Property ownership rights restrictions",
+    "Taxation changes",
+    "Data privacy regulations including GDPR",
+    "Cybersecurity laws and regulations",
+    "Exchange controls",
+    "Environmental protection laws and regulations",
+    "Emissions regulations",
+    "Climate change regulations",
+    "Carbon taxes",
+    "Income tax law changes in multiple jurisdictions",
+    "Transfer pricing regulations",
+    "Customer cybersecurity protections and mandates",
+    "Trade policy changes including sanctions and tariffs",
+    "Potential violations or litigation related to trade policies",
+    "FDA approval requirements",
+    "Antitrust regulations",
+    "Employment-related regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Russia sanctions exposure - company exited Russian operations in 2022 due to war with Ukraine",
+      "Potential trade restrictions and tariffs globally",
+      "Changes in countries' trade policy including imposition of sanctions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Electrical Americas": 0.46,
+    "Electrical Global": 0.251,
+    "Aerospace": 0.15,
+    "Vehicle": 0.112,
+    "eMobility": 0.027
+  }
+}

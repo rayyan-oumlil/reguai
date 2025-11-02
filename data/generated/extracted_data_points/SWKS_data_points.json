@@ -1,0 +1,129 @@
+{
+  "ticker": "SWKS",
+  "company_name": "Skyworks Solutions, Inc.",
+  "company_type": "Semiconductor",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia",
+      "Europe",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Singapore",
+      "Japan",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Canada",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "North Korea",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Wireless communications",
+    "Analog and mixed-signal semiconductors",
+    "Aerospace",
+    "Automotive",
+    "Broadband",
+    "Cellular infrastructure",
+    "Connected home",
+    "Defense",
+    "Entertainment and gaming",
+    "Industrial",
+    "Medical",
+    "Smartphone",
+    "Tablet",
+    "Wearables"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Singapore",
+      "Japan"
+    ],
+    "dependencies": [
+      "Reliance on foundries to provide silicon-based products and supplement gallium arsenide wafer manufacturing capacity",
+      "Dependence on subcontractors to package, assemble, and test certain products",
+      "Limited number of sole-source suppliers for certain raw materials and components",
+      "Dependence on suppliers for raw materials including gallium, germanium, antimony, and rare earth metals",
+      "Potential disruption of operations at third-party foundries and assembly/test facilities in Asia-Pacific region"
+    ],
+    "risks": [
+      "Lack of wafer supply, potential wafer shortages, and higher wafer prices",
+      "Required minimum purchase commitments",
+      "Limited ability to respond to unanticipated changes in customer demand",
+      "Limited control over delivery schedules, manufacturing yields, production costs, process technologies, and quality assurance",
+      "Inaccessibility of, or delays in obtaining access to, key process technologies, materials, and IP blocks",
+      "Third-party foundries may allocate limited capacity to other customers",
+      "Suppliers may experience financial difficulties or changes in control",
+      "Suppliers may be unable to deliver products in a timely manner",
+      "Suppliers may be unwilling to invest in processes that meet company needs",
+      "Supplier facilities may suffer damage or destruction, particularly in areas prone to natural disasters",
+      "Concentration risk in China for supply of critical materials",
+      "Geopolitical tensions involving China and Taiwan could disrupt operations of suppliers in Taiwan"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "International, federal, state, and local legislation and regulations relating to discharge of substances into the environment",
+    "Treatment, transport, and disposal of hazardous wastes",
+    "Recycling and product packaging requirements",
+    "Worker health and safety regulations",
+    "Environmental laws and worker health and safety laws compliance",
+    "Import/export controls, tariffs, and other trade-related regulations and restrictions",
+    "Export restrictions including Entity List restrictions on selling to certain Chinese entities",
+    "Restrictions on certain trade and other activities in China, Russia, Belarus, and portions of Ukraine",
+    "European Union Restriction of Hazardous Substances in Electrical and Electronic Equipment (RoHS) Directive",
+    "Restrictions on use of per- and polyfluoroalkyl substances (PFAS)",
+    "Conflict minerals regulations requiring determination of material origins",
+    "Climate change laws and regulations including restrictions on emissions of carbon dioxide or other greenhouse gases",
+    "Limitations or restrictions on water use",
+    "Energy management and waste management regulations",
+    "Mandatory and voluntary reporting, diligence, and disclosure on sustainability topics",
+    "Cybersecurity and privacy laws including China's cybersecurity and privacy laws",
+    "Tax laws and regulations changes including BEPS Project, Pillar One and Pillar Two, global corporate minimum tax",
+    "U.S. tax law changes including capitalization of research and development expenses",
+    "Inflation Reduction Act including corporate alternative minimum tax (CAMT) and excise tax on stock repurchases",
+    "CHIPS and Science Act funding and investment tax credit requirements",
+    "Spectrum allocation regulations for wireless technologies",
+    "FDA approval requirements for medical applications",
+    "Compliance with industry standards and customer sustainability initiatives",
+    "Workers' rights initiatives mandated by customers or industry groups"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "North Korea",
+      "Israel",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government export restrictions on selling to certain Chinese entities on Entity List",
+      "Prohibitions on certain trade and other activities in China, Russia, Belarus, and portions of Ukraine",
+      "Potential restrictions on purchase of products made or containing technology or components from certain companies or from companies located in certain jurisdictions",
+      "Imposition by United States of tariffs on goods imported from China or deemed to be of Chinese origin",
+      "Countermeasures imposed by China in response to U.S. restrictions",
+      "China's expanded export restrictions on materials including gallium, germanium, antimony, and rare earth metals",
+      "Uncertainty regarding relationships among United States, China, Taiwan, Russia, Mexico, North Korea, Israel, other Middle Eastern countries, Japan, Singapore, and other foreign countries",
+      "Armed conflicts including conflict between Russia and Ukraine and conflicts in Israel and Middle Eastern region",
+      "Geopolitical tensions involving China and Taiwan that could disrupt operations of suppliers in Taiwan"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "UAL",
+  "company_name": "United Airlines Holdings, Inc.",
+  "company_type": "Airline",
+  "geography": {
+    "regions": [
+      "Domestic (U.S. and Canada)",
+      "Atlantic",
+      "Pacific",
+      "Latin America",
+      "Asia",
+      "Europe",
+      "Africa",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Japan",
+      "Korea",
+      "New Zealand",
+      "Australia",
+      "Colombia",
+      "Panama",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "Austria",
+      "Belgium",
+      "Switzerland",
+      "France",
+      "Norway",
+      "India",
+      "Mongolia",
+      "Greenland",
+      "Taiwan",
+      "Italy",
+      "Spain",
+      "Portugal",
+      "Senegal",
+      "Russia",
+      "Iran",
+      "Cuba"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Passenger",
+    "Cargo",
+    "Other operating revenue"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "The Boeing Company",
+      "Airbus S.A.S."
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Substantially all of the Company's aircraft, engines and certain parts are sourced from a limited number of suppliers (Boeing and Airbus). The Company is dependent on a limited number of suppliers for engines and certain other aircraft parts.",
+    "risks": "The Company would be materially and adversely affected if it were unable to obtain timely deliveries, additional equipment or support from Boeing or Airbus. Manufacturing delays, supply chain issues, increased FAA oversight of production, failure to obtain regulatory approval or certification for new aircraft models (e.g., Boeing 737 MAX 10), and inflationary pressures affecting suppliers could impact operations. Many suppliers are experiencing supply chain disruptions and labor market constraints.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive government regulation by the DOT, FAA, DHS, DOJ, EPA, and other U.S. and international regulatory bodies",
+    "FAA certification delays for new aircraft (e.g., Boeing 737 MAX 10)",
+    "Increased FAA oversight of aircraft production processes",
+    "Mandatory groundings of aircraft due to FAA Emergency Airworthiness Directives",
+    "DOT investigations and potential restrictions on airline capacity, competition, and consumer protection",
+    "Slot restrictions and airport access limitations at major U.S. and foreign airports",
+    "Environmental regulations including CORSIA (Carbon Offsetting and Reduction Scheme for International Aviation), EU ETS (Emission Trading System), EPA aircraft GHG emissions standards, FAA fuel-efficient technology mandates",
+    "SAF (Sustainable Aviation Fuel) blending mandates in EU (ReFuelEU), UK, France, Norway, India, Japan",
+    "PFAS (per- and polyfluoroalkyl substances) regulations and EPA designation of PFOA and PFOS as hazardous substances under CERCLA",
+    "EU Corporate Sustainability Due Diligence Directive and Corporate Sustainability Reporting Directive",
+    "State and local environmental fees, carbon emissions requirements, noise restrictions, single-use plastics bans",
+    "Privacy and data security regulations including EU GDPR, Executive Order 14117 on bulk sensitive personal data",
+    "Credit card processing data security standards",
+    "Potential legislation reshaping benefits provided through co-branded credit cards and loyalty programs",
+    "Labor regulations under the Railway Labor Act (RLA)",
+    "Antitrust regulations and DOJ investigations",
+    "Trade tariffs on commercial aircraft and aircraft parts",
+    "5G deployment interference with aircraft systems",
+    "International aviation bilateral agreements and Open Skies policies",
+    "Foreign government route authorities, slot controls, and capacity restrictions",
+    "Tax law changes affecting withholding taxes on non-U.S. loan payments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Iran",
+      "Cuba"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Suspension of overflying in Russian airspace due to Russia-Ukraine military conflict",
+      "Interruptions of flying due to military conflict in the Middle East",
+      "Potential escalation of broader economic consequences of regional conflicts",
+      "Sanctions compliance risks",
+      "Geopolitical conflict impacting international routes and demand"
+    ]
+  }
+}

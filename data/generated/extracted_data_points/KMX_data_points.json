@@ -1,0 +1,66 @@
+{
+  "ticker": "KMX",
+  "company_name": "CarMax, Inc.",
+  "company_type": "Automotive Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "CarMax Sales Operations",
+    "CarMax Auto Finance"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fidelity Warranty Services, Inc.",
+      "Santander Consumer USA",
+      "Westlake Financial Services",
+      "Exeter Finance Corp.",
+      "Capital One Auto Finance",
+      "Ally Financial",
+      "American Credit Acceptance",
+      "Assurant, Inc.",
+      "Safe-Guard Products International LLC",
+      "CNA National Warranty Corporation"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Large number of vehicles remarketed each year, consumer acceptance of appraisal process, experience in acquiring vehicles from dealers and auctions",
+    "risks": "Supply of late-model used vehicles influenced by total vehicles in operation, new vehicle sales volume, and used vehicles sold through retail/wholesale channels",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Vehicle dealer and sales licensing requirements across all operating states",
+    "Consumer protection laws and privacy laws compliance",
+    "Federal truth-in-lending, consumer leasing, equal credit opportunity and fair credit reporting laws",
+    "State and local motor vehicle finance, collection, repossession and installment finance laws",
+    "Oversight by Federal Trade Commission and state regulators",
+    "Supervision by Consumer Financial Protection Bureau for financing activities",
+    "Environmental laws regarding hazardous materials and wastes (motor oil, gasoline, solvents, lubricants, paints)",
+    "Underground and above-ground gasoline storage tanks regulations",
+    "Federal and state wage-hour, anti-discrimination and employment practices laws",
+    "Advertising and marketing regulations",
+    "Evolving ESG-related laws and climate-related disclosure regulations",
+    "Potential revocation or suspension of licenses for violations",
+    "Manufacturer recall regulations (lack of authorization to complete recall-related repairs)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Tariffs or imposition of new tariffs impacting automotive parts, vehicles, or steel availability and pricing"
+    ]
+  },
+  "revenue_by_segment": {
+    "Used vehicle sales": 0.8,
+    "Wholesale vehicle sales": 0.174,
+    "Other sales and revenues": 0.026
+  }
+}

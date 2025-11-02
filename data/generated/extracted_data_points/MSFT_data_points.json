@@ -1,0 +1,118 @@
+{
+  "ticker": "MSFT",
+  "company_name": "Microsoft Corporation",
+  "company_type": "Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Americas"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "China",
+      "India",
+      "Netherlands",
+      "Australia",
+      "Canada",
+      "France",
+      "Germany",
+      "Israel",
+      "Japan",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Productivity and Business Processes",
+    "Intelligent Cloud",
+    "More Personal Computing",
+    "Microsoft 365 Commercial products and cloud services",
+    "Microsoft 365 Consumer products and cloud services",
+    "LinkedIn",
+    "Dynamics products and cloud services",
+    "Server products and cloud services",
+    "Azure and other cloud services",
+    "Enterprise and partner services",
+    "Windows and Devices",
+    "Gaming",
+    "Search and news advertising"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Asia",
+      "United States"
+    ],
+    "dependencies": [
+      "Limited suppliers for certain device and datacenter components",
+      "Datacenters depend on availability of permitted and buildable land, predictable energy, networking supplies, and servers including GPUs",
+      "Third-party contract manufacturers for devices",
+      "Very few qualified suppliers for certain components"
+    ],
+    "risks": [
+      "Extended or unforeseen disruptions at suppliers could impact ability to operate datacenters and manufacture devices",
+      "Capacity constraints from competitors using same suppliers",
+      "Supply chain disruptions in Asia and other geographies",
+      "Component shortages, excess or obsolete inventory",
+      "Constraints in supply chain of device components"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Competition laws and new market regulation in EU, UK, US, China",
+    "EU Digital Markets Act compliance requirements",
+    "EU Digital Services Act compliance requirements",
+    "EU General Data Protection Regulation (GDPR)",
+    "Data protection and privacy regulations globally",
+    "EU Data Act",
+    "Telecommunications regulations",
+    "Advertising regulations",
+    "Online content and digital safety regulations",
+    "Child safety regulations",
+    "Freedom of expression regulations",
+    "EU AI Act",
+    "AI regulatory requirements (model development, deployment, frontier model safety, transparency, content provenance)",
+    "Export controls and trade restrictions",
+    "US Foreign Corrupt Practices Act (FCPA) and anti-corruption laws",
+    "Economic sanctions (US, EU, other countries)",
+    "US import controls on information and communication technologies",
+    "Supply chain regulations",
+    "Data flow restrictions",
+    "Outbound investment restrictions",
+    "US tariff policies",
+    "AI export controls (AI Diffusion Rule)",
+    "Cybersecurity regulations",
+    "Environmental, Social, and Governance (ESG) regulations",
+    "Greenhouse gas emissions and energy usage caps",
+    "ESG disclosure requirements",
+    "Income tax regulations including OECD Pillar Two global minimum tax",
+    "IRS transfer pricing audits and disputes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions in US, EU, and other countries prohibit business with restricted entities or countries",
+      "US export controls restrict offering products/services to certain entities in specified countries",
+      "Ongoing conflict in Ukraine",
+      "Israel-Hamas conflict",
+      "Periods of intense diplomatic or armed conflict could result in new and rapidly evolving sanctions and trade restrictions",
+      "Negative impacts to regional trade ecosystems",
+      "Geopolitical instabilities and changing US Administration priorities create unpredictable trade landscape",
+      "US tariff volatility",
+      "Shifting AI export controls policies"
+    ]
+  }
+}

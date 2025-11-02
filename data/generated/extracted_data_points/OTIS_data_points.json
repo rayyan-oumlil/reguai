@@ -1,0 +1,121 @@
+{
+  "ticker": "OTIS",
+  "company_name": "Otis Worldwide Corporation",
+  "company_type": "Elevator and Escalator Manufacturing, Installation and Service",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia Pacific",
+      "Europe",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "India",
+      "Japan",
+      "France",
+      "Germany",
+      "Spain",
+      "Brazil",
+      "Canada",
+      "United Kingdom",
+      "Italy",
+      "South Korea",
+      "Switzerland",
+      "Austria",
+      "Belgium",
+      "Hong Kong",
+      "Mexico",
+      "Netherlands",
+      "Portugal",
+      "Turkey",
+      "Australia",
+      "Argentina",
+      "Indonesia",
+      "Malaysia",
+      "Poland",
+      "South Africa",
+      "Ukraine",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "New Equipment",
+    "Service"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Brazil",
+      "China",
+      "Japan",
+      "France",
+      "India",
+      "Korea",
+      "Spain",
+      "United States"
+    ],
+    "dependencies": [
+      "Reliance on approximately 450 key suppliers for manufacturing supply chain",
+      "Some components or applications require particular specifications or qualifications with single supplier or limited number of suppliers",
+      "Diverse network of several thousand suppliers globally"
+    ],
+    "risks": [
+      "Supply constraints or cost pressures due to single supplier or limited suppliers for certain components",
+      "Supplier financial or operational difficulties",
+      "Contract disputes with suppliers",
+      "High prices for important raw materials causing margin and cost pressures",
+      "Supplier capacity constraints",
+      "Supplier production disruptions",
+      "Supplier quality issues",
+      "Supplier closings or bankruptcies",
+      "Fluctuations in commodity prices (particularly steel)",
+      "Supply chain disruptions from geopolitical conflicts",
+      "Supplier liquidity constraints"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in legislation or government policies impacting the industry (employee safety, labor-related regulations, industrial equipment, licensing requirements, foreign ownership limitations, building and elevator safety codes)",
+    "Environmental regulations for cleanup of pollutants",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and other anti-corruption laws violations",
+    "Antitrust and anti-collusion laws violations",
+    "Mandatory supply laws and bidding regulations",
+    "Export control regulations (Export Administration Regulations, embargoes and sanctions)",
+    "Data privacy and cybersecurity laws compliance",
+    "Income tax regulations and changes to tax laws",
+    "Climate change legislation and regulatory rules",
+    "ESG-related legal and regulatory changes",
+    "Government enforcement actions for data privacy and cybersecurity violations",
+    "Penalties for non-compliance under applicable laws",
+    "Changes in U.S. administration policies and priorities affecting tax, environmental, regulatory matters",
+    "Trade policies, tariffs and trade barriers changes",
+    "Import/export regulations and tariffs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Israel",
+      "Gaza"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions between U.S. and China",
+      "Russia sanctions exposure (business sold in 2022)",
+      "Iran sanctions impact",
+      "Restrictions on transfer of funds to and from Russia",
+      "Export controls and sanctions administered by U.S. Department of Treasury",
+      "U.S. foreign policy restrictions on business dealings with certain individuals, entities or countries"
+    ]
+  }
+}

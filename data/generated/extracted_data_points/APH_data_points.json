@@ -1,0 +1,105 @@
+{
+  "ticker": "APH",
+  "company_name": "Amphenol Corporation",
+  "company_type": "Electrical, Electronic and Fiber Optic Connectors and Interconnect Systems",
+  "geography": {
+    "regions": [
+      "United States",
+      "China",
+      "Europe",
+      "Asia",
+      "Other foreign locations"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Mexico",
+      "Canada",
+      "European Union member states",
+      "United Kingdom",
+      "India",
+      "Israel",
+      "Ukraine",
+      "Russia",
+      "Iran",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "Singapore",
+      "Malaysia",
+      "Thailand",
+      "Philippines",
+      "Vietnam",
+      "Australia",
+      "Brazil",
+      "Argentina"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Harsh Environment Solutions",
+    "Communications Solutions",
+    "Interconnect and Sensor Systems"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Europe",
+      "Asia",
+      "Mexico",
+      "India",
+      "Other low-cost regions globally"
+    ],
+    "dependencies": "The Company uses basic materials like aluminum, steel, copper, titanium, metal alloys, gold, silver, palladium and plastic resins. In limited instances, depends on single source of supply or commodity markets served by limited number of suppliers.",
+    "risks": "Supply chain constraints and logistical challenges including regulatory restrictions and imposition of additional tariffs. Inflationary pressures and increased commodity prices may impact cost and availability of certain raw materials and components. Difficulties obtaining certain raw materials or components necessary for production at reasonable costs.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. and foreign export control laws and regulations restrictions on certain products and components",
+    "U.S. and non-U.S. economic sanctions and trade embargoes",
+    "Entity List restrictions by U.S. Department of Commerce on sales to certain Chinese companies",
+    "BIS export control regulations restricting provision to China of certain technology for advanced computing integrated circuits and supercomputers",
+    "Chinese government Unreliable Entity List restrictions on certain U.S. companies",
+    "Compliance with preferential duty and/or tariff programs in various jurisdictions",
+    "U.S. and other countries' trade policies and tariffs including U.S.-China tariffs",
+    "Additional 10% tariff on goods imported from China effective February 4, 2025",
+    "Chinese government 15% tariff on certain goods imported from U.S. in response",
+    "Additional 25% tariffs announced for goods imported into U.S. from Mexico and Canada beginning March 2025",
+    "Environmental laws and regulations governing discharge of pollutants and handling of hazardous wastes",
+    "U.S. government contracting regulations including Federal Acquisition Regulation, False Claims Act, International Traffic in Arms Regulations, Export Administration Regulations",
+    "Foreign Corrupt Practices Act (FCPA) compliance requirements",
+    "Anti-corruption laws and regulations in foreign jurisdictions",
+    "Privacy laws including EU regulations, California and other U.S. states ESG-related laws",
+    "SEC Final Rule 33-11275 on climate-related disclosures",
+    "California Senate Bill-253 Climate Corporate Data Accountability Act and Senate Bill-261 on climate-related financial risk",
+    "Corporate Sustainability Reporting Directive in EU",
+    "OECD Pillar Two global minimum tax framework",
+    "Inflation Reduction Act of 2022 including 15% corporate alternative minimum tax and 1% excise tax on stock repurchases",
+    "Tax Act Transition Tax on deemed repatriation of foreign earnings",
+    "GILTI (global intangible low-taxed income) provisions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions compliance requirements",
+      "Restrictions on sales to Entity List companies in China",
+      "Export restrictions to China for advanced computing ICs and supercomputers",
+      "Potential restrictions from Chinese Unreliable Entity List",
+      "Ongoing military conflicts between Ukraine and Russia",
+      "Ongoing military conflicts between Israel and its adversaries in the Middle East",
+      "Intergovernmental conflicts, trade wars, cyberattacks and acts of terrorism or war"
+    ]
+  }
+}

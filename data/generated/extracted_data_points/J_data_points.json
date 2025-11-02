@@ -1,0 +1,108 @@
+{
+  "ticker": "J",
+  "company_name": "Jacobs Solutions Inc.",
+  "company_type": "Professional Services - Engineering & Consulting",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Middle East",
+      "India",
+      "Australia",
+      "New Zealand",
+      "Asia",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Poland",
+      "United Arab Emirates",
+      "India",
+      "Australia",
+      "New Zealand",
+      "Singapore",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.624,
+      "Europe": 0.234,
+      "Canada": 0.023,
+      "Asia": 0.012,
+      "India": 0.013,
+      "Australia and New Zealand": 0.048,
+      "Middle East and Africa": 0.047
+    },
+    "assets_by_region": {
+      "United States": 0.421,
+      "Europe": 0.422,
+      "Canada": 0.017,
+      "Asia": 0.013,
+      "India": 0.032,
+      "Australia and New Zealand": 0.071,
+      "Middle East and Africa": 0.024
+    }
+  },
+  "segments": [
+    "Infrastructure & Advanced Facilities",
+    "PA Consulting"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party subcontractors perform significant work under contracts",
+      "Reliance on third-party equipment manufacturers and suppliers",
+      "Joint venture partners for project execution"
+    ],
+    "risks": [
+      "Subcontractor failure to provide services or meet quality standards",
+      "Third-party inability to obtain financing affecting material/equipment supply",
+      "Joint venture partner non-performance or default",
+      "Supply chain shortages and frustrations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. federal government contract compliance and audits",
+    "Export control and anti-boycott laws compliance",
+    "GDPR and data privacy regulations (EU, UK, California)",
+    "Cross-border data transfer restrictions",
+    "U.S. Foreign Corrupt Practices Act violations",
+    "UK Bribery Act compliance",
+    "Environmental, health and safety regulations",
+    "Government procurement regulations",
+    "Security clearance requirements for government contracts",
+    "Professional licensing requirements in multiple jurisdictions",
+    "Tax law changes and audits in multiple jurisdictions",
+    "Tariffs and trade policy changes",
+    "Climate-related disclosure requirements",
+    "OECD Pillar Two global minimum tax rules",
+    "Nuclear liability regulations (Price-Anderson Act, international treaties)",
+    "Labor and employment regulations across jurisdictions",
+    "Sanctions compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Trade restrictions and embargoes",
+      "U.S.-China tensions affecting operations",
+      "Russia-Ukraine conflict impacts",
+      "Israel-Hamas conflict and Middle East tensions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Infrastructure & Advanced Facilities": 0.898,
+    "PA Consulting": 0.102
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "ticker": "TAP",
+  "company_name": "Molson Coors Beverage Company",
+  "company_type": "Beverage Manufacturing - Beer and Adjacent Products",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA&APAC",
+      "North America",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Bulgaria",
+      "Croatia",
+      "Czech Republic",
+      "Hungary",
+      "Montenegro",
+      "Republic of Ireland",
+      "Romania",
+      "Serbia",
+      "Mexico",
+      "Brazil",
+      "Germany",
+      "Slovenia",
+      "Australia",
+      "South Africa",
+      "South Korea",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Americas",
+    "EMEA&APAC",
+    "Coors Light",
+    "Miller Lite",
+    "Coors Banquet",
+    "Molson Canadian",
+    "Carling",
+    "Ožujsko",
+    "Madrí Excepcional",
+    "Staropramen",
+    "Blue Moon Belgian White",
+    "Leinenkugel's Summer Shandy",
+    "Miller High Life",
+    "Keystone Light",
+    "Vizzy Hard Seltzer",
+    "Five Trail whiskey",
+    "Simply Spiked",
+    "ZOA Energy",
+    "Bergenbier"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Ball Corporation",
+      "Owens-Brockway Glass Container, Inc.",
+      "Rocky Mountain Metal Container (RMMC)",
+      "Rocky Mountain Bottle Company (RMBC)"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Bulgaria",
+      "Croatia",
+      "Czech Republic",
+      "Hungary",
+      "Montenegro",
+      "Romania",
+      "Serbia"
+    ],
+    "dependencies": [
+      "Small number of suppliers for aluminum cans and bottles, glass bottles, paperboard and carbon dioxide",
+      "Consolidation of packaging materials suppliers has reduced local supply alternatives",
+      "Hops purchased from suppliers in U.S. and Europe primarily sourced from Germany, U.K., Czech Republic and Slovenia",
+      "Barley purchased primarily from western U.S. and Canadian Prairies",
+      "Majority of brewing materials in EMEA&APAC provided by suppliers based in Europe",
+      "Reliance on third-party logistics providers for distribution",
+      "Dependence on independent distributors in U.S. with exclusive territories protected by state statutes"
+    ],
+    "risks": [
+      "Inability of suppliers to meet production requirements without sufficient time to develop alternative source",
+      "Consolidation of packaging materials suppliers reduced local supply alternatives and increased risks of supply disruptions",
+      "Demand for input materials has increased resulting in shortage of capacity and increases in costs",
+      "Financial deterioration of suppliers could adversely impact business",
+      "Supply chain constraints and disruptions caused by Russia-Ukraine conflict and uncertain economic environment",
+      "Inflationary pressures on commodity and other input prices",
+      "Tariffs and trade restrictions",
+      "Concentration risk with small number of suppliers for key packaging materials"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in tax, environmental, trade or other regulations",
+    "Failure to comply with existing licensing, trade and other regulations",
+    "Excise tax increases in jurisdictions where products are sold",
+    "Changes to U.S. or foreign trade policies, impositions of new or increased tariffs",
+    "U.S. aluminum tariffs on imports from Canada, Mexico and EU",
+    "Proposed 25% tariff on all imports from Canada announced in February 2025",
+    "European Union-United Kingdom Trade and Cooperating Agreement disruptions",
+    "Changes to interprovincial trade rules, regulations, distribution models in Canada",
+    "Ontario beer market expansion to convenience stores and grocery stores",
+    "Product labeling or warning requirements or limitations on availability of beverages",
+    "Extended Producer Responsibility (EPR) programs for packaging",
+    "Deposit return schemes (DRS) for drinks containers",
+    "Taxes on packaging material",
+    "Environmental regulations to discourage use of particular materials",
+    "OECD global minimum tax framework (15% minimum tax effective 2023)",
+    "EU Corporate Sustainability Reporting Directive",
+    "SEC cybersecurity rules",
+    "Data privacy laws including GDPR, California Privacy Rights Act, Virginia Consumer Data Protection Act, Colorado Privacy Act",
+    "Regulation limiting or banning manufacturing, distribution or sale of alcoholic beverages",
+    "Health warning labels on alcohol beverage products (Ireland law effective May 2026, U.S. Surgeon General advisory January 2025)",
+    "Europe Beating Cancer Plan proposals for mandatory health warnings",
+    "Minimum unit pricing for alcohol",
+    "Advertising and marketing restrictions on alcohol",
+    "U.S. Foreign Corrupt Practices Act, U.K. Bribery Act, U.K. Proceeds of Crime Act compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict resulted in suspension of exports to Russia and termination of license to produce brands in Russia",
+      "Heightened economic sanctions from international community including U.S., U.K. and European Union due to Russia-Ukraine conflict",
+      "Potential for broader impacts expanding into other markets from Russia-Ukraine conflict",
+      "Middle East conflict geopolitical tensions",
+      "Increased trade barriers or restrictions on global trade",
+      "U.S. aluminum tariffs creating volatility and increased costs",
+      "Proposed U.S. tariffs on Canadian imports (25% announced February 2025, subsequently suspended)",
+      "Retaliatory tariffs from trade partners",
+      "Export control, sanctions and investment restrictions"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "ticker": "OXY",
+  "company_name": "Occidental Petroleum Corporation",
+  "company_type": "Oil and Gas",
+  "geography": {
+    "regions": [
+      "North America",
+      "Middle East",
+      "North Africa"
+    ],
+    "countries": [
+      "United States",
+      "Algeria",
+      "Oman",
+      "Qatar",
+      "United Arab Emirates",
+      "Canada",
+      "Chile"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Oil and Gas",
+    "Chemical",
+    "Midstream and Marketing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Chile"
+    ],
+    "dependencies": [
+      "CO2 supply for EOR operations",
+      "Water and sand for exploration and production",
+      "Oilfield service providers",
+      "Transportation and pipeline capacity"
+    ],
+    "risks": [
+      "Supply chain disruptions from economy-wide cost increases",
+      "Availability and cost of water and sand",
+      "Restrictions on water disposal due to seismic activity",
+      "Limited CO2 supply for EOR operations",
+      "Transportation capacity constraints in producing areas",
+      "Oilfield service costs and availability",
+      "Supply chain constraints from inflation and global logistics disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "New or amended laws and regulations on drilling, manufacturing or production processes including hydraulic fracturing",
+    "Changes in environmental regulations including climate change and GHG emissions",
+    "EPA methane emissions reduction program and methane waste emissions charge under IRA",
+    "BLM restrictions on federal lands leasing and increased royalty rates",
+    "Endangered Species Act restrictions (lesser prairie chicken, dunes sagebrush lizard, Rice's whale)",
+    "NEPA environmental review requirements for GHG emissions and climate change",
+    "State setback requirements and permitting restrictions in Colorado and New Mexico",
+    "EPA Toxic Substances Control Act regulations on chemicals including vinyl chloride",
+    "Potential changes to IRA tax incentives and federal support for low-carbon ventures",
+    "CERCLA and environmental remediation requirements including Diamond Alkali Superfund Site",
+    "Pillar Two global minimum tax implementation in multiple jurisdictions",
+    "Trade regulations and tariffs",
+    "Sanctions compliance",
+    "Export and import restrictions on hydrocarbons and equipment",
+    "Changes in tax regulations including corporate alternative minimum tax (CAMT)",
+    "Offshore leasing restrictions and permitting delays in Gulf of America",
+    "Water disposal regulations in response to seismic activity in Texas and New Mexico"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Algeria",
+      "Oman",
+      "Qatar",
+      "United Arab Emirates"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine war impacts on global oil markets",
+      "Conflicts in the Middle East affecting operations and commodity prices",
+      "Government sanctions restricting business in foreign jurisdictions",
+      "Potential US government restrictions on doing business in certain countries",
+      "Political instability in Algeria and Middle East operating regions"
+    ]
+  }
+}

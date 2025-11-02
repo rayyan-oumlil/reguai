@@ -1,0 +1,76 @@
+{
+  "ticker": "ORLY",
+  "company_name": "O'Reilly Automotive, Inc.",
+  "company_type": "Automotive Aftermarket Retail",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico",
+      "Mexico",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Mexico",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Automotive Aftermarket Parts"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "AC Delco",
+      "Armor All",
+      "Bosch",
+      "Castrol",
+      "Denso",
+      "Dorman",
+      "Fel-Pro",
+      "Gates Rubber",
+      "Lucas Oil",
+      "Mobil1",
+      "Monroe",
+      "NGK",
+      "Pennzoil",
+      "Prestone",
+      "Standard",
+      "STP",
+      "Turtle Wax",
+      "Valvoline",
+      "Wix"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "The Company purchases automotive products in substantial quantities from over 645 suppliers, the five largest of which accounted for approximately 26% of total purchases in 2024. The largest supplier accounted for approximately 8% of total purchases.",
+    "risks": "Financial or operational difficulties that suppliers may face could increase the cost of products or ability to source products. Consolidation among automotive parts suppliers and off-shoring of manufacturing capacity to foreign countries may disrupt supplier relationships and lead to higher prices. Work stoppages, labor strikes, public health crises, shipping and transportation disruptions, currency fluctuations, inflation, or other supply chain interruptions could negatively impact the business. Changes in U.S. trade policies, sanctions, tariffs, taxes, import limitations, and port agreements could affect ability to source products.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, and local laws and governmental regulations relating to business operations",
+    "Health and safety regulations for Team Members and customers",
+    "Handling, storage, and disposal of hazardous substances regulations",
+    "Recycling of batteries and used lubricants regulations",
+    "Environmental legislation and regulations including greenhouse gas emissions initiatives and climate change bills",
+    "Employment legislation and regulations including minimum wage requirements",
+    "New laws, statutes, rules, regulations, or ordinances including executive orders",
+    "Existing laws that could be interpreted, changed, modified, or applied adversely",
+    "Tax regulations and compliance requirements",
+    "Foreign Corrupt Practices Act compliance in international operations",
+    "Data collection, processing, use, and privacy and information security laws, regulations, and standards",
+    "Payment card industry and National Clearing House standards compliance",
+    "Restrictions on access to telematics, diagnostic tools, and repair information imposed by OEMs or governmental regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade disputes including imposition of new or increased tariffs",
+      "Changes in U.S. trade policies, sanctions, practices, tariffs or taxes, and import limitations"
+    ]
+  }
+}

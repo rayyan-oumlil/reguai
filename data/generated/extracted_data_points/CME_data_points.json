@@ -1,0 +1,125 @@
+{
+  "ticker": "CME",
+  "company_name": "CME Group Inc.",
+  "company_type": "Financial Services - Derivatives Exchange and Clearing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Netherlands",
+      "Germany",
+      "Singapore",
+      "Canada",
+      "Australia",
+      "Brazil",
+      "China",
+      "France",
+      "Hong Kong",
+      "India",
+      "Japan",
+      "Mexico",
+      "South Korea",
+      "Switzerland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.69,
+      "International": 0.31
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Interest Rates",
+    "Equity Indexes",
+    "Foreign Exchange",
+    "Agricultural Commodities",
+    "Energy",
+    "Metals",
+    "BrokerTec Fixed Income",
+    "EBS Foreign Exchange",
+    "Clearing and Settlement Services",
+    "Market Data and Information Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Clearing and settlement organizations",
+      "Google Cloud",
+      "Banking organizations",
+      "Futures Commission Merchants (FCMs)",
+      "CyrusOne",
+      "Independent software vendors (ISVs)",
+      "Internet service providers",
+      "Data processors",
+      "Data center providers",
+      "Cloud hosting providers",
+      "Software and hardware vendors",
+      "Telephone companies"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on third-party suppliers for telecommunications networks, data processing, cloud hosting, data center services, and software/hardware. Reliance on ISVs for front-end systems to access trading platforms. Dependence on clearing firms and FCMs for customer access. Critical partnership with Google Cloud for cloud migration and infrastructure.",
+    "risks": "Interruption or cessation of services by third-party suppliers could negatively impact operations. ISVs may not keep current with platform enhancements. Clearing firm withdrawal could impact trading activity. Google Cloud migration involves execution risk and potential system failures during transition. Concentration risk with data center provider CyrusOne.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Implementation of transaction tax or user fee in U.S., U.K., E.U., Illinois, or New Jersey",
+    "Elimination of 60/40 tax treatment for futures and options contracts",
+    "EU Benchmark Regulation provisions and transitional period extensions",
+    "Prohibition or restriction of exclusive licenses for benchmark indices in Europe",
+    "Negative treatment of U.S. Treasury securities liquidity profile or collateral limitations",
+    "New regulations governing cryptocurrency markets",
+    "New treasury market structure regulations including clearing obligations",
+    "SEC rule mandating central clearing of U.S. Treasury securities and repurchase agreements (effective December 2026 and June 2027)",
+    "Basel III Endgame rules and capital framework changes for banks",
+    "Financial Stability Board (FSB) proposal for CCPs to maintain separate resolution resources",
+    "Digital Operational Resilience Act (DORA) requirements for EU financial entities",
+    "CFTC regulatory requirements for derivatives clearing organizations and designated contract markets",
+    "European Securities and Markets Authority (ESMA) regulations",
+    "UK Financial Conduct Authority (FCA) regulations",
+    "Netherlands Authority for the Financial Markets (AFM) regulations",
+    "German Federal Financial Supervisory Authority (BaFin) regulations",
+    "FINRA and SEC regulations for broker-dealer operations",
+    "MiFID II requirements",
+    "EMIR and EMIR 3.0 regulations",
+    "Market Abuse Regulation",
+    "Capital Requirements Directive IV",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act compliance",
+    "Designation as systemically important financial market utility with additional Federal Reserve oversight",
+    "Benchmark administration regulations under UK Benchmark Regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Middle East region",
+      "Eastern Europe"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Impact of tariffs and tax policy changes",
+      "Restrictions on ability to offer products in specific geographies",
+      "Limitations on underlying/physical product flows across geographies due to sanctions",
+      "Geopolitical conflicts in Middle East and Eastern Europe affecting energy markets"
+    ]
+  },
+  "revenue_by_segment": {
+    "Interest rates": 0.271,
+    "Equity indexes": 0.179,
+    "Foreign exchange": 0.032,
+    "Agricultural commodities": 0.095,
+    "Energy": 0.131,
+    "Metals": 0.046,
+    "BrokerTec fixed income": 0.024,
+    "EBS foreign exchange": 0.021,
+    "Interest Rate Swap": 0.014,
+    "Market data": 0.116,
+    "Other": 0.07
+  }
+}

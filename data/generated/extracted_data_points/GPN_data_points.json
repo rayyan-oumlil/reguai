@@ -1,0 +1,109 @@
+{
+  "ticker": "GPN",
+  "company_name": "Global Payments Inc.",
+  "company_type": "Payments Technology",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia-Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "Spain",
+      "Greece",
+      "Poland",
+      "Malta",
+      "Czech Republic",
+      "Chile",
+      "China",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.803,
+      "Europe": 0.171,
+      "Asia Pacific": 0.026
+    },
+    "assets_by_region": {
+      "United States": 0.758,
+      "Foreign countries": 0.242
+    }
+  },
+  "segments": [
+    "Merchant Solutions",
+    "Issuer Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party service providers for certain functions",
+      "Dependence on financial institutions for clearing services and sponsorship",
+      "Reliance on payment networks (Visa, Mastercard, American Express, Discover, UnionPay International)",
+      "Dependence on technology infrastructure and telecommunications networks"
+    ],
+    "risks": [
+      "Third-party system failures could interrupt service",
+      "Supply chain disruptions affecting hardware and infrastructure suppliers",
+      "Vendor cybersecurity incidents could affect ability to service customers",
+      "Loss of financial institution sponsorship could prevent processing services",
+      "Concentration risk with financial institutions for cash deposits"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Dodd-Frank Act restrictions on debit card interchange fees",
+    "Consumer Financial Protection Bureau (CFPB) oversight and potential systemic risk designation",
+    "Federal Financial Institutions Examination Council (FFIEC) examinations",
+    "Payment institution licensing requirements in Europe (Poland, Greece, Germany, Spain, Malta, Czech Republic, UK)",
+    "Digital Operational Resilience Act (DORA) requirements effective January 2025",
+    "EU General Data Protection Regulation (GDPR) compliance",
+    "Gramm-Leach-Bliley Act (GLBA) requirements",
+    "California Privacy Rights Act and state privacy laws",
+    "Anti-money laundering regulations (Bank Secrecy Act, USA PATRIOT Act)",
+    "Office of Foreign Assets Control (OFAC) sanctions compliance",
+    "Foreign Corrupt Practices Act (FCPA) and UK Bribery Act compliance",
+    "State wage payment laws governing payroll card programs",
+    "Earned wage access regulations",
+    "Escheat laws for unclaimed property",
+    "Fair Debt Collection Practices Act (FDCPA)",
+    "Fair Credit Reporting Act (FCRA)",
+    "Telephone Consumer Protection Act (TCPA)",
+    "PCI Data Security Standard (PCI DSS) compliance",
+    "EU Artificial Intelligence Regulation",
+    "OECD Pillar Two Global Anti-Base Erosion Model Rules (15% minimum tax)",
+    "Data localization requirements in EU and Asia-Pacific",
+    "Potential federal privacy law in the United States",
+    "SEC climate-related disclosure rules (currently stayed pending judicial review)",
+    "European Sustainability Reporting Standards and Corporate Sustainability Reporting Directive",
+    "California climate-related disclosure bills",
+    "Interchange fee legislation limiting application to portions of transactions",
+    "Card network rules and standards changes",
+    "Foreign investment restrictions and economic sanctions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions prohibiting transactions with certain countries, individuals or entities",
+      "Risk of action by US or foreign governments restricting business in foreign countries",
+      "Potential material adverse effect from political or military conflict",
+      "Sold Merchant Solutions business in Russia in April 2022 due to geopolitical conditions",
+      "Exposure to international sanctions, embargoes, tariffs"
+    ]
+  },
+  "revenue_by_segment": {
+    "Merchant Solutions": 0.761,
+    "Issuer Solutions": 0.246
+  }
+}

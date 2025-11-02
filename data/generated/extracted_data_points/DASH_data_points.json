@@ -1,0 +1,88 @@
+{
+  "ticker": "DASH",
+  "company_name": "DoorDash, Inc.",
+  "company_type": "Technology - Local Commerce Platform",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Canada",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Finland",
+      "Germany",
+      "Israel",
+      "Australia",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.877,
+      "International": 0.123
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "DoorDash Marketplace",
+    "Wolt Marketplace",
+    "Commerce Platform",
+    "DoorDash Drive On-Demand",
+    "Wolt Drive",
+    "DashPass",
+    "Wolt+",
+    "Advertising"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "AWS",
+      "Google Maps",
+      "PayPal",
+      "Amazon Web Services",
+      "Stripe",
+      "Olo"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party payment processors (Stripe, PayPal) for consumer payments and merchant/Dasher payouts. Dependence on AWS for cloud infrastructure hosting. Reliance on fleet companies in certain markets for delivery fulfillment.",
+    "risks": "Concentration risk with limited payment processors. Single cloud provider dependency (AWS). Potential service interruptions from third-party vendors. Fleet company compliance and quality issues in certain markets.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Worker classification regulations - risk of Dashers being reclassified as employees under federal or state law",
+    "AB 5 in California and Proposition 22 legal challenges",
+    "EU Platform Work Directive requiring member states to transpose worker classification requirements",
+    "Minimum earnings standards for delivery workers in various jurisdictions (e.g., New York City)",
+    "Price control measures on local commerce platforms in certain jurisdictions",
+    "Merchant pricing and commission regulations",
+    "Consumer fee regulations and disclosure requirements",
+    "Sales tax, value-added tax, and indirect tax collection obligations",
+    "Digital services taxes in various jurisdictions",
+    "Food safety regulations for delivery of food products",
+    "Alcohol delivery regulations including licensing, age verification, and advertising restrictions",
+    "Pharmaceutical and controlled substance delivery regulations",
+    "Data privacy regulations including GDPR in EU and state privacy laws in US (e.g., CCPA)",
+    "Payment processing regulations including PSD II in Europe",
+    "Anti-money laundering compliance requirements in Europe",
+    "Background check regulations for Dashers",
+    "Antitrust and competition law scrutiny",
+    "FCPA and anti-corruption laws for international operations",
+    "Trade and economic sanctions (e.g., OFAC sanctions, EU sanctions)",
+    "Environmental sustainability disclosure requirements in EU"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Operations of Wolt subsidiary in jurisdictions in close proximity to Russia increase difficulty in complying with trade and economic sanction regimes related to business with Russia",
+      "Exposure to U.S. Office of Foreign Assets Control sanctions and similar EU sanctions",
+      "Risk of operations in regions subject to geopolitical instability, conflict, or economic sanctions"
+    ]
+  }
+}

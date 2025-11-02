@@ -1,0 +1,66 @@
+{
+  "ticker": "LUV",
+  "company_name": "Southwest Airlines Co.",
+  "company_type": "Airline",
+  "geography": {
+    "regions": [
+      "United States",
+      "Near-international markets"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Jamaica",
+      "The Bahamas",
+      "Aruba",
+      "Dominican Republic",
+      "Costa Rica",
+      "Belize",
+      "Cuba",
+      "Cayman Islands",
+      "Turks and Caicos"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Passenger",
+    "Freight",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "The Boeing Company"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "The Company is currently dependent on Boeing as the sole manufacturer of the Company's aircraft. The Company operates an all-Boeing fleet, all of which are variations of the Boeing 737. Boeing no longer manufactures versions of the 737 other than the MAX family of aircraft. The Company is also dependent on sole or limited suppliers for aircraft engines and certain other aircraft parts and services.",
+    "risks": "Boeing has in the past experienced, and may continue to experience, delays in fulfilling its commitments with regards to delivery of the Boeing 737-8 to the Company as a result of manufacturing challenges. The Company's contractual delivery schedule for the Boeing 737-7 is dependent on the FAA issuing required certifications and approvals to Boeing and the Company. If the MAX aircraft were to become unavailable for the Company's flight operations, the Company's operations would be materially adversely affected. The Company is also dependent on sole or limited suppliers for aircraft engines and certain other aircraft parts and services, and could be materially adversely affected if unable to obtain timely or sufficient delivery of aircraft parts or equipment or adequate maintenance or other support from any of these suppliers at commercially reasonable terms, if suppliers were unable to achieve and/or maintain required regulatory certifications or approvals of their parts or equipment, or in the event of a mechanical or regulatory issue associated with the Company's aircraft parts or equipment.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FAA regulations affecting airline operations and aircraft certification",
+    "DOT consumer protection regulations and enforcement actions",
+    "Aviation taxes and fees subject to periodic reauthorization by Congress",
+    "TSA security regulations and procedures",
+    "Environmental regulations including aircraft emissions standards, CORSIA carbon offsetting requirements, and potential climate change regulations",
+    "State and local environmental regulations including PFAS contamination requirements",
+    "Data privacy and cybersecurity regulations including EU GDPR, state laws (California CCDAA, CRFRA, VCMDA), and evolving AI regulations",
+    "Labor regulations including USERRA compliance",
+    "Airport capacity constraints and slot-controlled airport access limitations",
+    "International regulatory requirements for foreign operations",
+    "Potential increases in federal corporate income tax rate",
+    "SEC climate-related disclosure requirements",
+    "FAA secondary barrier requirements for flight deck",
+    "Potential FAA regulations on minimum seat dimensions",
+    "DOT rules on ticket refunds, family seating, and passenger rights",
+    "Accessibility regulations including accessible lavatory requirements",
+    "Payment Card Industry Data Security Standards (PCI DSS) compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

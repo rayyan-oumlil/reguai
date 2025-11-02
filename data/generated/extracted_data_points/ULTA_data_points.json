@@ -1,0 +1,68 @@
+{
+  "ticker": "ULTA",
+  "company_name": "Ulta Beauty, Inc.",
+  "company_type": "Specialty Beauty Retail",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Middle East"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Cosmetics",
+    "Skincare",
+    "Haircare",
+    "Fragrance",
+    "Services",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "L'Oréal",
+      "Estée Lauder Companies"
+    ],
+    "manufacturing_locations": [
+      "Foreign countries (third-party vendors for Ulta Beauty Collection)"
+    ],
+    "dependencies": "Top ten brand partners represented 54% of total net sales in fiscal 2024. Reliance on third-party vendors for private label products manufactured overseas. No long-term supply agreements with brand partners.",
+    "risks": "Disruption of imports from foreign countries due to import restrictions, tariffs, trade barriers, geopolitical events. Vendor consolidation within beauty products industry. Potential loss of key brand partners. Interruptions in distribution center operations. Inventory shrink from organized retail crime. Dependence on third-party manufacturers for Ulta Beauty branded products.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on cosmetics, OTC drugs, medical devices, dietary supplements (safety, labeling, manufacturing, advertising, distribution)",
+    "FTC regulations on advertising and consumer protection",
+    "CPSC regulations on styling tools and product safety",
+    "EPA regulations",
+    "State regulatory agencies and State Attorneys General regulations",
+    "State board regulations and licensing requirements for salon services",
+    "Fair Packaging and Labeling Act requirements",
+    "Privacy and data protection laws (California and other states)",
+    "Federal and state consumer protection laws prohibiting unfair or deceptive practices",
+    "Labor and employment statutes and regulations",
+    "California Proposition 65 (chemical exposure warnings)",
+    "Healthcare reform legislation changes",
+    "Evolving anti-discrimination laws",
+    "Unclaimed property laws for gift card balances",
+    "Real estate land use restrictions",
+    "Inflation Reduction Act of 2022 (15% corporate alternative minimum tax, 1% excise tax on share repurchases)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical events including ongoing conflicts in Ukraine and the Middle East causing uncertainty and exacerbating inflation",
+      "Tariffs and trade barriers impacting supply chain and inventory availability"
+    ]
+  }
+}

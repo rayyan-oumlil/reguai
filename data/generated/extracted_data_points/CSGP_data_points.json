@@ -1,0 +1,80 @@
+{
+  "ticker": "CSGP",
+  "company_name": "CoStar Group, Inc.",
+  "company_type": "Commercial and Residential Real Estate Information, Analytics, and Online Marketplaces",
+  "geography": {
+    "regions": [
+      "North America",
+      "International (Europe, Asia-Pacific, Latin America)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Spain",
+      "Germany"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.95,
+      "International": 0.05
+    },
+    "assets_by_region": {
+      "North America": 0.96,
+      "International": 0.04
+    }
+  },
+  "segments": [
+    "CoStar",
+    "Information Services",
+    "Multifamily",
+    "LoopNet",
+    "Residential",
+    "Other Marketplaces"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services (AWS)",
+      "Amazon Web Services",
+      "Akamai Connected Cloud (ACC)",
+      "Akamai Connected Cloud"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Majority of computing runs on AWS and ACC cloud infrastructure platforms. Reliance on third-party data sources, MLSs for residential listings, and third-party service providers for IT infrastructure, payment processing, and data feeds.",
+    "risks": "Disruption of AWS or ACC would negatively impact operations. Loss of relationships with MLSs or third-party listing providers could limit listing data quality. Dependence on third-party payment processors for credit/debit card transactions. Reliance on third-party data feeds and public records providers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Privacy and data protection laws (GDPR, CCPA, evolving state and federal privacy laws)",
+    "Consumer protection laws enforced by FTC and state Attorneys General",
+    "CAN-SPAM Act compliance",
+    "TCPA (Telephone Consumer Protection Act) compliance",
+    "FCRA (Fair Credit Reporting Act) compliance",
+    "Payment card industry security standards and PCI compliance",
+    "Antitrust laws and regulatory scrutiny (FTC review of Matterport acquisition, antitrust litigation)",
+    "MLS rules and compliance requirements for residential listings",
+    "Tax law changes and fiscal policy changes (Pillar 2 global minimum tax)",
+    "ESG disclosure requirements (California disclosure rules, EU Corporate Sustainability Reporting Directive)",
+    "Securities laws and SEC reporting requirements",
+    "Employment and immigration laws",
+    "Anti-corruption laws",
+    "Government contracting regulations",
+    "Intellectual property laws (copyright, trademark, patent, trade secret)",
+    "Data localization and cross-border data transfer restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "CoStar": 0.37,
+    "Information Services": 0.05,
+    "Multifamily": 0.39,
+    "LoopNet": 0.1,
+    "Residential": 0.04,
+    "Other Marketplaces": 0.05
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ticker": "TFC",
+  "company_name": "Truist Financial Corporation",
+  "company_type": "Financial Services - Banking",
+  "geography": {
+    "regions": [
+      "Southeastern United States",
+      "Mid-Atlantic United States"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer and Small Business Banking",
+    "Wholesale Banking",
+    "Commercial and Corporate Banking",
+    "Investment Banking and Capital Markets",
+    "Wealth Management",
+    "Payments",
+    "Specialized Lending"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Extensive reliance on third-party service providers for key components of business infrastructure including technology systems, data processing, and operational services",
+    "risks": [
+      "Third-party service provider failures or performance issues",
+      "Vendor cybersecurity vulnerabilities",
+      "Inability to timely replace critical service providers",
+      "Concentration risk from consolidation of financial technology providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Enhanced prudential standards and regulatory tailoring rules for Category III banking organizations",
+    "Capital requirements including Stress Capital Buffer and potential countercyclical capital buffer",
+    "Liquidity Coverage Ratio and Net Stable Funding Ratio requirements",
+    "Resolution planning requirements (165(d) and IDI Resolution Plans)",
+    "Comprehensive Capital Analysis and Review (CCAR) process",
+    "Bank Secrecy Act and Anti-Money Laundering compliance",
+    "OFAC sanctions compliance",
+    "Consumer Financial Protection Bureau oversight and enforcement",
+    "Dodd-Frank Act compliance",
+    "Volcker Rule restrictions on proprietary trading and fund ownership",
+    "Community Reinvestment Act requirements",
+    "Data privacy and protection regulations (Gramm-Leach-Bliley Act, state privacy laws)",
+    "Cybersecurity regulations and incident reporting requirements",
+    "CFPB rule on consumer data access and open banking",
+    "Proposed long-term debt and clean holding company requirements",
+    "Basel III capital framework revisions",
+    "FDIC special assessment for bank failures",
+    "Overdraft fee regulations",
+    "Fair lending and consumer protection laws",
+    "SEC and CFTC derivatives regulations",
+    "FINRA broker-dealer regulations",
+    "State banking regulations across multiple jurisdictions",
+    "Climate risk management and disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions program compliance",
+      "Risk of sanctions violations resulting in fines and penalties",
+      "Exposure to clients or counterparties subject to sanctions"
+    ]
+  }
+}

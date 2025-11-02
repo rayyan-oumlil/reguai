@@ -1,0 +1,134 @@
+{
+  "ticker": "ZTS",
+  "company_name": "Zoetis Inc.",
+  "company_type": "Animal Health",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "North America",
+      "Europe",
+      "Africa",
+      "Asia",
+      "Australia",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "China",
+      "France",
+      "Germany",
+      "Italy",
+      "Japan",
+      "Mexico",
+      "Spain",
+      "United Kingdom",
+      "Belgium",
+      "Denmark",
+      "Ireland",
+      "Norway",
+      "New Zealand",
+      "Austria",
+      "Switzerland",
+      "Russia",
+      "Iran",
+      "India",
+      "Vietnam",
+      "Scotland",
+      "Argentina",
+      "Turkey",
+      "Egypt"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "United States",
+    "International",
+    "Companion Animal",
+    "Livestock",
+    "Client Supply Services",
+    "Human Health"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Australia",
+      "Belgium",
+      "Brazil",
+      "China",
+      "Denmark",
+      "Ireland",
+      "Italy",
+      "Norway",
+      "Spain",
+      "New Zealand"
+    ],
+    "dependencies": [
+      "Sole-sourced products from certain manufacturing sites",
+      "Complex manufacturing processes requiring regulatory approvals",
+      "Reliance on third-party contract manufacturing organizations (CMOs)",
+      "Over 110 CMOs in global network",
+      "Certain third-party suppliers are sole or exclusive source of materials",
+      "Dependence on logistical service providers for global supply chain"
+    ],
+    "risks": [
+      "Manufacturing problems and capacity imbalances may cause product launch delays, inventory shortages, recalls or unanticipated costs",
+      "Minor deviations in manufacturing processes could result in delays, inventory shortages, product recalls, regulatory action",
+      "Production interruptions from equipment malfunctions, material shortages, labor problems, natural disasters, power outages, criminal activities",
+      "Outbreak of highly contagious diseases near production sites could halt production",
+      "Failure of CMOs to meet obligations could impact ability to meet demand",
+      "Delays in receiving regulatory approvals for manufacturing changes",
+      "Supply chain disruptions from COVID-19 pandemic impacted ability to meet customer demand",
+      "Increased labor and material costs due to supply constraints, weather conditions, government regulations",
+      "Potential disruptions from climate change impacts on manufacturing processes"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Subject to various federal, state, local and foreign environmental, health and safety laws and regulations",
+    "Failure to comply with regulatory requirements could result in fines, penalties, product withdrawals, facility shutdowns, civil or criminal prosecution",
+    "Regulatory agencies can modify or revoke permits and authorizations",
+    "Changes in Good Manufacturing Practices (GMP) requirements",
+    "Delays in regulatory approvals including from prolonged U.S. government shutdowns",
+    "Products subject to re-review and may lose approvals after reaching market",
+    "Restrictions and bans on use of antibacterials in food-producing animals",
+    "New regulations in Italy requiring electronic prescriptions for antibiotics",
+    "Increased regulation of livestock industry operations",
+    "Environmental regulations including PFAS restrictions in EU and U.S.",
+    "Climate-related disclosure requirements (EU CSRD, California climate laws)",
+    "Chemical regulation changes (REACH in EU, EPA regulations in U.S.)",
+    "Foreign trade controls administered by U.S. agencies (BIS, CBP, OFAC)",
+    "Compliance with FCPA and foreign anti-corruption laws",
+    "Data privacy regulations (GDPR in EU, state privacy laws in U.S., China PIPL, India DPDP Act)",
+    "Sanctions regulations affecting business in Russia and Iran",
+    "Potential changes to international trade agreements and tariffs",
+    "Regulatory requirements for animal testing subject to increased restrictions",
+    "FDA and USDA regulatory oversight of products and manufacturing facilities",
+    "EMA centralized approval process in EU",
+    "MARA regulatory requirements in China becoming increasingly stringent",
+    "Pillar Two global minimum tax provisions effective 2024"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions affecting business with Iran - company sells limited humanitarian animal health products in compliance with sanctions",
+      "Voluntary disclosure to OFAC in 2020 regarding Platinum Performance transactions potentially violating Iran sanctions (resolved with No Action letter in 2023)",
+      "Sanctions affecting business with Russia - company sells limited humanitarian products in compliance",
+      "Risk of being subject to sanctions for violations of export controls or trade restrictions",
+      "Potential penalties including fines, denial of export privileges, asset seizures, debarment from government contracts"
+    ]
+  }
+}

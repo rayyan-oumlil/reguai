@@ -1,0 +1,70 @@
+{
+  "ticker": "UHS",
+  "company_name": "Universal Health Services, Inc.",
+  "company_type": "Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Puerto Rico"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Acute Care Hospital Services",
+    "Behavioral Health Care Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Healthcare industry is labor intensive and dependent on nurses, physicians, and clinical staff availability",
+    "risks": [
+      "Nationwide shortage of nurses and clinical staff",
+      "Increased demand for care putting strain on resources and staff",
+      "Required to utilize higher-cost temporary labor and pay premiums for essential workers",
+      "Personnel shortages may require enhanced wages and benefits or limit services",
+      "Mandatory nurse-staffing ratios in certain states like California could adversely affect operations",
+      "Increased labor union activity could adversely affect labor costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive federal, state and local regulations relating to hospital operations, billing practices, relationships with physicians, patient privacy (HIPAA), emergency medical treatment (EMTALA)",
+    "Medicare and Medicaid reimbursement changes and reductions",
+    "Anti-kickback statute and Stark Law compliance risks",
+    "False Claims Act liability and qui tam whistleblower lawsuits",
+    "Certificate of Need (CON) laws in certain states restricting expansion",
+    "State conversion legislation affecting acquisition of not-for-profit hospitals",
+    "Corporate practice of medicine restrictions in states like Florida, Nevada, California, Texas",
+    "Value-based purchasing programs tying reimbursement to quality metrics",
+    "Hospital readmission reduction program penalties",
+    "Patient Protection and Affordable Care Act (ACA) provisions and potential repeal/modification",
+    "Medicaid Disproportionate Share Hospital (DSH) payment reductions scheduled to begin in 2025",
+    "Price transparency requirements for hospitals effective January 1, 2021",
+    "No Surprises Act provisions on surprise billing and independent dispute resolution",
+    "State rate review and indigent tax provisions",
+    "Medical malpractice tort law and potential reforms",
+    "Environmental regulations on medical waste disposal",
+    "Red Flags Rule on identity theft prevention",
+    "Patient Safety and Quality Improvement Act reporting requirements",
+    "Foreign regulations in United Kingdom including registration, licensing, employee regulation, clinical standards, data protection (UK GDPR)",
+    "Potential new tariffs on imported pharmaceutical ingredients, medical devices, and medical equipment"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in U.S. trade policies and increased trade restrictions, tariffs or taxes on imports could impact business operations",
+      "New tariffs imposed or threatened on imported products from Mexico, Canada and China in February 2025",
+      "Significant tariffs on imported pharmaceutical ingredients, medical devices, medical equipment could strain supply chains and increase costs"
+    ]
+  }
+}

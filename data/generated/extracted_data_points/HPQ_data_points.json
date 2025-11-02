@@ -1,0 +1,113 @@
+{
+  "ticker": "HPQ",
+  "company_name": "HP Inc.",
+  "company_type": "Technology",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Israel",
+      "Spain",
+      "United Kingdom",
+      "China",
+      "India",
+      "Malaysia",
+      "Singapore",
+      "South Korea",
+      "Taiwan",
+      "Brazil",
+      "Germany",
+      "Netherlands",
+      "Italy",
+      "Australia",
+      "New Zealand",
+      "France",
+      "Japan",
+      "Canada",
+      "Switzerland",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Personal Systems",
+    "Printing",
+    "Corporate Investments",
+    "Commercial PS",
+    "Consumer PS",
+    "Supplies",
+    "Commercial Printing",
+    "Consumer Printing",
+    "Office Printing Solutions",
+    "Home Printing Solutions",
+    "Graphics Solutions",
+    "3D Printing & Personalization"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Canon",
+      "Intel",
+      "AMD",
+      "NVIDIA"
+    ],
+    "manufacturing_locations": [
+      "Mexico",
+      "Israel",
+      "Spain",
+      "China",
+      "India",
+      "Malaysia",
+      "Singapore",
+      "South Korea",
+      "Taiwan"
+    ],
+    "dependencies": "Single-source suppliers for certain components including Canon for laser printer engines and toner cartridges, Intel/AMD/NVIDIA for processors. Heavy reliance on outsourced manufacturers (OMs) for product manufacturing. Geographic concentration of manufacturing in Asia, particularly Taiwan for notebooks.",
+    "risks": "Component shortages and supply chain disruptions. Dependence on single-source suppliers. Geographic concentration of suppliers and manufacturing facilities. Reliance on outsourced manufacturers. Supplier financial weaknesses. Capacity constraints. Regulatory compliance issues with suppliers. Working conditions and human rights risks in supply chain. Potential loss or deterioration of relationships with single-source suppliers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations including product composition, energy consumption, climate change laws, product repairability, reuse, recyclability and take-back legislation",
+    "Human rights, environmental and social responsibility legislation for operations, supply chain partners, and products including tracing requirements related to forced labor prohibitions",
+    "Carbon pricing and product energy efficiency requirements",
+    "Climate-related disclosure requirements from SEC, EU Corporate Sustainability Reporting Directive, EU Corporate Sustainability Due Diligence Directive, California climate change disclosure requirements",
+    "Data protection and privacy laws including GDPR in EU, evolving laws in US, China and other countries",
+    "Artificial intelligence regulations including proposed legislation in US and European Union",
+    "IP infringement claims and patent litigation",
+    "Copyright levies on IT equipment in European countries",
+    "Government contracting regulations and procurement requirements",
+    "Tax law changes including OECD BEPS Pillar Two global minimum tax framework",
+    "Trade sanctions, embargoes, import/export restrictions",
+    "Tariffs and trade restrictions between US and other countries including China",
+    "Country localization requirements",
+    "Antitrust and competition regulations",
+    "Consumer protection laws",
+    "Employment and labor laws including immigration restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Taiwan",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions and embargoes impacting production, shipping, pricing and marketing",
+      "US-China trade tensions and potential restrictions",
+      "Russia sanctions exposure",
+      "Iran sanctions impact",
+      "Compliance with US Foreign Corrupt Practices Act, US export control and trade sanction laws"
+    ]
+  }
+}

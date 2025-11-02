@@ -1,0 +1,137 @@
+{
+  "ticker": "GS",
+  "company_name": "The Goldman Sachs Group, Inc.",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "EMEA",
+      "Americas",
+      "Asia"
+    ],
+    "countries": [
+      "India",
+      "Switzerland",
+      "Hong Kong",
+      "Germany",
+      "Ethiopia",
+      "Malaysia",
+      "United Kingdom",
+      "New Zealand",
+      "Singapore",
+      "Mexico",
+      "Japan",
+      "Ukraine",
+      "Brazil",
+      "Venezuela",
+      "France",
+      "Lebanon",
+      "United States",
+      "Poland",
+      "Russia",
+      "Australia",
+      "China",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.64,
+      "EMEA": 0.23,
+      "Asia": 0.13
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Global Banking & Markets",
+    "Asset & Wealth Management",
+    "Platform Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party vendors, cloud service providers, and technology infrastructure providers for operational systems and platforms",
+    "risks": [
+      "Operational failure or disruption at third-party service providers, cyber attacks on vendors, supply chain attacks affecting software and IT service providers, concentration risk with common service providers",
+      "Third-party risk including vendor risk, information security and cybersecurity risks from third parties, business resilience risk from disruption to critical processes, increased operational risks from reliance on technology and third-party relationships"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Municipal securities regulations including political contribution rules",
+    "Supplementary Leverage Ratio (SLR) requirements",
+    "ESG disclosure requirements (CSRD, CSDDD in EU)",
+    "MiFID II and MiFIR regulations in EU and UK",
+    "Foreign Corrupt Practices Act (FCPA) and UK Bribery Act",
+    "Consumer Financial Protection Bureau (CFPB) regulations on credit card account management practices",
+    "Insider trading regulations",
+    "Liquidity Coverage Ratio (LCR) requirements",
+    "TLAC (Total Loss-Absorbing Capacity) requirements",
+    "SEC regulations on broker-dealers and investment advisers",
+    "Compensation practices oversight by FRB and other regulators",
+    "Proposed Basel III Revisions and FRTB implementation",
+    "Prompt corrective action framework for depository institutions",
+    "Net Stable Funding Ratio (NSFR) requirements",
+    "UK Financial Conduct Authority and Prudential Regulation Authority regulations",
+    "Capital requirements under Basel III and Capital Framework regulations",
+    "Compliance with Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "Securities offering and underwriting regulations",
+    "Stress Capital Buffer (SCB) requirements",
+    "NYDFS cybersecurity requirements",
+    "Climate-related financial risk management guidance",
+    "SEC and CFTC regulations for swap dealers and security-based swap dealers",
+    "Transaction and regulatory reporting requirements",
+    "Consumer Financial Protection Bureau (CFPB) oversight of consumer activities",
+    "Community Reinvestment Act (CRA) requirements",
+    "Global Systemically Important Bank (G-SIB) surcharge requirements",
+    "FDIC regulations and deposit insurance requirements",
+    "New York State Department of Financial Services regulations",
+    "Basel III capital and liquidity requirements",
+    "Volcker Rule compliance",
+    "Data privacy regulations including EU regulations",
+    "OECD Pillar II minimum tax (15% global minimum tax)",
+    "Short sale rules compliance",
+    "State-level fair access statutes and ESG-related regulations",
+    "Anti-money laundering regulations",
+    "Sanctions compliance (US, EU, UK)",
+    "Dodd-Frank Act compliance and restrictions on proprietary trading (Volcker Rule)",
+    "Federal Reserve System regulations for bank holding companies",
+    "Comprehensive Capital Analysis and Review (CCAR) stress testing",
+    "Communications recordkeeping and recording requirements",
+    "Resolution planning requirements (living wills)",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "GDPR and data privacy regulations (EU, UK, California)",
+    "Anti-money laundering (AML) and Bank Secrecy Act (BSA) compliance",
+    "CFTC regulations on swaps and derivatives",
+    "European Central Bank, BaFin and Deutsche Bundesbank regulations",
+    "Sanctions compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Venezuela",
+      "Russia",
+      "Lebanon",
+      "Iran",
+      "China",
+      "Ukraine",
+      "Ethiopia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions exposure following invasion of Ukraine",
+      "Potential large-scale sale of US Treasury securities by foreign governments",
+      "Risk of delisting or removal of securities from exchanges due to geopolitical tensions",
+      "Iran sanctions compliance",
+      "Venezuela sanctions",
+      "Sanctions compliance requirements in various jurisdictions",
+      "Potential impact of sanctions on counterparties and transactions",
+      "Russia sanctions exposure due to Ukraine conflict",
+      "Restrictions on cross-border trade, investment, or technology transfer",
+      "US-China trade tensions and potential tariffs"
+    ]
+  },
+  "revenue_by_segment": {
+    "Global Banking & Markets": 0.65,
+    "Asset & Wealth Management": 0.3,
+    "Platform Solutions": 0.05
+  }
+}

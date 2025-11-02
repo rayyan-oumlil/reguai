@@ -1,0 +1,117 @@
+{
+  "ticker": "CVS",
+  "company_name": "CVS Health Corporation",
+  "company_type": "Healthcare Services and Pharmacy Benefits",
+  "geography": {
+    "regions": [
+      "Guam",
+      "District of Columbia",
+      "Puerto Rico",
+      "United States",
+      "U.S. Virgin Islands"
+    ],
+    "countries": [
+      "Ireland",
+      "United Kingdom",
+      "Singapore",
+      "Hong Kong",
+      "Guam",
+      "Puerto Rico",
+      "United States",
+      "U.S. Virgin Islands"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Corporate/Other",
+    "Pharmacy & Consumer Wellness",
+    "Health Care Benefits",
+    "Health Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Red Oak Sourcing, LLC",
+      "Cardinal Health, Inc."
+    ],
+    "manufacturing_locations": [
+      "Outside United States"
+    ],
+    "dependencies": "Substantial amount of mail order and specialty pharmacies' prescription drug supply from a limited number of suppliers; many products manufactured outside of U.S.; certain agreements with suppliers are short-term and cancellable without cause; single source of supply for some products",
+    "risks": [
+      "Supply chain disruptions from tariffs or trade restrictions could increase costs and impact product availability",
+      "Supply shortages; loss of single source suppliers; supplier production disruptions; supplier quality issues; closing or bankruptcies of suppliers; tariffs and trade policy changes; supplier concentration; dependence on pharmaceutical manufacturers for rebates and discounts"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Telehealth licensing and regulatory requirements",
+    "Anti-corruption laws (FCPA, UK Bribery Act)",
+    "Cybersecurity regulations",
+    "State and federal PBM regulations seeking to regulate pricing, rebates, pharmacy network practices and formulary management",
+    "CMS audits and risk adjustment data validation (RADV)",
+    "Federal and state anti-kickback statutes and false claims act exposure",
+    "FDA regulation of compounding pharmacies and medical devices",
+    "CMS regulations and audits of Medicare Advantage and Part D programs including RADV audits with potential for material premium refunds",
+    "Federal False Claims Act violations and qui tam lawsuits",
+    "Pharmacy pricing legislation and MAC price regulations",
+    "Telemarketing and consumer contact regulations",
+    "PBM regulation at federal and state levels",
+    "ERISA fiduciary duties and prohibited transactions",
+    "ACO and value-based care program regulations",
+    "Medicare star ratings requirements",
+    "DEA and state controlled substances regulations",
+    "Guaranty fund assessments for insolvent insurers in all states where Company operates",
+    "Pharmacy network access legislation and any willing provider laws",
+    "State insurance department regulations requiring maintenance of statutory capital and surplus levels",
+    "Medicaid regulatory changes and state budget constraints",
+    "Medicare Advantage and Part D regulatory changes",
+    "International data protection laws (GDPR)",
+    "340B drug pricing program regulations",
+    "FTC investigations and enforcement actions regarding PBM practices including rebate arrangements and pharmacy contracting",
+    "State privacy laws (CCPA and similar)",
+    "OFAC sanctions compliance",
+    "Guaranty fund assessments",
+    "Risk adjustment program requirements and potential payment adjustments under Medicare Advantage",
+    "Corporate practice of medicine restrictions",
+    "HIPAA and state privacy laws governing use and disclosure of personal health information",
+    "State false claims acts and anti-kickback statutes",
+    "Consumer protection laws and accessibility requirements",
+    "DEA and controlled substances regulations including opioid-related litigation and enforcement",
+    "ACA minimum medical loss ratio (MLR) requirements and potential rebate obligations",
+    "Anti-money laundering regulations",
+    "State Attorney General investigations of PBM pricing, rebates, and insurance practices",
+    "HIPAA privacy and security violations",
+    "Climate change and sustainability regulations",
+    "FDA approval requirements and healthcare regulatory compliance",
+    "Anti-kickback statute (AKS) violations",
+    "Premium rate review and approval processes",
+    "DOJ investigations of PBM practices, Medicare/Medicaid billing, and controlled substances dispensing",
+    "Stark Law violations",
+    "Formulary and plan design regulation",
+    "Provider network adequacy requirements and directory accuracy regulations",
+    "ACA compliance and potential changes or repeal",
+    "Environmental and safety regulation",
+    "State insurance and HMO regulation",
+    "Minimum MLR rebate requirements",
+    "Potential suspension or exclusion from government programs due to regulatory violations",
+    "Transparency in Coverage Rule requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions based on U.S. foreign policy",
+      "Implementation of new tariffs could create exposure for increased costs and supply chain disruptions",
+      "OFAC sanctions compliance requirements"
+    ]
+  },
+  "revenue_by_segment": {
+    "Health Care Benefits": 0.35,
+    "Health Services": 0.47,
+    "Pharmacy & Consumer Wellness": 0.33,
+    "Corporate/Other": 0.001
+  }
+}

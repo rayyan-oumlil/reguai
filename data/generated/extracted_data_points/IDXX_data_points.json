@@ -1,0 +1,112 @@
+{
+  "ticker": "IDXX",
+  "company_name": "IDEXX Laboratories, Inc.",
+  "company_type": "Veterinary Diagnostics and Healthcare Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America and Caribbean",
+      "Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Spain",
+      "Italy",
+      "Switzerland",
+      "Netherlands",
+      "Australia",
+      "Japan",
+      "China",
+      "New Zealand",
+      "South Africa",
+      "South Korea",
+      "Turkey",
+      "United Arab Emirates",
+      "India",
+      "Korea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Companion Animal Group (CAG)",
+    "Water",
+    "Livestock, Poultry and Dairy (LPD)",
+    "Other (OPTI Medical)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Ortho-Clinical Diagnostics, Inc."
+    ],
+    "manufacturing_locations": [
+      "United States (Maine - Westbrook, Scarborough)",
+      "United States (Georgia - Roswell)",
+      "United States (Tennessee - Memphis)",
+      "Netherlands",
+      "Switzerland (Bern)",
+      "France (Montpellier)",
+      "United Kingdom"
+    ],
+    "dependencies": "Sole and single-source suppliers for certain instruments, components, raw materials and consumables. Certain Catalyst chemistry slides supplied exclusively by Ortho-Clinical Diagnostics under agreements through 2044. Many products purchased from sole or single-source suppliers are proprietary or complex and cannot be readily replaced.",
+    "risks": "Supply chain disruptions, sole/single-source supplier dependencies, inability to obtain adequate quantities from suppliers, potential loss of supply agreements, inflationary pressures on costs, logistics challenges, extended shipping periods and delays, product and component availability issues, tariffs and duties on imported goods",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on veterinary medical devices and human point-of-care products",
+    "USDA APHIS licensing requirements for veterinary diagnostic products",
+    "EPA approval requirements for water testing products",
+    "EU Medical Device Regulation and In Vitro Diagnostic Medical Devices Regulation",
+    "EU REACH chemical substance restrictions",
+    "EU RoHS Directive on hazardous substances",
+    "EU Biocidal Products Regulation",
+    "EU WEEE Directive",
+    "EU Electromagnetic Compatibility Directive",
+    "EU GDPR data privacy regulations",
+    "California Proposition 65 chemical exposure warnings",
+    "PFAS regulations and phase-out requirements (Maine, EPA, EU)",
+    "EU Artificial Intelligence Act",
+    "Country-specific product registration and approval requirements (Japan, Germany, Canada, Brazil, Netherlands, China)",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Import/export control and sanctions laws",
+    "Anti-competition regulations (FTC)",
+    "State consumer privacy laws (California CPRA)",
+    "China Personal Information Protection Law",
+    "Brazilian General Data Protection Law",
+    "South African Protection of Personal Information Act",
+    "Japanese Act on the Protection of Personal Information",
+    "New Zealand Privacy Act",
+    "Australian Privacy and Other Legislation Amendment Bill",
+    "India Digital Personal Data Protection Act",
+    "EU Corporate Sustainability Reporting Directive",
+    "EU Corporate Sustainability Due Diligence Directive",
+    "California Climate Corporate Data Accountability Act",
+    "California Climate-Related Financial Risk Act",
+    "OECD Pillar Two Global Minimum Tax",
+    "Tax Cuts and Jobs Act provisions effective 2026"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International conflicts and tensions may result in uncertainty, volatility in exchange rates, tariffs, and inflationary trends",
+      "Trade protection measures, quotas, embargoes, import/export restrictions on key components",
+      "Geopolitical crises including terrorism, war, armed conflict, or civil or military unrest",
+      "Increased border protection and restriction on travel",
+      "Capital controls in certain jurisdictions",
+      "Currency control restrictions limiting fund transfers (approximately USD $1.0 million in restricted cash as of December 31, 2024)"
+    ]
+  }
+}

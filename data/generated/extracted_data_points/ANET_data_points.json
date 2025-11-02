@@ -1,0 +1,118 @@
+{
+  "ticker": "ANET",
+  "company_name": "Arista Networks, Inc.",
+  "company_type": "Technology - Data Center and Cloud Networking",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Ireland",
+      "Australia",
+      "India",
+      "United Kingdom",
+      "Netherlands",
+      "Singapore",
+      "Malaysia",
+      "Vietnam",
+      "China",
+      "Taiwan",
+      "Japan",
+      "Russia",
+      "Israel",
+      "Colombia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Core (Data Center, Cloud and AI Networking)",
+    "Cognitive Adjacencies (Campus and Routing)",
+    "Cognitive Network (Software and Services)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Broadcom",
+      "Jabil Inc.",
+      "Sanmina Corporation",
+      "Flex Ltd.",
+      "Foxconn Hon Hai"
+    ],
+    "manufacturing_locations": [
+      "Malaysia",
+      "Vietnam",
+      "Mexico",
+      "China"
+    ],
+    "dependencies": "Primarily reliant upon predominant merchant silicon vendor Broadcom for switching chips. Single-source and limited-source suppliers for key components including integrated circuits and power supplies. No guaranteed supply contracts with component suppliers.",
+    "risks": "Supply chain shortages and extended lead times. Sole-source dependency on Broadcom for merchant silicon. Manufacturing concentrated in Malaysia, Vietnam, Mexico. Geopolitical risks affecting manufacturers and suppliers including US-China trade tensions, tariffs, Russia-Ukraine conflict, Israel-Hamas conflict, Houthi attacks on Red Sea shipping. China controls on certain metals used in semiconductor manufacturing (gallium, germanium, tungsten, tellurium, bismuth, molybdenum, indium). Supplier consolidation risks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "US export and import controls restricting sales to China and other countries",
+    "Enhanced US tax, tariff, and import/export restrictions",
+    "US government tariffs on goods from China, Mexico, Canada (25% tariffs scheduled on Mexican products, additional 10% on Chinese products)",
+    "Retaliatory tariffs from China, Mexico, Canada on US goods",
+    "US Foreign Corrupt Practices Act compliance",
+    "Anti-bribery and anti-corruption laws",
+    "Anti-money laundering laws",
+    "GDPR compliance in European Union",
+    "UK data protection legislation",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "State privacy laws in Connecticut, Virginia, Colorado, Utah, Florida, Montana, Oregon, Texas, Delaware, Tennessee, Iowa, Maryland, Minnesota, New Hampshire, Nebraska, New Jersey, Indiana, Rhode Island, Kentucky",
+    "India Digital Personal Data Protection Act 2023",
+    "Uyghur Forced Labor Prevention Act (UFLPA)",
+    "US government restrictions on semiconductors and semiconductor manufacturing equipment to China",
+    "US government entity list restrictions",
+    "China export controls on critical metals (gallium, germanium, tungsten, tellurium, bismuth, molybdenum, indium)",
+    "China restrictions on use of Micron products",
+    "Federal Communications Commission regulations",
+    "International Telecommunication Union standards",
+    "AI regulatory requirements in UK, EU, and Asia-Pacific countries",
+    "European Union Artificial Intelligence Act",
+    "US state AI legislation",
+    "Climate change and environmental regulations",
+    "Product safety and certification requirements",
+    "Government procurement regulations requiring domestic manufacturing or domestic origin components",
+    "Cybersecurity regulations",
+    "Net neutrality regulations",
+    "Telecommunications regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran",
+      "Belarus",
+      "Taiwan",
+      "Mexico",
+      "Canada"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US sanctions against Russia following Ukraine invasion",
+      "Economic sanctions against Russia and Belarus",
+      "US export controls on China for semiconductors and AI technology",
+      "Potential sanctions on China if Taiwan-China relations deteriorate",
+      "Iran sanctions",
+      "US tariffs on Chinese goods (existing tariffs of 7.5%, 10%, 15%, 25%, plus additional 10% imposed February 2025)",
+      "US tariffs on Mexican goods (25% scheduled, temporarily deferred)",
+      "US tariffs on Canadian goods (temporarily deferred)",
+      "Retaliatory Chinese tariffs and export controls on critical metals",
+      "Retaliatory Mexican and Canadian tariffs",
+      "Potential extreme tariff escalation if affected countries implement retaliatory measures",
+      "Restrictions on sales to entities on US restricted party lists",
+      "Worldwide licensing requirements for certain integrated circuits used in AI model training",
+      "China unreliable entity list potentially limiting business with Chinese customers"
+    ]
+  }
+}

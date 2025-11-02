@@ -1,0 +1,98 @@
+{
+  "ticker": "HII",
+  "company_name": "Huntington Ingalls Industries, Inc.",
+  "company_type": "Defense & Aerospace - Naval Shipbuilding",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Virginia": 0.8,
+      "Mississippi": 0.07,
+      "Other": 0.13
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Ingalls Shipbuilding",
+    "Newport News Shipbuilding",
+    "Mission Technologies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Mississippi",
+      "Virginia",
+      "South Carolina"
+    ],
+    "dependencies": [
+      "Required to procure certain materials and component parts from supply sources approved by the U.S. Government",
+      "Only one supplier may exist for certain components and parts required to manufacture products",
+      "Reliance on third parties to provide raw materials, major components and sub-systems"
+    ],
+    "risks": [
+      "Disruptions and performance issues from suppliers and subcontractors",
+      "Unanticipated cost growth for products and services from suppliers",
+      "Global supply chain experiencing high levels of disruption causing materials and parts shortages",
+      "Delivery delays, labor shortages, and price increases",
+      "Raw material shortages including steel, microelectronics and commodity shortages",
+      "Supplier challenges impacting ability to provide agreed-upon goods and services in timely, compliant, and cost-effective manner"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Subject to Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS)",
+    "Truth in Negotiations Act compliance",
+    "Procurement Integrity Act requirements",
+    "False Claims Act exposure",
+    "U.S. Cost Accounting Standards (CAS) compliance",
+    "International Traffic in Arms Regulations under Arms Export Control Act",
+    "Close the Contractor Fraud Loophole Act",
+    "Foreign Corrupt Practices Act",
+    "Evolving cyber security and data privacy and protection laws and regulations",
+    "Environmental laws and regulations (Clean Air Act, Clean Water Act, EPA regulations)",
+    "Nuclear operations subject to U.S. Navy, Department of Energy, and U.S. Nuclear Regulatory Commission safety requirements",
+    "Federal and state workers' compensation laws",
+    "ERISA and Pension Protection Act of 2006 funding requirements",
+    "Potential suspension or debarment from government contracts",
+    "Changes in DoD business practices and procurement processes",
+    "New or revised security and safety requirements for nuclear operations",
+    "Climate change and environmental regulations including greenhouse gas emissions, carbon pricing, energy taxes",
+    "Mandatory disclosure obligations related to cybersecurity events",
+    "Changes in tax laws and regulations",
+    "Import-export and technology transfer laws",
+    "Anti-corruption laws",
+    "Anti-boycott laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Military conflicts between Russia and Ukraine resulting in sanctions",
+      "Increased security assistance to Ukraine and Israel impacting defense budgetary priorities",
+      "Tensions with China affecting global market for defense products",
+      "Changes in international trade policies",
+      "Heightened cyber and security risks from global conflicts"
+    ]
+  },
+  "revenue_by_segment": {
+    "Ingalls": 0.24,
+    "Newport News": 0.52,
+    "Mission Technologies": 0.25,
+    "Intersegment Eliminations": -0.01
+  }
+}

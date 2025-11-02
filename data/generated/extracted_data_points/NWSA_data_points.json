@@ -1,0 +1,86 @@
+{
+  "ticker": "NWSA",
+  "company_name": "News Corporation",
+  "company_type": "Media and Information Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Canada",
+      "Germany",
+      "India",
+      "Hong Kong",
+      "Ireland",
+      "Scotland",
+      "England",
+      "New Zealand",
+      "Papua New Guinea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Dow Jones",
+    "Digital Real Estate Services",
+    "Book Publishing",
+    "News Media"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services",
+      "Google"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "Australia"
+    ],
+    "dependencies": "The Company relies on Amazon Web Services for cloud-based services and Google for workspace and enterprise services. The Company depends on third-party suppliers for paper deliveries and third-party printing and distribution partners. Single or limited number of suppliers for certain products, services, data and information.",
+    "risks": "Supply chain disruptions including labor shortages, higher transportation costs, financial pressures on suppliers, industry consolidation, closure or conversion of newsprint mills, natural disasters, extreme weather, pandemics, tariffs or trade policy changes. Issues affecting suppliers including cybersecurity incidents, data center outages, insufficient capacity. Termination of key supplier agreements with short notice. Concentration risk with limited suppliers for critical services.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU Benchmarks Regulation (EU BMR) compliance for OPIS price assessments",
+    "Data privacy regulations including GDPR (EU), UK GDPR, California Consumer Privacy Act (CCPA), state data privacy laws",
+    "Children's Online Privacy Protection Act (COPPA)",
+    "California Age Appropriate Design Code (CAADC)",
+    "New York Child Data Protection Act",
+    "U.S. Department of Justice data regulations on sensitive personal data transfers to countries of concern",
+    "UK Data (Use and Access) Act 2025",
+    "Australia Privacy Act 1988 and Australian Privacy Principles",
+    "UK Press Recognition Panel and IPSO regulation",
+    "UK Digital Markets, Competition and Consumers Act 2024 restricting foreign ownership of UK newspapers",
+    "UK Communications Act 2003 and Broadcasting Code for radio stations",
+    "Ofcom regulation for radio broadcasting and on-demand services",
+    "Antitrust and competition law compliance",
+    "Foreign Corrupt Practices Act and UK Bribery Act",
+    "Trade restrictions and economic sanctions",
+    "AI regulation (evolving and unsettled)",
+    "ESG reporting requirements and conflicting ESG legislation",
+    "Tax law changes including OECD Pillar 2 global minimum tax",
+    "Digital services taxes in various jurisdictions",
+    "Intellectual property laws and enforcement challenges with generative AI",
+    "EU Deforestation Regulation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with economic sanctions and trade restrictions",
+      "U.S. sanctions on countries of concern affecting data transfers",
+      "Restrictions on access to sensitive personal data and U.S. government data by countries of concern"
+    ]
+  }
+}

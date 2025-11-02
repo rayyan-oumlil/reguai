@@ -1,0 +1,130 @@
+{
+  "ticker": "JNJ",
+  "company_name": "Johnson & Johnson",
+  "company_type": "Healthcare",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Western Hemisphere excluding U.S.",
+      "Asia-Pacific",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Argentina",
+      "Turkey",
+      "Venezuela",
+      "Egypt",
+      "Russia",
+      "Ukraine",
+      "China",
+      "United Kingdom",
+      "Ireland",
+      "India",
+      "Italy",
+      "Netherlands",
+      "Israel",
+      "Australia",
+      "Canada",
+      "South Africa",
+      "Japan",
+      "Brazil",
+      "Mexico",
+      "Switzerland",
+      "Belgium",
+      "Germany",
+      "France",
+      "Spain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.566,
+      "Europe": 0.228,
+      "Western Hemisphere excluding U.S.": 0.053,
+      "Asia-Pacific, Africa": 0.153
+    },
+    "assets_by_region": {
+      "United States": 0.698,
+      "Europe": 0.269,
+      "Western Hemisphere excluding U.S.": 0.017,
+      "Asia-Pacific, Africa": 0.014
+    }
+  },
+  "segments": [
+    "Innovative Medicine",
+    "MedTech",
+    "Immunology",
+    "Infectious Diseases",
+    "Neuroscience",
+    "Oncology",
+    "Pulmonary Hypertension",
+    "Cardiovascular and Metabolism",
+    "Orthopaedics",
+    "Surgery",
+    "Cardiovascular",
+    "Vision"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Western Hemisphere excluding U.S.",
+      "Africa",
+      "Asia",
+      "Pacific"
+    ],
+    "dependencies": "The Company relies on global supply chains and production and distribution processes that are complex and subject to increasing regulatory requirements. Raw materials essential to the Company's business are generally readily available from multiple sources.",
+    "risks": "Interruptions and delays in manufacturing operations could adversely affect the Company's business, sales and reputation. Manufacturing disruptions can occur for many reasons including regulatory action, production quality deviations or safety issues, labor disputes, labor shortages, site-specific incidents (such as fires), natural disasters such as hurricanes and other severe weather events, raw material shortages, lack of available inspectors, political unrest, terrorist attacks and epidemics or pandemics. The Company relies on third parties to manufacture and supply certain of our products. Any failure by or loss of a third-party manufacturer or supplier could result in delays and increased costs.",
+    "supplier_concentration": {
+      "Wholesaler 1": 0.205,
+      "Wholesaler 2": 0.156,
+      "Wholesaler 3": 0.123
+    }
+  },
+  "regulatory_risks": [
+    "Regulation by national, state and local government agencies in the United States and other countries",
+    "U.S. Food and Drug Administration (FDA) regulation of pharmaceutical products and medical technology",
+    "Medical device regulatory framework and evolving privacy, data localization, and emerging cyber security laws and regulations",
+    "EU directives and laws (including NIS2, EHDS, Data Act, Cyber Resilience Act, AI Act)",
+    "China personal information protection and data security regulations",
+    "Inflation Reduction Act (IRA) Medicare Drug Price Negotiation Program",
+    "340B Federal Drug Discount Program",
+    "Healthcare cost containment and government legislation relating to sales, promotions, pricing and reimbursement",
+    "Foreign Corrupt Practices Act (FCPA) and U.K. Bribery Act 2010",
+    "Pillar Two global minimum tax (15% minimum effective tax rate)",
+    "Tax law changes and increased audit scrutiny by tax authorities",
+    "Environmental laws and regulations (Comprehensive Environmental Response, Compensation, and Liability Act)",
+    "Product liability and safety regulations",
+    "Anti-kickback and False Claims Act compliance",
+    "Patent and intellectual property challenges",
+    "Trade restrictions, tariffs, and export/import regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Argentina",
+      "Venezuela",
+      "Turkey",
+      "Egypt"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine war sanctions and export controls",
+      "Potential limitations on filing, prosecuting and maintaining patents in Russia",
+      "Risk that Russian entities may exploit Company inventions without consent or compensation",
+      "Rising conflict in the Middle East",
+      "Increasing tensions between U.S. and China",
+      "U.S. government tariffs on products manufactured in China, Mexico and Canada",
+      "Potential reciprocal tariffs or restrictive trade measures from affected countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Innovative Medicine": 0.641,
+    "MedTech": 0.359
+  }
+}

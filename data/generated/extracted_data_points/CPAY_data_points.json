@@ -1,0 +1,102 @@
+{
+  "ticker": "CPAY",
+  "company_name": "Corpay, Inc.",
+  "company_type": "Corporate Payments and Business Expense Management",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe",
+      "United Kingdom",
+      "Asia",
+      "Africa",
+      "Australia",
+      "New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Denmark",
+      "Ireland",
+      "Portugal",
+      "Austria",
+      "Switzerland",
+      "Norway",
+      "Sweden",
+      "Finland",
+      "Czech Republic",
+      "Hungary",
+      "Netherlands",
+      "Australia",
+      "New Zealand",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Vehicle Payments",
+    "Corporate Payments",
+    "Lodging Payments",
+    "Gift",
+    "Payroll Card"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Relationships with major oil companies and petroleum marketers for fuel card acceptance",
+      "Partnerships with Mastercard and VISA for third-party payment network processing",
+      "Sponsor banks for Mastercard program registration and card issuance",
+      "Third-party service providers for technology and network systems",
+      "Financial institution counterparties for cross-border derivative contracts"
+    ],
+    "risks": [
+      "Dependence on relationships with oil companies, fuel merchants, truck stop operators, airlines, and sales channels",
+      "Risk of partner bankruptcy or financial distress affecting solution acceptability",
+      "Reliance on sponsor banks which could terminate sponsorship or impose less favorable terms",
+      "Mastercard could suspend or terminate registration for non-compliance",
+      "Third-party service providers may fail to safeguard cardholder data",
+      "Counterparty risk in derivative financial instruments for cross-border payments"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Money transmission and payment instrument licensing regulations across multiple U.S. states",
+    "Federal Trade Commission (FTC) lawsuit alleging unfair and deceptive acts and practices",
+    "Compliance with Payment Card Industry Data Security Standard (PCI DSS)",
+    "Anti-Money Laundering (AML) and Counter Terrorist Financing regulations (BSA, USA PATRIOT Act, OFAC sanctions)",
+    "Privacy and information security laws (GDPR, CCPA, state data breach notification laws)",
+    "Email and text marketing regulations (TCPA, CAN-SPAM Act)",
+    "Consumer Financial Protection Bureau (CFPB) supervision and examination",
+    "Dodd-Frank Act derivatives regulations and margin requirements",
+    "Foreign Corrupt Practices Act (FCPA) and U.K. Bribery Act compliance",
+    "Interchange fee regulations and potential future reductions",
+    "State usury laws limiting interest rates on commercial loans",
+    "Escheat laws requiring turnover of unclaimed property",
+    "OECD Pillar Two global minimum tax rules (15% rate) being implemented in EU and other jurisdictions",
+    "Potential new legislation or regulation on business customers similar to consumer protection laws",
+    "Changes in tax laws across global jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions programs administered by OFAC prohibiting transactions with specified countries and nationals",
+      "Risk of retaliatory cyber-attacks from nation-state actors due to military and geopolitical conflicts (Russia-Ukraine, Middle East)",
+      "Potential supply chain disruptions from geopolitical events",
+      "Trade policy changes including tariffs that could increase costs or restrict business operations",
+      "Sanctions compliance requirements across multiple jurisdictions"
+    ]
+  }
+}

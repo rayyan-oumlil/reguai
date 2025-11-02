@@ -1,0 +1,117 @@
+{
+  "ticker": "FDS",
+  "company_name": "FactSet Research Systems Inc.",
+  "company_type": "Financial Information Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Canada",
+      "Bulgaria",
+      "England",
+      "France",
+      "Germany",
+      "Italy",
+      "Ireland",
+      "Latvia",
+      "Luxembourg",
+      "Netherlands",
+      "Sweden",
+      "United Arab Emirates",
+      "Australia",
+      "China",
+      "Hong Kong SAR",
+      "India",
+      "Japan",
+      "Philippines",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.644,
+      "EMEA": 0.256,
+      "Asia Pacific": 0.1
+    },
+    "assets_by_region": {
+      "Americas": 0.784,
+      "EMEA": 0.148,
+      "Asia Pacific": 0.068
+    }
+  },
+  "segments": [
+    "Institutional Buyside",
+    "Dealmakers",
+    "Wealth",
+    "Partnerships and CGS"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Supplier Two",
+      "Supplier One"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Two data suppliers each representing more than 10% of total data costs",
+      "One cloud computing supplier provided majority of cloud computing support",
+      "Certain data sets have limited number of suppliers"
+    ],
+    "risks": [
+      "Concentration risk with data suppliers",
+      "Dependency on cloud service providers",
+      "Limited alternative sources for certain data sets",
+      "Failure to renew or comply with third-party content agreements",
+      "Increased accessibility to free or inexpensive information sources"
+    ],
+    "supplier_concentration": {
+      "Supplier One": 0.1,
+      "Supplier Two": 0.1
+    }
+  },
+  "regulatory_risks": [
+    "European Union General Data Protection Regulation (GDPR)",
+    "UK data privacy laws including Financial Services and Markets Bill",
+    "California Consumer Privacy Act",
+    "Connecticut Personal Data Privacy and Online Monitoring Act",
+    "China Personal Information Protection Law",
+    "India Digital Personal Data Protection Act",
+    "Markets in Financial Instruments Directive (MiFID II) in EU and UK",
+    "Brexit regulatory uncertainty",
+    "Evolving AI regulations",
+    "Climate-related disclosure requirements",
+    "Cybersecurity regulations",
+    "Financial Industry Regulatory Authority (FINRA) requirements",
+    "SEC reporting and disclosure obligations",
+    "Rule 15c3-1 net capital requirements",
+    "Tax law changes in multiple jurisdictions",
+    "Sales tax compliance (Massachusetts sales tax dispute)",
+    "Income tax audits by federal, state and foreign authorities",
+    "Inflation Reduction Act excise tax on stock repurchases",
+    "OECD Base Erosion and Profit Shifting Pillar Two (15% global minimum tax)",
+    "Corporate Alternative Minimum Tax (CAMT)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade sanctions and restraints",
+      "Currency controls",
+      "Civil disturbances or catastrophic events reducing business activity",
+      "Risk that conflicts between Ukraine and Russia and in Middle East expand impacting business operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Americas": 0.644,
+    "EMEA": 0.256,
+    "Asia Pacific": 0.1
+  }
+}

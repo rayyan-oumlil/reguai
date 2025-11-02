@@ -1,0 +1,126 @@
+{
+  "ticker": "CVX",
+  "company_name": "Chevron Corporation",
+  "company_type": "Integrated Energy and Chemicals",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe",
+      "Africa",
+      "Asia",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Angola",
+      "Argentina",
+      "Australia",
+      "Bangladesh",
+      "Brazil",
+      "Canada",
+      "China",
+      "Cyprus",
+      "Egypt",
+      "Equatorial Guinea",
+      "Israel",
+      "Kazakhstan",
+      "Mexico",
+      "Nigeria",
+      "Partitioned Zone between Saudi Arabia and Kuwait",
+      "Philippines",
+      "Singapore",
+      "South Korea",
+      "Thailand",
+      "United Kingdom",
+      "Venezuela",
+      "Colombia",
+      "Suriname",
+      "Uruguay",
+      "Cameroon",
+      "Namibia",
+      "Republic of Congo",
+      "Democratic Republic of Congo",
+      "Indonesia",
+      "Russia",
+      "Myanmar"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.074,
+      "International": 0.166
+    },
+    "assets_by_region": {
+      "United States": 0.403,
+      "International": 0.579
+    }
+  },
+  "segments": [
+    "Upstream",
+    "Downstream"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Singapore",
+      "South Korea",
+      "Thailand",
+      "Angola",
+      "Nigeria",
+      "Kazakhstan",
+      "Australia"
+    ],
+    "dependencies": "Caspian Pipeline Consortium provides critical export route for Tengiz field production in Kazakhstan. Angola LNG plant supplied with associated gas from multiple fields and operators. Reliance on major international oil export pipelines for crude oil transportation.",
+    "risks": "Supply chain constraints and escalation of cost of goods and services. Long lead times for key capital equipment. Availability of offshore and specialized equipment under pressure. Potential disruptions from geopolitical events, civil unrest, severe weather, cyber threats. Concentration risk in CPC pipeline for Kazakhstan exports.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "International agreements and national, regional, and state legislation and regulation related to greenhouse gas emissions and climate change",
+    "Paris Agreement implementation and country-specific policies",
+    "California's Cap-and-Trade Program and Low Carbon Fuel Standard",
+    "California Air Resources Board Advanced Clean Cars II regulations",
+    "U.S. Inflation Reduction Act incentives and impacts",
+    "Renewable Fuel Standard program in the U.S.",
+    "Hydraulic fracturing regulations and bans on drilling",
+    "Environmental regulations including U.S. federal Superfund sites and state laws",
+    "Pillar Two global minimum tax (15 percent) enacted in various jurisdictions",
+    "Windfall profit taxes in California, Australia and other jurisdictions",
+    "Changes in tax laws and regulations around the world",
+    "Sanctions and trade laws (Venezuela, Russia)",
+    "OPEC+ production quotas and constraints",
+    "Government mandated sales, divestitures, recapitalizations, taxes and tax audits, tariffs",
+    "Permit requirements and restrictions on scope of company operations",
+    "Income tax examinations and audits in multiple jurisdictions",
+    "Environmental laws including Resource Conservation and Recovery Act",
+    "Louisiana's State and Local Coastal Resources Management Act (SLCRMA)",
+    "Climate change-related litigation and governmental investigations",
+    "Methane-specific regulations including U.S. EPA Standards of Performance",
+    "Decommissioning obligations and regulatory requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Venezuela",
+      "Russia",
+      "Kazakhstan",
+      "Nigeria",
+      "Israel",
+      "Myanmar",
+      "Bangladesh",
+      "Angola",
+      "Republic of Congo"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions on Venezuela - operating under General License 41 with limitations",
+      "Sanctions imposed on Russia - potential impact on CPC pipeline operations and Kazakhstan exports",
+      "Risk of additional sanctions and trade restrictions affecting ability to produce, transport and export crude",
+      "Compliance with sanctions and trade laws of U.S. and other jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Upstream": 0.26,
+    "Downstream": 0.74
+  }
+}

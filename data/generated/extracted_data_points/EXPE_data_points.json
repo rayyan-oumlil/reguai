@@ -1,0 +1,138 @@
+{
+  "ticker": "EXPE",
+  "company_name": "Expedia Group, Inc.",
+  "company_type": "Online Travel Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia-Pacific",
+      "Latin America",
+      "Australia",
+      "Canada",
+      "United Kingdom",
+      "China",
+      "Japan",
+      "Brazil",
+      "South Korea",
+      "India"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "Australia",
+      "China",
+      "Japan",
+      "Brazil",
+      "South Korea",
+      "India",
+      "France",
+      "Austria",
+      "Italy",
+      "Belgium",
+      "Portugal",
+      "Switzerland",
+      "Israel",
+      "Hong Kong",
+      "New Zealand",
+      "South Africa",
+      "European Union member states",
+      "Eastern European regions",
+      "Latin American countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "B2C",
+    "B2B",
+    "trivago",
+    "Brand Expedia",
+    "Hotels.com",
+    "Vrbo",
+    "Orbitz",
+    "Travelocity",
+    "ebookers",
+    "Wotif Group",
+    "CheapTickets",
+    "Hotwire.com",
+    "CarRentals.com"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Lodging properties (hotels and alternative accommodations)",
+      "Airlines",
+      "Car rental companies",
+      "Cruise lines",
+      "Activities and experiences providers",
+      "Global Distribution Systems (GDS) - Amadeus",
+      "Global Distribution Systems (GDS) - Sabre",
+      "Payment processors (credit card processors)",
+      "Amazon Web Services (AWS)",
+      "Third-party service providers for customer support and booking fulfillment"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on relationships with travel suppliers (hotels, airlines, car rental companies)",
+      "Dependence on third-party technology providers including AWS for cloud infrastructure",
+      "Dependence on Global Distribution Systems (GDS) partners for air business",
+      "Dependence on payment processors for credit/debit card transactions",
+      "Reliance on third-party service providers for customer-facing and internal services"
+    ],
+    "risks": [
+      "Travel suppliers may reduce compensation, limit access to inventory, or restrict competitive rates",
+      "Supplier consolidation (airline and hotel chain mergers) may reduce negotiating power",
+      "Suppliers increasingly driving direct bookings through their own websites with better rates and loyalty programs",
+      "Payment processors may impose holdbacks or suspend services upon material adverse changes",
+      "Payment card networks may increase interchange fees",
+      "AWS infrastructure failures could adversely affect platform availability",
+      "Third-party service provider failures could disrupt operations",
+      "Counterparty risk with financial institutions holding deposits and processing payments",
+      "Fraud risks from suppliers and travelers",
+      "Credit risk with B2B and Vrbo partners"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Alternative accommodation regulations: licensing requirements, property registration, data provision, short-term rental restrictions",
+    "Travel industry regulations: seller of travel registration, disclosure requirements, state restitution funds",
+    "U.S. Department of Transportation regulations for air transportation (advertising, accessibility)",
+    "European Union Package Travel Directive imposing liability for package travel performance",
+    "Digital Services Act (EU) imposing information gathering and reporting requirements",
+    "DAC7 (EU) requiring supplier-related information display and reporting",
+    "Data protection and privacy laws: GDPR (EU), CCPA/CPRA (California), 19 other U.S. states with similar laws",
+    "Consumer protection laws and regulations globally",
+    "Competition and antitrust laws (investigations by National Competition Authorities in Europe and other jurisdictions)",
+    "Economic and trade sanction programs (OFAC, DOJ, SEC enforcement)",
+    "Anti-corruption and anti-money laundering laws",
+    "Tax regulations: occupancy taxes, VAT, sales taxes, digital services taxes, transient taxes",
+    "Payment services regulations including enhanced authentication (SCA) and PCI DSS compliance",
+    "Pricing display requirements (FTC, California, Minnesota, Congress considering all-in pricing)",
+    "City center access restrictions and accommodation supply limitations",
+    "Climate-related disclosure requirements (emerging SEC and other regulations)",
+    "OECD Pillar Two global minimum tax (15% rate) enacted in certain jurisdictions",
+    "Foreign data localization laws",
+    "AI regulation (proposed legislation in jurisdictions where company operates)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions and trade regulations enforcement by OFAC, DOJ, and foreign regulatory authorities",
+      "Compliance with evolving economic sanctions programs",
+      "Potential violations leading to monetary damages, civil and criminal penalties",
+      "Trade disputes impacting cross-border travel",
+      "Geopolitical conflicts (war in Ukraine, Israel-Hamas war) affecting travel demand and operations"
+    ]
+  }
+}

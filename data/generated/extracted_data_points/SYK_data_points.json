@@ -1,0 +1,119 @@
+{
+  "ticker": "SYK",
+  "company_name": "Stryker Corporation",
+  "company_type": "Medical Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe, Middle East, Africa",
+      "Asia Pacific",
+      "Other foreign countries (Canada and Latin America)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "France",
+      "Germany",
+      "Ireland",
+      "Mexico",
+      "Netherlands",
+      "Poland",
+      "Switzerland",
+      "Turkey",
+      "United Kingdom",
+      "Costa Rica",
+      "India",
+      "Israel",
+      "Australia",
+      "Japan",
+      "New Zealand",
+      "South Korea",
+      "Taiwan",
+      "Ukraine",
+      "Russia",
+      "Iran",
+      "Middle East countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "MedSurg and Neurotechnology",
+    "Orthopaedics",
+    "Instruments",
+    "Endoscopy",
+    "Medical",
+    "Neurovascular",
+    "Neuro Cranial",
+    "Knees",
+    "Hips",
+    "Trauma and Extremities",
+    "Spinal Implants",
+    "Other Orthopaedics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (Arizona, California, Florida, Illinois, Indiana, Michigan, Minnesota, New Jersey, Puerto Rico, Tennessee, Texas, Utah, Virginia, Washington)",
+      "China",
+      "France",
+      "Germany",
+      "Ireland",
+      "Mexico",
+      "Netherlands",
+      "Poland",
+      "Switzerland",
+      "Turkey",
+      "Canada",
+      "Costa Rica",
+      "India",
+      "Israel",
+      "United Kingdom"
+    ],
+    "dependencies": "Certain raw materials, components and finished devices are procured from sole source suppliers due to quality considerations, unique intellectual property considerations or constraints associated with regulatory requirements",
+    "risks": "Supply chain disruptions, inflationary pressures, labor shortages, electronic components shortage, sole-source supplier dependencies, sterilization service provider dependencies, inability to meet demand due to supply chain challenges",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations and Medical Device Amendments requirements for product design, manufacture and marketing",
+    "European Union Medical Device Regulation (MDR) with staggered phase-in through December 2028",
+    "State licensing requirements for business operations and products",
+    "Quality System regulations and FDA inspections",
+    "China volume-based procurement process designed to decrease medical device prices",
+    "Healthcare cost containment measures and price regulation globally",
+    "Coverage and reimbursement policy changes from third-party payors",
+    "Foreign Corrupt Practices Act (FCPA) compliance and enforcement",
+    "Healthcare fraud and abuse laws (anti-kickback, anti-bribery)",
+    "Privacy and data security regulations (HIPAA, GDPR, state privacy laws)",
+    "Product liability regulations and European Product Liability Directive revisions",
+    "European Representative Actions Directive (Collective Redress Directive) enabling class actions",
+    "Environmental laws and per- and polyfluoroalkyl substances (PFAS) regulations",
+    "Antitrust and competition laws affecting acquisitions",
+    "Tax law changes including OECD Pillar Two global minimum tax (15%)",
+    "Medical device reporting regulations in multiple jurisdictions",
+    "Import/export requirements and trade protection measures",
+    "Localization and protectionism policies in certain jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "FCPA investigations in certain foreign countries",
+      "Contact by SEC, US Department of Justice and other regulatory authorities regarding foreign business activities",
+      "Russian Federal Security Service (FSB) sanctions and General License requirements for product imports to Russia",
+      "Geopolitical tensions between China and Taiwan",
+      "Wars in Ukraine and Middle East affecting operations",
+      "International trade disputes and sanctions compliance",
+      "Tariffs and trade protection measures"
+    ]
+  }
+}

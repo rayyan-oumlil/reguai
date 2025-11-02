@@ -1,0 +1,69 @@
+{
+  "ticker": "DHI",
+  "company_name": "D.R. Horton, Inc.",
+  "company_type": "Homebuilding",
+  "geography": {
+    "regions": [
+      "Northwest",
+      "Southwest",
+      "South Central",
+      "Southeast",
+      "East",
+      "North"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Northwest": 0.075,
+      "Southwest": 0.134,
+      "South Central": 0.208,
+      "Southeast": 0.241,
+      "East": 0.165,
+      "North": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Homebuilding",
+    "Rental",
+    "Forestar",
+    "Financial Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States - 125 markets across 36 states"
+    ],
+    "dependencies": "Substantially all land development and home construction work is performed by subcontractors. Company relies on subcontractors for construction materials and labor. Subcontractors typically provide indemnity and certificates of insurance.",
+    "risks": "Shortages of qualified subcontractors, reliance on local subcontractors and land developers who may be inadequately capitalized, shortages of materials, significant increases in cost of materials particularly lumber, drywall and cement, tariffs and trade restrictions on imported materials including steel, aluminum and lumber",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive and complex federal, state and local regulations affecting land development and home construction including zoning, density restrictions, building design and building standards",
+    "Environmental laws and regulations concerning protection of health, safety and environment - vary by location and prior uses of building sites",
+    "Climate-related disclosure requirements - SEC rules adopted March 2024 currently under judicial review and stayed",
+    "California climate-related disclosure legislation enacted",
+    "Minimum Energy Standards adopted by U.S. Department of Housing and Urban Development and USDA",
+    "Extensive state and federal laws and regulations for financial services operations administered by Consumer Financial Protection Bureau, Federal Housing Finance Agency, HUD, FHA, VA, USDA, Fannie Mae, Freddie Mac, Ginnie Mae",
+    "Government restrictions, standards or regulations intended to reduce greenhouse gas emissions and climate change impacts",
+    "Changes in federal and state tax laws affecting homeownership deductions",
+    "Increases in property tax rates by local governmental authorities",
+    "Health and safety regulatory requirements and OSHA compliance",
+    "Fraudulent conveyance or transfer laws affecting guarantor subsidiaries",
+    "Data privacy regulations including California Privacy Rights Act and European Union data privacy regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Homebuilding": 0.923,
+    "Rental": 0.046,
+    "Forestar": 0.041,
+    "Financial Services": 0.024
+  }
+}

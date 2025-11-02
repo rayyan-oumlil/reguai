@@ -1,0 +1,85 @@
+{
+  "ticker": "KEY",
+  "company_name": "KeyCorp",
+  "company_type": "Financial Services - Banking",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commercial Bank",
+    "Consumer Bank"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party service providers for significant operational services including technology systems and downstream service providers",
+    "risks": [
+      "Third parties may experience cybersecurity events, financial distress, operational difficulties, or disruptions. Service providers located overseas subject to regional risks. Disruption in services could increase costs and adversely affect ability to deliver products and services to clients."
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Capital and liquidity requirements under Regulatory Capital Rules (Basel III)",
+    "Enhanced prudential standards for large financial companies",
+    "Community Reinvestment Act (CRA) requirements and new final rule effective January 1, 2026",
+    "FDIC special assessments to recover losses from bank failures",
+    "Extensive regulation of U.S. financial services industry",
+    "Gramm-Leach-Bliley Act privacy requirements",
+    "FDIC deposit insurance requirements",
+    "State banking regulations across 15-state footprint",
+    "Prompt corrective action capital categories",
+    "Compliance with securities laws and SEC regulations",
+    "Federal banking law limits on capital distributions without prior regulatory approval",
+    "Volcker Rule compliance for proprietary trading restrictions",
+    "Proposed debit card interchange fee cap reductions",
+    "Stress testing and capital planning requirements (CCAR)",
+    "Consumer protection regulations",
+    "Bank Secrecy Act (BSA) and Anti-Money Laundering (AML) compliance requirements",
+    "State-level consumer privacy laws (California Consumer Privacy Act, New York DFS Cybersecurity Regulations)",
+    "Resolution and recovery planning requirements",
+    "Consumer Financial Protection Bureau (CFPB) regulatory authority over consumer financial products",
+    "Anti-money laundering and sanctions compliance",
+    "Anti-ESG and anti-DEI sentiment and related state actions limiting business with certain financial institutions",
+    "Volcker Rule restrictions on proprietary trading and covered fund investments",
+    "Federal Reserve oversight and stress testing requirements",
+    "CFPB final rule on personal financial data rights (Section 1033 implementation)",
+    "Complex and evolving laws and regulations regarding privacy and cybersecurity",
+    "Climate-related financial risk management principles from federal banking agencies",
+    "Enhanced prudential standards under Dodd-Frank Act",
+    "Proposed long-term debt requirements for large BHCs and IDIs",
+    "Office of the Comptroller of the Currency (OCC) recovery planning guidelines",
+    "Federal Trade Commission regulations on unfair or deceptive practices",
+    "Regulatory capital requirements under Basel III and Dodd-Frank Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "China",
+      "Russia",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Office of Foreign Assets Control (OFAC) compliance requirements",
+      "Geopolitical destabilization could adversely impact loan portfolios through correlated and contingent risks",
+      "Tariffs or other trade policies enacted by U.S. government could worsen economic conditions",
+      "Potential changes to U.S. immigration policies affecting labor supply",
+      "Impact of Israel-Hamas war on commodity prices and supply chains",
+      "Impact of Russia-Ukraine war on commodity prices and supply chains affecting domestic borrowers"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumer Bank": 0.52,
+    "Commercial Bank": 0.56,
+    "Other": -0.08
+  }
+}

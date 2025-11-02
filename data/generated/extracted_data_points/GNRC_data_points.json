@@ -1,0 +1,119 @@
+{
+  "ticker": "GNRC",
+  "company_name": "Generac Holdings Inc.",
+  "company_type": "Energy Technology Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Italy",
+      "Spain",
+      "China",
+      "France",
+      "Brazil",
+      "Australia",
+      "Germany",
+      "United Kingdom",
+      "India",
+      "United Arab Emirates",
+      "Romania",
+      "Bahrain",
+      "Colombia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.79,
+      "International": 0.21
+    },
+    "assets_by_region": {
+      "United States": 0.76,
+      "International": 0.24
+    }
+  },
+  "segments": [
+    "Domestic",
+    "International",
+    "Residential products",
+    "Commercial & Industrial products",
+    "Other products and services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Wisconsin",
+      "South Carolina",
+      "Mexico",
+      "Italy",
+      "Spain",
+      "China",
+      "Germany",
+      "United Kingdom",
+      "India"
+    ],
+    "dependencies": [
+      "Dependence on small number of contract manufacturers and component suppliers",
+      "Single-source suppliers for certain types of parts",
+      "Significant portion of purchased components sourced overseas, primarily in Asia and Europe",
+      "Advanced electronic components and battery cells for energy technology products",
+      "Steel, copper and aluminum as primary raw materials"
+    ],
+    "risks": [
+      "Fluctuations in cost, availability, and quality of raw materials, key components and labor",
+      "Dependence on small number of outside contract manufacturers and component suppliers",
+      "Single-source suppliers for certain products and components",
+      "Risks from sourcing components in foreign countries including inflation, political and economic conditions, logistical challenges, extended container port congestion, higher logistics costs, unstable regulatory environments, changes in import and export duties, domestic and foreign customs and tariffs, currency rate fluctuations, trade restrictions, labor or civil unrest, geopolitical conflict such as in Ukraine or the Middle East, disputes with contract manufacturers or suppliers, communications challenges",
+      "Supply chain disruptions from lack of capacity, economic downturns, availability of credit, logistical challenges, labor or material shortages, trade restrictions, weather events, political instability, geopolitical conflicts, terrorism, civil unrest, disease or natural disasters"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with environmental, health and safety laws and regulations including emissions to air, discharges to water, noise, generation, handling, storage, transportation, treatment, and disposal of hazardous waste",
+    "Products subject to EPA, CARB and various state and local air quality management districts regulations",
+    "Products subject to U.S. Consumer Product Safety Commission (CPSC) safety standards",
+    "Compliance with data privacy and cybersecurity regulations",
+    "CARB regulations prohibiting future sales in California of certain small off-road engines",
+    "Changes in U.S. trade policy including imposition of new or increased tariffs",
+    "Anti-dumping and countervailing duties on products or components",
+    "Compliance with U.S. Foreign Corrupt Practices Act, U.K. Bribery Act, U.N. Convention Against Bribery and local anti-corruption laws",
+    "International labor laws and work councils",
+    "Import and export control, sanction and trade restriction laws",
+    "CPSC investigation regarding compliance with reporting requirements under Consumer Product Safety Act (CPSA)",
+    "DOJ investigation regarding compliance with emissions regulations for portable generators",
+    "EPA and CARB civil document requests related to emissions compliance",
+    "Inflation Reduction Act providing funding and tax incentives for clean energy products",
+    "OECD Pillar Two Global Anti-Base Erosion model rules requiring minimum 15% tax rate",
+    "SEC climate-related disclosure requirements under Release No. 33-11275",
+    "EU Corporate Sustainability Reporting Directive",
+    "Changes in government incentive or tax credit programs for clean energy products",
+    "Renewable energy mandates and investment tax credits",
+    "Production tax credits for domestic manufacturing of renewable energy products"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in U.S. trade policy including renegotiating and terminating bilateral or multi-lateral trade agreements",
+      "Tariffs on foreign goods from various countries and regions, most notably China",
+      "Foreign governments adopting responsive trade policies making it more difficult or costly to do business or import products or components",
+      "Geopolitical conflict such as conflicts in Ukraine or the Middle East affecting supply chain"
+    ]
+  },
+  "revenue_by_segment": {
+    "Domestic": 0.838,
+    "International": 0.162
+  }
+}

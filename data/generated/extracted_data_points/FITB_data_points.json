@@ -1,0 +1,91 @@
+{
+  "ticker": "FITB",
+  "company_name": "Fifth Third Bancorp",
+  "company_type": "Financial Services - Banking",
+  "geography": {
+    "regions": [
+      "Midwest",
+      "Midwestern United States",
+      "Southeastern United States",
+      "Southeast"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Wealth and Asset Management",
+    "Consumer and Small Business Banking",
+    "Commercial Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Third-party service providers for technology systems, cloud computing, data processing, and critical business operations",
+    "risks": [
+      "Cybersecurity risks from third-party providers, system failures, concentration of critical services with third parties, offshore service providers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Consumer Financial Protection Bureau (CFPB) regulations",
+    "Liquidity requirements and stress testing",
+    "Regulatory capital planning and distribution restrictions",
+    "Capital requirements (Basel III, CET1, stress capital buffer)",
+    "Enhanced prudential standards for bank holding companies",
+    "Dodd-Frank Act requirements",
+    "Derivatives regulation (Title VII of Dodd-Frank, CFTC registration)",
+    "Resolution planning requirements (FDIC)",
+    "Data privacy regulations (GLBA, state laws including California Consumer Privacy Act)",
+    "Orderly Liquidation Fund assessments",
+    "Enhanced Prudential Standards for Category IV institutions",
+    "Compliance with Consumer Financial Protection Act, Truth in Lending Act, Truth in Savings Act",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act compliance",
+    "Climate change disclosure requirements",
+    "Community Reinvestment Act (CRA) requirements",
+    "Bank Secrecy Act and anti-money laundering (AML) regulations",
+    "Changes in tax laws and regulations",
+    "FDIC deposit insurance assessments and special assessments",
+    "Recovery planning requirements (OCC)",
+    "Data privacy and cybersecurity regulations",
+    "Economic Growth, Regulatory Relief and Consumer Protection Act (EGRRCPA) requirements",
+    "FDIC insurance and regulatory assessments",
+    "Office of Foreign Assets Control (OFAC) sanctions compliance",
+    "Dividend and share repurchase limitations",
+    "Federal and state banking regulations and supervision",
+    "Changes in accounting standards and financial reporting requirements",
+    "Community Reinvestment Act compliance",
+    "Executive compensation restrictions",
+    "Capital requirements under Basel III Final Rule and stress capital buffer requirements",
+    "Anti-money laundering and economic sanctions compliance",
+    "Potential regulatory actions and enforcement proceedings",
+    "Fair Credit Reporting Act (FCRA) requirements",
+    "Debit card interchange fee regulations (Durbin Amendment)",
+    "Federal Reserve supervisory stress tests",
+    "Broker-dealer and investment adviser regulations (SEC, FINRA)",
+    "Environmental regulations and climate-related disclosure requirements",
+    "Truth in Lending Act (TILA) and Truth in Savings Act compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trading with the Enemy Act sanctions",
+      "International Emergency Economic Powers Act sanctions",
+      "Office of Foreign Assets Control (OFAC) sanctions on restricted countries and persons",
+      "Potential exposure through commercial customer activities in sanctioned jurisdictions",
+      "Economic sanctions compliance requirements",
+      "Risks from transactions with sanctioned entities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Commercial Banking": 0.33,
+    "Consumer and Small Business Banking": 0.48,
+    "Wealth and Asset Management": 0.08,
+    "General Corporate and Other": 0.11
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "ticker": "PTC",
+  "company_name": "PTC Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Germany",
+      "France",
+      "Japan",
+      "Ireland",
+      "Italy",
+      "Israel",
+      "India",
+      "China",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "United Kingdom",
+      "Brazil",
+      "Cayman Islands",
+      "Massachusetts"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Product Lifecycle Management (PLM)",
+    "Computer-Aided Design (CAD)",
+    "Application Lifecycle Management (ALM)",
+    "Service Lifecycle Management (SLM)",
+    "Software as a Service (SaaS)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party cloud infrastructure service providers for SaaS delivery",
+      "Strategic technology and software partners for embedded solutions",
+      "System integrators for customer implementation services"
+    ],
+    "risks": [
+      "Disruption of third-party cloud service providers could cause service interruptions",
+      "Failures by strategic partners or termination of partner relationships could adversely affect business",
+      "Reliance on partner ecosystem for go-to-market approach increases compliance risks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "U.K. Bribery Act 2010 compliance",
+    "European Union General Data Privacy Regulation (GDPR) compliance",
+    "U.S. Department of Treasury Office of Foreign Assets Control (OFAC) sanctions",
+    "U.S. State Department trade sanctions",
+    "U.S. Department of Commerce export controls",
+    "United Nations Security Council sanctions",
+    "European Union Corporate Sustainability Reporting Directive (CSRD)",
+    "European Union Corporate Sustainability Due Diligence Directive (CSDDD)",
+    "U.S. government focus on technology transactions with non-U.S. entities",
+    "Income tax regulations across multiple jurisdictions",
+    "Transfer pricing regulations in foreign jurisdictions",
+    "IRS procedural guidance requiring consent for accounting method changes",
+    "Section 174 U.S. tax legislation amendments",
+    "Global Intangible Low-Taxed Income (GILTI) regime",
+    "Foreign-Derived Intangible Income (FDII) regime",
+    "Base Erosion Anti-Abuse Tax (BEAT)",
+    "Massachusetts Business Corporation Act compliance",
+    "Securities Exchange Act Rule 14a-19 compliance",
+    "Sarbanes-Oxley Act Section 404(b) internal control requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government focus on technology transactions with non-U.S. entities",
+      "Exposure to operations and employees in regions with political instability and armed conflict including Israel",
+      "Trade and economic sanctions laws administered by OFAC, State Department, Commerce Department, and UN Security Council"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "ticker": "NDAQ",
+  "company_name": "Nasdaq, Inc.",
+  "company_type": "Financial Technology and Exchange Operator",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Nordic and Baltic countries",
+      "Middle East",
+      "Latin America",
+      "Africa",
+      "Asia",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Sweden",
+      "Denmark",
+      "Finland",
+      "Iceland",
+      "Norway",
+      "Estonia",
+      "Latvia",
+      "Lithuania",
+      "United Kingdom",
+      "India",
+      "Philippines",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Capital Access Platforms",
+    "Financial Technology",
+    "Market Services",
+    "Data & Listing Services",
+    "Index",
+    "Workflow & Insights",
+    "Financial Crime Management Technology",
+    "Regulatory Technology",
+    "Capital Markets Technology"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services (AWS)"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on AWS for cloud infrastructure and exchange migration",
+      "Dependency on third-party service providers for data center, cloud computing, data storage and processing, connectivity, data content, clearing, and maintaining markets",
+      "Reliance on members of trading community to maintain markets and add liquidity"
+    ],
+    "risks": [
+      "Service interruptions or delays from third-party providers could impair services",
+      "AWS platform outages could affect Nasdaq workloads and client services",
+      "Failure of AWS to deliver system requirements on time could delay exchange migration to cloud",
+      "Difficulties or failures of largest members could materially affect business",
+      "Supply chain vendor cybersecurity breaches could result in collateral damage"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation by SEC, FINRA, and other SROs in the U.S.",
+    "Subject to MiFID II and MiFIR regulations in European Union and European Economic Area",
+    "European Union Market Abuse Regulation compliance",
+    "Benchmark Regulation compliance required by January 1, 2026",
+    "Regulation NMS and Options Intermarket Linkage Plan requirements",
+    "Regulation SCI compliance for technology infrastructure",
+    "CAT (Consolidated Audit Trail) implementation and cost recovery uncertainties",
+    "CFTC regulation of derivatives products",
+    "Canadian Securities Administrators oversight and Data Fees Methodology restrictions",
+    "DORA (Digital Operational Resilience Act) compliance effective January 2025",
+    "SFSA (Swedish Financial Supervisory Authority) supervision and potential fines",
+    "Financial Conduct Authority regulation in United Kingdom",
+    "EMIR (European Market Infrastructure Regulation) compliance for clearing operations",
+    "Potential SEC rule changes reducing fees for exchange access and rebates",
+    "Economic sanctions compliance (U.S. Office of Foreign Assets Control)",
+    "Export controls and anti-corruption regulations (Foreign Corrupt Practices Act)",
+    "Anti-money laundering compliance requirements",
+    "Privacy and data protection laws (GDPR, California Privacy Rights Act, HIPAA, Gramm-Leach-Bliley Act)",
+    "Cybersecurity and data sovereignty regulations",
+    "Changes in tax laws, regulations, or policies including renewable energy tax credits",
+    "Potential federal or state financial transaction taxes",
+    "Section 31 fees to SEC for supervision and regulation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Lithuania",
+      "India",
+      "Philippines"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Limitations on securing new listings or entering transactions with customers due to political, economic or social events",
+      "Imposition of governmental economic sanctions or tariffs on countries where business is conducted or expansion is planned",
+      "Compliance with economic sanctions administered by U.S. Office of Foreign Assets Control",
+      "Restrictions on international or non-U.S. citizen employees of U.S. companies"
+    ]
+  }
+}

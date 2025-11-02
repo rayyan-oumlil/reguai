@@ -1,0 +1,117 @@
+{
+  "ticker": "D",
+  "company_name": "Dominion Energy, Inc.",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "Southeast",
+      "North Carolina",
+      "Virginia",
+      "South Carolina",
+      "Northeast",
+      "Mid-Atlantic"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Corporate and Other",
+    "Dominion Energy Virginia",
+    "Contracted Energy",
+    "Dominion Energy South Carolina"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Westinghouse Electric Company LLC",
+      "Toshiba Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Nuclear fuel supply dependent on long-term contracts with suppliers; reliance on specialized offshore wind installation vessel under construction; dependence on major offshore construction and equipment suppliers for CVOW Commercial Project with contracts denominated in Euros and Danish kroner",
+    "risks": [
+      "Fuel for transportation and installation for CVOW Commercial Project",
+      "Ability of key suppliers and contractors to timely satisfy their obligations under existing contracts",
+      "Marine wildlife and severe weather events impacting CVOW Commercial Project",
+      "Supply chain disruption risks for CVOW Commercial Project including delays in obtaining key materials, labor difficulties, difficulties with partners or potential partners, inflation, impact of applicable tariffs; nuclear fuel supply dependent on worldwide market conditions; specialized equipment and expertise required for offshore wind construction; concentration of data centers primarily in Loudoun County, Virginia requiring significant transmission investments",
+      "Impact of applicable tariffs on CVOW Commercial Project costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Occupational Safety and Health Administration (OSHA) worker safety requirements",
+    "Dodd-Frank Act derivatives regulations including potential mandatory clearing, exchange trading or margin requirements",
+    "South Carolina Commission rate regulation",
+    "State utility commission regulations on retail electric and gas rates, cost recovery mechanisms, base rate reviews",
+    "Potential federal climate change program and state-level GHG emission limitations or efficiency improvement requirements",
+    "Virginia legislation on base rate reviews and cost recovery mechanisms",
+    "Endangered Species Act (ESA) and Migratory Bird Treaty Act requirements potentially restricting company activities",
+    "EPA regulations on water quality (Regulation 316(b), Effluent Limitations Guidelines)",
+    "North Carolina Commission rate regulation",
+    "Federal Power Act restrictions on DESC dividends",
+    "Virginia Clean Economy Act (VCEA) renewable energy portfolio standards",
+    "PJM capacity market changes affecting generation resource capacity value calculations",
+    "BOEM offshore wind decommissioning financial assurance requirements",
+    "Virginia legislation resetting base rate review frequency to biennial period with earnings sharing mechanism",
+    "Federal and state laws protecting graves, sacred sites, historic sites and cultural resources",
+    "Changes to federal, state and local environmental laws and regulations, including those related to climate change, the tightening of emission or discharge limits for GHGs and other substances, more extensive permitting requirements and the regulation of additional substances",
+    "Changes in or interpretations of federal and state tax laws and regulations, including those related to tax credits or other incentives",
+    "FERC regulations on wholesale sales and transmission of electricity, market-based rate authority, Standards of Conduct, affiliate restrictions",
+    "Price-Anderson Act nuclear liability insurance requirements",
+    "Difficulty in anticipating mitigation requirements associated with environmental and other regulatory approvals or related appeals",
+    "Risks associated with the operation of nuclear facilities, including costs associated with the disposal of spent nuclear fuel, decommissioning, plant maintenance and changes in existing regulations governing such facilities",
+    "EPA regulations including Mercury and Air Toxics Standards, CO2 emissions standards for fossil fuel-fired generating units, fine particulate matter standards, PFAS exposure mitigation",
+    "North Carolina and South Carolina cost-of-service rate regulation with potential rate reductions if earnings exceed authorized ROE",
+    "NRC nuclear decommissioning financial assurance requirements",
+    "Coal combustion residual (CCR) regulations requiring capital expenditures and closure/monitoring of ash ponds and landfills",
+    "Changes to regulated electric rates collected by the Companies and regulated gas distribution rates",
+    "Clean Water Act discharge permitting requirements",
+    "Timing and receipt of regulatory approvals necessary for planned construction or growth projects and compliance with conditions associated with such regulatory approvals",
+    "Competition in the development, construction and ownership of certain electric transmission facilities in the Companies' service territory in connection with Order 1000",
+    "Changes in rating agency requirements or credit ratings and their effect on availability and cost of capital",
+    "NERC mandatory reliability standards with potential fines up to $1.6 million per day per violation",
+    "Clean Water Act (CWA) discharge permits, stormwater management, wetlands authorization requirements",
+    "Inflation Reduction Act (IRA) provisions including annual fee for waste methane emissions from oil and natural gas industry",
+    "FERC transmission rate regulation",
+    "EPA regulations on air quality (Ozone Standards, ACE Rule, Carbon Regulations)",
+    "Cost of environmental strategy and compliance, including those costs related to climate change",
+    "Transportation Security Administration gas sector cyber security directives",
+    "EPA regulations on coal combustion residuals (CCR)",
+    "DOE spent nuclear fuel disposal obligations",
+    "Clean Air Act permitting and compliance requirements",
+    "Sarbanes-Oxley Act Section 404 internal control requirements",
+    "Virginia Clean Economy Act (VCEA) requirements including 100% zero-carbon generation by 2045, renewable energy portfolio standards, offshore wind and energy storage mandates",
+    "15% alternative minimum tax on GAAP net income for corporations in excess of $1 billion under IRA",
+    "NRC regulations and requirements for nuclear facility operations including potential for revocation, suspension or modification of operating licenses",
+    "Adverse outcomes in litigation matters or regulatory proceedings",
+    "Regional Greenhouse Gas Initiative (RGGI) participation and withdrawal",
+    "Clean Air Act (CAA) permitting and emissions requirements for carbon, methane, VOC, NOX, GHGs, mercury, SO2 and particulate matter",
+    "State public utility commission dividend restrictions",
+    "Federal, state and local legislative and regulatory developments",
+    "IRS safe harbor guidance on treatment of amounts paid to repair, maintain, replace or improve natural gas distribution property",
+    "Changes in implementation and enforcement practices of regulators relating to environmental standards and litigation exposure for remedial activities",
+    "Risks of operating businesses in regulated industries that are subject to changing regulatory structures",
+    "CERCLA and state hazardous waste laws",
+    "Pipeline safety laws and regulations from federal and state agencies",
+    "Virginia Commission rate regulation and base rate reviews",
+    "Changes in rules for RTOs and ISOs including changes in rate designs, changes in FERC's interpretation of market rules and new and evolving capacity models"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Impact of applicable tariffs on CVOW Commercial Project construction costs"
+    ]
+  },
+  "revenue_by_segment": {
+    "Dominion Energy Virginia": 0.708,
+    "Dominion Energy South Carolina": 0.228,
+    "Contracted Energy": 0.077,
+    "Corporate and Other": -0.013
+  }
+}

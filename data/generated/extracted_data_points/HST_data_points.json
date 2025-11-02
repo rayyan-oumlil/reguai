@@ -1,0 +1,84 @@
+{
+  "ticker": "HST",
+  "company_name": "Host Hotels & Resorts, Inc.",
+  "company_type": "Lodging REIT",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "India"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.98,
+      "Brazil": 0.005,
+      "Canada": 0.013
+    },
+    "assets_by_region": {
+      "United States": 0.995,
+      "Brazil": 0.002,
+      "Canada": 0.002
+    }
+  },
+  "segments": [
+    "Hotel Ownership"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Hilton",
+      "Hyatt",
+      "Marriott International",
+      "Four Seasons",
+      "AccorHotels",
+      "1 Hotels"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Third-party hotel managers responsible for all day-to-day operations; approximately 60% of hotels managed or franchised by Marriott International; 17% by Hyatt",
+    "risks": "Dependence on third-party managers for operations; concentration risk with Marriott (60% of revenues); manager performance failures; conflicts of interest as managers operate competing hotels; inability to directly implement strategic decisions",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "REIT qualification requirements - must distribute 90% of taxable income annually",
+    "Federal and state corporate income tax risks if REIT status lost",
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "Building codes and fire/life safety regulations",
+    "Environmental laws and regulations (hazardous substances, toxic materials)",
+    "State and local tax laws and property tax assessments",
+    "Zoning and eminent domain laws",
+    "Labor laws and workplace regulations affecting hotel employees",
+    "New laws requiring hotel owners be deemed employer of workers",
+    "Potential joint employer determinations under new legislation",
+    "Foreign tax laws in Brazil, Canada, and India operations",
+    "U.S. Foreign Corrupt Practices Act and anti-corruption laws",
+    "Data privacy and cybersecurity regulations (California Consumer Privacy Act and similar state laws)",
+    "SEC climate change disclosure requirements",
+    "Income tax law changes affecting REIT taxation",
+    "Changes to trade policy and tariffs",
+    "Government spending reductions and austerity measures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "India"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade tensions and proposed tariffs between United States and trading partners such as China",
+      "International conflicts and geopolitical developments affecting global travel",
+      "U.S. immigration policies and border closings impacting international travel"
+    ]
+  },
+  "revenue_by_segment": {
+    "Rooms": 0.6,
+    "Food and beverage": 0.3,
+    "Other": 0.1
+  }
+}

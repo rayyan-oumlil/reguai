@@ -1,0 +1,91 @@
+{
+  "ticker": "ED",
+  "company_name": "Consolidated Edison, Inc.",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "Westchester County",
+      "Northern New Jersey",
+      "Southeastern New York",
+      "New York City"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "CECONY Gas",
+    "O&R Electric",
+    "CECONY Electric",
+    "O&R Gas",
+    "CECONY Steam",
+    "Con Edison Transmission"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Brooklyn Navy Yard Cogeneration Partners L.P.",
+      "New York Independent System Operator (NYISO)",
+      "Interstate pipeline companies",
+      "Astoria Generating Company",
+      "Brooklyn Navy Yard Cogeneration Partners",
+      "NYISO wholesale electricity market"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on interstate natural gas pipelines for gas supply; reliance on NYISO wholesale electricity markets for power purchases; single liquefied natural gas storage facility at Astoria property",
+    "risks": [
+      "Supply chain disruptions and shortages of materials, equipment, labor; long lead times for replacement parts (transformers, microprocessors, semiconductors); global supply chain disruptions impacting electric transmission and distribution operations; geopolitical conflicts causing supply chain disruptions; extreme cold weather negatively impacting interstate natural gas system",
+      "Reliance on third-party contractors for gas and steam main welds; discovery of non-conforming welds from contractor misconduct; supply chain disruptions could impact operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with gas and steam main weld quality regulations",
+    "EPA Section 111 Rule regulating GHG emissions from gas-fired combustion turbines",
+    "FERC authorization requirements for short-term borrowings and transactions",
+    "Customer billing system cost capitalization denial by NYSPSC",
+    "Net utility plant reconciliation requirements",
+    "Regulatory restrictions on dividends and intercompany transactions",
+    "Environmental regulations including Superfund liability for hazardous substances (asbestos, PCBs, coal tar)",
+    "NYSPSC focused operations audit on financial accounting for income taxes",
+    "Revenue decoupling mechanism and weather normalization clause adjustments",
+    "Environmental liability under Federal Comprehensive Environmental Response, Compensation and Liability Act (Superfund)",
+    "NYSPSC annual evaluation of customer privacy protections and critical energy infrastructure protection",
+    "Environmental regulations including CLCPA requiring 70% renewable electricity by 2030 and zero emissions by 2040",
+    "NYSDEC regulation imposing emissions limit on sulfur hexafluoride equipment starting 2030",
+    "Water quality permits under NYSDEC regulations",
+    "NYSPSC authority to revoke or modify operating certificates based on repeated violations",
+    "Environmental site investigation and remediation cost recovery",
+    "New York State Climate Leadership and Community Protection Act compliance",
+    "Lead-jacketed cable investigations by EPA, NYSDEC, and NYSDPS",
+    "Clean Air Act Title V operating permits and New Source Review regulations",
+    "NYSPSC rate plan approvals and regulatory oversight",
+    "NJBPU regulatory oversight for O&R New Jersey operations",
+    "Earnings sharing thresholds and regulatory asset recovery limitations",
+    "Late payment charge and uncollectible accounts recovery limitations",
+    "Property tax assessment changes and reconciliation limits",
+    "New York State Climate Change Superfund Act requiring responsible parties to pay $75 billion over 25 years",
+    "Rate plan provisions limiting rates charged to customers",
+    "Recurring independent third-party audits on regulations and standards",
+    "NYSPSC investigation of non-conforming welds and contractor misconduct",
+    "FERC regulation of transmission and wholesale sales with authority to impose substantial penalties",
+    "Cybersecurity regulations by FERC, TSA, CISA, and NYSPSC",
+    "NYSPSC authority to prohibit cost recovery deemed imprudently incurred",
+    "Regulatory treatment of pension and postretirement benefit costs",
+    "Extensive regulation by NYSPSC with authority to impose substantial penalties for violations",
+    "Rate plan provisions limiting recovery of certain costs (property taxes, municipal infrastructure support)",
+    "New York City Climate Mobilization Act requiring GHG emissions reduction from large buildings",
+    "Ring-fencing requirements separating utilities from parent company",
+    "Potential NYSPSC ordered adjustments to regulatory assets",
+    "Toxic Substances Control Act regulations on PCB-containing equipment",
+    "NYSDEC Peaker Rule limiting nitrous oxides emissions during ozone season"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

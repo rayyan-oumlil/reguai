@@ -1,0 +1,74 @@
+{
+  "ticker": "STLD",
+  "company_name": "Steel Dynamics, Inc.",
+  "company_type": "Steel Manufacturing and Metal Recycling",
+  "geography": {
+    "regions": [
+      "United States",
+      "Mexico",
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Steel Operations",
+    "Metals Recycling Operations",
+    "Steel Fabrication Operations",
+    "Aluminum Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico"
+    ],
+    "dependencies": "Principal raw material is recycled ferrous scrap; dependence on scrap metal availability and pricing; reliance on third parties for energy resources (electricity, natural gas, oil); zinc supply for galvanized steel products; graphite electrodes and ferroalloys",
+    "risks": "Volatility and major fluctuations in prices and availability of scrap metal and scrap substitutes; potential inability to pass higher costs to customers; cost and availability of electricity, natural gas, oil subject to volatile market conditions; availability of adequate scrap supply for metals recycling operations; supply chain disruptions and labor shortages exacerbating equipment failures",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with and changes in environmental and remediation requirements",
+    "Resource Conservation and Recovery Act (RCRA) - handling, recycling and disposal of solid and hazardous wastes",
+    "Comprehensive Environmental Response Compensation and Liability Act (CERCLA/Superfund) - liability for contaminated properties",
+    "Clean Water Act - discharge of wastewater, storm water, dredged or fill material",
+    "Clean Air Act - air permits and emission limits",
+    "Toxic Substances Control Act",
+    "Oil Pollution Act",
+    "Safe Drinking Water Act",
+    "Emergency Planning and Community Right-to-Know Act",
+    "Environmental regulations in Mexico for operations there",
+    "Increased environmental, greenhouse gas emissions and sustainability regulations from customers, investors or regulators",
+    "Climate change legislation or regulation",
+    "Potential new or more stringent environmental laws and regulations in the future",
+    "Governmental agencies may refuse to grant or renew licenses and permits required to operate",
+    "Foreign Corrupt Practices Act and other anti-bribery laws for international operations",
+    "Import-export control regulations",
+    "Office of Foreign Assets Control regulations",
+    "Potential changes in tax laws including sunset of certain tax laws",
+    "Trade policies or restrictions including tariffs or quotas"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Vietnam"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Global steelmaking overcapacity and imports of steel into the United States from foreign producers including China and Vietnam",
+      "Dumping and subsidy abuses by foreign steel producers",
+      "Some foreign steel producers owned, controlled or subsidized by foreign governments",
+      "Tariffs, duties or quotas may expire, be relaxed, repealed or circumvented by importers",
+      "Trade agreements may be renegotiated",
+      "Excessive imports of steel products exerting downward pressure on US steel prices",
+      "Foreign currency exchange rate fluctuations affecting imports"
+    ]
+  }
+}

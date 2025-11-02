@@ -1,0 +1,109 @@
+{
+  "ticker": "BSX",
+  "company_name": "Boston Scientific Corporation",
+  "company_type": "Medical Devices",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe, Middle East and Africa",
+      "Asia-Pacific",
+      "Latin America and Canada",
+      "Emerging Markets"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "Costa Rica",
+      "Malaysia",
+      "China",
+      "Japan",
+      "Singapore",
+      "France",
+      "Brazil",
+      "Puerto Rico",
+      "Canada",
+      "Mexico",
+      "Peru",
+      "India",
+      "Australia",
+      "New Zealand",
+      "United Kingdom",
+      "Scotland",
+      "Vietnam",
+      "Taiwan",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Endoscopy",
+    "Urology",
+    "Neuromodulation",
+    "MedSurg",
+    "Interventional Cardiology Therapies",
+    "Watchman",
+    "Cardiac Rhythm Management",
+    "Electrophysiology",
+    "Cardiology",
+    "Peripheral Interventions",
+    "Cardiovascular"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Ireland",
+      "Costa Rica",
+      "Malaysia",
+      "Brazil",
+      "China"
+    ],
+    "dependencies": "Many components used in manufacturing are readily fabricated from commonly available raw materials or off-the-shelf items from multiple supply sources; however, certain items are custom made to meet specifications. Certain materials and components are purchased from single sources due to quality considerations, expertise, costs or constraints from regulatory requirements.",
+    "risks": "Disruptions in supply of materials and components used in manufacturing products or sterilization of products could adversely affect results. Uncertain or negative economic conditions could negatively affect third-party vendors, leading to reduction or interruption in supply or increased prices. Predictability in supply of certain raw materials and components continues to be a risk. Supply chain dynamics could result in increased costs or inability to fully meet customer demand for certain products. Labor shortages and inflation impact on cost of raw materials and wage costs. Natural disasters, climate change, public health crises, or geopolitical developments may cause disruptions to manufacturing, distribution, and supply chains.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive and dynamic medical device regulation by FDA and comparable international agencies may impede or hinder approval or sale of products",
+    "EU Medical Device Regulation (MDR) implementation costs and compliance requirements",
+    "Increasingly stringent and unpredictable global regulatory environment increasing time, cost and complexity of obtaining regulatory approvals",
+    "Several countries establishing new regulatory requirements for medical devices or expanding existing regulations",
+    "Certain regulators requiring local preclinical and clinical data in addition to global data",
+    "Risk of FDA warning letters, field actions, or similar actions by regulatory agencies relating to products and processes",
+    "Increased scrutiny and heightened global regulatory enforcement facing medical device industry under U.S. Anti-Kickback Statute, U.S. False Claims Act, U.S. Foreign Corrupt Practices Act (FCPA) and similar laws in other jurisdictions",
+    "U.S. and foreign export control, trade embargo and customs laws compliance",
+    "Health care policy changes and legislative or regulatory efforts in U.S., EU and worldwide to modify product approval or reimbursement processes",
+    "Trend toward demonstrating clinical outcomes, comparative effectiveness and cost efficiency",
+    "Changes in tax laws, unfavorable resolution of tax contingencies, or exposure to additional income tax liabilities",
+    "OECD Pillar Two global minimum tax framework adoption by many countries",
+    "Potential U.S. tariffs on imports from Canada, Mexico, China or other countries",
+    "Legal and regulatory requirements for data privacy including GDPR in Europe",
+    "Environmental laws and regulations including regulations on use of ethylene oxide and PFAS materials",
+    "Climate change related regulations and disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Taiwan",
+      "Israel",
+      "Vietnam"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and export restrictions may proliferate leading to greater uncertainty in emerging and growth markets",
+      "Russia/Ukraine war has created barriers to doing business in Russia and parts of Eastern Europe",
+      "Tension between China/Taiwan has created geopolitical shifts in Asia",
+      "Conflicts in Middle East have disrupted operations of companies doing business in region including Israel",
+      "Increased cybersecurity risks as indirect result of ongoing Russia/Ukraine war and conflicts in Middle East",
+      "Potential impact of sanctions on U.S. manufacturers doing business in certain regions",
+      "FCPA investigations related to operations in Vietnam and potential concerns in other countries"
+    ]
+  }
+}

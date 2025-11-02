@@ -1,0 +1,94 @@
+{
+  "ticker": "SNPS",
+  "company_name": "Synopsys, Inc.",
+  "company_type": "Electronic Design Automation (EDA) and Semiconductor IP Software",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "China",
+      "Korea",
+      "Japan",
+      "Taiwan",
+      "India",
+      "Canada",
+      "Israel",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Korea",
+      "Japan",
+      "Taiwan",
+      "India",
+      "Israel",
+      "Singapore",
+      "Hungary",
+      "Ireland",
+      "Switzerland",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Design Automation",
+    "Design IP"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China"
+    ],
+    "dependencies": "Sole supplier for certain hardware components; reliance on third-party manufacturers for hardware products (emulation and prototyping systems); dependence on foundries for semiconductor manufacturing processes",
+    "risks": "Delays, increased costs or quality issues from reliance on third parties to manufacture hardware products; sole supplier risk for certain hardware components; global semiconductor shortages; supply chain disruptions from sustained global inflationary pressures and elevated interest rates; geopolitical pressures affecting supply chain",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Export Administration Regulations and export control restrictions",
+    "Bureau of Industry and Security (BIS) Entity List restrictions",
+    "Export controls on advanced computing ICs and semiconductor manufacturing items",
+    "Export controls on transactions involving supercomputer and semiconductor manufacturing end-users",
+    "Foreign Corrupt Practices Act compliance",
+    "Anti-corruption laws in multiple jurisdictions",
+    "Privacy and data protection regulations (including EU Corporate Sustainability Reporting Directive)",
+    "SEC climate-related reporting requirements",
+    "California climate-related disclosure laws",
+    "Tax law changes and interpretations (including Tax Cuts and Jobs Act, Inflation Reduction Act)",
+    "Corporate Alternative Minimum Tax (CAMT)",
+    "1% excise tax on stock repurchases (Inflation Reduction Act)",
+    "OECD Pillar Two Model Rules (15% global minimum tax)",
+    "Capitalization of research and development expenditures (Tax Cuts and Jobs Act)",
+    "California SB-167 and SB-175 (net operating loss and research credit limitations)",
+    "Customs and import requirements",
+    "Tariffs and trade barriers",
+    "ISO 26262 and ISO 21434 standards (automotive market)",
+    "Cybersecurity and data security regulations",
+    "Intellectual property laws and patent regulations",
+    "Antitrust and foreign investment regime clearances (for Ansys Merger)",
+    "Changes in accounting standards"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and Chinese trade regulations and export restrictions",
+      "Entity List restrictions affecting transactions with certain Chinese entities",
+      "Sanctions and financial penalties on participants in regional or global military conflicts",
+      "Government trade restrictions including tariffs, export controls and trade barriers",
+      "Changes in China-Taiwan relations",
+      "Regional or global military conflicts (Ukraine, Middle East)",
+      "U.S.-China geopolitical and economic uncertainty",
+      "China's policy of becoming global leader in semiconductor industry leading to potential trade disruptions"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "ticker": "TXN",
+  "company_name": "Texas Instruments Incorporated",
+  "company_type": "Semiconductors",
+  "geography": {
+    "regions": [
+      "United States",
+      "China",
+      "Rest of Asia",
+      "Europe, Middle East and Africa (EMEA)",
+      "Japan",
+      "Rest of world"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Germany",
+      "Japan",
+      "India",
+      "Malaysia",
+      "Philippines",
+      "Taiwan",
+      "Mexico",
+      "United Kingdom",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Analog",
+    "Embedded Processing",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (North Texas - Dallas, Richardson, Sherman)",
+      "United States (Lehi, Utah)",
+      "United States (South Portland, Maine)",
+      "United States (Santa Clara, California)",
+      "United States (Houston, Texas)",
+      "United States (Tucson, Arizona)",
+      "China (Chengdu, Shanghai)",
+      "Germany (Freising)",
+      "India (Bangalore)",
+      "Japan (Aizu, Miho)",
+      "Malaysia (Kuala Lumpur, Melaka)",
+      "Mexico (Aguascalientes)",
+      "Philippines (Baguio, Pampanga/Clark)",
+      "Taiwan (Taipei)"
+    ],
+    "dependencies": [
+      "Reliance on third-party foundries and subcontractors for portion of wafer fabrication, assembly and testing",
+      "Dependence on third parties to support key portions of operations including manufacturing operations and advanced logic manufacturing process technology development",
+      "Key materials, services and utilities required for manufacturing processes and critical manufacturing equipment",
+      "Limited number of alternate suppliers for certain materials and services"
+    ],
+    "risks": [
+      "Suppliers extending lead times, limiting supply or increasing prices due to factors beyond control",
+      "Limited or delayed access to and high costs of key materials, services and utilities",
+      "Possible shortages of capacity in periods of high demand",
+      "Suppliers' inability to develop and deliver advanced logic manufacturing process technology or build facilities in timely, cost-effective manner",
+      "Unauthorized disclosure or use of intellectual property by suppliers",
+      "Failure by suppliers to fulfill expectations, commitments and responsibilities in accordance with agreed terms or applicable laws"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Complex laws, rules and regulations affecting domestic and international operations (environment, climate change, safety, health, trade including import/export, bribery and corruption, financial reporting, tax, data privacy and protection, labor and employment, competition, facilities and code compliance, pandemics/epidemics, intellectual property, currency movement)",
+    "Compliance costs and restrictions on ability to manufacture products and operate business",
+    "Potential litigation, investigations or enforcement activity from government entities regarding compliance",
+    "Disruptions to operations or significant fines, penalties or other legal liability",
+    "New or expanded laws, rules and regulations or new reporting standards and disclosure requirements",
+    "Environmental, social and governance (ESG) reporting, diligence and disclosure requirements",
+    "Environmental, safety and health requirements (use of abatement equipment, addition/elimination of materials or processes, costs/fees/reporting on energy/natural resources/materials/gases)",
+    "Tax-related changes (changes in tax rates, jurisdictions where profits are taxed, available tax credits/deductions, accounting principles, tariff regulations/surcharges, audit resolutions)",
+    "Laws determining how profit is earned and taxed in various jurisdictions (OECD Base Erosion and Profit Shifting recommendations)",
+    "Government incentives subject to reduction, modification, clawback or termination (including CHIPS Act incentives)",
+    "Immigration laws and policies affecting ability to recruit internationally or deploy employees"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Geopolitical tensions affecting global trade through tariffs, import/export restrictions, trade embargoes and sanctions, restrictions on cross-border investment",
+      "Trade barriers impacting ability to deliver products, support customers, receive manufacturing equipment",
+      "Customers seeking alternate suppliers due to geopolitical tensions",
+      "China actively promoting and reshaping domestic semiconductor industry through policy changes and investment, potentially restricting participation in China market or preventing effective competition"
+    ]
+  }
+}

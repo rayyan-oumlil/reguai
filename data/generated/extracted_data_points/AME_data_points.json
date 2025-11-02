@@ -1,0 +1,99 @@
+{
+  "ticker": "AME",
+  "company_name": "AMETEK, Inc.",
+  "company_type": "Industrial Manufacturing - Electronic Instruments and Electromechanical Devices",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Denmark",
+      "Finland",
+      "Switzerland",
+      "Austria",
+      "Serbia",
+      "Poland",
+      "Czechia",
+      "Argentina",
+      "China",
+      "Malaysia",
+      "Taiwan",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electronic Instruments Group (EIG)",
+    "Electromechanical Group (EMG)",
+    "Process and Analytical Instrumentation",
+    "Aerospace and Power Instrumentation",
+    "Automation and Engineered Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Czechia",
+      "Malaysia",
+      "Mexico",
+      "Serbia",
+      "United Kingdom",
+      "Germany",
+      "Canada",
+      "Denmark",
+      "Finland",
+      "France",
+      "Switzerland",
+      "Argentina",
+      "Austria",
+      "Poland",
+      "Italy",
+      "Taiwan"
+    ],
+    "dependencies": "Certain items, including various base metals and certain steel components, are available from only a limited number of suppliers",
+    "risks": "Shortages in raw materials or price increases could affect the prices we charge, our operating costs and our competitive position. Disruption of supply chain due to natural or man-made disruptions, including armed conflict, damaging weather or other acts of nature, pandemics or other public health crises",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with various import, export, export control and economic sanctions laws affecting transactions with certain customers, business partners and other persons",
+    "Export control and economic sanctions regulations may prohibit the export of certain products, services and technologies",
+    "Failure to comply with export regulations could result in civil and criminal, monetary and non-monetary penalties, disruptions to business, limitations on ability to import and export products and services",
+    "U.S. Foreign Corrupt Practices Act, U.K. Bribery Act and similar anti-bribery laws in other jurisdictions prohibiting improper payments to government officials",
+    "Violations could lead to substantial civil and criminal, monetary and non-monetary penalties and significant legal and investigatory fees",
+    "Subject to federal, state, local and foreign environmental and occupational health and safety laws and regulations concerning air emissions, discharges to waters and the use, manufacturing, generation, handling, storage, transportation and disposal of hazardous substances and wastes",
+    "Comprehensive Environmental Response, Compensation and Liability Act imposes joint and several liability for clean-up costs",
+    "New laws and regulations, new classification of hazardous materials, stricter enforcement of existing laws and regulations, discovery of previously unknown contamination or imposition of new clean-up requirements could require significant costs",
+    "Overlap of different tax structures, including the development of a global minimum tax",
+    "Unexpected changes in regulatory requirements, including in the United States",
+    "Trade protection measures, such as the imposition of or increase in tariffs and other trade barriers, including in the United States",
+    "New privacy legislation and climate change regulations may be adopted or become applicable"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with export control and economic sanctions laws may affect transactions with certain customers and business partners",
+      "Increasing trade tensions between the United States and certain countries, including China",
+      "Imposition of trade or foreign exchange restrictions, including in the United States",
+      "Unstable political situations and social unrest, both internationally and in the United States"
+    ]
+  }
+}

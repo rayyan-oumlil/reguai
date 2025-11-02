@@ -1,0 +1,92 @@
+{
+  "ticker": "KMI",
+  "company_name": "Kinder Morgan, Inc.",
+  "company_type": "Energy Infrastructure",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.997,
+      "Mexico and other foreign": 0.003
+    },
+    "assets_by_region": {
+      "United States": 0.999,
+      "Mexico and other foreign": 0.001
+    }
+  },
+  "segments": [
+    "Natural Gas Pipelines",
+    "Products Pipelines",
+    "Terminals",
+    "CO2"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Relies on third-party contractors for construction and maintenance",
+      "Depends on availability of construction materials including steel",
+      "Subject to potential tariffs on construction materials"
+    ],
+    "risks": [
+      "Difficulties obtaining rights-of-way and permits",
+      "Public opposition to projects",
+      "Inclement weather and natural disasters causing construction delays",
+      "Cost increases for construction materials including tariff impacts",
+      "Delays in performance by third-party contractors",
+      "Supply chain disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FERC regulation of interstate natural gas pipelines and rates",
+    "CPUC regulation of California intrastate operations",
+    "Railroad Commission of Texas regulation of Texas intrastate operations",
+    "EPA environmental regulations including Good Neighbor Plan for ozone emissions",
+    "PHMSA pipeline safety regulations and integrity management requirements",
+    "Clean Air Act and NAAQS standards",
+    "Clean Water Act and Oil Pollution Act requirements",
+    "CERCLA Superfund liability",
+    "GHG emissions regulations and climate change policies",
+    "State-level GHG cap-and-trade programs",
+    "European Union methane emissions limits on imports",
+    "TSA cybersecurity directives for critical pipelines",
+    "Jones Act restrictions on vessel ownership and operations",
+    "Dodd-Frank derivatives regulations",
+    "SEC climate disclosure requirements",
+    "California climate disclosure legislation",
+    "OSHA employee health and safety requirements",
+    "Potential changes in federal and state environmental policies",
+    "Rate challenges and complaints from shippers",
+    "Environmental justice considerations in permitting",
+    "Increased regulatory scrutiny and enforcement actions",
+    "New pipeline safety rules including leak detection requirements",
+    "Reauthorization of Pipeline Safety Act",
+    "PHMSA regulation of CO2 transportation",
+    "Restrictions on oil and gas exploration on federal lands",
+    "Hydraulic fracturing regulations",
+    "Asset abandonment and reclamation requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Natural Gas Pipelines": 0.592,
+    "Products Pipelines": 0.196,
+    "Terminals": 0.134,
+    "CO2": 0.08
+  }
+}

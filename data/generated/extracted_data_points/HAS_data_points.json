@@ -1,0 +1,91 @@
+{
+  "ticker": "HAS",
+  "company_name": "Hasbro, Inc.",
+  "company_type": "Games, IP, and Toys",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "France",
+      "Germany",
+      "Spain",
+      "United Kingdom",
+      "Switzerland",
+      "Netherlands",
+      "Australia",
+      "China",
+      "Hong Kong",
+      "Vietnam",
+      "India",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Products",
+    "Wizards of the Coast and Digital Gaming",
+    "Entertainment"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Vietnam",
+      "India",
+      "Japan"
+    ],
+    "dependencies": "Most of our toy and game products are manufactured by third-party manufacturers, the majority of which are in China, with a significant amount of our product sourcing also coming from manufacturers in the U.S., Vietnam, India and Japan",
+    "risks": [
+      "Reliance on third-party manufacturers presents risks to our business",
+      "Concentration of manufacturing in China",
+      "Tariffs and trade sanctions could significantly increase cost of products",
+      "Natural disasters or health pandemics impacting manufacturers",
+      "Port congestion, strikes, labor shortages causing transportation delays",
+      "Suspension of operations by government inspectors could result in delays"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Consumer Product Safety Act (CPSIA) compliance",
+    "Federal Hazardous Substances Act (FHSA) compliance",
+    "Flammable Fabrics Act (FFA) compliance",
+    "Food and Drug Administration regulations",
+    "Children's Television Act and FCC regulations",
+    "Children's Online Privacy Protection Act (COPPA) compliance",
+    "General Data Protection Regulation (GDPR) in European Union",
+    "Data protection laws in United States and other countries",
+    "Antitrust regulations",
+    "Employment and pay transparency regulations",
+    "Customs and tax requirements",
+    "Anti-boycott regulations",
+    "Environmental regulations",
+    "Foreign Corrupt Practices Act",
+    "New laws and regulations governing artificial intelligence",
+    "Product safety and consumer protection statutes in international markets",
+    "Restrictions on chemicals including phthalates and BPA"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Imposition or threat of tariffs, including reciprocal or retaliatory tariffs",
+      "Trade sanctions, quotas, border adjustment taxes or other protectionist measures",
+      "Loss of normal trade relations status with China or other foreign countries",
+      "Political instability, civil unrest and economic instability in international markets"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "ADM",
+  "company_name": "Archer-Daniels-Midland Company",
+  "company_type": "Agricultural Supply Chain Management and Processing",
+  "geography": {
+    "regions": [
+      "North America",
+      "South America",
+      "Europe, Middle East, and Africa (EMEA)",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Switzerland",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China",
+      "Singapore",
+      "Indonesia",
+      "India",
+      "Australia",
+      "France",
+      "Austria",
+      "Slovakia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.392,
+      "Switzerland": 0.232,
+      "Cayman Islands": 0.066,
+      "Brazil": 0.039,
+      "Mexico": 0.038,
+      "Canada": 0.024,
+      "United Kingdom": 0.026,
+      "Other Foreign": 0.183
+    },
+    "assets_by_region": {
+      "United States": 0.642,
+      "Brazil": 0.08,
+      "Other Foreign": 0.278
+    }
+  },
+  "segments": [
+    "Ag Services and Oilseeds",
+    "Carbohydrate Solutions",
+    "Nutrition"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "South America",
+      "Europe",
+      "Asia"
+    ],
+    "dependencies": [
+      "Dependence on thousands of growers in productive agricultural regions globally",
+      "Reliance on agricultural commodities subject to weather, crop disease, government policies",
+      "Transportation infrastructure including rivers, waterways, rail, barge, ocean vessels",
+      "Water availability for processing operations",
+      "Energy supply (electricity, natural gas, coal) for processing plants"
+    ],
+    "risks": [
+      "Agricultural commodity price volatility and availability fluctuations",
+      "Weather conditions and crop disease impacts on raw material supply",
+      "Transportation disruptions affecting supply chain",
+      "Water scarcity impacting processing operations",
+      "Energy price fluctuations and supply disruptions",
+      "Deforestation risks in South American soy and global palm supply chains",
+      "Supply chain disruptions from geopolitical conflicts (Russia-Ukraine war)",
+      "Maritime piracy risks in shipping routes",
+      "Supplier insolvency or inability to perform",
+      "Border closures and trade flow disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU Network and Information Security (NIS2) directive cybersecurity requirements",
+    "EU Corporate Sustainability Reporting Directive (CSRD) reporting requirements starting 2026",
+    "EU Deforestation Regulation affecting soybean and palm oil imports",
+    "Brazil Amazon soy moratorium compliance",
+    "OECD Pillar Two global minimum tax (15%) implementation",
+    "U.S. tax law changes and international tax compliance",
+    "Trade sanctions and export/import restrictions",
+    "Renewable Fuel Standard and biofuel policy changes (Clean Fuels Production Tax Credit)",
+    "Environmental regulations including GHG emissions and carbon pricing programs",
+    "Food safety and product labeling regulations",
+    "Antitrust and competition law compliance",
+    "Data privacy and security regulations (GDPR and similar)",
+    "Genetically modified organism (GMO) regulations",
+    "Sustainability and traceability requirements",
+    "State and local environmental, health, and safety regulations",
+    "Agricultural subsidy and government program changes",
+    "Tariffs and trade agreement modifications"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China",
+      "Brazil",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions exposure from ongoing Russia-Ukraine war",
+      "Risk of trading with sanctioned partners due to volume of sanctions against Russia",
+      "Potential asset expropriation in conflict regions",
+      "Cross-border payment transaction restrictions",
+      "Export control violations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Ag Services and Oilseeds": 0.778,
+    "Carbohydrate Solutions": 0.131,
+    "Nutrition": 0.086,
+    "Other Business": 0.005
+  }
+}

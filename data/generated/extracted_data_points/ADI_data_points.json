@@ -1,0 +1,128 @@
+{
+  "ticker": "ADI",
+  "company_name": "Analog Devices, Inc.",
+  "company_type": "Semiconductor",
+  "geography": {
+    "regions": [
+      "United States",
+      "Rest of North and South America",
+      "Europe",
+      "Japan",
+      "China",
+      "Rest of Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Germany",
+      "Sweden",
+      "Israel",
+      "Netherlands",
+      "Ireland",
+      "Japan",
+      "China",
+      "Taiwan",
+      "Malaysia",
+      "South Korea",
+      "Singapore",
+      "Philippines",
+      "Thailand",
+      "United Kingdom",
+      "Russia",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.3,
+      "Rest of North and South America": 0.01,
+      "Europe": 0.22,
+      "Japan": 0.12,
+      "China": 0.23,
+      "Rest of Asia": 0.13
+    },
+    "assets_by_region": {
+      "United States": 0.56,
+      "Ireland": 0.18,
+      "Philippines": 0.14,
+      "Thailand": 0.06,
+      "Malaysia": 0.03,
+      "All other regions": 0.03
+    }
+  },
+  "segments": [
+    "Industrial",
+    "Automotive",
+    "Communications",
+    "Consumer"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Taiwan Semiconductor Manufacturing Company (TSMC)"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Ireland",
+      "Philippines",
+      "Thailand",
+      "Malaysia",
+      "Taiwan"
+    ],
+    "dependencies": "More than half of wafer requirements sourced from third-party foundries including TSMC. Single-source suppliers for highly specialized processing services or materials. Tensions across Taiwan Strait could disrupt TSMC operations.",
+    "risks": "Limited or delayed access to raw materials and supplies due to global trade issues, supply chain constraints, natural disasters, public health emergencies. Concentration risk with TSMC and other foundries. Inability of key suppliers to deliver sufficient quantities could force engagement of replacement suppliers resulting in delays.",
+    "supplier_concentration": {
+      "Distributor 1": 0.24,
+      "Distributor 2": 0.12,
+      "Distributor 3": 0.12
+    }
+  },
+  "regulatory_risks": [
+    "Export Administration Regulations compliance",
+    "International Traffic and Arms Regulations compliance",
+    "Customs and export regulations including restrictions on exports to certain companies or third parties doing business with such companies",
+    "Export classifications changes",
+    "Duties and tariffs including with respect to China",
+    "CHIPS and Science Act of 2022 compliance and performance obligations",
+    "Tax law changes in U.S., Ireland and worldwide",
+    "Price protection and competition practices regulations",
+    "Anti-boycott regulations",
+    "AI regulations including European Union AI Act",
+    "Data privacy regulations including GDPR, PIPL, CCPA",
+    "Cybersecurity regulations including SEC disclosure requirements",
+    "Environmental regulations including PFAS restrictions",
+    "Health and safety standards (ISO 14001:2015, ISO 45001:2018)",
+    "Substance content regulations and conflict minerals reporting",
+    "ESG disclosure requirements",
+    "Antitrust regulations",
+    "Foreign Corrupt Practices Act compliance",
+    "Immigration laws and procedures",
+    "U.S. government contracting regulations including Federal Acquisition Regulations",
+    "Cybersecurity Maturity Model Certification requirements",
+    "Health Insurance Portability and Accountability Act (HIPAA) for digital healthcare solutions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed by governments in countries where company does business",
+      "Export restrictions limiting ability to sell to certain Chinese companies",
+      "Export restrictions to third parties doing business with restricted Chinese companies",
+      "Potential reputational damage from unauthorized misuse of U.S. chips in Russian weapon systems",
+      "U.S.-China trade tensions and potential tariffs from incoming administration",
+      "Risk of being viewed as unreliable supplier due to export restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Industrial": 0.46,
+    "Automotive": 0.3,
+    "Communications": 0.11,
+    "Consumer": 0.13
+  }
+}

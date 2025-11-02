@@ -1,0 +1,92 @@
+{
+  "ticker": "FOXA",
+  "company_name": "Fox Corporation",
+  "company_type": "News, Sports and Entertainment",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Caribbean",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Cable Network Programming",
+    "Television",
+    "Credible",
+    "FOX Studio Lot"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": [
+      "Limited number of communications satellites available for transmission of programming",
+      "Dependence on satellite systems to transmit broadcast and cable networks to affiliates",
+      "Reliance on third-party MVPDs for distribution",
+      "Dependence on third-party measurement services like Nielsen for audience ratings"
+    ],
+    "risks": [
+      "Failure or destruction of satellites or transmitter facilities could materially adversely affect business",
+      "FCC reallocation of C-Band satellite transmission spectrum reducing availability",
+      "Disruption of satellite transmissions due to local disasters, extreme weather, power outages, terrorist attacks, cyberattacks",
+      "Limited number of communications satellites available",
+      "Potential further reallocation of remaining C-Band spectrum for commercial wireless services"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulations governing television broadcasting and station licensing",
+    "National television ownership rule limiting audience reach to 39% with UHF discount",
+    "Foreign ownership restrictions limiting non-U.S. ownership to 25% without FCC waiver",
+    "Must-carry and retransmission consent regulations",
+    "Children's programming requirements and commercial limitations",
+    "FCC content regulations prohibiting obscene material and restricting indecent/profane material",
+    "Closed captioning and audio description requirements",
+    "FTC regulations on advertising practices and disclosures",
+    "State legislation on AI disclosure in political advertising",
+    "ATSC 3.0 broadcast transmission standard transition and simulcast requirements",
+    "Children's Online Privacy Protection Act (COPPA)",
+    "Video Privacy Protection Act (VPPA)",
+    "Telephone Consumer Protection Act",
+    "Gramm-Leach-Bliley Act",
+    "California Consumer Privacy Act (CCPA) and California Consumer Privacy Rights Act (CPRA)",
+    "State privacy laws in Virginia, Colorado, Connecticut, Utah and over a dozen other states",
+    "EU General Data Protection Regulation (GDPR)",
+    "UK, Canada, Australia, China, Mexico data protection legislation",
+    "U.S. Department of Justice rule on transfer of U.S. sensitive personal data to countries of concern",
+    "Data breach notification legislation in all 50 states",
+    "Truth-in-Lending Act, Equal Credit Opportunity Act, Fair Credit Reporting Act, Fair Housing Act, RESPA for Credible operations",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "SAFE Act mortgage licensing requirements",
+    "State insurance licensing laws",
+    "FCC dual network rules prohibiting common ownership of major broadcast networks",
+    "Political advertising regulations and record retention requirements",
+    "Emergency Alert System compliance requirements",
+    "Potential changes to national ownership cap and UHF discount",
+    "FCC review of foreign ownership compliance in license renewal applications",
+    "Potential elimination or modification of retransmission consent rules"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "North Korea",
+      "Russia"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Ongoing tensions with China, North Korea, Russia and other nation states may lead to cyberattacks",
+      "Conflicts in the Middle East and Europe may lead to cyberattacks or actions negatively impacting systems",
+      "Nation state-sponsored cyberattacks and activities pose increasing risks to systems"
+    ]
+  }
+}

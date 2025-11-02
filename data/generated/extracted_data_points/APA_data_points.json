@@ -1,0 +1,127 @@
+{
+  "ticker": "APA",
+  "company_name": "APA Corporation",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "United States",
+      "Egypt",
+      "North Sea (United Kingdom)",
+      "Suriname",
+      "Uruguay",
+      "Alaska"
+    ],
+    "countries": [
+      "United States",
+      "Egypt",
+      "United Kingdom",
+      "Suriname",
+      "Uruguay"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.53,
+      "Egypt": 0.36,
+      "North Sea": 0.11
+    },
+    "assets_by_region": {
+      "United States": 0.715,
+      "Egypt": 0.186,
+      "North Sea": 0.068,
+      "Other": 0.031
+    }
+  },
+  "segments": [
+    "United States",
+    "Egypt",
+    "North Sea",
+    "Suriname"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Drilling rigs and equipment availability",
+      "Third-party gathering and transmission services",
+      "Pipeline capacity and infrastructure",
+      "Offshore platform and vessel availability",
+      "Specialized oilfield services and equipment"
+    ],
+    "risks": [
+      "Pipeline and gathering system capacity constraints",
+      "Transportation interruptions",
+      "Weather conditions impacting offshore operations",
+      "Equipment failures or accidents",
+      "Shortages or delays in availability of drilling rigs, equipment, and labor",
+      "Increases in cost of drilling rigs, equipment, and labor",
+      "Cyberattacks targeting oil and gas distribution systems"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, and local laws and regulations restricting production",
+    "Changes in taxes and other amounts payable to governments",
+    "Price or gathering rate controls",
+    "Environmental protection laws and regulations",
+    "Security for plugging, abandonment, and decommissioning obligations in Gulf of America",
+    "Hydraulic fracturing regulations",
+    "Methane emissions regulations",
+    "Flaring regulations",
+    "Water disposal regulations",
+    "Greenhouse gas (GHG) cap-and-trade programs",
+    "Carbon taxes",
+    "Reporting and tracking programs for emissions",
+    "Restriction of emissions",
+    "Electric vehicle mandates",
+    "Combustion engine phaseouts",
+    "EPA proposed rule to assess charge on certain methane emissions",
+    "Bureau of Ocean Energy Management (BOEM) requirements for supplemental assurances of performance for Gulf of America decommissioning",
+    "Bureau of Safety and Environmental Enforcement (BSEE) decommissioning orders",
+    "Energy Profits Levy (EPL) in United Kingdom - 35% levy on oil and gas profits (effective January 1, 2023 through March 31, 2028)",
+    "Proposed U.K. changes to increase EPL to 38% and extend through March 31, 2030",
+    "U.K. infrastructure modernization requirements",
+    "Corporate Alternative Minimum Tax (CAMT) - 15% on applicable corporations (effective January 1, 2024)",
+    "OECD Pillar Two Model Rules - global minimum tax of 15%",
+    "Changes to tax laws affecting oil and gas exploration and development",
+    "Repeal of percentage depletion allowance proposals",
+    "Elimination of current deductions for intangible drilling and development costs proposals",
+    "Extension of amortization period for geological and geophysical expenditures proposals",
+    "State and local coastal resources management regulations",
+    "Louisiana restoration lawsuits and coastal zone regulations",
+    "Environmental remediation requirements",
+    "Climate change legislation and regulations",
+    "ESG (Environmental, Social, and Governance) disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Egypt",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade tensions between U.S. and other countries",
+      "Actions taken by OPEC and OPEC+ affecting oil supply and prices",
+      "Russian war in Ukraine impacting global markets",
+      "Armed conflict in Israel and Gaza",
+      "Political and economic instability in Egypt",
+      "Foreign currency shortage in Egypt affecting payments from EGPC",
+      "Potential expropriation and resource nationalization risks",
+      "Forced renegotiation or modification of existing contracts",
+      "Changes in laws and regulations in foreign jurisdictions",
+      "Import and export regulations",
+      "Exchange controls and currency fluctuations",
+      "Terrorism and cyberattacks",
+      "Border disputes affecting oil and gas properties",
+      "Government sanctioning requirements for development activities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Oil": 0.85,
+    "Natural Gas": 0.07,
+    "Natural Gas Liquids": 0.08
+  }
+}

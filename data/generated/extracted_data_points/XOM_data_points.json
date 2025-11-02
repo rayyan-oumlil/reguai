@@ -1,0 +1,112 @@
+{
+  "ticker": "XOM",
+  "company_name": "Exxon Mobil Corporation",
+  "company_type": "Oil and Gas",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada/Other Americas",
+      "Europe",
+      "Africa",
+      "Asia",
+      "Australia/Oceania"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Argentina",
+      "Brazil",
+      "Guyana",
+      "Germany",
+      "Netherlands",
+      "United Kingdom",
+      "Angola",
+      "Mozambique",
+      "Nigeria",
+      "Azerbaijan",
+      "Indonesia",
+      "Kazakhstan",
+      "Malaysia",
+      "Qatar",
+      "Thailand",
+      "United Arab Emirates",
+      "Australia",
+      "Papua New Guinea",
+      "France",
+      "Singapore",
+      "China",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Upstream",
+    "Energy Products",
+    "Chemical Products",
+    "Specialty Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "dependencies": [
+      "Caspian Pipeline Consortium (CPC) for Kazakhstan oil exports through Russia",
+      "Long-term LNG supply contracts",
+      "Third-party drilling rigs and equipment",
+      "Shipping and transportation infrastructure"
+    ],
+    "risks": [
+      "Transportation disruption of Kazakhstan production through CPC pipeline due to geopolitical issues",
+      "Supply chain disruptions",
+      "Logistics constraints or unexpected unavailability of distribution channels",
+      "Concentration risk in certain geographic regions",
+      "Dependence on co-venturer funding capacity"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in taxes, duties, or government royalty rates including retroactive claims and windfall profit taxes",
+    "Price controls",
+    "Changes in environmental regulations affecting offshore drilling, decommissioning, water use, emissions, hydraulic fracturing, production or use of plastics",
+    "Actions to delay or deny necessary licenses and permits",
+    "Restrictions on oil and gas leases or transportation/export of products",
+    "Adoption of regulations mandating efficiency standards, emission standards, use of alternative fuels",
+    "Greenhouse gas emission regulations including cap and trade regimes, carbon taxes, carbon-based import duties",
+    "Disclosure regulations creating competitive disadvantages or requiring competitively sensitive information",
+    "Government actions to cancel contracts, redenominate currency, renounce obligations, or expropriate assets",
+    "Punitive European taxes on oil and gas sector",
+    "Climate change regulations and net-zero policies",
+    "Trade sanctions and trade controls",
+    "Restrictions on foreign investment in oil and gas sector",
+    "Lack of legal certainty in some jurisdictions with undeveloped legal systems",
+    "Litigation targeting the Company or industry to reduce hydrocarbon production",
+    "Government-mandated production curtailments",
+    "Additional European taxes on the energy sector"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Kazakhstan",
+      "Nigeria",
+      "Angola",
+      "Mozambique",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Restrictions on doing business in certain countries due to US and other jurisdiction sanctions",
+      "Russia sanctions and expropriation of Sakhalin-1 project",
+      "Potential disruption of Kazakhstan oil transportation through Russia due to military conflict",
+      "Trade sanctions and trade controls restricting business activities",
+      "Import/export restrictions based on point of origin"
+    ]
+  }
+}

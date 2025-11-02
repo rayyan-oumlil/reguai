@@ -1,0 +1,85 @@
+{
+  "ticker": "CPT",
+  "company_name": "Camden Property Trust",
+  "company_type": "Real Estate Investment Trust (REIT) - Multifamily Properties",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Houston, Texas": 0.154,
+      "Washington, D.C. Metro": 0.122,
+      "Dallas, Texas": 0.082,
+      "Atlanta, Georgia": 0.07,
+      "Phoenix, Arizona": 0.068,
+      "Orlando, Florida": 0.059,
+      "Raleigh, North Carolina": 0.058,
+      "Charlotte, North Carolina": 0.058,
+      "Southeast Florida": 0.058,
+      "Tampa, Florida": 0.055,
+      "Austin, Texas": 0.054,
+      "Los Angeles/Orange County, California": 0.051,
+      "Denver, Colorado": 0.047,
+      "San Diego/Inland Empire, California": 0.036,
+      "Nashville, Tennessee": 0.028
+    },
+    "assets_by_region": {
+      "Houston, Texas": 0.154,
+      "Washington, D.C. Metro": 0.122,
+      "Dallas, Texas": 0.082,
+      "Atlanta, Georgia": 0.07,
+      "Phoenix, Arizona": 0.068,
+      "Orlando, Florida": 0.059,
+      "Raleigh, North Carolina": 0.058,
+      "Charlotte, North Carolina": 0.058,
+      "Southeast Florida": 0.058,
+      "Tampa, Florida": 0.055,
+      "Austin, Texas": 0.054,
+      "Los Angeles/Orange County, California": 0.051,
+      "Denver, Colorado": 0.047,
+      "San Diego/Inland Empire, California": 0.036,
+      "Nashville, Tennessee": 0.028
+    }
+  },
+  "segments": [
+    "Multifamily apartment communities ownership",
+    "Multifamily apartment communities management",
+    "Multifamily apartment communities development",
+    "Multifamily apartment communities reposition",
+    "Multifamily apartment communities redevelopment",
+    "Multifamily apartment communities acquisition",
+    "Multifamily apartment communities construction"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on contractors and subcontractors for development and construction activities; dependence on materials and labor supply for construction projects",
+    "risks": "Disruptions in the supply of materials or labor; increased materials and labor costs; problems with contractors or subcontractors; shortages of materials; errors and omissions in design or construction process",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rent control or rent stabilization laws and regulations in certain states and local municipalities",
+    "Restrictions on amounts of rent increases",
+    "Limitations on ability to enforce contractual rental obligations",
+    "Restrictions on ability to charge certain fees",
+    "Restrictions on eviction of residents",
+    "Inability to recover increases in operating expenses",
+    "Difficulty in disposing of properties in certain circumstances due to rent control laws",
+    "Zoning, land-use, building, occupancy permit requirements",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Requirement to distribute annual dividends to shareholders equal to minimum of 90% of adjusted taxable income",
+    "Federal and state income tax risks if REIT qualification fails",
+    "State and local income, franchise, and excise taxes",
+    "Changes in tax laws and administrative interpretations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "MTB",
+  "company_name": "M&T Bank Corporation",
+  "company_type": "Financial Services - Banking",
+  "geography": {
+    "regions": [
+      "Northeastern United States",
+      "Mid-Atlantic United States"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commercial Bank",
+    "Retail Bank",
+    "Institutional Services and Wealth Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [],
+    "risks": [],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in federal and state banking regulations and supervision",
+    "Capital and liquidity requirements under Basel III and Dodd-Frank Act",
+    "Enhanced prudential standards for banks with $100 billion or more in assets",
+    "Stress testing requirements and capital planning restrictions",
+    "Resolution planning and long-term debt requirements",
+    "Consumer protection laws and CFPB supervision",
+    "CRA (Community Reinvestment Act) compliance requirements",
+    "BSA/AML (Bank Secrecy Act/Anti-Money Laundering) obligations",
+    "OFAC (Office of Foreign Assets Control) sanctions compliance",
+    "Privacy and cybersecurity regulations including NYSDFS cybersecurity requirements",
+    "Climate-related disclosure and risk management requirements",
+    "Interchange fee regulations and potential reductions",
+    "Overdraft fee regulations and restrictions",
+    "FDIC special assessments and increased deposit insurance costs",
+    "Federal Reserve monetary policy changes affecting interest rates",
+    "State-level banking and consumer protection regulations",
+    "SEC climate disclosure rules",
+    "Volcker Rule restrictions on proprietary trading",
+    "Executive compensation regulations and clawback requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Potential penalties for sanctions violations"
+    ]
+  }
+}

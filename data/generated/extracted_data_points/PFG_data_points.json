@@ -1,0 +1,119 @@
+{
+  "ticker": "PFG",
+  "company_name": "Principal Financial Group, Inc.",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "Middle East",
+      "Asia",
+      "Africa",
+      "United States",
+      "Europe",
+      "Latin America"
+    ],
+    "countries": [
+      "Indonesia",
+      "Oregon",
+      "Puerto Rico",
+      "Thailand",
+      "Mexico",
+      "Australia",
+      "California",
+      "United States",
+      "Canada",
+      "Brazil",
+      "Hong Kong",
+      "Delaware",
+      "Singapore",
+      "China",
+      "Chile",
+      "Iowa",
+      "Arizona",
+      "Malaysia",
+      "New Zealand",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Corporate",
+    "Retirement and Income Solutions",
+    "Principal Asset Management",
+    "Benefits and Protection"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Relies on external infrastructure, proprietary information technology and third party systems and services including cloud service providers for business operations",
+    "risks": [
+      "Loss of or disruption in key vendor relationships, failure of vendors to protect customer/employee information, cybersecurity threats from vendors, reliance on third party service providers for critical operations",
+      "Cybersecurity threats, operational risks from third-party vendors, technology system failures"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Accounting standards changes (U.S. GAAP)",
+    "U.S. federal and state insurance regulations",
+    "International insurance regulations in operating jurisdictions",
+    "Environmental laws (U.S. federal, state, local and international)",
+    "Securities laws and SEC regulations",
+    "AI regulations (EU AI Act, Colorado AI Act)",
+    "Banking regulations (FDIC, Office of the Comptroller of the Currency)",
+    "Tax law changes (U.S. federal, state, international, OECD base erosion and profit shifting)",
+    "Corporate alternative minimum tax (CAMT) under IRA 2022",
+    "Principle-based reserving (PBR) implementation",
+    "Department of Labor investigations",
+    "Trust regulations (Delaware, Oregon)",
+    "Executive orders from U.S. President",
+    "International Association of Insurance Supervisors (IAIG) framework",
+    "International regulatory requirements in Chile, Mexico, Hong Kong, Brazil",
+    "Tax law changes and interpretations",
+    "ESG regulatory requirements",
+    "Delaware corporate law restrictions",
+    "Pillar Two global minimum tax (15% OECD rules)",
+    "Solvency regulations under Iowa Insurance Law",
+    "SEC regulatory inquiries",
+    "Risk-based capital (RBC) requirements",
+    "NAIC risk-based capital (RBC) requirements and reserve standards",
+    "Changes in insurance laws and regulations",
+    "FINRA regulations",
+    "Guaranty fund assessment obligations",
+    "Foreign withholding taxes",
+    "Securities laws and regulations compliance",
+    "State insurance guaranty association assessments",
+    "ERISA compliance requirements",
+    "Bermuda Monetary Authority (BMA) regulatory approval requirements",
+    "State insurance department examinations",
+    "Iowa insurance holding company laws and dividend restrictions",
+    "ERISA and DOL regulations for employee benefit plans",
+    "FINRA regulatory oversight",
+    "Inflation Reduction Act of 2022 (corporate alternative minimum tax, excise tax on stock repurchases)",
+    "Privacy and data protection laws (EU GDPR, CCPA, CPRA, NY DFS Part 500, China Cybersecurity Law, China Personal Information Protection Law)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Chile",
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Exchange controls or restrictions preventing fund transfers from foreign operations",
+      "Risk of discriminatory regulation, nationalization or expropriation of assets in international operations",
+      "Rising geopolitical tension and competing legal requirements between U.S. and other countries such as China",
+      "Political instability and social unrest in international markets",
+      "Judicial and regulatory reforms in Mexico creating uncertainty for investors regarding rule of law",
+      "Increased strategic competition between U.S. and China may negatively impact international businesses",
+      "Chilean government pension system reform proposals"
+    ]
+  },
+  "revenue_by_segment": {
+    "Retirement and Income Solutions": 0.51,
+    "Principal Asset Management": 0.18,
+    "Benefits and Protection": 0.31,
+    "Corporate": 0.005
+  }
+}

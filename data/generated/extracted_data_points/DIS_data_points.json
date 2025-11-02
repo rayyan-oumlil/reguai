@@ -1,0 +1,93 @@
+{
+  "ticker": "DIS",
+  "company_name": "The Walt Disney Company",
+  "company_type": "Diversified Entertainment and Media",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "France",
+      "Hong Kong",
+      "China",
+      "Japan",
+      "India",
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "United Kingdom",
+      "Germany",
+      "Italy",
+      "Mexico",
+      "Netherlands",
+      "Spain",
+      "Australia",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Russia",
+      "Morocco",
+      "Norway",
+      "South Korea",
+      "Taiwan",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Entertainment",
+    "Sports",
+    "Experiences"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "India",
+      "Various international jurisdictions"
+    ],
+    "dependencies": "The Company depends on third-party suppliers for products and services essential to operations. Licensing operations depend on third-party manufacturers, game developers, publishers and retailers for merchandise production and distribution. Theme parks and resorts depend on third-party suppliers for goods and services.",
+    "risks": "Supply chain disruptions mentioned as potential impact on operations. Consolidation and market conditions in cable/satellite/telecommunications distribution industry may adversely affect programming distribution terms. Competition for creative talent, sports programming rights, and production facilities. Dependence on third-party licensees and sellers for merchandise licensing revenues. Significant contraction of distribution channels could adversely impact profitability.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulation of television and radio networks, programming networks and owned television stations including licensing requirements, ownership limits, dual network restrictions, foreign ownership restrictions, and programming content regulation",
+    "Privacy and data protection laws including GDPR (EU/UK), state-level comprehensive data privacy laws (California and other U.S. states), children's online privacy laws (COPPA, UK Age Appropriate Design Code)",
+    "Data breach notification requirements in U.S. states and international jurisdictions",
+    "International content regulations requiring minimum local content production, investment in local content, or content produced by local independent production companies (EU, Canada)",
+    "Content regulation laws impacting ability to distribute certain films and programming in specific jurisdictions",
+    "Safety and supply chain regulations for consumer products and theme park operations",
+    "Land planning, use and development regulations for theme parks",
+    "Environmental protection regulations",
+    "U.S. and international anti-corruption laws, sanction programs, trade restrictions, anti-money laundering laws, currency controls",
+    "Domestic and international labor laws, tax laws and antitrust laws",
+    "Potential new regulations limiting international trade and investment",
+    "Uncertain legal and regulatory landscape for new technologies including AI and streaming services",
+    "State government legislation targeted at specific sectors and companies",
+    "Novel applications of existing laws to new technologies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "India",
+      "Hong Kong"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and other countries implemented sanctions against Russia in response to events in Russia and Ukraine in 2022",
+      "U.S. agencies have enhanced trade restrictions including new prohibitions on importation of goods from certain regions",
+      "Company paused certain operations in certain regions in response to sanctions, trade restrictions and related developments",
+      "Profitability of certain operations impacted by events in corresponding regions",
+      "Ongoing developments in international political, trade and security policy may lead to new regulations limiting international trade and investment",
+      "Economic or political conditions in certain countries have reduced and could continue to reduce ability to hedge currency exposure or repatriate revenue"
+    ]
+  }
+}

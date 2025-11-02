@@ -1,0 +1,109 @@
+{
+  "ticker": "TXT",
+  "company_name": "Textron Inc.",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Germany",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "China",
+      "India",
+      "Japan",
+      "Australia",
+      "Brazil",
+      "France",
+      "Italy",
+      "Spain",
+      "Poland",
+      "Czech Republic",
+      "Romania",
+      "South Korea",
+      "Singapore",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "South Africa",
+      "Argentina",
+      "Chile",
+      "Colombia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Textron Aviation",
+    "Bell",
+    "Textron Systems",
+    "Industrial",
+    "Textron eAviation",
+    "Finance"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Germany",
+      "Canada",
+      "Mexico",
+      "Poland",
+      "Czech Republic",
+      "China",
+      "India",
+      "Brazil",
+      "South Korea"
+    ],
+    "dependencies": "Reliance on subcontractors and suppliers for raw materials, major components and subsystems; single or limited source suppliers for certain vendor parts certified by regulatory agencies; dependence on timely delivery and quality from suppliers to meet contractual obligations",
+    "risks": "Supplier performance issues including inability to meet specifications, production delays, material shortages, labor shortages, inflationary pressures, financial problems of suppliers, natural disasters, acts of war affecting suppliers; manufacturing inefficiencies and production delays due to shortages and delays of critical components; cost increases for materials and components; certification requirements for vendor parts in aircraft industry creating risk of production line stoppage if vendor cannot supply parts",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Government contract termination for convenience or default",
+    "U.S. Government suspension or debarment from contracting",
+    "Compliance with U.S. Government procurement regulations including cost and pricing data certification, allowable costs definitions, safeguarding classified and covered defense information, export restrictions",
+    "Changes in U.S. Government procurement requirements or regulations including cybersecurity regulations",
+    "Defense Contract Audit Agency (DCAA) and Defense Contract Management Agency (DCMA) audits and reviews with potential for civil and criminal penalties, contract termination, profit forfeiture, payment suspension or withholding, fines, suspension or debarment",
+    "FAA certification requirements for new aircraft products and modifications",
+    "European Aviation Safety Agency (EASA) and other international aviation regulatory authority requirements",
+    "Maintenance facility and aftermarket services compliance with FAA and international regulations",
+    "Type certificate and certificate of airworthiness requirements for aircraft manufacturing and sales",
+    "U.S. Consumer Product Safety Commission (CPSC) regulations for consumer products with potential for product repair, replacement, refund, recall, discontinuation, or fines",
+    "Environmental laws and regulations including potential for increased capital expenditures and operating costs",
+    "Export control laws requiring licenses and authorizations from U.S. Government agencies for international sales of aerospace and defense products",
+    "Foreign import and export regulations",
+    "Economic sanctions and trade restrictions",
+    "International trade policy changes including tariffs and renegotiation of free trade agreements",
+    "Foreign investment laws",
+    "Data privacy and protection laws with increasing complexity",
+    "Employment and environmental, health and safety regulations with increasing complexity internationally",
+    "Cybersecurity Maturity Model Certification (CMMC) requirements for U.S. defense contractors",
+    "Defense Federal Acquisition Regulation Supplement (DFARS) requirements for safeguarding controlled unclassified information (CUI)",
+    "Foreign Corrupt Practices Act compliance requirements",
+    "Climate change related reporting requirements including environmental metrics, climate risks, financial impacts, and supply chain oversight",
+    "Greenhouse gas emissions limits, carbon pricing mechanisms, and energy taxes",
+    "New aviation regulations for aircraft security or operational restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions impacting international sales and operations",
+      "Export restrictions on technology transfer",
+      "Compliance with U.S. and foreign sanctions programs",
+      "Retaliatory tariffs imposed by foreign countries against U.S. goods"
+    ]
+  }
+}

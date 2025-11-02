@@ -1,0 +1,74 @@
+{
+  "ticker": "CNC",
+  "company_name": "Centene Corporation",
+  "company_type": "Managed Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Medicaid",
+    "Medicare",
+    "Commercial",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "State-operated systems and subcontractors for member eligibility, enrollment and assignment",
+      "Third-party vendors for PBM, medical management and member-related services",
+      "Healthcare providers including primary care physicians, specialists, hospitals, behavioral health practitioners",
+      "Independent third-party vendors for information systems and networks"
+    ],
+    "risks": [
+      "Ineffectiveness of state-operated systems and subcontractors could adversely affect business",
+      "Third-party vendor failures to meet contractual obligations or comply with laws could expose company to litigation and regulatory action",
+      "Inability to maintain relationships with provider networks could materially adversely affect profitability",
+      "Inability to integrate and manage information systems effectively could disrupt operations",
+      "Failure in or breach of operational or security systems including cyber-attacks could have material adverse effect"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in federal or state laws or regulations including changes to ACA and government healthcare programs",
+    "Reductions or delays in funding for government-sponsored healthcare programs",
+    "Changes to eligibility requirements for Medicaid, Medicare, CHIP, LTSS, ABD, Foster Care and Health Insurance Marketplace",
+    "Expiration of enhanced advance premium tax credits for Marketplace members without renewal or modification",
+    "Significant changes or judicial challenges to the ACA",
+    "New laws or regulations or changes in existing laws forcing changes to operations",
+    "Premium taxes, assessments and provider pass-through payment requirements by states",
+    "Minimum medical loss ratio (MLR) requirements and profit sharing requirements",
+    "Performance and quality metrics requirements to maintain contracts or receive full revenue",
+    "Minimum statutory capital and financial solvency requirements",
+    "State insurance holding company acts restrictions on transactions and dividends",
+    "CMS Medicare Advantage Star ratings requirements and potential contract termination for ratings below 3.0 stars for three consecutive years",
+    "Risk adjustment payment systems and audit requirements",
+    "Encounter data submission requirements and potential penalties for non-compliance",
+    "Federal and state fraud, waste and abuse laws including False Claims Act and anti-kickback statutes",
+    "HIPAA privacy and security requirements and breach notification requirements",
+    "Data privacy and security laws including state laws like California Consumer Privacy Act (CCPA)",
+    "Payment Card Industry Data Security Standard compliance",
+    "Artificial intelligence and automation regulatory requirements",
+    "Pharmacy benefits management regulatory risks and uncertainties",
+    "Government contract award, administration and performance requirements",
+    "State licensure requirements for HMOs, PPOs, TPAs, pharmacies and healthcare providers",
+    "NAIC model laws requiring governance practices and risk-based capital requirements",
+    "Knox-Keene tangible net equity (TNE) requirements in California",
+    "New York contingent reserve requirements",
+    "CMS regulations requiring dual-eligible beneficiaries to receive integrated care through D-SNPs beginning in 2030 with restrictions starting in 2027"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

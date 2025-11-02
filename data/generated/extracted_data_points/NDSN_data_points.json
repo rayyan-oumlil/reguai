@@ -1,0 +1,107 @@
+{
+  "ticker": "NDSN",
+  "company_name": "Nordson Corporation",
+  "company_type": "Precision Technology Manufacturing",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Central America",
+      "South America",
+      "Germany",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Netherlands",
+      "United Kingdom",
+      "China",
+      "Japan",
+      "South Korea",
+      "India",
+      "Singapore",
+      "Australia",
+      "Taiwan",
+      "Hong Kong",
+      "Argentina",
+      "Brazil"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Industrial Precision Solutions",
+    "Medical and Fluid Solutions",
+    "Advanced Technology Solutions",
+    "Industrial Coatings",
+    "Measurement and Control Solutions",
+    "Nonwovens",
+    "Packaging",
+    "Polymer Processing",
+    "Precision Agriculture",
+    "Product Assembly",
+    "Medical",
+    "Fluid Management",
+    "Electronics Systems",
+    "Test and Inspection"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Germany",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Mexico",
+      "Netherlands",
+      "United Kingdom",
+      "India"
+    ],
+    "dependencies": "Principal materials used are metals and plastics. Most significant raw materials available through multiple sources. Purchase raw materials and components on open market and rely on third parties for certain finished goods.",
+    "risks": "Cost of products sold may be affected by changes in market price of raw materials and tariffs on certain raw materials, particularly imports from China. Disruptions in availability of raw materials, components and sourced finished goods. Supply chain disruptions from geopolitical tensions, conflicts in Europe and Middle East, and COVID-19 pandemic impacts.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Import and export controls compliance",
+    "Data privacy regulations including GDPR and CCPA",
+    "Environmental regulations on air and water emissions, waste management and climate change",
+    "Product safety regulations",
+    "Corruption and bribery laws including FCPA and UK Bribery Act",
+    "Employment and labor regulations",
+    "Trade laws and sanctions compliance",
+    "FDA regulations for medical products",
+    "Changes in tax laws and regulations",
+    "Transfer pricing restrictions",
+    "Tariff changes and trade policy modifications",
+    "Environmental compliance costs and remediation obligations",
+    "Strict liability for hazardous substance contamination",
+    "Permit and license requirements for manufacturing operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade Laws may impact ability to transact business involving certain countries, items or counterparties",
+      "Sanctions compliance requirements",
+      "Conflicts in Europe and Middle East creating increased volatility",
+      "US-China trade tensions and tariff impacts",
+      "Proposed significant tariff increases on foreign imports from Canada, China and Mexico by incoming US administration",
+      "Exchange controls and currency devaluations",
+      "Political instability and threats of war or terrorism",
+      "Brexit-related currency volatility and regulatory changes"
+    ]
+  }
+}

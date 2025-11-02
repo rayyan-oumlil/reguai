@@ -1,0 +1,90 @@
+{
+  "ticker": "ATO",
+  "company_name": "Atmos Energy Corporation",
+  "company_type": "Natural Gas Distribution and Pipeline",
+  "geography": {
+    "regions": [
+      "South",
+      "Midwest"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Distribution",
+    "Pipeline and Storage"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cima Energy, LP",
+      "ConocoPhillips Company",
+      "EnLink Gas Marketing LP",
+      "Enterprise Navitas Midstream Midland Basin LLC",
+      "Hartree Partners, L.P.",
+      "Sequent Energy Management LLC",
+      "Symmetry Energy Solutions, LLC",
+      "Targa Gas Marketing LLC",
+      "Tenaska Marking Ventures",
+      "Texla Energy Management, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "34 pipeline transportation companies for natural gas delivery",
+      "Interstate and intrastate pipelines for gas transportation",
+      "Underground storage facilities in multiple states"
+    ],
+    "risks": [
+      "Substantial disruption to or reduction in interstate natural gas pipelines' transmission and storage capacity",
+      "Suppliers' inability to deliver contracted commodity",
+      "Inability to secure replacement gas quantities",
+      "Operational failures or disruptions in pipeline systems",
+      "Legislative or regulatory actions affecting pipeline capacity",
+      "Hurricanes, tornadoes, floods, extreme cold weather impacts",
+      "Terrorist or cyber-attacks on pipeline infrastructure"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, and local regulations affecting operations and financial results",
+    "FERC regulatory authority over interstate pipeline and storage capacity",
+    "FERC rules on market power abuse and market manipulation with increased penalties",
+    "Changes in FERC regulations or interpretation",
+    "Increased federal, state, and local oversight of safety operations",
+    "PHMSA pipeline integrity and safety regulations",
+    "Costs of complying with new laws and regulations",
+    "Environmental regulations on discharges, hazardous waste, groundwater quality",
+    "Plant and wildlife protection regulations",
+    "Employee health and safety work practices regulations",
+    "Facility operation, maintenance, abandonment, and reclamation requirements",
+    "Potential revision of existing environmental regulations",
+    "New environmental regulations on operations",
+    "Fines, penalties, or interruptions for non-compliance",
+    "Rate regulation by state and local regulatory authorities",
+    "Regulatory lag in traditional ratemaking process",
+    "Regulatory review and potential disallowance of costs",
+    "Modification or termination of rate mechanisms by regulators",
+    "Legislation to reduce or eliminate greenhouse gas emissions or fossil fuels",
+    "Federal, regional, and/or state legislative initiatives to control greenhouse gas emissions",
+    "Requirements to adopt new infrastructure or technology to limit emissions",
+    "Limits on ability to serve new or existing customers",
+    "Costs or restrictions on end users of natural gas",
+    "Additional charges to fund energy efficiency activities",
+    "Six of eight states passed legislation preventing local governments from limiting energy types",
+    "U.S. Department of Homeland Security TSA security directive for pipeline monitoring and control systems",
+    "Mandatory reporting measures for critical infrastructure",
+    "Cybersecurity coordinator designation requirements",
+    "Vulnerability assessments for pipeline infrastructure",
+    "Compliance with cybersecurity requirements",
+    "Potential enforcement actions for non-compliance with government regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

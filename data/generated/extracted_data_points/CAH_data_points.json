@@ -1,0 +1,134 @@
+{
+  "ticker": "CAH",
+  "company_name": "Cardinal Health, Inc.",
+  "company_type": "Healthcare Services and Products",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Asia",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Germany",
+      "Ireland",
+      "Japan",
+      "Malaysia",
+      "Malta",
+      "Mexico",
+      "Puerto Rico",
+      "Thailand",
+      "Costa Rica",
+      "Dominican Republic",
+      "China",
+      "Australia",
+      "United Kingdom",
+      "Philippines",
+      "Brazil",
+      "South Korea",
+      "Singapore",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.993,
+      "International": 0.007
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Pharmaceutical and Specialty Solutions",
+    "Global Medical Products and Distribution",
+    "Nuclear and Precision Health Solutions",
+    "at-Home Solutions",
+    "OptiFreight Logistics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "CVS Health Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Costa Rica",
+      "Dominican Republic",
+      "Germany",
+      "Ireland",
+      "Japan",
+      "Malaysia",
+      "Malta",
+      "Mexico",
+      "Puerto Rico",
+      "Thailand"
+    ],
+    "dependencies": [
+      "Reliance on many different suppliers with top five suppliers accounting for 37% of revenue",
+      "Largest supplier's products accounted for approximately 9% of revenue",
+      "Some components and raw materials procured from sole suppliers for quality assurance, cost effectiveness, or availability",
+      "Dependence on third-party manufacturers for some products",
+      "Stringent regulatory requirements may prevent quick establishment of alternative sources"
+    ],
+    "risks": [
+      "Supply interruptions or disruptions in manufacturing processes due to natural disasters, labor disputes, supplier facility shutdowns, defective raw materials, epidemics or pandemics, and government actions including import/export restrictions or tariffs",
+      "Inability to quickly establish additional or replacement sources due to stringent regulatory requirements",
+      "Sustained supply reduction or interruption could result in lost sales, increased cost, and damage to reputation",
+      "Recent U.S. tariffs on goods from countries where business is conducted and retaliatory actions could result in substantial additional costs",
+      "Supply constraints and shortages experienced due to tariffs and border protection actions",
+      "Commodity price fluctuations for oil-based resins, nitrile, cotton, diesel fuel, and latex",
+      "Higher supply chain costs experienced in fiscal 2021-2025 negatively impacting GMPD segment profit",
+      "Ethylene oxide (EtO) and per- and polyfluoroalkyl (PFA) compounds regulatory enforcement actions could increase costs or result in supply shortages"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Subject to regulation by DEA, FDA, Centers for Medicare and Medicaid Services, Office of Inspector General, Office for Civil Rights, state and local health departments, state boards of pharmacy, NRC, EPA, FTC, U.S. Customs and Border Protection, and comparable foreign agencies",
+    "Regulatory agencies can suspend ability to manufacture and distribute products, restrict ability to import products, require product recalls, seize products, or impose criminal, civil, and administrative sanctions",
+    "Controlled Substances Act (CSA) governs sale, packaging, storage, and distribution of controlled substances with DEA registration and state-level licenses required",
+    "National Opioid Settlement Agreement (NOSA) includes injunctive relief terms related to controlled substance anti-diversion programs with monitor oversight until 2027 and clearinghouse funding until 2032",
+    "Drug Quality and Security Act (DQSA) and Drug Supply Chain Security Act (DSCSA) require standardized unit-level traceability with compliance deadlines extended to May-November 2025",
+    "FDA and foreign governmental agencies regulate design, testing, safety, effectiveness, manufacturing, quality systems, labeling, promotion, distribution, and post-market surveillance of manufactured products",
+    "510(k) pre-market notification or PMA pre-market approval required for medical devices in the United States",
+    "EU Medical Device Regulation (MDR) effective May 2021 requires significant pre-market and post-market requirements",
+    "HIPAA and state laws regulate use and disclosure of patient-identifiable health information",
+    "State privacy laws grant consumer rights over personal information with comprehensive privacy legislation proposed at federal level",
+    "International privacy laws including EU GDPR, Canada's PIPEDA, Japan's APPI, and China's PIPL",
+    "NRC and state boards of pharmacy regulate nuclear pharmacies and radiopharmaceutical manufacturing facilities",
+    "FDA good manufacturing practices apply to radiopharmaceutical manufacturing facilities",
+    "Federal healthcare fraud and abuse laws prohibit inducements for ordering products paid by Medicare, Medicaid, or federally-funded programs",
+    "State healthcare fraud and abuse laws apply to Medicaid and state-funded programs",
+    "Medicare certification and participation in federal/state healthcare programs subject to accreditation, quality standards, reporting, billing, payment, and record-keeping requirements",
+    "Federal 340B drug pricing program requirements",
+    "U.S. federal and state government contract procurement requirements",
+    "Environmental laws regulating hazardous substances production/use and safe working conditions",
+    "Ethylene oxide (EtO) emissions regulations by environmental regulatory authorities to reduce emissions during sterilization and distribution",
+    "Antitrust laws at federal, state, and foreign levels prohibiting anti-competitive conduct",
+    "Export control and trade embargo laws requiring licenses or authorizations",
+    "U.S. Foreign Corrupt Practices Act, U.K. Bribery Act, and foreign anti-bribery laws prohibiting payments to foreign government officials",
+    "Uyghur Forced Labor Prevention Act prohibiting importation of goods from Xinjiang Uyghur Autonomous Region of China unless clear evidence of no forced labor",
+    "Executive Order 'Delivering Most-Favored Nation Prescription Drug Pricing to American Patients' may impact sales or profitability of branded pharmaceutical products",
+    "One Big Beautiful Bill Act (OBBBA) signed July 2025 includes broad tax reform provisions",
+    "State legislation proposed or adopted limiting, restricting, or prohibiting corporate entities from owning or managing physician practices directly or indirectly through MSOs (Oregon adopted legislation)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Recent U.S. tariffs imposed or threatened on goods, materials, and products from countries where business is conducted",
+      "Retaliatory or responsive actions by countries subject to tariffs",
+      "Import and export controls and trade embargo laws requiring licenses or authorizations for transactions in some countries or with some counterparties",
+      "Uyghur Forced Labor Prevention Act restrictions on imports from Xinjiang Uyghur Autonomous Region of China",
+      "Customs and Border Protection challenges to country of origin determinations resulting in detained or delayed products and potential fines and penalties"
+    ]
+  },
+  "revenue_by_segment": {
+    "Pharmaceutical and Specialty Solutions": 0.919,
+    "Global Medical Products and Distribution": 0.057,
+    "Other": 0.024
+  }
+}

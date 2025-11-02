@@ -1,0 +1,97 @@
+{
+  "ticker": "TECH",
+  "company_name": "Bio-Techne Corporation",
+  "company_type": "Life Sciences Tools and Diagnostics",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Greater China",
+      "EMEA",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "China",
+      "Switzerland",
+      "Germany",
+      "France",
+      "Ireland",
+      "Japan",
+      "India",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Protein Sciences",
+    "Diagnostics and Genomics",
+    "Reagent Solutions",
+    "Analytical Solutions",
+    "Spatial Biology",
+    "Molecular Diagnostics",
+    "Diagnostic Reagents"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "China",
+      "Minnesota",
+      "Georgia",
+      "Connecticut",
+      "California",
+      "Massachusetts",
+      "Texas"
+    ],
+    "dependencies": "The Company relies upon sole or limited sources of supply for certain materials, components and services. Some products require particular specifications or regulatory qualifications where there may be a single supplier or limited number of suppliers.",
+    "risks": "Supply chain disruptions due to supplier capacity constraints, bankruptcy, decreased availability of key raw materials, natural disasters, pandemic health issues, war, terrorist actions, governmental actions such as trade protectionism. Reliance on third-party package delivery services (FedEx, DHL) for cold-chain shipping. Manufacturing complexity for certain products subject to FDA regulations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulation of medical devices and diagnostic products - failure to comply could result in warning letters, recalls, monetary sanctions, injunctions",
+    "EU In Vitro Diagnostic Regulation (EU IVDR) - stricter requirements for marketing in vitro diagnostic devices",
+    "CLIA certification requirements for laboratory developed tests",
+    "U.S. Federal Anti-Kickback Statute and healthcare fraud regulations",
+    "HIPAA privacy and security regulations - breaches could result in significant fines",
+    "California Consumer Privacy Act (CCPA) and state data privacy laws",
+    "GDPR in Europe - significant fines for non-compliance up to €20 million or 4% of annual turnover",
+    "Export/import control regulations enforced by U.S. Departments of Commerce, State and Treasury",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Environmental health and safety laws governing hazardous materials",
+    "Government contract compliance regulations",
+    "Changes in healthcare reimbursement policies affecting diagnostic tests",
+    "Potential FDA regulation of lab developed tests",
+    "Government negotiation/regulation of drug prices affecting pharmaceutical customers",
+    "Data localization laws in China, Russia and other countries requiring local data storage",
+    "Anti-boycott laws and regulations",
+    "Open Payments Act reporting requirements for medical device manufacturers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia military invasion of Ukraine and response sanctions causing economic disruption",
+      "Israel conflict in Gaza creating humanitarian and economic crises",
+      "U.S.-China trade tensions with tariffs on goods imported between countries",
+      "Potential technology export restrictions affecting China market access",
+      "Economic sanctions restricting trade with certain countries",
+      "Restrictions on government procurement in certain jurisdictions"
+    ]
+  }
+}

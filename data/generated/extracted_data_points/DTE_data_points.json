@@ -1,0 +1,81 @@
+{
+  "ticker": "DTE",
+  "company_name": "DTE Energy Company",
+  "company_type": "Utilities - Electric and Gas",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electric",
+    "Gas",
+    "DTE Vantage",
+    "Energy Trading"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Michigan"
+    ],
+    "dependencies": [
+      "Coal supply from various geographic areas under long-term contracts",
+      "Natural gas supply from Appalachian, Gulf Coast, Mid-Continent, Canadian, and Michigan regions",
+      "Uranium for nuclear operations",
+      "Dependence on interstate pipelines for natural gas transportation",
+      "Rail transportation for coal delivery"
+    ],
+    "risks": [
+      "Volatility in commodity markets and fuel supply disruptions",
+      "Changes in cost and availability of coal, uranium, purchased power, and natural gas",
+      "Fuel supply disruptions could negatively impact operations",
+      "Price fluctuations and changes in transportation costs driven by inflation",
+      "Concentration risk in supply chain for certain commodities"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Impact of regulation by EPA, EGLE, FERC, MPSC, NRC, CFTC, and CARB",
+    "Changes in federal nuclear regulation",
+    "Environmental laws and regulations increasing costs of remediation and compliance",
+    "New federal and state environmental requirements",
+    "Uncertainty around future environmental regulations affecting long-term capital planning",
+    "Coal Combustion Residuals (CCR) and Effluent Limitations Guidelines (ELG) rules",
+    "Clean Energy Standard requiring 100% clean energy portfolio by 2040",
+    "Renewable Portfolio Standard requiring 50% renewable energy by 2030 and 60% by 2035",
+    "Energy waste reduction requirements",
+    "Retail access program regulations and potential changes",
+    "Rate regulation by MPSC and FERC",
+    "Regulatory proceedings and appeals affecting cost recovery",
+    "Potential disallowance of costs in customer rates by regulators",
+    "Changes in Michigan's electric retail access program",
+    "Federal and state fuel standards affecting non-utility investments",
+    "Terrorism Risk Insurance Program Reauthorization Act (TRIA)",
+    "Price-Anderson Amendments Act for nuclear liability",
+    "Clean Water Act section 316(b) and 316(a) regulations",
+    "National Ambient Air Quality Standards (NAAQS) for fine particulate matter",
+    "EPA rules addressing greenhouse gas emissions from power sector",
+    "Good Neighbor Rule affecting compressor engines for natural gas transportation",
+    "State Implementation Plans (SIP) for non-attainment areas",
+    "Federal Implementation Plan (FIP) for SO2 non-attainment areas"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Electric": 0.505,
+    "Gas": 0.144,
+    "DTE Vantage": 0.06,
+    "Energy Trading": 0.308
+  }
+}

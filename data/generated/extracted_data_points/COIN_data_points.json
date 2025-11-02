@@ -1,0 +1,120 @@
+{
+  "ticker": "COIN",
+  "company_name": "Coinbase Global, Inc.",
+  "company_type": "Cryptocurrency Exchange and Financial Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Germany",
+      "Singapore",
+      "Australia",
+      "Canada",
+      "Bermuda",
+      "Argentina",
+      "Ireland",
+      "Spain",
+      "France",
+      "Italy",
+      "Netherlands",
+      "United Kingdom",
+      "Switzerland",
+      "Malta",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Cuba",
+      "Iran",
+      "North Korea",
+      "Syria",
+      "China",
+      "Europe",
+      "India",
+      "Kenya",
+      "Philippines",
+      "Brazil",
+      "Japan",
+      "Indonesia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer trading",
+    "Prime Trading",
+    "Markets",
+    "Base Protocol",
+    "Coinbase Wallet",
+    "Stablecoins",
+    "Staking",
+    "Custody",
+    "Coinbase One",
+    "Institutional financing",
+    "Coinbase developer platform"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Circle Internet Financial, LLC"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Circle provides creation and redemption services for USDC, including operational capabilities required for USDC customer-facing services. If Circle fails to provide certain operational services, ability to maintain current level of offerings and customer experience for USDC could be harmed.",
+    "risks": "Loss of critical banking or insurance relationship could adversely affect business. Reliance on third-party service providers for certain aspects of operations. Banking partners view company as higher risk customer. May face difficulty establishing or maintaining banking relationships due to instability in global banking system, increasing regulatory uncertainty and scrutiny.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive, highly-evolving and uncertain regulatory landscape for crypto assets",
+    "Money transmission, stored value, and virtual currency business activity regulations",
+    "Securities regulations - SEC allegations that certain crypto assets and staking services are unregistered securities",
+    "Commodities and derivatives regulations - CFTC oversight of crypto assets as commodities",
+    "Economic and trade sanctions - OFAC compliance requirements",
+    "Anti-money laundering and counter-terrorist financing laws (Bank Secrecy Act)",
+    "Consumer protection regulations - FTC, CFPB oversight",
+    "Privacy and data protection laws - GDPR, CCPA and state privacy laws",
+    "State securities regulators actions regarding staking services",
+    "MiCA (Markets in Crypto-Assets Regulation) in European Union",
+    "Travel Rule requirements for crypto asset exchanges",
+    "Pillar Two global minimum tax (15%) on companies",
+    "Tax information reporting for digital assets - Infrastructure Investment and Jobs Act",
+    "Potential SEC amendments to Rule 3b-16 under Exchange Act",
+    "NYDFS guidance on virtual currency business entities",
+    "Proposed FinCEN rule on virtual currency mixing",
+    "State lending laws and licensure requirements",
+    "Card association and payment network rules",
+    "Interchange fee regulations",
+    "Prepaid card regulations",
+    "Escheatment and unclaimed property regulations",
+    "Prohibitions on bribery and anti-corruption (FCPA, UK Bribery Act)",
+    "Export control regulations",
+    "Antitrust and competition regulations",
+    "Environmental, social, and governance (ESG) requirements",
+    "AI and predictive data analytics regulations",
+    "Conflicts of interest regulations for broker-dealers and investment advisers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "Ukraine (Crimea Region, Donetsk People's Republic, Luhansk People's Republic)",
+      "Cuba",
+      "Iran",
+      "North Korea",
+      "Syria",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance - restrictions on dealings with sanctioned jurisdictions and persons",
+      "Russia and Belarus sanctions due to Ukraine invasion",
+      "Comprehensive embargoes on Crimea Region, Donetsk People's Republic, Luhansk People's Republic, Cuba, Iran, North Korea, and Syria",
+      "Risk of inadvertently providing access to sanctioned parties or jurisdictions",
+      "Potential for additional sanctions on Russia and Belarus",
+      "Exposure from continued activity in Russia and Belarus",
+      "Sanctions-related inquiries and voluntary disclosures to OFAC under review"
+    ]
+  }
+}

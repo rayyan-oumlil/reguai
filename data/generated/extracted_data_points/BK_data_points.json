@@ -1,0 +1,100 @@
+{
+  "ticker": "BK",
+  "company_name": "The Bank of New York Mellon Corporation",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia-Pacific (APAC)",
+      "Americas (Brazil, Canada)"
+    ],
+    "countries": [
+      "United States",
+      "Belgium",
+      "Netherlands",
+      "Denmark",
+      "Ireland",
+      "Germany",
+      "Luxembourg",
+      "Spain",
+      "Italy",
+      "France",
+      "Poland",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Brazil",
+      "Japan",
+      "Finland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.6,
+      "EMEA": 0.21,
+      "Asia-Pacific": 0.15,
+      "Other": 0.04
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Securities Services",
+    "Market and Wealth Services",
+    "Investment and Wealth Management",
+    "Asset Servicing",
+    "Issuer Services",
+    "Treasury Services",
+    "Clearance and Collateral Management",
+    "Wealth Management",
+    "Pershing"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependent on third-party technology service providers",
+      "Reliance on operational and transaction processing systems",
+      "Dependent on third-party infrastructure for communications and technology"
+    ],
+    "risks": [
+      "Errors or delays in operational and transaction processing by third parties",
+      "Communications or technology disruption or failure within infrastructure of third parties",
+      "Cybersecurity incidents in third-party systems",
+      "Limitations of risk management models",
+      "Failure or circumvention of controls, policies and procedures"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive government rulemaking, policies, regulation and supervision that impact operations",
+    "Changes to and introduction of new rules and regulations may compel changes in business management",
+    "Regulatory or enforcement actions or litigation",
+    "Failure to satisfy regulatory standards including 'well capitalized' and 'well managed' status",
+    "Capital adequacy and liquidity rules",
+    "U.S. banking laws and regulations governing capital and capital planning",
+    "European Central Bank and National Bank of Belgium regulation under Single Supervisory Mechanism",
+    "Belgian Financial Services and Markets Authority conduct of business rules",
+    "Federal Reserve supervision",
+    "FDIC insurance requirements",
+    "Title I preferred resolution strategy and Title II orderly liquidation authority",
+    "Tax law changes or challenges to tax positions",
+    "Accounting standards changes",
+    "Sustainability and climate change regulatory requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Brazil"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Impacts from geopolitical events may have negative impact on business and operations",
+      "Acts of terrorism, war, natural disasters may negatively affect business"
+    ]
+  },
+  "revenue_by_segment": {
+    "Securities Services": 0.4,
+    "Market and Wealth Services": 0.35,
+    "Investment and Wealth Management": 0.25
+  }
+}

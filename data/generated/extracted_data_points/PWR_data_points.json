@@ -1,0 +1,69 @@
+{
+  "ticker": "PWR",
+  "company_name": "Quanta Services, Inc.",
+  "company_type": "Infrastructure Solutions",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Australia",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Australia",
+      "Peru"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electric Power Infrastructure Solutions",
+    "Renewable Energy Infrastructure Solutions",
+    "Underground Utility and Infrastructure Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Dependence on availability of materials including steel, copper, aluminum, power transformers, circuit breakers, solar panels, wind turbine blades",
+    "risks": "Supply chain and logistical challenges, sourcing restrictions on materials (e.g., solar panels), delays in availability of power transformers, tariffs and duties impacting material costs and availability",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Licensing, permitting and inspection requirements applicable to contractors and engineers",
+    "Worker safety regulations (OSHA)",
+    "Environmental protection regulations",
+    "Wage and hour regulations (Fair Labor Standards Act)",
+    "Regulations relating to sourcing and transportation of equipment and materials",
+    "Regulations regarding engagement of suppliers and subcontractors meeting diversity-ownership requirements",
+    "Building and electrical codes",
+    "U.S. and non-U.S. anti-corruption regulations (FCPA)",
+    "Immigration regulations applicable to U.S. and cross-border employment",
+    "Special bidding, procurement, cybersecurity and security clearance requirements on government projects",
+    "Federal Acquisition Regulations (FAR), Defense Federal Acquisition Regulation Supplement (DFARS)",
+    "Cyber Security Material Model Certificate (CMMC) requirements for DoD contracts",
+    "Environmental laws governing handling, transportation and disposal of hazardous substances",
+    "Regulatory and permitting delays impacting large transmission and pipeline projects",
+    "Tariffs, duties, taxes, assessments on materials or components",
+    "SEC climate disclosure rules",
+    "State climate disclosure requirements (California)",
+    "Multiemployer pension plan regulations under Employee Retirement Income Security Act and Pension Protection Act",
+    "Hart-Scott Rodino Act antitrust requirements for acquisitions",
+    "FTC rules prohibiting post-employment non-compete arrangements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Peru"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Changes in U.S. and global trade relationships impacting material sourcing",
+      "Tariffs and trade restrictions affecting equipment and materials availability"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "AKAM",
+  "company_name": "Akamai Technologies, Inc.",
+  "company_type": "Technology - Cloud Computing and Cybersecurity Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Americas",
+      "Europe",
+      "Middle East",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "Poland",
+      "Israel",
+      "Mexico",
+      "Colombia",
+      "Chile",
+      "France",
+      "Germany",
+      "South Africa",
+      "New Zealand",
+      "Malaysia",
+      "Australia",
+      "Ukraine",
+      "Russia",
+      "China",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.52,
+      "International": 0.48
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Security",
+    "Delivery",
+    "Compute"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Transmission capacity from third-party telecommunications network providers",
+      "Co-location facilities to house servers",
+      "Equipment including hundreds of thousands of servers deployed globally",
+      "Network bandwidth from third-party network providers",
+      "Server and networking equipment from manufacturers"
+    ],
+    "risks": [
+      "Disruptions in supply chain preventing purchase of needed equipment",
+      "Volatility in server component costs for compute platform build-out",
+      "Difficulty purchasing equipment manufactured in areas facing disruptions due to unrest, trade sanctions, political activity, public health issues, safety issues, natural disasters or general economic conditions",
+      "Tariffs imposed by United States on other countries and resulting counter-tariffs leading to increasing costs and supply chain disruptions",
+      "Inability to purchase bandwidth and co-location space due to limitations on provider resources or increasing energy costs",
+      "Dependence on third-party network providers and co-location facilities"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Data privacy and localization laws (GDPR, CCPA)",
+    "Cybersecurity regulations and disclosure requirements",
+    "Export controls and sanctions (ITAR, EAR, embargoed countries)",
+    "U.S. Foreign Corrupt Practices Act and anti-bribery laws",
+    "Content liability regulations",
+    "Net neutrality regulations",
+    "Fair share or internet content taxes",
+    "International data transfer restrictions",
+    "Critical infrastructure designations",
+    "Law enforcement access to information requirements",
+    "Restrictions on social media or content delivery (India restrictions on Chinese-owned applications, U.S. legislation prohibiting services to Chinese application)",
+    "AI and machine learning regulations",
+    "Cloud service provider regulations",
+    "Section 230 of U.S. Communications Decency Act potential repeal or amendment",
+    "Telecommunications regulations potentially applying to internet companies",
+    "OECD Pillar Two 15% global minimum corporate tax rate for large multinational enterprise groups",
+    "Competition laws and regulations",
+    "Industry regulations applicable to key suppliers to customers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed in connection with Russian invasion of Ukraine",
+      "U.S. government sanctions against embargoed countries and designated entities",
+      "Loss of revenues if U.S. or international governments impose limitations on doing business with significant customers",
+      "Restrictions on Chinese-owned applications (India 2020 restrictions, U.S. 2024 legislation targeting Chinese social media application)",
+      "Geopolitical pressures causing customers to reduce reliance on U.S. providers and implement DIY solutions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Security": 0.512,
+    "Delivery": 0.33,
+    "Compute": 0.158
+  }
+}

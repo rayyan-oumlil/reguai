@@ -1,0 +1,58 @@
+{
+  "ticker": "T",
+  "company_name": "AT&T Inc.",
+  "company_type": "Telecommunications and Technology Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Mexico",
+      "Latin America and Caribbean",
+      "Asia Pacific",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Communications",
+    "Mobility",
+    "Business Wireline",
+    "Consumer Wireline",
+    "Latin America"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "We depend on suppliers to provide equipment to operate our business and satisfy customer demand, including network equipment, customer premises equipment and wireless-related equipment such as mobile hotspots, handsets, wirelessly enabled computers, wireless data cards and other connected devices. In some instances, we depend on key single-source suppliers to provide important inputs where there are few alternative suppliers available.",
+    "risks": "These suppliers could fail to provide equipment on a timely or cost-effective basis, or fail to meet our performance expectations, for a number of reasons, including difficulties in obtaining export licenses for certain technologies, inflationary pressures, inability to secure component parts, general business disruption, natural disasters, safety issues, economic and political instability, including the outbreak of war and other hostilities, and public health emergencies. In certain limited circumstances, suppliers have been unable to supply products in a timely fashion, affecting our ability to provide products and services precisely as and when requested by our customers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC and other federal, state or foreign government agency proceedings involving issues important to our business, including universal service, broadband deployment, wireless equipment siting regulations, E911 services, rules concerning digital discrimination, competition policy, privacy, net neutralty, copyright protection, availability of new spectrum on fair and reasonable terms, and wireless and satellite license awards and renewals",
+    "Enactment of or changes to state, local, federal and/or foreign tax laws and regulations",
+    "U.S. and foreign laws and regulations regarding intellectual property rights protection and privacy, personal data protection and user consent, which are rapidly evolving",
+    "Regulations and conditions relating to spectrum use, licensing, obtaining additional spectrum, technical standards and deployment and usage, including network management rules",
+    "State and local authority to deny applications to modify existing structures to accommodate wireless facilities",
+    "Privacy-related legislation continues to be adopted or considered in a number of jurisdictions",
+    "The General Data Protection Regulation in Europe",
+    "New York Affordable Broadband Act (ABA) requiring ISPs offering fixed mass-market broadband service to offer discounted plans to low-income customers",
+    "FCC rules to facilitate equal access to broadband and prevent digital discrimination in broadband access",
+    "Federal Aviation Administration (FAA) questioning whether cell sites transmitting C-Band spectrum could impact radio altimeter equipment on airplanes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Mexico"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Involvement with foreign firms exposes us to the risk of being unable to control the actions of those firms and therefore exposes us to risks associated with our obligation to comply with the Foreign Corrupt Practices Act (FCPA)"
+    ]
+  }
+}

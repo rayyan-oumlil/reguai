@@ -1,0 +1,44 @@
+{
+  "ticker": "TPL",
+  "company_name": "Texas Pacific Land Corporation",
+  "company_type": "Land and Resource Management",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Land and Resource Management",
+    "Water Services and Operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company is not an oil and gas producer. Oil and gas royalty revenue is derived primarily from perpetual non-participating oil and gas royalty interests. Revenues are dependent upon decisions made by owners and operators of oil and gas wells over whom the Company has no control.",
+    "risks": "Revenues from oil and gas royalties are subject to the actions of third-party operators. Demand for water services is substantially dependent on expenditures by customers for exploration, development and production of oil and gas reserves. Supply chain issues may disrupt operations and development activities of operators on the Company's land.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Implementation of seismic response areas (SRAs) by Texas Railroad Commission limiting permitted capacity and use of certain saltwater disposal wells",
+    "State and federal laws and regulations on water use, environmental and safety matters may increase costs and timing of operations",
+    "Compliance with federal, state and local provisions regulating discharge of materials into the environment",
+    "OSHA standards compliance requirements",
+    "Potential taxes on energy sources, including oil and gas, may affect demand for crude oil and natural gas"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Land and Resource Management": 0.63,
+    "Water Services and Operations": 0.37
+  }
+}

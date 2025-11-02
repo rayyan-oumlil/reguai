@@ -1,0 +1,97 @@
+{
+  "ticker": "EMR",
+  "company_name": "Emerson Electric Co.",
+  "company_type": "Industrial Technology & Automation",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia, Middle East & Africa",
+      "Europe",
+      "China"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Australia",
+      "Russia",
+      "Iran",
+      "India",
+      "Brazil",
+      "Germany",
+      "France",
+      "Japan",
+      "South Korea",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Final Control",
+    "Measurement & Analytical",
+    "Discrete Automation",
+    "Safety & Productivity",
+    "Control Systems & Software",
+    "Test & Measurement",
+    "AspenTech"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Canada",
+      "Latin America",
+      "China",
+      "India",
+      "Mexico"
+    ],
+    "dependencies": "The Company's major requirements for basic raw materials include steel, cast iron, electronics, rare earth metals, aluminum and brass; and to a lesser extent, plastics and petroleum-based chemicals. The Company seeks to have many sources of supply for each of its major requirements in order to avoid significant dependence on any one or a few suppliers.",
+    "risks": "Supply of materials or other items could be disrupted by natural disasters, health epidemic or pandemic, or other events. Significant shortages or price increases could impact operating costs and competitive position. Non-U.S. production facilities face increased risks of nationalization and operational disruptions. Emerging market operations subject to instability of governments and business conditions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations and compliance requirements",
+    "Government regulations on operations, products and services",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "U.K. Bribery Act and anti-bribery laws",
+    "Export and import compliance regulations",
+    "Anti-trust regulations",
+    "Money laundering regulations",
+    "Trade restrictions, tariffs, and trade barriers",
+    "Changes in tax laws and regulations across multiple jurisdictions",
+    "OECD global minimum tax proposals",
+    "Privacy and data localization laws",
+    "Climate change legislation and emissions standards",
+    "Greenhouse gas emission reduction requirements",
+    "ESG reporting and disclosure requirements",
+    "Product liability and safety regulations",
+    "FDA approval requirements (for certain products)",
+    "Intellectual property protection laws",
+    "Employment and labor regulations",
+    "Pension and benefit plan regulations (ERISA)",
+    "Securities laws and financial reporting requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions exposure - Company exited Russia operations in 2023 after recognizing losses",
+      "Potential sanctions on countries where Company operates",
+      "Trade protection measures and retaliatory countermeasures",
+      "Changes in laws governing foreign trade and investments",
+      "U.S.-China trade tensions and potential tariffs on imports",
+      "Compliance with sanctions and export control regulations"
+    ]
+  }
+}

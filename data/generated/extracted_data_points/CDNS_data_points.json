@@ -1,0 +1,96 @@
+{
+  "ticker": "CDNS",
+  "company_name": "Cadence Design Systems, Inc.",
+  "company_type": "Electronic Design Automation (EDA) Software and Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia",
+      "Europe, Middle East and Africa (EMEA)",
+      "Japan"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "India",
+      "Israel",
+      "Ireland",
+      "Hungary",
+      "United Kingdom",
+      "Greece",
+      "Italy",
+      "New Mexico",
+      "California",
+      "Singapore",
+      "Switzerland",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Core EDA",
+    "Semiconductor IP",
+    "System Design and Analysis"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International subcontractors"
+    ],
+    "dependencies": "Hardware products including all individual PCBs, custom ICs and FPGA-based prototyping components are manufactured, assembled and tested by subcontractors before delivery to customers. Cadence depends on a single supplier or a limited number of suppliers for certain hardware components and contract manufacturers for production of hardware products.",
+    "risks": "Reliance on single or limited number of suppliers and contract manufacturers has resulted in product delivery delays and reduced control over contractual terms and quality. Delays and disruptions in supply of certain hardware components and delivery of products by contract manufacturers may be due to bankruptcy, shutdown or upstream supply chain issues, preventing delivery of completed hardware products to customers or supplying new evaluation units to customers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export and import controls - U.S. Bureau of Industry and Security (BIS) Entity List restrictions limiting ability to deliver products and services to certain entities",
+    "BIS restrictions concerning advanced node IC production in China and other countries",
+    "Export controls related to Chinese semiconductor manufacturing, advanced computing, and supercomputer industries",
+    "Economic and financial sanctions and trade embargoes administered by U.S. Department of Treasury's Office of Foreign Assets Control (OFAC)",
+    "Trade regulations limiting or banning sales into certain countries or to certain companies",
+    "U.S. Foreign Corrupt Practices Act and U.K. Bribery Act compliance",
+    "EU/UK General Data Protection Regulation (GDPR) governing data privacy and data protection",
+    "California Consumer Privacy Act (CCPA) regarding automated decision-making",
+    "EU Artificial Intelligence Act (EU AI Act) with requirements around transparency, conformity assessments, risk assessments, human oversight, security, accuracy, and fines for breach up to 7% of worldwide annual turnover",
+    "Antitrust and competition laws in U.S. and foreign jurisdictions",
+    "Environmental and social practices regulations and disclosure expectations",
+    "Tariffs and trade protection measures",
+    "Import/export licensing requirements",
+    "Tax law changes including U.S. Tax Cuts and Jobs Act requiring capitalization of R&D costs",
+    "OECD Pillar Two Model Rules calling for taxation of large multinational corporations at minimum rate of 15%",
+    "Inflation Reduction Act of 2022 imposing 1% excise tax on stock buybacks",
+    "Digital transaction taxes enacted or proposed by various countries",
+    "Income and transaction taxes in multiple foreign jurisdictions",
+    "Withholding taxes",
+    "Israel Tax Authority (ITA) transfer pricing and withholding tax assessments",
+    "Korea value-added tax assessments",
+    "Ongoing investigations by Bureau of Industry and Security (BIS) and U.S. Department of Justice (DOJ) regarding certain sales to customers in China (subpoenas received February 2021 and November 2023)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and other global actors have imposed economic sanctions on Russia and other entities and individuals as a result of the Russian invasion of Ukraine and conflicts in the Middle East",
+      "New or increased tariffs and other changes in U.S. trade policy could trigger retaliatory actions by affected countries",
+      "Geopolitical and economic uncertainty between the United States and China",
+      "Unknown impact of current and future U.S. and Chinese trade regulations",
+      "Geopolitical risks with respect to Taiwan which serves as a central hub for the technology industry supply chain",
+      "Entity List restrictions and other trade restrictions may encourage customers to seek substitute products from competitors including a growing class of foreign competitors and open source alternatives",
+      "China's stated national policy to be a global leader in all segments of the semiconductor industry by 2030 has resulted in increased competitive capability in China",
+      "Political or economic conflicts between various global actors and responsive measures could prolong or expand conflicts and have lasting impact on regional and global economies",
+      "Trade disruptions and other disruptions in markets and industries served and supply chain due to complex relationships between certain countries and within regions based on political, diplomatic or military events"
+    ]
+  }
+}

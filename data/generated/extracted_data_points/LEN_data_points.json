@@ -1,0 +1,93 @@
+{
+  "ticker": "LEN",
+  "company_name": "Lennar Corporation",
+  "company_type": "Homebuilding",
+  "geography": {
+    "regions": [
+      "East",
+      "Central",
+      "Texas",
+      "West"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Homebuilding East",
+    "Homebuilding Central",
+    "Homebuilding Texas",
+    "Homebuilding West",
+    "Homebuilding Other",
+    "Financial Services",
+    "Multifamily",
+    "Lennar Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Alabama",
+      "Arizona",
+      "California",
+      "Colorado",
+      "Florida",
+      "Georgia",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Maryland",
+      "Minnesota",
+      "Nevada",
+      "New Jersey",
+      "North Carolina",
+      "Oregon",
+      "Pennsylvania",
+      "South Carolina",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Virginia",
+      "Washington"
+    ],
+    "dependencies": "Company relies on independent subcontractors for most aspects of land development and home construction. Subcontractors select and obtain building materials in many cases.",
+    "risks": "Shortages of materials and skilled labor encountered during 2022. Supply chain disruptions during pandemic. Subcontractors may use improper construction processes or defective materials. Defective products widely used by homebuilding industry can result in extensive repairs. Subcontractor failures to comply with applicable laws can expose company to liability.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Local, state and federal statutes, ordinances, rules and regulations relating to zoning, construction permits, construction materials, density, building design, property elevation, building codes and waste handling",
+    "Laws requiring use of construction materials that reduce energy consumption (e.g., California Energy Commission requirement for rooftop solar panels)",
+    "Requirements to provide roads and other offsite infrastructure prior to commencement of construction",
+    "Assessments for schools, parks, streets, highways and other public improvements",
+    "Governmental agencies attempting to make homebuilders responsible for violations of wage and other labor laws by subcontractors",
+    "Environmental laws including storm water and surface water management, soil, groundwater and wetlands protection, subsurface conditions and air quality protection",
+    "Slow growth initiatives and ballot measures that could restrict residential development",
+    "FHA and VA regulations for mortgage insurance compliance",
+    "State statutory disclosure requirements for marketing and sale of new homes",
+    "State licensing requirements for contractors and real estate agents",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act requirements for mortgage lending and securitizations including minimum lender practice standards, fee limitations, and risk retention requirements",
+    "Federal Fair Debt Collection Practices Act and comparable state statutes regulating consumer debt collection",
+    "Federal Consumer Financial Protection Bureau regulations regarding residential mortgage loans",
+    "Government mandates, standards or regulations intended to reduce greenhouse gas emissions or climate change impacts",
+    "Changes in tax laws that could eliminate or reduce income tax benefits of homeownership (mortgage interest deductibility, property tax deductibility)",
+    "U.S. anti-corruption laws for international dealings",
+    "Privacy and data protection laws and regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International conflicts involving Ukraine and Israel may lead to market disruptions including volatility in commodity prices, credit and capital markets, and supply chain interruptions",
+      "Closure or limitation on use of significant shipping routes as a result of conflicts may interrupt supply of key raw materials used in products incorporated in homes",
+      "Tariffs and immigration policies recently added to list of concerns confronting homebuilding industry",
+      "Possibility that increased tariffs will increase cost of production materials",
+      "Possible widespread deportations could affect labor availability"
+    ]
+  }
+}

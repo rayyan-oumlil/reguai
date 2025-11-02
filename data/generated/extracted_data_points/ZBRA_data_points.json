@@ -1,0 +1,84 @@
+{
+  "ticker": "ZBRA",
+  "company_name": "Zebra Technologies Corporation",
+  "company_type": "Technology - Automatic Identification and Data Capture (AIDC)",
+  "geography": {
+    "regions": [
+      "North America",
+      "EMEA",
+      "Asia-Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Germany",
+      "United Kingdom",
+      "Czech Republic",
+      "Poland",
+      "Singapore",
+      "China",
+      "Taiwan",
+      "Vietnam",
+      "Malaysia",
+      "Japan",
+      "India",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Asset Intelligence & Tracking (AIT)",
+    "Enterprise Visibility & Mobility (EVM)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Taiwan",
+      "Vietnam",
+      "Malaysia",
+      "Mexico",
+      "United States",
+      "Europe"
+    ],
+    "dependencies": "Final assembly performed by third-party electronics manufacturing services companies (EMSs) and joint design manufacturers (JDMs) primarily in Asia-Pacific region. Some components sourced from sole-source suppliers. Significant concentration in China for manufacturing operations.",
+    "risks": "Dependence on key suppliers in non-U.S. countries, particularly China. Risk of supply chain disruptions from geopolitical tensions, natural disasters, public health issues. Concentration risk with third-party manufacturers. Potential inability to obtain sufficient materials, parts, and components. Single-source supplier dependencies for certain components.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Wireless regulatory matters - FCC and NTIA regulations on radio spectrum use",
+    "Environmental regulations - discharge of pollutants, hazardous substances management, chemical substances in electronic products",
+    "Product regulatory and safety laws - consumer protection, worker safety",
+    "Data privacy laws - handling of personal data across jurisdictions (GDPR, evolving regulations)",
+    "Foreign Corrupt Practices Act and U.K. Bribery Act compliance",
+    "Export/import regulations and licensing requirements",
+    "Trade policy changes - tariffs, quotas, trade barriers, capital flow restrictions",
+    "Intellectual property protection limitations in certain countries",
+    "ESG and climate change regulations - greenhouse gas emissions, SEC climate disclosure requirements",
+    "AI regulations - European Artificial Intelligence Act (EU) 2024/1689",
+    "OECD Pillar 2 global minimum tax framework (15% minimum tax)",
+    "Product accessibility, energy efficiency, recycling, and battery transportation regulations",
+    "Medical device functionality regulations",
+    "Sanctions compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions - suspended business operations in Russia on March 5, 2022",
+      "Risk of sanctions limiting ability to sell products or transfer technologies in certain markets",
+      "Geopolitical tensions between China and Taiwan",
+      "U.S.-China trade tensions and potential additional tariffs",
+      "Regional conflicts (Russia-Ukraine war, Middle East conflicts) impacting operations"
+    ]
+  }
+}

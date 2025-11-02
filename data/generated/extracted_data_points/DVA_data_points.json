@@ -1,0 +1,101 @@
+{
+  "ticker": "DVA",
+  "company_name": "DaVita Inc.",
+  "company_type": "Healthcare Services - Dialysis",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Colombia",
+      "Chile",
+      "Poland",
+      "Germany",
+      "Malaysia",
+      "United Kingdom",
+      "Saudi Arabia",
+      "Ecuador",
+      "China",
+      "Japan",
+      "Portugal",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.88,
+      "International": 0.12
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. dialysis and related lab services",
+    "U.S. integrated kidney care (IKC)",
+    "U.S. other ancillary services",
+    "International operations"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fresenius Medical Care",
+      "Fresenius Medical Care (FMC)"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "FMC manufactures dialysis supplies and equipment; DaVita has agreements requiring purchase of certain amounts of dialysis equipment, parts and supplies from FMC. One supplier's facility closure in September 2024 due to severe weather caused extensive damage and halted production of saline and peritoneal dialysate, requiring alternate sourcing.",
+    "risks": "Supply chain disruptions due to global events, geopolitical instability, trade disputes, natural disasters, severe weather events, product recalls, logistical challenges, fluctuations in foreign currency exchange rates, varying regulatory requirements. Limited number of viable alternate suppliers for certain critical clinical supplies. Concentration risk with FMC as largest supplier.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Medicare and Medicaid coverage and reimbursement statutes, rules and regulations changes",
+    "Section 1115A of the Social Security Act - CMMI innovation models",
+    "Federal and state fraud waste and abuse laws (Anti-Kickback Statute, Stark Law, False Claims Act)",
+    "21st Century Cures Act requirements",
+    "Executive orders and presidential memoranda",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Antitrust and competition laws",
+    "Corporate practice of medicine laws",
+    "HIPAA privacy and security regulations",
+    "No Surprises Act and price transparency regulations",
+    "State certificate of need programs",
+    "FDA regulations",
+    "Trade restrictions and export controls",
+    "State ballot initiatives limiting dialysis provider payments (e.g., California AB 290)",
+    "State minimum wage laws (e.g., California SB 525)",
+    "FTC rule banning post-employment non-compete clauses",
+    "EU General Data Protection Regulation (GDPR)",
+    "UK GDPR",
+    "Brazilian Lei Geral de Proteção de Dados (LGPD)",
+    "Saudi Arabia Personal Data Protection Law",
+    "Data Security Law of People's Republic of China (DSL)",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "State data security and breach notification laws",
+    "Medicare provider enrollment requirements and potential revocation/suspension",
+    "State Medicaid program changes and payment rate reductions",
+    "CMS Quality Incentive Program (QIP) penalties",
+    "Medicare bad debt claim audits and payment adjustments",
+    "Charitable premium assistance restrictions",
+    "Changes to Medicare Advantage (MA) benchmark structure and payment rates"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with sanctions regulations",
+      "Impact of geopolitical conflicts (Russia-Ukraine, Israel-Gaza) on supply chain and operations",
+      "Trade disputes affecting supply chain and regulatory requirements",
+      "Patriot Act and Executive Order No. 13224 on Terrorist Financing compliance"
+    ]
+  },
+  "revenue_by_segment": {
+    "U.S. dialysis": 0.88,
+    "Other - Ancillary services": 0.12
+  }
+}

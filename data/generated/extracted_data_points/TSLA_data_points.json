@@ -1,0 +1,113 @@
+{
+  "ticker": "TSLA",
+  "company_name": "Tesla, Inc.",
+  "company_type": "Automotive and Energy",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "China"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Germany",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "United Kingdom",
+      "Ireland",
+      "Australia",
+      "Japan",
+      "Korea",
+      "Singapore",
+      "Hong Kong",
+      "Taiwan",
+      "India",
+      "United Arab Emirates",
+      "Israel",
+      "Thailand",
+      "Malaysia",
+      "New Zealand",
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "Switzerland",
+      "Austria",
+      "Belgium",
+      "Czech Republic",
+      "Finland",
+      "France",
+      "Greece",
+      "Hungary",
+      "Iceland",
+      "Italy",
+      "Luxembourg",
+      "Netherlands",
+      "Poland",
+      "Portugal",
+      "Slovenia",
+      "Spain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Automotive",
+    "Energy Generation and Storage"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Panasonic",
+      "Contemporary Amperex Technology Co. Limited (CATL)"
+    ],
+    "manufacturing_locations": [
+      "United States (California, Nevada, Texas, New York)",
+      "China (Shanghai)",
+      "Germany (Berlin-Brandenburg)",
+      "Mexico (Monterrey - announced)"
+    ],
+    "dependencies": "Dependent on suppliers including single-source suppliers for battery cells and various components. Reliance on Panasonic and CATL for lithium-ion battery cells. Some components are sourced from single suppliers with limited flexibility in changing suppliers.",
+    "risks": "Supply chain constraints, single-source supplier dependencies, potential production disruptions due to supplier issues, raw material price volatility (lithium, nickel, cobalt, copper), geopolitical disruptions (Red Sea conflict, arson attack at Gigafactory Berlin), port congestions, trade restrictions, tariffs, natural disasters, health epidemics, cyberattacks, labor issues, wars, and supplier insolvency.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Vehicle safety regulations and testing requirements (NHTSA, FMVSS compliance)",
+    "Self-driving vehicle regulations and restrictions on Autopilot/FSD features",
+    "State laws restricting direct vehicle sales and dealer licensing",
+    "Environmental, occupational health and safety laws",
+    "Climate change regulations and emissions standards",
+    "Product material input regulations and post-consumer product requirements",
+    "Data privacy and cybersecurity regulations (GDPR, CCPA, China data privacy laws)",
+    "Data localization requirements",
+    "Battery safety and transport regulations for lithium-ion batteries",
+    "Solar energy regulations (net metering, interconnection, electricity sales)",
+    "Energy storage regulations and grid participation rules",
+    "Tax law changes and international tax regulations (OECD BEPS)",
+    "Government incentive changes (IRA, tax credits, rebates expiration or reduction)",
+    "Trade policies and tariff changes",
+    "Foreign regulatory requirements for vehicle certification and market entry",
+    "Antitrust and competition law compliance",
+    "Labor and employment regulations",
+    "Product liability and recall regulations",
+    "Intellectual property and patent regulations",
+    "Corporate governance and securities regulations (SEC, DOJ investigations)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict impact (embargoes, regional instability, airspace bans, potential retaliatory actions)",
+      "Trade restrictions and tariffs affecting international operations",
+      "Sanctions compliance requirements",
+      "Red Sea conflict causing shipping diversions and factory shutdowns"
+    ]
+  }
+}

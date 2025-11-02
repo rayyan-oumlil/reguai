@@ -1,0 +1,113 @@
+{
+  "ticker": "XYL",
+  "company_name": "Xylem Inc.",
+  "company_type": "Water Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Western Europe",
+      "Emerging Markets",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "Sweden",
+      "China",
+      "India",
+      "Italy",
+      "Hungary",
+      "Austria",
+      "Poland",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Switzerland",
+      "United Arab Emirates",
+      "Canada",
+      "Mexico",
+      "Australia",
+      "New Zealand",
+      "Japan",
+      "Norway",
+      "Chile",
+      "Brazil",
+      "Middle East",
+      "Africa",
+      "Latin America",
+      "Asia Pacific",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Luxembourg",
+      "Taiwan",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Water Infrastructure",
+    "Applied Water",
+    "Measurement and Control Solutions",
+    "Water Solutions and Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Europe",
+      "North America",
+      "Latin America",
+      "Asia",
+      "Middle East",
+      "Sweden",
+      "China",
+      "India",
+      "Italy",
+      "Hungary",
+      "Austria",
+      "Poland",
+      "Germany",
+      "United States"
+    ],
+    "dependencies": "Parts and raw materials commonly used in products include motors, fabricated parts, castings, magnets, bearings, seals, batteries, printed circuit boards and electronic components, including semiconductors, as well as commodities, including steel, brass, nickel, copper, aluminum, rare earth minerals, and plastics. Some key components are available only from a sole- or single-source supplier or a limited group of suppliers.",
+    "risks": "Supply chain challenges including price volatility, supply constraints, lack of availability or delays in receiving parts and raw materials, disruptions due to labor shortages or disputes, changes in suppliers' strategy or production planning, interruptions in suppliers' production, suppliers' capacity allocations to other purchasers, changes in trade agreements and trade protection measures including tariffs or export restrictions, weather emergencies and effects of climate change, public health crises, threatened or actual terrorism, armed conflict or war including ongoing conflicts between Russia and Ukraine, in the Middle East, and rebel attacks on commercial vessels in the Red Sea.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in environmental requirements, laws and regulations, or increased public awareness around the presence and health impacts of human-made chemicals and naturally occurring contaminants in drinking water (PFAS, PFOA, selenium, micro-plastics, chemicals or pathogens)",
+    "Compliance with U.S. Foreign Corrupt Practices Act, U.K. Bribery Act of 2010 and similar anti-corruption laws in other jurisdictions",
+    "Data privacy, data protection and data security laws including California Consumer Protection Act, EU GDPR, China PIPL",
+    "Environmental laws including Clean Water Act, Safe Drinking Water Act, Resource Conservation and Recovery Act (RCRA), Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), Toxic Substances Control Act, Federal Insecticide, Fungicide and Rodenticide Act, EU Restriction of Hazardous Substance Directive, EU Registration, Evaluation and Authorization of Chemicals Directive",
+    "Product safety regulations including U.S. Food and Drug Administration 510(k) for medical industry products",
+    "FCC radio spectrum licensing and regulations in the U.S. and other countries",
+    "Trade regulations including tariffs, imports and exports, anti-trust and competition laws",
+    "Sustainability-related disclosure requirements including EU Corporate Sustainability Reporting Directive and climate-related rules and regulations",
+    "Governmental procurement laws, regulations and policies, including sustainability and domestic content requirements",
+    "Tax laws and regulations changes in various jurisdictions including OECD global minimum tax rate of 15%",
+    "Anti-ESG legislation, executive orders or policies",
+    "Occupational Health and Safety Act compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "Taiwan",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. imposition of tariffs on goods imported from China or deemed to be of Chinese origin",
+      "Potential for new or increased tariffs, other governmental actions, trade embargoes or sanctions by the U.S., or similar measures or countermeasures imposed by China",
+      "Geopolitical changes in China-Taiwan relations could disrupt operations of companies in Taiwan critical to global supply chain for semiconductors",
+      "Ongoing conflicts involving Russia and Ukraine, and in the Middle East, with potential for regional escalation",
+      "Rebel attacks on commercial vessels in the Red Sea impacting shipping routes",
+      "Sanctions compliance risks"
+    ]
+  }
+}

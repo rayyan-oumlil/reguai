@@ -1,0 +1,142 @@
+{
+  "ticker": "BA",
+  "company_name": "The Boeing Company",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "United States",
+      "Asia",
+      "Europe",
+      "Middle East",
+      "Oceania",
+      "Canada",
+      "Africa",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Canada",
+      "Australia",
+      "Japan",
+      "Europe (multiple countries)",
+      "United Kingdom",
+      "Germany",
+      "India",
+      "Missouri",
+      "Texas",
+      "Washington",
+      "South Carolina",
+      "California",
+      "Oregon",
+      "Utah",
+      "Pennsylvania",
+      "Arizona",
+      "Alabama",
+      "Ohio",
+      "Florida",
+      "Illinois",
+      "Virginia",
+      "Malaysia",
+      "Mexico",
+      "Qatar (Queensland, Australia mentioned)"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.54,
+      "Asia": 0.18,
+      "Europe": 0.13,
+      "Middle East": 0.07,
+      "Oceania": 0.02,
+      "Canada": 0.02,
+      "Africa": 0.02,
+      "Latin America": 0.02
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commercial Airplanes (BCA)",
+    "Defense, Space & Security (BDS)",
+    "Global Services (BGS)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Spirit AeroSystems Holdings, Inc."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Washington",
+      "South Carolina",
+      "Missouri",
+      "Pennsylvania",
+      "Arizona",
+      "China",
+      "Australia",
+      "Canada",
+      "Malaysia",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Highly dependent on Spirit AeroSystems for fuselage and other components",
+      "Reliance on sole-source suppliers for certain items",
+      "Dependence on small number of sole-source suppliers",
+      "Qualification of alternative sources could take a year or more",
+      "Dependence on availability of raw materials: aluminum, titanium, composites"
+    ],
+    "risks": [
+      "Supply chain disruptions due to production quality issues",
+      "Global supply chain constraints",
+      "Labor instability at suppliers",
+      "Supplier financial difficulties and delivery delays",
+      "Inflationary pressures on suppliers",
+      "Resource constraints at suppliers",
+      "Single-source supplier dependencies",
+      "Supplier performance problems affecting production schedules",
+      "Increased supplier prices adversely affecting business",
+      "Energy source availability and pricing risks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FAA increased oversight of production and quality management systems",
+    "FAA will not approve 737 production rate increases beyond 38 per month until compliance with quality and safety standards",
+    "FAA certification requirements for new aircraft models (777X, 737-7, 737-10)",
+    "Delays in FAA certification processes",
+    "European Union Aviation Safety Agency (EASA) certification requirements",
+    "U.S. government procurement regulations and compliance requirements",
+    "Federal Acquisition Regulations compliance",
+    "New procurement regulations or climate/cyber-related contractual disclosures",
+    "Domestic content threshold requirements for U.S. government contracts",
+    "Environmental regulations (discharge, treatment, storage, disposal of hazardous substances)",
+    "Climate change laws and greenhouse gas emissions regulations",
+    "California and European Union greenhouse gas emissions and climate risk reporting legislation",
+    "Export control restrictions and sanctions compliance",
+    "Anti-corruption regulations",
+    "Cybersecurity compliance requirements on Defense Industrial Base",
+    "NIST Cybersecurity Framework compliance",
+    "Pillar Two global minimum tax rules (15%)",
+    "U.S. Cost Accounting Standards (CAS) compliance",
+    "Deferred Prosecution Agreement obligations with U.S. Department of Justice"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S.-China trade tensions and tariffs since 2018",
+      "Risk of inability to deliver aircraft to customers in China",
+      "Potential deterioration in geopolitical or trade relations between U.S. and other countries",
+      "Export restrictions and sanctions imposed by U.S. or other governments",
+      "Sanctions affecting supply chain, business partners, or customers",
+      "Compliance with U.S. and other government export control restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Commercial Airplanes": 0.34,
+    "Defense, Space & Security": 0.36,
+    "Global Services": 0.3
+  }
+}

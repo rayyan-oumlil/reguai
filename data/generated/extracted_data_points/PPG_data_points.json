@@ -1,0 +1,115 @@
+{
+  "ticker": "PPG",
+  "company_name": "PPG Industries, Inc.",
+  "company_type": "Paints, Coatings and Specialty Products Manufacturing",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "United Kingdom",
+      "Poland",
+      "France",
+      "Sweden",
+      "Finland",
+      "Germany",
+      "Belgium",
+      "Italy",
+      "South Korea",
+      "Australia",
+      "China",
+      "Brazil",
+      "Argentina",
+      "Russia",
+      "India",
+      "Thailand",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Global Architectural Coatings",
+    "Performance Coatings",
+    "Industrial Coatings",
+    "Architectural Coatings EMEA",
+    "Architectural Coatings Latin America and Asia Pacific",
+    "Aerospace Coatings",
+    "Automotive Refinish Coatings",
+    "Protective and Marine Coatings",
+    "Traffic Solutions",
+    "Automotive OEM Coatings",
+    "Industrial Coatings",
+    "Packaging Coatings",
+    "Specialty Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Netherlands",
+      "United Kingdom",
+      "Poland",
+      "Mexico",
+      "France",
+      "Sweden",
+      "Finland",
+      "South Korea",
+      "Australia",
+      "China",
+      "Belgium",
+      "Italy",
+      "Germany",
+      "Brazil",
+      "Canada",
+      "Ohio",
+      "Alabama",
+      "California",
+      "Pennsylvania",
+      "Wisconsin"
+    ],
+    "dependencies": "Most raw materials and energy used in production are purchased from outside sources. Raw materials include both organic, primarily petroleum-derived, materials and inorganic materials, including titanium dioxide. Supply of critical raw materials is managed by establishing contracts with multiple sources and identifying alternative materials or technology whenever possible.",
+    "risks": "Raw material supply chain disruptions, including logistical and transportation challenges, could adversely impact ability to procure raw materials. An inability to obtain certain critical raw materials has adversely impacted ability to produce certain products in the past. Raw material costs fluctuate due to changes in supplier feedstock costs and inventories, global industry activity levels, foreign currency exchange rates, government regulation, tariffs, and global supply and demand factors.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Existing and evolving standards relating to the regulation and registration of chemicals which could potentially impact the availability and viability of some raw materials used in production processes",
+    "Environmental laws and regulations controlling discharge of pollutants into air and water, handling, use, treatment, storage and clean-up of hazardous and non-hazardous waste, and investigation and remediation of soil and groundwater affected by hazardous substances",
+    "Future environmental laws and regulations, including rules requiring expanded reporting of certain environmental, safety and governance information",
+    "Securities laws, tax laws, environmental laws, employment and pension-related laws, competition laws, U.S. and foreign export and trading laws, and laws governing improper business practices, including bribery",
+    "Regulations concerning the composition, use and transport of chemical products",
+    "Import/export sanctions and regulations",
+    "Changes in tax regimes and related government policies and regulations in countries where the company operates",
+    "Organisation for Economic Co-operation and Development proposed modernizing international tax rules, including global minimum tax standards (Pillar 2)",
+    "Resource Conservation and Recovery Act Corrective Action Program",
+    "Voluntary Remediation Program of the Indiana Department of Environmental Management",
+    "Pennsylvania Land Recycling Program"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "China",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International impacts of the ongoing wars in Ukraine and Israel",
+      "Increasing tensions between China and the United States",
+      "Imposition of tariffs and the threat of additional tariffs",
+      "Wind down of operations in Russia in response to the Russian invasion of Ukraine",
+      "Sale of remaining Russian business operations",
+      "Exit of Argentina operations due to highly inflationary environment and currency devaluation"
+    ]
+  }
+}

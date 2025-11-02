@@ -1,0 +1,83 @@
+{
+  "ticker": "PHM",
+  "company_name": "PulteGroup, Inc.",
+  "company_type": "Homebuilding",
+  "geography": {
+    "regions": [
+      "Northeast",
+      "Southeast",
+      "Florida",
+      "Midwest",
+      "Texas",
+      "West"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Northeast",
+    "Southeast",
+    "Florida",
+    "Midwest",
+    "Texas",
+    "West",
+    "Financial Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": [
+      "Independent subcontractors perform substantially all construction work",
+      "Construction materials readily available from numerous sources",
+      "Dependence on qualified labor availability",
+      "Building materials supply impacted by global supply chain disruptions",
+      "Lumber, steel, concrete, resin, copper, and petroleum-based materials influenced by global commodity prices and tariffs"
+    ],
+    "risks": [
+      "Labor supply shortages and cost of labor",
+      "Volatility in construction material costs (lumber, steel, concrete, resin, copper, petroleum-based materials)",
+      "Supply chain disruptions impacting building materials availability",
+      "Consolidation of ownership of source of supply for certain building materials",
+      "Government policies making it more difficult/expensive for suppliers to produce materials (tariffs, import/export restrictions)",
+      "Changes in immigration laws affecting labor availability"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Building codes and land zoning restrictions",
+    "Health and safety regulations",
+    "Labor practice regulations",
+    "Marketing and sales practice regulations",
+    "Environmental regulations",
+    "Mortgage financing and title operation regulations",
+    "FHA and VA mortgage eligibility requirements",
+    "Government-sponsored investor rules (Fannie Mae, Freddie Mac, Ginnie Mae)",
+    "Consumer lending rules and disclosure requirements",
+    "Real estate settlement procedures",
+    "Prohibitions against discrimination in lending",
+    "State and local building moratoria and slow growth initiatives",
+    "Climate change and environmental governmental regulation",
+    "Upgraded building codes due to climate conditions",
+    "Restrictions on land development in certain areas due to climate/flooding risks",
+    "Zoning approval requirements in flood-prone areas",
+    "Tax law changes affecting deferred tax assets and liabilities",
+    "Section 382 ownership change limitations on NOL utilization",
+    "Fraudulent conveyance laws affecting guarantor subsidiaries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Imposition of tariffs (in particular on materials imported from Canada or Mexico)",
+      "Import or export restrictions, penalties or sanctions",
+      "Modification or elimination of international agreements covering trade or investment"
+    ]
+  }
+}

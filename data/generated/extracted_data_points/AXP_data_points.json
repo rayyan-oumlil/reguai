@@ -1,0 +1,120 @@
+{
+  "ticker": "AXP",
+  "company_name": "American Express Company",
+  "company_type": "Financial Services - Payments",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific (APAC)",
+      "Latin America, Canada and the Caribbean (LACC)"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "European Union",
+      "Australia",
+      "Japan",
+      "Canada",
+      "Mexico",
+      "China",
+      "Middle East",
+      "Switzerland",
+      "India",
+      "Philippines",
+      "England",
+      "Italy",
+      "Spain",
+      "Singapore",
+      "Thailand",
+      "Hong Kong",
+      "Indonesia",
+      "New Zealand",
+      "Russia",
+      "Belarus",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Consumer Services (USCS)",
+    "Commercial Services (CS)",
+    "International Card Services (ICS)",
+    "Global Merchant and Network Services (GMNS)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for acquiring and servicing customers",
+      "Third-party processors and merchant acquirers (OptBlue partners)",
+      "Technology platforms and infrastructure providers",
+      "Joint venture partners in China, Middle East, and Switzerland",
+      "Cobrand partners (Delta Air Lines, Hilton, Marriott, British Airways)",
+      "Network partners in approximately 120 countries and territories",
+      "Prepaid reloadable and gift card program manager"
+    ],
+    "risks": [
+      "Reliance on third-party service providers for critical operations",
+      "Disruptions or failures at third-party providers could interrupt services",
+      "Third parties may act inconsistently with company interests",
+      "Cybersecurity incidents at third-party providers",
+      "Operational disruptions at partners (e.g., prepaid card business interruptions)",
+      "Concentration risk with key partners like Delta Air Lines",
+      "Loss of cobrand relationships could materially impact business",
+      "Third-party oversight subject to heightened regulatory scrutiny"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Comprehensive banking regulation by Federal Reserve and OCC",
+    "Enhanced prudential standards as Category III firm (capital, liquidity, stress testing)",
+    "Potential Basel III capital rule changes could significantly increase capital requirements",
+    "Consumer Financial Protection Bureau (CFPB) oversight and enforcement",
+    "CFPB proposed rule lowering credit card late fee safe harbor to $8",
+    "CFPB and DOT inquiries into credit card and airline rewards programs",
+    "Small business credit data collection and reporting requirements (effective July 2025)",
+    "Personal financial data rights rule requiring data sharing with third parties (April 2026)",
+    "Payments regulation including interchange fee caps in EU, Australia, Canada",
+    "State laws prohibiting interchange on sales tax and gratuities",
+    "Merchant surcharging permitted in certain jurisdictions (EU, UK, Australia, Canada, some US states)",
+    "EU and UK GDPR compliance with potential fines up to 4% of revenue",
+    "Data localization requirements in various countries (India, China)",
+    "Anti-Money Laundering (AML) and Counter-Financing of Terrorism (CFT) compliance",
+    "Economic sanctions compliance (OFAC, EU, UK sanctions regimes)",
+    "Anti-corruption laws (FCPA, UK Bribery Act)",
+    "Climate-related risk management principles from federal banking regulators",
+    "Artificial intelligence and machine learning regulation (EU AI Act, Colorado AI Act)",
+    "Community Reinvestment Act (CRA) requirements",
+    "Compensation practices oversight by Federal Reserve and OCC",
+    "Resolution and recovery planning requirements",
+    "Orderly Liquidation Authority (OLA) potential application",
+    "Uncertainty regarding cobrand relationships in EU due to interchange fee regulation",
+    "Value-added tax (VAT) challenges in multiple countries",
+    "Merchant category code regulations",
+    "Transaction data usage restrictions",
+    "Fair access laws",
+    "Interest rate cap proposals"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict led to suspension of operations in Russia and Belarus",
+      "Economic sanctions and export controls impact operations",
+      "Iran sanctions compliance - identified ATM transactions and accounts related to Iranian entities",
+      "Voluntary reporting to OFAC regarding Iran-related transactions",
+      "Potential retaliatory actions against companies due to geopolitical tensions",
+      "Sanctions activity subject to heightened regulatory scrutiny",
+      "Association with sanctioned persons, entities, governments could result in penalties"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "ticker": "SBAC",
+  "company_name": "SBA Communications Corporation",
+  "company_type": "Wireless Communications Infrastructure",
+  "geography": {
+    "regions": [
+      "United States and its territories",
+      "South America",
+      "Central America",
+      "Canada",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Ecuador",
+      "El Salvador",
+      "Guatemala",
+      "Nicaragua",
+      "Panama",
+      "Peru",
+      "South Africa",
+      "Tanzania",
+      "Philippines"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Domestic Site Leasing",
+    "International Site Leasing",
+    "Site Development"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Ground leases for land underlying tower structures",
+      "Long-term lease contracts with wireless service providers",
+      "Dependence on small number of wireless service provider customers"
+    ],
+    "risks": [
+      "Concentration of revenue from limited number of customers",
+      "Ground lease renewal risks",
+      "Supplier and contractor availability for tower construction",
+      "Local zoning and permitting delays"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC regulations on tower construction, lighting, painting and marking",
+    "FAA regulations on tower height and air navigation hazards",
+    "National Environmental Policy Act (NEPA) compliance",
+    "National Historic Preservation Act (NHPA) compliance",
+    "Endangered Species Act (ESA) compliance",
+    "State and local zoning restrictions and ordinances",
+    "RF energy exposure regulations and health risk concerns",
+    "Environmental laws on contamination and remediation",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Foreign ownership restrictions on land in international markets",
+    "International tax laws and regulations",
+    "Data privacy and protection laws (Brazil GDPR, California Consumer Privacy Act)",
+    "Anti-bribery laws (Foreign Corrupt Practices Act)",
+    "Spectrum licensing and concession regulations",
+    "Tower removal and decommissioning obligations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Brazil",
+      "Tanzania",
+      "Colombia",
+      "Peru",
+      "Costa Rica"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Potential changes in trade restrictions and tariffs proposed by US",
+      "Retaliatory trade restrictions and tariffs by other countries",
+      "Laws and regulations restricting repatriation of earnings or capital distributions",
+      "Expropriation and governmental regulation restricting foreign ownership",
+      "Political and economic instability in developing markets",
+      "Currency restrictions and exchange rate fluctuations"
+    ]
+  }
+}

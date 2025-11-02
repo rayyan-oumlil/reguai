@@ -1,0 +1,93 @@
+{
+  "ticker": "CLX",
+  "company_name": "The Clorox Company",
+  "company_type": "Consumer Products Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Argentina",
+      "China",
+      "Taiwan",
+      "Ukraine",
+      "Russia",
+      "Iran",
+      "Middle East"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.86,
+      "International": 0.14
+    },
+    "assets_by_region": {
+      "United States": 0.73,
+      "Non-US": 0.27
+    }
+  },
+  "segments": [
+    "Health and Wellness",
+    "Household",
+    "Lifestyle",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International locations"
+    ],
+    "dependencies": "Purchases raw materials from numerous unaffiliated U.S. and international suppliers, some of which are sole source or single-source suppliers. Key raw materials include resin, non-woven fabrics for wipes products, sodium hypochlorite, corrugated cardboard, soybean oil, solvent, derivatives of amines and other chemicals and agricultural commodities.",
+    "risks": "Interruptions in delivery of materials could adversely impact the Company. Supply chain issues can result in product shortages or disruptions. Reliance on single-source suppliers for certain commodities and raw material inputs. Significant disruptions could interrupt product supply. Supply chain dependencies and potential disruptions from external factors including geopolitical instability, tariffs, sanctions, port congestions, cybersecurity incidents, facility damage or closures.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental Protection Agency oversight",
+    "Food and Drug Administration regulations including current good manufacturing practice regulations",
+    "Consumer Product Safety Commission regulations",
+    "Federal Trade Commission oversight",
+    "Occupational Safety and Health Administration compliance",
+    "Extended producer responsibility regulations including plastic or packaging taxes, recycling and waste management programs",
+    "Data privacy and protection regulations with changing requirements across jurisdictions",
+    "Foreign Corrupt Practices Act (FCPA) compliance and similar international anti-bribery laws",
+    "Environmental regulations related to transportation, storage and use of certain chemicals including chlorine",
+    "Product labeling, packaging, formulation and storage regulations",
+    "Sustainability disclosure requirements",
+    "Executive compensation and corporate governance regulations",
+    "Global Anti-Base Erosion rules (Pillar Two) requiring minimum 15% tax in each jurisdiction",
+    "One Big Beautiful Bill Act enacted July 4, 2025 with provisions applicable to U.S. corporate taxpayers",
+    "Climate-related regulatory requirements to reduce or mitigate environmental impacts",
+    "Advertising and marketing regulations",
+    "Import and export laws and trade restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Ukraine",
+      "Taiwan",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and export controls imposed in response to conflicts in Ukraine and Middle East",
+      "Potential escalation in hostilities between U.S. and Iran",
+      "Rising tensions between China and Taiwan",
+      "Escalating trade tensions between U.S. and trading partners including China due to imposition of tariffs and retaliatory tariffs",
+      "Potential targeted boycotts of U.S. products abroad due to nationalist sentiment",
+      "Trade restrictions, sanctions, quotas or trade barriers impacting international operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Health and Wellness": 0.44,
+    "Household": 0.25,
+    "Lifestyle": 0.22,
+    "International": 0.14
+  }
+}

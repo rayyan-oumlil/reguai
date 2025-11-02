@@ -1,0 +1,85 @@
+{
+  "ticker": "MAS",
+  "company_name": "Masco Corporation",
+  "company_type": "Home Improvement and Building Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "China",
+      "Germany",
+      "France",
+      "Luxembourg",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.8,
+      "International": 0.2
+    },
+    "assets_by_region": {
+      "United States": 0.68,
+      "Europe": 0.32
+    }
+  },
+  "segments": [
+    "Plumbing Products",
+    "Decorative Architectural Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "North America",
+      "Europe",
+      "Asia",
+      "China",
+      "Mexico"
+    ],
+    "dependencies": "Multiple sources for raw materials including brass, copper, zinc, acrylic resins, titanium dioxide. Reliance on third-party suppliers for raw materials, components and finished products. Dependence on international suppliers particularly in countries outside the United States.",
+    "risks": "Supply chain disruptions due to changing laws and regulations, cybersecurity breaches, labor availability, raw material shortages, energy availability, adverse weather conditions, pandemics, social or civil unrest, wars or conflicts. Increased complexity due to international sourcing. Transportation constraints and port congestion. Supplier business continuity risks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, local and international government laws and regulations compliance",
+    "Environmental laws and regulations",
+    "Product safety regulations and product recalls",
+    "Anti-bribery/anti-corruption laws",
+    "Competition laws",
+    "Data privacy regulations",
+    "Employment and labor laws including wage and hour matters",
+    "Environment, health and safety regulations",
+    "Securities regulations",
+    "Sanctions compliance",
+    "Taxation laws and regulations",
+    "Trade regulations including duties and tariffs",
+    "Climate change regulations and government response to climate change",
+    "ESG (Environmental, Social and Governance) practices and stakeholder expectations",
+    "Product certification requirements by industry organizations",
+    "New or more stringent future regulatory requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Risks associated with international operations including disruptions in trade relations",
+      "Economic instability in foreign jurisdictions",
+      "Changes in policies of U.S. and foreign governments"
+    ]
+  },
+  "revenue_by_segment": {
+    "Plumbing Products": 0.62,
+    "Decorative Architectural Products": 0.38
+  }
+}

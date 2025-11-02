@@ -1,0 +1,132 @@
+{
+  "ticker": "PODD",
+  "company_name": "Insulet Corporation",
+  "company_type": "Medical Device Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Canada",
+      "Middle East",
+      "Australia",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "Croatia",
+      "Cyprus",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Iceland",
+      "Israel",
+      "Italy",
+      "Kuwait",
+      "Netherlands",
+      "Norway",
+      "Qatar",
+      "Saudi Arabia",
+      "Sweden",
+      "Switzerland",
+      "Turkey",
+      "United Arab Emirates",
+      "United Kingdom",
+      "China",
+      "Malaysia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Omnipod",
+    "International Omnipod",
+    "Drug Delivery"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Sanmina Corporation",
+      "NXP USA, Inc.",
+      "ATS Automation Tooling Systems Inc.",
+      "Amgen Inc.",
+      "Dexcom, Inc.",
+      "Abbott Diabetes Care, Inc."
+    ],
+    "manufacturing_locations": [
+      "United States (Acton, Massachusetts)",
+      "Malaysia",
+      "China"
+    ],
+    "dependencies": [
+      "Single or limited number of suppliers for semiconductor chips, Bluetooth low-energy chips, and specialized components",
+      "Sole-sourced components with proprietary intellectual property owned by suppliers",
+      "Contract manufacturer in China produces significant portion of inventory",
+      "Third-party suppliers for components and sub-assemblies",
+      "Reliance on third-party sterilization services"
+    ],
+    "risks": [
+      "Supply chain disruptions from semiconductor chip shortages",
+      "Sole-source supplier dependencies for critical components",
+      "Concentration risk with contract manufacturer in China",
+      "Political instability and geopolitical conflicts affecting supply from China",
+      "Currency fluctuations impacting foreign suppliers",
+      "Port security and transport capacity issues",
+      "Natural disasters affecting supplier operations",
+      "Supplier financial hardships",
+      "Supplier compliance failures with environmental and conflict minerals laws",
+      "Inventory held at limited locations (single location in Massachusetts for U.S., single location in Netherlands for Europe)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory requirements for medical device clearance and approval",
+    "Quality System Regulation (QSR) compliance and FDA inspections",
+    "Medical Device Regulation (MDR) compliance in European Union",
+    "Post-market surveillance and adverse event reporting requirements",
+    "Federal Anti-Kickback Statute and Self-Referral Laws (Stark Law) compliance",
+    "False Claims Act liability",
+    "Civil Monetary Penalties Law compliance",
+    "HIPAA privacy and security requirements",
+    "State privacy laws (CCPA, CPRA, Colorado Privacy Act, Virginia Consumer Data Protection Act)",
+    "GDPR compliance in European Economic Area",
+    "EU Cybersecurity Directive and Artificial Intelligence Act",
+    "Physician Payments Sunshine Act (Open Payments program) reporting",
+    "Foreign Corrupt Practices Act (FCPA) and UK Bribery Act compliance",
+    "State anti-kickback and false claims laws",
+    "State marketing restrictions and disclosure requirements",
+    "Professional licensure requirements",
+    "ACA healthcare reform changes",
+    "Medicare and Medicaid fraud and abuse regulations",
+    "Pillar Two Global Minimum Tax (OECD/G20 Model Rules)",
+    "Environmental, social and governance (ESG) disclosure requirements",
+    "California climate disclosure requirements",
+    "Corporate Sustainability Reporting Directive (EU)",
+    "AI regulation (EU AI Act, U.S. state AI laws)",
+    "Reference rate reform (LIBOR to SOFR transition)",
+    "Trade protection measures and tariffs",
+    "Import/export licensing and control requirements",
+    "International data localization laws",
+    "EU Whistleblower Directive"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade protection measures and tariff increases",
+      "Import and export licensing restrictions",
+      "Retaliation by foreign governments against trade policies",
+      "Buy national policies",
+      "Political instability and military conflicts affecting operations",
+      "Geopolitical tensions impacting supply chain (China manufacturing dependency)"
+    ]
+  }
+}

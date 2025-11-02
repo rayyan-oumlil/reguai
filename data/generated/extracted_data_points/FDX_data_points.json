@@ -1,0 +1,137 @@
+{
+  "ticker": "FDX",
+  "company_name": "FedEx Corporation",
+  "company_type": "Transportation and Logistics",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Latin America",
+      "Middle East",
+      "Africa",
+      "Australia/New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Belgium",
+      "Netherlands",
+      "Italy",
+      "Poland",
+      "China",
+      "Japan",
+      "Hong Kong",
+      "Taiwan",
+      "India",
+      "Australia",
+      "Brazil",
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Dubai"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.716,
+      "International": 0.284
+    },
+    "assets_by_region": {
+      "United States": 0.824,
+      "International": 0.176
+    }
+  },
+  "segments": [
+    "Federal Express",
+    "FedEx Freight",
+    "FedEx Custom Critical",
+    "FedEx Dataworks",
+    "FedEx Office",
+    "FedEx Logistics",
+    "FedEx Supply Chain"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Contracts with approximately 5,700 independent small businesses to conduct certain linehaul and pickup-and-delivery operations",
+      "Third-party service providers for information technology infrastructure, application development, maintenance and support",
+      "Service providers for aircraft maintenance under third-party service agreements",
+      "Independent businesses providing transportation services",
+      "Global Service Participants for international deliveries"
+    ],
+    "risks": [
+      "Failure of third-party service providers to perform as expected could have material adverse effect",
+      "Disruptions in relationships with service providers or their provision of services",
+      "Challenges to employment status of drivers employed by service providers",
+      "Difficulties experienced by companies contracted to fly smaller regional feeder aircraft in attracting and retaining pilots",
+      "Disruptions in global supply chains limiting access to vehicles and other key capital resources",
+      "Service providers may seek to increase financial rates or modify contract terms and may refuse to provide service"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FAA regulatory authority over aircraft standards, maintenance, personnel and ground facilities",
+    "DOT regulatory authority over economic aspects of air transportation and route authority",
+    "TSA security requirements under Full All-Cargo Aircraft Operator Standard Security Plan",
+    "State regulation over safety and insurance for ground transportation",
+    "International aviation regulations and bilateral agreements required for foreign operations",
+    "Foreign postal regulations and licensing requirements restricting foreign-owned companies",
+    "ICAO Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA)",
+    "EU and UK Emissions Trading Scheme (ETS) for aviation",
+    "ICAO carbon dioxide emissions standards for aircraft",
+    "EU RefuelEU regulation requiring minimum percentage of sustainable aviation fuel",
+    "EPA regulation designating certain PFAS as hazardous substances under CERCLA",
+    "State and federal laws restricting use of PFAS in firefighting foams",
+    "California Air Resources Board Advanced Clean Fleets rule for zero emission trucks",
+    "Export control regulations including ECRA and IEEPA with strict liability for carriers",
+    "U.S. Customs and Border Protection regulation of customs clearance and brokerage activities",
+    "Railway Labor Act (RLA) coverage potentially challenged in connection with Network 2.0",
+    "National Labor Relations Act (NLRA) governing labor relations at non-Federal Express subsidiaries",
+    "Potential Congressional changes to labor laws making unionization easier",
+    "NMB and NLRB actions potentially making employee organization easier",
+    "Changes to federal or state laws governing employee classification affecting service provider status",
+    "Proposed pilot flight and duty time regulations",
+    "Data protection laws including EU GDPR, California Privacy Rights Act, Virginia Consumer Data Protection Act",
+    "Artificial intelligence regulations including EU AI Act and Colorado AI Act",
+    "China and other jurisdictions' data localization requirements",
+    "SEC climate-related disclosure rules (currently stayed)",
+    "Environmental regulations on greenhouse gas emissions",
+    "Pillar Two global minimum tax framework adopted by multiple countries",
+    "Complex and evolving tax laws in U.S. and foreign jurisdictions",
+    "Increased tariffs and export controls affecting international trade",
+    "Foreign Corrupt Practices Act and similar anti-bribery laws in non-U.S. jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions, embargoes, and export controls potentially reducing volume of goods transported globally",
+      "U.S. government actions limiting ability of domestic companies to engage in commerce with certain foreign entities",
+      "Foreign governments may investigate compliance with U.S. restrictions and take retaliatory action",
+      "Sanctions against oil-producing countries or industry participants affecting fuel supply",
+      "Services in Ukraine remain limited, services in Belarus remain suspended, exited operations in Russia",
+      "Ongoing conflicts between Russia and Ukraine and in the Middle East may lead to further sanctions, airspace bans, regional instability",
+      "U.S. executive order relating to sharing information with China and other covered countries",
+      "Potential for foreign governments to limit ability of foreign entities to do business with FedEx"
+    ]
+  },
+  "revenue_by_segment": {
+    "Federal Express": 0.856,
+    "FedEx Freight": 0.101,
+    "Corporate, other, and eliminations": 0.042
+  }
+}

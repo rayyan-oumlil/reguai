@@ -1,0 +1,81 @@
+{
+  "ticker": "UNH",
+  "company_name": "UnitedHealth Group Incorporated",
+  "company_type": "Healthcare Services and Health Insurance",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Chile",
+      "India",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "UnitedHealthcare",
+    "UnitedHealthcare Employer & Individual",
+    "UnitedHealthcare Medicare & Retirement",
+    "UnitedHealthcare Community & State",
+    "Optum Health",
+    "Optum Insight",
+    "Optum Rx"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Pharmaceutical manufacturers",
+      "Retail pharmacies",
+      "Hospitals",
+      "Physicians",
+      "Health care providers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Extensive network of over 65,000 retail pharmacies, home delivery, specialty and community health pharmacies. Dependence on pharmaceutical manufacturers for rebates and drug supply. Reliance on contracted network of physicians, hospitals and other health care professionals.",
+    "risks": "Concentration risk with pharmaceutical manufacturers. Potential disruptions from pharmacy operations. Dependence on health care provider relationships. Risk of provider refusal to contract or demand for higher payments. Supply chain vulnerabilities in pharmaceutical distribution.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "CMS regulations and audits on Medicare Advantage and Medicare Part D programs",
+    "Risk adjustment data validation (RADV) audits with potential retrospective payment adjustments",
+    "State insurance and HMO licensing and capital requirements",
+    "HIPAA privacy and security compliance requirements",
+    "HITECH data breach notification and enforcement",
+    "ERISA regulations for employer-sponsored health benefit plans",
+    "State Medicaid program regulations and rate adjustments",
+    "ACA medical loss ratio (MLR) requirements and rebates",
+    "Pharmacy Benefits Management (PBM) regulations at federal and state levels",
+    "DEA and state controlled substance regulations for pharmacies",
+    "State corporate practice of medicine and fee-splitting laws",
+    "Banking regulations for Optum Bank (FDIC requirements)",
+    "Foreign Corrupt Practices Act (FCPA) compliance for international operations",
+    "State privacy and security regulations including data breach notification laws",
+    "Consumer protection laws (FTC, Telephone Consumer Protection Act)",
+    "Anti-kickback and false claims regulations",
+    "Antitrust regulations and enforcement actions",
+    "FDA regulations for pharmacy operations",
+    "State guaranty association laws for insurance obligations",
+    "Government contract regulations and conflict of interest restrictions",
+    "Tax law changes and unfavorable audit resolutions",
+    "Changes to ACA and potential modifications to healthcare legislation",
+    "Medicare Advantage benchmark reductions and funding pressures",
+    "State minimum MLR rebate requirements for Medicaid",
+    "Formulary and drug pricing regulations",
+    "Network adequacy and provider participation requirements",
+    "Quality star rating requirements for Medicare Advantage bonus payments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Brazil",
+      "Chile"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

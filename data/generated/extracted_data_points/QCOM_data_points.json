@@ -1,0 +1,135 @@
+{
+  "ticker": "QCOM",
+  "company_name": "QUALCOMM Incorporated",
+  "company_type": "Technology - Semiconductors and Wireless Communications",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Greater China",
+      "Middle East",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "India",
+      "Japan",
+      "Germany",
+      "Singapore",
+      "Brazil",
+      "United Kingdom",
+      "Vietnam",
+      "Hong Kong",
+      "Israel",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "QCT (Qualcomm CDMA Technologies)",
+    "QTL (Qualcomm Technology Licensing)",
+    "QSI (Qualcomm Strategic Initiatives)",
+    "QGOV (Qualcomm Government Technologies)",
+    "Mobile Handsets",
+    "Automotive",
+    "IoT (Internet of Things)",
+    "Consumer (PCs, tablets, voice and music, XR)",
+    "Edge Networking (mobile broadband, wireless access points)",
+    "Industrial (handhelds, retail, tracking and logistics, utilities)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Taiwan Semiconductor Manufacturing Company (TSMC)",
+      "Global Foundries",
+      "Samsung Electronics",
+      "Semiconductor Manufacturing International Corporation (SMIC)",
+      "Advanced Semiconductor Engineering",
+      "Amkor Technology",
+      "Siliconware Precision Industries",
+      "STATSChipPAC"
+    ],
+    "manufacturing_locations": [
+      "Taiwan",
+      "South Korea",
+      "China",
+      "Singapore",
+      "Germany",
+      "United States"
+    ],
+    "dependencies": [
+      "Limited number of third-party suppliers for semiconductor manufacturing",
+      "Concentration of foundry suppliers in Asia-Pacific region, primarily Taiwan and Korea",
+      "Single-source or limited-source suppliers for certain products",
+      "Dependence on TSMC for leading-edge process technology nodes",
+      "Primary warehouses for finished goods located in Singapore",
+      "Significant engineering workforce based in India"
+    ],
+    "risks": [
+      "Supply chain concentration in Asia-Pacific region",
+      "Geopolitical tensions involving China and Taiwan could disrupt chipset supply from Taiwan",
+      "Limited manufacturing capacity at leading-edge technology nodes",
+      "Supplier allocation of capacity to competitors",
+      "Natural disasters, climate change effects, geopolitical conflicts affecting supplier facilities",
+      "Trade and national security policies limiting transactions with certain suppliers",
+      "Cyber-attacks on supplier IT systems and manufacturing facilities",
+      "Raw material shortages and price increases",
+      "Extended manufacturing lead-times increasing inventory risk",
+      "Periodic supply/capacity constraints in semiconductor industry"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Antitrust and competition law investigations and proceedings",
+    "Patent licensing practice challenges under FRAND commitments",
+    "Trade protection and national security policies (U.S. and China)",
+    "Export control regulations (U.S. Export Administration Regulations)",
+    "Tariffs and import/export restrictions",
+    "Standards Development Organizations (SDOs) intellectual property policy changes",
+    "European Commission proposed regulations on standard-essential patents",
+    "Cybersecurity laws requiring IT security certifications in various jurisdictions",
+    "Environmental, health and safety regulations (including climate change regulations)",
+    "Greenhouse gas emissions regulations and net-zero commitments",
+    "Privacy and data protection laws (varying by jurisdiction)",
+    "AI technology regulations (emerging regulatory landscape)",
+    "Automotive industry safety, security and quality standards",
+    "Supply chain and responsible sourcing regulations (including conflict minerals)",
+    "Corporate governance and ESG reporting requirements",
+    "Tax law changes (including FDII deduction changes, research and development capitalization requirements)",
+    "OECD Pillar Two global minimum tax framework (15% minimum tax)",
+    "Foreign withholding tax regulations (particularly in Korea)",
+    "Spectrum availability and license issuance regulations",
+    "Labor and employment regulations across multiple jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Russia",
+      "Iran",
+      "North Korea"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government restrictions on transactions with Chinese companies (e.g., Huawei export license revoked)",
+      "Chinese government policies limiting or preventing transactions with U.S. companies",
+      "U.S./China trade tensions impacting ability to sell products to Chinese customers",
+      "Chinese government Made in China 2025 campaign encouraging domestic semiconductor development",
+      "Potential U.S. or Chinese government actions limiting cross-border technology transfer",
+      "Restrictions on selling products containing Chinese-origin content in the United States",
+      "Chinese government policies regulating capital outflows affecting payment timing from licensees",
+      "Geopolitical conflict between China and Taiwan threatening chipset supply from Taiwan foundries",
+      "U.S. Department of Commerce Entity List restrictions",
+      "Foreign government support of competing technologies or OEMs",
+      "Trade protection policies including tariffs on semiconductors and devices",
+      "National security policies restricting technology sales to certain countries or companies"
+    ]
+  }
+}

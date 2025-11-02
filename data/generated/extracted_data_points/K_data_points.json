@@ -1,0 +1,142 @@
+{
+  "ticker": "K",
+  "company_name": "Kellanova",
+  "company_type": "Food Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Latin America",
+      "AMEA (Asia Middle East Africa)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Nigeria",
+      "Australia",
+      "Belgium",
+      "Brazil",
+      "Colombia",
+      "Ecuador",
+      "Egypt",
+      "Ghana",
+      "Great Britain",
+      "India",
+      "Japan",
+      "Malaysia",
+      "Poland",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Thailand",
+      "Turkey",
+      "Russia",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America",
+    "Europe",
+    "Latin America",
+    "AMEA (Asia Middle East Africa)",
+    "Snacks",
+    "Cereal",
+    "Frozen",
+    "Noodles and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Tolaram Africa Foods PTE LTD",
+      "Dufil Prima Foods, Plc"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Australia",
+      "Belgium",
+      "Brazil",
+      "Colombia",
+      "Ecuador",
+      "Egypt",
+      "Ghana",
+      "Great Britain",
+      "India",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Nigeria",
+      "Poland",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Thailand",
+      "Turkey"
+    ],
+    "dependencies": [
+      "Agricultural commodities including corn, wheat, rice, potato flakes, vegetable oils, sugar and cocoa",
+      "Cartonboard, corrugate, and flexible packaging materials",
+      "Natural gas and propane for processing equipment",
+      "Diesel fuel for distribution",
+      "Third-party suppliers for materials and manufacturing",
+      "Independent third parties for supply of materials and manufacture of products"
+    ],
+    "risks": [
+      "Price fluctuations in raw materials due to government policy, regulation, global geopolitical conditions, drought, weather conditions, climate change, pandemic illness, environmental regulation",
+      "Supply chain disruptions from business disruptions, weather, natural disasters, water availability, fires, terrorism, political unrest, government restrictions, tariffs, trade restrictions, cybersecurity breaches, health pandemics",
+      "Supplier capacity constraints",
+      "Operational difficulties with third-party manufacturers including cost increases, availability reductions, production delays, failures to meet deadlines, quality control issues",
+      "Concentration risk if third-party supplier or manufacturer fails",
+      "Transportation cost increases and reduced availability of drivers and railroad workers",
+      "Inflationary pressures on procurement and manufacturing costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with U.S. laws affecting operations outside the United States (OFAC trade sanction regulations, Anti-Boycott regulations)",
+    "Compliance with anti-corruption laws (FCPA, UK Bribery Act)",
+    "Compliance with antitrust and competition laws",
+    "Data privacy laws (GDPR, CCPA, CPRA)",
+    "Artificial intelligence regulations",
+    "Food safety requirements and regulations",
+    "Advertising and labeling laws and regulations",
+    "Trade and pricing practices regulations",
+    "Environmental laws and regulations",
+    "New or increased tariffs, quotas, trade barriers, trade sanctions, embargoes",
+    "Changes in tax laws, interpretation of tax laws",
+    "Income tax regulations and audits",
+    "Product liability and consumer fraud claims",
+    "Changes in food quality and safety regulations",
+    "Ingredient content regulations",
+    "Serving size regulations",
+    "Front of pack labeling regulations",
+    "Corporate sustainability reporting requirements (EU and elsewhere)",
+    "Packaging sustainability regulations (including plastics)",
+    "Climate change and environmental policies",
+    "Single use plastics regulations",
+    "Brexit-related regulatory divergence between EU and UK",
+    "OECD global minimum corporate income tax framework",
+    "Changes in international trade policies and export regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Nigeria",
+      "Egypt",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC trade sanction regulations compliance",
+      "Sanctions impacting operations in certain countries",
+      "Potential sanctions on trade with specific countries",
+      "Russia business divestiture due to geopolitical situation",
+      "Trade restrictions and export regulations affecting operations"
+    ]
+  }
+}

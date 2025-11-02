@@ -1,0 +1,98 @@
+{
+  "ticker": "IR",
+  "company_name": "Ingersoll Rand Inc.",
+  "company_type": "Industrial Manufacturing",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEIA",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "Italy",
+      "Ireland",
+      "Switzerland",
+      "China",
+      "India",
+      "Singapore",
+      "Japan",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.505,
+      "EMEIA": 0.328,
+      "Asia Pacific": 0.167
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Industrial Technologies and Services",
+    "Precision and Science Technologies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Germany",
+      "United Kingdom",
+      "China",
+      "Italy",
+      "India"
+    ],
+    "dependencies": "Single sources of supply for certain castings, motors and other select engineered components",
+    "risks": [
+      "Concentration risk in supply chain",
+      "Disruption in deliveries from suppliers",
+      "Limited number of long-term contracts with suppliers",
+      "Tightness in supply chain",
+      "Natural disasters or pandemics affecting supply chain",
+      "Large or rapid increases in cost of raw materials",
+      "Substantial decreases in availability of raw materials"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Import and export control regulations",
+    "Environmental regulations (air emissions, water discharges, waste management, workplace safety)",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "U.K. Bribery Act compliance",
+    "U.N. Convention Against Bribery compliance",
+    "Local anti-corruption laws",
+    "Data privacy requirements (including EU Corporate Sustainability Reporting Directive)",
+    "International labor laws and work councils",
+    "Trade restrictions and tariffs (including changes in U.S. trade policy)",
+    "Sanctions compliance",
+    "FDA approval requirements (for life sciences products)",
+    "Tax law changes (including OECD Pillar 2 global minimum tax)",
+    "ESG-related regulations and expectations",
+    "Anti-ESG policies and legislation in certain U.S. states",
+    "AI-related regulations (intellectual property, cybersecurity, privacy)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance risks",
+      "Impact of Russia-Ukraine war",
+      "Impact of Israel-Hamas conflict",
+      "Potential nationalization of private enterprises in China",
+      "Currency controls and devaluations in foreign countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Industrial Technologies and Services": 0.804,
+    "Precision and Science Technologies": 0.196
+  }
+}

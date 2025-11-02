@@ -1,0 +1,114 @@
+{
+  "ticker": "LH",
+  "company_name": "Labcorp Holdings Inc.",
+  "company_type": "Healthcare Diagnostics and Laboratory Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Belgium",
+      "China",
+      "Germany",
+      "India",
+      "Singapore",
+      "Switzerland",
+      "United Kingdom",
+      "Japan",
+      "Cambodia",
+      "Vietnam",
+      "Ontario (Canada)",
+      "Pennsylvania",
+      "Texas",
+      "Florida",
+      "California",
+      "Nevada",
+      "Colorado",
+      "Massachusetts",
+      "New Jersey",
+      "North Carolina"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.87,
+      "Europe": 0.09,
+      "Other": 0.04
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Diagnostics Laboratories (Dx)",
+    "Biopharma Laboratory Services (BLS)",
+    "Early Development Research Laboratories (ED)",
+    "Central Laboratory Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Asia"
+    ],
+    "dependencies": [
+      "Third-party ground and air transport for clinical trial and diagnostic testing supplies and specimens",
+      "Extensive network of third-party suppliers and vendors of services and products",
+      "Certain animal populations from suppliers",
+      "Reagents, test kits, or instruments from manufacturers"
+    ],
+    "risks": [
+      "Disruptions to supply and services from export/import restrictions or embargoes",
+      "Political or economic instability",
+      "Pressure from animal rights activists",
+      "Adverse weather, natural disasters, public health crises",
+      "Transportation disruptions",
+      "Cybersecurity incidents",
+      "Termination of relationships with suppliers or vendors for failure to follow performance standards",
+      "Discontinuation or recalls of reagents, test kits, or instruments used in laboratory testing"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in government and third-party payer regulations, reimbursement, or coverage policies in the U.S. healthcare system",
+    "Impact of the U.S. Protecting Access to Medicare Act of 2014 (PAMA)",
+    "Enforcement of anti-fraud and abuse laws (False Claims Act, Anti-Kickback Statute, Stark Law)",
+    "Failure to comply with privacy and security laws (HIPAA, HITECH Act, GDPR, CCPA, CPRA)",
+    "Loss or suspension of licenses under CLIA, state laboratory regulations, and similar laws in other jurisdictions",
+    "FDA regulation of laboratory-developed tests (LDTs) and in vitro diagnostics",
+    "European Union In Vitro Diagnostics Regulation (IVDR) and Medical Device Regulation (EU MDR)",
+    "Compliance with occupational and workplace safety laws (OSHA, Needlestick Safety and Prevention Act)",
+    "Compliance with current good manufacturing practice (cGMP) regulations",
+    "Compliance with Animal Welfare Act (AWA) and similar laws in other jurisdictions",
+    "Changes in testing guidelines or recommendations by government agencies",
+    "Compliance with environmental, health and safety laws and regulations",
+    "Compliance with Controlled Substances Act (CSA)",
+    "Compliance with FCPA, UK Bribery Act, and other anti-corruption laws",
+    "Trade sanction laws and regulations",
+    "Changes in tax laws and regulations",
+    "Pillar Two legislation from OECD base erosion and profit shifting initiative",
+    "AI and machine learning regulation",
+    "Price transparency initiatives and surprise billing laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with trade sanction laws and regulations",
+      "Economic sanctions impacting international operations",
+      "Export/import restrictions or embargoes affecting supply chain"
+    ]
+  },
+  "revenue_by_segment": {
+    "Diagnostics": 0.78,
+    "Biopharma Laboratory Services": 0.22
+  }
+}

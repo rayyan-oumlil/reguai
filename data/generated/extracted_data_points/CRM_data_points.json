@@ -1,0 +1,134 @@
+{
+  "ticker": "CRM",
+  "company_name": "Salesforce, Inc.",
+  "company_type": "Software Services - CRM Technology",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Spain",
+      "Denmark",
+      "Ireland",
+      "Netherlands",
+      "Portugal",
+      "Switzerland",
+      "Japan",
+      "South Korea",
+      "India",
+      "Singapore",
+      "Australia",
+      "China",
+      "Brazil",
+      "Argentina",
+      "Israel",
+      "Russia",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.66,
+      "Europe": 0.24,
+      "Asia Pacific": 0.1
+    },
+    "assets_by_region": {
+      "United States": 0.81,
+      "Non-US": 0.17
+    }
+  },
+  "segments": [
+    "Sales",
+    "Service",
+    "Platform and Other",
+    "Marketing and Commerce",
+    "Integration and Analytics",
+    "Slack",
+    "Agentforce",
+    "Data Cloud",
+    "Industries"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party data center hosting facilities in the United States and other countries",
+      "Cloud computing platform providers",
+      "Database software, hardware and data from various vendors",
+      "Infrastructure-as-a-Service providers",
+      "Large language models leveraged in AI offerings",
+      "Third-party infrastructure providers for data center expansion"
+    ],
+    "risks": [
+      "Interruptions or delays in services from third-party data center hosting facilities",
+      "Disruptions from cloud computing platform providers",
+      "Dependency on hardware and software vendors",
+      "Supply chain disruptions due to geopolitical developments in Europe leading to power disruptions",
+      "Reliance on third-party networks and services powering the Internet",
+      "Vulnerabilities in third-party products or components across the ecosystem"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU General Data Protection Regulation (GDPR) compliance",
+    "California Consumer Privacy Act (CCPA) compliance",
+    "State data privacy laws in multiple U.S. states",
+    "India's Digital Personal Data Protection Act 2023",
+    "EU Digital Services Act (DSA)",
+    "EU Data Act",
+    "EU AI Act",
+    "Digital Operational Resilience Act (DORA) for EU financial sectors",
+    "Utah Artificial Intelligence Policy Act",
+    "Colorado Artificial Intelligence Act",
+    "Data localization requirements in various countries",
+    "Cross-border data transfer restrictions",
+    "Invalidation of EU-U.S. Privacy Shield Framework",
+    "Standard Contractual Clauses (SCCs) uncertainty",
+    "Industry-specific regulations for financial services, healthcare, telecommunications",
+    "Payment Card Industry Data Security Standards",
+    "Telephone Consumer Protection Act (TCPA) compliance",
+    "Antitrust and competition law changes in digital markets",
+    "Export control and economic sanctions regulations",
+    "U.S. Commerce Department's Export Administration Regulations",
+    "U.S. Treasury Department's Office of Foreign Assets Control sanctions",
+    "Government contract procurement regulations",
+    "ESG and sustainability reporting requirements",
+    "Climate-related disclosure requirements (SEC rules)",
+    "Cybersecurity incident disclosure requirements (SEC Form 8-K)",
+    "Intellectual property protection challenges in foreign jurisdictions",
+    "Section 230 of the Communications Decency Act limitations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions on Russia due to war in Ukraine",
+      "Regional conflict in the Middle East impacting operations",
+      "Evolving relations between the United States and China",
+      "Multi-jurisdictional sanctions on Russia",
+      "Embargoed or sanctioned countries, governments and parties restrictions",
+      "Diversion of services to sanctioned countries and parties",
+      "Increased government regulation of AI and cloud service solutions in sanctioned jurisdictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Sales": 0.23,
+    "Service": 0.25,
+    "Platform and Other": 0.21,
+    "Marketing and Commerce": 0.15,
+    "Integration and Analytics": 0.16
+  }
+}

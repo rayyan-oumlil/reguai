@@ -1,0 +1,95 @@
+{
+  "ticker": "STE",
+  "company_name": "STERIS plc",
+  "company_type": "Healthcare and Life Science Products and Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Ireland",
+      "Europe, Middle East, and Africa",
+      "Asia Pacific",
+      "Latin America",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Ireland",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Finland",
+      "Italy",
+      "France",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "China",
+      "India",
+      "Australia",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Healthcare",
+    "Applied Sterilization Technologies (AST)",
+    "Life Sciences"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "United Kingdom",
+      "Finland",
+      "Italy",
+      "Germany"
+    ],
+    "dependencies": "Single-sourced materials in certain regions including ethylene oxide (EO) and radioisotope cobalt-60 necessary for AST operations",
+    "risks": [
+      "Limited number of suppliers for key materials such as ethylene oxide and cobalt-60",
+      "Supply chain disruptions from geopolitical conflicts",
+      "Tariff measures and trade policy changes creating inflation risks",
+      "Availability and pricing volatility of raw materials including stainless steel, organic and inorganic chemicals, fuel, and plastic components",
+      "Single-source suppliers for certain materials in specific regions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory requirements for medical devices and sterilization products",
+    "EPA regulations on ethylene oxide (EO) emissions and sterilization operations",
+    "State and local regulatory actions related to EO sterilization facilities",
+    "European Union regulations including GDPR, EU Customs Code, EU Restriction of Hazardous Substances Directive",
+    "UK Modern Slavery Act compliance",
+    "US Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Dodd-Frank Conflict Minerals Rules",
+    "Corporate Sustainability Reporting Directive (CSRD) and European Sustainability Reporting Standards (ESRS)",
+    "Global Base Erosion (GloBE) / Pillar Two minimum tax rules",
+    "Medical Device Manufacturers Association (MDMA) and AdvaMed Code of Ethics compliance",
+    "MedTech Europe Code of Ethical Business Practice",
+    "Changes in healthcare reimbursement policies (Medicare, Medicaid)",
+    "Product recall and restriction requirements",
+    "Environmental, health, and safety regulations across multiple jurisdictions",
+    "Tax law changes including Section 7874 of the U.S. Internal Revenue Code",
+    "Potential denial of U.S. government contracts to redomiciled companies",
+    "OSHA regulations",
+    "Nuclear Regulatory Commission requirements",
+    "Country-specific regulations in over 35 countries where STERIS operates"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions compliance requirements",
+      "Trade restrictions and limitations on trade with sanctioned countries",
+      "Tariff measures introduced in early calendar year 2025 creating uncertainty",
+      "Potential retaliatory tariffs from other countries",
+      "Changes to international trade agreements and policies"
+    ]
+  }
+}

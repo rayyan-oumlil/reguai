@@ -1,0 +1,136 @@
+{
+  "ticker": "AMD",
+  "company_name": "Advanced Micro Devices, Inc.",
+  "company_type": "Semiconductor",
+  "geography": {
+    "regions": [
+      "United States",
+      "China (including Hong Kong)",
+      "Singapore",
+      "Taiwan",
+      "Japan",
+      "Europe",
+      "Canada",
+      "India",
+      "Ireland",
+      "Malaysia",
+      "Latin America",
+      "Australia",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Hong Kong",
+      "Singapore",
+      "Taiwan",
+      "Japan",
+      "Canada",
+      "India",
+      "Ireland",
+      "Malaysia",
+      "United Kingdom",
+      "Finland",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Data Center",
+    "Client",
+    "Gaming",
+    "Embedded"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+      "GLOBALFOUNDRIES Inc. (GF)",
+      "United Microelectronics Corporation (UMC)",
+      "Samsung Electronics Co., Ltd.",
+      "Siliconware Precision Industries Ltd. (SPIL)",
+      "King Yuan Electronics Company (KYEC)",
+      "Tongfu Microelectronics Co., Ltd."
+    ],
+    "manufacturing_locations": [
+      "Taiwan",
+      "China",
+      "Malaysia",
+      "United States",
+      "Europe",
+      "Asia-Pacific region"
+    ],
+    "dependencies": [
+      "TSMC for production of wafers for HPC, FPGA and Adaptive SoC products at 7nm or smaller nodes",
+      "GLOBALFOUNDRIES for wafer purchases at 12nm and 14nm technology nodes",
+      "Third-party wafer foundries for all silicon wafer fabrication",
+      "Third-party ATMP partners in Asia-Pacific region for assembly, test, mark and packaging",
+      "ATMP joint ventures with Tongfu Microelectronics provide majority of ATMP services",
+      "Limited number of suppliers for certain equipment, materials and substrates",
+      "Single or limited suppliers for certain IC packages, memory, PCBs, interposers, substrates and capacitors"
+    ],
+    "risks": [
+      "Dependence on third-party manufacturers for all product manufacturing",
+      "No long-term commitment contracts with some third-party manufacturing suppliers",
+      "Manufacturers could prioritize capacity for other customers or competitors",
+      "Supply constraints from third-party manufacturing suppliers",
+      "Limited control over delivery schedules, yield, cycle times, quality assurance",
+      "Dependence on several subcontractors",
+      "Risk of misappropriation of intellectual property by manufacturers",
+      "Concentration risk - TSMC manufactures all products at 7nm or smaller nodes",
+      "ATMP JVs provide majority of services with no guarantee of fulfilling long-term requirements",
+      "Essential equipment, materials or substrates may not be available",
+      "Certain materials available only from limited or sole suppliers",
+      "Supply chain disruptions from natural disasters, power outages, water shortages, heat events",
+      "Geopolitical tensions between China and Taiwan could disrupt Taiwan-based operations",
+      "Climate change impacts on supplier operations and water/energy availability"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export control regulations restricting sale of AI technologies to embargoed countries",
+    "U.S. export controls on advanced computing items to China (ECCN 3A090, 4A090)",
+    "Entity List restrictions - THATIC and THATIC JV added to Entity List in June 2019",
+    "Notified Advanced Computing (NAC) notification requirements for certain products to China",
+    "International Traffic and Arms Regulations (ITAR) administered by U.S. Department of State",
+    "Export Administration Regulation (EAR) governing export and re-export of products",
+    "Potential future tariffs, trade protection measures, import/export regulations",
+    "Deemed export restrictions affecting R&D teams outside United States",
+    "Environmental laws and regulations on materials used in products and manufacturing",
+    "EU and China restrictions on use of lead and other materials in electronic products",
+    "ENERGY STAR specifications and energy consumption limits in EU, Australia, California, China",
+    "Conflict minerals reporting requirements (SEC, EU, China)",
+    "Forced labor regulations in supply chains",
+    "General Data Protection Regulation (GDPR) in EU and UK",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "EU AI Act adopted in 2024 with phased implementation",
+    "Evolving AI-related regulations and intellectual property laws",
+    "Climate-related disclosure requirements and reporting obligations",
+    "Pillar Two global minimum tax (15%) implemented in many countries",
+    "CHIPS Act of 2022 providing financial incentives to U.S. semiconductor industry",
+    "Superfund Act environmental liability for contaminated sites",
+    "California Regional Water Quality Control Board clean-up requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Ukraine (DNR and LNR regions)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions and export control revisions against Russia, Belarus, DNR and LNR regions of Ukraine due to Ukraine conflict",
+      "Entity List designation of Chinese entities including THATIC and THATIC JV",
+      "U.S.-China trade tensions and ongoing additions of Chinese companies to Entity List",
+      "Restrictions on advanced computing and semiconductor manufacturing technologies to China",
+      "Potential prohibition of shipments to China or customers with ultimate parent in D5 countries",
+      "Risk of retaliatory actions from foreign governments",
+      "Geopolitical tensions between China and Taiwan could disrupt operations of Taiwan-based foundries and manufacturers",
+      "Ukraine-Russia and Israel-Hamas conflicts could escalate with negative impacts on global economy",
+      "U.S. involvement in armed conflicts impacting sales and supply chain"
+    ]
+  }
+}

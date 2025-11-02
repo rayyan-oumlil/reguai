@@ -1,0 +1,102 @@
+{
+  "ticker": "BKNG",
+  "company_name": "Booking Holdings Inc.",
+  "company_type": "Online Travel Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia-Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Netherlands",
+      "United Kingdom",
+      "Singapore",
+      "China",
+      "Israel",
+      "Spain",
+      "Switzerland",
+      "Poland",
+      "Italy",
+      "Turkey",
+      "India",
+      "Germany",
+      "France",
+      "Norway",
+      "Canada",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Booking.com",
+    "Priceline",
+    "Agoda",
+    "KAYAK",
+    "OpenTable",
+    "Accommodations",
+    "Flights",
+    "Ground Transportation",
+    "Activities",
+    "Restaurants",
+    "Meta Search"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Google",
+      "Global Distribution Systems (GDSs)",
+      "Payment card processors",
+      "Cloud computing providers",
+      "Data center providers"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on Google for significant portion of traffic generation through pay-per-click marketing; dependence on third-party computer systems including GDSs and central reservation systems; reliance on payment card processors and networks; dependence on third-party service providers for call centers and customer service",
+    "risks": "Google could change search algorithms or pricing negatively impacting traffic; third-party systems failures could prevent bookings; payment processor disruptions could impact transactions; concentration risk with major travel service providers; potential withdrawal of major accommodation providers; cybersecurity vulnerabilities in third-party systems",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU General Data Protection Regulation (GDPR) compliance and potential fines up to 4% of global revenues",
+    "California Consumer Privacy Act (CCPA) and state consumer privacy laws with private right of action",
+    "Digital Markets Act (DMA) - designated as gatekeeper with additional compliance obligations",
+    "Digital Services Act (DSA) - Booking.com designated as Very Large Online Platform (VLOP)",
+    "EU Package Travel Directive requirements for travel packages and linked arrangements",
+    "Competition law investigations by national competition authorities regarding parity arrangements",
+    "Spanish competition authority fine and business practice restrictions",
+    "Payment Services Directive 2 and 3 compliance requirements",
+    "Digital services taxes in multiple jurisdictions (1.5% to 10% of revenues)",
+    "Alternative accommodation regulations and local registration requirements",
+    "Insurance distribution regulations for travel-related insurance products",
+    "Data localization requirements in certain countries",
+    "Travel agent registration requirements in various jurisdictions",
+    "ePrivacy Directive and cookie consent requirements",
+    "AI regulation including EU Artificial Intelligence Act",
+    "Money transmission and payment processing licensing requirements",
+    "Export control regulations for payment services expansion",
+    "Anti-corruption laws (US Foreign Corrupt Practices Act, UK Bribery Act)",
+    "Sanctions compliance (US, EU, UN sanctioned countries and persons)",
+    "Tax compliance including GILTI, BEAT, and international tax reform (OECD)",
+    "Travel transaction taxes disputes in multiple US jurisdictions",
+    "Works council consultation requirements in Europe"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Israel",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US, EU, or UN sanctioned country mandates restricting business operations",
+      "Booking made at property potentially owned by party blocked under Executive Order 13224",
+      "Risk of conducting business with sanctioned parties through payment systems",
+      "Potential violations impacting ability to conduct business in certain jurisdictions"
+    ]
+  }
+}

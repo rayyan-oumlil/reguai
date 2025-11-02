@@ -1,0 +1,97 @@
+{
+  "ticker": "EVRG",
+  "company_name": "Evergy, Inc.",
+  "company_type": "Electric Utility",
+  "geography": {
+    "regions": [
+      "United States",
+      "United States - Central"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Kansas": 0.77,
+      "Missouri": 0.23
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Evergy Missouri West",
+    "Evergy Transmission Company",
+    "Evergy Metro",
+    "Evergy Kansas Central"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Wyoming Powder River Basin coal suppliers",
+      "Southern Star Central Gas Pipeline, Inc."
+    ],
+    "manufacturing_locations": [
+      "Kansas",
+      "Missouri"
+    ],
+    "dependencies": "Coal supply from Wyoming Powder River Basin; uranium supply contracts through 2030; natural gas transportation arrangements expiring 2025-2030; single vendor for nuclear fuel assembly fabrication through 2045; single vendor for power island equipment for new natural gas plants",
+    "risks": [
+      "Supply chain disruptions and inflation; tariffs on imported goods; single-source supplier risk for nuclear fuel fabrication; vendor delays for natural gas plant equipment; coal and rail transportation contract renewals; uranium import restrictions from Russia",
+      "Fuel price volatility; supply chain lead times and supply constraints due to industry-wide infrastructure investments"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Wildfire liability and regulatory penalties",
+    "GHG emissions regulations and potential carbon tax",
+    "Rate moratoriums, rate refunds, limits on rate increases, or rate reductions",
+    "Securitization mechanisms eliminating future returns on coal-fired generation investments",
+    "Federal Energy Regulatory Commission (FERC) wholesale regulation",
+    "Prices established by FERC, KCC, and MPSC may not be sufficient to recover costs or provide adequate return on investment",
+    "NERC and SPP transmission system reliability and cybersecurity standards compliance",
+    "Nuclear Regulatory Commission (NRC) requirements for Wolf Creek nuclear plant",
+    "Greenhouse Gas regulations - EPA final rules on CO2 limitations for new and existing fossil fuel EGUs, including carbon capture and sequestration requirements",
+    "PISA annual limits (1.5% Kansas, 2.5% Missouri) may prevent full cost recovery",
+    "Water discharge regulations - EPA Effluent Limitation Guidelines (ELG) requiring zero liquid discharge for certain wastewater streams",
+    "Regulatory disallowances of prudently incurred costs",
+    "NRC licensing and safety requirements for Wolf Creek nuclear facility",
+    "Environmental permit renewals with more stringent conditions",
+    "Ozone Interstate Transport Federal Implementation Plans (ITFIP) - Potential material impact on operations if finalized for Kansas",
+    "Stranded asset risk if coal generation retirements deemed imprudent by regulators",
+    "Rate regulation by Kansas Corporation Commission (KCC) and Missouri Public Service Commission (MPSC) - risk of non-approval of full cost recovery or reasonable return on investment",
+    "MPSC and KCC operational standards (vegetation management, facilities inspection, quality of service)",
+    "Ozone Interstate Transport State Implementation Plans (ITSIP) - EPA disapproval of state plans could require additional emission reductions",
+    "IRS interpretation of production tax credits for nuclear and renewable energy",
+    "Coal combustion residuals (CCR) Part A and Part B rule compliance",
+    "Coal Combustion Residuals (CCR) regulations - EPA expansion to legacy surface impoundments and historic CCR placements",
+    "Regulatory lag in rate-setting process causing cost-recovery shortfalls",
+    "EPA environmental regulations (Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act)",
+    "FERC wholesale rates and transmission regulation",
+    "Mercury and Air Toxics Standards (MATS) - EPA tightening emission limits for particulate matter and mercury",
+    "Climate disclosure rules issued by SEC increasing compliance costs",
+    "EPA environmental justice inspections and increased monitoring",
+    "Regional Haze Rule - State or EPA revised SIP or FIP could require operational or physical modifications to generating units",
+    "Changes in tax laws, rates, credits, and incentives under new presidential administration",
+    "Particulate Matter National Ambient Air Quality Standards - EPA lowering PM2.5 standards could require compliance measures",
+    "Property tax regulations and changes in Kansas and Missouri",
+    "Compliance with Clean Air Act provisions",
+    "Deregulation or restructuring of electric utility industry in Missouri or Kansas"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Prohibiting Russian Uranium Imports Act limiting uranium from Russian Federation",
+      "Russian-sourced nuclear fuel contract beginning 2025 impacted by import restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Residential": 0.374,
+    "Commercial": 0.336,
+    "Industrial": 0.117,
+    "Wholesale": 0.055,
+    "Transmission": 0.083,
+    "Other": 0.035
+  }
+}

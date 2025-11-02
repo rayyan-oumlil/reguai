@@ -1,0 +1,103 @@
+{
+  "ticker": "DD",
+  "company_name": "DuPont de Nemours, Inc.",
+  "company_type": "Diversified Industrials - Specialty Materials and Solutions",
+  "geography": {
+    "regions": [
+      "U.S. & Canada",
+      "EMEA",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Japan",
+      "South Korea",
+      "United Kingdom",
+      "Luxembourg",
+      "Delaware",
+      "Ohio",
+      "Netherlands",
+      "Germany",
+      "Denmark",
+      "Switzerland",
+      "Brazil",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.331,
+      "Canada": 0.022,
+      "EMEA": 0.173,
+      "Asia Pacific": 0.433,
+      "Latin America": 0.04
+    },
+    "assets_by_region": {
+      "United States": 0.622,
+      "Canada": 0.01,
+      "EMEA": 0.218,
+      "Asia Pacific": 0.143,
+      "Latin America": 0.006
+    }
+  },
+  "segments": [
+    "Electronics & Industrial",
+    "Water & Protection",
+    "Industrial Solutions",
+    "Interconnect Solutions",
+    "Semiconductor Technologies",
+    "Safety Solutions",
+    "Shelter Solutions",
+    "Water Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Asia Pacific",
+      "EMEA",
+      "Latin America",
+      "China",
+      "Delaware",
+      "Ohio",
+      "Luxembourg"
+    ],
+    "dependencies": "The Company uses a wide variety of raw materials in the manufacturing of products. Raw material prices are driven by global supply and demand and have been affected by worldwide economic conditions, including supply chain disruptions and inflationary cost pressures.",
+    "risks": "Supply chain disruptions, plant and/or power outages, labor shortages and/or strikes, geo-political activity, weather events and natural disasters, including hurricanes or flooding that impact coastal regions, and global health risks or pandemics could seriously harm the Company's operations as well as the operations of the Company's customers and suppliers. The Company's suppliers may experience capacity limitations in their own operations or may elect to reduce or eliminate certain product lines.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in environmental laws and regulations relating to pollution, protection of the environment, product content, greenhouse gas emissions",
+    "Legislative efforts to control or limit GHG emissions could affect energy source and supply choices and increase cost of energy and raw materials",
+    "Costs of complying with evolving regulatory requirements including sustainability reporting, supply chain due diligence and regulatory registrations",
+    "Changes in tax laws or regulations including multi-jurisdictional changes from OECD Global Anti-Base Erosion (GloBE) rules under Pillar Two introducing 15% global minimum corporate tax",
+    "Inflation Reduction Act of 2022 imposing 15% corporate alternative minimum tax (CAMT)",
+    "Compliance with anti-corruption, anti-bribery, global trade, trade sanctions, anti-trust, anti-money laundering laws, anti-slavery and human rights laws",
+    "Product safety or quality regulations, federal, state, and local regulations on manufacturing or labeling, packaging, environmental, health and safety regulations",
+    "Regulatory approvals process for products including testing safety, efficacy and environmental impact",
+    "PFAS-related regulations and changes in laws applicable to PFAS chemicals, changes in health advisory levels and chronic reference doses for PFAS in drinking water",
+    "Data protection laws including EU General Data Protection Regulation (GDPR) with evolving interpretation across jurisdictions",
+    "Environmental remediation obligations under Comprehensive Environmental Response, Compensation and Liability Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Risks associated with continuing or expanding trade disputes or restrictions",
+      "New or increased tariffs or export controls including on exports to China of U.S.-regulated products and technology",
+      "Trade regulations, policies and disputes can increase tariffs, trade barriers, limit ability to sell certain products to certain customers"
+    ]
+  },
+  "revenue_by_segment": {
+    "Electronics & Industrial": 0.479,
+    "Water & Protection": 0.438,
+    "Corporate & Other": 0.083
+  }
+}

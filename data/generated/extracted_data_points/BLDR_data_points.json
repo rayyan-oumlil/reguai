@@ -1,0 +1,85 @@
+{
+  "ticker": "BLDR",
+  "company_name": "Builders FirstSource, Inc.",
+  "company_type": "Building Materials Supply and Manufacturing",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Manufactured Products",
+    "Windows, Doors and Millwork",
+    "Specialty Building Products and Services",
+    "Lumber and Lumber Sheet Goods"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Specialty Building Products",
+      "Weyerhaeuser Company",
+      "West Fraser Timber Co. Ltd.",
+      "Boise Cascade Company",
+      "Louisiana-Pacific Corp.",
+      "James Hardie Industries plc"
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": [
+      "Largest single supplier represents 8% of total materials purchases",
+      "Reliance on commodity wood products subject to price fluctuations",
+      "Dependence on availability of qualified tradesmen",
+      "Supply chain constraints and cyclical fluctuations in commodity prices"
+    ],
+    "risks": [
+      "Product shortages and loss of key suppliers",
+      "Dependence on third-party suppliers and manufacturers",
+      "Inability of suppliers to meet supply needs in timely manner or quality standards",
+      "Delays in delivery of lumber and other products",
+      "Short-term changes in cost and/or availability of materials",
+      "Disruptions in supply chain",
+      "Concentration risk - largest supplier is 8% of purchases"
+    ],
+    "supplier_concentration": {
+      "Largest single supplier": 0.08
+    }
+  },
+  "regulatory_risks": [
+    "Federal, state, local and other regulations could impose substantial costs and/or restrictions on operations",
+    "Department of Transportation regulations applicable to fleet of delivery trucks",
+    "Work safety regulations promulgated by Department of Labor's Occupational Safety and Health Administration",
+    "Employment regulations, including immigration and work-authorization laws",
+    "Regulations promulgated by United States Equal Employment Opportunity Commission",
+    "Tariff regulations on imported products promulgated by Federal government",
+    "Accounting standards issued by FASB or similar entities",
+    "State and local regulations relating to escrow business",
+    "State and local zoning restrictions and building codes",
+    "Environmental laws, ordinances and regulations (federal, state, local)",
+    "Zoning, building design and safety, construction, energy and water conservation regulations",
+    "Regulatory restrictions may increase operating expenses and limit availability of suitable building lots",
+    "Changes to global trade policies may adversely impact business",
+    "Future changes to tax laws and regulations could have adverse impact",
+    "Potential exposure to environmental liabilities",
+    "Liability for investigation or remediation of contamination on properties",
+    "More stringent standards regarding existing residual contamination",
+    "Changes in legislation, laws, rules or regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Manufactured products": 0.24,
+    "Windows, doors and millwork": 0.257,
+    "Specialty building products and services": 0.247,
+    "Lumber and lumber sheet goods": 0.256
+  }
+}

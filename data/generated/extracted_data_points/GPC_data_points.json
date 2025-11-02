@@ -1,0 +1,113 @@
+{
+  "ticker": "GPC",
+  "company_name": "Genuine Parts Company",
+  "company_type": "Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Australasia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "France",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Poland",
+      "Netherlands",
+      "Belgium",
+      "Spain",
+      "Portugal",
+      "Australia",
+      "New Zealand",
+      "Indonesia",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.74,
+      "Europe": 0.16,
+      "Australasia": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Automotive Parts Group",
+    "Industrial Parts Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on supplier relationships for quality products at favorable prices",
+      "Approximately 55% of 2024 automotive parts inventories purchased from 10 major suppliers",
+      "Approximately 46% of total industrial product purchases in 2024 were made from top 50 strategic suppliers",
+      "Supplier consolidation could limit number of suppliers and affect prices",
+      "Reliance on vendor return privileges to protect from inventory obsolescence"
+    ],
+    "risks": [
+      "Raw material shortages",
+      "Inadequate manufacturing capacity",
+      "Labor strikes, shortages and disputes in supply chain",
+      "Tariff and customs legislation and enforcement",
+      "Transportation disruptions",
+      "Tax and legislative uncertainties",
+      "Public health emergencies",
+      "Weather conditions",
+      "Financial or operational difficulties at suppliers",
+      "Supplier consolidation limiting supplier options",
+      "Supply chain delays or interruptions",
+      "Global supply chain disruptions from geopolitical conflicts"
+    ],
+    "supplier_concentration": {
+      "Top 10 automotive suppliers": 0.55,
+      "Top 50 industrial suppliers": 0.46
+    }
+  },
+  "regulatory_risks": [
+    "Restrictions on access to diagnostic tools and repair information imposed by original vehicle manufacturers or governmental regulation",
+    "Changes in legislation or government regulations or policies, particularly those relating to taxation and international trade",
+    "Changes to existing international trade agreements, blocking of foreign trade, increased protectionism, or imposition of tariffs on foreign goods",
+    "Section 232 tariffs on imported products of steel and aluminum",
+    "Section 301 tariffs on most imported products from China",
+    "New tariffs enacted as of February 2025 that significantly increase tariffs on foreign imports into the United States",
+    "Changes in tax laws or interpretation/enforcement of existing tax laws",
+    "Compliance with environmental protection regulations",
+    "Compliance with product quality standards",
+    "Compliance with cybersecurity regulations",
+    "Compliance with machine learning and artificial intelligence regulations",
+    "Compliance with data privacy regulations",
+    "Compliance with building and zoning requirements",
+    "Compliance with employment law matters",
+    "Laws enacted to reduce greenhouse gas emissions",
+    "Mandatory annual reporting requirements related to carbon emissions and other sustainability-related information",
+    "Significant increases in fuel economy requirements",
+    "New federal or state restrictions on emissions of carbon dioxide",
+    "New federal or state incentive programs for vehicles and automobile fuels",
+    "Increasing number of laws in various jurisdictions relating to taxes, environmental protection, product quality standards, cybersecurity, machine learning, artificial intelligence, data privacy, building and zoning requirements, and employment law matters"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S., NATO members and other countries have instituted sanctions and other penalties against Russia in response to its conflict with Ukraine",
+      "Retaliatory measures creating global security concerns",
+      "Potential broader military and political conflicts",
+      "Disruptions to global automotive supply chains",
+      "Adverse changes in international trade policies and relations, including U.S. relations with China"
+    ]
+  },
+  "revenue_by_segment": {
+    "Automotive Parts": 0.63,
+    "Industrial Parts": 0.37
+  }
+}

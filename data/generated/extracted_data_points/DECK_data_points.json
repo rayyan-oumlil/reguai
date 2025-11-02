@@ -1,0 +1,109 @@
+{
+  "ticker": "DECK",
+  "company_name": "Deckers Outdoor Corporation",
+  "company_type": "Footwear, Apparel, and Accessories",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Latin America",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Austria",
+      "Belgium",
+      "China",
+      "France",
+      "Germany",
+      "Hong Kong",
+      "Indonesia",
+      "Italy",
+      "Japan",
+      "Netherlands",
+      "Switzerland",
+      "United Kingdom",
+      "Vietnam",
+      "Macau",
+      "Australia",
+      "Korea",
+      "Republic of Türkiye"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Domestic": 0.639,
+      "International": 0.361
+    },
+    "assets_by_region": {
+      "United States": 0.889,
+      "Foreign": 0.111
+    }
+  },
+  "segments": [
+    "UGG brand",
+    "HOKA brand",
+    "Teva brand",
+    "AHNU brand",
+    "Koolaburra brand"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Designated suppliers in Australia (sheepskin)",
+      "Two tanneries in China (sheepskin processing)"
+    ],
+    "manufacturing_locations": [
+      "Southeast Asia",
+      "Vietnam",
+      "China",
+      "Indonesia"
+    ],
+    "dependencies": "Sheepskin used to manufacture a significant portion of UGG brand products is sourced primarily from designated suppliers in Australia and processed by two tanneries in China. Less than 5% of finished goods for footwear comes from China while the remainder comes from Southeast Asia, predominately from Vietnam.",
+    "risks": "Supply chain disruptions could interrupt product manufacturing and global logistics and increase product and transportation costs. Port congestion, temporary closures, vessel availability and reliability, worker shortages, government-imposed restrictions, such as border closures and shipment restrictions, as well as trade policy changes, may disrupt operations. Geopolitical conflicts have and could in the future bring about disruption and volatility in global markets, supply chains, and logistics. Elevated inventory levels, combined with uneven flow of receipts and shipments, could cause capacity pressures within US warehouses and DCs and international 3PLs. Labor disputes that affect partners create significant risk, particularly if such disputes result in work slowdowns, strikes, or other disruptions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "US and foreign trade policies and the enactment of tariffs and retaliatory tariffs",
+    "Changes to international trade dynamics, including tariffs, import restrictions, customs disputes, retaliatory measures, shifting trade agreements and cross-border partnerships",
+    "Customs authorities may disagree with claimed tariff treatment for certain products, resulting in unexpected costs",
+    "Noncompliance with applicable laws or standards by independent manufacturers and suppliers could lead to product recalls, regulatory penalties, seizure or forfeiture of products, or reputational harm",
+    "Violation of US or foreign trade laws or regulations may subject the Company to extra duties, significant monetary penalties, seizure and forfeiture of products, or loss of import privileges",
+    "Restrictions on the transfer of funds from foreign jurisdictions or volatile foreign exchange rates",
+    "Burdens of complying with a variety of foreign laws and regulations, which may change unexpectedly",
+    "Legal costs related to defending allegations of non-compliance with foreign laws",
+    "Inability to import products into a foreign country",
+    "Changes in diplomatic and trade relationships between the US and other countries",
+    "Data privacy and security incidents may prevent the Company from maintaining the privacy of information and require significant resources to respond to incidents",
+    "Failure to comply with privacy and security requirements of applicable data protection laws could result in civil or criminal penalties",
+    "Data protection laws include California Consumer Privacy Act, California Privacy Rights Act, EU's General Data Protection Regulation, Canada's Personal Information Protection and Electronic Documents Acts, and China's Personal Information Protection Law",
+    "Future legislation could restrict the ability to use sheepskin in products sold in certain geographies (e.g., fur bans in certain US cities)",
+    "Changes in tax laws, regulations, and treaties could materially affect the business and result in higher tax rates",
+    "Global tax authorities may take differing positions in interpreting OECD guidance, including Base Erosion and Profit Shifting",
+    "15% global minimum tax under OECD's Pillar Two Global Anti-Base Erosion Rules adopted in various countries",
+    "Climate change legislation, regulations, or industry standards may impose additional costs and compliance burdens",
+    "Increasing expectations from investors, regulators, and stakeholders with respect to ESG practices may impose additional costs or expose to new risks",
+    "SEC and other regulators requiring climate-related disclosures and ESG reporting",
+    "Negative perception of diversity, equity, and inclusion initiatives could result in reduced customer demand, stockholder activism, regulatory inquiries, and litigation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Vietnam"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US administrations have enacted tariffs on imports, renegotiated or withdrawn from trade agreements, and implemented other restrictive measures",
+      "Escalation of trade tensions could materially and adversely impact business, financial condition, and results of operations",
+      "Sanctions that could in the future be imposed on other countries by the US government may disrupt operations of independent manufacturers and 3PLs",
+      "Geopolitical conflicts (e.g., shipping disruptions in the Red Sea) have and could in the future bring about disruption and volatility in global markets, supply chains, and logistics",
+      "Certain tariffs from Canada could change shipment routing of product to Mooresville, Indiana warehouses and DCs, which would increase lead times and impact ability to timely fulfill orders"
+    ]
+  },
+  "revenue_by_segment": {
+    "UGG brand": 0.508,
+    "HOKA brand": 0.448,
+    "Other brands": 0.044
+  }
+}

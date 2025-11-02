@@ -1,0 +1,104 @@
+{
+  "ticker": "SLB",
+  "company_name": "Schlumberger Limited (Schlumberger N.V.)",
+  "company_type": "Energy Technology and Oilfield Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe & Africa",
+      "Middle East & Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Ecuador",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Qatar",
+      "Egypt",
+      "Australia",
+      "Russia",
+      "United Kingdom",
+      "Norway",
+      "Argentina",
+      "China",
+      "India",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Digital & Integration",
+    "Reservoir Performance",
+    "Well Construction",
+    "Production Systems"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International locations (multiple countries)"
+    ],
+    "dependencies": [
+      "Reliance on third-party products, services, and technologies",
+      "Supply chain disruptions mentioned as a risk factor"
+    ],
+    "risks": [
+      "Supply chain disruptions",
+      "Challenges in supply chain",
+      "Availability and cost of raw materials",
+      "Access to raw materials"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental protection laws and regulations",
+    "Health and safety regulations",
+    "Labor and employment laws",
+    "Human rights regulations",
+    "Import/export controls",
+    "Currency exchange regulations",
+    "Emissions reporting requirements",
+    "Bribery and corruption laws (Foreign Corrupt Practices Act, UK Bribery Act)",
+    "Anti-money laundering regulations",
+    "Data privacy and cybersecurity laws",
+    "Intellectual property regulations",
+    "Immigration laws",
+    "Antitrust regulations",
+    "Taxation laws",
+    "Trade control regulations and trade sanctions laws",
+    "Offshore oil and gas exploration regulations",
+    "Radioactive sources regulations",
+    "Explosives and chemicals regulations",
+    "Climate-related initiatives and regulations (Paris Agreement, Europe Climate Law)",
+    "GHG emissions regulations",
+    "Securities laws",
+    "Confiscatory taxation",
+    "Local content requirements",
+    "Restrictions on repatriation of income or capital",
+    "Currency exchange controls"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Argentina",
+      "China",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade and economic sanctions imposed by the European Union, United States, United Kingdom, China, or other regions",
+      "International sanctions expansion related to Russia-Ukraine conflict",
+      "Halting shipments of products into Russia due to international sanctions",
+      "Iran sanctions (historical wind-down of operations)",
+      "Restrictions on operations in certain markets due to sanctions"
+    ]
+  }
+}

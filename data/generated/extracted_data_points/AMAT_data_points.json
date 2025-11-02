@@ -1,0 +1,99 @@
+{
+  "ticker": "AMAT",
+  "company_name": "Applied Materials, Inc.",
+  "company_type": "Semiconductor Equipment Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia Pacific",
+      "Europe",
+      "Middle East",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Taiwan",
+      "Korea",
+      "Japan",
+      "Singapore",
+      "Israel",
+      "India",
+      "Canada",
+      "Germany",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "China": 0.37,
+      "Korea": 0.17,
+      "Taiwan": 0.15,
+      "Japan": 0.08,
+      "Southeast Asia": 0.04,
+      "United States": 0.14,
+      "Europe": 0.05
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Semiconductor Systems",
+    "Applied Global Services",
+    "Display"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Singapore",
+      "Japan",
+      "China",
+      "Korea",
+      "Taiwan",
+      "Israel"
+    ],
+    "dependencies": "Qualified vendors and contract manufacturers supply parts, services and product support. Some key parts may be obtained from only a qualified single supplier or a limited group of qualified suppliers.",
+    "risks": "Supply chain disruptions from cybersecurity incidents, geopolitical tensions, trade restrictions, transportation interruptions, natural disasters, shortages of semiconductor components, limited availability of materials subject to environmental regulations",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export regulations for semiconductor technology sold to China including wafer fabrication equipment and related parts and services",
+    "Export license requirements and Entity List restrictions limiting sales to certain Chinese customers",
+    "U.S. CHIPS and Science Act compliance requirements",
+    "Inflation Reduction Act 15% corporate minimum tax and 1% excise tax on stock repurchases",
+    "OECD Base Erosion and Profit Shifting Project global minimum tax regimes enacted in multiple countries",
+    "California climate change disclosure rules",
+    "European Union Corporate Sustainability Reporting Directive",
+    "SEC rules on climate-related risks",
+    "Environmental regulations on hazardous materials, discharge, recycling, transportation and disposal",
+    "Regulations limiting use of hydrofluorocarbons and per- and polyfluoroalkyl substances (PFAS)",
+    "Data privacy and localization requirements in multiple jurisdictions",
+    "Anti-corruption laws and regulations",
+    "Cybersecurity and data protection regulations",
+    "Trade compliance including import, export and customs regulations",
+    "Antitrust regulations",
+    "Public procurement and public funding requirements",
+    "Employment, immigration and travel regulations",
+    "National security review requirements for foreign investments and acquisitions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government export controls restricting sale of certain technologies to customers in China",
+      "Potential retaliatory measures from foreign governments",
+      "Conflict in the Middle East impacting operations",
+      "Russia's invasion of Ukraine creating heightened cybersecurity attack risk",
+      "Increasing tension with China creating heightened cybersecurity attack risk"
+    ]
+  },
+  "revenue_by_segment": {
+    "Semiconductor Systems": 0.73,
+    "Applied Global Services": 0.23,
+    "Display": 0.03,
+    "Corporate and Other": 0.01
+  }
+}

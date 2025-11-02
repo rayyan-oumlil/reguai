@@ -1,0 +1,81 @@
+{
+  "ticker": "PEG",
+  "company_name": "Public Service Enterprise Group Incorporated",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "PSE&G",
+    "PSEG Power & Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Nuclear fuel supply from third parties",
+      "Limited suppliers for certain aspects of nuclear fuel supply chain",
+      "Single fuel fabrication services provider for nuclear units"
+    ],
+    "risks": [
+      "Disruptions or cost increases in supply chain including labor shortages",
+      "Changes in prices and demand for nuclear fuel",
+      "Curtailments by suppliers",
+      "Severe weather impacts",
+      "Environmental regulations affecting supply",
+      "War and hostilities",
+      "Tariffs affecting nuclear fuel supply",
+      "Limited suppliers for uranium conversion, enrichment and fabrication",
+      "Transitioning to alternative fuel fabrication provider could take extended period"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Comprehensive regulation by New Jersey Board of Public Utilities (BPU)",
+    "Federal Energy Regulatory Commission (FERC) regulation",
+    "Nuclear Regulatory Commission (NRC) regulation",
+    "Commodity Futures Trading Commission (CFTC) regulation",
+    "State and federal environmental regulations",
+    "NERC Critical Infrastructure Protection standards",
+    "Transportation Security Administration security directives for natural gas pipelines",
+    "BPU cybersecurity requirements",
+    "New York SHIELD Act data security requirements",
+    "Potential elimination of 50 basis point ROE adder for RTO membership",
+    "Changes to transmission planning and cost allocation rules",
+    "Capacity market rule changes and auction delays",
+    "Reactive power compensation rule changes",
+    "Co-located customer arrangement regulations",
+    "Clean Water Act Section 316(b) requirements",
+    "Coal combustion residuals rule (CCR Rule)",
+    "New Jersey Dirty Dirt legislation for soil disposal",
+    "Endangered Species Act designations",
+    "Price-Anderson Act nuclear liability limits",
+    "CERCLA Superfund liability",
+    "New Jersey Industrial Site Recovery Act (ISRA)",
+    "Connecticut Transfer Act (CTA)",
+    "Potential changes to federal and state tax laws",
+    "Corporate Alternative Minimum Tax (CAMT) uncertainty",
+    "Production Tax Credit (PTC) guidance uncertainty",
+    "New Jersey Energy Master Plan implementation",
+    "Future of gas stakeholder proceedings",
+    "Gas capacity review restrictions",
+    "Energy efficiency triennial review requirements",
+    "Grid modernization and interconnection rule changes",
+    "Potential restrictions on natural gas use in buildings",
+    "Climate change-related legislative and regulatory burdens"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "ticker": "ICE",
+  "company_name": "Intercontinental Exchange, Inc.",
+  "company_type": "Financial Markets Infrastructure & Technology Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "European Union",
+      "Canada",
+      "Asia Pacific",
+      "Middle East",
+      "India",
+      "Singapore",
+      "Abu Dhabi"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Netherlands",
+      "Canada",
+      "Singapore",
+      "United Arab Emirates",
+      "India",
+      "Israel",
+      "China",
+      "Hong Kong",
+      "Switzerland",
+      "Australia",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.65,
+      "Foreign Countries": 0.35
+    },
+    "assets_by_region": {
+      "United States": 0.73,
+      "Foreign Countries": 0.27
+    }
+  },
+  "segments": [
+    "Exchanges",
+    "Fixed Income and Data Services",
+    "Mortgage Technology"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for technology infrastructure",
+      "Large international telecommunications company for hosting services",
+      "Third-party data suppliers and content providers",
+      "ISVs (Independent Software Vendors) for trading platform connectivity",
+      "National banks and highly-rated financial institutions for clearing member deposits",
+      "Central banks (Federal Reserve, Bank of England, European Central Bank) for clearing operations"
+    ],
+    "risks": [
+      "Interruption or cessation of important services from third-party providers",
+      "Loss of exclusive licenses for data or index products",
+      "Third-party data supplier audits and potential additional expenses",
+      "Concentration risk with third-party service providers",
+      "Cybersecurity risks from third-party vendors with less-sophisticated defenses",
+      "Reliance on third-party investment agents for clearing house margin deposits"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Increased Bank Capital Requirements (Basel III Endgame) impacting clearing members",
+    "EMIR 3.0 active account requirement for EU counterparties in euro-denominated products",
+    "Policy interventions to address high energy prices in EU (price caps on TTF derivatives)",
+    "Recognition requirements for foreign jurisdictions and continued access by market participants",
+    "Regulation of ESG data and ratings providers (EU ESG Ratings Providers regulation, UK proposals)",
+    "Equity Market Structure Rules by SEC (tick sizes, fee caps, order execution requirements)",
+    "EU Deforestation Regulation (EUDR) impacting cocoa and coffee commodities",
+    "EU DORA (Digital Operational Resilience Act) for ICT risk management",
+    "Extensive regulation by SEC, CFTC, FCA, BOE, ESMA, DNB, AFM, MAS, FSRA, ASC",
+    "Regulation SCI and CFTC system safeguards regulations for trading platforms",
+    "CAT (Consolidated Audit Trail) implementation and compliance costs",
+    "Data privacy and data protection regulations (GDPR and similar laws globally)",
+    "FFIEC and CFPB supervision for mortgage technology business",
+    "Dodd-Frank Act requirements for systemically important financial market utilities",
+    "MiFID II and EMIR requirements in UK and EU",
+    "UK and EU Benchmarks Regulation (BMR) for index administration",
+    "IOSCO Principles for Financial Benchmarks",
+    "PCAOB inspection requirements under HFCAA for Chinese-listed companies",
+    "Pillar Two global minimum tax rules (15% minimum effective tax rate)",
+    "Section 31 fees and activity assessment fees for SEC oversight",
+    "Potential financial transaction or digital service tax frameworks",
+    "Changes to tax frameworks in US, UK, and EU jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Middle East region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia-Ukraine conflict sanctions and energy crisis impacts",
+      "US-China trade tensions and tariff disputes",
+      "Price cap on Russian crude oil ($60/barrel) impacting services",
+      "Potential trade disputes and tariffs on Canada or Mexico",
+      "International trade policies and sanctions laws affecting operations",
+      "China-Taiwan relations and potential trade restrictions",
+      "US government policies toward China affecting business opportunities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Exchanges": 0.53,
+    "Fixed Income and Data Services": 0.25,
+    "Mortgage Technology": 0.22
+  }
+}

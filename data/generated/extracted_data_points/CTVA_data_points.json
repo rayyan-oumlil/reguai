@@ -1,0 +1,130 @@
+{
+  "ticker": "CTVA",
+  "company_name": "Corteva, Inc.",
+  "company_type": "Agriculture",
+  "geography": {
+    "regions": [
+      "North America",
+      "EMEA",
+      "Latin America",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "Argentina",
+      "India",
+      "South Africa",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "China",
+      "Mexico",
+      "Turkey",
+      "Philippines",
+      "Netherlands",
+      "Switzerland",
+      "France",
+      "Italy",
+      "Spain",
+      "Germany",
+      "United Kingdom",
+      "Russia",
+      "Ukraine",
+      "Taiwan",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Venezuela",
+      "Egypt",
+      "Kenya",
+      "Nigeria",
+      "Ghana",
+      "Pakistan",
+      "Bangladesh",
+      "Thailand",
+      "Vietnam",
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "South Korea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Seed",
+    "Crop Protection"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "third-party growers",
+      "contract manufacturers",
+      "financial institutions"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "EMEA",
+      "Latin America",
+      "Asia Pacific",
+      "China"
+    ],
+    "dependencies": "The company relies heavily on third-party growers globally for seed production. Key raw materials include corn and soybean seeds, chlorinated pyridines derivatives, specialty intermediates, technical grade active ingredients, chlorine, and seed treatments. The company sources a material portion of crop protection inputs directly or indirectly from China. The company uses contract manufacturers both domestically and internationally to produce certain inputs or key components for product formulations.",
+    "risks": "Volatility in input costs (raw materials, production costs) could significantly impact business and financial condition. Supply chain disruptions from geopolitical conflicts (Russia-Ukraine, potential China-Taiwan), cyberattacks, pandemics, weather events, or natural disasters could seriously harm operations. Concentration risk exists as a material portion of crop protection inputs are sourced from China. Dual- or multi-source supply chain strategies may not be adequate to address scope of disruptions from major conflicts. Business disruptions may be caused by security breaches including ransomware attacks. The company faces risks from industrial espionage and cyberattacks targeting confidential business information and trade secrets.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Failure to obtain or maintain necessary regulatory approvals for seed and crop protection products could restrict ability to sell products in some markets",
+    "Regulatory approval processes are becoming increasingly complex with additional testing needs, longer approval timelines, and higher development and maintenance costs",
+    "Detection of unapproved biotechnology traits or chemical residues in countries could affect ability to supply or export products, result in crop destruction, product recalls or trade disruption",
+    "Delays in obtaining regulatory approvals for imports may influence rate of adoption of new products in globally traded crops",
+    "GMO and gene editing products subject to rigorous approval processes; various countries in EMEA, Latin America, and Asia Pacific have banned GMOs entirely",
+    "EPA registration and re-registration requirements for pesticides every 15 years; EPA reevaluates pesticide tolerances at least every 10 years",
+    "Endangered Species Act (ESA) evaluations may impose use restrictions on crop protection products; citizen suits can challenge EPA registration decisions",
+    "European chemical regulations REACH and CLP apply to company's European operations",
+    "Increased scrutiny from Biden administration executive order promoting competition in agriculture, potentially restricting growth opportunities including M&A",
+    "FTC and state attorneys general antitrust lawsuits alleging unfair methods of competition and anticompetitive conduct",
+    "Changes in agricultural and related government policies may prove unfavorable (e.g., reduction in government subsidies to farmers, modifications to U.S. Farm Bill)",
+    "Costs of complying with evolving environmental regulations including those related to climate change, PFAS and other substances could negatively impact business",
+    "Actual or alleged violations of environmental laws could result in restrictions on plant operations, substantial civil or criminal sanctions, strict liability and/or joint and several liability",
+    "EPA designated PFOA and PFAS as hazardous substances under CERCLA in April 2024",
+    "Regulatory bans and requirements related to products and their use may materially impact financial performance",
+    "Increase in regulatory timelines may result in company not achieving sustainability targets or anticipated returns on R&D investments",
+    "Public and private suits alleging harm to general public and environment including waterways and watersheds",
+    "Litigation involving glyphosate-containing products following Monsanto Roundup cases",
+    "State and federal fraudulent conveyance laws could challenge separation transactions",
+    "Delaware General Corporation Law requirements for corporate distributions",
+    "Compliance with competition and antitrust rules and regulations around the world; scrutiny intensifying as business grows"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan",
+      "Argentina",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Military conflict between Russia and Ukraine has negatively impacted ability to sell to, ship products to, collect payments from, and support customers in certain regions",
+      "Logistics restrictions including closures of air space and shipping ports, reduction of farmable land availability, and destruction of facilities",
+      "Company experienced shortages in materials, inability to insure shipments, and increased costs for transportation, energy, and raw materials due to Russia-Ukraine conflict",
+      "Further escalation of military conflict or related geopolitical tensions could result in cyberattacks, supply disruptions, changes to foreign exchange rates and financial markets",
+      "Potential escalation of tensions or conflicts between China and Taiwan could cause severe disruptions, trade barriers, business risks, asset seizures, and volatility in foreign exchange and financial markets",
+      "Material portion of crop protection inputs sourced directly or indirectly from China; dual- or multi-source supply chains may not be adequate to address scope of disruptions from such conflict",
+      "Company's ability to export products and sales outside United States may be adversely affected by significant changes in trade, tax or other policies",
+      "Risk that other countries may retaliate through imposition of their own trade restrictions and/or increased tariffs in response to substantial changes to U.S. tariff, trade and tax policies including those being evaluated by Trump administration",
+      "Company withdrew from Russia in 2022 as part of restructuring actions",
+      "Argentina considered hyperinflationary economy under U.S. GAAP since 2018; devaluation of Argentine Peso has resulted in recognition of exchange losses",
+      "Government restrictions and market availability of U.S. Dollars limit ability to draw down Peso cash balances in Argentina"
+    ]
+  }
+}

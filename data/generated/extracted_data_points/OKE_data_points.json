@@ -1,0 +1,89 @@
+{
+  "ticker": "OKE",
+  "company_name": "ONEOK, Inc.",
+  "company_type": "Midstream Energy Infrastructure",
+  "geography": {
+    "regions": [
+      "Rocky Mountain region",
+      "Mid-Continent region",
+      "Permian Basin region",
+      "North Texas region",
+      "Gulf Coast region",
+      "Louisiana",
+      "Upper Midwest"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Natural Gas Gathering and Processing",
+    "Natural Gas Liquids",
+    "Natural Gas Pipelines",
+    "Refined Products and Crude"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on producers, gathering systems, refineries and pipelines owned and operated by others to supply assets",
+      "Reliance on third-party natural gas processing plants connected to NGL gathering systems",
+      "Dependence on crude oil production and connections with gathering systems, refineries and pipelines owned by third parties"
+    ],
+    "risks": [
+      "Closures, interruptions or reduced activity levels at third-party facilities may adversely affect business",
+      "Outages at refineries or reduced throughput on gathering systems or pipelines due to weather-related or other natural causes",
+      "Reduced operating pressures or other causes could reduce shipments",
+      "Closure of refineries that supply or are supplied by facilities could reduce volumes transported",
+      "Competition for supply with other midstream companies and major integrated oil companies"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FERC regulation of interstate natural gas pipelines under Natural Gas Act",
+    "FERC regulation of interstate NGL, Refined Products and crude oil pipelines under Interstate Commerce Act",
+    "State regulatory authority regulation of intrastate movements",
+    "PHMSA safety regulations including pipeline asset integrity-management regulations",
+    "Pipeline Safety Improvement Act of 2002 requirements for high-consequence areas",
+    "Pipeline Safety, Regulatory Certainty and Job Creation Act of 2011 increased penalties",
+    "DOT and PHMSA regulation under Hazardous Liquid Pipeline Safety Act",
+    "U.S. Coast Guard regulations for marine terminals",
+    "Railroad Commission of Texas jurisdiction over field injection and withdrawal wells",
+    "Louisiana Department of Natural Resources regulations for underground natural gas storage caverns",
+    "Federal Clean Air Act emissions controls and permitting mandates",
+    "Federal Water Pollution Control Act requirements for discharge permits",
+    "Oil Pollution Act of 1990 requirements",
+    "EPA Mandatory Greenhouse Gas Reporting Rule",
+    "EPA final rule targeting oil and gas section emissions of greenhouse gases and VOCs",
+    "Renewable Fuel Standard (RFS) requirements and Renewable Volume Obligation",
+    "EPA fuels compliance regulations including fuel parameters standards",
+    "Inflation Reduction Act of 2022 Waste Emissions Charges or Methane Fees",
+    "CERCLA and RCRA requirements for hazardous substances cleanup and waste disposal",
+    "Endangered Species Act obligations for threatened and endangered species protection",
+    "TSA pipeline security directives and guidelines",
+    "Rate regulation challenges by shippers or changes in jurisdictional characterization by regulatory agencies",
+    "FERC indexing methodology reviews and potential rate reductions",
+    "State regulatory authority rate regulation for intrastate pipelines",
+    "Potential loss of market-based rate authority",
+    "Changes to federal, state and local taxation",
+    "New government regulations that could discourage customers from storing commodities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Potential impact from geopolitical events including wars such as Russian invasion of Ukraine",
+      "Activities of OPEC and other non-OPEC oil producing countries impacting supply and demand",
+      "Instability in the Middle East affecting commodity prices"
+    ]
+  }
+}

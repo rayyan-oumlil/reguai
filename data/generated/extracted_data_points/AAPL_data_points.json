@@ -1,0 +1,130 @@
+{
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "company_type": "Technology - Consumer Electronics and Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Greater China",
+      "Japan",
+      "Rest of Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "Vietnam",
+      "India",
+      "Australia",
+      "Ireland",
+      "Singapore",
+      "Middle East countries",
+      "African countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.427,
+      "Europe": 0.259,
+      "Greater China": 0.171,
+      "Japan": 0.064,
+      "Rest of Asia Pacific": 0.078
+    },
+    "assets_by_region": {
+      "United States": 0.781,
+      "China": 0.105,
+      "Other countries": 0.114
+    }
+  },
+  "segments": [
+    "iPhone",
+    "Mac",
+    "iPad",
+    "Wearables, Home and Accessories",
+    "Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China mainland",
+      "India",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Vietnam"
+    ],
+    "dependencies": [
+      "Substantially all manufacturing performed by outsourcing partners located primarily in Asia",
+      "Significant concentration of manufacturing performed by small number of outsourcing partners, often in single locations",
+      "Certain components obtained from single or limited sources",
+      "Custom components available from only one source for new products",
+      "Single-source outsourcing partners in U.S., Asia and Europe for component supply and manufacturing"
+    ],
+    "risks": [
+      "Concentration risk - majority of supplier facilities and manufacturing sites located outside U.S.",
+      "Single or limited source suppliers for certain essential components",
+      "Industry-wide component shortages and commodity pricing fluctuations",
+      "Supplier capacity constraints for new technologies until yields mature",
+      "Geopolitical tensions and conflict could disrupt supply chain",
+      "Natural disasters, earthquakes, industrial accidents at supplier facilities",
+      "Trade restrictions, tariffs and export controls affecting supply chain",
+      "Dependence on suppliers in regions prone to geopolitical instability"
+    ],
+    "supplier_concentration": {
+      "Vendor One": 0.44,
+      "Vendor Two": 0.23
+    }
+  },
+  "regulatory_risks": [
+    "Digital Markets Act (DMA) compliance and investigations in European Union",
+    "Antitrust investigations and litigation in multiple jurisdictions",
+    "U.S. Department of Justice antitrust lawsuit alleging monopolization in smartphone markets",
+    "European Commission State Aid Decision requiring tax recovery payments to Ireland",
+    "Complex and changing laws on antitrust, privacy, data security and data localization",
+    "Consumer protection and advertising regulations",
+    "Product liability regulations",
+    "Intellectual property laws and patent infringement claims",
+    "Digital platforms and app store regulations",
+    "Machine learning and artificial intelligence regulatory requirements",
+    "Financial services and technology regulations",
+    "Export and import restrictions and trade controls",
+    "Environmental, health and safety regulations including electronic waste and recycling",
+    "Labor and employment law compliance",
+    "Anti-corruption and anti-money laundering regulations",
+    "Foreign ownership and investment restrictions",
+    "Tax law changes including OECD global minimum tax standards",
+    "Payment card industry data security standards",
+    "Health data and financial data privacy requirements (HIPAA-like regulations)",
+    "Sanctions compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Tensions between U.S. and China have led to tariffs and restrictions affecting business",
+      "Risk of more severe and restrictive government actions if disputes escalate",
+      "Restrictions on international trade including tariffs and controls on imports/exports of goods, technology or data",
+      "Potential sanctions affecting countries where Company derives significant revenues or has supply chain operations",
+      "Political events, trade disputes, geopolitical tensions and conflict can disrupt operations",
+      "Economic, political, legal and regulatory challenges in operating in certain regions",
+      "Foreign exchange controls and cash repatriation restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "iPhone": 0.514,
+    "Mac": 0.077,
+    "iPad": 0.068,
+    "Wearables, Home and Accessories": 0.095,
+    "Services": 0.246
+  }
+}

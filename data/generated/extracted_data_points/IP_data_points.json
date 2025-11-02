@@ -1,0 +1,120 @@
+{
+  "ticker": "IP",
+  "company_name": "International Paper Company",
+  "company_type": "Packaging and Pulp Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe",
+      "North Africa",
+      "Asia",
+      "EMEA",
+      "Pacific Rim"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "France",
+      "Italy",
+      "Spain",
+      "Morocco",
+      "Portugal",
+      "United Kingdom",
+      "Poland",
+      "Brazil",
+      "Chile",
+      "China",
+      "Japan",
+      "Korea",
+      "Singapore",
+      "Hong Kong",
+      "Taiwan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Industrial Packaging",
+    "Global Cellulose Fibers",
+    "North American Industrial Packaging",
+    "EMEA Industrial Packaging"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Europe",
+      "North Africa",
+      "Latin America",
+      "Morocco",
+      "Spain",
+      "France",
+      "Italy",
+      "Portugal",
+      "Mexico",
+      "Brazil",
+      "Chile"
+    ],
+    "dependencies": [
+      "Virgin wood fiber availability and pricing",
+      "Recycled fiber supply affected by trade policies and global demand",
+      "Energy sources including biomass, natural gas, electricity and fuel oil",
+      "Chemical supplies including caustic soda, starch and adhesives",
+      "Third-party transportation companies",
+      "Labor availability in competitive market"
+    ],
+    "risks": [
+      "Fluctuations in raw material costs including wood fiber, recovered fiber, chemicals",
+      "Energy cost volatility including gas, electricity, fuel oil",
+      "Supply chain disruptions and shortages",
+      "Transportation cost increases due to fuel prices and labor availability",
+      "Inflationary pressures on input costs",
+      "Trade protection measures and tariffs affecting recycled fiber supply",
+      "Concentration of Global Cellulose Fibers sales in China affected by economic conditions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws and regulations governing air emissions, water discharges, waste disposal",
+    "CERCLA and state environmental remediation requirements",
+    "Climate change regulations including GHG emissions reporting and reduction requirements",
+    "EU Emissions Trading System (EU ETS) impacts",
+    "EU Corporate Sustainability Reporting Directive (CSRD)",
+    "EU Corporate Sustainability Due Diligence Directive (CSDDD)",
+    "EU Deforestation Regulation (EUDR)",
+    "State-level GHG reduction programs (California, New York, Virginia)",
+    "OECD Pillar Two global minimum tax (15%)",
+    "Data privacy laws including EU GDPR, UK GDPR, China Personal Information Protection Law, US state privacy laws",
+    "UK Market Abuse Regulation and Disclosure Guidance and Transparency Rules",
+    "Sarbanes-Oxley Act compliance requirements",
+    "NYSE and LSE listing requirements",
+    "Tax law changes and audits in multiple jurisdictions",
+    "Labor and employment regulations",
+    "Health and safety regulations",
+    "Trade policies and tariffs including potential increased US tariffs",
+    "Anti-bribery laws including UK Bribery Act 2010 and Foreign Corrupt Practices Act",
+    "Economic sanctions by US Treasury Office of Foreign Assets Control",
+    "Antitrust regulations including Italian Competition Authority investigations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine",
+      "Taiwan",
+      "Brazil"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions impact from Ukraine conflict (prior Ilim joint venture exposure)",
+      "Economic sanctions targeting various countries, persons and entities",
+      "Risk of violating sanctions due to existing presence in newly sanctioned jurisdictions",
+      "Potential expansion of sanctions programs affecting operations"
+    ]
+  }
+}

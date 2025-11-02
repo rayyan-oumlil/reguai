@@ -1,0 +1,115 @@
+{
+  "ticker": "PPL",
+  "company_name": "PPL Corporation",
+  "company_type": "Electric and Gas Utility",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Pennsylvania": 0.34,
+      "Kentucky": 0.42,
+      "Rhode Island": 0.24,
+      "Pennsylvania Regulated": 0.34,
+      "Kentucky Regulated": 0.42,
+      "Rhode Island Regulated": 0.24
+    },
+    "assets_by_region": {
+      "Pennsylvania Regulated": 0.377,
+      "Kentucky Regulated": 0.429,
+      "Rhode Island Regulated": 0.172,
+      "Corporate and Other": 0.022
+    }
+  },
+  "segments": [
+    "Kentucky Regulated",
+    "Rhode Island Regulated",
+    "Pennsylvania Regulated"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "TranServ International, Inc.",
+      "Tennessee Valley Authority",
+      "ISO – New England",
+      "Ohio Valley Electric Corporation",
+      "PJM Interconnection, L.L.C."
+    ],
+    "manufacturing_locations": [
+      "Rhode Island",
+      "Pennsylvania",
+      "Kentucky"
+    ],
+    "dependencies": "Coal and natural gas supply for generation facilities in Kentucky; reliance on interstate pipelines for natural gas transportation; dependence on transmission operators (PJM, ISO-NE) for grid operations; single-source or concentrated suppliers for coal from specific regions (western Kentucky, southern Indiana, Illinois, West Virginia, Pennsylvania, Wyoming)",
+    "risks": [
+      "Reliability of coal deliveries affected by fluctuations in demand, coal mine production issues, river level events, lock outages, supplier or transporter operating or financial difficulties; natural gas supply disruptions; counterparty performance and credit risk; supply chain disruptions or delays; inflation and supply chain related risks; potential defaults by suppliers requiring replacement power or fuel procurement",
+      "Fuel supply disruptions",
+      "Commodity price volatility",
+      "Dependence on OVEC power purchase contract through 2040",
+      "Supplier default requiring replacement power or fuel in market"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Clean Air Act compliance requirements",
+    "NERC mandatory reliability standards enforced by FERC",
+    "DHS Transportation Security Administration cybersecurity directives for natural gas facilities",
+    "National Ambient Air Quality Standards (NAAQS) for ozone and particulate matter",
+    "Pennsylvania Alternative Energy Portfolio Standard (AEPS) compliance",
+    "Coal combustion residuals (CCR) management regulations",
+    "Grid modernization plan approvals",
+    "Permit requirements for construction, operation, and environmental compliance",
+    "Superfund and other environmental remediation obligations",
+    "Federal and state environmental remediation obligations",
+    "Cross-State Air Pollution Rule (CSAPR) and Good Neighbor Plan requirements",
+    "Waters of the United States (WOTUS) definition changes",
+    "EPA environmental regulations including ELGs and CCR rules",
+    "Renewable energy standard compliance obligations",
+    "Federal and state regulatory commission approval requirements for rates (FERC, KPSC, VSCC, PAPUC, RIPUC)",
+    "Rate case proceedings and cost recovery mechanisms",
+    "Smart meter deployment regulatory approvals",
+    "Tax law changes (federal and state)",
+    "Pennsylvania Act 129 energy efficiency and conservation program requirements",
+    "State regulatory commission rate approvals (PAPUC, RIPUC, KPSC, VSCC)",
+    "Pension and postretirement benefit cost recovery in rates",
+    "Effluent Limitation Guidelines (ELG) for water discharges",
+    "Challenges to current or future rate requests by federal or state agencies, intervenors, and other parties",
+    "Potential new climate disclosure rules from SEC",
+    "Potential new tariffs on imported goods",
+    "Manufactured gas plant site remediation requirements",
+    "Pipeline safety regulations (PHMSA)",
+    "Tax law changes impacting deferred taxes and customer rates",
+    "Potential fines, penalties, or forfeitures for environmental non-compliance",
+    "Mercury and Air Toxics Standards (MATS) rule modifications",
+    "FERC rate regulation and transmission cost recovery",
+    "Legislative or regulatory actions regarding industry restructuring or customer choice",
+    "Extensive federal, state, and local environmental laws and regulations (Clean Air Act, Clean Water Act, EPA regulations)",
+    "Coal Combustion Residuals (CCR) regulations",
+    "EPA regulations on greenhouse gas emissions from fossil fuel-fired electric generating units (Section 111 rule)",
+    "Pipeline and Hazardous Materials Safety Administration (PHMSA) regulations for natural gas infrastructure",
+    "Department of Homeland Security Transportation Security Administration (TSA) security directives for natural gas systems",
+    "Compliance with NERC mandatory reliability standards",
+    "Superfund and manufactured gas plant site cleanup requirements",
+    "Storm cost recovery regulatory treatment",
+    "Energy efficiency program requirements (Pennsylvania Act 129)",
+    "Clean Water Act jurisdiction over discharges to groundwater",
+    "Rhode Island Renewable Energy Standard and Long-term Clean Energy Standard"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Middle East",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Kentucky Regulated": 0.42,
+    "Pennsylvania Regulated": 0.34,
+    "Rhode Island Regulated": 0.24
+  }
+}

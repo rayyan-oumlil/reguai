@@ -1,0 +1,126 @@
+{
+  "ticker": "CNP",
+  "company_name": "CenterPoint Energy, Inc.",
+  "company_type": "Public Utility Holding Company - Electric and Natural Gas",
+  "geography": {
+    "regions": [
+      "Midwest",
+      "Texas Gulf Coast",
+      "United States - Texas Gulf Coast",
+      "United States - Minnesota",
+      "United States - Mississippi",
+      "United States - Ohio",
+      "United States - Southwestern Indiana",
+      "United States - Louisiana",
+      "Midcontinent"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Texas": 0.47,
+      "Indiana": 0.15,
+      "Minnesota": 0.12,
+      "Louisiana": 0.09,
+      "Mississippi": 0.04,
+      "Ohio": 0.13
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electric",
+    "Corporate and Other",
+    "Natural Gas"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Tenaska Marketing Ventures, LLC",
+      "Macquarie Energy, LLC",
+      "Sunrise LLC",
+      "BP Energy Company",
+      "Texas Gas Transmission, LLC"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Coal supply concentration - 88% from single supplier (Sunrise LLC) for Indiana Electric coal purchases; Natural gas supply from multiple suppliers with major suppliers accounting for 54% of total purchases",
+    "risks": [
+      "Coal supply shortages due to labor shortages in mining industry",
+      "Severe weather events (hurricanes, tornadoes, winter storms) can increase commodity prices and reduce natural gas capacity; supply chain constraints in acquiring solar panels due to DOC antidumping investigations and Uyghur Forced Labor Prevention Act; concentration of natural gas suppliers; potential delays and cost increases for solar projects due to global supply chain issues",
+      "Supply chain disruptions due to geopolitical uncertainty, regulatory instability, import tariffs, labor shortages, resource availability, long lead times, manufacturer production limitations, delivery delays, inflation, severe weather events",
+      "Uyghur Forced Labor Prevention Act bans on goods from China's Xinjiang region",
+      "Potential tariffs and trade restrictions impacting procurement of materials and supplies",
+      "Tariffs on solar panels and equipment from China, Cambodia, Malaysia, Thailand, Vietnam",
+      "Concentration risk with single coal supplier"
+    ],
+    "supplier_concentration": {
+      "Sunrise LLC": 0.88
+    }
+  },
+  "regulatory_risks": [
+    "NERC, ERCOT, and MISO compliance requirements for electric operations",
+    "Hurricane Beryl investigations by Texas Governor, legislature, PUCT, and Attorney General",
+    "Public Utility Commission of Texas (PUCT) rate regulation and approval requirements",
+    "Minnesota Public Utilities Commission (MPUC) rate regulation",
+    "Rate regulation by PUCT, IURC, FERC and state commissions may delay or deny cost recovery and expected returns",
+    "Rate case proceedings with risk of cost disallowances by regulators",
+    "EPA greenhouse gas emission regulations for fossil fuel-fired electric generating units",
+    "Clean Water Act compliance for water discharges and wetlands",
+    "SEC climate-related disclosure rules (implementation subject to voluntary delay)",
+    "RCRA hazardous waste regulations",
+    "RCRA (Resource Conservation and Recovery Act) compliance for ash disposal",
+    "Proposed Texas legislation to review and potentially disallow TEEEF lease cost recovery",
+    "PIPES Act requirements for leak detection, repair programs, and emissions mitigation",
+    "Public Utilities Commission of Ohio (PUCO) rate regulation",
+    "Potential regulatory disallowances of storm restoration costs or capital investments",
+    "State and local initiatives to limit fossil fuel usage and ban natural gas appliances",
+    "Regulatory lag in recovering capital investments through rate proceedings",
+    "DOC antidumping and countervailing duty investigations on solar panels from Cambodia, Malaysia, Thailand, and Vietnam",
+    "SEC climate disclosure rules (currently stayed pending litigation)",
+    "Railroad Commission of Texas natural gas rate regulation",
+    "Mississippi Public Service Commission (MPSC) rate regulation",
+    "Minnesota Natural Gas Innovation Act regulatory framework",
+    "Clean Water Act permitting requirements for groundwater and power plant discharges",
+    "CERCLA liability for hazardous substance releases",
+    "Climate change legislation and GHG emission reduction mandates",
+    "EPA Coal Combustion Residuals Rule for ash pond management",
+    "Indiana Senate Enrolled Act 386 for securitization of generation retirements",
+    "Uyghur Forced Labor Prevention Act restrictions on solar modules from China's Xinjiang region",
+    "State and federal environmental regulations for MGP (manufactured gas plant) site remediation",
+    "Potential ring-fencing measures on Houston Electric",
+    "Environmental justice regulatory scrutiny",
+    "Texas legislation (House Bill 2555, Senate Bill 1015, Senate Bill 1016, etc.) impacting utility operations and cost recovery",
+    "Inflation Reduction Act (IRA) tax provisions: production tax credits, corporate alternative minimum tax (CAMT), methane emissions reduction program",
+    "Regulatory actions in response to Hurricane Beryl and May 2024 Storm Events",
+    "Federal Energy Regulatory Commission (FERC) pipeline certificate approvals",
+    "NERC reliability standards compliance and potential fines up to $1.6 million per day per violation",
+    "Wildfire liability and insurance requirements",
+    "Clean Air Act compliance and air emission restrictions",
+    "PUCT and municipal jurisdiction over Houston Electric's rates and operations",
+    "TSA pipeline security directive requirements for cybersecurity",
+    "EPA regulations: CCR Rule (coal combustion residuals), CCR Legacy Rule, Effluent Limitation Guidelines for steam electric wastewater",
+    "Securitization bond approval processes for storm cost recovery",
+    "EPA Effluent Limitation Guidelines for steam electric wastewater",
+    "Indiana Utility Regulatory Commission (IURC) rate regulation and CPCN approvals",
+    "Louisiana Public Service Commission (LPSC) rate regulation",
+    "PHMSA pipeline safety regulations under NGPSA and HLPSA"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions impacting energy markets",
+      "Potential retaliatory trade measures against United States",
+      "US-China trade tensions affecting solar panel supply chain",
+      "Tariffs on solar cells and panels from China, Cambodia, Malaysia, Thailand, Vietnam",
+      "Armed conflicts in Middle East and Ukraine affecting natural gas markets and volatility"
+    ]
+  },
+  "revenue_by_segment": {
+    "Electric": 0.53,
+    "Natural Gas": 0.47
+  }
+}

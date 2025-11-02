@@ -1,0 +1,124 @@
+{
+  "ticker": "BIIB",
+  "company_name": "Biogen Inc.",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Canada",
+      "Japan",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "France",
+      "Germany",
+      "Italy",
+      "United Kingdom",
+      "Spain",
+      "Switzerland",
+      "Netherlands",
+      "Sweden",
+      "Norway",
+      "Japan",
+      "China",
+      "South Korea",
+      "Hong Kong",
+      "Israel",
+      "United Arab Emirates",
+      "Mexico",
+      "Brazil",
+      "Turkey",
+      "Australia",
+      "Russia",
+      "Argentina"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Multiple Sclerosis",
+    "Rare Disease",
+    "Biosimilars",
+    "Alzheimer's Disease",
+    "Neuropsychiatry"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Samsung Bioepis",
+      "Samsung BioLogics",
+      "Genentech",
+      "Eisai",
+      "Ionis Pharmaceuticals"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Switzerland",
+      "China"
+    ],
+    "dependencies": [
+      "Reliance on third-party suppliers and manufacturers for active pharmaceutical ingredients and final products",
+      "Single source providers for raw materials and manufacturing supplies",
+      "Third-party contract manufacturing organizations for fill-finish and final product assembly",
+      "Certain early processes for SKYCLARYS rely on a single supplier based in China",
+      "One contract manufacturer for IMRALDI and BENEPALI was acquired by a third party in December 2024"
+    ],
+    "risks": [
+      "Manufacturing is complex and subject to regulatory hurdles",
+      "Persistent manufacturing or supply chain difficulties may prevent meeting demand",
+      "Global supply chain disruptions including port strikes, work stoppages, port congestion",
+      "Geopolitical tensions including US-China tensions, Russia-Ukraine conflict, Middle East military conflict",
+      "Tariffs, trade protection measures, import/export licensing requirements",
+      "Supply chain disruptions from global health outbreaks, adverse weather events, labor or raw material shortages",
+      "Concentration risk with third-party manufacturers",
+      "Difficulty in securing alternative suppliers due to specialized nature and regulatory approval requirements"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA and foreign regulatory agency approval processes and potential delays",
+    "Changes in FDA and foreign regulations requiring additional safety monitoring, labeling changes, or restrictions",
+    "Extensive legal and regulatory requirements affecting healthcare industry including fraud and abuse laws",
+    "Anti-kickback laws and false claims laws scrutiny",
+    "Government regulation of pharmaceutical pricing and reimbursement",
+    "Inflation Reduction Act (IRA) provisions including government negotiation of drug prices and Medicare Part D redesign",
+    "State laws requiring disclosure of pharmaceutical pricing and marketing expenditures",
+    "Foreign anti-corruption laws including FCPA and UK Bribery Act",
+    "Data privacy and security requirements including GDPR and CCPA",
+    "Climate-related disclosure requirements including EU Corporate Sustainability Reporting Directive and California environmental disclosure laws",
+    "Biosimilar approval pathway uncertainties and potential changes if PPACA is repealed or modified",
+    "Patent term extensions and regulatory exclusivity uncertainties",
+    "Good Manufacturing Practices (GMP) compliance and regulatory inspections",
+    "Good Clinical Practices (GCP) compliance for clinical trials",
+    "EU Clinical Trial Regulation requirements",
+    "Combination product regulations for biologics and devices",
+    "Environmental regulations including safe working conditions, hazardous substances handling, water supply and wastewater discharge permits",
+    "Sanctions and export control compliance",
+    "Pillar Two global minimum tax rate implementation (OECD GloBE Model Rules)",
+    "Potential changes to healthcare reform and government reimbursement policies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and restrictions on Russia due to invasion of Ukraine",
+      "US-China tensions leading to tariffs and sanctions on imports from China",
+      "Retaliatory tariffs imposed by China on US imports",
+      "Business restrictions and trade sanctions affecting international operations",
+      "New government sanctions on export of manufacturing materials to Russia may delay product approvals",
+      "Geopolitical tensions may increase cybersecurity threats"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "ticker": "CCL",
+  "company_name": "Carnival Corporation & plc",
+  "company_type": "Cruise and Leisure Travel",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Australia",
+      "Caribbean",
+      "Alaska",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "Italy",
+      "Australia",
+      "Panama",
+      "Bermuda",
+      "Netherlands",
+      "Bahamas",
+      "Mexico",
+      "Honduras",
+      "Dominican Republic",
+      "Turks and Caicos",
+      "China",
+      "Russia",
+      "Iran",
+      "Norway",
+      "France",
+      "Spain"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Carnival Cruise Line",
+    "Princess Cruises",
+    "Holland America Line",
+    "P&O Cruises (Australia)",
+    "Seabourn",
+    "Costa Cruises",
+    "AIDA Cruises",
+    "P&O Cruises (UK)",
+    "Cunard",
+    "Cruise Support",
+    "Tour and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fincantieri",
+      "Meyer Werft"
+    ],
+    "manufacturing_locations": [
+      "Italy",
+      "Germany"
+    ],
+    "dependencies": "Limited number of shipyards with capability and capacity to build, repair, maintain and/or upgrade ships. Significant quantities of goods and services sourced from global supply base. Ship construction contracts with Fincantieri in Italy and Meyer Werft in Germany.",
+    "risks": "Supply chain disruptions, labor shortages, significant material cost inflation, extended lead times for critical items, work stoppages, insolvencies, force majeure events or financial difficulties experienced by shipyards, subcontractors and suppliers. Volatility in commodity prices (steel) used in ship construction. Global supply markets impacted by global events and increased inflation.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "IMO 2023 Strategy on Reduction of GHG Emissions from Ships requiring net zero emissions by 2050",
+    "EU Emissions Trading System (ETS) requiring emission allowances for EU waters",
+    "FuelEU Maritime regulation requiring GHG intensity limits and shore power usage",
+    "Energy Taxation Directive (ETD) proposed amendments introducing maritime fuel taxation",
+    "Norway regulations requiring Tier III NOx compliance and zero GHG emissions in World Heritage Fjords by 2032",
+    "MARPOL regulations on air emissions, sulfur content, ballast water management",
+    "IMO Carbon Intensity Indicator (CII) and Energy Efficiency Existing Ship Index (EEXI)",
+    "US Clean Water Act and Vessel Incidental Discharge Act (VIDA)",
+    "Alaska state environmental requirements more stringent than federal",
+    "California environmental requirements for water discharges and air emissions",
+    "GDPR and CCPA data privacy regulations",
+    "Anti-money laundering and anti-corruption laws",
+    "Economic sanctions and trade protection laws",
+    "Tax law changes including OECD Global Minimum Tax rules",
+    "US Maritime Transportation Security Act and Cruise Vessel Security and Safety Act",
+    "Port State Control inspections and compliance requirements",
+    "CDC and EU SHIPSAN health regulations",
+    "International Labor Organization and STCW labor standards",
+    "Helms-Burton Act Title III trafficking claims",
+    "Potential restrictions on cruise ships and guests in certain ports and destinations",
+    "UK tonnage tax regime requirements",
+    "Italian tonnage tax regime requirements",
+    "European Commission approval requirements for Italian economic benefits"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Cuba"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions compliance requirements",
+      "Helms-Burton Act Title III lawsuit related to Cuba operations",
+      "International sanctions and measures impacting operations",
+      "Trade restrictions affecting supply chain and operations"
+    ]
+  }
+}

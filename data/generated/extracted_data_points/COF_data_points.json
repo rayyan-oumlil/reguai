@@ -1,0 +1,114 @@
+{
+  "ticker": "COF",
+  "company_name": "Capital One Financial Corporation",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "United Kingdom",
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "United Kingdom",
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Domestic": 0.958,
+      "International": 0.042
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Credit Card",
+    "Commercial Banking",
+    "Consumer Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fidelity Information Services (FIS)",
+      "Fidelity Information Services",
+      "Amazon Web Services (AWS)",
+      "Amazon Web Services",
+      "Total System Services LLC (TSYS)",
+      "Total System Services LLC"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Substantially migrated primarily all aspects of core information technology systems and customer-facing applications to third-party cloud infrastructure platforms, principally AWS. Reliance on TSYS for consumer and commercial credit card processing services for North American and U.K. portfolios. Reliance on FIS for certain banking systems.",
+    "risks": [
+      "If AWS or other service providers experience system or telecommunication breakdowns, failures, outages, degradation in service, downtime, failure to scale, software bugs, design flaws, cyber-attacks and other security incidents, insider threats, adverse changes to financial condition, bankruptcy, or other adverse conditions, it could have a material adverse effect on business and reputation. Single source vendor risk where vendor is the sole provider of critical services. Transition to alternative third-party service providers or internal solutions may be difficult to implement, may cause significant time and expense and may disrupt or degrade ability to deliver products and services."
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Consumer Financial Protection Bureau (CFPB) regulations",
+    "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) requiring reporting of significant cyber incidents to CISA",
+    "Anti-Money Laundering Act of 2020 (AML Act) requiring updates to BSA regulatory requirements",
+    "Basel III Capital Rules and proposed amendments (Basel III Finalization Proposal)",
+    "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA)",
+    "Volcker Rule prohibitions on proprietary trading and certain investments in covered funds",
+    "Sanctions compliance (OFAC)",
+    "CFPB final rule amending Regulation Z to significantly lower safe harbor amount for past due fees on consumer credit card accounts",
+    "Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR) requirements",
+    "Dodd-Frank Act compliance",
+    "Bank Secrecy Act (BSA) and USA PATRIOT Act requirements for AML and combating financing of terrorism",
+    "Foreign regulatory requirements in U.K. (FCA) and Canada (OSFI, FCAC)",
+    "Resolution and recovery planning requirements under Section 165(d) of Dodd-Frank Act",
+    "Federal Reserve and OCC consent orders related to cybersecurity and operational risk management",
+    "Broker-dealer regulations by SEC and FINRA",
+    "CFPB final rule requiring financial institutions to share certain data on consumer financial products and services upon customer request",
+    "Consumer lending regulations (Truth in Lending Act, Equal Credit Opportunity Act, Fair Credit Reporting Act, CRA, Servicemembers Civil Relief Act, Military Lending Act)",
+    "Privacy and data protection regulations (GLBA, FCRA, CCPA, PIPEDA, EU GDPR, U.K. GDPR)",
+    "Bank Secrecy Act (BSA) and Anti-Money Laundering Act (AML Act) compliance",
+    "UK Financial Conduct Authority (FCA) regulations",
+    "Pending regulatory changes and enforcement actions",
+    "Changes in capital adequacy requirements under Basel III Capital Rules",
+    "Merchant litigation against payment card networks and banks regarding interchange fees and antitrust claims",
+    "Climate-related financial risk management principles issued by Federal Banking Agencies",
+    "Long-term debt requirements and clean holding company requirements (LTD Proposal)",
+    "Stress testing requirements (DFAST) and capital plan rule",
+    "Community Reinvestment Act (CRA) requirements",
+    "Data privacy regulations including GDPR (EU and UK), CCPA (California), and PIPEDA (Canada)",
+    "OFAC and Department of State sanctions programs",
+    "Basel III Finalization Proposal requiring new Expanded Risk-Based Approach for calculating risk-weighted assets",
+    "FDIC deposit insurance assessments and special assessments",
+    "FDIC special assessment related to systemic risk determination",
+    "Potential regulation of AI technologies at federal and state levels",
+    "Prompt Corrective Action (PCA) capital regulations",
+    "Long-Term Debt and Clean Holding Company Proposal (LTD Proposal) requiring minimum outstanding eligible long-term debt",
+    "Federal Reserve's proposed amendments to Regulation II to lower cap on debit interchange fees",
+    "Increased regulatory scrutiny on risk management, compliance with AML and sanctions laws, privacy, data protection and data security, fair lending, unfair or deceptive practices, consumer protection, and innovative activities such as AI",
+    "Truth in Lending Act (TILA) and Fair Credit Reporting Act (FCRA) compliance",
+    "Interchange fee restrictions and legislation (federal and state level, including Illinois law prohibiting interchange fees on state taxes and gratuities)",
+    "Derivatives regulations under Title VII of Dodd-Frank Act (swap dealer registration with CFTC)",
+    "State-level privacy, data protection and data security laws (e.g., California Consumer Privacy Act)",
+    "Stress Capital Buffer Rule requirements",
+    "Canada's Office of the Superintendent of Financial Institutions (OSFI) regulations",
+    "Interchange fee regulations and litigation",
+    "FDIC Orderly Liquidation Authority"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran",
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed by U.S. and other countries related to war between Ukraine and Russia",
+      "Increased geopolitical tensions between U.S. and China",
+      "OFAC sanctions programs",
+      "Compliance with sanctions laws and regulations administered by U.S. Treasury Department's OFAC and Department of State",
+      "Sanctions imposed by U.S. and other countries related to conflict in the Middle East",
+      "OFAC sanctions compliance requirements"
+    ]
+  },
+  "revenue_by_segment": {
+    "Credit Card": 0.72,
+    "Consumer Banking": 0.223,
+    "Commercial Banking": 0.092,
+    "Other": -0.035
+  }
+}

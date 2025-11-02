@@ -1,0 +1,117 @@
+{
+  "ticker": "ADSK",
+  "company_name": "Autodesk, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Spain",
+      "Ireland",
+      "Singapore",
+      "Japan",
+      "Korea",
+      "China",
+      "India",
+      "Australia",
+      "New Zealand",
+      "Portugal",
+      "Norway",
+      "Switzerland",
+      "Netherlands",
+      "Massachusetts",
+      "California",
+      "Michigan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.44,
+      "EMEA": 0.38,
+      "APAC": 0.18
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Architecture, Engineering, Construction and Operations (AECO)",
+    "AutoCAD and AutoCAD LT",
+    "Manufacturing (MFG)",
+    "Media and Entertainment (M&E)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services",
+      "Ingram Micro Inc.",
+      "Citibank N.A.",
+      "TD Synnex Corporation",
+      "Citigroup"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on Amazon Web Services and other infrastructure-as-a-service providers for cloud-based products; Dependency on TD Synnex as largest distributor (33% of net revenue in fiscal 2025); Reliance on third-party developers for complementary products",
+    "risks": "Loss of or significant reduction in business with TD Synnex could harm business; Failure of third-party service providers could result in loss of data or service disruptions; Supply chain attacks and cybersecurity incidents; Reliance on single or limited number of suppliers in certain countries",
+    "supplier_concentration": {
+      "TD Synnex": 0.33
+    }
+  },
+  "regulatory_risks": [
+    "General Data Protection Regulation (GDPR) in European Union - penalties up to €20 million or 4% of annual global revenue",
+    "Personal Information Protection Law (PIPL) in China - penalties up to 50 million renminbi or 5% of annual revenue",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) - penalties up to $7,500 per violation",
+    "New state privacy laws in multiple U.S. states with varying requirements",
+    "ePrivacy Regulation in EU and UK with increased fines for non-compliance",
+    "AI Act in European Union imposing obligations on AI technology providers",
+    "U.S. state laws addressing AI development and use",
+    "Export controls and economic sanctions laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Cross-border data transfer restrictions and data localization requirements in China, India, Australia, New Zealand, Brazil, Japan",
+    "FedRAMP certification requirements for U.S. federal government contracts",
+    "Digital services taxes and regulations by foreign governments",
+    "Changes in tax laws including Inflation Reduction Act (15% corporate alternative minimum tax)",
+    "OECD proposals for global minimum tax rate of 15%",
+    "Cookie and tracking technology regulations in EU and UK",
+    "Government procurement regulations and compliance requirements",
+    "Intellectual property laws varying by jurisdiction",
+    "Open source software license compliance requirements",
+    "Section 404 of Sarbanes-Oxley Act internal control requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Hamas-controlled territories",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and global sanctions related to Russia-Ukraine war",
+      "Sanctions related to Israel-Hamas conflict",
+      "Potential retaliatory sanctions from affected countries",
+      "Export control violations and penalties",
+      "Heightened risk of cyberattacks from nation-state actors including Russian actors",
+      "U.S.-China trade tensions and potential tariffs",
+      "Trade policy changes including termination of trade agreements and imposition of tariffs",
+      "Retaliatory actions by foreign governments including China",
+      "Digital services tax disputes and potential U.S. retaliation",
+      "Trends toward nationalism and protectionism weakening international trade pacts"
+    ]
+  },
+  "revenue_by_segment": {
+    "AECO": 0.48,
+    "AutoCAD and AutoCAD LT": 0.26,
+    "Manufacturing": 0.19,
+    "Media and Entertainment": 0.05,
+    "Other": 0.02
+  }
+}

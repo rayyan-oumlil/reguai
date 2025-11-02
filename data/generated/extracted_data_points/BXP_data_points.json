@@ -1,0 +1,74 @@
+{
+  "ticker": "BXP",
+  "company_name": "BXP, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Office Properties",
+  "geography": {
+    "regions": [
+      "Boston",
+      "New York",
+      "Seattle",
+      "Washington, DC",
+      "San Francisco",
+      "Los Angeles",
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Hotel",
+    "Hotel Property",
+    "Residential Properties",
+    "Office",
+    "Residential",
+    "Retail Properties",
+    "Life Sciences",
+    "Life Sciences Properties",
+    "Retail",
+    "Office Properties"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on construction contractors, suppliers for building materials, labor availability for property development and maintenance",
+    "risks": [
+      "Supply chain disruptions and labor shortages causing delays in completion of development and redevelopment projects; increased costs to maintain, renovate and develop properties related to inflation"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Tax law changes affecting REIT status",
+    "ADA compliance requirements",
+    "Changes in federal, state and local laws and regulations",
+    "Compliance with Office of Foreign Assets Control (OFAC) requirements regarding Prohibited Persons",
+    "Climate change regulatory efforts and legislation requiring increased environmental disclosures and reporting",
+    "Failure to qualify as a REIT would cause BXP to be taxed as a corporation, substantially reducing funds available for payment of dividends",
+    "Changes in accounting pronouncements by FASB and SEC could adversely affect reported financial performance",
+    "Climate change regulations and disclosure requirements",
+    "Compliance with Americans with Disabilities Act and other safety regulations could result in substantial costs",
+    "Labor and employment laws",
+    "Federal, state and local laws and regulations related to real property, zoning, usage, building, fire and life safety codes",
+    "Building codes and safety regulations",
+    "Environmental laws governing asbestos, hazardous substances, and contamination requiring investigation, cleanup, and remediation costs",
+    "Potential changes to U.S. federal tax laws by new presidential administration",
+    "Environmental regulations and compliance costs",
+    "Federal securities laws and regulations and stock exchange requirements",
+    "Data privacy and cybersecurity regulations",
+    "Changes in rent control or rent stabilization and eviction laws in markets could adversely affect residential portfolio",
+    "Zoning and land use regulations",
+    "Possible adverse state and local tax audits and changes in state and local tax laws could result in increased tax costs",
+    "Securities regulations and reporting requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "OFAC Requirements prohibit conducting business with Prohibited Persons designated as terrorists or otherwise blocked/banned"
+    ]
+  }
+}

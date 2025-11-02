@@ -1,0 +1,102 @@
+{
+  "ticker": "ON",
+  "company_name": "ON Semiconductor Corporation",
+  "company_type": "Semiconductor Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Belgium",
+      "Czech Republic",
+      "Germany",
+      "India",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Romania",
+      "Slovak Republic",
+      "Slovenia",
+      "Switzerland",
+      "United Kingdom",
+      "China",
+      "Hong Kong",
+      "Japan",
+      "South Korea",
+      "Malaysia",
+      "Philippines",
+      "Singapore",
+      "Taiwan",
+      "Vietnam"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Power Solutions Group (PSG)",
+    "Analog and Mixed-Signal Group (AMG)",
+    "Intelligent Sensing Group (ISG)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Czech Republic",
+      "Japan",
+      "South Korea",
+      "Malaysia",
+      "Canada",
+      "China",
+      "Philippines",
+      "Vietnam"
+    ],
+    "dependencies": "The Company utilizes third-party contractors for some manufacturing activities, primarily for wafer fabrication and assembly and testing. The Company is dependent upon a limited number of highly specialized third-party suppliers for required components and materials for certain key technologies. The Company's assembly and test operations facility in Leshan, China is owned by a joint venture (80% owned by onsemi). The Company has interdependent manufacturing processes where operational disruption at one facility may impact ability to produce many products.",
+    "risks": "Supply chain disruptions from public health crises, geopolitical tensions, worker absenteeism, quarantines, office and factory closures, labor shortages, disruptions to ports and shipping infrastructure, border closures. Suppliers may extend lead times, limit supplies or increase prices due to capacity constraints. Single source facilities producing specific end-products. Dependence on third-party manufacturers with forecasting requirements and longer-term commitments. Raw material shortages could occur.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations controlling use, transportation, emission, discharge, storage and disposal of chemicals and materials in semiconductor manufacturing",
+    "Workplace safety and worker health regulations governing employee exposure to hazardous substances",
+    "Import-export control regulations and technology transfer restrictions",
+    "International Traffic in Arms Regulation (ITAR) under Arms Export Control Act",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Anti-boycott provisions of U.S. Export Administration Act",
+    "Tariffs and trade sanctions regulations",
+    "Export controls and licensing requirements for shipment to certain countries",
+    "U.S. Department of Commerce restricted entity list and unverified list restrictions",
+    "Climate change-based laws and regulations requiring additional compliance costs",
+    "Corporate Sustainability Reporting Directive disclosure requirements",
+    "Responsible Business Alliance (RBA) Code of Conduct compliance for human rights, labor, environment, health and safety",
+    "Conflict minerals regulations (Democratic Republic of Congo sourcing)",
+    "Data privacy and protection laws (GDPR in EU, various state regulations in US)",
+    "Personally Identifiable Information (PII) collection and use regulations",
+    "Government subsidies and incentives compliance requirements with potential recapture provisions",
+    "SEC climate disclosure rules (currently stayed pending litigation)",
+    "Environmental remediation and clean-up obligations at various facility locations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade disruptions and tariffs between United States and China impacting assembly and test operations in Leshan, China joint venture",
+      "U.S. Department of Commerce could add Chinese companies to restricted entity list requiring export licenses",
+      "Geopolitical tension between United States and China could result in additional tariffs, export controls or trade restrictions",
+      "Ongoing conflict in Middle East could disrupt operations",
+      "Military conflict between Russia and Ukraine could impact operations and supply chain",
+      "Tariffs on components imported from certain nations",
+      "Export control regulations requiring licenses for shipment to certain countries",
+      "Potential denial of export privileges or suspension/debarment from government contracts for non-compliance"
+    ]
+  }
+}

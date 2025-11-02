@@ -1,0 +1,104 @@
+{
+  "ticker": "SBUX",
+  "company_name": "Starbucks Corporation",
+  "company_type": "Specialty Coffee Retailer and Roaster",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "China",
+      "Japan",
+      "Asia Pacific",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "Latin America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Japan",
+      "South Korea",
+      "Turkey",
+      "Taiwan",
+      "Indonesia",
+      "Thailand",
+      "Philippines",
+      "United Kingdom",
+      "India",
+      "Netherlands"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America",
+    "International",
+    "Channel Development"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Nestlé S.A."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Multiple coffee-producing regions worldwide"
+    ],
+    "dependencies": [
+      "High-quality arabica coffee beans from multiple coffee-producing regions",
+      "Dairy products particularly fluid milk and plant-based alternatives",
+      "Global Coffee Alliance with Nestlé for Channel Development distribution",
+      "Third-party suppliers for food products, paper and plastic products",
+      "Third-party logistic service providers and common carriers"
+    ],
+    "risks": [
+      "Coffee price volatility due to supply and demand factors in producing countries",
+      "Weather conditions, natural disasters, crop disease and pests affecting coffee supply",
+      "Climate change impacts on coffee production and water availability",
+      "Supplier failure to meet quality standards or comply with laws",
+      "Reliance on single or very few suppliers for certain products",
+      "Supply chain interruptions from casualty loss of roasting plants",
+      "Trade restrictions including tariffs, quotas, embargoes, customs restrictions",
+      "Pandemics, social or labor unrest, labor shortages affecting supply chain",
+      "Concentration of retail licensed operations in relatively small number of large licensees",
+      "Dependence on Nestlé performance for Channel Development business"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Complex and evolving U.S. and international laws regarding data privacy and data protection (GDPR, PIPL, CCPA, California Privacy Rights Act)",
+    "State and federal legislation regarding wages, scheduling, and benefits",
+    "Increased minimum wage requirements (e.g., California Assembly Bill 1238)",
+    "Fair Labor Standards Act overtime requirements changes",
+    "Food safety regulations and compliance",
+    "Environmental laws and regulations including carbon emissions limits, plastic use restrictions, water use regulations",
+    "Import tariffs and restrictions based on alleged human rights abuses",
+    "Taxes on beverages with sugar or caloric sweeteners",
+    "Plastic packaging taxes",
+    "OECD Pillar Two global minimum tax (15% on country-by-country basis)",
+    "SEC climate disclosure rules",
+    "European Union Corporate Sustainability Reporting Directive (CSRD)",
+    "Trade and foreign investment restrictions",
+    "Anti-bribery and corruption laws",
+    "Unclaimed property laws",
+    "Health and safety protocols and regulations",
+    "Zoning approvals and governmental permits for store openings"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic or trade sanctions affecting ability to source products or conduct business in certain markets",
+      "U.S.-China tensions including escalating tension, increased anti-Americanism, potential tariff increases, retaliations, restrictive regulations, or boycotts",
+      "Restrictive actions of foreign or U.S. governmental authorities affecting trade and foreign investment",
+      "Protective measures such as export and customs duties and tariffs, government intervention favoring local competitors"
+    ]
+  }
+}

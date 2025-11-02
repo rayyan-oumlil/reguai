@@ -1,0 +1,91 @@
+{
+  "ticker": "GDDY",
+  "company_name": "GoDaddy Inc.",
+  "company_type": "Technology - Internet Services & Infrastructure",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "North Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Bulgaria",
+      "Germany",
+      "Romania",
+      "Serbia",
+      "United Kingdom",
+      "France",
+      "Netherlands",
+      "Singapore",
+      "India",
+      "China",
+      "Ukraine",
+      "Russia",
+      "Brazil"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Applications and Commerce",
+    "Core Platform"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services",
+      "VeriSign",
+      "ICANN",
+      "Microsoft Corporation"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Substantial reliance on AWS for cloud infrastructure hosting products and platforms. Dependence on VeriSign for .com and .net domain registry services. Reliance on ICANN accreditation for domain name registrar operations. Dependence on third-party payment processors for credit card transactions.",
+    "risks": "AWS service interruptions could impact platform availability. VeriSign fee increases could raise costs. Loss of ICANN accreditation would prevent domain registration operations. Payment processor termination could disrupt revenue collection. Third-party vendor failures in data centers or services could cause service disruptions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "ICANN policy changes affecting domain name registration system",
+    "Changes to Registrar Accreditation Agreement (RAA) or Registry Agreement (RA)",
+    "EU General Data Protection Regulation (GDPR) compliance requirements",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) compliance",
+    "EU Network Information Security 2 Directive (NIS2) domain registration data verification requirements",
+    "EU Digital Services Act (DSA) content moderation and advertising restrictions",
+    "Payment card industry data security standards compliance",
+    "Bank Secrecy Act and state money transmitter licensing for payment services",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and UK Bribery Act compliance",
+    "Export controls and economic sanctions regulations (OFAC)",
+    "Communications Decency Act (CDA) Section 230 potential amendments",
+    "Digital Millennium Copyright Act (DMCA) safe harbor requirements",
+    "Anti-Cybersquatting Consumer Protection Act (ACPA) liability",
+    "Telephone Consumer Protection Act (TCPA) compliance",
+    "Americans with Disabilities Act website accessibility requirements",
+    "Brazil Consumer Protection Code compliance",
+    "Artificial Intelligence regulations including EU AI Act",
+    "OECD global minimum tax rate implementation",
+    "State sales tax collection requirements post-Wayfair decision",
+    "FTC settlement agreement on security practices and advertising",
+    "Potential changes to internet neutrality regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions following Ukraine invasion - shut down GoDaddy website in Russia and removed Ruble support",
+      "U.S., UK and EU financial and economic sanctions targeting Russia",
+      "OFAC sanctions list compliance requirements",
+      "Restrictions on business with U.S. embargoed or sanctioned countries, governments, persons and entities",
+      "Potential penalties for violations of export controls and sanctions laws"
+    ]
+  }
+}

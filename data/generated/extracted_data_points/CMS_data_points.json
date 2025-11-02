@@ -1,0 +1,69 @@
+{
+  "ticker": "CMS",
+  "company_name": "CMS Energy Corporation",
+  "company_type": "Utilities - Electric and Gas",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electric Utility",
+    "Gas Utility",
+    "NorthStar Clean Energy"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Michigan"
+    ],
+    "dependencies": [
+      "Reliance on coal and natural gas suppliers for electric generation",
+      "Dependence on railroads and pipelines for fuel transportation",
+      "Reliance on MISO for wholesale electricity market operations",
+      "Dependence on contractors for construction and maintenance services"
+    ],
+    "risks": [
+      "Failure of suppliers to fulfill obligations to provide natural gas or coal",
+      "Counterparty financial or operational problems inhibiting fuel delivery",
+      "Supply chain disruptions and increased lead times",
+      "Barriers to accessing key materials for renewable projects (solar, battery, and other key equipment) created by geopolitical relations",
+      "Changes in commodity prices, applicable tariffs, and/or material and equipment availability",
+      "Inflation of labor rates and material and equipment prices"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in ROA (Retail Open Access) regulations allowing increased electric generation service from alternative suppliers",
+    "Creation of municipal utilities in Consumers' service territory or impairment of franchise rights",
+    "Adverse regulatory treatment or failure to receive timely regulatory orders from MPSC or FERC",
+    "Changes in federal or state laws or regulations related to energy policy, ROA, PURPA, infrastructure integrity or security, cybersecurity, gas pipeline safety, energy waste reduction, financial compensation mechanism, environment, reliability, health care reforms, taxes, accounting matters, climate change, air emissions, renewable energy, Dodd-Frank Act",
+    "MPSC rate regulation limiting recovery of costs or preventing rate increases",
+    "FERC regulation of wholesale electricity sales and natural gas pipeline rates",
+    "NERC reliability standards compliance requirements",
+    "Environmental regulations under Clean Air Act, Clean Water Act, RCRA, CERCLA, Endangered Species Act, Migratory Bird Treaty Act",
+    "EPA regulations including MATS, CSAPR, NAAQS, Good Neighbor Plan, greenhouse gas emissions rules, CCR disposal rules, effluent limitation guidelines",
+    "Michigan 2023 Energy Law requirements for renewable energy (50% by 2030, 60% by 2035) and clean energy (80% by 2035, 100% by 2040)",
+    "U.S. Department of Transportation Pipeline and Hazardous Materials Safety Administration rules for gas transmission pipelines and underground storage facilities",
+    "EGLE environmental permitting and compliance requirements",
+    "Potential regulation of greenhouse gases at federal, state, and local levels",
+    "Michigan Healthy Climate Plan goals for net-zero greenhouse gas emissions by 2050",
+    "PFAS regulation at state and/or federal level requiring testing and remediation",
+    "Changes in taxation including federal, state, and local tax rates",
+    "Dodd-Frank Act commodity-related contract regulations",
+    "FERC authorization requirements for financings",
+    "Potential local clearing requirement for electric capacity in MISO Michigan footprint"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  }
+}

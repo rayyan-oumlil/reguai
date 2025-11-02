@@ -1,0 +1,109 @@
+{
+  "ticker": "TJX",
+  "company_name": "The TJX Companies, Inc.",
+  "company_type": "Off-Price Retail",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Ireland",
+      "Germany",
+      "Poland",
+      "Austria",
+      "Netherlands",
+      "Australia",
+      "Puerto Rico",
+      "China",
+      "India",
+      "Hong Kong",
+      "Vietnam",
+      "Italy",
+      "Mexico",
+      "UAE",
+      "Saudi Arabia",
+      "Spain",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.78,
+      "Canada": 0.09,
+      "Europe": 0.12,
+      "Australia": 0.01
+    },
+    "assets_by_region": {
+      "United States": 0.77,
+      "Canada": 0.07,
+      "Europe": 0.13,
+      "Australia": 0.03
+    }
+  },
+  "segments": [
+    "Marmaxx",
+    "HomeGoods",
+    "TJX Canada",
+    "TJX International",
+    "Sierra"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "India",
+      "Southeastern Asia"
+    ],
+    "dependencies": "Many products sold in stores are sourced in locations (particularly in China, India and southeastern Asia) other than the location in which they will be sold",
+    "risks": "Potential disruptions in manufacturing and supply, transport availability and costs, tariffs and trade restrictions, compliance with labor and environmental laws, supply chain interruptions, strikes, product liability claims, intellectual property issues, concerns about environmental impact and human rights in sourcing countries",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Tariffs, duties, border adjustment taxes, trade restrictions, sanctions, quotas and voluntary export restrictions on imported merchandise",
+    "Changes to international trade agreements or enforcement practices",
+    "Compliance with labor, environmental, supply chain, international trade and other laws in relevant countries",
+    "Compliance with product laws and regulations including product safety and labeling requirements",
+    "Uyghur Forced Labor Prevention Act compliance",
+    "Countering America's Adversaries Through Sanctions Act",
+    "General Data Protection Regulation (GDPR) in European Union",
+    "California Consumer Privacy Act",
+    "Climate-related financial disclosure regulations",
+    "Pillar Two Model Rules defining global minimum tax (15% minimum rate for large multinational corporations)",
+    "Labor and employment practices regulations including pay transparency requirements",
+    "Consumer protection and product safety regulations",
+    "Cybersecurity and data protection regulations",
+    "Environmental regulations including cap and trade, carbon taxes, emissions management systems",
+    "Health, welfare and safety requirements",
+    "Internet regulations including e-commerce and electronic communications",
+    "FDA regulations (U.S. Food Safety Modernization Act)",
+    "California Proposition 65",
+    "Inflation Reduction Act of 2022 (1% excise tax on stock repurchases)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Widespread sanctions as a result of ongoing Russia-Ukraine conflict",
+      "Sanctions compliance requirements",
+      "Continuation of widespread sanctions related to Russia-Ukraine conflict",
+      "Shipping disruptions in Red Sea and surrounding waterways due to Middle East conflict"
+    ]
+  },
+  "revenue_by_segment": {
+    "Marmaxx": 0.614,
+    "HomeGoods": 0.167,
+    "TJX Canada": 0.092,
+    "TJX International": 0.127
+  }
+}

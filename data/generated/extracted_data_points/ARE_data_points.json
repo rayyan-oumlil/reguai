@@ -1,0 +1,91 @@
+{
+  "ticker": "ARE",
+  "company_name": "Alexandria Real Estate Equities, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Life Science",
+  "geography": {
+    "regions": [
+      "Greater Boston",
+      "San Francisco Bay Area",
+      "Maryland",
+      "North America",
+      "Texas",
+      "Seattle",
+      "Canada",
+      "San Diego",
+      "New York City",
+      "Research Triangle",
+      "United States"
+    ],
+    "countries": [
+      "China",
+      "Canada",
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Greater Boston",
+    "San Francisco Bay Area",
+    "Maryland",
+    "Texas",
+    "Seattle",
+    "Canada",
+    "San Diego",
+    "New York City",
+    "Research Triangle"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on limited number of vendors for utilities (including PG&E for San Francisco Bay Area properties), security, construction services, and third-party contractors for construction materials and skilled labor",
+    "risks": [
+      "Supply chain disruptions for construction materials and labor; commodity price volatility; potential PG&E service interruptions due to wildfire risks and bankruptcy history; dependence on third-party suppliers for construction projects; potential delays in obtaining materials from suppliers impacted by economic or political changes",
+      "Ground lease obligations with potential for significant up-front or increased recurring payments upon extension; construction cost increases and delays; tenant credit quality and collectibility risks; concentration of properties in specific geographic markets subject to local economic conditions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval delays or changes affecting life science tenants",
+    "Real estate zoning, permitting, and entitlement requirements",
+    "Tenant operations subject to FDA regulations, CLIA certifications, biosafety level guidelines, radioactive materials licensing",
+    "California Safe Drinking Water and Toxic Enforcement Act (Proposition 65)",
+    "Prohibited transaction tax risk on real estate asset sales (100% tax unless safe harbor requirements met)",
+    "Climate-related disclosure requirements (SEC proposed standards, California SB 253 and SB 261)",
+    "Zoning, land use, and building permit regulations",
+    "California Proposition 13 potential repeal or amendment affecting property taxes",
+    "State and local tax compliance across multiple jurisdictions",
+    "Tax law changes (including potential Section 1031 Exchange amendments)",
+    "NIH and government funding changes affecting research tenants",
+    "Securities regulations as publicly traded REIT",
+    "Climate change regulations including state and local laws on climate disclosures and emission reduction targets (California GHG disclosure requirements, Boston/Cambridge/New York/Seattle building emission limits)",
+    "Municipal legislation eliminating natural gas use in new construction (New York City, San Francisco)",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Building emissions regulations and climate change policies",
+    "Basel III banking regulations affecting financing availability",
+    "Data privacy and security laws (California Consumer Privacy Act, California Privacy Rights Act)",
+    "Foreign operations regulatory environment (Canada)",
+    "Foreign Corrupt Practices Act compliance for international operations",
+    "Environmental compliance requirements (Phase I assessments, asbestos remediation, hazardous waste handling)",
+    "Environmental laws and regulations (hazardous materials, asbestos, environmental contamination)",
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "Healthcare reform and drug pricing regulations (including Inflation Reduction Act of 2022)",
+    "REIT qualification requirements under Internal Revenue Code (90% distribution requirement, asset and income tests)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "EU retaliatory tariffs affecting tenants with European operations",
+      "Russia sanctions and potential cyberattack retaliation risks",
+      "Potential tariffs on imports from China, Canada, Mexico affecting supply chain costs",
+      "Impact of US-China trade tensions and tariffs on construction materials (steel, aluminum, solar panels)"
+    ]
+  }
+}

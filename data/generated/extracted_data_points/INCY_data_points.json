@@ -1,0 +1,131 @@
+{
+  "ticker": "INCY",
+  "company_name": "Incyte Corporation",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia",
+      "Canada",
+      "Japan",
+      "China"
+    ],
+    "countries": [
+      "United States",
+      "Switzerland",
+      "Japan",
+      "Canada",
+      "Austria",
+      "Belgium",
+      "Spain",
+      "United Kingdom",
+      "China",
+      "Hong Kong",
+      "Macau",
+      "Taiwan",
+      "Southeast Asia countries",
+      "European Union member states",
+      "Ukraine",
+      "Russia",
+      "Middle East countries"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Hematology/Oncology",
+    "Inflammation and Autoimmunity (IAI)",
+    "Dermatology",
+    "Myeloproliferative Neoplasms (MPNs)",
+    "Graft-Versus-Host Disease (GVHD)",
+    "Solid tumors",
+    "Hematologic malignancies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Chinese-based companies (raw materials for ruxolitinib phosphate)",
+      "Takeda Pharmaceutical Company Limited (ponatinib API)",
+      "Third-party contract manufacturers (API and finished drug product)",
+      "Contract research organizations (CROs)"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Switzerland (Yverdon large molecule production facility)",
+      "China (raw materials)",
+      "Multiple countries (third-party manufacturers)"
+    ],
+    "dependencies": [
+      "Single source or limited number of suppliers for API and finished product",
+      "Raw materials for ruxolitinib phosphate supplied by Chinese-based companies",
+      "Single source for JAKAFI raw materials",
+      "Reliance on third-party manufacturers for clinical and commercial products",
+      "Takeda as sole source for ponatinib API manufacturing"
+    ],
+    "risks": [
+      "International trade dispute between China and United States could limit raw material supply",
+      "Actions by Chinese government limiting Chinese companies from supplying materials",
+      "Single source supplier risks for API and finished products",
+      "Third-party manufacturer disruptions from equipment malfunction, regulatory actions, raw material shortages, labor disputes, cyberattacks, natural disasters, wars or geopolitical events",
+      "Potential acquisition or cessation of contract manufacturing operations by third parties",
+      "Manufacturing capacity constraints and delays",
+      "Inflation and rising costs affecting raw materials and manufacturing",
+      "Supply chain disruptions from public health pandemics (e.g., COVID-19)",
+      "Geopolitical events affecting supply chain (e.g., Russian invasion of Ukraine, Middle East conflicts)"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA approval delays or denials for drug candidates",
+    "Complete response letters requiring additional clinical data",
+    "Post-approval requirements including confirmatory clinical trials",
+    "Regulatory approval withdrawal or suspension",
+    "Changes in FDA policies and increased scrutiny of accelerated approvals",
+    "Foreign regulatory approval uncertainties (EMA, MHLW, NMPA)",
+    "Compliance with current Good Manufacturing Practices (cGMP)",
+    "Health care fraud and abuse laws (False Claims Act, anti-kickback provisions)",
+    "Off-label promotion restrictions",
+    "Physician Payment Sunshine Act reporting requirements",
+    "State marketing compliance programs and disclosure requirements",
+    "Environmental, health and safety regulations",
+    "Data privacy regulations (GDPR in EU, state laws in US)",
+    "HIPAA compliance for patient data",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Medicaid Drug Rebate Program compliance",
+    "Medicare Part D requirements",
+    "340B drug pricing program expansion",
+    "Price transparency and drug pricing regulations",
+    "Government healthcare reform and cost control initiatives",
+    "Inflation Reduction Act provisions (drug price negotiations, rebates, excise tax)",
+    "American Rescue Plan Act (elimination of Medicaid rebate cap)",
+    "Patent term and exclusivity changes",
+    "Generic drug competition and Hatch-Waxman Act challenges",
+    "Orphan drug exclusivity requirements",
+    "Pediatric exclusivity provisions",
+    "International patent protection uncertainties",
+    "Antitrust scrutiny of acquisitions",
+    "BEPS 2.0 global minimum tax implementation",
+    "Tax law changes affecting research and development expense capitalization",
+    "Climate-related disclosure requirements (SEC Release Nos. 33-11275; 34-99678)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International trade dispute between China and United States affecting raw material supply",
+      "Sanctions, embargoes, and supply shortages from geopolitical events",
+      "Russian invasion of Ukraine leading to sanctions and regional instability",
+      "Middle East conflicts causing adverse effects on operations",
+      "Retaliatory actions from geopolitical tensions",
+      "Currency exchange rate impacts from geopolitical events",
+      "Financial market disruptions from sanctions and embargoes"
+    ]
+  }
+}

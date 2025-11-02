@@ -1,0 +1,82 @@
+{
+  "ticker": "EIX",
+  "company_name": "Edison International",
+  "company_type": "Electric Utility Holding Company",
+  "geography": {
+    "regions": [
+      "Southern California",
+      "Central California",
+      "Coastal California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Southern California Edison Company (SCE)",
+    "Edison Energy, LLC (Trio)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Transmission and distribution infrastructure concentrated in Southern California",
+      "Nuclear fuel supply for Palo Verde Nuclear Generating Station",
+      "Natural gas supply from SoCalGas for generation facilities",
+      "Dependence on contractors for decommissioning activities at San Onofre",
+      "Reliance on contract workers including Safety Tier 1 Contractors for operations"
+    ],
+    "risks": [
+      "Supply chain constraints impacting capital project timelines",
+      "Contractor performance issues and delays",
+      "Availability and cost of spare parts for equipment",
+      "Delays in permitting and regulatory approvals affecting project execution",
+      "Dependence on decommissioning general contractor (DGC) for San Onofre activities",
+      "Risk of contractor safety incidents and compliance failures",
+      "Elevated inflation impacting construction and material costs",
+      "Tariff impacts on equipment and materials procurement"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "CPUC rate recovery denials or disallowances for wildfire-related costs",
+    "Failure to obtain CPUC approval for capital expenditures and cost recovery",
+    "CPUC prudency determinations under AB 1054 framework for wildfire costs",
+    "FERC rate recovery and prudency reviews for transmission costs",
+    "NRC regulatory requirements for nuclear decommissioning at San Onofre",
+    "NERC reliability and critical infrastructure protection standards compliance",
+    "OEIS safety certification requirements and wildfire mitigation plan approvals",
+    "Environmental regulatory compliance including GHG emissions regulations",
+    "California RPS (Renewables Portfolio Standard) compliance requirements",
+    "Penalties and fines from CPUC for safety violations and non-compliance",
+    "CPUC citation authority up to $100,000 per violation per day (capped at $8 million)",
+    "NERC penalties up to $1.5 million per violation per day for reliability standard violations",
+    "Customer affordability concerns impacting rate increase approvals",
+    "Changes in California environmental priorities and climate policies",
+    "New regulations on data privacy and cybersecurity",
+    "Occupational Safety and Health Administration (OSHA) regulations",
+    "Permitting delays from multiple federal, state, and local agencies",
+    "California Coastal Commission and environmental agency approvals for projects",
+    "FERC transmission planning and competitive solicitation requirements",
+    "Changes in tax laws and regulations at state and federal levels",
+    "Potential changes to AB 1054 prudency standard interpretation by CPUC",
+    "Risk of CPUC disallowing costs above authorized levels in GRC proceedings",
+    "Regulatory restrictions on PSPS (Public Safety Power Shutoff) operations",
+    "CPUC enforcement actions and Administrative Consent Orders",
+    "Environmental remediation cost recovery subject to reasonableness review",
+    "Nuclear decommissioning cost recovery subject to CPUC NDCTP reviews",
+    "Wildfire Insurance Fund exhaustion and reimbursement limitations",
+    "AB 1054 Liability Cap limitations on fund reimbursement",
+    "Regulatory changes to net energy metering (NEM) and customer generation policies",
+    "CPUC decisions on cost allocation and rate design impacting cost recovery"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

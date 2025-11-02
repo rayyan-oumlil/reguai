@@ -1,0 +1,123 @@
+{
+  "ticker": "TSN",
+  "company_name": "Tyson Foods, Inc.",
+  "company_type": "Food Processing and Protein Production",
+  "geography": {
+    "regions": [
+      "North America",
+      "Central America",
+      "South America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Uruguay",
+      "United Kingdom",
+      "Netherlands",
+      "Spain",
+      "Turkey",
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand",
+      "Malaysia",
+      "Singapore",
+      "Taiwan",
+      "India",
+      "Philippines",
+      "Australia",
+      "New Zealand",
+      "Kingdom of Saudi Arabia",
+      "Dominican Republic",
+      "Peru"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Beef",
+    "Pork",
+    "Chicken",
+    "Prepared Foods"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Thailand",
+      "Malaysia",
+      "Australia",
+      "Kingdom of Saudi Arabia",
+      "China",
+      "South Korea",
+      "Mexico",
+      "Brazil",
+      "Argentina"
+    ],
+    "dependencies": [
+      "Corn and soybean meal represented roughly 56% of cost of growing a live chicken domestically in fiscal 2024",
+      "Live cattle supply from independent feed yards and public auctions",
+      "Live hogs from independent producers",
+      "Contract farmers for raising live chickens",
+      "Breeder stock from Cobb-Vantress subsidiary"
+    ],
+    "risks": [
+      "Fluctuations in commodity prices for corn, soybean meal, live cattle, live hogs",
+      "Limited or reduced domestic availability of live cattle",
+      "Periods of imbalance in supply and demand for livestock",
+      "Disease outbreaks (African swine fever, avian influenza, BSE) affecting livestock supply",
+      "Labor shortages and increased turnover impacting production capacity",
+      "Dependence on independent contract farmers and producers",
+      "Global supply chain constraints",
+      "Inflationary pressures on input costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "USDA and FDA inspection and food safety regulations",
+    "HACCP program compliance",
+    "Sanitation Standard Operating Procedures",
+    "Public Health Security and Bioterrorism Preparedness and Response Act of 2002",
+    "Environmental laws and regulations (air, land, water protection)",
+    "Greenhouse gas emission controls and reporting requirements",
+    "Climate-related disclosure requirements (evolving)",
+    "OSHA workplace safety regulations",
+    "Labor laws and collective bargaining requirements",
+    "Antitrust laws and investigations (DOJ, state attorneys general)",
+    "Grain Inspection, Packers and Stockyards Act compliance",
+    "Competition Act (Canada)",
+    "International food safety and quality standards",
+    "Trade restrictions and import/export regulations",
+    "Animal disease control regulations",
+    "Data privacy regulations (EU and other jurisdictions)",
+    "Tax law changes and compliance (federal, state, foreign jurisdictions)",
+    "Advertising and marketing restrictions",
+    "Product labeling and disclosure requirements",
+    "Packaging specifications and waste reduction mandates",
+    "Extended producer responsibility obligations",
+    "Single-use plastics regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Conflicts between Ukraine and Russia with potential for escalation and additional economic sanctions",
+      "Middle East conflicts with risks outside company control",
+      "Potential border closures by foreign countries due to animal disease or health issues",
+      "Import/export restrictions affecting international markets"
+    ]
+  }
+}

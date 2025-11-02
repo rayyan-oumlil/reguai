@@ -1,0 +1,61 @@
+{
+  "ticker": "CSX",
+  "company_name": "CSX Corporation",
+  "company_type": "Transportation - Rail Freight",
+  "geography": {
+    "regions": [
+      "Eastern United States",
+      "Midwest",
+      "Southeast",
+      "Northeast",
+      "Mid-Atlantic",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Merchandise",
+    "Intermodal",
+    "Coal",
+    "Trucking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Limited number of railroad equipment suppliers due to capital intensive and unique nature of core rail equipment (rail, ties, freight cars, locomotives). Foreign suppliers for critical railroad supplies create procurement risks from international relations disruptions, trade regulations, or shipping disruptions.",
+    "risks": "Fuel supply shortage risk. Limited manufacturers for locomotives and freight cars could cause material shortages or significant cost increases. Foreign supplier dependencies expose company to international shipping disruptions, trade regulation changes, and increased global demand impacts.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "New legislation, regulatory changes or governmental actions could impact earnings or restrict ability to independently negotiate prices",
+    "STB regulations on competitive access or revenue adequacy could have material adverse effect",
+    "Changes in FRA, PHMSA, TSA, EPA regulations could increase operating costs, reduce revenue or reduce operating efficiencies",
+    "Common carrier mandate requires transport of hazardous materials - noncompliance could result in significant penalties and litigation exposure",
+    "Legislation preventing transport of hazardous materials through certain cities could cause network congestion and increased costs",
+    "Climate and emissions-related laws and regulations (EPA regulations targeting emission reductions) could reduce coal demand and increase operating costs",
+    "Environmental laws (CERCLA Superfund Law) impose joint and several liability for cleanup costs - substantial costs possible",
+    "Railway Labor Act procedures govern labor negotiations - potential for strikes if agreements not reached",
+    "Size or weight restriction changes on trucks could negatively impact competitive position versus trucking"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Embargoes or changes to trade agreements or policies such as tariffs could result in reduced import and export volumes"
+    ]
+  },
+  "revenue_by_segment": {
+    "Merchandise": 0.61,
+    "Intermodal": 0.14,
+    "Coal": 0.15,
+    "Trucking": 0.06,
+    "Other": 0.04
+  }
+}

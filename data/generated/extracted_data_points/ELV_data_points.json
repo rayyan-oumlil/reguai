@@ -1,0 +1,64 @@
+{
+  "ticker": "ELV",
+  "company_name": "Elevance Health, Inc.",
+  "company_type": "Health Insurance and Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Health Benefits",
+    "CarelonRx",
+    "Carelon Services",
+    "Corporate & Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "CaremarkPCS Health, L.L.C. (CVS Health Corporation)"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "CarelonRx delegates certain core pharmacy services to CaremarkPCS Health, L.L.C., a subsidiary of CVS Health Corporation, pursuant to the CVS Agreement with the current contractual term extending through December 31, 2027",
+    "risks": "Failure by CVS to provide pharmacy benefit manager services as contractually required could have a material adverse effect on business, reputation and results of operations",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in federal and state healthcare laws and regulations including ACA modifications",
+    "Medicare and Medicaid program changes including payment rates, quality bonus payments, and risk adjustment audits",
+    "CMS Star Ratings system changes affecting Medicare Advantage bonus payments",
+    "Minimum medical loss ratio (MLR) requirements and rebate obligations",
+    "State insurance department regulations and capital requirements",
+    "BCBSA license agreement requirements and restrictions",
+    "HIPAA and HITECH Act privacy and security requirements",
+    "State data privacy laws including California Privacy Rights Act",
+    "Mental health parity regulations issued by Tri-Agencies",
+    "Health plan price transparency regulations",
+    "Surprise medical billing regulations under Consolidated Appropriations Act of 2021",
+    "Pharmacy benefit manager regulations at federal and state levels",
+    "Drug pricing regulations and rebate requirements",
+    "Corporate Alternative Minimum Tax under Inflation Reduction Act",
+    "Medicaid eligibility redetermination requirements",
+    "Premium Tax Credit expiration risk at end of 2025",
+    "ERISA regulations for employee benefit plans",
+    "State guaranty fund assessment requirements",
+    "Risk-based capital (RBC) requirements for insurance and HMO subsidiaries",
+    "California Department of Managed Health Care (DMHC) regulations",
+    "Foreign Corrupt Practices Act for international operations",
+    "Anti-fraud, anti-corruption, and anti-money laundering regulations internationally"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

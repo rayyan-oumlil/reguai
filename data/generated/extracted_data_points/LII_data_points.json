@@ -1,0 +1,64 @@
+{
+  "ticker": "LII",
+  "company_name": "Lennox International Inc.",
+  "company_type": "HVACR (Heating, Ventilation, Air Conditioning and Refrigeration) Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Germany",
+      "France",
+      "Spain",
+      "United Kingdom",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Home Comfort Solutions",
+    "Building Climate Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "dependencies": "Compressors, motors and controls constitute most significant component purchases. Steel, aluminum and copper account for bulk of raw material purchases. Single-location production facilities for many products. Heavy reliance on suppliers who may concentrate production in single locations or source unique products from only one supplier.",
+    "risks": "Significant interruptions in production at single-location facilities or key supplier facilities could negatively impact profitability and ability to deliver products. Failure to maintain favorable relationships with suppliers or termination of key supplier relationship could negatively impact operations. Supply chain constraints due to supplier capacity constraints, labor shortages, port congestion, logistical problems. Rising material costs and inflation from suppliers. Extreme weather events and natural disasters could exacerbate supply chain constraints.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in environmental and climate-related legislation, government regulations, or policies (LRPs) relating to global climate change and environmental initiatives",
+    "Changes in environmental and energy efficiency standards targeting global warming potential of refrigerants and hydrofluorocarbons, equipment energy efficiency, and combustion of fossil fuels",
+    "U.S. Department of Energy energy conservation rulemakings impacting residential and commercial HVAC and refrigeration equipment",
+    "EPA regulation of hydrofluorocarbons (HFCs) under American Innovation and Manufacturing Act - transition to refrigerants with GWP of 700 or less effective January 1, 2025",
+    "Environmental remediation obligations under CERCLA (Superfund) for hazardous substances at facilities",
+    "E-Waste and related compliance - directives, laws, and regulations on electrical and electronic equipment waste in many countries and U.S. states",
+    "Changes in U.S. trade policy including tariffs and trade agreements (US-Mexico-Canada Agreement)",
+    "New presidential administration may impose substantial new or increased tariffs on foreign imports, particularly from Canada and Mexico",
+    "Foreign governments adopting responsive trade policies making it more difficult or costly to import/export products",
+    "U.S. Foreign Corrupt Practices Act and similar anti-bribery laws in other jurisdictions",
+    "Compliance with wide variety of U.S. federal and state and non-U.S. laws on tariffs, trade barriers, investments, taxation, exchange controls, employment regulations, anti-corruption, anti-bribery, export and import compliance, anti-trust and money laundering",
+    "Sustainability-related reporting requirements established by U.S. and international regulators",
+    "OECD Global Anti-Base Erosion (GloBE) rules / Pillar Two - global minimum corporate tax rate of 15% implemented by EU and G20 countries starting 2024",
+    "Increased scrutiny of international tax arrangements and transfer pricing policies by tax authorities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Regulatory risks from sanctions compliance mentioned as potential issue",
+      "Geopolitical instability and war could disrupt operations, employees, facilities, systems, suppliers, supply chain, distributors, resellers, or customers"
+    ]
+  }
+}

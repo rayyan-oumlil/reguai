@@ -1,0 +1,108 @@
+{
+  "ticker": "KEYS",
+  "company_name": "Keysight Technologies, Inc.",
+  "company_type": "Electronic Measurement and Test Equipment",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Malaysia",
+      "Japan",
+      "China",
+      "Germany",
+      "India",
+      "United Kingdom",
+      "Taiwan",
+      "Spain",
+      "Korea",
+      "Singapore",
+      "Romania",
+      "France",
+      "California",
+      "Colorado",
+      "Texas",
+      "Canada",
+      "Mexico",
+      "Luxembourg",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Communications Solutions Group (CSG)",
+    "Electronic Industrial Solutions Group (EISG)",
+    "Commercial Communications",
+    "Aerospace, Defense, and Government",
+    "Automotive and Energy",
+    "Semiconductor",
+    "General Electronics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Malaysia",
+      "United States",
+      "Germany",
+      "Japan",
+      "Penang, Malaysia",
+      "California",
+      "Colorado"
+    ],
+    "dependencies": "Centralized manufacturing in Penang, Malaysia for final assembly of sophisticated instruments. Use of contract manufacturers for assembly and printed circuit board production. Some parts require custom design and may not be readily available from alternate suppliers due to unique design or length of time necessary for design work.",
+    "risks": "Supply chain fluctuations could impact ability to purchase parts and components. Suppliers may discontinue parts, extend lead times, limit supplies or increase prices due to capacity constraints. Dependence on contract manufacturers may adversely affect ability to bring solutions to market. Inability to adjust purchases due to changing market conditions could adversely affect income. Concentration risk if suppliers cease manufacturing components requiring re-engineering of solutions.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export regulations and sanctions compliance (U.S. Export Administration Regulations)",
+    "Economic and trade sanctions programs limiting sales to certain countries",
+    "Arms Export Control Act and International Traffic in Arms Regulations (ITAR) violations",
+    "Environmental regulations (health, safety, product content, recycling, packaging)",
+    "Data privacy regulations (GDPR in European Union and similar regulations in other jurisdictions)",
+    "Anti-corruption regulations (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Import/export controls and licensing requirements",
+    "Trade restrictions including those on advanced computing and semiconductor manufacturing",
+    "Increased tariffs and trade protection measures",
+    "Health and safety laws (Occupational Health and Safety)",
+    "Product safety regulations",
+    "Competition regulations",
+    "Workplace health and safety regulations",
+    "Tax law changes and incentive expirations (Singapore, Malaysia tax incentives)",
+    "Pillar Two minimum 15% tax rate implementation",
+    "Climate change and net zero emissions regulations",
+    "Sanctions on Russia following invasion of Ukraine",
+    "U.S. Department of Commerce Lists of Parties of Concern restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions on Russia following invasion of Ukraine resulting in discontinuation of Russian operations",
+      "U.S. sanctions or trade restrictions preventing business in certain countries",
+      "Customers and suppliers subject to U.S. export restrictions and sanctions",
+      "Inability to sell certain products to countries, regions, facilities, or customers due to sanctions or trade restrictions",
+      "Trade disputes between United States and United Kingdom, European Union, Singapore, Malaysia and China",
+      "Tariffs on imports to or from China affecting customers' products",
+      "Export restrictions on customers or suppliers (e.g., U.S. Department of Commerce Lists of Parties of Concern)",
+      "Risk of increased tensions between China and Taiwan",
+      "War between Israel and Hamas",
+      "Regional conflicts limiting ability to transfer technologies or sell products"
+    ]
+  }
+}

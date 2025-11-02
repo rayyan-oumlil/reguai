@@ -1,0 +1,111 @@
+{
+  "ticker": "PSX",
+  "company_name": "Phillips 66",
+  "company_type": "Integrated Downstream Energy Provider",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Atlantic Basin",
+      "Gulf Coast",
+      "Central Corridor",
+      "West Coast",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Austria",
+      "Switzerland",
+      "France",
+      "Belgium",
+      "Colombia",
+      "Qatar",
+      "Saudi Arabia",
+      "Singapore",
+      "Mexico",
+      "Canada",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Midstream",
+    "Chemicals",
+    "Refining",
+    "Marketing and Specialties",
+    "Renewable Fuels"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Belgium",
+      "Colombia",
+      "Qatar",
+      "Saudi Arabia",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Does not produce crude oil and must purchase all feedstocks",
+      "Reliance on third-party transportation of crude oil, feedstocks, NGL, refined petroleum and renewable fuels products",
+      "Dependence on OPEC and non-OPEC production levels impacting crude oil prices",
+      "Reliance on natural gas and electricity availability for operations",
+      "Dependence on renewable feedstocks availability (used cooking oil, vegetable oils, waste oils)"
+    ],
+    "risks": [
+      "Interruptions of supply and offtake due to reliance on third-party transportation",
+      "Weather events, natural disasters, accidents, governmental regulations, public health crises, armed hostilities, or third-party actions including protests could disrupt transportation",
+      "Supply chain disruptions may delay projects or increase costs",
+      "Competition for renewable fuels feedstocks may increase costs or reduce availability",
+      "Capacity constraints in pipelines, storage and fractionation facilities",
+      "Changes in cost or availability of adequate and reliable transportation"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Climate change legislation or regulation could result in increased operating costs and reduce demand for refined petroleum products",
+    "EPA Renewable Fuel Standard (RFS) compliance - requirement to blend renewable fuels into motor fuels or purchase RINs",
+    "California Senate Bill No. 2 (SBx 1-2) - authorizes establishment of maximum gross gasoline refining margin and financial penalties",
+    "California cap and trade program under Assembly Bill 398 and Senate Bill 32",
+    "California Air Resources Board (CARB) regulations - ban on new internal combustion engine vehicle sales by 2035",
+    "California Low Carbon Fuel Standard and other state low carbon fuel standards",
+    "EU Emissions Trading Scheme (EU ETS) and UK Emissions Trading Scheme (UK ETS)",
+    "EU Renewable Energy Directive II",
+    "United Kingdom Renewable Transport Fuel Obligation",
+    "Federal Clean Air Act regulations on GHG emissions",
+    "EPA regulations on nitrogen oxide emissions and RECLAIM program replacement",
+    "Increased regulation of hydraulic fracturing could reduce crude oil and natural gas production",
+    "CERCLA and RCRA environmental remediation requirements",
+    "Federal Oil Pollution Act of 1990 liability for oil spills",
+    "EU REACH and UK REACH chemical regulations",
+    "Inflation Reduction Act of 2022 - 15% corporate alternative minimum tax",
+    "Office of Foreign Assets Control (OFAC) sanctions restricting business with certain countries",
+    "Potential new regulations on per- and poly-fluoroalkyl substances (PFAS)",
+    "Vermont Climate Superfund Act seeking financial damages from fossil fuel companies",
+    "Increased regulation of plastic waste and single-use plastics",
+    "Changes to government policies relating to renewable feedstocks and renewable fuels affecting tax credits and incentives"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Iran",
+      "Middle East countries (general)",
+      "Eastern Europe (war-affected regions)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions limiting ability to do business with entities affiliated with sanctioned countries",
+      "Sanctions limiting ability to obtain optimum crude slates and feedstocks",
+      "Potential sanctions affecting distribution of refined products",
+      "Impact of war in Eastern Europe on operations and commodity prices",
+      "Ongoing global impact of conflicts in the Middle East affecting operations"
+    ]
+  }
+}

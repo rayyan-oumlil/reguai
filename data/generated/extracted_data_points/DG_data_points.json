@@ -1,0 +1,90 @@
+{
+  "ticker": "DG",
+  "company_name": "Dollar General Corporation",
+  "company_type": "Discount Retail",
+  "geography": {
+    "regions": [
+      "United States",
+      "Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumables",
+    "Seasonal",
+    "Home products",
+    "Apparel"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Southeast Asia",
+      "India",
+      "South America",
+      "Mexico"
+    ],
+    "dependencies": "Two largest suppliers accounted for approximately 11% and 8% of purchases in 2024. Substantial amount of imported merchandise comes from China. Approximately 4% of purchases directly imported in 2024.",
+    "risks": "Changes to prices and flow of goods due to political or civil unrest, acts of war, disruptive global political events (political tensions involving China, conflict between Russia and Ukraine, conflict in the Middle East), currency fluctuations, tariffs and duties, disruptions in maritime lanes, port labor disputes, economic conditions and instability in supplier countries, financial instability of suppliers, supplier labor practices, availability and cost of raw materials, pandemic outbreaks, merchandise quality or safety issues, transport availability and cost, increases in wage rates and taxes, transport security, inflation. Current U.S. administration has imposed tariffs and could further significantly increase tariffs on goods from China, Mexico, Canada and other countries.",
+    "supplier_concentration": {
+      "Largest supplier": 0.11,
+      "Second largest supplier": 0.08
+    }
+  },
+  "regulatory_risks": [
+    "Product and food safety regulations",
+    "Marketing and labeling regulations",
+    "Information security and privacy laws",
+    "Labor and employment laws",
+    "Employee wages and benefits regulations (including federal and state minimum wage increases)",
+    "Health and safety regulations",
+    "Real property regulations",
+    "Public accommodations laws",
+    "Anti-bribery regulations",
+    "Financial reporting and disclosure requirements (including ESG disclosures)",
+    "Pricing regulations",
+    "Antitrust and fair competition laws",
+    "Anti-money laundering regulations",
+    "Distribution and transportation regulations",
+    "Imports and customs regulations",
+    "Intellectual property laws",
+    "Tax laws and policies (including federal, state, foreign corporate tax rate changes)",
+    "Environmental compliance regulations (including climate change regulations, greenhouse gas emissions, carbon pricing, carbon taxes, product energy efficiency standards, hazardous waste materials, recycling requirements, single-use plastics, extended producer responsibility)",
+    "SEC rules requiring climate change disclosures",
+    "Zoning restrictions and moratoria on small box discount retail development",
+    "Changes to government assistance programs (SNAP, unemployment benefits, economic stimulus payments)",
+    "Immigration policy changes",
+    "Artificial intelligence regulations",
+    "Workforce policies and practices regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Political tensions involving China",
+      "Conflict between Russia and Ukraine",
+      "Conflict in the Middle East",
+      "Increased likelihood of cyberattacks due to escalation of geopolitical tensions",
+      "Trade sanctions imposed on certain countries (particularly China) and entities",
+      "Measures that create barriers to or increase costs of international trade (including increased import duties or tariffs announced and expected to begin in 2025)",
+      "U.S. foreign trade policies, duties, tariffs and other impositions on imported goods"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumables": 0.8217,
+    "Seasonal": 0.1003,
+    "Home products": 0.0511,
+    "Apparel": 0.0269
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "ticker": "FIS",
+  "company_name": "Fidelity National Information Services, Inc.",
+  "company_type": "Financial Technology Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Canada",
+      "Australia",
+      "Brazil",
+      "Switzerland",
+      "France",
+      "China",
+      "Colombia",
+      "South Korea",
+      "India",
+      "Sweden",
+      "Jersey",
+      "Luxembourg",
+      "Republic of Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Banking Solutions",
+    "Capital Market Solutions",
+    "Corporate and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party vendors for technology components, hardware, software, research and market data, connectivity, communication network infrastructure",
+      "Cloud hosting and data center services",
+      "Dependence on financial institutions as treasury service providers for settlement services"
+    ],
+    "risks": [
+      "Vendor failures or operational disruptions could impact service delivery",
+      "Third-party security breaches or cyberattacks on vendor systems",
+      "Supply chain cybersecurity vulnerabilities",
+      "Inability to obtain treasury services could materially affect business operations",
+      "Vendor concentration risk - failure of vendors to meet obligations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state money transmission laws including USA PATRIOT Act and Bank Secrecy Act",
+    "State cybersecurity protection laws and data protection laws",
+    "EU Digital Operational Resilience Act (DORA) - effective January 2025",
+    "Privacy laws: GDPR (EU), UK GDPR, CCPA/CPRA (California), VCDPA (Virginia), CPA (Colorado), CTDPA (Connecticut), LGPD (Brazil), PIPL (China), APPI (Japan)",
+    "GLBA privacy regulations and state privacy laws",
+    "Federal Fair Credit Reporting Act (FCRA) and state consumer reporting laws",
+    "CFPB Unfair, Deceptive or Abusive Acts or Practices (UDAAP) regulations",
+    "Federal Fair Debt Collection Practices Act and state collection laws",
+    "Anti-money laundering laws: Bank Secrecy Act (US), Money Laundering Regulations (UK), Proceeds of Crime Act (UK), Criminal Finances Act (UK), EU Anti-Money Laundering Directives",
+    "Economic sanctions: OFAC (US), OFSI (UK), EU sanctions, UN sanctions",
+    "Anti-corruption laws: Foreign Corrupt Practices Act (FCPA), UK Bribery Act 2010",
+    "SEC and FINRA regulations for broker-dealer operations",
+    "FCA regulations (UK) including Consumer Duty requirements",
+    "Payment card industry digital security standards",
+    "AI laws and regulations - evolving globally including EU AI Act",
+    "Climate change legal and regulatory requirements",
+    "Export Administration Regulations and trade sanctions",
+    "FFIEC examination and oversight as Multi-Regional Data Processing Servicer (MDPS)",
+    "State banking regulations including Georgia Department of Banking and Finance",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "Investment Advisors Act of 1940",
+    "New York Department of Financial Services cybersecurity rules",
+    "State money transmitter licensing requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries (conflicts mentioned)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "UK OFSI sanctions",
+      "EU sanctions compliance",
+      "UN sanctions compliance",
+      "Russia-Ukraine war impacts on global economic activity and transaction volumes",
+      "Middle East conflicts affecting transaction processing volumes",
+      "Protective trade policies and tariffs may restrict services in certain countries"
+    ]
+  }
+}

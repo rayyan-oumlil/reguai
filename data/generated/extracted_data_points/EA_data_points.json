@@ -1,0 +1,100 @@
+{
+  "ticker": "EA",
+  "company_name": "Electronic Arts Inc.",
+  "company_type": "Digital Interactive Entertainment",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Switzerland",
+      "Germany",
+      "South Korea",
+      "United Kingdom",
+      "China",
+      "Japan",
+      "Australia",
+      "Poland",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.41,
+      "International": 0.59
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Full game downloads",
+    "Packaged goods",
+    "Live services and other",
+    "Console",
+    "PC and browsers",
+    "Mobile"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Apple",
+      "Tencent Holdings Limited",
+      "Google",
+      "Microsoft",
+      "Sony",
+      "Nexon Co., Ltd",
+      "Garena Online Private Limited"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Distribution through partners such as Sony and Microsoft for console products. Digital distribution through Apple App Store and Google Play Store for mobile. Publishing agreements with console manufacturers who unilaterally determine key commercial terms. Reliance on third-party storefronts and platform partners for majority of sales.",
+    "risks": "Console manufacturers can unilaterally change manufacturing terms, delivery times, policies and approval conditions. Agreements with distributors are typically terminable on short notice. Platform partners have significant influence over products and services offered. Concentration of sales among top customers and platform partners. Dependence on third-party licensees to distribute and host games in certain countries.",
+    "supplier_concentration": {
+      "Sony": 0.39,
+      "Microsoft": 0.17
+    }
+  },
+  "regulatory_risks": [
+    "Gaming regulations",
+    "User privacy and data collection and retention laws",
+    "Consumer protection laws",
+    "Protection of minors regulations",
+    "Online safety regulations including content moderation and transparency",
+    "Advertising regulations",
+    "Information security laws",
+    "Intellectual property laws",
+    "Competition laws",
+    "Sanctions compliance",
+    "Climate change regulations",
+    "Taxation laws and tariffs",
+    "Employment laws",
+    "New laws or regulations on virtual items and virtual currency business models",
+    "Digital services taxes in foreign jurisdictions",
+    "Global minimum taxes (Pillar II) enacted by EU and other countries including Switzerland",
+    "User-generated content regulations",
+    "AI technology regulations",
+    "Rating requirements and censorship in foreign countries",
+    "Pre-approval processes for games in certain countries",
+    "Data privacy, data protection, and security regulations (GDPR-type laws)",
+    "Content moderation requirements",
+    "Loot box and gambling-related regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Impact of U.S. sanctions on business operations",
+      "Trade restrictions and tariffs imposed by U.S. government on imported goods",
+      "Retaliatory tariffs from foreign governments",
+      "Immigration policies affecting operations",
+      "Political instability and political developments in countries where EA operates"
+    ]
+  }
+}

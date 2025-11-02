@@ -1,0 +1,115 @@
+{
+  "ticker": "LIN",
+  "company_name": "Linde plc",
+  "company_type": "Industrial Gases",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA (Europe, Middle East and Africa)",
+      "APAC (Asia and South Pacific)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Sweden",
+      "Republic of South Africa",
+      "Eastern Europe",
+      "China",
+      "Australia",
+      "India",
+      "South Korea",
+      "Thailand",
+      "Singapore",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.4375,
+      "EMEA": 0.253,
+      "APAC": 0.201,
+      "Engineering": 0.0703,
+      "Other": 0.0381
+    },
+    "assets_by_region": {
+      "United States": 0.3899,
+      "China": 0.0816,
+      "Germany": 0.0559,
+      "Brazil": 0.0298,
+      "Mexico": 0.0284,
+      "United Kingdom": 0.027,
+      "Australia": 0.0231,
+      "Other non-U.S.": 0.3643
+    }
+  },
+  "segments": [
+    "Americas",
+    "EMEA",
+    "APAC",
+    "Engineering"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Germany",
+      "France",
+      "United States",
+      "China"
+    ],
+    "dependencies": [
+      "Energy is the single largest cost item in the production and distribution of industrial gases",
+      "Raw materials for hydrogen, helium, carbon dioxide, carbon monoxide, and specialty gases are largely purchased from outside sources",
+      "Helium is sourced from certain helium-rich natural gas streams in the United States, with additional supplies being acquired from outside the United States"
+    ],
+    "risks": [
+      "Energy availability and price is unpredictable and may pose future risks",
+      "Long-term availability and prices of raw materials are subject to market conditions",
+      "A disruption in supply of raw materials could impact ability to meet contractual supply commitments"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental protection laws and regulations, including climate change and energy efficiency laws and policies",
+    "U.S. and non-U.S. tax laws and currency controls",
+    "Safety regulations",
+    "Securities laws applicable in the United States, the European Union, and other jurisdictions",
+    "Trade and import/export restrictions, as well as economic sanctions laws",
+    "Antitrust matters",
+    "Data protection regulations",
+    "Global anti-bribery laws, including the U.S. Foreign Corrupt Practices Act",
+    "Healthcare regulations",
+    "EPA regulations requiring reporting of GHG emissions",
+    "EPA regulations to restrict GHG emissions from light-duty vehicles and certain large manufacturing facilities",
+    "Carbon taxation or trading systems in China, Singapore and the European Union",
+    "Cap-and-trade regulations in California and the European Union",
+    "Pillar II, the 15% global minimum tax rate provisions of the OECD's framework",
+    "Inflation Reduction Act in the U.S. providing investments in production of clean hydrogen and decarbonization technologies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions on Russia due to Russian invasion of Ukraine",
+      "Multiple jurisdictions including Europe and the U.S. have imposed several tranches of economic sanctions on Russia",
+      "Compliance with sanctions and government restrictions on embargoed or sanctioned countries, governments, persons and entities",
+      "Performance of all Linde Engineering agreements in Russia were lawfully suspended in compliance with applicable sanctions",
+      "Deconsolidation of Russian gas and engineering business entities as of June 30, 2022"
+    ]
+  },
+  "revenue_by_segment": {
+    "Americas": 0.4375,
+    "EMEA": 0.253,
+    "APAC": 0.201,
+    "Engineering": 0.0703,
+    "Other": 0.0381
+  }
+}

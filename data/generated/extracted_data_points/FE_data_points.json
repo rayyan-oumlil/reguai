@@ -1,0 +1,99 @@
+{
+  "ticker": "FE",
+  "company_name": "FirstEnergy Corp.",
+  "company_type": "Electric Utility",
+  "geography": {
+    "regions": [
+      "Midwest",
+      "Mid-Atlantic"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Stand-Alone Transmission",
+    "Integrated",
+    "Distribution"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Significant resources to fund operating expenses, construction and other investment expenditures",
+      "Reliance on third-party vendors for equipment, materials, supplies, employee labor contractor services",
+      "Supply chain disruptions due to economic conditions, inflationary pressures, and increased demand including data center usage"
+    ],
+    "risks": [
+      "New or increased existing tariffs could adversely affect results of operations, cash flow and financial condition",
+      "Supply chain disruptions could have adverse effect on results of operations, cash flow and financial condition",
+      "Prolonged continuation or further increase in supply chain disruptions",
+      "New or increased tariffs could have adverse effect on results of operations",
+      "Prolonged continuation or further increase in demand could increase supply chain disruptions",
+      "Lead times increased across numerous material categories",
+      "Inflationary pressures on costs for labor, materials and services",
+      "Shortages of or delays in obtaining equipment, material and labor",
+      "Uncertain or adverse macroeconomic conditions including inflationary pressures",
+      "Supply constraints could lead to service disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EPA Coal Combustion Residuals (CCR) regulations for disposal sites",
+    "New Jersey Clean Energy Act compliance",
+    "Potential future federal tax legislation or presidential executive orders",
+    "Cross-default provisions in financing arrangements",
+    "FERC audit findings on cost allocation methodology",
+    "SEC climate-related disclosure rules",
+    "State laws on GHG emissions",
+    "Payment Card Industry Data Security Standard compliance",
+    "CERCLA environmental liability at waste disposal sites",
+    "Environmental laws and regulations including EPA rules on GHG emissions, Clean Water Act, CCR disposal",
+    "Climate change regulations and GHG emissions standards (Section 111 CAA)",
+    "NERC and RFC reliability standards enforcement",
+    "EmPOWER Maryland program requirements",
+    "Complex and changing federal, state and local government regulations",
+    "Sarbanes-Oxley Act compliance",
+    "State rate regulation may delay or deny full recovery of costs",
+    "Tax law changes including IRA of 2022 corporate AMT",
+    "Compliance with CAA, CERCLA, NSR programs",
+    "Potential regulatory disallowances of costs",
+    "State regulatory commission oversight (PUCO, PPUC, MDPSC, NYPSC, WVPSC, VSCC, NJBPU)",
+    "EPA Clean Water Act effluent limits (ELG Rule)",
+    "EPA regulations including Clean Air Act compliance (CSAPR, Good Neighbor Plan)",
+    "FERC's evolving policies with respect to incentive rates for transmission assets",
+    "Federal rate regulation may delay or deny full recovery of costs",
+    "State public utility commissions regulation of rates, conditions of service, issuance of securities",
+    "FERC's evolving policies with respect to calculation of base ROE component of transmission rates",
+    "SEC climate disclosure rules (currently stayed)",
+    "State-level energy efficiency and renewable portfolio standards",
+    "FERC regulations on transmission rates and reliability standards",
+    "Coal-fired generation exposure to environmental regulations",
+    "Anti-corruption and anti-bribery laws compliance",
+    "Climate change regulations and policies",
+    "Changes in RTO transmission rate design",
+    "Legacy CCR surface impoundments regulations",
+    "Pennsylvania Act 129 energy efficiency requirements",
+    "NERC Critical Infrastructure Protection standards",
+    "Municipal rate regulation in Ohio",
+    "Potential changes to transmission ROE incentives",
+    "Mandatory reliability standards set by NERC/FERC",
+    "Sanctions compliance requirements",
+    "Potential changes to environmental laws and regulations as a result of new U.S. presidential administration"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Distribution": 0.509,
+    "Integrated": 0.362,
+    "Stand-Alone Transmission": 0.133,
+    "Corporate/Other": -0.004
+  }
+}

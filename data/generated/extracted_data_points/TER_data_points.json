@@ -1,0 +1,99 @@
+{
+  "ticker": "TER",
+  "company_name": "Teradyne, Inc.",
+  "company_type": "Automated Test Equipment and Robotics",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia Pacific",
+      "Europe, Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "Korea",
+      "Taiwan",
+      "China",
+      "Japan",
+      "Singapore",
+      "Malaysia",
+      "Philippines",
+      "Thailand",
+      "Denmark",
+      "Costa Rica",
+      "Canada",
+      "Mexico",
+      "Israel",
+      "United Kingdom",
+      "Germany",
+      "India",
+      "Vietnam"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Semiconductor Test",
+    "Robotics",
+    "Defense/Aerospace",
+    "Production Board Test",
+    "Wireless Test"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Flex Ltd.",
+      "Plexus Corp.",
+      "SAM Meerkat"
+    ],
+    "manufacturing_locations": [
+      "Malaysia",
+      "Thailand",
+      "Denmark",
+      "United States"
+    ],
+    "dependencies": "Dependence on Flex Ltd. for FLEX and J750 family products manufacturing in Malaysia; Plexus Corp. for Magnum products in Malaysia and Thailand and ETS family in Malaysia; SAM Meerkat for storage test products in Malaysia and Thailand. Global supply shortage of electrical components including semiconductor chips has impacted supply chain.",
+    "risks": "Supplier delays or cancellations could reduce revenues and earnings. Contract manufacturers may fail to meet quality or delivery requirements. Global supply shortage of electrical components and inflationary cost increases impact ability to meet customer demand. Concentration risk with limited suppliers for certain components. Some components obtained from sole sources.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export control regulations restricting transactions with certain Chinese semiconductor companies",
+    "Entity List and Foreign Direct Product Rule (FDP) under U.S. Export Administration Regulations (EAR)",
+    "U.S. Department of Commerce export restrictions on advanced semiconductors and equipment to China",
+    "Chinese government blocking legislation in response to U.S. export controls",
+    "RoHS Directive (Restriction of Use of Certain Hazardous Substances in Electrical and Electronic Equipment)",
+    "WEEE Directive (Waste Electrical and Electronic Equipment)",
+    "Environmental regulations relating to use, storage, discharge, site cleanup and disposal of hazardous chemicals",
+    "Climate change regulations",
+    "DFARS (Defense Federal Acquisition Regulation Supplement) requirements for controlled unclassified information (CUI)",
+    "CMMC (Cybersecurity Maturity Model Certification) program requirements",
+    "Data privacy regulations",
+    "Anti-corruption laws",
+    "Customs and trade regulations",
+    "International tax laws and regulations including Pillar Two global minimum tax",
+    "Inflation Reduction Act of 2022 including 15% alternative minimum tax (CAMT)",
+    "Product safety regulations",
+    "ERISA and Internal Revenue Code requirements for pension plans"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Venezuela",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. tariffs on products made in China and imported into United States (25% tariff on certain products, additional 10% tariff effective February 4, 2025)",
+      "China retaliatory tariffs on products made in United States",
+      "Potential additional tariffs from Trump administration on imports from Canada, Mexico and China",
+      "Export restrictions prohibiting U.S. companies from exporting to certain entities",
+      "Restrictions on access to U.S. origin technologies for certain Chinese semiconductor companies",
+      "Export controls for military end users or military end-use in China, Russia and Venezuela",
+      "Huawei and affiliates added to Entity List",
+      "Restrictions on sale of products to certain customers in China added to Entity List in December 2024",
+      "Economic sanctions regulations",
+      "Trade embargoes"
+    ]
+  }
+}

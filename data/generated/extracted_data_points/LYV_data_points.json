@@ -1,0 +1,106 @@
+{
+  "ticker": "LYV",
+  "company_name": "Live Nation Entertainment, Inc.",
+  "company_type": "Live Entertainment",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia-Pacific",
+      "Latin America",
+      "Australia",
+      "New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Netherlands",
+      "Ireland",
+      "Denmark",
+      "New Zealand",
+      "Australia",
+      "Colombia",
+      "Argentina",
+      "Brazil",
+      "Portugal"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Domestic": 0.621,
+      "Europe": 0.2,
+      "Other Foreign": 0.18
+    },
+    "assets_by_region": {
+      "Domestic": 0.711,
+      "Europe": 0.204,
+      "Other Foreign": 0.086
+    }
+  },
+  "segments": [
+    "Concerts",
+    "Ticketing",
+    "Sponsorship & Advertising"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on popular artists and their willingness to tour",
+      "Limited number of artists that can headline major tours or sell out larger venues",
+      "Reliance on third parties to create and perform live entertainment events",
+      "Dependence on venue availability and lease renewals",
+      "Reliance on third-party ticketing clients for Ticketing segment revenue"
+    ],
+    "risks": [
+      "Inability to secure popular artists could limit revenue generation",
+      "Competition for key employees with artist relationships",
+      "Venue lease renewals may not be on acceptable terms",
+      "Third-party venue operators may compete with owned venues",
+      "Artist cancellations or tour postponements",
+      "Dependence on unrelated parties to create live music events"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Privacy laws and protection of personal or sensitive information (GDPR, California Consumer Protection Act)",
+    "United States Foreign Corrupt Practices Act compliance",
+    "United Kingdom Bribery Act 2010 compliance",
+    "Primary ticketing and ticket resale services regulations",
+    "Construction, renovation and operation of venues regulations",
+    "Licensing, permitting and zoning, including noise ordinances",
+    "Human health, safety, security and sanitation requirements",
+    "Service of food and alcoholic beverages regulations (dram shop statutes)",
+    "Americans with Disabilities Act (ADA) and UK Disability Discrimination Act (DDA) compliance",
+    "Hazardous and non-hazardous waste and environmental protection laws",
+    "Sales and other taxes and withholding of taxes",
+    "Marketing activities via telephone and online regulations",
+    "Historic landmark rules",
+    "Antitrust laws and competition regulations",
+    "Consumer protection and unfair business practice laws",
+    "Amended Final Judgment restrictions from DOJ (through end of 2025)",
+    "State and federal investigations into ticketing practices",
+    "Potential liability for entertainment taxes and incidents at events",
+    "Zoning and noise level restrictions affecting venue operations",
+    "Department of Justice antitrust complaint filed May 2024 seeking divestiture of Ticketmaster"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Argentina"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "United States Department of the Treasury's Office of Foreign Assets Control sanctions on certain Russian individuals and entities",
+      "European regulators sanctions on certain Russian individuals and entities",
+      "Sanctions elsewhere in the world could restrict or limit business activities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Concerts": 0.822,
+    "Ticketing": 0.129,
+    "Sponsorship & Advertising": 0.052
+  }
+}

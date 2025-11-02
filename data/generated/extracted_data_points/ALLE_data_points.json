@@ -1,0 +1,100 @@
+{
+  "ticker": "ALLE",
+  "company_name": "Allegion plc",
+  "company_type": "Security Products and Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Oceania"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Ireland",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Poland",
+      "Australia",
+      "New Zealand",
+      "China",
+      "Singapore",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.758,
+      "Non-U.S.": 0.242
+    },
+    "assets_by_region": {
+      "United States": 0.574,
+      "Non-U.S.": 0.426
+    }
+  },
+  "segments": [
+    "Allegion Americas",
+    "Allegion International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "New Zealand",
+      "Australia",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Poland",
+      "Singapore"
+    ],
+    "dependencies": "Region-of-use production strategy with corresponding region-of-use supplier partners. Much of U.S. based residential portfolio is manufactured in the Baja region of Mexico under the IMMEX program.",
+    "risks": "Supply chain disruptions including product manufacturing and logistical services, material shortages, electronic component shortages, labor shortages, capacity constraints, freight delays, new or increased tariffs and trade restrictions",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "New or increased tariffs, changes to trade agreements, sanctions, import and export regulations",
+    "Custom duties and applicable tax regulations and interpretations",
+    "Changes in laws and regulations or imposition of currency restrictions",
+    "Fire and building codes and EHS (Environmental, Health and Safety) standards",
+    "Climate change legislation or other environmental mandates",
+    "Data privacy laws and regulations including European Union's General Data Protection Regulation (GDPR)",
+    "Cybersecurity reporting requirements and disclosure obligations",
+    "Global Minimum Tax (GMT) rate of 15% implementation",
+    "Transfer pricing regulations in countries of operation",
+    "State Aid investigations by European Commission",
+    "Product certification and specification requirements",
+    "IoT device regulations",
+    "Immigration and work authorization policies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Retaliatory actions from tariffs or trade restrictions",
+      "Border closures and civil disturbances",
+      "Conflicts in Middle East and war between Russia and Ukraine",
+      "Sovereign debt crises and currency instability"
+    ]
+  },
+  "revenue_by_segment": {
+    "Allegion Americas": 0.799,
+    "Allegion International": 0.201
+  }
+}

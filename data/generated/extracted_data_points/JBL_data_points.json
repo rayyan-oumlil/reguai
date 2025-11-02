@@ -1,0 +1,119 @@
+{
+  "ticker": "JBL",
+  "company_name": "Jabil Inc.",
+  "company_type": "Electronics Manufacturing Services and Diversified Manufacturing Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Mexico",
+      "Singapore",
+      "Malaysia",
+      "India",
+      "Switzerland",
+      "United Kingdom",
+      "Vietnam",
+      "Brazil",
+      "Israel",
+      "Ukraine",
+      "Russia",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Mexico": 0.203,
+      "China": 0.167,
+      "Singapore": 0.155,
+      "Other_Foreign": 0.3,
+      "United_States": 0.175
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Electronics Manufacturing Services (EMS)",
+    "Diversified Manufacturing Services (DMS)",
+    "5G, wireless and cloud",
+    "digital print and retail",
+    "industrial and semi-capital equipment",
+    "networking and storage",
+    "automotive and transportation",
+    "connected devices",
+    "healthcare and packaging",
+    "Regulated Industries",
+    "Intelligent Infrastructure",
+    "Connected Living and Digital Commerce",
+    "renewable energy infrastructure",
+    "capital equipment",
+    "cloud and data center infrastructure",
+    "networking and communications"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Mexico",
+      "Singapore",
+      "Malaysia",
+      "United States",
+      "Vietnam",
+      "Brazil",
+      "India",
+      "Europe"
+    ],
+    "dependencies": "Some products require components available only from single sources. Component shortages occur from time to time. Certain sub-tier suppliers providing raw materials such as palladium, neon gas, and high-grade aluminum are partially dependent on supply from regions impacted by Russia/Ukraine conflict. Some parts sourced from suppliers located in Israel.",
+    "risks": "Component shortages and supply chain disruptions due to industry-wide conditions, pandemics, natural disasters, and global events. Single-source supplier dependencies. Supplier financial condition affecting ability to supply components and satisfy warranty obligations. Geopolitical tensions (Russia/Ukraine conflict, Israel-Hamas war) potentially impacting supply chain. Inflation and rising component prices. Quality, reliability, or availability issues with component suppliers.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive government regulations and industry standards relating to products manufactured and business conduct",
+    "Labor and employment practices regulations",
+    "Workplace health and safety regulations",
+    "Environmental regulations (use, storage, discharge, disposal of hazardous chemicals)",
+    "Sourcing and import/export practices regulations",
+    "Privacy and data protection regulations (increasingly complex and fragmented globally)",
+    "Government contract regulations",
+    "Machine learning and artificial intelligence regulations",
+    "FDA Quality System Regulation (QSR) and Good Manufacturing Practices (cGMPs) for medical devices",
+    "FDA inspection and enforcement actions (warning letters, fines, recalls, facility shutdowns)",
+    "EU medical device regulations and certification requirements",
+    "China National Medical Products Administration regulations",
+    "Japan Pharmaceutical Affairs Laws",
+    "Product stewardship and producer responsibility laws",
+    "Recycling and reuse of products regulations",
+    "Environmental health and safety laws (soil/groundwater contamination remediation)",
+    "Global warming and environmental impact regulations",
+    "Tariffs and trade barriers",
+    "Export and import controls",
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "Tax law changes and transfer pricing rules",
+    "OECD 15% global minimum corporate tax rate",
+    "Responsible Business Alliance (RBA) Code of Conduct requirements",
+    "Environmental, social, and governance (ESG) disclosure requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and actions taken by EU, US, and other governments in response to Russia/Ukraine invasion",
+      "Potential sanctions related to Israel-Hamas war and Middle East conflicts",
+      "Trade sanctions and restrictions limiting imports/exports",
+      "Risk of governmental expropriation of property in foreign countries",
+      "International trade disputes resulting in tariffs and protectionist measures"
+    ]
+  },
+  "revenue_by_segment": {
+    "EMS": 0.48,
+    "DMS": 0.52
+  }
+}

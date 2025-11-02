@@ -1,0 +1,120 @@
+{
+  "ticker": "DLR",
+  "company_name": "Digital Realty Trust, Inc.",
+  "company_type": "Data Center & Real Estate Investment Trust (REIT)",
+  "geography": {
+    "regions": [
+      "North America",
+      "EMEA",
+      "Asia Pacific",
+      "Latin America",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Switzerland",
+      "Austria",
+      "Belgium",
+      "Spain",
+      "Sweden",
+      "Denmark",
+      "Greece",
+      "Italy",
+      "Croatia",
+      "South Africa",
+      "Kenya",
+      "Mozambique",
+      "Nigeria",
+      "Singapore",
+      "Australia",
+      "Japan",
+      "South Korea",
+      "Hong Kong",
+      "Indonesia",
+      "Brazil",
+      "Chile",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Inside the United States": 0.524,
+      "Outside the United States": 0.476
+    },
+    "assets_by_region": {
+      "Inside the United States": 0.441,
+      "Outside the United States": 0.559
+    }
+  },
+  "segments": [
+    "Colocation (0 to 1 MW)",
+    "Scale & Hyperscale Powered Base Building (> 1 MW)",
+    "Interconnection services",
+    "Cross Connect",
+    "Campus Connect",
+    "Metro Connect",
+    "ServiceFabric",
+    "IP Bandwidth",
+    "Pathway"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party suppliers for power delivery to data centers",
+      "Third-party suppliers for equipment and materials for construction and development",
+      "Telecommunications carriers for network connectivity",
+      "Long lead time items such as generators",
+      "Specialized data center components"
+    ],
+    "risks": [
+      "Supply chain or procurement disruptions may lead to delays",
+      "Increased supply chain costs",
+      "Dependence on third-party suppliers for power",
+      "Power shortages and planned or unplanned outages",
+      "Global supply chain constraints",
+      "Disruptions from political events, international trade disputes and tariffs, war, terrorism, natural disasters, public health issues, industrial accidents, national security concerns, pandemics",
+      "Delays in delivery of required equipment and materials",
+      "Impact on ability to meet delivery timelines to customers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with Americans with Disabilities Act (ADA)",
+    "Environmental liabilities and regulations (CERCLA, state and local environmental laws)",
+    "Climate change legislation and regulations",
+    "Regulations on energy usage and data center development moratoria",
+    "Water usage restrictions and efficiency mandates",
+    "Fire and life safety regulations",
+    "Zoning and land use regulations",
+    "Permit requirements for diesel-powered generators and air quality regulations",
+    "Foreign tax laws and regulations changes",
+    "OECD Pillar Two rules (global minimum tax of 15%)",
+    "Data privacy regulations (e.g., GDPR)",
+    "Cybersecurity regulations and SEC investigation into cybersecurity disclosures",
+    "ISO and SOC certifications requirements",
+    "Trade restrictions and tariffs",
+    "Sanctions compliance",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Real property and personal property tax increases",
+    "Foreign jurisdiction regulations (complex and evolving regulatory frameworks)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East (region)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions and potential curtailment of gas exports to Europe",
+      "Sanctions and penalties against Russia impacting European operations",
+      "International trade disputes and tariffs"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "ticker": "UDR",
+  "company_name": "UDR, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Multifamily Apartment Communities",
+  "geography": {
+    "regions": [
+      "West Region",
+      "Mid-Atlantic Region",
+      "Northeast Region",
+      "Southeast Region",
+      "Southwest Region"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Same-Store Communities",
+    "Non-Mature Communities/Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on third-party vendors for property management services, maintenance, construction, and development activities. Supply chain constraints could result in increased development costs or delay initial occupancy dates.",
+    "risks": "Supply chain constraints may result in increased development costs or delay initial occupancy dates for all or a portion of a development community. The Company may experience supply chain constraints which could result in increased development costs or delay initial occupancy dates.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rent control, rent stabilization, eviction, tenants' rights and similar laws and regulations could limit ability to raise rents or charge certain fees",
+    "Changes to rent control, rent stabilization, eviction, tenants' rights laws (including retroactive changes) could adversely impact results of operations and property values",
+    "New York enacted Housing Stability and Tenant Protection Act of 2019",
+    "California enacted Tenant Protection Act of 2019",
+    "City of Salinas California passed rent stabilization ordinance in September 2024",
+    "Federal, state and local governments may enact or change laws related to allowable fees and rents, eviction and other tenants' rights",
+    "Compliance with Americans with Disabilities Act of 1990 could require substantial alterations and capital expenditures",
+    "Federal, state and local environmental laws governing hazardous materials, asbestos, lead-based paint, underground storage tanks, waste management",
+    "Changes in federal and state legislation and regulation on climate change may result in increased capital expenditures",
+    "Real estate tax and other laws changes could adversely affect funds from operations and ability to make distributions",
+    "State and local governments may increase property taxes or other taxes or fees",
+    "REIT qualification requirements under Internal Revenue Code - must distribute at least 90% of REIT taxable income annually",
+    "Changes in U.S. federal income tax laws could have adverse impact on business and financial results",
+    "Fair Housing Amendments Act of 1988 compliance requirements",
+    "State and local fire and life safety requirements",
+    "Federal, state and local accessibility requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

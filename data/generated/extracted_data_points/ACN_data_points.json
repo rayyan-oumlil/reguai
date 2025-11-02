@@ -1,0 +1,110 @@
+{
+  "ticker": "ACN",
+  "company_name": "Accenture plc",
+  "company_type": "Professional Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "EMEA (Europe, Middle East and Africa)",
+      "Growth Markets (Asia Pacific and Latin America)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Ireland",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Switzerland",
+      "India",
+      "Philippines",
+      "China",
+      "Japan",
+      "Australia",
+      "Singapore",
+      "Argentina",
+      "Brazil",
+      "South Africa",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.47,
+      "EMEA": 0.35,
+      "Growth Markets": 0.17
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Strategy & Consulting",
+    "Technology",
+    "Operations",
+    "Industry X",
+    "Song",
+    "Communications, Media & Technology",
+    "Financial Services",
+    "Health & Public Service",
+    "Products",
+    "Resources"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "India",
+      "Philippines"
+    ],
+    "dependencies": "Large portions of delivery capability based in India and Philippines where majority of workforce is located",
+    "risks": [
+      "Concentrating delivery capability in India and Philippines presents operational risks",
+      "Disruptions from health emergencies, terrorist violence, political unrest, natural disasters, climate change impacts",
+      "Extended disruptions of electricity, utilities, network or cloud services",
+      "Physical infrastructure damage, system failures, cyberattacks at facilities",
+      "Geopolitical tensions may exacerbate operational risks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Data privacy and cybersecurity laws (GDPR, UK GDPR, US state privacy legislation)",
+    "AI regulations (EU AI Act, US Executive Order on AI)",
+    "Non-personal data regulations",
+    "Cross-border data transfer restrictions and data localization requirements",
+    "ESG disclosure and reporting requirements (SEC, European regulators)",
+    "Climate and human rights related disclosure requirements",
+    "Anticorruption laws (US Foreign Corrupt Practices Act, UK Bribery Act 2010)",
+    "Import/export controls and trade restrictions",
+    "Sanctions compliance",
+    "Government contracting regulations and compliance requirements",
+    "Tax law changes and transfer pricing regulations",
+    "OECD Pillar Two global minimum tax",
+    "Digital taxes in various jurisdictions",
+    "Employment and labor regulations including works councils requirements",
+    "Content requirements and platform trust and safety regulations",
+    "Intellectual property regulations for AI",
+    "Environmental regulations to mitigate climate change effects"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "China",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions imposed in response to Russia's invasion of Ukraine restricting certain services",
+      "International conflicts and sanctions impacting ability to deliver services",
+      "Trade restrictions and tariffs affecting operations",
+      "Geopolitical tensions increasing operational complexity"
+    ]
+  },
+  "revenue_by_segment": {
+    "Communications, Media & Technology": 0.17,
+    "Financial Services": 0.18,
+    "Health & Public Service": 0.21,
+    "Products": 0.3,
+    "Resources": 0.14
+  }
+}

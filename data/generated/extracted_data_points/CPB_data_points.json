@@ -1,0 +1,79 @@
+{
+  "ticker": "CPB",
+  "company_name": "Campbell Soup Company",
+  "company_type": "Food and Beverage Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Italy"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.9,
+      "Non-U.S.": 0.1
+    },
+    "assets_by_region": {
+      "United States": 0.9,
+      "Non-U.S.": 0.1
+    }
+  },
+  "segments": [
+    "Meals & Beverages",
+    "Snacks"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Italy"
+    ],
+    "dependencies": "Substantial majority of Rao's tomato-based sauce products are produced by a third-party contract manufacturer at a single facility in Italy and the remainder at a single facility in the U.S.",
+    "risks": "Disruption to supply chain could adversely affect business due to damage or disruption to manufacturing, warehousing or distribution capabilities, or to capabilities of suppliers, contract manufacturers, logistics service providers or independent distributors. Risks include execution issues, increased temperatures due to climate change, water stress, extreme weather events, natural disasters, product or raw material scarcity, fire, terrorism, pandemics, geopolitical conflicts, strikes, labor shortages, cybersecurity breaches, government shutdowns, disruptions in logistics, supplier capacity constraints. Commodity prices volatility. Production of agricultural commodities may be adversely affected by drought, excessive rain, temperature extremes, water scarcity, scarcity of suitable agricultural land, scarcity of organic ingredients, crop size, cattle cycles, herd and flock disease, crop disease and crop pests.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation of manufacture and marketing of food products by various federal government agencies including FDA, Department of Agriculture, Federal Trade Commission, Department of Labor, Department of Commerce, OSHA, EPA, and state and local agencies",
+    "Compliance with packaging and labeling regulations",
+    "Data privacy and security regulations",
+    "Tax and securities regulations",
+    "Import regulations including tariffs",
+    "Accounting and reporting standards",
+    "Changes in legal or regulatory requirements such as new food safety requirements and revised regulatory requirements for labeling of nutrition facts, serving sizes and genetically modified ingredients",
+    "New EPR (extended producer responsibility) regulations and laws on packaging and waste management",
+    "Increased focus on environmental policies relating to climate change, regulating greenhouse gas emissions (including carbon pricing regulations, cap and trade systems or carbon tax), energy policies and sustainability",
+    "Trade reforms including tariffs on certain materials and finished products",
+    "Potential changes in fiscal or tax policies following 2024 presidential election",
+    "Privacy and data protection laws in U.S. and other jurisdictions regarding collection, storage, handling, use, disclosure, transfer and security of personal data",
+    "Inflation Reduction Act provisions including corporate alternative minimum tax and 1% excise tax on share repurchases",
+    "Independent contractor distribution model regulatory scrutiny and classification issues",
+    "Marketing of food products scrutiny including claims relating to false or deceptive marketing under federal, state and foreign laws, including claims relating to presence of heavy metals in food products",
+    "Clean Water Act compliance relating to wastewater treatment facility discharges"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Governments in U.S., UK and EU have imposed export controls on certain products and financial and economic sanctions on certain industry sectors and parties in Russia",
+      "Rising tensions between China and Taiwan",
+      "Geopolitical conflicts including military conflicts between Russia and Ukraine and war in the Middle East"
+    ]
+  },
+  "revenue_by_segment": {
+    "Meals & Beverages": 0.546,
+    "Snacks": 0.454
+  }
+}

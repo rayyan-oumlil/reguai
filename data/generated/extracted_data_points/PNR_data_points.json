@@ -1,0 +1,94 @@
+{
+  "ticker": "PNR",
+  "company_name": "Pentair plc",
+  "company_type": "Water Industrial Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "Western Europe",
+      "Developing Countries",
+      "Other Developed Countries"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Ireland",
+      "Belgium",
+      "Germany",
+      "India",
+      "China",
+      "Eastern Europe",
+      "Latin America",
+      "Middle East",
+      "Southeast Asia",
+      "Australia",
+      "Canada",
+      "Japan",
+      "Mexico",
+      "North Carolina",
+      "Florida",
+      "California",
+      "Luxembourg",
+      "Russia",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Flow",
+    "Water Solutions",
+    "Pool"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Mexico",
+      "Canada",
+      "Western Europe",
+      "North Carolina",
+      "Florida",
+      "California"
+    ],
+    "dependencies": "Raw materials include mild steel, stainless steel, electronic components (drives and motors), plastics (resins, fiberglass, epoxies), metals and paint. Certain commodities such as metals and resins are subject to commodity market and duty-driven price fluctuations.",
+    "risks": "Supply chain challenges including increased lead times for raw materials due to availability constraints and high demand. Potential tariffs and reactionary tariff adjustments by other countries may contribute to inflationary cost increases. Interruption of supply chain could affect ability to produce or deliver products. Reliance on third-party suppliers and common carriers. Trade restrictions, embargoes, customs restrictions. Lack of availability of marine cargo insurance for shipments in certain geographies due to hostilities.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in U.S. or foreign government administrative policy including imposition of or increases in tariffs",
+    "Changes to existing trade agreements",
+    "Prohibitions or restrictions on doing business with certain entities, including those with certain relationships with China",
+    "Compliance with U.S. Foreign Corrupt Practices Act (FCPA) and U.K. Bribery Act",
+    "International trade compliance regulations and export controls for dual use products",
+    "Environmental laws and regulations (EPA greenhouse gas emissions, state GHG programs)",
+    "Climate change regulations including Corporate Sustainability Reporting Directive (CSRD) in European Union",
+    "California sustainability disclosure requirements",
+    "Data privacy laws including GDPR in European Union and California Consumer Privacy Act",
+    "Income tax law changes including OECD Pillar Two Model Rules for global 15% minimum tax",
+    "Product efficiency and performance standards, material makeup regulations, air quality and emissions standards",
+    "PFAS (perfluoroalkyl and polyfluoroalkyl substances) and other substances of concern regulations",
+    "Consumer protection and advertising regulations",
+    "Employment and labor regulations in various jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. administration implementation of tariffs and potential additional tariffs",
+      "Sanctions on entities with relationships to China",
+      "Military conflicts between Russia and Ukraine and in the Middle East impacting economies",
+      "Trade war and governmental action related to tariffs or international trade agreements",
+      "Nationalist consumer sentiment affecting operations",
+      "International hostilities and military conflicts affecting operations, supply chains, and end-markets"
+    ]
+  }
+}

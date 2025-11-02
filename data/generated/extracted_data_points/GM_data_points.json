@@ -1,0 +1,112 @@
+{
+  "ticker": "GM",
+  "company_name": "General Motors Company",
+  "company_type": "Automotive Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia/Pacific, Middle East and Africa",
+      "South America",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Brazil",
+      "South Korea",
+      "Germany",
+      "United Kingdom",
+      "Spain",
+      "Colombia",
+      "Ecuador",
+      "India",
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "Egypt",
+      "Israel",
+      "Austria",
+      "Netherlands",
+      "Cuba",
+      "Iran",
+      "North Korea",
+      "Sudan",
+      "Syria"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "GM North America (GMNA)",
+    "GM International (GMI)",
+    "Cruise",
+    "GM Financial"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "LG Energy Solution",
+      "Ultium Cells Holdings LLC",
+      "Samsung SDI",
+      "Takata Corporation",
+      "ARC Automotive, Inc.",
+      "Delphi Automotive Systems LLC"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "China",
+      "Brazil",
+      "South Korea"
+    ],
+    "dependencies": "Single-source suppliers for certain systems, components and parts; concentration of EV battery raw materials processing in China; reliance on joint ventures in China for manufacturing; dependence on two largest suppliers for approximately 11% of total purchases",
+    "risks": "Supply chain disruptions due to geopolitical actions, labor disruptions, catastrophic weather events, public health crises; single-source supplier dependencies; concentration of EV battery raw materials in China subject to import/export restrictions or tariffs; supplier financial difficulties or solvency problems; just-in-time manufacturing increases vulnerability to supply disruptions",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Corporate Average Fuel Economy (CAFE) standards and GHG emission regulations in U.S. (federal and state level)",
+    "California Air Resources Board (CARB) Advanced Clean Cars II (ACC II) program requiring increasing percentages of ZEV sales through 2035",
+    "CARB Advanced Clean Trucks (ACT) program requiring ZEV sales for medium- and heavy-duty vehicles",
+    "Canadian federal ZEV Availability Standard requiring 100% ZEV sales by 2035",
+    "Quebec and British Columbia ZEV sales requirements",
+    "China Phase 5 and Phase 6 fuel consumption requirements and New Energy Vehicle (NEV) credit mandates",
+    "Brazil L7 and L8 emission standards",
+    "European Union Euro 7 emission standards and phase-out of ICE vehicles by 2035",
+    "EU regulations on EV battery design, use, recyclability and recycling",
+    "Vehicle safety standards and recall requirements (NHTSA in U.S., various international jurisdictions)",
+    "Chemical regulations including PFAS reporting and elimination requirements (Minnesota and other states)",
+    "Data privacy and protection laws (California Consumer Privacy Act, EU GDPR, UK Data Protection Act)",
+    "Export controls, economic sanctions, import controls and foreign investment measures (U.S. and foreign countries)",
+    "Foreign Corrupt Practices Act and anti-corruption laws",
+    "Right to repair laws potentially exposing vehicle systems to third-party access",
+    "Inflation Reduction Act (IRA) incentives and compliance requirements",
+    "European Commission and UK Competition and Markets Authority investigations on end-of-life vehicle coordination",
+    "State and federal consumer protection laws related to data collection and use",
+    "Autonomous vehicle regulations (federal, state, provincial and local)",
+    "Product liability and breach of warranty claims under consumer protection laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Iran",
+      "North Korea",
+      "Sudan",
+      "Syria"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Broad economic sanctions on Cuba, Iran, North Korea, Sudan and Syria",
+      "Russia and Belarus sanctions following March 2022 exit from Russia business",
+      "Sanctions on certain provinces in Ukraine",
+      "Potential U.S.-China trade tensions and tariffs impacting operations and supply chain",
+      "Export control restrictions on technology and components",
+      "Restrictions on transactions involving certain territories, entities or individuals"
+    ]
+  }
+}

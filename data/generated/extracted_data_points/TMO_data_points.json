@@ -1,0 +1,104 @@
+{
+  "ticker": "TMO",
+  "company_name": "Thermo Fisher Scientific Inc.",
+  "company_type": "Life Sciences and Laboratory Products",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia-Pacific",
+      "EMEA",
+      "Other regions"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Sweden",
+      "Norway",
+      "Switzerland",
+      "Denmark",
+      "Finland",
+      "Netherlands",
+      "Belgium",
+      "China",
+      "Japan",
+      "Singapore",
+      "Hong Kong",
+      "India",
+      "Australia",
+      "South Korea",
+      "Taiwan",
+      "New Jersey",
+      "Rhode Island",
+      "California",
+      "Massachusetts"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Life Sciences Solutions",
+    "Analytical Instruments",
+    "Specialty Diagnostics",
+    "Laboratory Products and Biopharma Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Asia-Pacific",
+      "China"
+    ],
+    "dependencies": "No single supplier is material, although for reasons of quality assurance, regulatory requirements, cost effectiveness, availability or uniqueness of design, certain materials components may be sourced from a single supplier or a limited number of suppliers",
+    "risks": [
+      "Supply chains could be disrupted by supplier capacity constraints, bankruptcy or exiting of the business",
+      "Decreased availability or increased cost of key raw materials or commodities",
+      "External events such as global economic downturns and macroeconomic trends, sanctions and trade restrictions, natural disasters, pandemic health issues, geopolitical developments, war, terrorist actions",
+      "Reliance upon sole or limited sources of supply for certain materials or components could cause production interruptions, delays and inefficiencies"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulation of the drug discovery and development process",
+    "Increased FDA regulation of laboratory-developed tests",
+    "DEA regulations",
+    "OSHA regulations",
+    "EPA regulations",
+    "State boards of pharmacy regulations",
+    "State health department regulations",
+    "EMA regulations",
+    "EU member states regulations",
+    "Environmental laws and regulations (Toxic Substances Control Act, Resource Conservation and Recovery Act, Clean Air Act, Clean Water Act, Safe Drinking Water Act, CERCLA)",
+    "Changes in governmental regulations may reduce demand for products or increase expenses",
+    "Inflation Reduction Act of 2022 (IRA) drug price negotiation provisions",
+    "Government contract compliance regulations",
+    "Export control and economic sanctions laws",
+    "Import laws and regulations",
+    "Tariffs and trade protection measures",
+    "Data privacy and data protection laws (EU GDPR, state-level US regulations, China data localization laws)",
+    "Environmental, social and governance (ESG) legal and regulatory requirements",
+    "Income tax laws and regulations changes",
+    "OECD Pillar Two global minimum tax rate of 15%"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International sanctions in response to certain state actions",
+      "Trade embargoes and sanctions",
+      "Tariffs imposed by the U.S. on goods from other countries and tariffs imposed by other countries on U.S. goods, including tariffs on various imports from China and by China on certain U.S. goods",
+      "Export control and economic sanctions laws affecting transactions with certain customers"
+    ]
+  }
+}

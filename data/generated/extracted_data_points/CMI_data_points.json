@@ -1,0 +1,136 @@
+{
+  "ticker": "CMI",
+  "company_name": "Cummins Inc.",
+  "company_type": "Power Solutions and Engine Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States and Canada",
+      "International",
+      "China",
+      "India",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Africa and Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "India",
+      "Brazil",
+      "Mexico",
+      "United Kingdom",
+      "Australia",
+      "Singapore",
+      "Belgium",
+      "Chile",
+      "Peru",
+      "Germany",
+      "Sweden",
+      "Italy",
+      "Netherlands",
+      "Romania",
+      "Spain",
+      "Japan",
+      "France"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States and Canada": 0.61,
+      "International": 0.39
+    },
+    "assets_by_region": {
+      "United States": 0.59,
+      "China": 0.1,
+      "India": 0.06,
+      "Other countries": 0.25
+    }
+  },
+  "segments": [
+    "Engine",
+    "Components",
+    "Distribution",
+    "Power Systems",
+    "Accelera"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Brazil",
+      "India",
+      "Mexico",
+      "United Kingdom",
+      "China",
+      "Italy",
+      "Netherlands",
+      "Sweden",
+      "Belgium",
+      "Canada",
+      "Germany",
+      "Spain",
+      "Romania"
+    ],
+    "dependencies": [
+      "Single source a number of parts and raw materials critical to business operations",
+      "Delays may be caused by factors affecting suppliers including raw material availability, capacity constraints, port congestion, labor disputes, shortages of labor, economic downturns, availability of credit, impaired financial condition, sanctions/tariffs, energy inflation/availability, suppliers' allocations to other purchasers, weather emergencies, natural disasters, acts of government or acts of war or terrorism"
+    ],
+    "risks": [
+      "Vulnerability to raw material, transportation and labor price fluctuations and supply shortages",
+      "Supply chain disruptions and related challenges throughout the supply chain",
+      "Pockets of supply chain disruptions",
+      "Material, transportation, labor and other cost inflation",
+      "Disruption risk in certain categories of supply chains",
+      "Climate change effects including extreme weather events may exacerbate supply chain risks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Settlement Agreements with EPA, CARB, DOJ and California Attorney General's Office regarding emissions certification and compliance process for certain engines",
+    "Failure to comply with Settlement Agreements subjects to stipulated penalties",
+    "Products subject to extensive statutory and regulatory requirements governing emissions and noise including standards imposed by EPA, EU, state regulatory agencies (CARB) and other regulatory agencies around the world",
+    "Increased scrutiny from regulatory agencies",
+    "Unpredictability in adoption, implementation and enforcement of increasingly stringent and fragmented emission standards by multiple jurisdictions around the world",
+    "Evolving environmental and climate change legislation and regulatory initiatives",
+    "New legal or regulatory requirements including those designed to reduce or mitigate carbon content or effects of GHG emissions",
+    "EPA proposal to designate two widely used PFAS as hazardous substances",
+    "EPA published final rule imposing reporting and recordkeeping requirements on manufacturers and importers of PFAS",
+    "Changes in international, national and regional trade laws, regulations and policies affecting and/or restricting international trade",
+    "Embargoes, sanctions and export controls imposed by U.S. and other governments restricting or prohibiting transactions with certain persons or entities, to certain countries or regions, or involving certain products",
+    "Changing U.S. export controls and sanctions on China and other restrictions affecting transactions involving China and Chinese parties",
+    "Complex system of commercial and trade regulations around the world",
+    "Foreign regulatory frameworks more stringent or complex than similar regimes in United States",
+    "Development and enforcement of laws regarding trade compliance and anti-corruption such as U.S. Foreign Corrupt Practices Act",
+    "New regulatory requirements regarding data privacy such as European Union General Data Protection Regulation",
+    "Expected global sustainability regulations",
+    "California government officials called for state to phase out sales of certain diesel-powered vehicles by 2035",
+    "Future bans or limitations on use of diesel-powered vehicles or other applications",
+    "Multiple countries and cities announced plans to implement ban on use of diesel-powered products"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Brazil",
+      "India",
+      "Mexico",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Embargoes, sanctions and export controls could limit sales of products",
+      "Changing U.S. export controls and sanctions on China could affect ability to collect receivables, access cash generated in China, provide aftermarket and warranty support, sell products and impact reputation and business",
+      "Indefinite suspension of Russian operations due to ongoing conflict in Ukraine",
+      "Impairment of joint venture with KAMAZ in Russia"
+    ]
+  },
+  "revenue_by_segment": {
+    "Engine": 0.28,
+    "Components": 0.28,
+    "Distribution": 0.27,
+    "Power Systems": 0.16,
+    "Accelera": 0.01
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ticker": "NFLX",
+  "company_name": "Netflix, Inc.",
+  "company_type": "Entertainment Services",
+  "geography": {
+    "regions": [
+      "United States and Canada (UCAN)",
+      "Europe, Middle East, and Africa (EMEA)",
+      "Latin America (LATAM)",
+      "Asia-Pacific (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "Argentina",
+      "Mexico",
+      "United Kingdom",
+      "India",
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Streaming"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on Amazon Web Services (AWS) for cloud computing infrastructure",
+      "Dependence on content delivery networks (CDN) including proprietary Open Connect network",
+      "Reliance on Internet Service Providers (ISPs) for content delivery",
+      "Dependence on consumer electronics manufacturers, MVPDs, mobile operators for device access",
+      "Reliance on third-party payment processors for member billing"
+    ],
+    "risks": [
+      "AWS disruption could impact operations significantly",
+      "Cannot easily switch AWS operations to another cloud provider",
+      "ISPs may block, restrict or charge for network access",
+      "Network operators may implement discriminatory practices",
+      "Payment processing disruptions could adversely impact revenue",
+      "Reliance on third-party technology and services for operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Growing regulatory action on media landscape and internet content delivery",
+    "Cultural support legislation updates including content quotas, levies and investment obligations",
+    "Ownership restrictions on service and content in certain countries",
+    "Formal content reviews and adjustments required by regulators in certain jurisdictions",
+    "EU Audio Visual Media Services Directive requiring 30% European works in catalogs",
+    "EU Member States imposing additional investment obligations and levies",
+    "Data protection laws including GDPR and California Privacy Rights Act (CPRA)",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Export controls and economic sanctions compliance",
+    "Intellectual property laws and anti-piracy enforcement challenges",
+    "Tax law changes and interpretations in multiple jurisdictions",
+    "Data localization and data transfer restrictions",
+    "Net neutrality regulations and changes",
+    "Consumer protection laws for online commerce",
+    "Regulations on generative artificial intelligence",
+    "Digital Markets Act in Europe",
+    "Payment card industry data security standards",
+    "Collective bargaining agreements in motion picture industry"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Brazil",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with economic sanctions",
+      "Potential retaliatory action from governments on controversial content",
+      "Service bans in certain jurisdictions",
+      "Heightened regulatory scrutiny across operations",
+      "Trade dispute impacts"
+    ]
+  }
+}

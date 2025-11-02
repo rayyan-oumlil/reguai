@@ -1,0 +1,143 @@
+{
+  "ticker": "WMT",
+  "company_name": "Walmart Inc.",
+  "company_type": "Retail",
+  "geography": {
+    "regions": [
+      "North America",
+      "Central America",
+      "South America",
+      "Europe",
+      "Africa",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Chile",
+      "United Kingdom",
+      "China",
+      "India",
+      "South Africa",
+      "Botswana",
+      "Lesotho",
+      "Malawi",
+      "Mozambique",
+      "Namibia",
+      "Eswatini",
+      "Zambia",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Walmart U.S.",
+    "Walmart International",
+    "Sam's Club U.S."
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International suppliers"
+    ],
+    "dependencies": [
+      "Global sourcing of products is an important factor in financial performance",
+      "Suppliers must comply with applicable laws including labor, safety, anti-corruption and environmental laws",
+      "Ability to find qualified suppliers who uphold standards and access products in timely manner and large volumes",
+      "Significant challenges with suppliers located outside the U.S."
+    ],
+    "risks": [
+      "Political and economic instability in countries where suppliers are located",
+      "Financial instability of suppliers",
+      "Suppliers failure to meet terms and conditions or supplier standards",
+      "Labor problems experienced by suppliers and manufacturers",
+      "Availability of raw materials to suppliers",
+      "Extreme weather events impacting growing, manufacturing, mining and harvesting",
+      "Disruption or delay in transportation of merchandise from suppliers",
+      "Currency exchange rates",
+      "Transport availability and cost",
+      "Transport security",
+      "Inflation affecting suppliers",
+      "U.S. and international trade policies, tariffs, trade barriers and restrictions",
+      "Trade sanctions imposed between countries and entities",
+      "Limitation on exportation or importation of certain goods",
+      "Supply chain disruption and production challenges",
+      "Labor shortages and increases in labor costs at suppliers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in tax laws, regulations and interpretations",
+    "Imposition of tariffs, trade barriers, export and import restrictions",
+    "Changes in healthcare laws (including Medicare and Medicaid)",
+    "DEA and state-level regulations on controlled substances",
+    "FDA regulations",
+    "HIPAA compliance for health information",
+    "State and federal data breach notification laws",
+    "California Consumer Privacy Act (CCPA)",
+    "Illinois Biometric Information Privacy Act",
+    "European Union GDPR",
+    "UK GDPR",
+    "China Personal Information Protection Act (PIPL)",
+    "Telephone Consumer Protection Act",
+    "Anti-money laundering laws and regulations",
+    "Consumer Financial Protection Act",
+    "Economic and trade sanctions",
+    "Foreign Direct Investment rules in India",
+    "Competition and antitrust laws (U.S., Canada, Mexico, India)",
+    "Environmental regulations (plastics, PFAS, recyclability)",
+    "ESG reporting and disclosure requirements",
+    "Climate change regulations",
+    "Worker classification laws",
+    "Wage and hour laws",
+    "Equal employment opportunity laws",
+    "Workplace health and safety regulations",
+    "Product safety and quality standards",
+    "Food and drug safety regulations",
+    "Drug supply chain security requirements",
+    "Pharmacy licensing and certification requirements",
+    "Cross-border data transfer restrictions",
+    "AI technology regulations",
+    "Foreign ownership restrictions on eCommerce and retail operations (India)",
+    "Intellectual property laws",
+    "Consumer protection laws",
+    "Debt collection regulations",
+    "False Claims Act",
+    "Controlled Substances Act",
+    "Federal Trade Commission Act",
+    "Telemarketing Sales Rule",
+    "Payment Card Industry Data Security Standard",
+    "VIZIO Order compliance obligations (FTC settlement)",
+    "Inflation Reduction Act drug pricing policies"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "India"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions between countries and entities",
+      "Trade sanctions impacting supplier access",
+      "Increased costs of procuring products due to economic sanctions",
+      "Disruption in supply of products from sanctioned regions",
+      "Armed hostilities in Red Sea and surrounding areas affecting ocean carrier vessels to Suez Canal",
+      "Geopolitical tensions affecting operations in countries where company operates or suppliers are located",
+      "War and civil unrest in regions where goods are transported",
+      "Conflicts affecting macroeconomic conditions and consumer spending"
+    ]
+  }
+}

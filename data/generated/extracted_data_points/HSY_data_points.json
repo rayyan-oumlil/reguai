@@ -1,0 +1,94 @@
+{
+  "ticker": "HSY",
+  "company_name": "The Hershey Company",
+  "company_type": "Confectionery and Snacks",
+  "geography": {
+    "regions": [
+      "North America",
+      "International",
+      "Latin America",
+      "Asia",
+      "Middle East",
+      "Europe",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "India",
+      "Malaysia",
+      "Singapore",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America Confectionery",
+    "North America Salty Snacks",
+    "International"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Barry Callebaut AG",
+      "McLane Company Inc.",
+      "Weaver Popcorn Manufacturing Inc."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Mexico",
+      "Brazil",
+      "India",
+      "Malaysia",
+      "Canada"
+    ],
+    "dependencies": [
+      "Cocoa products sourced from Far Eastern, West African, Central and South American regions",
+      "West Africa accounts for approximately 70% of world's cocoa bean supply",
+      "Single customer McLane Company Inc. accounts for approximately 27% of consolidated net sales",
+      "Approximately 74% of manufacturing capacity located in United States"
+    ],
+    "risks": [
+      "Commodity price volatility for cocoa, sugar, corn products, dairy, wheat, peanuts, almonds",
+      "Climate change and extreme weather impacts on crop yield and quality",
+      "Supply chain disruptions from natural disasters, pandemics, fires, terrorism, labor strikes",
+      "Concentration of manufacturing capacity in United States",
+      "Operational and financial instability of key suppliers and vendors",
+      "Third party service provider disruptions including cyber breaches or system failures"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "European Union Deforestation Regulation (EUDR) requiring extensive diligence on cocoa, palm oil, soy commodities effective December 2025",
+    "Changes in food and drug laws",
+    "Changes in advertising and marketing practice regulations",
+    "Changes in accounting standards",
+    "Changes in taxation compliance and requirements",
+    "Tariffs on U.S. imports and retaliatory tariffs",
+    "Changes in competition laws",
+    "Changes in employment laws",
+    "Import/export requirements for raw materials and finished goods",
+    "Changes in environmental laws and regulations",
+    "Introduction of living income premiums or similar requirements in cocoa sourcing",
+    "GHG emissions regulations and climate-related compliance requirements",
+    "Potential non-compliance with EUDR resulting in fines, penalties, or reputational harm"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Ongoing conflict between Russia and Ukraine may damage or disrupt international commerce and global economy",
+      "U.S. and other countries have imposed sanctions on Russia with potential for further sanctions",
+      "Potential governmental actions related to Russia-Ukraine conflict",
+      "Tariffs on U.S. imports and retaliatory tariffs in response"
+    ]
+  }
+}

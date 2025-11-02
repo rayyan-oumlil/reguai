@@ -1,0 +1,93 @@
+{
+  "ticker": "ROP",
+  "company_name": "Roper Technologies, Inc.",
+  "company_type": "Diversified Technology Company",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "Europe",
+      "Asia",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "European Union member states",
+      "Singapore",
+      "India",
+      "China",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Application Software",
+    "Network Software",
+    "Technology Enabled Products"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International locations including North America, Europe, and Asia-Pacific"
+    ],
+    "dependencies": [
+      "Some components and sub-assemblies are currently available from only a limited number of suppliers",
+      "Most materials and supplies are readily available from numerous sources and suppliers throughout the world"
+    ],
+    "risks": [
+      "Limited number of suppliers for certain components and sub-assemblies",
+      "Changes in the supply of, or price for, raw materials, parts, and components",
+      "Supply chain delays and disruptions",
+      "Component shortages",
+      "Changes in exchange rates affecting supply costs",
+      "Reliance on third-party cloud computing platforms (Amazon Web Services, Google Cloud Platform, Microsoft Azure)",
+      "SaaS offerings increasingly reliant on a limited number of third-party cloud computing platforms"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "General Data Protection Regulation (GDPR) in European Union and United Kingdom",
+    "California Consumer Privacy Act (CCPA) and amendments",
+    "At least 20 U.S. states have passed comprehensive privacy legislation",
+    "Canada (Quebec) privacy law updates",
+    "Health Insurance Portability and Accountability Act (HIPAA)",
+    "Health Information Technology for Economic and Clinical Health Act (HITECH Act)",
+    "FDA regulations for medical diagnostic and surgical devices under Federal Food, Drug, and Cosmetic Act",
+    "Anti-kickback laws for healthcare interactions",
+    "U.S. Foreign Corrupt Practices Act (FCPA)",
+    "UK Bribery Act",
+    "U.S. Export Administration Regulations",
+    "U.S. International Traffic in Arms Regulations (ITAR)",
+    "Office of Foreign Assets Control (OFAC) sanctions",
+    "Trade restrictions, trade agreements, tariffs (including new, expanded, or retaliatory tariffs)",
+    "Environmental protection laws governing air emissions, water discharges, waste management, and workplace safety",
+    "Hart-Scott-Rodino Act antitrust regulations in U.S. and similar antitrust regulations in foreign countries",
+    "EU AI Act placing new requirements on providers of AI technologies",
+    "Income tax laws and regulations in various jurisdictions",
+    "Data localization requirements and restrictions on international data transfer"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements",
+      "Risks associated with sales to denied or sanctioned parties",
+      "Potential impact from changing U.S. and foreign trade policies",
+      "Increased trade restrictions or tariffs",
+      "Recent U.S. tariffs imposed or threatened on China, Canada, Mexico, and other countries",
+      "Retaliatory actions by foreign countries in response to U.S. tariffs",
+      "Economic disruption caused by armed conflicts (war in Ukraine, conflict in Middle East)"
+    ]
+  }
+}

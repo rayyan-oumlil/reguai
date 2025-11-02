@@ -1,0 +1,133 @@
+{
+  "ticker": "PYPL",
+  "company_name": "PayPal Holdings, Inc.",
+  "company_type": "Digital Payments and Financial Technology",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia-Pacific",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "Japan",
+      "Singapore",
+      "Luxembourg",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "India",
+      "Brazil",
+      "China"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Luxembourg",
+      "Australia",
+      "Singapore",
+      "Japan",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Canada",
+      "India",
+      "Brazil",
+      "China",
+      "New York",
+      "California",
+      "New Jersey",
+      "Delaware",
+      "District of Columbia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "PayPal branded checkout",
+    "Venmo",
+    "Braintree",
+    "PayPal Complete Payments",
+    "PayPal Pay Later (buy now, pay later)",
+    "Zettle (point of sale)",
+    "PayPal Working Capital (PPWC)",
+    "PayPal Business Loan (PPBL)",
+    "Xoom (international money transfer)",
+    "Hyperwallet (payouts)",
+    "Honey",
+    "Paidy",
+    "PayPal Credit",
+    "PayPal and Venmo branded debit and credit cards"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party payment processors and financial institutions to process transactions",
+      "Dependence on payment card networks (credit and debit cards) for transaction processing",
+      "Reliance on external business partners and contractors for data center facilities, cloud computing, IT, and customer support",
+      "Dependence on third-party custodians for cryptocurrency safeguarding (licensed trust companies)",
+      "Reliance on partner financial institutions for U.S. consumer credit products and merchant financing (independent chartered financial institutions)",
+      "Dependence on banks and payment gateways linking to payment card and bank clearing networks"
+    ],
+    "risks": [
+      "Concentration risk with payment processors - two payment processors accounted for 48% of transaction expense in 2024",
+      "Operational, legal, regulatory, information security, reputational, commercial, and resiliency risks from third-party providers",
+      "Risk of third-party service providers being unable to meet obligations or experiencing disruptions",
+      "Cryptocurrency custodian risks including theft, loss, insufficient insurance, failure to maintain controls, inability to purchase/liquidate holdings",
+      "Bankruptcy risk of cryptocurrency custodians with uncertain treatment of custodial holdings",
+      "Risk of partner financial institution termination or interruption affecting U.S. consumer credit and merchant financing products",
+      "Supply chain disruptions mentioned as potential macroeconomic risk factor"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Complex and evolving global regulatory environment for payments industry including anti-money laundering, counter-terrorist financing, privacy, cybersecurity, and consumer protection",
+    "Money transmitter licensing requirements in U.S. states, District of Columbia, and territories",
+    "Cryptocurrency regulation uncertainty - potential SEC classification of cryptocurrencies as securities requiring broker-dealer registration",
+    "PayPal USD stablecoin (PYUSD) regulatory scrutiny and evolving stablecoin regulations",
+    "Payment authentication requirements for banks and payment processors in various jurisdictions including U.S. and EU",
+    "Financial services regulation in EU (PayPal Europe as credit institution regulated by CSSF Luxembourg) and UK (PayPal UK as electronic money institution regulated by FCA)",
+    "Potential ECB direct supervision if PayPal Europe deemed significant supervised entity",
+    "ECB oversight under PISA framework for electronic payment instruments",
+    "Consumer lending regulations - federal and state laws governing consumer credit and debt collection in U.S., Australia, UK, France, Germany, Spain, Italy, Japan",
+    "CFPB direct supervisory authority as large market participant of remittance transfers",
+    "AML/CTF compliance requirements globally including AUSTRAC in Australia",
+    "Interchange fee regulations in EU (Multilateral Interchange Fee Regulation) and potential challenges in various jurisdictions",
+    "Data protection and privacy laws including GDPR-type regulations, California privacy laws, and evolving global privacy requirements",
+    "Data localization and residency laws in various countries",
+    "Anti-corruption laws including U.S. Foreign Corrupt Practices Act and UK Bribery Act",
+    "Environmental, social, and governance (ESG) reporting requirements including EU Corporate Sustainability Reporting Directive",
+    "Artificial Intelligence regulations including U.S. state regulations and EU Artificial Intelligence Act",
+    "Antitrust and competition law scrutiny in U.S. and internationally",
+    "Payment card network rules and potential violations or rule changes",
+    "Cross-border trade regulations including foreign exchange, tariffs, trade barriers, sanctions, import/export controls",
+    "Sanctions compliance including OFAC and equivalent authorities in other countries",
+    "Income tax regulations including OECD Pillar Two global minimum tax (15% rate) enacted in certain jurisdictions effective January 1, 2024",
+    "Potential regulatory changes to error resolution and chargeback requirements",
+    "Risk of regulatory actions, fines, penalties, enforcement actions, license revocations, and mandatory business practice changes"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with economic and trade sanctions administered by U.S., EU, UK, and other jurisdictions",
+      "OFAC sanctions compliance and potential violations",
+      "Risk of transactions with persons/entities on designated lists or in sanctioned countries",
+      "Voluntary reporting of potential compliance issues to OFAC and other regulators",
+      "Sanctions evasion risk through use of payments platform for illegal activities",
+      "Impact of U.S. and international trade relationships, tariffs, and restrictive actions on cross-border transactions",
+      "Geopolitical conditions affecting cross-border trade including military conflicts and terrorist attacks",
+      "Foreign exchange rate fluctuations due to geopolitical events",
+      "National or regional political, economic, or social instability in international operations"
+    ]
+  }
+}

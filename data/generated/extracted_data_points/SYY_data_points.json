@@ -1,0 +1,103 @@
+{
+  "ticker": "SYY",
+  "company_name": "Sysco Corporation",
+  "company_type": "Foodservice Distribution",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Americas",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Bahamas",
+      "Mexico",
+      "Costa Rica",
+      "Panama",
+      "United Kingdom",
+      "France",
+      "Ireland",
+      "Sweden",
+      "Belgium",
+      "Northern Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Foodservice Operations",
+    "International Foodservice Operations",
+    "SYGMA",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Purchases from thousands of suppliers, both domestic and international",
+      "No single supplier accounts for more than 10% of purchases",
+      "Consolidated product procurement program for branded merchandise and private label products",
+      "International procurement through global procurement centers",
+      "Supply chain vulnerable to conditions beyond control including supplier labor shortages, weather, climate change, transportation interruptions, product recalls, geopolitical events"
+    ],
+    "risks": [
+      "Supplier inability to provide products due to labor shortages, work stoppages, strikes",
+      "Weather conditions and climate change impacts on supply",
+      "Transportation interruptions including ocean cargo container shortages",
+      "Product recalls and quality issues",
+      "Geopolitical events such as invasion of Ukraine by Russia and Israel-Hamas War",
+      "Epidemics, pandemics, foodborne illnesses",
+      "Increased product costs from supplier cost inflation",
+      "Supply chain disruptions from international political/financial instability, military conflicts, trade restrictions, tariffs",
+      "Dependence on third-party suppliers for product availability"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Food, Drug and Cosmetic Act and FDA regulations on food safety and quality",
+    "Food Safety Modernization Act (FSMA) requirements for prevention-based controls",
+    "Federal Meat Inspection Act and Poultry Products Inspection Act (USDA regulations)",
+    "Perishable Agricultural Commodities Act and Packers and Stockyard Act",
+    "Public Health Security and Bioterrorism Preparedness and Response Act of 2002",
+    "FDA registration and inspection requirements for facilities",
+    "Federal Trade Commission standards for advertising and marketing claims",
+    "Department of Labor employment practice standards and regulations",
+    "Department of Transportation trucking operations regulations (Federal Motor Carrier Safety Administration, Federal Highway Administration)",
+    "Federal Aviation Administration regulations for air transport",
+    "False Claims Act and similar state statutes for government contracts",
+    "Foreign Corrupt Practices Act (FCPA) anti-bribery and accounting requirements",
+    "Sherman Antitrust Act and related antitrust laws",
+    "European Union regulations on competition, product composition, packaging, labeling, advertisement, food safety",
+    "General Data Protection Regulation (GDPR) for data privacy in EU",
+    "U.K. Modern Slavery Act 2015 supply chain reporting requirements",
+    "U.K. Bribery Act 2010 anti-corruption requirements",
+    "Environmental protection statutes for water discharge, air emissions, waste disposal, refrigeration systems, fuel storage tanks",
+    "Occupational Safety and Health Act (OSHA) manufacturing and safety standards",
+    "National Labor Relations Act governing collective bargaining",
+    "Fair Labor Standards Act for minimum wages and overtime",
+    "Title VII of the Civil Rights Act and Americans with Disabilities Act for employment discrimination",
+    "Workers' compensation program regulations",
+    "State and local health agency regulations and licensing requirements",
+    "Compliance requirements for government contractor relationships (Department of Defense, Department of Veterans Affairs)",
+    "Potential changes in labor legislation affecting unionization and collective bargaining",
+    "Tax law changes and regulations in multiple jurisdictions",
+    "OECD Pillar Two global minimum tax rules (15% minimum rate effective fiscal 2025)",
+    "Climate change and greenhouse gas emissions regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export controls and financial/economic sanctions imposed by governments in response to military conflicts such as invasion of Ukraine by Russia",
+      "Sanctions on certain industry sectors and parties impacting operations",
+      "Trade barriers or restrictions on global trade from geopolitical tensions"
+    ]
+  }
+}

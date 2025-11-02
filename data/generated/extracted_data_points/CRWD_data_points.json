@@ -1,0 +1,91 @@
+{
+  "ticker": "CRWD",
+  "company_name": "CrowdStrike Holdings, Inc.",
+  "company_type": "Cybersecurity Software Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe, Middle East, and Africa",
+      "Asia Pacific",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Germany",
+      "India",
+      "Israel",
+      "Japan",
+      "Romania",
+      "United Kingdom",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Subscription",
+    "Professional Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "The Company relies on third-party data centers, primarily Amazon Web Services (AWS), and its own colocation data centers to host and operate its Falcon platform. The Company relies on a limited number of suppliers for several components of the equipment used to operate its cloud platform.",
+    "risks": "Supply chain disruptions could delay the Company's ability to expand or increase the capacity of its global data center network, replace defective equipment in existing data centers and impact operating costs. The technology industry has experienced widespread component shortages and delivery delays, including as a result of geopolitical tensions, public health crises and natural disasters.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with stringent, complex and evolving laws, rules, regulations and standards relating to data privacy and security in many jurisdictions",
+    "Federal Trade Commission regulations on unfair or deceptive acts or practices",
+    "Electronic Communication Privacy Act",
+    "Computer Fraud and Abuse Act",
+    "Health Insurance Portability and Accountability Act",
+    "Gramm Leach Bliley Act",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act",
+    "Comprehensive state-level data privacy and security laws in numerous U.S. states",
+    "Data breach notification laws in all 50 U.S. states",
+    "European Union General Data Protection Regulation (GDPR)",
+    "U.K. GDPR",
+    "Data transfer restrictions from EEA and U.K. to third countries",
+    "EU-U.S. Data Privacy Framework and U.K.-U.S. Data Bridge adequacy decisions",
+    "Federal Risk and Authorization Management Program (FedRAMP) certification requirements",
+    "Department of Defense Impact Level 5 provisional authorization",
+    "Government certification, software supply chain, or source code transparency requirements",
+    "Export control laws and U.S. economic sanctions laws (U.S. Commerce Department's Export Administration Regulations, U.S. Treasury Department's Office of Foreign Assets Control)",
+    "Import and licensing requirements in various countries for encryption technology",
+    "U.S. Foreign Corrupt Practices Act (FCPA)",
+    "U.K. Bribery Act 2010",
+    "Anti-corruption, anti-bribery, anti-money laundering laws in multiple jurisdictions",
+    "Employment and labor laws",
+    "Workplace safety regulations",
+    "Product safety regulations",
+    "Environmental laws",
+    "Consumer protection laws",
+    "Import and export controls",
+    "Federal securities laws",
+    "Tax laws and regulations",
+    "AI-related legislation and regulation (including EU AI Act, California AI laws)",
+    "Critical infrastructure software resiliency and concentration risk regulations",
+    "SEC cybersecurity disclosure requirements",
+    "OECD Base Erosion and Profit Shifting (BEPS) Pillar Two global minimum tax",
+    "Digital Services Taxes (DST) in various countries"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. embargoed or sanctioned countries, governments, persons and entities restrictions",
+      "Prohibitions on sale or supply of certain products and services to U.S. embargoed or sanctioned countries",
+      "Economic and trade sanctions regulations maintained by U.S. Treasury Department's Office of Foreign Assets Control",
+      "Geopolitical tensions may intensify cyberattacks against the Company as a cybersecurity provider"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "ticker": "CSCO",
+  "company_name": "Cisco Systems, Inc.",
+  "company_type": "Technology - Networking and Communications Equipment",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East, and Africa (EMEA)",
+      "Asia Pacific, Japan, and China (APJC)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Belgium",
+      "Norway",
+      "Poland",
+      "Australia",
+      "Japan",
+      "China",
+      "India",
+      "Singapore",
+      "Israel",
+      "Saudi Arabia",
+      "Korea",
+      "Indonesia",
+      "Peru",
+      "Portugal",
+      "Spain",
+      "Switzerland",
+      "Ireland",
+      "Italy",
+      "Costa Rica"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Networking",
+    "Security",
+    "Collaboration",
+    "Observability"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Asia"
+    ],
+    "dependencies": [
+      "Reliance on contract manufacturers for manufacturing needs",
+      "Use of variety of independent third-party companies for printed-circuit board assembly, in-circuit test, product repair, and product assembly",
+      "Dependence on sole suppliers for certain components",
+      "Limited number of contract manufacturers and suppliers",
+      "Semiconductor and component supply shortages",
+      "Supply chain concentration in Asia, especially China"
+    ],
+    "risks": [
+      "Financial problems of contract manufacturers or component suppliers",
+      "Reservation of manufacturing capacity by other companies",
+      "Industry consolidation within component supplier markets (semiconductor market)",
+      "Supply chain disruptions from public health emergencies, geopolitical tensions (China-Taiwan relations), natural disasters, climate change",
+      "Component shortages affecting lead times and ability to meet customer demand",
+      "Single-source or limited-source availability for certain components",
+      "Supplier constraints based on labor and other actions during economic downturns",
+      "Vendor allocation of products to certain customers for business, regulatory or political reasons",
+      "Demand changes in agreed pricing as condition of supply",
+      "Capacity problems at suppliers or contract manufacturers",
+      "Manufacturing process issues at suppliers",
+      "Global supply chain disruptions affecting flow of components and product delivery"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Privacy, data protection and personal information regulations (EU GDPR, California Consumer Privacy Act, Singapore Personal Data Protection Act)",
+    "Cybersecurity regulations and operational resilience requirements",
+    "Artificial intelligence regulations (proposed EU AI legislation)",
+    "Export and import control requirements and changes",
+    "Economic sanctions impacting ability to sell and support products in certain jurisdictions",
+    "Telecommunications regulations affecting service provider customers",
+    "Encryption technology regulations",
+    "Environmental sustainability regulations including climate change laws",
+    "Product certification requirements",
+    "Product accessibility requirements",
+    "Country of origin requirements",
+    "National security controls applicable to supply chain",
+    "Government procurement policies, priorities, regulations, and technology initiatives",
+    "Tax laws and regulations changes (Tax Cuts and Jobs Act, OECD Pillar Two framework imposing 15% minimum tax rate)",
+    "Transfer pricing regulations",
+    "Foreign-derived intangible income, global intangible low-tax income, base erosion and anti-abuse tax regulations",
+    "Research and development capitalization and amortization requirements",
+    "Corporate alternative minimum tax",
+    "Human rights regulations",
+    "Trade protection measures including tariffs",
+    "Withholding taxes on global operations",
+    "Environmental protection regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Taiwan",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions and trade restrictions related to Russia-Ukraine war",
+      "Sanctions and restrictions impacting ability to sell products in certain jurisdictions",
+      "Political relationship tensions between United States and other countries affecting regulatory matters and customer willingness to purchase from US companies",
+      "Access to components potentially denied by government bodies",
+      "Iran sanctions",
+      "Intelligence gathering concerns affecting customer trust in US IT suppliers"
+    ]
+  }
+}

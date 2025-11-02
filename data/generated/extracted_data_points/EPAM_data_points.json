@@ -1,0 +1,99 @@
+{
+  "ticker": "EPAM",
+  "company_name": "EPAM Systems, Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC",
+      "Central and Eastern Europe"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Switzerland",
+      "Germany",
+      "Netherlands",
+      "Poland",
+      "Ukraine",
+      "Belarus",
+      "India",
+      "China",
+      "Hungary",
+      "Colombia",
+      "Armenia",
+      "Georgia",
+      "Kazakhstan",
+      "Uzbekistan",
+      "Russia",
+      "Argentina",
+      "Australia",
+      "Ireland",
+      "Spain",
+      "Panama"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "North America",
+    "Europe"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on delivery professionals in Ukraine and Belarus",
+      "Dependence on banking systems in emerging markets",
+      "Concentration of delivery personnel in specific geographies"
+    ],
+    "risks": [
+      "War in Ukraine disrupting operations and personnel",
+      "Banking instability in Ukraine, Belarus, Kazakhstan, Georgia, Armenia, India, Argentina, and Uzbekistan",
+      "Sanctions and counter-sanctions affecting operations in Belarus and Russia",
+      "Internet communications blocked by clients for Ukraine and Belarus locations",
+      "Geographic concentration risk in delivery centers",
+      "Reliance on visas for cross-border staffing"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "GDPR and UK GDPR compliance requirements",
+    "California Consumer Privacy Act and California Privacy Rights Act",
+    "Data privacy regulations in multiple jurisdictions",
+    "Export restrictions and economic sanctions (OFAC)",
+    "Anti-bribery and anti-corruption laws (FCPA)",
+    "U.S. policy changes on offshore outsourcing",
+    "Visa and work permit restrictions",
+    "Belarus restrictions on dividend distributions to U.S. shareholders",
+    "Potential liquidation of subsidiaries in Belarus and Ukraine for non-compliance",
+    "Belarus government seizure authority over assets owned by unfriendly foreign states",
+    "EU-U.S. Trans-Atlantic Data Privacy Framework uncertainty",
+    "Pillar Two global minimum tax of 15%",
+    "Climate change and ESG disclosure regulations",
+    "Trade restrictions and tariffs",
+    "Immigration law changes",
+    "Antitrust controls and enforcement"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Belarus",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions against Belarus officials, individuals, and industries",
+      "Counter-sanctions by Belarus",
+      "Sanctions affecting banking transactions in the region",
+      "Restrictions on business with Russia",
+      "OFAC sanctions compliance",
+      "Sanctions limiting cash movement and foreign currency exchange"
+    ]
+  }
+}

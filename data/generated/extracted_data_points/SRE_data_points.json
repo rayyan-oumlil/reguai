@@ -1,0 +1,171 @@
+{
+  "ticker": "SRE",
+  "company_name": "Sempra",
+  "company_type": "Energy Infrastructure",
+  "geography": {
+    "regions": [
+      "Mexico",
+      "Southern California",
+      "North America",
+      "California",
+      "Baja California",
+      "United States",
+      "Texas"
+    ],
+    "countries": [
+      "Canada",
+      "United States",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.881,
+      "Mexico": 0.119
+    },
+    "assets_by_region": {
+      "United States": 0.861,
+      "Mexico": 0.138,
+      "Rest of the world": 0.001
+    }
+  },
+  "segments": [
+    "Low Carbon Solutions",
+    "SoCalGas (Southern California Gas Company)",
+    "Sempra California",
+    "Sharyland Utilities",
+    "Sempra Texas Utilities",
+    "Energy Networks",
+    "SDG&E (San Diego Gas & Electric Company)",
+    "LNG",
+    "Oncor Holdings",
+    "Sempra Infrastructure"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Entergy Louisiana, LLC",
+      "Technip Energies N.V.",
+      "Bechtel",
+      "TP Oil & Gas Mexico, S. De R.L. De C.V.",
+      "Entergy Corporation"
+    ],
+    "manufacturing_locations": [
+      "Mexico",
+      "California",
+      "Baja California",
+      "United States",
+      "Louisiana",
+      "Texas"
+    ],
+    "dependencies": [
+      "Third-party natural gas pipelines for transportation",
+      "Interstate pipeline systems (El Paso Natural Gas, Transwestern Pipeline, Kern River Pipeline Company, Mojave Pipeline Company)",
+      "Electric transmission lines owned by third parties",
+      "LNG supply from Tangguh PSC through 2029",
+      "Natural gas supply from southwestern U.S. suppliers",
+      "Equipment, materials, commodities and labor subject to supply chain constraints"
+    ],
+    "risks": [
+      "Failure to reach positive final investment decisions",
+      "Cost increases due to inflationary pressures, tariffs",
+      "Counterparty performance risks under contractual arrangements",
+      "EPC contractor performance risk",
+      "Failure to obtain, modify, and/or maintain permits and regulatory approvals",
+      "Construction delays and cost overruns on LNG projects",
+      "Failure to negotiate, complete and maintain suitable commercial agreements",
+      "Shortages of or delays in obtaining equipment, materials, commodities or labor",
+      "Concentration risk with single EPC contractors for major projects",
+      "Failure to secure binding customer commitments for projects in development",
+      "Inability to obtain sufficient financing for projects",
+      "Supply chain disruptions affecting construction materials and labor availability",
+      "Disruptions from failures in transmission grid or pipeline systems",
+      "Dependence on third-party transportation facilities for natural gas and electricity delivery",
+      "Reliance on third-party vendors and contractors for construction and maintenance",
+      "Supply chain and gas transportation capacity constraints",
+      "Inflationary pressures on labor, materials and supplies costs",
+      "Tight labor markets"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "SENER (Mexico's Ministry of Energy) regulation",
+    "FERC rate matters and transmission revenue requirement determinations for SDG&E",
+    "Building decarbonization measures and zero-emissions standards for appliances",
+    "DOE authorization requirements for LNG export to non-FTA countries",
+    "Nuclear waste disposal requirements and DOE responsibilities",
+    "CARB (California Air Resources Board) GHG emissions regulations",
+    "SEC climate-related disclosure rules",
+    "Texas Reliability Entity reliability standards enforcement",
+    "California SB 100 renewable energy mandates (50% by 2026, 60% by 2030, 90% by 2035, 95% by 2040)",
+    "Changes to Mexican electricity market regulations limiting private renewable energy",
+    "PUCT regulatory oversight of Oncor and Sharyland Utilities in Texas",
+    "DOT/PHMSA pipeline safety regulations",
+    "Mexican government amendments to Hydrocarbons Law and Electricity Industry Law",
+    "Environmental impact authorization challenges in Mexico for ECA facilities",
+    "ASEA (Mexico's National Agency for Industrial Safety and Environmental Protection) regulation",
+    "Rate recovery disallowances for costs deemed imprudent",
+    "TCEQ air quality permits for Port Arthur LNG projects subject to litigation",
+    "California AB 1279 net-zero GHG emissions by 2045 requirement",
+    "CPUC affiliate transaction rules",
+    "PUCT (Public Utility Commission of Texas) rate regulation",
+    "NRC licensing and oversight for SONGS decommissioning",
+    "Natural gas demand reduction policies in California",
+    "Mexican Federal Anticorruption Law compliance",
+    "Rate recovery mechanisms subject to CPUC approval and potential disallowances",
+    "Hazardous waste, air and water quality, land use regulations",
+    "Labor relations and collective bargaining agreement negotiations",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "Mexican Constitutional energy reforms transferring powers from CRE to SENER",
+    "Wildfire Legislation (AB 1054) and Wildfire Fund requirements",
+    "DOE (U.S. Department of Energy) LNG export approval requirements",
+    "California AB 32 (Global Warming Solutions Act) compliance",
+    "Potential revocation of self-supply permits in Mexico deemed improperly obtained",
+    "ERCOT market structure and reliability standards",
+    "Mexican Hydrocarbons Law permit suspension/revocation powers",
+    "Pipeline safety regulations and integrity management requirements",
+    "Credit rating agency actions affecting financing costs and conditions",
+    "Regulatory lag in recovering increased costs due to inflation",
+    "Cost of capital adjustment mechanism (CCM) triggers",
+    "Wildfire mitigation cost recovery and reasonableness review by CPUC",
+    "OEIS (Office of Energy Infrastructure Safety) wildfire mitigation plan approval",
+    "Aliso Canyon storage facility operational restrictions and potential closure",
+    "Franchise agreement renewals and municipalization risks",
+    "Franchise agreement requirements with municipalities",
+    "California enhanced state privacy laws",
+    "Federal and state environmental laws requiring investigation and remediation",
+    "NRC (Nuclear Regulatory Commission) oversight of SONGS decommissioning",
+    "CRE regulatory oversight in Mexico for natural gas and electricity operations",
+    "CARB GHG emission allowance requirements and compliance costs",
+    "CPUC citation and enforcement programs for safety violations",
+    "General Rate Case (GRC) outcomes and cost recovery limitations",
+    "EPA environmental compliance requirements",
+    "CPUC regulatory proceedings and rate-setting decisions affecting SDG&E and SoCalGas",
+    "Potential changes to Mexican Constitution affecting energy sector operations",
+    "Cost of capital proceedings and authorized return on equity determinations",
+    "CRE (Comisión Reguladora de Energía) regulation in Mexico",
+    "CPUC (California Public Utilities Commission) regulation of rates, capital structure, depreciation, resource procurement",
+    "FERC transmission rate proceedings and ROE determinations",
+    "FERC (Federal Energy Regulatory Commission) regulation of interstate natural gas sales, electric transmission, wholesale electricity sales",
+    "Inverse condemnation doctrine (strict liability for wildfires)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Foreign policy positions and sanctions affecting international business",
+      "Trade policy shifts affecting imports/exports between U.S. and Mexico",
+      "Mexican retaliatory tariffs in response to U.S. tariffs",
+      "U.S. tariffs on Mexico proposed by current Administration (deferred but may become effective)",
+      "U.S. tariffs on steel and aluminum imports beginning March 12, 2025"
+    ]
+  },
+  "revenue_by_segment": {
+    "Sempra California": 0.863,
+    "Sempra Texas Utilities": 0.0,
+    "Sempra Infrastructure": 0.143,
+    "Parent and other": 0.0,
+    "Eliminations": -0.01
+  }
+}

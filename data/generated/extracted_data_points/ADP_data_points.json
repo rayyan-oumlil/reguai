@@ -1,0 +1,92 @@
+{
+  "ticker": "ADP",
+  "company_name": "Automatic Data Processing, Inc.",
+  "company_type": "Human Capital Management Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Australia",
+      "India",
+      "China",
+      "Hong Kong",
+      "Macau",
+      "Malaysia",
+      "Taiwan",
+      "Mexico",
+      "Japan",
+      "Saudi Arabia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.884,
+      "Europe": 0.075,
+      "Canada": 0.024,
+      "Other": 0.017
+    },
+    "assets_by_region": {
+      "United States": 0.876,
+      "Europe": 0.057,
+      "Canada": 0.052,
+      "Other": 0.016
+    }
+  },
+  "segments": [
+    "Employer Services",
+    "Professional Employer Organization (PEO) Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company is dependent upon various financial institutions to execute electronic funds transfer and paper check payments as part of client payroll, tax and other money movement services",
+    "risks": "A systemic shutdown of the banking industry would impede ability to process payments on behalf of payroll, tax and other money movement services clients. Failure of a bank with whom a significant number of clients may bank could prevent or materially delay recovery of funds. Supply-chain disruptions mentioned as a risk factor.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with federal, state and foreign privacy, data protection, AI and cybersecurity-related laws including GDPR, CPRA, and DOJ Data Security Program under Executive Order 14117",
+    "EU Artificial Intelligence Act imposing requirements on providers of certain types of AI services",
+    "Health Insurance Portability and Accountability Act of 1996 (HIPAA) for insurance services and PEO",
+    "Bank Secrecy Act of 1970 as amended by USA PATRIOT Act of 2001 (BSA) for U.S. money movement and prepaid access",
+    "Electronic Funds Transfer Act and Regulation E for prepaid access offerings",
+    "Canadian Proceeds of Crime (Money Laundering) and Terrorist Financing Act - FINTRAC registration",
+    "Retail Payment Activities Act - Bank of Canada registration requirement",
+    "Fair Credit Reporting Act for employee background screening services",
+    "State licensing requirements for PEO and Certified PEO status with IRS",
+    "SEC and Department of Labor regulations for retirement services (fiduciary standard)",
+    "FINRA regulations for broker-dealer operations",
+    "Affordable Care Act compliance requirements",
+    "Tax credit laws and regulations subject to renewal, amendment or rescission",
+    "Foreign Corrupt Practices Act and U.K. Bribery Act 2010",
+    "Economic and trade sanctions programs administered by U.S. Treasury Department's Office of Foreign Assets Control",
+    "Anti-money laundering laws and regulations in multiple jurisdictions",
+    "State and local AI legislation in the U.S.",
+    "Changes in federal, state or local tax laws affecting client obligations",
+    "Changes in laws governing co-employment arrangements for PEO",
+    "Changes in health and welfare plan regulations for PEOs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions programs prohibit or restrict transactions with specified countries, their governments and nationals, and specially designated individuals including narcotics traffickers and terrorists",
+      "Exposure to countries of concern under DOJ Data Security Program (Executive Order 14117) restricting transfers of sensitive personal data of U.S. persons"
+    ]
+  },
+  "revenue_by_segment": {
+    "Employer Services": 0.675,
+    "PEO Services": 0.325
+  }
+}

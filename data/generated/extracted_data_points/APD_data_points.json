@@ -1,0 +1,142 @@
+{
+  "ticker": "APD",
+  "company_name": "Air Products and Chemicals, Inc.",
+  "company_type": "Industrial Gases",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia",
+      "Europe",
+      "Middle East and India"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "China",
+      "South Korea",
+      "Taiwan",
+      "Malaysia",
+      "Singapore",
+      "Indonesia",
+      "Thailand",
+      "India",
+      "Japan",
+      "Netherlands",
+      "United Kingdom",
+      "Spain",
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Poland",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Algeria",
+      "South Africa",
+      "Uzbekistan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.42,
+      "Asia": 0.27,
+      "Europe": 0.23,
+      "Middle East and India": 0.01,
+      "Corporate and other": 0.07
+    },
+    "assets_by_region": {
+      "United States": 0.31,
+      "China": 0.13,
+      "Saudi Arabia": 0.21,
+      "Other foreign operations": 0.35
+    }
+  },
+  "segments": [
+    "Americas",
+    "Asia",
+    "Europe",
+    "Middle East and India",
+    "Corporate and other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Malaysia",
+      "United Kingdom",
+      "Spain",
+      "Saudi Arabia"
+    ],
+    "dependencies": [
+      "Electricity is the largest cost component in the production of atmospheric gases",
+      "Natural gas as primary raw material for hydrogen production via steam methane reformers",
+      "Helium supply dependent upon natural gas production by crude helium suppliers",
+      "Steel, aluminum, and capital equipment subcomponents such as compressors are principal raw materials in manufacturing of equipment"
+    ],
+    "risks": [
+      "Disruption in supply of energy, components, or raw materials due to market conditions, legislative or regulatory actions, natural disasters, public health crises, or other disruption",
+      "Lower natural gas production can reduce supplies of crude helium available for processing",
+      "Supply chain disruptions and related distribution delays and cost increases",
+      "Inability to find adequate sources of labor in locations where building new plants"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "European Union Emission Trading System coverage",
+    "California Cap-and-Trade Program",
+    "China's Emission Trading Scheme and nation-wide expansion",
+    "South Korea's Emission Trading Scheme",
+    "Netherlands CO2 emissions tax",
+    "Canada's Technology Innovation and Emission Reduction System (Alberta)",
+    "Ontario's GHG Emissions Performance Standards program",
+    "Singapore Carbon Pricing Tax Act",
+    "Taiwan Climate Change Response Act and carbon fee",
+    "U.S. EPA mandatory reporting of GHG emissions and regulation for new construction",
+    "European Union Corporate Sustainability Reporting Directive",
+    "European Union Corporate Sustainability Due Diligence Directive",
+    "California Climate Corporate Data Accountability Act",
+    "California Climate Related Financial Risk Act",
+    "SEC Enhancement and Standardization of Climate-Related Disclosures for Investors",
+    "Compliance with CERCLA (federal Superfund law)",
+    "Compliance with Resource Conservation and Recovery Act (RCRA)",
+    "Environmental laws and regulations in countries of operation",
+    "Import/export restrictions",
+    "Anti-bribery and corruption laws (U.S. Foreign Corrupt Practices Act, UK Bribery Act, China Anti-Unfair Competition Law)",
+    "International sanctions and trade restrictions",
+    "Tax law changes in key jurisdictions",
+    "Global minimum taxes related to OECD framework",
+    "Increasingly aggressive enforcement of anti-bribery and anti-corruption requirements",
+    "Changes in tax laws and regulations and international tax treaties",
+    "FDA approval requirements",
+    "Competition laws and antitrust regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Saudi Arabia",
+      "Iran",
+      "Uzbekistan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and other jurisdictions' sanctions may prohibit or restrict business in certain countries",
+      "Tariffs and international sanctions in jurisdictions where we and affiliates operate",
+      "Government-imposed restrictions or expropriations in foreign jurisdictions",
+      "Russia's invasion of Ukraine causing project suspension and business divestiture",
+      "Potential sanctions impact on operations in Middle East",
+      "Export controls or regulatory restrictions preventing shipment to some markets"
+    ]
+  },
+  "revenue_by_segment": {
+    "On-site": 0.49,
+    "Merchant": 0.44,
+    "Sale of equipment": 0.07
+  }
+}

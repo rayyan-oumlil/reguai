@@ -1,0 +1,53 @@
+{
+  "ticker": "FANG",
+  "company_name": "Diamondback Energy, Inc.",
+  "company_type": "Oil and Natural Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Upstream"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company depends on third-party service providers for drilling rigs, completion crews, hydraulic fracturing services, sand and proppants, electrical power, water services, and transportation infrastructure including pipelines. The Company has commitments with various suppliers for electrical fracturing fleet services, sand supply, produced water disposal, electrical power, and transportation capacity.",
+    "risks": "Shortages of drilling rigs, equipment, raw materials (particularly sand and proppants), supplies, oilfield services or personnel may restrict operations. The Company faces risks from concentration of production in the Permian Basin. Transportation and infrastructure constraints could limit ability to deliver production to market. Water availability restrictions in Texas due to drought conditions. Recent Texas Railroad Commission restrictions on produced water disposal wells to control induced seismicity.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state legislative and regulatory initiatives relating to hydraulic fracturing",
+    "Physical and transition risks relating to climate change",
+    "Restrictions on the use of water, including limits on produced water disposal and moratorium on new produced water well permits by Texas Railroad Commission",
+    "Changes in safety, health, environmental, tax, and other regulations including air emissions and water management",
+    "Evolving privacy-related laws including Texas Data Privacy and Security Act",
+    "SEC climate disclosure rules published March 28, 2024",
+    "EPA regulations on greenhouse gas emissions including methane emissions charge under Inflation Reduction Act",
+    "EPA rules on vehicle emissions to reduce greenhouse gases",
+    "Dodd-Frank Act derivatives reform legislation",
+    "Environmental regulations under Clean Water Act, Clean Air Act, RCRA, CERCLA",
+    "Endangered Species Act restrictions on operations",
+    "OSHA and pipeline safety regulations",
+    "State and local regulations on hydraulic fracturing and disposal wells",
+    "Potential reclassification of oil and gas waste as hazardous waste",
+    "U.S. tax legislation changes including provisions of Inflation Reduction Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

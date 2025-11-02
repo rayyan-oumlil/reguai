@@ -1,0 +1,67 @@
+{
+  "ticker": "HUM",
+  "company_name": "Humana Inc.",
+  "company_type": "Health Insurance and Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Insurance",
+    "CenterWell"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Dependence on third-party service providers for significant portions of systems-related support, equipment, facilities, and certain data, including data center operations, data network, voice communication services and pharmacy data processing",
+    "risks": "Dependence on independent third parties makes operations vulnerable to third parties' failure to perform adequately; change in service providers could result in decline in service quality and effectiveness or less favorable contract terms",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes to Medicare Advantage and Prescription Drug Plans programs due to legislative or regulatory action",
+    "Reductions in premium payments from CMS",
+    "Increases in member benefits or changes to member eligibility criteria without corresponding increases in premium payments",
+    "Changes to Part D prescription drug benefit design under the Inflation Reduction Act",
+    "Restrictions on ability to manage provider network, market and sell products, or otherwise operate business",
+    "Restrictions on profitability, including reviews by regulatory bodies comparing Medicare Advantage profitability to non-Medicare Advantage business profitability",
+    "Further restrictions on service arrangements and fee payments between intercompany or vertically-integrated assets",
+    "Increases in regulation of prescription drug benefit businesses",
+    "CMS Risk-Adjustment Data Validation (RADV) audits and elimination of Fee-for-Service Adjuster (FFS Adjuster)",
+    "State insurance and health care regulatory authority reviews and investigations",
+    "Health Care Reform Law requirements including minimum benefit ratios and rebates to policyholders",
+    "HIPAA and HITECH Act privacy and security regulations",
+    "Corporate Practice of Medicine and fee-splitting state laws",
+    "Anti-Kickback Statute, Stark Law, and False Claims Act compliance",
+    "State Certificate of Need (CON) requirements for healthcare services expansion",
+    "State regulations on payment of dividends and minimum capital requirements for insurance subsidiaries",
+    "Pharmacy regulation at state and federal levels including DEA registration and FDA requirements",
+    "USPS restrictions on transmission of drugs through mail",
+    "U.S. Department of Transportation regulations on drug distribution"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Individual Medicare Advantage": 0.756,
+    "Group Medicare Advantage": 0.066,
+    "Medicare stand-alone PDP": 0.027,
+    "State-based contracts and other": 0.094,
+    "Commercial fully-insured": 0.004,
+    "Specialty benefits": 0.008,
+    "Medicare Supplement": 0.007,
+    "Commercial ASO": 0.0,
+    "Military services and other": 0.008
+  }
+}

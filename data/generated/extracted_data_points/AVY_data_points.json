@@ -1,0 +1,158 @@
+{
+  "ticker": "AVY",
+  "company_name": "Avery Dennison Corporation",
+  "company_type": "Materials Science and Digital Identification Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, the Middle East and North Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Belgium",
+      "France",
+      "Germany",
+      "Ireland",
+      "United Kingdom",
+      "Netherlands",
+      "Luxembourg",
+      "Italy",
+      "China",
+      "Hong Kong",
+      "India",
+      "South Korea",
+      "Malaysia",
+      "Thailand",
+      "Vietnam",
+      "Bangladesh",
+      "Israel",
+      "Turkey",
+      "Switzerland",
+      "Afghanistan",
+      "Syria",
+      "Iraq",
+      "Yemen",
+      "Iran",
+      "North Korea",
+      "Russia",
+      "Ukraine",
+      "Gaza",
+      "Lebanon"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.3,
+      "Europe, the Middle East and North Africa": 0.28,
+      "Asia": 0.32,
+      "Latin America": 0.07,
+      "Other": 0.04
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Materials Group",
+    "Solutions Group",
+    "Labels, Graphics and Reflectives",
+    "Tapes and Adhesives",
+    "Apparel and Other",
+    "Identification Solutions and Vestcom"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Belgium",
+      "Brazil",
+      "China",
+      "France",
+      "Germany",
+      "India",
+      "Ireland",
+      "Israel",
+      "South Korea",
+      "Luxembourg",
+      "Malaysia",
+      "Mexico",
+      "Thailand",
+      "United Kingdom",
+      "Bangladesh",
+      "Italy",
+      "Vietnam"
+    ],
+    "dependencies": [
+      "Raw materials primarily paper, plastic films and resins, and specialty chemicals subject to price fluctuations",
+      "Shortages and inflationary increases in costs of raw materials, labor, freight and energy",
+      "Supply chain disruptions due to natural disasters, geopolitical events, or supplier relationship deterioration"
+    ],
+    "risks": [
+      "Raw material cost volatility and availability",
+      "Supply chain disruptions from natural disasters or geopolitical events",
+      "Dependence on timely delivery from suppliers",
+      "Freight cost increases",
+      "Energy cost volatility",
+      "Labor shortages"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in trade relations and tariffs between U.S. and China, Canada, Mexico, India, and European Union",
+    "Potential modifications to existing trade agreements and additional tariffs or restrictions on free trade",
+    "Corporate Sustainability Reporting Directive in Europe",
+    "Corporate Sustainability Due Diligence Directive in Europe",
+    "California climate reporting requirements",
+    "General Data Protection Regulation (GDPR) in EU",
+    "Personal Information Protection Law in China",
+    "General Data Protection Law in Brazil",
+    "California Privacy Rights Act",
+    "Foreign Corrupt Practices Act compliance",
+    "UK Bribery Act of 2010 compliance",
+    "Export and import control laws and regulations",
+    "Economic sanctions and export control restrictions",
+    "Environmental laws and regulations related to hazardous waste disposal and GHG emissions",
+    "EPA and state agency designations as potentially responsible party at waste disposal sites",
+    "Increased regulation on single-use plastics and plastic packaging recyclability",
+    "Dutch Pension Act requiring transition from defined benefit to defined contribution plans by January 1, 2028",
+    "Tax law changes and enforcement activities in multiple jurisdictions",
+    "Inflation Reduction Act of 2022 (1% excise tax on stock repurchases)",
+    "Tax Cuts and Jobs Act provisions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Gaza",
+      "Iran",
+      "Syria",
+      "Iraq",
+      "Yemen",
+      "Afghanistan",
+      "Turkey",
+      "North Korea",
+      "Bangladesh",
+      "Argentina",
+      "Lebanon"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. tariffs on goods from China with reciprocal tariffs imposed by China",
+      "Potential U.S. tariffs on goods from Canada and Mexico with reciprocal tariff threats",
+      "Potential U.S. reciprocal tariffs on goods from other countries or regions",
+      "Russia-Ukraine war sanctions and retaliatory actions by Russia, U.S., EU and other jurisdictions",
+      "Export control laws and economic sanctions prohibiting shipment to embargoed or sanctioned countries, governments and persons",
+      "Compliance with sanctions on Iran, Russia and other sanctioned entities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Materials Group": 0.69,
+    "Solutions Group": 0.31
+  }
+}

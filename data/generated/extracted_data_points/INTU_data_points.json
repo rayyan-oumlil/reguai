@@ -1,0 +1,90 @@
+{
+  "ticker": "INTU",
+  "company_name": "Intuit Inc.",
+  "company_type": "Financial Technology Software and Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "Canada",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "India",
+      "United Kingdom",
+      "Israel",
+      "Australia",
+      "Philippines",
+      "Portugal"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.92,
+      "International": 0.08
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Small Business & Self-Employed",
+    "Consumer",
+    "Credit Karma",
+    "ProTax"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Google Cloud Platform",
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "Reliance on single third-party vendor for manufacturing and distribution of retail desktop software products; key single-source vendor for financial supplies printing and fulfillment; dependence on public cloud providers (AWS, Google Cloud) for systems and infrastructure",
+    "risks": "Single-source vendor dependencies for manufacturing and financial supplies; reliance on third-party cloud providers for critical infrastructure; supply chain disruptions from vendor failures; concentration risk with key suppliers",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state government requirements for electronic filing of tax returns",
+    "Regulations on tax preparer assistance and use of customer information",
+    "Payroll services regulatory requirements",
+    "Payment processing regulatory requirements",
+    "Financial services regulations for lending and payments products",
+    "Data privacy and security regulations (GDPR in EU)",
+    "Growing number of U.S. state data privacy laws in absence of unified federal standard",
+    "Cross-border data transfer regulations and requirements",
+    "AI regulatory frameworks (EU AI Act adopted May 2024)",
+    "FTC order requiring adherence to certain marketing practices",
+    "Money transmission licensing requirements",
+    "Consumer protection regulations",
+    "Antitrust and competition regulations",
+    "Foreign Corrupt Practices Act compliance",
+    "U.K. Bribery Act compliance",
+    "Import and export regulations including sanctions compliance",
+    "State revenue agency standards for tax preparation and electronic filing",
+    "Increasing regulatory scrutiny of tax preparation industry",
+    "Environmental, health and safety regulations",
+    "Labor laws and regulations in multiple jurisdictions",
+    "Advertising and marketing regulations",
+    "Real estate and insurance regulations",
+    "Foreign exchange controls and cash repatriation restrictions",
+    "Evolving and complex foreign and U.S. laws affecting international operations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Compliance with sanctions arising from Russia-Ukraine war",
+      "Import and export sanctions compliance requirements"
+    ]
+  },
+  "revenue_by_segment": {
+    "Small Business & Self-Employed": 0.59,
+    "Consumer": 0.27,
+    "Credit Karma": 0.1,
+    "ProTax": 0.04
+  }
+}

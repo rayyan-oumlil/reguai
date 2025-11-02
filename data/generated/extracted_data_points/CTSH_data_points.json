@@ -1,0 +1,127 @@
+{
+  "ticker": "CTSH",
+  "company_name": "Cognizant Technology Solutions Corporation",
+  "company_type": "Professional Services - IT Services and Consulting",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "United Kingdom",
+      "Continental Europe",
+      "Rest of World",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "United Kingdom",
+      "Canada",
+      "Mexico",
+      "Philippines",
+      "Australia",
+      "Singapore",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Poland",
+      "Spain",
+      "Italy",
+      "Belgium",
+      "Sweden",
+      "Denmark",
+      "Ireland",
+      "Mauritius",
+      "China",
+      "Japan",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "South Africa",
+      "UAE",
+      "Malaysia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Health Sciences",
+    "Financial Services",
+    "Products and Resources",
+    "Communications, Media and Technology",
+    "Banking",
+    "Insurance",
+    "Retail and Consumer Goods",
+    "Manufacturing, Logistics, Energy and Utilities",
+    "Travel and Hospitality"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Substantial majority of employees located in India (approximately 241,500 employees)",
+      "Reliance on global delivery model with coordination between India delivery centers and client locations",
+      "Dependence on technology infrastructure and communications systems across global locations",
+      "Reliance on third-party alliance partners including Adobe, Amazon Web Services, Cisco, Google, Microsoft, Oracle, Pegasystems, Salesforce, SAP, ServiceNow, Workday",
+      "Dependence on cloud service providers and software vendors for service delivery",
+      "Reliance on subcontractors for additional capacity (though historically immaterial)"
+    ],
+    "risks": [
+      "Concentration of operations in India exposes company to country-specific risks including economic volatility, currency fluctuations, regulatory changes",
+      "Disruptions to global delivery capabilities from hostilities, political unrest, terrorist attacks, cybersecurity incidents, power/water shortages, telecommunications failures, natural disasters, extreme weather, pandemics",
+      "Risk of third-party alliance partners competing with company, forming exclusive arrangements with competitors, or discontinuing services",
+      "Performance failures by alliance partners could delay company performance or require alternative arrangements at company cost",
+      "Supply chain disruptions from geopolitical developments, international conflicts, trade disputes",
+      "Infrastructure and resource availability risks from climate change and extreme weather events",
+      "Severe flooding risk in Chennai, India where substantial delivery operations are located"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Immigration law changes and visa restrictions in United States, United Kingdom, EU affecting H-1B and L-1 visa holders",
+    "Anti-outsourcing legislation proposals at federal and state levels in United States",
+    "EU Directive of 2014 on intracompany transferees creating new notification and documentation requirements",
+    "Incoming U.S. administration's expected immigration agenda creating uncertainty",
+    "Data security and privacy laws including California Consumer Privacy Act, California Privacy Rights Act, HIPAA, India Digital Personal Data Protection Act 2023, UK GDPR, EU GDPR",
+    "EU AI Act entered into force in 2024 with parts applying beginning 2025",
+    "Rapidly evolving AI regulations across jurisdictions with uncertain scope and interpretation",
+    "Code on Social Security 2020 in India potentially increasing employment and post-employment benefit costs",
+    "India-Mauritius Income Tax Treaty amendment potentially increasing effective tax rate",
+    "OECD Pillar Two global minimum tax framework (15% minimum tax)",
+    "California climate change disclosure requirements",
+    "European Union Corporate Sustainability Reporting Directive (CSRD)",
+    "Trade controls and sanctions regulations",
+    "Anti-corruption laws including FCPA and UK Bribery Act",
+    "Anti-money laundering regulations",
+    "Environmental and climate change regulations",
+    "Government contracting compliance requirements with stricter regulatory standards",
+    "Content requirements and trade restrictions across jurisdictions",
+    "Tariff regulations",
+    "Antitrust laws",
+    "Employment and labor relations laws varying by jurisdiction",
+    "Human rights regulations",
+    "Intellectual property laws including patent, copyright, trade secret protections",
+    "Export control regulations",
+    "Debarment or suspension risks from government contracting violations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Middle East countries (unspecified)",
+      "India",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International tensions including Russia's invasion of Ukraine heightening cyber-threat risks",
+      "Conflicts in Middle East creating heightened cybersecurity risks",
+      "Trade disputes potentially causing clients to reduce spending",
+      "Sanctions compliance requirements across jurisdictions",
+      "Potential sanctions exposure from operations in various jurisdictions",
+      "Trade restrictions and tariffs affecting business operations"
+    ]
+  }
+}

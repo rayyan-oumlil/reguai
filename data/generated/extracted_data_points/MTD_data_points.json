@@ -1,0 +1,130 @@
+{
+  "ticker": "MTD",
+  "company_name": "Mettler-Toledo International Inc.",
+  "company_type": "Precision Instruments and Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe",
+      "Asia/Rest of World",
+      "North America",
+      "South America",
+      "Western Europe",
+      "Eastern Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Africa",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Switzerland",
+      "China",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Mexico",
+      "Japan",
+      "South Korea",
+      "Brazil",
+      "India",
+      "Italy",
+      "Canada",
+      "Poland",
+      "Malaysia",
+      "Russia",
+      "Ukraine"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Operations",
+    "Swiss Operations",
+    "Western European Operations",
+    "Chinese Operations",
+    "Other Operations",
+    "Laboratory Instruments",
+    "Industrial Instruments",
+    "Retail Weighing Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "China",
+      "Switzerland",
+      "United States",
+      "Germany",
+      "United Kingdom",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Critical components manufactured internally containing proprietary technology",
+      "Outside manufacturing for non-proprietary components",
+      "Wide range of suppliers for electronic components",
+      "Single supplier reliance for certain components",
+      "Global supply arrangements for electronic components"
+    ],
+    "risks": [
+      "Global supply chain and production issues",
+      "Changes in third-party service providers",
+      "Disruption of key manufacturing facilities in China, Europe, and United States",
+      "Limited alternate facilities for many products",
+      "Regional logistics centers with outsourced logistics activities",
+      "Supply chain disruptions from pandemics, strikes, labor shortages, power interruptions, cybersecurity attacks, natural disasters",
+      "Disruption of material sources from supplier operational issues or shipping delays",
+      "Quality and regulatory requirements for alternative materials",
+      "Time required to establish new supplier relationships",
+      "Increased tariffs and trade restrictions",
+      "Shipping delays at European Logistics facility"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Weights and measures regulatory standards and approvals",
+    "Electrical safety standards for electrical components",
+    "Legal for trade applications requiring specific approvals",
+    "Good Laboratory Practices (GLP) for laboratory customers",
+    "Good Manufacturing Practices (GMP) for industrial customers",
+    "U.S. Food and Drug Administration (FDA) regulations for pharmaceutical customers",
+    "Hazard Analysis and Critical Control Point (HACCP) regulations for food processing",
+    "Special requirements for products used in hazardous environments",
+    "Environmental laws and regulations in operating jurisdictions",
+    "Compliance with design, development, product safety, labeling, manufacturing, promotion, sales, and distribution regulations",
+    "Competition, employment and labor practices, international trade, and corruption laws",
+    "Product recalls and manufacturing cessation for non-compliance",
+    "21 CFR Part 11 compliance for electronically stored data",
+    "Import, export control, and economic sanctions laws",
+    "European General Data Protection Regulation (GDPR)",
+    "Cybersecurity, privacy, and data protection regulations",
+    "Conflict minerals disclosure and reporting requirements (SEC)",
+    "Human rights and sustainable sourcing supply chain requirements",
+    "Climate change and greenhouse gas (GHG) emissions regulations",
+    "Renewable energy and sustainability mandates",
+    "Additional taxes on fuel and energy",
+    "U.S. Supreme Court overturning Chevron doctrine affecting regulatory frameworks",
+    "Artificial intelligence (AI) and machine learning regulations",
+    "Increased regulatory compliance expense from new laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions on Russian entities following Ukraine invasion",
+      "Russia enacted countermeasures",
+      "Export control and economic sanctions laws affecting transactions",
+      "Prohibition of exports of certain products, services, and technologies",
+      "Export license requirements for controlled items",
+      "Civil and criminal actions, monetary and non-monetary penalties for non-compliance",
+      "Disruptions to business and limitations on import/export abilities",
+      "U.S., European Union, and other countries imposed sanctions on Russia",
+      "Suspended shipments to Russia since February 2022"
+    ]
+  }
+}

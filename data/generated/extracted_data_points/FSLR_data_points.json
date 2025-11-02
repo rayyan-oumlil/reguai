@@ -1,0 +1,85 @@
+{
+  "ticker": "FSLR",
+  "company_name": "First Solar, Inc.",
+  "company_type": "Solar Technology and Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "India",
+      "Malaysia",
+      "Vietnam",
+      "Europe"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "Malaysia",
+      "Vietnam",
+      "Germany",
+      "China",
+      "Singapore",
+      "Japan",
+      "Chile",
+      "Australia",
+      "France",
+      "Cambodia",
+      "Thailand",
+      "Taiwan",
+      "Dominican Republic",
+      "Sweden"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Modules"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Malaysia",
+      "Vietnam",
+      "India"
+    ],
+    "dependencies": "Several key raw materials and components are either single-sourced or sourced from a limited number of suppliers, in particular CdTe, tellurium, products containing tellurium, and substrate glass. China is a major global producer of tellurium and products containing tellurium.",
+    "risks": "Supply chain disruptions may affect the procurement of raw materials used in manufacturing process and the distribution of modules. China announced tightened export controls for five key minerals including products containing tellurium. Failure of key suppliers could disrupt supply chain. Concentration risk in China for tellurium supply. Geopolitical tensions affecting raw material access.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Modification, reduction, elimination, or expiration of government subsidies, economic incentives, tax incentives, renewable energy targets under the Inflation Reduction Act of 2022",
+    "Changes to IRA financial benefits through technical guidance, regulations, amendments, or new presidential administration policies",
+    "Antidumping and countervailing duties on imported crystalline silicon PV cells and modules from China, Taiwan, Cambodia, Malaysia, Thailand, and Vietnam",
+    "Section 301 tariffs on Chinese imports including 50% on crystalline silicon solar cells and 25% on modules",
+    "Additional 10% tariff on all imports from China announced in February 2025",
+    "Section 232 tariffs of 25% on imported aluminum and steel articles",
+    "India ALMM (Approved List of Models and Manufacturers) requirements and modifications",
+    "India import duty tariffs of 20% on solar modules and cells plus additional 20% tax on modules",
+    "China export controls on tellurium and products containing tellurium requiring export licenses",
+    "RoHS Directive restrictions on use of cadmium and cadmium compounds in electrical equipment in European Union",
+    "California Climate Corporate Data Accountability Act and Climate-Related Financial Risk Act requiring climate-related reporting",
+    "EU Corporate Sustainability Reporting Directive requiring ESG disclosures",
+    "Uyghur Forced Labor Prevention Act banning imports from China's Xinjiang region",
+    "FCPA and U.K. Bribery Act compliance requirements",
+    "Environmental laws and regulations governing discharge of pollutants, hazardous materials management, and cleanup of contaminated sites",
+    "WEEE Directive requirements for recycling of electrical and electronic equipment in EU",
+    "Privacy and data security laws including federal, state, and international regulations",
+    "OECD Pillar Two global minimum tax framework of 15% for companies with global revenues above certain thresholds",
+    "SEC subpoenas relating to operations in India, PV module supply agreement with India-based customer, and technology roadmap aspects"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "India"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-China trade tensions including tariffs on solar products and raw materials",
+      "China export controls on tellurium affecting supply chain",
+      "Forced labor allegations in Chinese solar supply chain",
+      "Potential trade embargoes on materials or equipment necessary for manufacturing operations"
+    ]
+  }
+}

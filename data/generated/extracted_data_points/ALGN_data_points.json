@@ -1,0 +1,115 @@
+{
+  "ticker": "ALGN",
+  "company_name": "Align Technology, Inc.",
+  "company_type": "Medical Device",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC",
+      "North America",
+      "Europe",
+      "Middle East",
+      "Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Costa Rica",
+      "Canada",
+      "Brazil",
+      "Switzerland",
+      "Poland",
+      "Germany",
+      "Spain",
+      "United Kingdom",
+      "Israel",
+      "Singapore",
+      "China",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Hong Kong",
+      "Taiwan",
+      "Korea",
+      "Thailand",
+      "Vietnam",
+      "India",
+      "Italy",
+      "Austria",
+      "Russia",
+      "Czech Republic",
+      "Saudi Arabia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Clear Aligner",
+    "Imaging Systems and CAD/CAM Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Mexico",
+      "China",
+      "Poland",
+      "Israel",
+      "Costa Rica",
+      "Germany",
+      "Spain",
+      "Japan"
+    ],
+    "dependencies": "Single or sole source suppliers for specialized scanning equipment, rapid prototyping machines, resin and other advanced materials, optics, electronic and mechanical components of iTero scanners. CT scanning and stereolithography equipment and critical scanner optics components provided by single or sole source suppliers. Resin and polymer raw materials purchased from a single source.",
+    "risks": "Supply chain vulnerabilities from single and sole suppliers in limited locations. Dependency on contract manufacturers for quality and stability. Risk of production interruptions, delays, and inefficiencies. Technology changes by service providers and vendors could disrupt manufacturing capacity. Delivery delays, labor stoppages or shortages, price increases. Inability to quickly establish or qualify replacement suppliers. Potential for significant interruptions in supply of products.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations and 510(k) clearance requirements for medical devices",
+    "Medical Device Regulation EU 2017/745 compliance",
+    "Quality System regulations and ISO 13485:2016 certification requirements",
+    "Healthcare provider reimbursement regulations (Medicaid, national healthcare programs)",
+    "Transparency reporting laws (sunshine laws) for transfers of value to healthcare professionals",
+    "HIPAA Privacy Standards and Security Standards compliance",
+    "HITECH Act requirements",
+    "State privacy laws including California Consumer Protection Act (CCPA) and California Privacy Rights Act",
+    "GDPR compliance in European Union",
+    "Data export restrictions and international transfer laws",
+    "Cross-border data transfer requirements in China, Australia, Japan, and other countries",
+    "Data localization requirements in various countries",
+    "Anti-corruption and anti-bribery laws (FCPA, UK Bribery Act of 2010)",
+    "Marketing and advertising restrictions for medical devices in various countries",
+    "Environmental health and safety regulations",
+    "New competition laws and regulations aimed at technology sector, AI and digital platforms",
+    "Antitrust and competition regulations",
+    "OECD/G20 Framework Pillar Two 15% global minimum tax",
+    "Conflict minerals regulations (Democratic Republic of Congo and adjoining countries)",
+    "Substance restrictions including PFAS regulations",
+    "EU Corporate Sustainability Reporting Directive",
+    "Greenhouse gas emission limits and disclosure requirements",
+    "EU AI Act (effective August 2024, fully effective August 2026)",
+    "Reversal of Chevron doctrine affecting FDA regulatory authority"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Israel",
+      "Russia",
+      "China",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Export and import restrictions on Israeli products and businesses",
+      "Potential boycotts of Israeli operations",
+      "Russia sanctions exposure",
+      "US-China trade tensions and potential tariffs",
+      "Tariffs on Chinese, Mexican, Canadian goods",
+      "Retaliatory trade measures",
+      "Trade protection measures and customs restrictions"
+    ]
+  }
+}

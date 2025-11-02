@@ -1,0 +1,150 @@
+{
+  "ticker": "EBAY",
+  "company_name": "eBay Inc.",
+  "company_type": "E-commerce Marketplace",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "United Kingdom",
+      "Germany",
+      "Australia",
+      "Canada",
+      "France",
+      "Italy",
+      "Spain",
+      "Japan",
+      "Greater China"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Australia",
+      "Canada",
+      "France",
+      "Italy",
+      "Spain",
+      "Japan",
+      "China",
+      "Hong Kong",
+      "Mexico",
+      "European Union member states",
+      "Denmark",
+      "Norway",
+      "Korea",
+      "India",
+      "Israel",
+      "Switzerland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.51,
+      "International": 0.49
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Marketplace revenues",
+    "Advertising revenues",
+    "Parts & Accessories",
+    "Collectibles",
+    "Fashion",
+    "Electronics",
+    "Home & Garden",
+    "Refurbished goods",
+    "Luxury items",
+    "Trading Cards"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cloud service providers",
+      "Shipping service providers",
+      "Third-party payment processors",
+      "Credit card processors",
+      "Data center providers",
+      "Authentication service providers",
+      "Financial institutions"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third-party service providers for payment processing, payment disbursements, currency exchange, identity verification, sanctions screening, and fraud analysis",
+      "Reliance on third-party shipping providers for delivery of goods sold on platform",
+      "Dependence on third-party authentication services for item authentication",
+      "Reliance on third-party hosting providers for data center facilities",
+      "Dependence on payment card association operating rules and certification requirements",
+      "Reliance on third parties for AI technologies including Gen AI and large language models"
+    ],
+    "risks": [
+      "If third-party service providers fail to perform adequately or terminate relationships unexpectedly, sellers' ability to use platform to receive orders or payments could be adversely affected",
+      "Service outages from third-party providers could adversely impact payments made on platform",
+      "Third-party service providers may increase fees charged in the future",
+      "Inability to monitor or control third-party service providers' data security measures",
+      "Decision by third-party hosting providers to close facilities could cause system interruptions and delays",
+      "Shipping and postal rate increases may reduce competitiveness of sellers' offerings",
+      "Postal service changes and disruptions could require sellers to utilize more expensive alternatives",
+      "Problems with or price increases by third parties who provide services could harm business"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Payments reporting requirements for sellers in many jurisdictions including IRS Form 1099-K requirements in United States",
+    "EU Digital Services Act (DSA) imposing legal obligations on online marketplaces including verification of seller information, content moderation, notice obligations, advertising restrictions",
+    "UK Online Safety Act (OSA) creating requirements around monitoring and handling harmful content",
+    "UK Digital Markets, Competition and Consumers Act (DMCCA) expanding investigative and enforcement powers",
+    "General Data Protection Regulation (GDPR) in European Union imposing compliance obligations regarding handling of personal data with potential fines up to 20 million euros or 4% of annual worldwide revenue",
+    "California Consumer Privacy Act (CCPA) and other U.S. state privacy laws providing new privacy rights and obligations",
+    "European Union Artificial Intelligence Act (EU AI Act) with fines up to 35 million euros or 7% of global turnover for non-compliance",
+    "California AI Transparency Act requiring AI-related disclosure requirements effective January 2026",
+    "Colorado AI Act effective February 2026",
+    "DAC 7 in European Union and Digital Sales Reporting Legislation (DSR) in United Kingdom imposing data reporting requirements",
+    "Sales and use tax, VAT, GST collection and remittance obligations in various jurisdictions",
+    "Internet sales tax legislation enacted in 45 U.S. states, District of Columbia and Puerto Rico",
+    "Export control and economic sanctions laws including U.S. Department of Treasury's Office of Foreign Assets Control and Department of Commerce's Bureau of Industry and Security",
+    "Antitrust and competition laws in U.S. and foreign jurisdictions",
+    "Regulations regarding auctions and handling of property by secondhand dealers or pawnbrokers in various U.S. states and foreign jurisdictions",
+    "European Union General Product Safety Regulation effective December 13, 2024",
+    "EU member country anti-waste regulations creating direct obligations on sellers",
+    "Clean Air Act, Toxic Substances Control Act and Federal Insecticide, Fungicide and Insecticide Act enforcement by EPA and DOJ",
+    "Controlled Substances Act compliance requirements",
+    "Payment Card Industry Data Security Standard and rules governing electronic funds transfers",
+    "Communications-based laws for emails, texts and other communications",
+    "Intellectual property laws including copyright, trademark and patent laws",
+    "Foreign Corrupt Practices Act and foreign laws prohibiting corrupt payments to government officials",
+    "Money laundering and terrorist financing prevention laws",
+    "Import and export requirements and restrictions including customs authorities' de minimis thresholds",
+    "Tariffs and trade policies including potential U.S. tariffs on goods from Canada, Mexico and China",
+    "Labor and employment laws including stringent local labor laws and regulations outside U.S.",
+    "Environmental packaging and waste and climate-related regulations",
+    "Accessibility laws and regulations",
+    "Real estate regulations",
+    "Telecommunications regulations",
+    "Advertising regulations",
+    "Health and safety regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Ukraine",
+      "Russia",
+      "Middle East countries (wars mentioned)",
+      "Iran",
+      "North Korea"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government sanctions and export controls prohibiting trade or financial transactions with certain countries, businesses, organizations and individuals",
+      "Sanctions imposed by Department of Treasury's Office of Foreign Assets Control",
+      "Export controls by Department of Commerce's Bureau of Industry and Security",
+      "Potential violations requiring divestment of certain businesses and assets and restricting ability to operate in certain jurisdictions",
+      "Sanctions screening requirements for payment processing",
+      "Risk of users violating sanctions policies",
+      "Potential fines, criminal actions or sanctions against company, officers or employees for violations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Marketplace revenues": 0.84,
+    "Advertising revenues": 0.16
+  }
+}

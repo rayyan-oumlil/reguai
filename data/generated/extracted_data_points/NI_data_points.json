@@ -1,0 +1,69 @@
+{
+  "ticker": "NI",
+  "company_name": "NiSource Inc.",
+  "company_type": "Regulated Utility - Natural Gas and Electric",
+  "geography": {
+    "regions": [
+      "United States - Midwest",
+      "United States - Mid-Atlantic"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Columbia Operations",
+    "NIPSCO Operations",
+    "Gas Distribution",
+    "Electric Generation and Power Delivery"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third-party transmission lines and natural gas pipelines for energy delivery",
+      "Reliance on coal and natural gas for electric generation",
+      "Long lead times for construction materials and equipment",
+      "Dependence on third-party developers for renewable generation projects under Build-Transfer Agreements"
+    ],
+    "risks": [
+      "Supply chain constraints including material and labor shortages impacting gas and electric projects",
+      "Increasing delivery lead times for construction materials",
+      "Global shortages in raw materials",
+      "Transportation logistics issues",
+      "Lack of diversity in suppliers of some gas materials",
+      "Delayed deliveries and unavailability of materials",
+      "Slowing deliveries from suppliers",
+      "Increased prices for materials, equipment and products due to inflationary pressures"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Rate regulation by state utility commissions and FERC",
+    "Regulatory rate reviews and proceedings with uncertain outcomes",
+    "Potential disallowance of operating or capital costs in rate recovery",
+    "Downward adjustments in allowed Return on Equity by regulators",
+    "Penalties and fines from regulators",
+    "NERC Critical Infrastructure Protection standards for electric operations",
+    "PHMSA pipeline safety regulations including proposed LDAR rule and SGDP rule",
+    "EPA regulations on greenhouse gas emissions for fossil fuel-fired power plants",
+    "EPA Coal Combustion Residuals (CCR) regulations including Legacy CCR Rule",
+    "Environmental regulations related to air quality, water quality, hazardous waste and solid waste",
+    "CERCLA (Superfund) liability at waste disposal sites",
+    "Manufactured Gas Plant (MGP) site remediation requirements",
+    "Maryland Climate Solutions Now Act requiring 60% GHG reduction by 2031 and net zero by 2045",
+    "Maryland policies on electrification and Clean Heat Standard",
+    "Potential future carbon pricing regimes or methane fees",
+    "Changes in tax laws including IRA provisions",
+    "Compliance with changing pipeline safety regulations under PIPES Act of 2020"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

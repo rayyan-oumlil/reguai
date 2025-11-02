@@ -1,0 +1,71 @@
+{
+  "ticker": "SCHW",
+  "company_name": "The Charles Schwab Corporation",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "United Kingdom",
+      "Hong Kong",
+      "Singapore"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Investor Services",
+    "Advisor Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on external service providers for key technology, cloud infrastructure, processing, servicing, and support functions",
+      "Dependence on securities exchanges, clearing houses, market makers, dealers, and other financial intermediaries for order execution and settlement"
+    ],
+    "risks": [
+      "Service providers face technology, operating, business, and economic risks",
+      "Interruption or cessation of service by external service providers could disrupt operations",
+      "System failures and constraints at intermediaries could result in delays and erroneous execution prices",
+      "Switching to alternative service providers may require transition period and result in less efficient operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation under federal, state, and foreign laws by governmental agencies, supervisory authorities, and self-regulatory organizations",
+    "Federal Reserve capital requirements and stress testing requirements",
+    "FDIC deposit insurance assessments and special assessments",
+    "SEC Customer Protection Rule and net capital requirements for broker-dealers",
+    "CFTC and NFA net capital requirements",
+    "Bank Secrecy Act and USA PATRIOT Act compliance requirements",
+    "Office of Foreign Assets Control sanctions programs",
+    "Community Reinvestment Act requirements",
+    "Consumer Financial Protection Bureau oversight",
+    "Proposed changes to regulatory capital rules requiring inclusion of AOCI in regulatory capital",
+    "Proposed long-term debt requirements for large banking organizations",
+    "Proposed amendments to brokered deposits framework",
+    "SEC equity market structure proposals including Order Competition Rule and Regulation Best Execution",
+    "Department of Labor fiduciary rule changes",
+    "Liquidity Coverage Ratio requirements",
+    "Net Stable Funding Ratio requirements",
+    "Enhanced prudential standards including risk management, liquidity stress testing, and single counterparty credit limits",
+    "Market Risk Rule requirements",
+    "Volcker Rule restrictions on proprietary trading and hedge fund investments",
+    "Potential restrictions on capital distributions and discretionary bonus payments if capital buffers fall below requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Subject to U.S. sanctions programs administered by Office of Foreign Assets Control",
+      "Compliance requirements for Anti-Money Laundering and sanctions programs"
+    ]
+  }
+}

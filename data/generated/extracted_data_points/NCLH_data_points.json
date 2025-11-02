@@ -1,0 +1,116 @@
+{
+  "ticker": "NCLH",
+  "company_name": "Norwegian Cruise Line Holdings Ltd.",
+  "company_type": "Cruise Line Operator",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia-Pacific",
+      "Caribbean",
+      "South America",
+      "Africa",
+      "Australia",
+      "New Zealand"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Bahamas",
+      "Marshall Islands",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Norway",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Greece",
+      "China",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Brazil",
+      "Argentina",
+      "South Africa",
+      "Belize",
+      "Alaska",
+      "Hawaii"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Norwegian Cruise Line",
+    "Oceania Cruises",
+    "Regent Seven Seas Cruises"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fincantieri (Italian shipyard)",
+      "Meyer Werft (German shipyard)"
+    ],
+    "manufacturing_locations": [
+      "Italy",
+      "Germany",
+      "France"
+    ],
+    "dependencies": "Consolidation of qualified shipyard facilities could result in higher prices for construction of new ships and limit availability. Limited capacity and availability of shipyards and related subcontractors, including lack of viable dry-dock facilities in Western Hemisphere. Single vendor provides hotel and restaurant services including food and labor costs.",
+    "risks": "Consolidation of control of certain European cruise shipyards could result in higher prices and limited availability. Lack of qualified shipyard repair facilities could result in inability to repair and maintain ships on a timely basis. Delays in shipbuilding program due to work stoppages, insolvency, force majeure events, regulatory changes, sustainability initiatives. Supply chain disruptions from global events including armed conflicts and pandemics.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "International Maritime Organization (IMO) environmental regulations including MARPOL",
+    "EU Emissions Trading System (ETS) - maritime sector inclusion effective January 2024",
+    "FuelEU Maritime Initiative - GHG intensity limits starting 2025",
+    "Carbon Intensity Indicator (CII) requirements - annual ratings from A to E",
+    "Energy Efficiency Ship Index (EEXI) requirements",
+    "EPA Vessel General Permit (VGP) requirements",
+    "Vessel Incidental Discharge Act (VIDA) implementation",
+    "Oil Pollution Act of 1990 (OPA 90) compliance",
+    "State of Alaska environmental legislation and discharge restrictions",
+    "EU regulations on sulfur emissions and fuel requirements",
+    "Shore power connection requirements in EU ports by 2030",
+    "SOLAS safety and security requirements",
+    "International Port and Ship Facility Code (ISPS Code)",
+    "Maritime Transportation Security Act of 2002 (MTSA)",
+    "Maritime Labor Convention (MLC 2006) requirements",
+    "Federal Maritime Commission (FMC) financial responsibility requirements",
+    "UK consumer protection and financial security requirements",
+    "CDC health and safety requirements",
+    "FDA food and water safety regulations",
+    "Data privacy and protection laws in multiple jurisdictions",
+    "Payment Card Industry security requirements",
+    "OECD BEPS 2.0 Pillar 2 global tax reform - 15% minimum tax",
+    "Bermuda Corporate Income Tax Act 2023 - 15% tax effective January 2025",
+    "Economic substance requirements in Bermuda, Guernsey, Isle of Man, British Virgin Islands, Bahamas, Saint Lucia",
+    "Port capacity constraints and local government restrictions on cruise operations",
+    "Environmental regulations aimed at reducing greenhouse gas emissions",
+    "Increased government taxes, fees and port expenses",
+    "Potential new taxes or fees specifically applicable to cruise industry"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Armed conflicts and geopolitical tensions impacting operations and itineraries",
+      "Government sanctions limiting destinations and operations",
+      "Trade disputes and increased tariffs affecting costs",
+      "Political instability in various countries affecting port availability",
+      "Regulatory changes due to geopolitical developments",
+      "Difficulty sourcing crew members, guests and vendors from affected regions",
+      "Supply chain disruptions from armed conflicts",
+      "Volatility in global financial markets from geopolitical tensions",
+      "Increased fuel and commodity pricing from conflicts",
+      "Helms-Burton Act litigation related to Cuban operations"
+    ]
+  }
+}

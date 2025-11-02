@@ -1,0 +1,135 @@
+{
+  "ticker": "LMT",
+  "company_name": "Lockheed Martin Corporation",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Other"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Australia",
+      "Japan",
+      "Spain",
+      "Republic of Korea",
+      "Poland",
+      "India",
+      "Philippines",
+      "Thailand",
+      "Kingdom of Saudi Arabia",
+      "Greece",
+      "Czech Republic",
+      "Singapore",
+      "Romania",
+      "Chile",
+      "New Zealand",
+      "Germany",
+      "France",
+      "Italy",
+      "Taiwan",
+      "Turkey",
+      "Ukraine",
+      "Israel",
+      "China",
+      "Russia",
+      "Iran",
+      "Norway"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aeronautics",
+    "Missiles and Fire Control",
+    "Rotary and Mission Systems",
+    "Space"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Poland"
+    ],
+    "dependencies": [
+      "Rare earth minerals supply chain dependencies",
+      "Advanced microelectronics including semiconductors supply dependencies",
+      "Multi-tiered supplier base with compliance requirements",
+      "Single or sole sourced components for significant number of supplies"
+    ],
+    "risks": [
+      "Supply chain challenges including supplier shortages and performance issues",
+      "Parts shortages and extended lead times",
+      "Pricing escalations from suppliers",
+      "Supplier disputes and regulatory restrictions",
+      "Inflationary pressures affecting supplier costs",
+      "Supplier disruptions causing delays and increased costs",
+      "Dependencies on suppliers for materials, components and services",
+      "Risk of supplier failure to perform obligations",
+      "Supply chain disruptions from geopolitical events",
+      "China export restrictions on certain minerals used in semiconductors and missile systems",
+      "China banned export of certain minerals to the U.S.",
+      "Compliance requirements for suppliers accessing controlled unclassified information",
+      "Cybersecurity incidents at suppliers could adversely impact business",
+      "Supplier capacity constraints limiting production ramp-up"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Government contract regulations and compliance requirements under FAR and DFARS",
+    "Cost Accounting Standards (CAS) compliance",
+    "Export controls and technology transfer restrictions",
+    "Foreign Corrupt Practices Act compliance",
+    "Anti-boycott provisions of U.S. Export Control Reform Act of 2018",
+    "ITAR (International Traffic in Arms Regulations) compliance",
+    "Cybersecurity regulations including DFARS requirements for safeguarding controlled unclassified information",
+    "Cybersecurity Maturity Model Certification (CMMC) program requirements",
+    "Environmental regulations including discharge of hazardous materials and remediation requirements",
+    "CERCLA (Comprehensive Environmental Response, Compensation and Liability Act) compliance",
+    "Climate change related regulations including greenhouse gas emissions reporting",
+    "Potential new regulations on perchlorate and hexavalent chromium cleanup standards",
+    "PFAS (per- and polyfluoroalkyl substances) regulations for drinking water contamination",
+    "SEC climate-related disclosure requirements",
+    "Procurement restrictions on sourcing from specified countries",
+    "Prohibition on acquisition of sensitive materials from non-allied foreign nations",
+    "Prohibition on acquisition of certain telecommunications and video surveillance equipment",
+    "Business system reviews and approval requirements",
+    "ERISA compliance for pension plans",
+    "Tax regulations including research and development capitalization requirements",
+    "OECD Pillar 2 global minimum corporate tax framework",
+    "Foreign investment regulations",
+    "Sanctions compliance",
+    "Commercial Space Launch Act requirements",
+    "Price-Anderson Act nuclear liability provisions",
+    "SAFETY Act provisions of Homeland Security Act",
+    "False Claims Act liability",
+    "Truthful Cost or Pricing Data Act compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan",
+      "Turkey",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. Government sanctions on Turkish entities affecting ability to obtain export permits for Turkish Utility Helicopter Program",
+      "Economic sanctions and export controls related to Russia's invasion of Ukraine",
+      "Sanctions relating to conflicts in the Middle East",
+      "China sanctions on Lockheed Martin and executives related to Taiwan foreign military sales",
+      "China export restrictions on rare earth minerals",
+      "Risk of additional China sanctions affecting suppliers, teammates and partners",
+      "Potential sanctions impacting international sales and operations"
+    ]
+  }
+}

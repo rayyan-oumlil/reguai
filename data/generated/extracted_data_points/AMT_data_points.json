@@ -1,0 +1,117 @@
+{
+  "ticker": "AMT",
+  "company_name": "American Tower Corporation",
+  "company_type": "Real Estate Investment Trust (REIT) - Communications Infrastructure",
+  "geography": {
+    "regions": [
+      "U.S. & Canada",
+      "Africa & APAC",
+      "Europe",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Bangladesh",
+      "Burkina Faso",
+      "Ghana",
+      "Kenya",
+      "Niger",
+      "Nigeria",
+      "Philippines",
+      "South Africa",
+      "Uganda",
+      "France",
+      "Germany",
+      "Spain",
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Mexico",
+      "Paraguay",
+      "Peru",
+      "India",
+      "Australia",
+      "New Zealand",
+      "Poland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "U.S. & Canada": 0.52,
+      "Africa & APAC": 0.12,
+      "Europe": 0.08,
+      "Latin America": 0.17,
+      "Data Centers": 0.09,
+      "Services": 0.02
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. & Canada property",
+    "Africa & APAC property",
+    "Europe property",
+    "Latin America property",
+    "Data Centers",
+    "Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on wireless service providers for tenant demand",
+      "Dependence on ground lease agreements with property owners",
+      "Reliance on internet service providers, telecommunications carriers and utility providers for data centers",
+      "Dependence on small number of major wireless carriers as customers"
+    ],
+    "risks": [
+      "Concentration risk with small number of customers (60% of revenues from four customers)",
+      "Supply chain delays or shortages from natural disasters or unforeseen events",
+      "Dependence on third-party vendors for operations",
+      "Power availability and grid distribution constraints for data centers",
+      "Fuel availability and reliability of electrical grids in international markets"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FCC and FAA pre-approval requirements for tower construction and modifications in United States",
+    "Licensing requirements for passive telecommunications infrastructure in Africa & APAC markets",
+    "Zoning restrictions and community opposition to tower construction",
+    "Environmental laws relating to hazardous substances, emissions, and remediation",
+    "Data privacy laws and regulations",
+    "BBBEE Act compliance requirements in South Africa",
+    "Spectrum license restrictions or revocations by foreign regulatory authorities",
+    "Foreign ownership restrictions in certain markets",
+    "Climate-related disclosure requirements (California and European Union)",
+    "Greenhouse gas emissions regulations and fossil fuel use restrictions",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Tax law changes and transfer pricing regulations in international jurisdictions",
+    "OECD Global Anti-Base Erosion Rules (Pillar 2 Rules) potential application",
+    "State and local fire and life safety regulations for data centers",
+    "Americans with Disabilities Act (ADA) requirements for data centers",
+    "FCPA and anti-bribery law compliance requirements",
+    "Office of Foreign Assets Control (OFAC) requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Nigeria",
+      "Ghana",
+      "Argentina",
+      "India"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Failure to comply with Office of Foreign Assets Control requirements",
+      "Actions restricting or revoking customers' spectrum licenses in foreign markets",
+      "Anti-American sentiment or adverse impacts from United States trade or foreign policy",
+      "Governmental regulation restricting foreign ownership or requiring reversion or divestiture",
+      "Expropriation resulting in government takeover of operations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Property": 0.98,
+    "Services": 0.02
+  }
+}

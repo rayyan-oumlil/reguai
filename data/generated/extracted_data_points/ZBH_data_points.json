@@ -1,0 +1,113 @@
+{
+  "ticker": "ZBH",
+  "company_name": "Zimmer Biomet Holdings, Inc.",
+  "company_type": "Medical Devices - Orthopedics",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Canada",
+      "Mexico",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "United Kingdom",
+      "Switzerland",
+      "Belgium",
+      "Netherlands",
+      "Luxembourg",
+      "Denmark",
+      "Norway",
+      "Sweden",
+      "Poland",
+      "Czech Republic",
+      "Russia",
+      "Turkey",
+      "South Africa",
+      "Japan",
+      "China",
+      "Australia",
+      "New Zealand",
+      "South Korea",
+      "Taiwan",
+      "India",
+      "Thailand",
+      "Singapore",
+      "Hong Kong",
+      "Malaysia",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.578,
+      "International": 0.422
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Knees",
+    "Hips",
+    "S.E.T. (Sports Medicine, Extremities, Trauma, Craniomaxillofacial and Thoracic)",
+    "Technology & Data, Bone Cement and Surgical"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Switzerland",
+      "Ireland",
+      "China",
+      "Puerto Rico"
+    ],
+    "dependencies": "Certain materials and components can only be obtained from a single source or a limited number of sources due to quality considerations, expertise, costs or constraints resulting from regulatory requirements",
+    "risks": "Reduction or interruption in supply of materials or components; inability to timely develop and validate alternative sources; significant increase in price of materials or components; sterilization capacity constraints; supplier bankruptcy or financial constraints; global supply chain disruptions from macro factors",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA Quality System regulations and inspections",
+    "European Union Medical Device Regulation (EU MDR) compliance requirements",
+    "UK Medical Device Regulation (UK MDR) implementation",
+    "Healthcare fraud and abuse laws (False Claims Act, Anti-Kickback Statute, Stark law)",
+    "Physician Payments Sunshine Act compliance",
+    "Foreign Corrupt Practices Act (FCPA) violations",
+    "United Kingdom Bribery Act compliance",
+    "Data privacy and security laws (GDPR, state privacy laws)",
+    "Medical device cybersecurity regulations",
+    "Artificial intelligence and machine learning regulatory requirements",
+    "Healthcare cost containment measures and reimbursement reductions",
+    "Volume-based procurement (VBP) processes in China",
+    "Buy local initiatives in various countries",
+    "Italy Pay Back law and Fund for Government of Medical Devices",
+    "Trade tariffs and export controls",
+    "OFAC sanctions compliance",
+    "Product recall and safety alert requirements",
+    "Environmental and occupational safety regulations",
+    "Tax law changes including OECD Pillar Two implementation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "OFAC sanctions affecting ability to operate in certain markets",
+      "Trade embargoes restricting product shipments",
+      "Sanctions impacting ability to collect payment in affected countries",
+      "Export controls on goods to China and certain other countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Knees": 0.413,
+    "Hips": 0.26,
+    "S.E.T.": 0.243,
+    "Technology & Data, Bone Cement and Surgical": 0.083
+  }
+}

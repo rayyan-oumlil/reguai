@@ -1,0 +1,104 @@
+{
+  "ticker": "NTAP",
+  "company_name": "NetApp, Inc.",
+  "company_type": "Technology - Data Infrastructure and Storage Solutions",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Netherlands",
+      "Hungary",
+      "Taiwan",
+      "Singapore",
+      "Ireland",
+      "India",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Australia",
+      "Japan",
+      "Cyprus",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Hybrid Cloud",
+    "Public Cloud"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (Fremont, California; San Jose, California)",
+      "Mexico (Guadalajara)",
+      "Netherlands (Schiphol Airport; Helmond)",
+      "Hungary (Tiszaujvaros)",
+      "Taiwan (Taoyuan City)",
+      "Singapore"
+    ],
+    "dependencies": "Limited number of suppliers for drives and other components; reliance on third-party contract manufacturers; single-source suppliers for certain components; consolidation among suppliers in semiconductor and storage media industries",
+    "risks": [
+      "Limited control over manufacturing operations outsourced to third parties",
+      "Supply chain disruptions from geopolitical disputes, acts of terrorism, cyber attacks",
+      "Natural disasters (floods, earthquakes, storms, fires) especially from climate change",
+      "Labor and political unrest at facilities not operated or owned by NetApp",
+      "Business, regulatory compliance, legal compliance issues affecting suppliers",
+      "Supply constraints and price increases from limited supplier base",
+      "Dependence on limited number of suppliers for critical components (NAND, drives)",
+      "Supplier consolidation leading to price volatility and supply constraints",
+      "Potential for suppliers to allocate volumes to competitors during constraints"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. government spending uncertainty and budget constraints",
+    "Compliance with U.S. government regulatory and contractual requirements (pricing, cybersecurity, procurement integrity)",
+    "False Claims Act and other statute violations risk",
+    "Government certification requirements changes (CMMC, EO 14028, Section 5949 of FY23 NDAA)",
+    "Export control laws and regulations (Export Administration Regulations, OFAC sanctions)",
+    "Restrictions on sale/export to certain countries, entities, persons (Russia, Belarus, Ukraine regions)",
+    "Data privacy and protection laws (GDPR, CCPA, California Privacy Rights Act, state-based regulations)",
+    "Digital Operational Resilience Act (DORA) for EU financial institutions",
+    "Environmental regulations (REACH, ErP, RoHS, WEEE, EPR regulations)",
+    "ISO 14001 environmental management requirements",
+    "Human trafficking supply chain regulations (U.S., UK, Australia)",
+    "BEPS Pillar Two global minimum tax framework",
+    "Potential AI regulation and compliance requirements",
+    "Intellectual property laws varying by jurisdiction",
+    "Antitrust and anti-competition laws in U.S. and foreign jurisdictions",
+    "Tax law changes and OECD BEPS implementation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government sanctions on Russia, Belarus, and regions of Ukraine",
+      "Economic sanctions and export controls impacting product sales and service",
+      "Potential retaliatory trade actions from countries targeted by U.S. tariffs",
+      "Risk of nationalization of foreign businesses in Russia",
+      "Currency restrictions and regulations in sanctioned countries",
+      "U.S.-China trade tensions and investment restrictions (Outbound Investment Security Program)",
+      "Tensions between China and Taiwan affecting supply chain component sourcing",
+      "Tariffs and trade barriers (recent U.S. tariffs on certain products and countries, potential future tariffs)",
+      "Export restrictions on semiconductor products and services to certain countries"
+    ]
+  }
+}

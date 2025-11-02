@@ -1,0 +1,139 @@
+{
+  "ticker": "PFE",
+  "company_name": "Pfizer Inc.",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "International Developed Markets",
+      "International Emerging Markets",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Belgium",
+      "Ireland",
+      "Netherlands",
+      "Sweden",
+      "Japan",
+      "China",
+      "Singapore",
+      "India",
+      "Australia",
+      "New Zealand",
+      "South Korea",
+      "Brazil",
+      "Mexico",
+      "Israel",
+      "Russia",
+      "Ukraine",
+      "Turkey"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Biopharma",
+    "Pfizer CentreOne",
+    "Pfizer Ignite",
+    "Primary Care",
+    "Specialty Care",
+    "Oncology",
+    "Pfizer U.S. Commercial Division",
+    "Pfizer Oncology Division",
+    "Pfizer International Commercial Division"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Belgium",
+      "Germany",
+      "India",
+      "Ireland",
+      "Italy",
+      "Japan",
+      "Singapore",
+      "Puerto Rico",
+      "China"
+    ],
+    "dependencies": [
+      "Reliance on third-party suppliers for raw materials and components",
+      "Contract manufacturers for certain products",
+      "Single-source suppliers for certain materials",
+      "Complex global supply chain vulnerable to disruptions"
+    ],
+    "risks": [
+      "Supply chain disruptions due to geopolitical tensions and trade negotiations",
+      "Potential impact of tariffs on business operations",
+      "Regulatory actions and shut-downs affecting manufacturing",
+      "Natural or man-made disasters including climate change impacts",
+      "Voluntary product recalls affecting supply",
+      "Challenges with component materials quality and regulatory compliance",
+      "Cyber-attacks on supplier systems",
+      "Labor disputes or shortages",
+      "Pandemic impacts on supply chain"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval requirements and delays",
+    "EMA regulatory requirements in Europe",
+    "Drug pricing regulations under the Inflation Reduction Act (IRA)",
+    "Medicare Drug Price Negotiation Program (MDPNP)",
+    "Medicaid Drug Rebate Program changes",
+    "340B Program expansion and compliance",
+    "State-level pharmaceutical pricing regulations",
+    "International price controls in EU member states, UK, Japan, China, Canada",
+    "China Volume-Based Procurement (VBP) and Quality Consistency Evaluation (QCE) processes",
+    "EU pharmaceutical legislation reform",
+    "Health Technology Assessment regulations",
+    "Patent challenges and intellectual property protection weaknesses",
+    "Anti-Kickback Statute compliance",
+    "False Claims Act exposure",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "Data privacy regulations (HIPAA, GDPR equivalents)",
+    "Environmental regulations and compliance costs",
+    "cGMP manufacturing requirements",
+    "Pharmacovigilance and post-marketing requirements",
+    "Product liability litigation risks",
+    "Antitrust and competition law compliance",
+    "Healthcare provider transparency and disclosure requirements",
+    "Trade restrictions and import/export controls",
+    "Sanctions compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Exposure to capital and exchange controls in certain markets",
+      "Risk of expropriation in unstable jurisdictions",
+      "Sanctions and restrictive government actions",
+      "Trade conflicts and potential tariff impacts",
+      "Russia-Ukraine conflict impacts on operations",
+      "Middle East conflicts affecting business",
+      "Potential drug importation restrictions",
+      "International reference pricing pressures",
+      "Compulsory licensing risks in certain jurisdictions",
+      "Intellectual property protection weaknesses in emerging markets"
+    ]
+  }
+}

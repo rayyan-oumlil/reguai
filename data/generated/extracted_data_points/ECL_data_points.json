@@ -1,0 +1,143 @@
+{
+  "ticker": "ECL",
+  "company_name": "Ecolab Inc.",
+  "company_type": "Water, Hygiene and Infection Prevention Solutions",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "India, Middle East and Africa",
+      "Greater China"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Argentina",
+      "Turkey",
+      "Egypt",
+      "Russia",
+      "Ukraine",
+      "China",
+      "Dominican Republic",
+      "Luxembourg",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Brazil",
+      "India",
+      "United Arab Emirates",
+      "Singapore",
+      "Switzerland",
+      "Korea",
+      "Taiwan",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Malaysia",
+      "Japan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.29,
+      "Europe": 0.16,
+      "Asia Pacific": 0.09,
+      "Latin America": 0.07,
+      "India, Middle East and Africa": 0.04,
+      "Greater China": 0.04,
+      "Canada": 0.03
+    },
+    "assets_by_region": {
+      "United States": 0.69,
+      "Europe": 0.15,
+      "Asia Pacific": 0.05,
+      "Greater China": 0.04,
+      "Latin America": 0.04,
+      "India, Middle East and Africa": 0.02,
+      "Canada": 0.02
+    }
+  },
+  "segments": [
+    "Global Industrial",
+    "Global Institutional & Specialty",
+    "Global Healthcare & Life Sciences",
+    "Global Pest Elimination",
+    "Water",
+    "Food & Beverage",
+    "Paper",
+    "Institutional",
+    "Specialty",
+    "Healthcare",
+    "Life Sciences",
+    "Pest Elimination"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "International (37 countries)"
+    ],
+    "dependencies": [
+      "Purchases more than 10,000 raw materials with largest single raw material representing approximately 4% of purchases",
+      "Raw materials generally available from diverse group of suppliers globally",
+      "U.S. Gulf Coast region significant for raw materials and customer base - vulnerable to hurricanes and severe weather",
+      "Global supply chain constraints mentioned in prior periods"
+    ],
+    "risks": [
+      "Raw material price fluctuations and unavailability",
+      "Supply chain disruptions from geopolitical tensions",
+      "Hurricanes or severe weather events impacting Gulf Coast operations",
+      "Inability to obtain raw materials at favorable prices",
+      "Supplier performance disruption from economic volatility",
+      "Chemical spill or release during production, transportation, storage or use"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Ingredient legislation (phosphorous, volatile organic compounds, PFAS regulations)",
+    "California Proposition 65 label disclosure requirements",
+    "Cleaning Product Right to Know Act ingredient transparency requirements",
+    "TSCA (Toxic Substances Control Act) and Frank R. Lautenberg Chemical Safety Act compliance",
+    "REACH (Registration, Evaluation and Authorization of Chemicals) in European Union",
+    "GHS (Globally Harmonized System) chemical labeling requirements",
+    "Pesticide and biocide legislation (FIFRA, EPA registration requirements)",
+    "FDA antimicrobial product requirements",
+    "Medical device, drug and cosmetic product regulations (FDA, EU MDR, TGA Australia)",
+    "Environmental regulations (Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act)",
+    "Climate change regulations (California GHG emissions reporting, EU Corporate Sustainability Reporting Directive)",
+    "OECD Pillar Two global minimum tax (15% rate)",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Economic sanctions regulations",
+    "Data privacy regulations",
+    "Trade restrictions and tariffs",
+    "Changes in tax laws and regulations",
+    "Product registration and approval requirements across jurisdictions",
+    "Environmental remediation requirements (CERCLA/Superfund sites)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Argentina",
+      "Turkey",
+      "Egypt",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions following Ukraine invasion - limited operations to essential life support",
+      "U.S. and international sanctions against Russia",
+      "Potential additional sanctions impacting operations",
+      "Economic sanctions compliance requirements globally"
+    ]
+  },
+  "revenue_by_segment": {
+    "Global Industrial": 0.49,
+    "Global Institutional & Specialty": 0.34,
+    "Global Healthcare & Life Sciences": 0.09,
+    "Global Pest Elimination": 0.07
+  }
+}

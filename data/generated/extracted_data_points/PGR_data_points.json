@@ -1,0 +1,83 @@
+{
+  "ticker": "PGR",
+  "company_name": "The Progressive Corporation",
+  "company_type": "Property and Casualty Insurance",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Personal Lines",
+    "Commercial Lines",
+    "Other Indemnity"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Network of about 3,700 third-party repair shops for vehicle claims",
+      "Network of independent claim field adjusters for personal property claims",
+      "Independent insurance agencies (over 40,000 agencies)",
+      "Third-party systems and applications for business operations",
+      "Cloud computing environments and software as a service applications",
+      "Third-party vendors for technology systems"
+    ],
+    "risks": [
+      "Reliance on third-party systems - interruption or degradation of service from third-party systems could impair critical business functions",
+      "Vendor concentration - determination by a vendor to abandon or terminate support for a system, product, obligation, or service significant to business",
+      "Third-party vendor cybersecurity risks - increased risk of loss, corruption, or unauthorized access to data through vendor connections",
+      "Vendor lax security measures, data location uncertainty, and data storage in inappropriate jurisdictions",
+      "Competitive labor markets causing increased costs for third-party labor",
+      "Loss of access to qualified external talent on a cost-effective basis"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Insurance regulation and supervision by insurance departments in all 50 states, District of Columbia, Bermuda, and Canada",
+    "Licensing requirements for insurers and agents",
+    "Capital and surplus requirements",
+    "Restrictions on marketing practices",
+    "Statutory accounting principles and reporting requirements",
+    "Requirements for establishing insurance reserves",
+    "Investment restrictions and limitations",
+    "Acquisitions of insurers and transactions between insurers and affiliates regulated",
+    "Limitations on rates of return or profitability",
+    "Rating criteria, rate levels, and rate changes subject to regulatory approval",
+    "Insolvency regulations and guaranty fund assessments",
+    "Assigned risk programs and involuntary market plans",
+    "Authority to exit a business subject to regulatory approval",
+    "Required coverages, policy forms, policy cancellations and non-renewals regulated",
+    "Underwriting standards and claims handling requirements",
+    "Rate regulation varies from 'use and file' to 'file and use' to 'prior approval'",
+    "Laws and regulations limiting use of specific rating factors (credit, education, occupation)",
+    "Data privacy and security laws and regulations with complex compliance and reporting requirements",
+    "Cybersecurity regulations and regulatory expectations",
+    "NAIC AI guiding principles and model bulletin adopted by nearly half of state insurance departments",
+    "State AI legislation and regulations on use of artificial intelligence and algorithms",
+    "Laws regarding unfair claims and trade practices applicable to AI activities",
+    "Federal laws on use of credit information, methods of customer communications, employment practices, medical cost reimbursement",
+    "Risk-based capital (RBC) program requirements",
+    "Holding company laws regulating dividends and distributions between insurers and affiliates",
+    "Laws limiting ability to cancel or non-renew policies",
+    "Laws prohibiting withdrawal from markets without approved plan",
+    "Potential federal regulation of insurance industry",
+    "Federal Insurance Office monitoring for systemic risk",
+    "ESG and sustainability regulations potentially narrowing universe of permitted securities",
+    "Regulations on environmental, social, and governance investment disclosures"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "ticker": "AEE",
+  "company_name": "Ameren Corporation",
+  "company_type": "Electric and Natural Gas Utility",
+  "geography": {
+    "regions": [
+      "Missouri",
+      "Illinois",
+      "Midwest United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Ameren Illinois Natural Gas",
+    "Ameren Missouri",
+    "Ameren Transmission",
+    "Ameren Illinois Electric Distribution"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Mississippi River Transmission Corporation",
+      "Trunkline Gas Company",
+      "Powder River Basin (Wyoming)",
+      "NRC-licensed nuclear fuel assembly supplier for Callaway Energy Center",
+      "Natural Gas Pipeline Company of America",
+      "Northern Border Pipeline Company",
+      "Powder River Basin (Wyoming) coal suppliers",
+      "Texas Eastern Transmission Corporation",
+      "MoGas Pipeline",
+      "Panhandle Eastern Pipe Line Company"
+    ],
+    "manufacturing_locations": [
+      "United States"
+    ],
+    "dependencies": "About 97% of Ameren Missouri's coal is purchased from the Powder River Basin in Wyoming, which has a limited number of suppliers. Limited availability of fuel supply and reliance on licensed fuel assemblies from primarily one NRC-licensed supplier for Callaway Energy Center's assemblies.",
+    "risks": [
+      "f",
+      "S",
+      "t",
+      "P",
+      "l",
+      "u",
+      "a",
+      "b",
+      "g",
+      "B",
+      ";",
+      "e",
+      "-",
+      "d",
+      "r",
+      ",",
+      "q",
+      "h",
+      "v",
+      "c",
+      "s",
+      " ",
+      "R",
+      "m",
+      ".",
+      "D",
+      "k",
+      "n",
+      "w",
+      "i",
+      "o",
+      "y",
+      "p"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "CCR Rule requirements for coal ash management and disposal",
+    "FERC regulations, rules, and orders with potential civil penalties of approximately $1.6 million per violation per day",
+    "EPA regulations on CO2 emissions from coal-fired and natural gas-fired power plants requiring carbon capture technology or co-firing",
+    "Environmental regulations including Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act, CCR Rule",
+    "Illinois CEJA emissions limits on natural gas-fired energy centers requiring closure by 2040",
+    "Complex new and proposed environmental laws including air and water quality standards, mercury emissions standards, limitations on natural gas use in generation, CCR management requirements, potential CO2 limitations",
+    "Missouri and Illinois state regulatory commission prudence reviews and rate recovery limitations",
+    "Pressure from public interest groups regarding limiting the use of natural gas and proposed restrictions by state and local authorities",
+    "Potential future greenhouse gas reduction requirements from international agreements or federal legislation",
+    "PHMSA rules and regulations for natural gas transmission, distribution, and storage facilities",
+    "Rate and cost structure regulation by MoPSC, ICC, and FERC",
+    "Corporate tax law changes including IRA and potential additional interpretations, regulations, amendments affecting income tax payments or transferability of production and investment tax credits",
+    "Illinois CEJA emission limits on natural gas-fired energy centers requiring closure by 2040",
+    "Regulatory compliance proceedings that could result in increasing costs, regulatory penalties, and/or other sanctions",
+    "Illinois utilities subject to ethical conduct requirements and ICC investigations with penalties up to $0.5 million per violation",
+    "Federal Power Act Section 305(a) restrictions on dividend payments from capital accounts",
+    "State implementation plan approvals under Good Neighbor Rule",
+    "Regulatory lag exposure to differences in costs incurred and actual sales volumes compared with amounts included in customer rates",
+    "NERC reliability standards including cybersecurity standards",
+    "EPA rules on CO2 emission standards for existing coal-fired and new natural gas-fired power plants",
+    "Price-Anderson Act liability limits for nuclear incidents",
+    "Environmental laws regulating air emissions, water discharges, hazardous substances, waste materials, emergency planning, natural resource protection",
+    "Potential changes in laws, regulations, enforcement efforts, and policies at federal, state, and international levels",
+    "Revised MATS standards for particulate matter emissions and continuous emissions monitoring",
+    "Clean Air Act compliance including NSPS, MATS, CSAPR, and National Ambient Air Quality Standards",
+    "Environmental remediation obligations for former MGP sites",
+    "Clean Water Act regulations on cooling water intake structures",
+    "IRS normalization rules and tax allocation agreement compliance",
+    "NRC licensing and safety requirements for nuclear operations",
+    "Operation of nuclear power plants regulated by NRC",
+    "FERC ROE methodology changes and complaint cases affecting transmission rates",
+    "Extensive regulation of electric and natural gas utility industries by federal, state, and local authorities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Effects of changes in federal, state, or local laws and other domestic or international governmental actions, including monetary, fiscal, foreign trade, and energy policies, tariffs, or extended federal government shutdowns or defunding",
+      "Impacts of the Russian invasion of Ukraine and conflicts in the Middle East, related sanctions imposed by the United States and other governments, and any broadening of these or other global conflicts, including potential impacts on the cost and availability of fuel, natural gas, enriched uranium, and other commodities, materials, and services"
+    ]
+  },
+  "revenue_by_segment": {
+    "Ameren Missouri": 0.524,
+    "Ameren Illinois Electric Distribution": 0.274,
+    "Ameren Illinois Natural Gas": 0.123,
+    "Ameren Transmission": 0.102,
+    "Other": -0.023
+  }
+}

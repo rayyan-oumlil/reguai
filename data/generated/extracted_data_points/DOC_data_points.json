@@ -1,0 +1,95 @@
+{
+  "ticker": "DOC",
+  "company_name": "Healthpeak Properties, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Healthcare",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "California": 0.31,
+      "Florida": 0.1,
+      "Texas": 0.11,
+      "Massachusetts": 0.1,
+      "Other States": 0.624
+    },
+    "assets_by_region": {
+      "California": 0.38,
+      "Florida": 0.1,
+      "Texas": 0.1,
+      "Colorado": 0.023,
+      "Pennsylvania": 0.015,
+      "Tennessee": 0.025,
+      "Georgia": 0.014,
+      "Massachusetts": 0.15,
+      "Other States": 0.464
+    }
+  },
+  "segments": [
+    "Continuing Care Retirement Community (CCRC)",
+    "Lab",
+    "CCRC (Continuing Care Retirement Community)",
+    "Outpatient Medical"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "CommonSpirit Health",
+      "HCA Healthcare, Inc."
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on third-party operators and property managers for RIDEA structures and property management services",
+    "risks": [
+      "Concentration of properties in certain geographic markets, reliance on third-party operators for CCRC facilities, construction and development project execution risks",
+      "Labor shortages and increased labor costs, construction material shortages, supply chain disruptions affecting construction and development projects"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Building performance standards and net zero/carbon neutrality requirements",
+    "Healthcare fraud and abuse laws including anti-kickback statutes and Stark Law",
+    "Environmental laws and regulations including hazardous substance cleanup liability",
+    "Business combination accounting (ASC 805)",
+    "Healthcare transaction review and approval requirements by federal and state authorities",
+    "Certificate of Need (CON) laws in various states",
+    "Derivative accounting and hedge accounting requirements",
+    "State licensure and certification requirements for healthcare facilities",
+    "Securities regulations (SEC reporting, Sarbanes-Oxley compliance)",
+    "Healthcare facility regulations (FDA, healthcare licensing)",
+    "Credit loss accounting (CECL model)",
+    "CARES Act compliance for government grants",
+    "HIPAA privacy and security requirements",
+    "Environmental liability regulations",
+    "FDIC insurance limitations on cash deposits",
+    "Lease accounting standards (ASC 842)",
+    "Real estate regulatory compliance including environmental laws (asbestos management)",
+    "Americans with Disabilities Act (ADA) compliance requirements",
+    "FDA approval requirements for lab tenants' products",
+    "New disclosure requirements for nursing facility ownership by CMS",
+    "Changes to tax laws affecting REITs and healthcare real estate investment",
+    "Property insurance and casualty regulations",
+    "Eviction moratorium laws and regulations",
+    "Climate change and sustainability regulations",
+    "CARES Act Provider Relief Fund compliance and potential recovery actions",
+    "State and local income taxes in various jurisdictions",
+    "Federal and state income tax compliance for taxable REIT subsidiaries",
+    "REIT qualification requirements under Internal Revenue Code",
+    "Extensive federal, state, and local healthcare laws and regulations affecting tenants and operators",
+    "REIT qualification requirements under Internal Revenue Code Sections 856-860",
+    "Medicare and Medicaid reimbursement changes and rate adjustments"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Outpatient medical": 0.45,
+    "Lab": 0.33,
+    "CCRC": 0.21
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "ticker": "SPGI",
+  "company_name": "S&P Global Inc.",
+  "company_type": "Financial Services - Credit Ratings, Benchmarks, Analytics and Workflow Solutions",
+  "geography": {
+    "regions": [
+      "United States",
+      "European region",
+      "Asia",
+      "Rest of the world"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Netherlands",
+      "Australia",
+      "India",
+      "China",
+      "Canada",
+      "Mexico",
+      "Iran",
+      "Russia",
+      "Venezuela",
+      "Belarus",
+      "Norway"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "S&P Global Market Intelligence",
+    "S&P Global Ratings",
+    "S&P Global Commodity Insights",
+    "S&P Global Mobility",
+    "S&P Dow Jones Indices"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Amazon Web Services"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party data suppliers for various products",
+      "AWS as preferred cloud provider for technology infrastructure",
+      "Third-party service providers for information technology outsourcing"
+    ],
+    "risks": [
+      "Consolidation of suppliers reducing number of partner firms and increasing fees",
+      "Termination of significant data agreements on short notice",
+      "Reliance on AWS for distributed computing infrastructure",
+      "Third-party service provider failures or disruptions",
+      "Supplier concentration risk"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Credit Rating Agency Reform Act of 2006 compliance",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act requirements",
+    "EU credit rating agency regulation (CRA1, CRA3)",
+    "UK Financial Conduct Authority oversight",
+    "ESMA supervision in European Union",
+    "SEC oversight as NRSRO",
+    "EU Benchmark Regulation and UK Benchmark Regulation",
+    "Australian Benchmark Regulation (ASIC license)",
+    "MiFID II requirements in EU",
+    "IOSCO Principles for Oil Price Reporting Agencies",
+    "IOSCO Principles for Financial Benchmarks",
+    "Digital Operational Resilience Act (DORA) effective January 2025",
+    "EU ESG Ratings Regulation (effective mid-2026)",
+    "GDPR and global data privacy regulations",
+    "Pillar Two global minimum tax of 15%",
+    "Driver's Privacy Protection Act (DPPA)",
+    "Federal Trade Commission CARS Rule",
+    "Sanctions laws relating to Iran, Russia, Venezuela",
+    "Anti-corruption laws (US Foreign Corrupt Practices Act, UK Bribery Act 2010)",
+    "Import and export restrictions",
+    "Mandatory rotation requirements for credit rating agencies",
+    "Liability standards for credit rating agencies",
+    "ESG ratings provider oversight regimes",
+    "Data localization requirements in various jurisdictions",
+    "Cybersecurity and operational resilience standards"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Iran",
+      "Russia",
+      "Venezuela",
+      "Belarus",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US Treasury Office of Foreign Assets Control sanctions on Iran, Russia, Venezuela",
+      "Suspension of commercial operations in Russia and Belarus (March 2022)",
+      "Economic and financial sanctions on Russia and Belarus due to Ukraine conflict",
+      "Potential sanctions on other jurisdictions",
+      "Export restrictions and customs duties",
+      "Cross-border data transfer restrictions",
+      "Government intervention favoring local competitors"
+    ]
+  }
+}

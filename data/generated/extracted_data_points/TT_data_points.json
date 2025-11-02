@@ -1,0 +1,102 @@
+{
+  "ticker": "TT",
+  "company_name": "Trane Technologies plc",
+  "company_type": "Climate Innovation - HVAC and Refrigeration Solutions",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "Colombia",
+      "Brazil",
+      "Ireland",
+      "United Kingdom",
+      "Spain",
+      "Italy",
+      "France",
+      "Germany",
+      "Czech Republic",
+      "Saudi Arabia",
+      "Belgium",
+      "Luxembourg",
+      "China",
+      "Thailand",
+      "India",
+      "Singapore",
+      "Japan",
+      "Egypt",
+      "Panama"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Americas",
+    "EMEA",
+    "Asia Pacific"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Mexico",
+      "Spain",
+      "Italy",
+      "France",
+      "Germany",
+      "Czech Republic",
+      "Saudi Arabia",
+      "Thailand",
+      "China"
+    ],
+    "dependencies": "The Company relies on suppliers to secure commodities, particularly steel and non-ferrous metals, and third-party parts and components, including electronic components. Some purchases are from sole or limited source suppliers for reasons of cost effectiveness, regulatory requirements, uniqueness of design, or product quality.",
+    "risks": "Commodity and raw material shortages, supply chain disruptions, price increases, electronic component shortages, supplier capacity constraints, labor shortages, port congestion, logistical problems, political unrest. Disruptions have occurred due to global pandemics, natural disasters, regulatory changes, geopolitical events.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in tax laws and regulations including OECD Pillar Two global minimum tax",
+    "Environmental regulations on refrigerants and greenhouse gases",
+    "Climate change regulations and policies (national, regional, international)",
+    "Product design and energy efficiency requirements",
+    "Circular economy regulations on reuse, recycling, disposal of products",
+    "Export and import compliance regulations",
+    "Anti-corruption laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Anti-bribery regulations",
+    "Anti-human trafficking laws",
+    "Cybersecurity and data privacy laws (evolving requirements)",
+    "Anti-trust regulations",
+    "Money laundering regulations",
+    "Trade protection measures (import/export restrictions, tariffs, quotas, trade agreement modifications)",
+    "Government contract restrictions for companies reincorporated outside the U.S.",
+    "State Aid investigations by European Commission",
+    "Workers' compensation statutes",
+    "FDA-type approval requirements (for medical refrigeration products)",
+    "Supplier Code of Conduct compliance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions due to Ukraine conflict",
+      "Middle East conflict impacts",
+      "Export controls on certain products",
+      "Financial and economic sanctions on industry sectors",
+      "Retaliatory sanctions by sanctioned countries",
+      "Trade embargoes affecting operations"
+    ]
+  }
+}

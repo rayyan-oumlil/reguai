@@ -1,0 +1,107 @@
+{
+  "ticker": "STX",
+  "company_name": "Seagate Technology Holdings plc",
+  "company_type": "Data Storage Technology",
+  "geography": {
+    "regions": [
+      "Asia Pacific",
+      "Americas",
+      "EMEA"
+    ],
+    "countries": [
+      "United States",
+      "Singapore",
+      "Thailand",
+      "China",
+      "Malaysia",
+      "Northern Ireland",
+      "Ireland",
+      "Netherlands",
+      "Japan",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Singapore": 0.41,
+      "Americas": 0.49,
+      "EMEA": 0.1
+    },
+    "assets_by_region": {
+      "United States": 0.334,
+      "Thailand": 0.272,
+      "Singapore": 0.204,
+      "Other": 0.19
+    }
+  },
+  "segments": [
+    "Mass Capacity Storage",
+    "Legacy Markets",
+    "Nearline Cloud",
+    "Nearline Enterprise",
+    "Video and Image Applications (VIA)",
+    "Network-Attached Storage (NAS)",
+    "Edge-to-Cloud Data Storage",
+    "Consumer Storage",
+    "Client Storage",
+    "Mission Critical Storage",
+    "Lyve Platform"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Intevac, Inc."
+    ],
+    "manufacturing_locations": [
+      "China",
+      "Thailand",
+      "Malaysia",
+      "Singapore",
+      "Northern Ireland",
+      "United States"
+    ],
+    "dependencies": "Single-source or limited-source suppliers for read/write heads, substrates for recording media, ASICs, spindle motors, printed circuit boards, suspension assemblies, NAND flash memory, and rare earth elements primarily sourced from China",
+    "risks": "Shortages or delays in critical components, cost increases, reliance on single-source suppliers, geographically concentrated supplier base vulnerable to regional disruptions, rare earth element export restrictions from China, long lead times for custom manufacturing equipment",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Export control laws and regulations (Export Administration Regulations - EAR)",
+    "U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctions",
+    "BIS Settlement Agreement compliance requirements including audits and denial order suspension",
+    "EU Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment (RoHS)",
+    "EU REACH Directive (Registration, Evaluation, Authorization, and Restriction of Chemicals)",
+    "Data privacy, data protection and data security laws (state, federal, and international)",
+    "Environmental laws governing discharges, hazardous waste management, and contaminated site cleanup",
+    "Comprehensive Environmental Response Compensation and Liability Act (Superfund law)",
+    "Climate change regulations and sustainability requirements",
+    "Tax law changes including OECD Pillar Two global minimum tax",
+    "Trade policy changes including tariffs, quotas, and trade restrictions",
+    "Encryption export licensing requirements",
+    "Foreign country import/export regulations",
+    "Antitrust and fair competition laws",
+    "Anti-corruption laws",
+    "Price controls and international trade regulations in jurisdictions like China, Malaysia, Singapore, Thailand, and EU"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. export restrictions to Huawei and other Chinese entities",
+      "Potential expansion of U.S. sanctions on advanced computing chips and technologies to China",
+      "Russia sanctions exposure due to Ukraine conflict",
+      "Iran sanctions compliance",
+      "Retaliatory trade measures by foreign countries in response to U.S. tariffs",
+      "Rare earth element export restrictions or bans by Chinese government",
+      "Prohibition from selling to key customers due to export regulations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Mass capacity": 0.81,
+    "Legacy": 0.12,
+    "Other": 0.07
+  }
+}

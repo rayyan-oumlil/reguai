@@ -1,0 +1,96 @@
+{
+  "ticker": "TRMB",
+  "company_name": "Trimble Inc.",
+  "company_type": "Technology Solutions Provider",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Netherlands",
+      "India",
+      "Germany",
+      "Finland",
+      "Canada",
+      "New Zealand",
+      "United Kingdom",
+      "Sweden",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Japan",
+      "Australia",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Architects, Engineers, Construction and Owners (AECO)",
+    "Field Systems",
+    "Transportation and Logistics (T&L)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Jabil",
+      "Benchmark Electronics Inc."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Netherlands",
+      "India",
+      "Germany",
+      "Finland",
+      "Canada",
+      "New Zealand",
+      "United Kingdom",
+      "Sweden",
+      "China"
+    ],
+    "dependencies": "Dependent on limited number of contract manufacturers for hardware products; reliance on specific suppliers for critical components; manufacturing plants in Dayton, Ohio and Danderyd, Sweden for optics-based and GPS products",
+    "risks": "Supply chain disruptions due to geopolitical conditions (Russia-Ukraine conflict); extended delivery times for components; increased freight costs; potential inability to obtain products or components to meet customer delivery requirements; reduced control over pricing and delivery schedules; discontinuation or increased prices for components; inflationary cost increases; trade restrictions, tariffs, or duties; scarcity or significant price increases of raw materials; transportation failures; severe weather conditions or natural disasters; civil unrest, military conflicts, geopolitical developments, war, or terrorism",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with differing local laws and regulations including data privacy requirements, labor laws, and local content",
+    "Export control laws and U.S. export law restrictions limiting destinations and customer types",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and U.K. Bribery Act compliance",
+    "Evolving and potentially conflicting data privacy and data security laws (California Consumer Privacy Rights Act, EU data privacy regulations)",
+    "International transfers of personal data compliance challenges",
+    "Functional safety regulation for automated and autonomous operation products",
+    "CE certification requirements for GNSS receivers and data communications products in European community",
+    "Radio equipment directive compliance",
+    "FCC product type certification and end user licensing requirements",
+    "Compliance with evolving product regulations in major markets",
+    "Income tax regulations across multiple U.S. and foreign jurisdictions",
+    "Radio frequency spectrum allocation and usage regulations (ITU, FCC, NTIA)",
+    "Potential harmful interference from terrestrial wireless operations in GNSS spectrum",
+    "Environmental, social, and governance (ESG) related laws and regulations including climate change and cybersecurity disclosure requirements",
+    "Trade barriers, duties, tariffs, and import/export licensing requirements or restrictions",
+    "Anti-competition regulations",
+    "Intellectual property protection laws varying by country"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions on Russia due to Ukraine conflict impacting suppliers and international trade",
+      "Trade sanctions and embargoes affecting component availability",
+      "Potential restrictions on use of Russian GLONASS and Chinese BeiDou GNSS signals",
+      "U.S. government restrictions on operations in certain countries",
+      "Restrictions on ability to repatriate earnings from certain countries",
+      "Heightened trade tensions and tariffs between U.S. and trading partners",
+      "Potential non-U.S. customers favoring domestic suppliers due to government policies"
+    ]
+  }
+}

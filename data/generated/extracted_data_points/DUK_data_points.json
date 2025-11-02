@@ -1,0 +1,125 @@
+{
+  "ticker": "DUK",
+  "company_name": "Duke Energy Corporation",
+  "company_type": "Electric and Gas Utilities",
+  "geography": {
+    "regions": [
+      "Midwest United States",
+      "United States",
+      "Southeast United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "North Carolina": 0.35,
+      "South Carolina": 0.18,
+      "Florida": 0.22,
+      "Ohio": 0.08,
+      "Indiana": 0.1,
+      "Kentucky": 0.03,
+      "Tennessee": 0.04,
+      "Other": 0.03,
+      "Tennessee/Other": 0.07
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Gas Utilities and Infrastructure",
+    "Duke Energy Florida",
+    "Duke Energy Indiana",
+    "Duke Energy Progress",
+    "Duke Energy Ohio",
+    "Duke Energy Carolinas",
+    "Piedmont Natural Gas",
+    "Electric Utilities and Infrastructure"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Northern Appalachia",
+      "Central Appalachia",
+      "Illinois",
+      "Ohio River region",
+      "Indiana",
+      "Illinois Basin"
+    ],
+    "dependencies": "Natural gas supply from various suppliers including Piedmont; uranium concentrates, conversion services, enrichment services from diversified long-term contracts; coal from long-term contracts with mining operators; single domestic supplier for fuel fabrication services on plant-by-plant basis",
+    "risks": [
+      "Supply chain challenges for major equipment components for new generation and grid infrastructure",
+      "Supply chain disruptions from extreme weather events",
+      "Concentration risk in fuel fabrication services (single domestic supplier per plant); reliance on long-term coal contracts expiring 2025-2030; uranium supply contracts covering requirements through 2027-2034; natural gas transportation and storage dependencies; technical complexities of changing fuel fabrication suppliers",
+      "Fluctuations in commodity prices or availability may adversely affect operations",
+      "Inability to build additional natural gas infrastructure at a pace that meets demand could limit growth opportunities",
+      "Concentration of coal ash handling system suppliers",
+      "Significant disruption to interstate pipeline capacity or reduction in natural gas supply due to operational failures, hurricanes, tornadoes, floods, freeze-off of natural gas wells, terrorist or cyberattacks, or legislative/regulatory actions",
+      "Equipment delivery delays impacting capital projects",
+      "Disruption in fuel delivery due to economic conditions, bankruptcies, transportation delays, weather, labor relations, force majeure events, or environmental regulations",
+      "Potential impacts from new tariffs or other actions that could disrupt Duke Energy's supply chain",
+      "Commodity price volatility for fuel and purchased power"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal and state regulations designed to promote energy efficiency measures, natural gas electrification, and distributed generation technologies",
+    "Compliance with environmental laws may result in fines, penalties, injunctive measures, or facility shutdowns",
+    "PHMSA regulations on natural gas distribution and transmission system safety and security",
+    "Fuel cost adjustment clause mechanisms and prudence reviews",
+    "State utility commission regulations (NCUC, PSCSC, FPSC, IURC, PUCO, KPSC, TPUC)",
+    "Rate regulation by state utility commissions (NCUC, PSCSC, FPSC, IURC, PUCO, KPSC, TPUC) and FERC",
+    "Deregulation or restructuring in the electric industry may result in increased competition and unrecovered costs",
+    "Nuclear facility licensing and regulatory compliance with NRC",
+    "State utility commission decisions on cost recovery for coal ash closure, storm costs, and other expenditures",
+    "NRC requirements for nuclear operating license renewals",
+    "Potential local government initiatives to eliminate natural gas use in new buildings",
+    "Storm cost recovery and securitization regulatory approvals",
+    "Transmission cost allocation and FERC jurisdiction",
+    "Regulatory restrictions on dividend payments and fund transfers from subsidiaries to Duke Energy",
+    "Regulatory delays or failure to obtain environmental permits for operating assets or development projects",
+    "Uncertainty of applicability or changes to legislative and regulatory initiatives related to climate change",
+    "State-level climate change legislation and carbon reduction goals more aggressive than company plans",
+    "NRC regulations for nuclear facility operations",
+    "North Carolina Coal Ash Management Act of 2014 compliance",
+    "State and federal regulations on methane emissions from natural gas distribution",
+    "Climate change and carbon emissions regulations",
+    "Resource Conservation and Recovery Act (RCRA) compliance",
+    "Environmental regulations including EPA rules on coal combustion residuals (CCR)",
+    "Potential legal challenges to EPA rules and other environmental regulations",
+    "Pipeline integrity management compliance with federal regulations",
+    "Potential changes to tax incentives and credits under the Inflation Reduction Act",
+    "Costs of decommissioning nuclear facilities may not be fully recoverable through the regulatory process",
+    "2024 EPA CCR Rule imposing stringent GHG emission reduction standards, revised air toxic limits, and wastewater discharge limitations",
+    "EPA regulations on greenhouse gas emissions, air quality, water quality, and coal combustion residuals may increase compliance costs",
+    "Failure to obtain regulatory approvals for construction projects or rate increases",
+    "State utility commissions' authority over rates, construction, and operation of facilities may limit ability to recover costs",
+    "Changes in rules for regional transmission organizations, including changes in rate designs and new capacity markets",
+    "Tax law changes including Inflation Reduction Act (IRA) impacts",
+    "Renewable energy mandates and clean energy transition requirements",
+    "Rulings that affect cost and investment recovery or have an impact on rate structures or market prices",
+    "Potential disallowance of costs by regulatory commissions, including fuel costs, storm costs, and coal ash closure costs",
+    "State, federal and foreign legislative and regulatory initiatives, including costs of compliance with existing and future environmental requirements",
+    "Federal and state laws, regulations and legal requirements related to coal ash remediation",
+    "North Carolina Coal Ash Management Act requirements for closure and remediation of coal ash basins",
+    "NRC regulations for nuclear facility design, construction, operation, and decommissioning",
+    "Depreciation rate changes and asset retirement obligation recovery",
+    "Certificate of Public Convenience and Necessity (CPCN) requirements for new generation",
+    "EPA Rule 111 requiring existing coal-fired plants to reduce GHG emissions by 90% through carbon capture starting in 2032",
+    "FERC regulations for wholesale power sales and transmission",
+    "Securities and financial reporting regulations",
+    "Coal ash basin closure requirements under federal and state regulations",
+    "EPA regulations including 2015 CCR Rule and 2024 CCR Rule for coal combustion residuals",
+    "FERC regulations affecting wholesale electric sales, transmission services, and natural gas pipeline certification"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Electric Utilities and Infrastructure": 0.92,
+    "Gas Utilities and Infrastructure": 0.08,
+    "Other": 0.001
+  }
+}

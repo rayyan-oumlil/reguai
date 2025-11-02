@@ -1,0 +1,88 @@
+{
+  "ticker": "IQV",
+  "company_name": "IQVIA Holdings Inc.",
+  "company_type": "Clinical Research Services and Healthcare Intelligence",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe and Africa",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Switzerland",
+      "China",
+      "India",
+      "Japan",
+      "Turkey",
+      "Argentina",
+      "Venezuela",
+      "South Africa"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Technology & Analytics Solutions",
+    "Research & Development Solutions",
+    "Contract Sales & Medical Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "The Company depends on third parties for data and support services including third-party transportation providers, suppliers of drugs for patients participating in clinical trials, suppliers of kits for use in clinical trial laboratories business, suppliers of reagents for use in testing equipment and providers of maintenance contracts for equipment",
+    "risks": "Suppliers may restrict use of data, increase restrictions on data use, increase prices, refuse to license data, fail to adhere to quality control standards, or fail to deliver data. Failure of third-party support service providers (transportation, drug suppliers, kit suppliers, reagent suppliers, equipment maintenance) could materially adversely affect business",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Good Clinical Practice (GCP) regulations and guidelines - FDA, EMA, Japan's Ministry of Health, Labor and Welfare requirements for clinical trials",
+    "Federal Food, Drug, and Cosmetic Act (FDC Act) and Public Health Service Act (PHS Act) compliance",
+    "HIPAA (Health Insurance Portability and Accountability Act) requirements for protected health information",
+    "EU General Data Protection Regulation (GDPR)",
+    "Data protection and privacy laws in over 100 countries",
+    "Clinical Laboratory Improvement Amendments (CLIA) requirements",
+    "DEA (Drug Enforcement Administration) regulations for controlled substances",
+    "Prescription Drug Marketing Act licensing and requirements",
+    "FDA regulations against off-label promotion",
+    "Federal Trade Commission Act and state consumer protection laws",
+    "Medicare and federal healthcare program regulations",
+    "Foreign Corrupt Practices Act (FCPA) compliance",
+    "UK Bribery Act compliance",
+    "International anti-corruption laws in multiple jurisdictions",
+    "EU Corporate Sustainability Reporting Directive",
+    "EU Taxonomy regulations",
+    "EU Corporate Sustainability Due Diligence Directive",
+    "OECD Pillar Two global corporate minimum tax rate of 15%",
+    "EU Artificial Intelligence Act",
+    "Colorado AI Act",
+    "New regulatory requirements for biopharmaceutical industry",
+    "Inflation Reduction Act (US) - drug pricing negotiations, Medicare rebates",
+    "Changes to Medicaid program and federal 340B drug pricing program",
+    "State laws restricting biopharmaceutical sales and marketing practices",
+    "Immigration laws affecting temporary and permanent workers",
+    "Environmental regulations (EPA, Nuclear Regulatory Commission, Department of Transportation)",
+    "Occupational Safety and Health Administration (OSHA) requirements",
+    "International Air Transport Association regulations for specimen transportation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions imposed by US or foreign countries could adversely affect ability to conduct business",
+      "Unfavorable labor regulations, tax policies, trade barriers, or economic sanctions could have adverse effect on operations",
+      "Ongoing conflict between Russia and Ukraine may cause supply chain disruptions, endanger personnel, and cause project delays",
+      "State-sponsored cyberattacks related to geopolitical events (Russia-Ukraine conflict) may disrupt operations"
+    ]
+  }
+}

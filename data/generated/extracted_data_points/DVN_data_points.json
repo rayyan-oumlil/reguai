@@ -1,0 +1,75 @@
+{
+  "ticker": "DVN",
+  "company_name": "Devon Energy Corporation",
+  "company_type": "Oil and Gas Exploration and Production",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 1.0
+    },
+    "assets_by_region": {
+      "United States": 1.0
+    }
+  },
+  "segments": [
+    "Delaware Basin",
+    "Rockies",
+    "Eagle Ford",
+    "Anadarko Basin"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Midstream facilities and systems owned and operated by others to process gas production and to gather and transport oil, gas and NGL production to downstream markets",
+      "Equipment, materials, services and personnel required to explore, develop and operate properties, such as drilling rigs, well materials and oilfield services"
+    ],
+    "risks": [
+      "Midstream capacity constraints and potential interruptions in production due to losing access to plants, pipelines or gathering systems",
+      "Weather conditions and natural disasters, terrorism or sabotage, cybersecurity incidents, accidents, field labor issues or strikes",
+      "Constraints that limit midstream operators' ability to construct, maintain or repair facilities needed to gather, process and transport production",
+      "Rising costs and scarcity caused by competitive pressure, higher inflation rates and supply chain disruptions in the broader economy, including as a result of tariffs or changes in trade policy"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, tribal and local laws and regulations governing oil and gas exploration and production activities, including hydraulic fracturing, well design, production, spill prevention, emissions and discharge permitting, use and disposal of fluids and materials",
+    "Conservation regulations, including regulation of drilling and spacing units, number of wells, rate of production, and unitization or pooling of oil and gas properties",
+    "Federal government regulations on leases granted or approved by BLM or Bureau of Indian Affairs, including permitting delays and challenges to permits by non-governmental organizations",
+    "Environmental laws and regulations concerning occupational safety and health, discharge of materials into the environment, protection of natural resources, including discharge of pollutants into waters, generation and disposal of waste materials, emission of methane and other gases, monitoring and remediation of well sites, pipeline monitoring and design, protection of threatened and endangered species, worker protection",
+    "Methane emissions regulations, including EPA rules finalized in December 2023 establishing standards for new, modified and reconstructed facilities and existing sources, with substantial fines and penalties for violations",
+    "BLM rule adopted in March 2024 limiting flaring and allowing delay or denial of permits upon finding that operator's methane waste minimization plan is insufficient",
+    "Climate change laws and regulations designed to quantify and limit GHG emissions, including potential cap-and-trade or carbon tax programs",
+    "Climate-related disclosure requirements, including SEC rules finalized in March 2024 requiring extensive climate-related disclosures, California legislation enacted in October 2023 requiring climate-related disclosures, and European Union directives including Corporate Sustainability Reporting Directive and Corporate Sustainability Due Diligence Directive",
+    "New York Climate Superfund Law passed in December 2024 requiring emitters with sufficient nexus to the state to pay into a fund for climate-related projects for emissions during 2000-2018",
+    "Vermont law passed in May 2024 similar to New York Climate Superfund Law",
+    "Restrictions on oil and gas leasing, permitting and development on federal lands, including Department of Interior rule adopted in April 2024 revising terms for future federal leases and wells, enhancing bonding requirements and increasing royalty rates, rental rates and minimum bids",
+    "Hydraulic fracturing regulations, including EPA regulations under Clean Air Act establishing performance standards for oil and gas activities, standards for capture of air emissions released during hydraulic fracturing, and regulations prohibiting discharge of wastewater from hydraulic fracturing operations to publicly owned wastewater treatment plants",
+    "State and local laws or regulations mandating further restrictions on hydraulic fracturing, including requiring disclosure of chemicals used, imposing more stringent permitting, disclosure and well-construction requirements, and establishing standards for capture of air emissions",
+    "Water disposal regulations, including protocols in New Mexico requiring operators to take actions with respect to salt-water disposal wells within specified proximity of certain seismic activity, and Railroad Commission of Texas suspending all disposal well permits that inject into deep strata within Northern Culberson-Reeves area due to seismicity concerns",
+    "Tax law changes, including 15% corporate alternative minimum tax (CAMT) on certain financial statement income under Inflation Reduction Act, and OECD Pillar Two framework imposing global minimum corporate tax rate of 15% on certain multinational enterprises",
+    "IRA imposing new charge or fee with respect to excess methane emissions from certain petroleum and natural gas facilities starting in 2024 and annually increasing through 2026",
+    "Potential 'anti-ESG' policies, legislation and other initiatives enacted or proposed by federal and state policy makers, including efforts targeting certain practices and programs related to diversity, equity and inclusion"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions, including embargoes, on Russia or other producing countries",
+      "Geopolitical risks, including the conflict between Russia and Ukraine, the Israel-Gaza and Hezbollah conflicts and hostilities in Yemen and the Red Sea, as well as other hostilities or political and civil unrest in the Middle East, Africa, Europe and South America"
+    ]
+  },
+  "revenue_by_segment": {
+    "Delaware Basin": 0.63,
+    "Rockies": 0.15,
+    "Eagle Ford": 0.11,
+    "Anadarko Basin": 0.11
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "RCL",
+  "company_name": "Royal Caribbean Cruises Ltd.",
+  "company_type": "Cruise Vacation Industry",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Caribbean",
+      "South America",
+      "Australia",
+      "Antarctica"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Bahamas",
+      "Haiti",
+      "United Kingdom",
+      "Germany",
+      "Norway",
+      "Finland",
+      "Iceland",
+      "France",
+      "Italy",
+      "Spain",
+      "Malta",
+      "Cyprus",
+      "Liberia",
+      "Ecuador",
+      "China",
+      "Singapore",
+      "Malaysia",
+      "Japan",
+      "India",
+      "Australia",
+      "New Zealand",
+      "Chile",
+      "Brazil",
+      "Argentina"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Royal Caribbean",
+    "Celebrity Cruises",
+    "Silversea Cruises",
+    "TUI Cruises",
+    "Hapag-Lloyd Cruises"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Meyer Turku Oy",
+      "Chantiers de l'Atlantique",
+      "Fincantieri"
+    ],
+    "manufacturing_locations": [
+      "Finland",
+      "France",
+      "Italy"
+    ],
+    "dependencies": "Limited number of shipyards with capability and capacity to build, repair, maintain and/or upgrade ships. Suspensions and/or slowdowns of work at shipyards could impact ability to construct new ships as planned. Material increases in commodity and raw material prices, cost or availability of labor and financing could adversely impact shipyard's ability to build ships on cost-effective basis.",
+    "risks": "Disruptions affecting shipyard supply chain will adversely impact business as there are limited substitutes. Shipyards, their subcontractors, and/or suppliers may encounter force majeure events, insolvencies or other financial difficulties, supply chain, technical or design problems. Mechanical faults and/or unforeseen incidents may result in cancellation of cruises or delays of new ship orders or necessitate unscheduled drydocks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "International Convention for Safety of Life at Sea (SOLAS) compliance",
+    "International Safety Management Code (ISM Code) compliance",
+    "Standards of Training, Certification, and Watchkeeping for Seafarers (STCW) compliance",
+    "International Ship and Port Facility Security Code (ISPS Code) compliance",
+    "U.S. Maritime Transportation Security Act of 2002 (MTSA) compliance",
+    "Cruise Vessel Security and Safety Act of 2010 compliance",
+    "MARPOL Regulations - sulfur emissions limitations (0.5% global, 0.1% in ECAs)",
+    "MARPOL Regulations - nitrogen oxides emission limits",
+    "IMO greenhouse gas regulations - Energy Efficiency Existing Ship Index (EEXI) and Carbon Intensity Indicator (CII)",
+    "IMO revised GHG Strategy - 20% reduction by 2030, 70% by 2040 compared to 2008",
+    "EU Emission Trading System (ETS) - carbon emission allowances required starting 2024",
+    "EU FuelEU Maritime regulation - GHG intensity reduction requirements starting 2025",
+    "EU shore power connection requirements at TEN-T ports by 2030 and all EU ports by 2035",
+    "IMO Ballast Water Management Convention compliance",
+    "U.S. Clean Water Act and Vessel General Permit (VGP) requirements",
+    "Vessel Incidental Discharge Act (VIDA) national standards",
+    "U.S. Federal Maritime Commission financial responsibility certificates",
+    "UK Association of British Travel Agents performance bonds (up to £162 million)",
+    "UK Civil Aviation Authority performance bonds (£25 million)",
+    "Norwegian Travel Guarantee Fund performance bonds",
+    "U.S. federal and state income tax laws including Section 883 exemption requirements",
+    "UK tonnage tax regime compliance",
+    "OECD Pillar Two Global Minimum Tax (15% minimum tax effective 2024-2026)",
+    "U.S. and international anti-bribery laws and regulations",
+    "European Union General Data Protection Regulation (GDPR)",
+    "State data privacy and cybersecurity requirements",
+    "Environmental regulations on air emissions, water and waste management",
+    "Port access and destination regulations",
+    "Labor, health and safety regulations",
+    "Changes in U.S. or other countries' foreign travel policy and travel restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Cuba",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government tariffs on products imported from certain countries",
+      "Trade sanctions against certain countries",
+      "Cuba sanctions - Helms-Burton Act Title III litigation",
+      "Changes in U.S. foreign policy resulting in travel restrictions or bans",
+      "Some countries have adopted restrictions against U.S. travelers"
+    ]
+  }
+}

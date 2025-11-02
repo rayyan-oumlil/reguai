@@ -1,0 +1,119 @@
+{
+  "ticker": "EMN",
+  "company_name": "Eastman Chemical Company",
+  "company_type": "Specialty Materials",
+  "geography": {
+    "regions": [
+      "United States and Canada",
+      "Europe, Middle East, and Africa",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Belgium",
+      "Estonia",
+      "Finland",
+      "Germany",
+      "Spain",
+      "United Kingdom",
+      "China",
+      "South Korea",
+      "Malaysia",
+      "Brazil",
+      "Mexico",
+      "Switzerland",
+      "Singapore",
+      "Netherlands",
+      "Tennessee",
+      "Texas",
+      "Alabama",
+      "Virginia",
+      "Maryland",
+      "South Carolina",
+      "New Jersey",
+      "Louisiana",
+      "Florida",
+      "Massachusetts",
+      "New York",
+      "Wisconsin"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Advanced Materials",
+    "Additives & Functional Products",
+    "Chemical Intermediates",
+    "Fibers"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Belgium",
+      "Estonia",
+      "Finland",
+      "Germany",
+      "Spain",
+      "United Kingdom",
+      "China",
+      "South Korea",
+      "Malaysia",
+      "Brazil",
+      "Mexico"
+    ],
+    "dependencies": [
+      "Multiple suppliers for most key raw materials and energy sources",
+      "Single source suppliers for certain raw materials with contingency plans",
+      "Key raw materials include paraxylene, propane, propylene, cellulosic biopolymers, polyvinyl alcohol, methanol, fatty alcohol",
+      "Key energy sources include natural gas, coal, and electricity"
+    ],
+    "risks": [
+      "Temporary shortages of raw materials and energy may occasionally occur",
+      "Continuous availability and cost subject to unscheduled plant interruptions during high demand",
+      "Domestic and world market conditions",
+      "Changes in government regulation",
+      "Supply chain disruption",
+      "Global pandemics",
+      "Natural disasters",
+      "War or other outbreak of hostilities or terrorism",
+      "Breakdown or degradation of transportation infrastructure"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Complex health, safety, and environmental laws and regulations in U.S. and internationally requiring significant expenditures",
+    "Violations of environmental, health or safety laws could result in restrictions, prohibitions, damages, penalties, fines, civil or criminal sanctions",
+    "Future developments and more stringent environmental regulations may require significant expenditures",
+    "Changes in health, safety, environmental, chemical control regulations and testing requirements",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and similar foreign anti-bribery and anti-corruption laws",
+    "U.S. or foreign government regulations on trade sanctions and embargoes",
+    "Financial, regulatory, physical and transition risks associated with climate change",
+    "Future changes in legislation and regulation associated with physical impacts of climate change may increase likelihood of carbon requirements, regulation of greenhouse gas emissions, and energy policy",
+    "Changes to income tax laws and regulations or interpretation in jurisdictions where company operates",
+    "OECD global minimum tax framework",
+    "REACH program in European Union",
+    "U.S. Toxic Substances Control Act",
+    "U.S. Federal Insecticide, Fungicide, and Rodenticide Act",
+    "Occupational Safety and Health Administration (OSHA) Process Safety Management program requirements",
+    "U.S. Clean Air Act",
+    "Resource Conservation and Recovery Act",
+    "Comprehensive Environmental Response, Compensation, and Liability Act"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Recent and proposed changes in U.S. trade policy and resulting retaliatory actions by other countries, including China",
+      "U.S. and foreign countries may adopt or increase restrictions on foreign trade or investment, including currency exchange controls, tariffs or other taxes, or limitations on imports or exports",
+      "Ongoing Russia/Ukraine and Middle East conflicts"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "ABBV",
+  "company_name": "AbbVie Inc.",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Puerto Rico",
+      "Germany",
+      "France",
+      "Spain",
+      "United Kingdom",
+      "Italy",
+      "Ireland",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Sweden",
+      "Japan",
+      "China",
+      "South Korea",
+      "Taiwan",
+      "India",
+      "Australia",
+      "Brazil",
+      "Costa Rica",
+      "Israel",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Singapore",
+      "Russia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.764,
+      "Germany": 0.026,
+      "Japan": 0.02,
+      "Canada": 0.019,
+      "China": 0.016,
+      "France": 0.014,
+      "Spain": 0.009,
+      "United Kingdom": 0.009,
+      "Italy": 0.009,
+      "Brazil": 0.008,
+      "Australia": 0.008,
+      "All other countries": 0.097
+    },
+    "assets_by_region": {
+      "United States and Puerto Rico": 0.649,
+      "Europe": 0.289,
+      "All Other Countries": 0.062
+    }
+  },
+  "segments": [
+    "Immunology",
+    "Oncology",
+    "Aesthetics",
+    "Neuroscience",
+    "Eye Care"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cardinal Health, Inc.",
+      "Cencora, Inc.",
+      "McKesson Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Ireland",
+      "Italy",
+      "Germany",
+      "France",
+      "Costa Rica",
+      "Singapore"
+    ],
+    "dependencies": "AbbVie uses raw materials and components in its pharmaceutical and biologic manufacturing processes, including those sourced from single suppliers around the world. The failure of single-source suppliers to fulfill their contractual obligations could impair AbbVie's ability to deliver products to customers on a timely basis.",
+    "risks": "Supply chain disruption, single-source supplier dependencies, raw materials availability, manufacturing site physical disruptions, pandemics, natural disasters, regulatory noncompliance at supplier facilities, delays in construction or expansion of manufacturing facilities",
+    "supplier_concentration": {
+      "McKesson Corporation": 0.39,
+      "Cardinal Health, Inc.": 0.33,
+      "Cencora, Inc.": 0.28
+    }
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval delays or denials for new products and indications",
+    "Changes in healthcare policy and regulations in the United States and internationally",
+    "Inflation Reduction Act of 2022 government price-setting for Medicare Part B and Part D drugs",
+    "Medicare Part D redesign and manufacturer discount requirements",
+    "Medicaid rebate requirements and state additional rebate demands",
+    "340B drug discount program requirements",
+    "European Union Medical Device Regulation (MDR) compliance",
+    "Foreign Corrupt Practices Act and UK Bribery Act compliance",
+    "Anti-kickback and false claims laws",
+    "Physician Payments Sunshine Act reporting requirements",
+    "Data privacy laws in the European Union and United States",
+    "Environmental laws and regulations",
+    "OECD Pillar Two global minimum tax implementation",
+    "Price controls and reimbursement restrictions in international markets",
+    "Compulsory licensing of patents by foreign governments",
+    "cGMP compliance requirements",
+    "Post-marketing surveillance and pharmacovigilance requirements",
+    "Product labeling and advertising restrictions",
+    "Clinical trial regulatory requirements",
+    "Import/export licensing requirements",
+    "Trade protection measures and tariffs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "International trade disruptions or disputes",
+      "Sovereign debt issues in certain non-U.S. countries",
+      "Political and economic instability in operating countries",
+      "Expropriation and nationalization risks",
+      "War, political instability, and terrorist activities",
+      "Conflicts or crises in individual countries or regions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Immunology": 0.473,
+    "Oncology": 0.118,
+    "Aesthetics": 0.093,
+    "Neuroscience": 0.159,
+    "Eye Care": 0.039,
+    "Other Key Products": 0.064,
+    "All other": 0.054
+  }
+}

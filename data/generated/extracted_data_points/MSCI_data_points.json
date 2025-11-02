@@ -1,0 +1,102 @@
+{
+  "ticker": "MSCI",
+  "company_name": "MSCI Inc.",
+  "company_type": "Financial Services - Investment Data & Analytics",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia & Australia"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "Switzerland",
+      "Hungary",
+      "South Africa",
+      "India",
+      "China",
+      "Japan",
+      "Hong Kong SAR",
+      "Taiwan",
+      "Singapore",
+      "Philippines",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Index",
+    "Analytics",
+    "ESG and Climate",
+    "Real Assets",
+    "Private Capital Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party suppliers of data including stock exchanges",
+      "Third-party vendors for distribution of products",
+      "Cloud providers and data center infrastructure",
+      "Open source code dependencies",
+      "Third-party technology platforms and APIs"
+    ],
+    "risks": [
+      "Dependence on third parties to supply data, applications and services",
+      "Reliance on certain vendors to distribute products",
+      "Some suppliers are also competitors",
+      "Risk of exclusive contracts between competitors and data suppliers",
+      "Potential termination of data supply agreements on short notice",
+      "Cyber-attacks or security incidents affecting suppliers",
+      "Vulnerabilities in third-party software, systems or networks"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU Benchmark Regulation (EU BMR) and UK Benchmarks Regulation (UK BMR) requirements",
+    "ESMA Guidelines on ETFs and UCITS Issues disclosure requirements",
+    "Potential new benchmark regulations in India and South Africa",
+    "EU regulation requiring ESG ratings providers to become authorized and supervised by ESMA",
+    "ESG ratings and data provider regulations in UK, Japan, Hong Kong SAR, Taiwan, India and Singapore",
+    "Data privacy laws including GDPR and evolving global data protection requirements",
+    "European Union's Artificial Intelligence Act",
+    "Investment Advisers Act of 1940 compliance requirements",
+    "SEC proposed rule on outsourcing services by investment advisers",
+    "Potential classification of index providers as investment advisers",
+    "Anti-corruption laws including Foreign Corrupt Practices Act (FCPA) and UK Bribery Act 2010",
+    "Economic and trade sanctions compliance",
+    "Anti-boycott restrictions",
+    "Tariffs and customs duties",
+    "ERISA compliance requirements",
+    "China registration with Cyberspace Administration of China",
+    "SEBI registration in India as ESG Ratings Provider",
+    "Sustainability disclosure requirements and greenwashing prevention regulations",
+    "Country-by-country reporting and tax transparency initiatives",
+    "OECD BEPS Pillar 2 global minimum tax (15%)",
+    "Potential U.S. corporate tax rate increases",
+    "Anti-ESG legislation and regulatory scrutiny in certain U.S. jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. Executive Order prohibiting transactions in securities of certain Chinese companies",
+      "Sanctions compliance requirements affecting index composition",
+      "Russia-Ukraine conflict impact",
+      "Middle East conflicts impact",
+      "Potential capital controls and exchange controls in foreign jurisdictions",
+      "Restrictions on cash transfers and currency conversion from non-U.S. subsidiaries"
+    ]
+  }
+}

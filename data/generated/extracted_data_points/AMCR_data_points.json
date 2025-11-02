@@ -1,0 +1,105 @@
+{
+  "ticker": "AMCR",
+  "company_name": "Amcor plc",
+  "company_type": "Packaging Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Latin America",
+      "Asia Pacific",
+      "Africa",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Australia",
+      "Switzerland",
+      "United Kingdom",
+      "Jersey",
+      "Argentina",
+      "Brazil",
+      "China",
+      "Colombia",
+      "India",
+      "Peru",
+      "Russia",
+      "Ukraine",
+      "Czech Republic",
+      "New Zealand",
+      "South Africa",
+      "Germany",
+      "Ireland",
+      "Singapore",
+      "Taiwan",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Flexibles",
+    "Rigid Packaging",
+    "Films and other flexible products",
+    "Specialty flexible folding cartons",
+    "Containers, preforms, and closures"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Europe",
+      "North America",
+      "Latin America",
+      "Asia Pacific",
+      "Africa"
+    ],
+    "dependencies": "Polymer resins and films, paper, inks, solvents, adhesives, aluminum, and chemicals constitute the major raw materials. Not significantly dependent on any one supplier.",
+    "risks": "Supply chain disruptions due to geopolitical conflicts, natural disasters, health crises, wars, acts of terrorism, shortages in manufacturing inputs, loss of key suppliers, freight cost fluctuations, limitations on shipping capacity, severe weather events and climate change impacts on agricultural productivity",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental regulations related to greenhouse gas emissions, biodiversity and deforestation",
+    "Human rights due diligence regulations",
+    "Extended producer responsibility (EPR) regulations",
+    "PFAS restrictions in packaging materials in various U.S. states",
+    "Plastic bans or mandates to reduce plastic use",
+    "Mandates to use post-consumer recycled (PCR) content",
+    "Data privacy laws and regulations (U.S., Europe, China)",
+    "Modern slavery reporting requirements",
+    "Climate-related disclosure rules",
+    "ESG government regulations",
+    "OECD and G20 BEPS Pillar Two rule (15% global minimum tax)",
+    "Economic sanctions administered by U.S. Office of Foreign Assets Control, U.S. Department of State, and U.S. Department of Commerce",
+    "Export control regulations",
+    "Anti-corruption and anti-bribery laws",
+    "Competition and antitrust regulations",
+    "Healthcare packaging regulations (FDA and international standards)",
+    "Food and beverage packaging regulations",
+    "Environmental laws relating to air, soil, and water quality, handling, discharge, storage, and disposal of substances",
+    "Workplace health and safety regulations",
+    "Changes in tax laws or fiscal regimes in multiple jurisdictions",
+    "Trade restrictions, sanctions, quotas, and tariffs",
+    "Retroactive duties on aluminum imports from China"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions against Russia due to Ukraine conflict",
+      "U.S., European Union, and UK sanctions compliance",
+      "Sales to entities in countries subject to economic sanctions",
+      "Sanctions that could impact operations in certain countries",
+      "Middle East conflict impacts",
+      "China-Taiwan tensions"
+    ]
+  }
+}

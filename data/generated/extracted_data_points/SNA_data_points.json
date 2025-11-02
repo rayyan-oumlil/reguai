@@ -1,0 +1,105 @@
+{
+  "ticker": "SNA",
+  "company_name": "Snap-on Incorporated",
+  "company_type": "Tools, Equipment, Diagnostics, and Repair Information",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Belgium",
+      "Ireland",
+      "France",
+      "Hungary",
+      "Italy",
+      "Portugal",
+      "Spain",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "China",
+      "India",
+      "Hong Kong",
+      "Singapore",
+      "Argentina",
+      "Brazil",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commercial & Industrial Group",
+    "Snap-on Tools Group",
+    "Repair Systems & Information Group",
+    "Financial Services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Argentina",
+      "Brazil",
+      "Belarus",
+      "England",
+      "France",
+      "Hungary",
+      "Italy",
+      "Portugal",
+      "Spain",
+      "Sweden"
+    ],
+    "dependencies": "Principal raw material is steel, including specialized alloys available only from a limited group of approved suppliers. Some electronic components are sourced from a finite set of suppliers. Specialized materials and components have been, and may be in the future, in short supply.",
+    "risks": "Price and supply fluctuations related to raw materials (steel, plastics, electronics). Mill shutdowns or production cut backs. Supply chain disruptions or inefficiencies from weather events, armed conflicts, government actions, outbreaks of infectious diseases. Tariffs and other trade protection measures. Concentration risk with limited suppliers for specialized alloys and electronic components.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "International trade regulations and tariffs",
+    "Data privacy laws and regulations",
+    "Tax law changes and regulations",
+    "Government contract regulations",
+    "Environmental laws, ordinances, regulations, and requirements",
+    "Climate change regulations and standards (including CSRD in EU and SEC climate disclosure rules)",
+    "Financial services regulations and enforcement",
+    "Anti-bribery and anti-corruption laws (including U.S. Foreign Corrupt Practices Act)",
+    "Sanctions and trade restrictions",
+    "Compliance requirements and enforcement actions",
+    "Changes in fuel economy requirements or vehicle emissions requirements",
+    "Privacy rights and use of AI regulations",
+    "Withholding and other taxes on remittances",
+    "Classification of third parties (including franchisees) as independent from the company"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and actions taken against Russia and Belarus due to invasion of Ukraine",
+      "Increased trade sanctions and tariffs",
+      "Trade relations with China",
+      "Expansion of conflict or changes in governmental/third party responses could adversely impact business"
+    ]
+  }
+}

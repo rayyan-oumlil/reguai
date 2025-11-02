@@ -1,0 +1,118 @@
+{
+  "ticker": "CDW",
+  "company_name": "CDW Corporation",
+  "company_type": "Information Technology Solutions Provider",
+  "geography": {
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.9,
+      "Rest of World": 0.1
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Corporate",
+    "Small Business",
+    "Public",
+    "CDW UK",
+    "CDW Canada"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Apple",
+      "Google",
+      "Pure Storage",
+      "Cisco",
+      "Hewlett Packard Enterprise",
+      "APC",
+      "Broadcom Inc.",
+      "Adobe",
+      "Dell Technologies",
+      "NetApp",
+      "Lenovo",
+      "TD SYNNEX",
+      "Amazon Web Services",
+      "HP Inc.",
+      "Microsoft",
+      "Samsung",
+      "Nutanix",
+      "Intel",
+      "Palo Alto Networks",
+      "Ingram Micro",
+      "IBM"
+    ],
+    "manufacturing_locations": [
+      "Asia"
+    ],
+    "dependencies": [
+      "Significant portion of products manufactured or purchased outside of the US, primarily in Asia",
+      "Purchases from two wholesale distributors, Ingram Micro and TD SYNNEX, represent over 25% of total purchases",
+      "Significant portion of sales derived from products manufactured by Apple, Cisco, Dell Technologies, HP Inc., Lenovo and Microsoft"
+    ],
+    "risks": [
+      "Manufacturing interruptions or delays due to financial instability or bankruptcy of manufacturers",
+      "Significant labor disputes such as strikes",
+      "Natural disasters",
+      "Political or social unrest",
+      "Armed conflict",
+      "Pandemics",
+      "Product constraints due to failure of suppliers to accurately forecast customer demand",
+      "Shortages of product components",
+      "Relocation of key distributors",
+      "Supply chain disruptions causing volatility in inventory levels and delays in completion of orders",
+      "Inflationary pressures",
+      "Concentration risk with key vendor partners and wholesale distributors"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Noncompliance with contract provisions and government procurement regulations",
+    "False Claims Act violations",
+    "Medicare and Medicaid Anti-Kickback Statute violations",
+    "Security clearance and confidentiality requirements violations",
+    "Civil, criminal and administrative liability",
+    "Termination of government contracts",
+    "Suspension, debarment or ineligibility from doing business with governmental entities",
+    "Adoption of new or modified procurement regulations",
+    "New EU regulations on data privacy (GDPR)",
+    "California Privacy Rights Act compliance",
+    "Environmental, social and governance related laws and regulations",
+    "Export regulations and sanctions compliance",
+    "Trade law provisions and regulations",
+    "Imposition of additional duties, tariffs and other charges on imports and exports",
+    "Customs restrictions",
+    "FDA approval requirements (not explicitly mentioned but implied in healthcare segment)",
+    "Evolving laws and regulations during change in federal administration"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Asia (general region mentioned for manufacturing)",
+      "China (implied through Asia manufacturing concentration)"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "New or additional trade restrictions or sanctions imposed by US or foreign governments",
+      "Periods of intense diplomatic or armed conflict may result in new and rapidly evolving trade restrictions and sanctions",
+      "Restrictions on transfer of funds",
+      "Embargoes, sanctions, safeguards and customs restrictions against products",
+      "Export regulations and sanctions compliance risks"
+    ]
+  },
+  "revenue_by_segment": {
+    "Corporate": 0.421,
+    "Small Business": 0.073,
+    "Public": 0.388,
+    "Other": 0.118
+  }
+}

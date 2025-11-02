@@ -1,0 +1,70 @@
+{
+  "ticker": "TRGP",
+  "company_name": "Targa Resources Corp.",
+  "company_type": "Midstream Energy Infrastructure",
+  "geography": {
+    "regions": [
+      "Permian Basin (West Texas and Southeast New Mexico)",
+      "Eagle Ford Shale (South Texas)",
+      "Barnett Shale (North Texas)",
+      "Anadarko, Ardmore, and Arkoma Basins (Oklahoma and South Central Kansas)",
+      "Williston Basin (North Dakota)",
+      "Louisiana Gulf Coast (onshore and near offshore)"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Gathering and Processing",
+    "Logistics and Transportation"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party pipelines and facilities interconnected to natural gas and crude oil gathering systems",
+      "Third-party pipelines for delivery options to and from gathering and processing facilities",
+      "Third-party NGL pipelines, fractionators and storage facilities"
+    ],
+    "risks": [
+      "If third-party pipelines and other facilities become partially or fully unavailable, revenues could be adversely affected",
+      "Dependence on third-party facilities not within company control",
+      "Quality specifications changes at third-party facilities could restrict ability to utilize them"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal Energy Regulatory Commission (FERC) regulation under Natural Gas Act and Interstate Commerce Act",
+    "State regulations on natural gas gathering and crude oil operations (Texas, Louisiana, Oklahoma, New Mexico, North Dakota)",
+    "Tribal regulations on Fort Berthold Indian Reservation operations",
+    "Environmental laws: Clean Air Act, Clean Water Act, CERCLA, RCRA, Oil Pollution Act, Safe Drinking Water Act, Endangered Species Act",
+    "Pipeline safety regulations under NGPSA and HLPSA by PHMSA",
+    "Climate change regulations including methane and GHG emissions standards",
+    "EPA regulations on air emissions, water discharges, waste disposal",
+    "State hydraulic fracturing regulations could restrict drilling activities",
+    "Occupational Safety and Health Act workplace standards",
+    "Potential changes in jurisdictional characterization of assets by regulatory agencies",
+    "FERC anti-market manipulation provisions with civil penalties up to $1.6 million per violation per day",
+    "State complaint-based regulation of natural gas transportation and gathering",
+    "Railroad Commission of Texas regulation of intrastate pipelines",
+    "Louisiana Public Service Commission regulation of common carrier pipelines",
+    "EPA Good Neighbor Plan rule affecting fossil fuel-fired power plants",
+    "Clean Water Act jurisdiction over waters of the United States and wetlands",
+    "Nationwide Permit 12 requirements under Clean Water Act",
+    "Inflation Reduction Act methane emissions fee ($900-$1,500 per ton)",
+    "Corporate Alternative Minimum Tax (CAMT) at 15% on financial statement income",
+    "SEC climate risk disclosure requirements",
+    "California climate disclosure laws",
+    "Potential repeal or modification of environmental regulations under new Presidential administration"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

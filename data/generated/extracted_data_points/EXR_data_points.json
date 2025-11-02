@@ -1,0 +1,95 @@
+{
+  "ticker": "EXR",
+  "company_name": "Extra Space Storage Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Self-Storage",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Alabama": 0.0197,
+      "Arizona": 0.0317,
+      "California": 0.1064,
+      "Colorado": 0.0164,
+      "Connecticut": 0.0113,
+      "Florida": 0.1224,
+      "Georgia": 0.0493,
+      "Hawaii": 0.0037,
+      "Idaho": 0.0015,
+      "Illinois": 0.0403,
+      "Indiana": 0.0189,
+      "Kansas": 0.0012,
+      "Kentucky": 0.0072,
+      "Louisiana": 0.0062,
+      "Maine": 0.0033,
+      "Maryland": 0.0258,
+      "Massachusetts": 0.0231,
+      "Michigan": 0.0066,
+      "Minnesota": 0.0064,
+      "Mississippi": 0.0034,
+      "Missouri": 0.0148,
+      "Nevada": 0.0166,
+      "New Hampshire": 0.0062,
+      "New Jersey": 0.047,
+      "New Mexico": 0.0077,
+      "New York": 0.0459,
+      "North Carolina": 0.0239,
+      "Ohio": 0.0167,
+      "Oklahoma": 0.0084,
+      "Oregon": 0.0037,
+      "Pennsylvania": 0.0239,
+      "Rhode Island": 0.003,
+      "South Carolina": 0.0215,
+      "Tennessee": 0.0174,
+      "Texas": 0.1268,
+      "Utah": 0.0137,
+      "Virginia": 0.029,
+      "Washington": 0.0084,
+      "Washington DC": 0.0023,
+      "Wisconsin": 0.0077
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Self-storage operations",
+    "Tenant reinsurance"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [],
+    "risks": [],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in laws, ordinances and regulations relating to lien sale rights and procedures",
+    "Americans with Disabilities Act of 1990 compliance requirements",
+    "Comprehensive Environmental Response and Compensation Liability Act - potential liability for environmental conditions",
+    "State insurance laws and regulations governing tenant reinsurance activities (McCarran-Ferguson Act)",
+    "Gramm-Leach-Bliley Act and privacy regulations from Federal Trade Commission",
+    "State real estate brokerage laws and regulations for store management activities",
+    "Data privacy and security laws governing collection, use, and disclosure of personal information",
+    "State and federal regulations relating to natural disasters and public health emergencies",
+    "Regulations limiting ability to raise rents or hold auctions during emergencies",
+    "Changes in federal, state and local legislation on climate change affecting operating costs and capital expenditures",
+    "State of emergency orders limiting rent increases",
+    "Potential changes to U.S. tax laws affecting REIT status",
+    "REIT qualification requirements under Internal Revenue Code Sections 856-860",
+    "State and local tax regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Self-Storage Operations": 0.8608,
+    "Tenant Reinsurance": 0.1022,
+    "Management Fees and Other Income": 0.0371
+  }
+}

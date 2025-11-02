@@ -1,0 +1,124 @@
+{
+  "ticker": "GLW",
+  "company_name": "Corning Incorporated",
+  "company_type": "Materials Science and Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia Pacific",
+      "Europe",
+      "Greater China"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "China",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "India",
+      "Germany",
+      "France",
+      "Poland",
+      "Luxembourg",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.38,
+      "Asia Pacific": 0.51,
+      "Europe": 0.1,
+      "All Other": 0.01
+    },
+    "assets_by_region": {
+      "North America": 0.48,
+      "Asia Pacific": 0.45,
+      "Europe": 0.07
+    }
+  },
+  "segments": [
+    "Optical Communications",
+    "Display Technologies",
+    "Specialty Materials",
+    "Environmental Technologies",
+    "Life Sciences",
+    "Hemlock and Emerging Growth Businesses"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "South Korea",
+      "Taiwan",
+      "Japan",
+      "Germany",
+      "Poland",
+      "Mexico",
+      "Brazil",
+      "France",
+      "India"
+    ],
+    "dependencies": [
+      "Certain key materials and proprietary equipment used in manufacturing are sole-sourced or available only from a limited number of suppliers",
+      "Significant geographical concentration of manufacturing plants in Asia Pacific region",
+      "Reliance on global supply chain for key components and capabilities",
+      "Dependence on uninterrupted power sources, industrial water, precious metals and various batch materials"
+    ],
+    "risks": [
+      "Supply chain disruptions due to transportation interruptions, labor strife or capacity constraints",
+      "Shortage of semiconductor components or other critical parts",
+      "Volatility in availability and cost of materials, equipment and services",
+      "Difficulties in obtaining required import or export approvals",
+      "Natural disasters, climate change impacts, or geopolitical events affecting operations",
+      "Single-site manufacturing locations for specialized products with no replacement capacity available",
+      "Concentration risk in Asia Pacific manufacturing facilities"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with multiple legal and regulatory requirements across jurisdictions increases costs",
+    "Data privacy requirements and employment and labor laws in multiple countries",
+    "Anti-competition regulations and prohibitions on payments to governmental officials",
+    "Import and trade restrictions and export requirements",
+    "U.S. Foreign Corrupt Practices Act and similar foreign anti-corruption laws",
+    "Environmental regulations including pollution-control, greenhouse gas emissions, and climate change regulations",
+    "Changes in tax laws, regulations and international tax standards including OECD guidelines",
+    "Pillar Two Framework requiring 15% global minimum effective tax rate",
+    "Inflation Reduction Act of 2022 provisions",
+    "State, federal and foreign pollution-control regulations including Superfund designations",
+    "FDA and other regulatory agency requirements for life sciences products",
+    "Intellectual property laws and patent protection enforcement challenges",
+    "Growing anti-competition legislation and enforcement activity",
+    "Trade policies including tariffs, import quotas, and capital controls",
+    "Anti-dumping laws and countervailing duties"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "South Korea",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Increased trade restrictions between the U.S. and China and other countries",
+      "Tariffs and trade barriers affecting international operations",
+      "Government protectionist policies and sovereign risks",
+      "Potential for trade tensions and retaliation between governments",
+      "Export controls and sanctions administered by U.S. agencies (Bureau of Industry and Security, Office of Foreign Assets Control)",
+      "Restrictions on movement between jurisdictions due to geopolitical events",
+      "Political instability, terrorism, and potential for hostilities in operating regions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Optical Communications": 0.32,
+    "Display Technologies": 0.27,
+    "Specialty Materials": 0.14,
+    "Environmental Technologies": 0.12,
+    "Life Sciences": 0.07,
+    "Hemlock and Emerging Growth Businesses": 0.08
+  }
+}

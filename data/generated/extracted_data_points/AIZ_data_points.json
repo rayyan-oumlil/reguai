@@ -1,0 +1,123 @@
+{
+  "ticker": "AIZ",
+  "company_name": "Assurant, Inc.",
+  "company_type": "Insurance and Protection Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Latin America",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "Argentina",
+      "Puerto Rico",
+      "Mexico",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Spain",
+      "Germany",
+      "Netherlands",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "South Korea",
+      "India",
+      "Singapore",
+      "Hong Kong"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.821,
+      "Latin America": 0.075,
+      "Europe": 0.059,
+      "Asia Pacific": 0.045
+    },
+    "assets_by_region": {
+      "United States": 0.806,
+      "Foreign countries": 0.194
+    }
+  },
+  "segments": [
+    "Global Lifestyle",
+    "Connected Living",
+    "Global Automotive",
+    "Global Housing",
+    "Homeowners",
+    "Renters and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on vendors and third parties for business, investment management, technology, operations, facilities management and other services",
+      "Dependence on mobile service providers, carriers, retailers, OEMs and cable operators for distribution",
+      "Reliance on third-party cloud service providers for key aspects of business operations",
+      "Dependence on nationwide network of over 900 repair and partner locations for mobile device repairs"
+    ],
+    "risks": [
+      "Failure to successfully manage vendors and other third parties could adversely affect business",
+      "Vendors and third parties face technology, operating, business and economic risks",
+      "Cybersecurity incidents involving vendors or third parties could compromise operations and data",
+      "Supply chain constraints affecting mobile device availability and value",
+      "Tariffs and global supply chain disruptions",
+      "Adverse foreign trade relationships and escalation of U.S.-China and China-Taiwan trade tensions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive federal, state and international regulation and supervision in jurisdictions where business is conducted",
+    "Insurance holding company laws requiring prior approval for control acquisitions",
+    "State and territory insurance regulations on licensing, capital, dividends, underwriting, premium rates, policy forms, market conduct",
+    "Risk-based capital (RBC) standards and minimum solvency requirements",
+    "NAIC Real Property Lender-Placed Insurance Model Act adoption in several states",
+    "Dodd-Frank Act regulations on mortgage servicers and lender-placed insurance",
+    "Consumer Financial Protection Bureau (CFPB) potential authority over insurance products",
+    "Foreign Corrupt Practices Act (FCPA) and U.K. Anti-Bribery Act compliance",
+    "Anti-corruption laws and regulations across operating jurisdictions",
+    "GDPR and comprehensive data protection laws in multiple countries",
+    "NAIC Insurance Data Security Model Law enacted in multiple states",
+    "SEC cybersecurity disclosure rules",
+    "NYDFS cybersecurity rule amendments",
+    "Artificial intelligence regulations including NAIC model bulletin and EU AI Act",
+    "Climate-related disclosure regulations including SEC rules and EU Corporate Sustainability Directive",
+    "California climate-related disclosure requirements",
+    "Pillar Two Model Rules implementing 15% minimum effective tax rate in multiple jurisdictions",
+    "Corporate Alternative Minimum Tax (CAMT) under Inflation Reduction Act",
+    "Changes in tax laws and regulations",
+    "State insurance regulators hiring third-party auditors for unclaimed property records",
+    "Potential federal regulation of insurance including optional federal charter proposals",
+    "ERISA requirements for employee benefit plans administration",
+    "Gramm-Leach-Bliley Act privacy requirements",
+    "International regulations on fair value and fair treatment for consumer products and services",
+    "U.S. and local customs and trade regulations for mobile device movement across borders",
+    "Health, safety, labor and environmental regulations impacting mobile supply chain operations",
+    "Antitrust and competition-related laws and regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Argentina"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Imposition of sanctions, tariffs, trade barriers or protectionist laws",
+      "Adverse foreign trade relationships and escalation of U.S.-China and China-Taiwan trade tensions affecting mobile device value and availability",
+      "Export control regulations and restrictions",
+      "Sanctions compliance requirements under FCPA and international anti-corruption laws"
+    ]
+  },
+  "revenue_by_segment": {
+    "Global Lifestyle": 0.785,
+    "Global Housing": 0.215
+  }
+}

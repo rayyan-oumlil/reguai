@@ -1,0 +1,94 @@
+{
+  "ticker": "FTV",
+  "company_name": "Fortive Corporation",
+  "company_type": "Industrial Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Eastern Europe",
+      "Middle East",
+      "Africa",
+      "Latin America"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Canada",
+      "United Kingdom",
+      "Japan",
+      "Germany",
+      "Switzerland",
+      "Brazil",
+      "Russia",
+      "Ukraine",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.541,
+      "China": 0.104,
+      "All other": 0.355
+    },
+    "assets_by_region": {
+      "United States": 0.782,
+      "All other": 0.218
+    }
+  },
+  "segments": [
+    "Intelligent Operating Solutions",
+    "Precision Technologies",
+    "Advanced Healthcare Solutions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "China",
+      "Europe",
+      "Asia"
+    ],
+    "dependencies": "Reliance upon sole or limited sources of supply for certain materials, components, and services could cause production interruptions. Some components requiring particular specifications or qualifications are dependent on a single supplier or limited number of suppliers.",
+    "risks": "Supply chain disruptions from supplier capacity constraints, operational or quality issues, bankruptcy, decreased availability of key raw materials or commodities, external events such as natural disasters, severe weather events, public health crises, war, terrorist actions, governmental actions, legislative or regulatory changes. Widespread supply chain challenges due to labor, raw material, and component shortages, logistics issues affecting multiple industries.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Medical device regulations (FDA, MDD, MDR, UKCA requirements)",
+    "Healthcare fraud and abuse laws (Federal Anti-Kickback Statute, False Claims Act, HIPAA)",
+    "Data privacy regulations (GDPR, CCPA, LGPD in Brazil, China and Russia data localization laws)",
+    "Export control and economic sanctions laws (ITAR, EAR, OFAC regulations)",
+    "Anti-bribery and anti-corruption laws (FCPA, UK Bribery Act)",
+    "Environmental laws and regulations (hazardous waste disposal, emissions standards)",
+    "Competition and antitrust laws in multiple jurisdictions",
+    "Government contracting regulations and compliance requirements",
+    "Whistleblower protection laws (SEC, DOJ whistleblower programs, False Claims Act)",
+    "Climate change regulations and disclosure requirements (EU and domestic)",
+    "Labor and employment law changes across jurisdictions",
+    "Changes in tax laws and regulations (OECD Pillar Two global minimum tax)",
+    "Trade policies, tariffs, sanctions, and import/export restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions on Russia following Ukraine invasion",
+      "Potential sanctions and trade restrictions affecting China operations",
+      "Export control restrictions on technology and defense articles",
+      "Uncertainty about US foreign trade policy with China under changing administrations",
+      "Increased tariffs or trade barriers impacting cross-border operations",
+      "Restrictions on doing business in sanctioned countries"
+    ]
+  },
+  "revenue_by_segment": {
+    "Intelligent Operating Solutions": 0.436,
+    "Precision Technologies": 0.358,
+    "Advanced Healthcare Solutions": 0.206
+  }
+}

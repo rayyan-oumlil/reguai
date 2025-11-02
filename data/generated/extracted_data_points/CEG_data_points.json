@@ -1,0 +1,85 @@
+{
+  "ticker": "CEG",
+  "company_name": "Constellation Energy Corporation",
+  "company_type": "Energy Generation and Supply",
+  "geography": {
+    "regions": [
+      "Mid-Atlantic",
+      "Midwest",
+      "New York",
+      "ERCOT (Texas)",
+      "Other Power Regions (New England, South, West, Canada)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Mid-Atlantic",
+    "Midwest",
+    "New York",
+    "ERCOT",
+    "Other Power Regions"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Nuclear fuel obtained predominantly through long-term contracts for uranium concentrates, conversion services, enrichment services, and fabrication services, including contracts sourced from Russia",
+      "Approximately 45% of uranium concentrate requirements from 2025 through 2029 are supplied by three suppliers",
+      "Natural gas procured through long-term and short-term contracts, as well as spot-market purchases"
+    ],
+    "risks": [
+      "Supply markets for nuclear fuel, natural gas, and oil are subject to price fluctuations, availability restrictions, tariffs, counterparty default, and geopolitical risk, including the ongoing Russia and Ukraine conflict",
+      "United States, United Kingdom, European Union, and Canadian sanctions impacting exports and imports of Russian nuclear fuel",
+      "Prohibiting Russian Uranium Imports Act bans import of low-enriched uranium produced in Russia or by Russian entities, absent a waiver from the DOE",
+      "Non-performance by nuclear fuel suppliers could have a material adverse impact on consolidated financial statements",
+      "Geopolitical developments, including Russia-Ukraine conflict and sanctions, have potential to impact delivery from multiple suppliers in the international uranium processing industry"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FERC jurisdiction over wholesale sales of electricity and transmission in interstate commerce, including authority to suspend market-based rates",
+    "NRC regulations covering operations, maintenance, emergency planning, security, environmental and radiological aspects of nuclear generating stations",
+    "NRC may modify, suspend, or revoke operating licenses and impose violations and/or civil penalties for failure to comply",
+    "Changes in NRC requirements may require substantial increase in capital expenditures and/or operating costs for nuclear generating facilities",
+    "Federal and state environmental legislation and regulation by local, state and federal authorities affecting air and water emissions, hazardous and solid waste, and impacts on species and habitats",
+    "Clean Air Act regulations including EPA GHG standards for existing coal, new natural gas-fired power plants, and existing oil/gas steam generators",
+    "Clean Water Act Section 316(b) requirements for cooling water intake structures",
+    "CERCLA and RCRA liability for cleanup costs of hazardous substances at sites",
+    "State mandates requiring increasingly stringent policies for reduction of GHG emissions over time",
+    "Renewable and clean energy procurement requirements in 35 states and District of Columbia",
+    "FERC licensing requirements for hydroelectric facilities",
+    "NERC mandatory reliability standards protecting bulk power system against cyber and physical security breaches",
+    "State-sponsored programs (ZECs, CMCs) requiring refund or pass through of nuclear PTC",
+    "Potential repeal or significant reduction of nuclear PTC could have material impact on financial performance",
+    "Additional guidance from U.S. Treasury and IRS on nuclear PTC may materially impact benefits received",
+    "Inflation Reduction Act (IRA) federal tax credits subject to legislative and regulatory changes",
+    "NRC regulations requiring demonstration of reasonable assurance that funds will be available for nuclear decommissioning",
+    "State public utility commission regulations affecting former PECO and STP units decommissioning funding",
+    "Environmental agency actions could subject company to enforcement actions, capital expenditures, operating costs, civil penalties and third-party claims",
+    "Price-Anderson Act liability limits and mandatory participation in financial protection pool for nuclear incidents",
+    "Nuclear Waste Policy Act requiring DOE disposal of spent nuclear fuel (SNF), with DOE failure to meet obligations creating storage cost liabilities"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "United States, United Kingdom, European Union, and Canadian sanctions against Russia impacting nuclear fuel exports and imports",
+      "Prohibiting Russian Uranium Imports Act banning import of low-enriched uranium from Russia",
+      "Potential for Russia to limit fuel deliveries in response to sanctions",
+      "Ongoing Russia and Ukraine conflict yielding sanctions and legislation impacting nuclear fuel supply",
+      "Geopolitical issues including conflicts in Ukraine and Middle East, and tensions between U.S. and China, may motivate cyber-attacks impacting U.S. energy sector"
+    ]
+  }
+}

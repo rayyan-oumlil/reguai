@@ -1,0 +1,97 @@
+{
+  "ticker": "AVGO",
+  "company_name": "Broadcom Inc.",
+  "company_type": "Technology - Semiconductors and Infrastructure Software",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Asia Pacific",
+      "Europe, the Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "Singapore",
+      "Malaysia",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "India",
+      "Israel",
+      "Czech Republic",
+      "Canada",
+      "Mexico",
+      "Japan",
+      "South Korea",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Netherlands",
+      "Switzerland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Semiconductor Solutions",
+    "Infrastructure Software"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+      "Advanced Semiconductor Engineering, Inc.",
+      "Foxconn Technology Group",
+      "Amkor Technology, Inc.",
+      "Siliconware Precision Industries Co., Ltd."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Singapore",
+      "Malaysia",
+      "Taiwan",
+      "Asia"
+    ],
+    "dependencies": "TSMC manufactured approximately 95% of wafers from contract manufacturers during fiscal year 2024. Majority of front-end wafer manufacturing outsourced to external foundries. Internal fabrication facilities for proprietary processes (FBAR filters, GaAs and InP lasers) located in U.S. and Singapore. Primary warehouse in Malaysia.",
+    "risks": "Dependence on contract manufacturers may adversely affect ability to bring products to market. TSMC could prioritize capacity for other customers or reduce deliveries on short notice. Limited number of suppliers for critical materials. Supply chain disruption risks from natural disasters, geopolitical tensions, trade restrictions. Concentration of facilities in Pacific Rim with seismic and severe weather risks.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Export Administration Regulations and export controls",
+    "Trade restrictions and tariffs (U.S.-China trade tensions)",
+    "Government restrictions on technology exports to specific countries",
+    "Anti-competition regulations and enforcement (FTC investigations, Korean Fair Trade Commission investigation)",
+    "Data privacy regulations (U.S. and international)",
+    "Environmental regulations (climate change, water, hazardous materials)",
+    "Product chemical content limitations and restricted substances (lead restrictions in EU, China, U.S.)",
+    "Cybersecurity regulations and requirements",
+    "Government procurement regulations and compliance requirements",
+    "ESG-related laws and regulations (environmental, social, governance disclosure requirements)",
+    "Global minimum tax provisions",
+    "Import/export duties and customs regulations",
+    "Sanctions compliance (Iran, Russia sanctions)",
+    "GDPR and sectoral data protection regulations",
+    "Occupational Safety and Health Administration (OSHA) compliance",
+    "Product liability and warranty regulations",
+    "IP licensing and patent regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. government restrictions on exports to China and specific Chinese entities",
+      "Potential for Chinese government retaliatory actions",
+      "Russia sanctions exposure",
+      "Iran sanctions compliance requirements",
+      "Risk of being added to restricted entity lists",
+      "Technology export prohibitions to specific countries",
+      "Decoupling of U.S. and China economies",
+      "China-Taiwan geopolitical tensions affecting supply chain"
+    ]
+  }
+}

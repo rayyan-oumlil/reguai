@@ -1,0 +1,74 @@
+{
+  "ticker": "CFG",
+  "company_name": "Citizens Financial Group, Inc.",
+  "company_type": "Regional Bank Holding Company",
+  "geography": {
+    "regions": [
+      "New England",
+      "Mid-Atlantic",
+      "Midwest"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Consumer Banking",
+    "Commercial Banking",
+    "Non-Core"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "",
+    "risks": "",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Enhanced prudential standards and regulatory tailoring rules as a BHC with over $100 billion in total consolidated assets",
+    "Capital and stress testing requirements under U.S. Basel III rules and SCB framework",
+    "Liquidity requirements and potential future LCR/NSFR requirements",
+    "Resolution planning requirements for CBNA as an IDI with $100 billion or more in assets",
+    "Proposed long-term debt requirements for large bank holding companies and IDIs",
+    "Standards for safety and soundness under FDIA and prompt corrective action requirements",
+    "Deposit insurance assessments and FDIC special assessment related to systemic risk determination",
+    "Restrictions on dividends and capital distributions subject to FRB oversight and capital plan approval",
+    "Support of subsidiary bank requirements and source of strength obligations",
+    "Transactions with affiliates and insiders restrictions under Sections 23A and 23B of Federal Reserve Act",
+    "Volcker Rule restrictions on proprietary trading and private fund investments",
+    "Regulation of derivatives including swap dealer registration with CFTC",
+    "Consumer financial protection regulations under CFPB oversight for institutions over $10 billion in assets",
+    "Dodd-Frank Act debit card interchange fee restrictions",
+    "Protection of customer personal information and cybersecurity requirements including GLBA and Fair Credit Reporting Act",
+    "Climate-related disclosure requirements including SEC final rule and state-level climate regulations",
+    "Community Reinvestment Act requirements and revised CRA regulations effective January 1, 2026",
+    "Compensation restrictions and oversight by federal banking regulators",
+    "Anti-money laundering and financial transparency requirements under BSA and Patriot Act",
+    "OFAC sanctions compliance and restrictions on transactions with designated foreign countries and entities",
+    "Broker-dealer regulations for subsidiaries including SEC and FINRA oversight",
+    "Heightened risk governance standards for large national banks with $50 billion or more in assets",
+    "Proposed Basel III Endgame capital framework changes for banking organizations with $100 billion or more in assets"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Middle East"
+    ],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Effects of geopolitical instability including wars in Ukraine and the Middle East on economic and market conditions",
+      "Heightened cybersecurity risks from geopolitical instability",
+      "OFAC sanctions compliance requirements and restrictions on transactions with sanctioned countries and entities"
+    ]
+  },
+  "revenue_by_segment": {
+    "Consumer Banking": 0.729,
+    "Commercial Banking": 0.366,
+    "Non-Core": -0.015,
+    "Other": -0.08
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "ADBE",
+  "company_name": "Adobe Inc.",
+  "company_type": "Software Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Belgium",
+      "Denmark",
+      "France",
+      "Germany",
+      "Ireland",
+      "Italy",
+      "Netherlands",
+      "Poland",
+      "Romania",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "United Kingdom",
+      "Kingdom of Saudi Arabia",
+      "South Africa",
+      "Australia",
+      "China",
+      "Hong Kong",
+      "India",
+      "Japan",
+      "Singapore",
+      "Republic of Korea",
+      "Taiwan",
+      "Thailand",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.6,
+      "EMEA": 0.26,
+      "APAC": 0.14
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Digital Media",
+    "Digital Experience",
+    "Publishing and Advertising"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party hosting services and data center costs",
+      "Third-party service providers for cloud-based infrastructure",
+      "Third-party distribution platforms",
+      "Third-party AI models and large language models"
+    ],
+    "risks": [
+      "Reliance on third-party service providers for hosting and content delivery services",
+      "Failure of third-party systems could cause service interruptions",
+      "Disruption or damage to third-party data centers",
+      "Inability to renew agreements with third-party service providers on favorable terms",
+      "Challenges accessing AI models, datasets or hardware",
+      "Lack of proper license or consent for training data used by third-party AI models"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "EU AI Act adopted in 2024 and implemented in phases through 2030",
+    "Evolving AI regulatory environment may increase compliance costs and liability",
+    "Inconsistencies among AI regulations across jurisdictions",
+    "General Data Protection Regulation (GDPR) in European Economic Area and United Kingdom",
+    "Personal Information Protection Law in China",
+    "Developing privacy laws in India",
+    "California Consumer Privacy Act",
+    "California Privacy Rights Act",
+    "Colorado Privacy Act",
+    "Virginia Consumer Data Protection Act",
+    "SEC Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure",
+    "Organization for Economic Cooperation and Development's 15% global minimum tax regime effective for fiscal 2025",
+    "U.S. Tax Act requirement to capitalize and amortize research and development costs",
+    "Export control violations",
+    "Trade restrictions imposed by the United States and other countries",
+    "Economic sanctions and export controls",
+    "Antitrust and competition regulations",
+    "Changes in laws governing the free flow of data across international borders",
+    "Data residency requirements in certain countries",
+    "Cross-border data transfer restrictions",
+    "FTC investigation regarding disclosure and subscription cancellation practices under ROSCA",
+    "DOJ civil complaint filed June 17, 2024 alleging violations of ROSCA and FTC Act",
+    "Potential civil penalties, equitable monetary relief and injunctive relief from DOJ complaint"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions and export controls",
+      "Risks from geopolitical tensions including Russia-Ukraine war and conflict in the Middle East",
+      "Trade disputes and armed conflicts",
+      "Costs and delays from trade restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Digital Media": 0.74,
+    "Digital Experience": 0.25,
+    "Publishing and Advertising": 0.01
+  }
+}

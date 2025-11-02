@@ -1,0 +1,132 @@
+{
+  "ticker": "GILD",
+  "company_name": "Gilead Sciences, Inc.",
+  "company_type": "Biopharmaceutical",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Rest of World",
+      "North America",
+      "Asia",
+      "South America",
+      "Africa",
+      "Australia",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "California",
+      "North Carolina",
+      "New Jersey",
+      "Washington D.C.",
+      "Maryland",
+      "Pennsylvania",
+      "Canada",
+      "Ireland",
+      "United Kingdom",
+      "Netherlands",
+      "Germany",
+      "Belgium",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Japan",
+      "South Korea",
+      "Singapore",
+      "Indonesia",
+      "Philippines",
+      "Vietnam",
+      "Thailand",
+      "Malaysia",
+      "Mongolia",
+      "India",
+      "Iran",
+      "New Mexico",
+      "Missouri",
+      "Texas",
+      "Florida"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "HIV",
+    "Liver Disease",
+    "Veklury (COVID-19)",
+    "Oncology",
+    "Cell Therapy",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Cardinal Health, Inc.",
+      "Cencora, Inc.",
+      "McKesson Corporation"
+    ],
+    "manufacturing_locations": [
+      "United States (Foster City, La Verne, Oceanside, El Segundo, Santa Monica, Frederick)",
+      "Canada (Edmonton)",
+      "Ireland (Cork, Dublin)",
+      "Netherlands (Hoofddorp)"
+    ],
+    "dependencies": "Approximately 91% of product sales in the U.S. and approximately 65% of total worldwide revenues were from three large wholesalers. Some products and materials are manufactured by only one supplier or at only one facility. Suppliers of key components and materials must be named in regulatory applications, and significant delays can occur if qualification of a new supplier is required.",
+    "risks": "Supply chain disruptions from natural disasters, climate change, geopolitical instability, manufacturing difficulties at third-party CMOs, single-source suppliers, regulatory compliance issues (cGMP), shortages of cancer drugs (carboplatin, cisplatin), dependency on contract manufacturing organizations (CMOs), potential manufacturing interruptions, quality issues, inventory shortages, lot failures, product recalls.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA approval delays or denials for product candidates",
+    "Complete response letters from FDA (e.g., bulevirtide)",
+    "Changes in U.S. regulatory policies under new administration",
+    "Inflation Reduction Act (IRA) - Medicare drug price negotiation, rebate obligations, Part D benefit restructuring",
+    "State legislation regulating pharmaceutical pricing (e.g., Colorado PDAB)",
+    "340B program changes and contract pharmacy integrity initiatives",
+    "Medicaid rebate calculation changes",
+    "Risk Evaluation and Mitigation Strategy (REMS) requirements for CAR T-cell therapies",
+    "Class labeling changes (e.g., boxed warning for CAR T-cell therapies)",
+    "EU regulations - GDPR, Corporate Sustainability Reporting Directive",
+    "California climate-related disclosure laws (Climate-Related Financial Risk Act, Climate Corporate Data Accountability Act)",
+    "Anti-kickback laws and false claims laws (federal and state)",
+    "Foreign Corrupt Practices Act and anti-bribery laws",
+    "Health Insurance Portability and Accountability Act (HIPAA)",
+    "Executive Order on Preventing Access to Americans' Bulk Sensitive Personal Data",
+    "BIOSECURE Act (proposed) - restrictions on contracting with certain foreign-owned biotechnology entities",
+    "Pillar Two global minimum corporate tax (15%)",
+    "Immigration and work authorization law changes",
+    "Product importation programs (e.g., Florida's authorized program to import from Canada)",
+    "Compulsory licensing or intellectual property waivers",
+    "Trade protection measures (tariffs, embargoes, sanctions, export licensing)",
+    "EU member state pricing and reimbursement reviews",
+    "cGMP compliance and manufacturing facility inspections",
+    "Post-approval clinical study requirements",
+    "Accelerated approval withdrawal risks (e.g., Trodelvy urothelial cancer indication)",
+    "Patent challenges and ANDA litigation",
+    "Antitrust and consumer protection investigations",
+    "Government investigations (e.g., U.S. Attorney's Office for Southern District of New York)",
+    "Qui tam litigation under False Claims Act",
+    "Product liability lawsuits",
+    "Climate change and decarbonization commitments (net zero by 2050)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions compliance requirements",
+      "Trade restrictions and tariffs imposed by U.S. administration",
+      "Retaliatory measures by other nations",
+      "Restrictions on pharmaceutical imports/exports",
+      "Nationalization or expropriation of assets in foreign jurisdictions",
+      "Political instability in regions where Gilead operates (China, Russia, Ukraine, Israel and surrounding areas)",
+      "War, terrorism, social unrest impacting operations"
+    ]
+  }
+}

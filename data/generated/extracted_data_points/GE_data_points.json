@@ -1,0 +1,131 @@
+{
+  "ticker": "GE",
+  "company_name": "General Electric Company",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "China",
+      "Asia (excluding China)",
+      "Americas (excluding U.S.)",
+      "Middle East and Africa"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "United Kingdom",
+      "Brazil",
+      "China",
+      "Poland",
+      "Singapore",
+      "Canada",
+      "India",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Kansas",
+      "Massachusetts",
+      "Puerto Rico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Commercial Engines & Services",
+    "Defense & Propulsion Technologies",
+    "Defense & Systems",
+    "Propulsion & Additive Technologies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Safran Aircraft Engines",
+      "CFM International"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "France",
+      "United Kingdom",
+      "Brazil",
+      "China",
+      "Europe",
+      "Singapore"
+    ],
+    "dependencies": [
+      "Some suppliers or their sub-suppliers are limited- or sole-source suppliers",
+      "Ability to meet obligations to customers depends on product quality, performance, continued product availability and stability of such suppliers",
+      "Supply-constrained environment impacting industry for past several years",
+      "Significant input shortages, supplier capacity constraints, supplier or customer production disruptions",
+      "Complex supply chains extending into many different countries and regions",
+      "Dependencies on certain key internal manufacturing or other facilities"
+    ],
+    "risks": [
+      "Supply chain shortages and disruptions continue to pose challenges",
+      "Inflationary pressures",
+      "Shortages of skilled labor",
+      "Transportation and logistics challenges",
+      "Manufacturing disruptions",
+      "Supplier quality and sourcing issues",
+      "Price increases from suppliers",
+      "Limited- or sole-source supplier dependencies",
+      "Disruptions from war, natural disasters, public health pandemics, governmental actions",
+      "Climate change impacts (sea level rise, drought, flooding, wildfires, intense weather events)",
+      "Cyber-attacks on suppliers negatively impacting delivery obligations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. Federal Aviation Administration (FAA) design and production regulations",
+    "European Aviation Safety Agency (EASA) regulations",
+    "Type certificate and production certificate requirements",
+    "Repair station certificates from multiple aviation regulators",
+    "Regulatory oversight with potential for fines, suspension or revocation of certificates",
+    "Aviation authorities' power to mandate inspections, maintenance, modifications or grounding of aircraft fleets",
+    "Export controls (U.S. Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR))",
+    "Import controls",
+    "Sanctions compliance (U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC))",
+    "Anti-boycott regulations",
+    "Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) for U.S. government contracts",
+    "Procurement, import/export, security, contract pricing and cost requirements for government contracts",
+    "Environmental protection laws (discharge, treatment, storage, disposal, remediation of hazardous substances)",
+    "Climate change regulations (emissions caps, carbon pricing and taxes, energy taxes, product fuel efficiency standards)",
+    "Mandatory climate disclosure obligations including U.S. government procurement-related contractual climate disclosures",
+    "Increased cybersecurity requirements",
+    "Data privacy and sovereignty regulations",
+    "Artificial intelligence regulations",
+    "Anti-corruption laws",
+    "Competition law",
+    "Public procurement law",
+    "Technical or local content regulations",
+    "PFAS (per- and polyfluoroalkyl substances) restrictions",
+    "Currency controls",
+    "Changes to tax laws (global minimum taxes, taxation of global income)",
+    "OECD Pillar 2 global minimum tax of 15%",
+    "U.S. Inflation Reduction Act (corporate alternative minimum tax, excise tax on stock buybacks)",
+    "Potential changes in U.S. and foreign trade, economic policies following recent U.S. elections",
+    "Tariffs, export controls, restrictions on outbound investment",
+    "Trade barriers and sanctions",
+    "Protectionism, economic nationalism trends"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China",
+      "Poland",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia invasion of Ukraine and related sanctions imposed by EU, U.S. and other countries",
+      "Escalation of sanctions between U.S. and China or other countries",
+      "Tariffs and trade tensions including intensified decoupling between U.S. and China",
+      "Export controls and restrictions on outbound investment",
+      "OFAC sanctions compliance requirements",
+      "Conflict in Middle East posing risk of wider regional conflict"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "ticker": "HON",
+  "company_name": "Honeywell International Inc.",
+  "company_type": "Industrial Conglomerate",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Other international"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Switzerland",
+      "Italy",
+      "China",
+      "India",
+      "Japan",
+      "Malaysia",
+      "Australia",
+      "Brazil",
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Puerto Rico",
+      "Ireland"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aerospace Technologies",
+    "Industrial Automation",
+    "Building Automation",
+    "Energy and Sustainability Solutions",
+    "Commercial Aviation Original Equipment",
+    "Commercial Aviation Aftermarket",
+    "Defense and Space",
+    "Sensing and Safety Technologies",
+    "Productivity Solutions and Services",
+    "Process Solutions",
+    "Warehouse and Workflow Solutions",
+    "Building Products",
+    "Building Solutions",
+    "UOP",
+    "Advanced Materials"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Europe",
+      "Asia",
+      "China"
+    ],
+    "dependencies": [
+      "Single or sole-source basis for major components, product equipment items, and raw materials, particularly in Aerospace Technologies",
+      "Key raw materials: copper, fluorspar, tungsten salts, ethylene, aluminum, molybdenum (Energy and Sustainability Solutions); nickel, steel, titanium, and other metals (Aerospace Technologies)",
+      "Majority of raw materials supply base under contract as of December 31, 2024",
+      "Dependence on supplier financial stability and access to financing",
+      "Supply chain disruptions due to global economic uncertainty, inflation, high interest rates, banking instability, geopolitical instability and regional conflicts"
+    ],
+    "risks": [
+      "Raw material price fluctuations and inflation",
+      "Inability of key suppliers to meet quality and delivery requirements",
+      "Supply chain disruptions and shortages of crucial components",
+      "Single or sole-source supplier dependencies",
+      "Supplier financial difficulties or inability to scale production",
+      "Tariffs on key components resulting from trade tensions between major economies",
+      "Potential introduction of counterfeit parts into global supply chain",
+      "Supply chain constraints impacting ability to meet contractual and financial obligations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state, local, and foreign government regulations relating to environmental protection",
+    "Federal Superfund and similar state and foreign laws for hazardous waste cleanup",
+    "Climate change legislation, regulation, or international treaties",
+    "Environmental discharge regulations and remediation requirements",
+    "Asbestos-related regulations and liabilities",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "Anti-corruption laws in multiple jurisdictions",
+    "Export controls, sanctions, and trade restrictions",
+    "Import and export regulations, tariffs, sanctions, and embargoes",
+    "Data privacy and data protection laws (including GDPR and evolving U.S. state laws)",
+    "Cybersecurity laws and regulations (increasingly demanding globally)",
+    "Product certification regulations (FAA and international aviation regulatory bodies)",
+    "Government procurement regulations and compliance audits",
+    "Fire, security, safety, health care, environmental, and energy efficiency standards",
+    "PFAS legislation and regulations potentially impacting Advanced Materials business",
+    "Employment regulations and labor laws in various jurisdictions",
+    "ESG reporting requirements and evolving standards",
+    "Anti-ESG state-level initiatives in the U.S. creating regulatory uncertainty",
+    "Pillar Two Global Anti-Base Erosion Rules (15% global minimum tax)",
+    "Changes in tax laws, regulations, and judicial rulings across jurisdictions",
+    "Potential changes in U.S. federal defense spending and government contract regulations",
+    "Technology transfer and local sourcing requirements in certain foreign jurisdictions",
+    "Intellectual property protection laws varying by jurisdiction"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "China",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. and international sanctions on Russian and Belarusian governments and entities due to Russia-Ukraine conflict",
+      "Russian government retaliatory actions against U.S. and NATO members",
+      "Export and import controls related to Russia-Ukraine conflict",
+      "Potential escalation of conflict in other regions of Europe",
+      "Increased tension between Russia and U.S./NATO members",
+      "Sanctions compliance risks across multiple jurisdictions",
+      "Iran sanctions impact on operations",
+      "Trade restrictions and tariffs imposed by U.S. on goods from China and other countries",
+      "Retaliatory tariffs by China and other countries",
+      "Proposed significant tariffs by new U.S. administration (extent and focus unpredictable)",
+      "Potential for broader trade restrictions impacting imports and exports"
+    ]
+  }
+}

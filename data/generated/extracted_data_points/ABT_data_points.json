@@ -1,0 +1,133 @@
+{
+  "ticker": "ABT",
+  "company_name": "Abbott Laboratories",
+  "company_type": "Healthcare",
+  "geography": {
+    "regions": [
+      "United States",
+      "International",
+      "Emerging Markets",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "Japan",
+      "Western Europe"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Germany",
+      "China",
+      "India",
+      "Switzerland",
+      "Japan",
+      "Netherlands",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "Vietnam",
+      "Brazil",
+      "Costa Rica",
+      "Singapore",
+      "Malta",
+      "Malaysia",
+      "Ireland",
+      "Colombia",
+      "Spain",
+      "Russia",
+      "Ukraine",
+      "Iran",
+      "Mexico",
+      "Southeast Asia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.39,
+      "International": 0.61
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Established Pharmaceutical Products",
+    "Diagnostic Products",
+    "Nutritional Products",
+    "Medical Devices",
+    "Core Laboratory Diagnostics",
+    "Rapid Diagnostics",
+    "Molecular Diagnostics",
+    "Point of Care Diagnostics",
+    "Cardiac Rhythm Management",
+    "Electrophysiology",
+    "Heart Failure",
+    "Vascular",
+    "Structural Heart",
+    "Neuromodulation",
+    "Diabetes Care"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "International locations",
+      "Various countries worldwide"
+    ],
+    "dependencies": [
+      "Large and complex global supply chain",
+      "Single suppliers for certain products and materials",
+      "Dependence on third-party suppliers and manufacturers",
+      "Global supply chain disruptions from COVID-19 pandemic, inflationary pressures, and labor shortages"
+    ],
+    "risks": [
+      "Disruptions to global supply chain could negatively affect results of operations",
+      "Supply chain challenges impacting cost and availability of raw materials, supplies, and services",
+      "Single suppliers used for certain products and materials",
+      "Manufacturing problems from equipment malfunction, failure to follow protocols, raw material issues, cybersecurity incidents, natural disasters",
+      "Dependence on third-party suppliers and manufacturers for product quality and availability"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA and international regulatory agency requirements for product development, approval, manufacturing, labeling, marketing, and post-market surveillance",
+    "European Union Medical Devices Regulation (MDR) and In Vitro Diagnostic Medical Devices Regulation (IVDR) imposing additional premarket and post-market requirements",
+    "Healthcare fraud and abuse laws including anti-kickback, anti-self-referral, and false claims laws",
+    "Data privacy and security regulations including GDPR, China data protection laws, U.S. state laws, and data localization requirements",
+    "Physician Payments Sunshine Act and similar transparency laws requiring reporting of transfers of value to healthcare professionals",
+    "Trade and investment regulations in many countries requiring local investment or restricting imports",
+    "Environmental laws and regulations imposing limitations on emissions and discharges",
+    "Comprehensive Environmental Response, Compensation, and Liability Act (Superfund) requirements",
+    "Laboratory certification and licensure requirements from CMS, DEA, SAMHSA and foreign counterparts",
+    "Medicare and Medicaid reimbursement regulations and competitive bidding systems",
+    "WIC program cost containment requirements for infant formula",
+    "Potential changes to Affordable Care Act including modification, expansion, or repeal",
+    "Tax law changes including OECD two-pillared plan (Pillar 1 and Pillar 2)",
+    "Patent and trademark protection challenges and intellectual property invalidation by governments",
+    "Product liability and safety regulations",
+    "Clinical trial and post-market study requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia's invasion of Ukraine resulting in sanctions, economic and currency volatility, inflation, operational and supply disruptions",
+      "Trade protection measures including tariffs, import/export licensing requirements, trade sanctions, and changes to international trade agreements",
+      "Potential penalties for violations of anti-corruption, anti-bribery, anti-competition laws including Foreign Corrupt Practices Act and U.K. Bribery Act"
+    ]
+  },
+  "revenue_by_segment": {
+    "Established Pharmaceutical Products": 0.124,
+    "Nutritional Products": 0.201,
+    "Diagnostic Products": 0.223,
+    "Medical Devices": 0.452
+  }
+}

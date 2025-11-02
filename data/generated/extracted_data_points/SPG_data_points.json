@@ -1,0 +1,84 @@
+{
+  "ticker": "SPG",
+  "company_name": "Simon Property Group, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT)",
+  "geography": {
+    "regions": [
+      "United States",
+      "Puerto Rico",
+      "Asia",
+      "Europe",
+      "Canada"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Japan",
+      "South Korea",
+      "Mexico",
+      "Malaysia",
+      "Thailand",
+      "Canada",
+      "Austria",
+      "Italy",
+      "Netherlands",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Spain",
+      "China"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Malls",
+    "Premium Outlets",
+    "The Mills",
+    "Lifestyle Centers",
+    "Other Retail Properties",
+    "International Properties",
+    "TRG (Taubman Realty Group)",
+    "Klépierre",
+    "Other Platform Investments"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on anchor tenants to attract customers; dependence on tenant creditworthiness and ability to pay rent",
+    "risks": "Tenant bankruptcies; loss of anchor stores or major tenants; supply chain disruptions affecting tenants' inventory delivery; labor shortages affecting tenants",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in government policies and applicable laws and regulations, including tax, environmental, safety and zoning",
+    "Failure to maintain Simon's REIT status could result in federal corporate income taxes",
+    "Compliance with REIT requirements may limit ability to pursue certain business opportunities",
+    "Changes in tax laws or regulations that result in adverse tax consequences",
+    "Environmental liabilities for contamination at properties",
+    "Compliance with federal, state and local environmental regulations",
+    "Violations of anti-bribery, anti-corruption and international trade laws (U.S. Foreign Corrupt Practices Act, U.K. Bribery Act)",
+    "Changes in applicable laws and regulations in foreign jurisdictions",
+    "Political inefficiencies and changes in government policies in international markets",
+    "Regulatory fines or penalties related to AI use and data protection",
+    "Inconsistent interpretation or application of AI-related regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Ukraine",
+      "Russia",
+      "Israel",
+      "Gaza",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Impact from international trade disputes",
+      "Sanctions compliance requirements",
+      "Foreign debt crisis affecting international operations",
+      "War in Ukraine affecting economic conditions",
+      "Conflict in Israel, Gaza and surrounding areas"
+    ]
+  }
+}

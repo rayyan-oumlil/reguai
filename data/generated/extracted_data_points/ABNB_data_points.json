@@ -1,0 +1,96 @@
+{
+  "ticker": "ABNB",
+  "company_name": "Airbnb, Inc.",
+  "company_type": "Technology - Online Travel Platform",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, the Middle East, and Africa (EMEA)",
+      "Latin America",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Ireland",
+      "Luxembourg",
+      "Italy",
+      "France",
+      "Germany",
+      "Spain",
+      "Australia",
+      "India",
+      "China",
+      "Brazil",
+      "Japan",
+      "South Korea",
+      "New York",
+      "California"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.45,
+      "EMEA": 0.37,
+      "Latin America": 0.09,
+      "Asia Pacific": 0.09
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Stays (short-term accommodations)",
+    "Experiences",
+    "Long-term stays (28+ nights)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Google Maps",
+      "Amazon Web Services (AWS)",
+      "Third-party community support providers",
+      "Third-party payment processors"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Reliance on Amazon Web Services for hosting and delivery of platform; reliance on third-party payment service providers including payment card networks, banks, payment processors, and payment gateways; reliance on third-party service providers for community support operations; reliance on Google Maps for maps and location data",
+    "risks": "Dependence on AWS for platform hosting with limited redundancy; reliance on third-party payment processors that could become unavailable or increase fees; reliance on third-party community support providers for vast majority of customer support; potential disruptions from third-party service provider failures or security incidents; single points of failure in payment processing and data hosting infrastructure",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Short-term rental regulations and restrictions at city, state, country, and regional levels",
+    "Onerous restrictions on short-term rentals in certain cities (e.g., New York City de facto ban)",
+    "EU Short-Term Rental (STR) Regulation compliance requirements",
+    "Lodging tax collection and remittance obligations with potential joint liability with hosts",
+    "Withholding tax obligations on payments made to hosts",
+    "Transactional taxes (sales, VAT, business, digital service taxes) with significant uncertainty",
+    "Data privacy and data security laws (EU GDPR, UK GDPR, CCPA, state-level privacy laws)",
+    "Digital Services Act (DSA) compliance in EU",
+    "Online Safety Act 2023 in UK",
+    "AI and machine learning regulations (EU AI Act, California AI laws, Colorado Artificial Intelligence Act)",
+    "Payment services regulations (PSD2, UK PSR, proposed PSD3/EU PSR)",
+    "Anti-money laundering (AML) and counter-terrorist financing (CTF) regulations",
+    "Economic and trade sanctions (OFAC, OFSI, Luxembourg Ministry of Finance)",
+    "Consumer protection laws (CFPB regulations, UK and EU consumer protection)",
+    "Insurance regulatory requirements for travel insurance products",
+    "Environmental regulations and climate-related disclosure requirements (CSRD, CSDDD in EU)",
+    "Tax law changes including OECD Pillar Two global minimum tax",
+    "Inflation Reduction Act corporate alternative minimum tax (CAMT) and excise tax on share repurchases",
+    "Investment Company Act compliance requirements",
+    "Foreign Corrupt Practices Act (FCPA) and UK Bribery Act 2010 compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Italy"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions from OFAC, OFSI, and Luxembourg authorities restricting transactions with certain countries, regions, and individuals",
+      "Potential future sanctions in key business areas that could materially impact operations",
+      "Risk of inadvertent transactions inconsistent with sanctions laws despite internal controls",
+      "Compliance requirements with sanctions watch lists and screening procedures"
+    ]
+  }
+}

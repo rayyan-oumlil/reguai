@@ -1,0 +1,93 @@
+{
+  "ticker": "NKE",
+  "company_name": "NIKE, Inc.",
+  "company_type": "Athletic Footwear, Apparel and Equipment",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East & Africa",
+      "Greater China",
+      "Asia Pacific & Latin America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Belgium",
+      "Netherlands",
+      "United Kingdom",
+      "China",
+      "Japan",
+      "Korea",
+      "Vietnam",
+      "Indonesia",
+      "Cambodia",
+      "India",
+      "Russia",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "NIKE Brand",
+    "Jordan Brand",
+    "Converse",
+    "Footwear",
+    "Apparel",
+    "Equipment",
+    "NIKE Direct",
+    "Wholesale"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Sojitz Corporation of America"
+    ],
+    "manufacturing_locations": [
+      "Vietnam",
+      "Indonesia",
+      "China",
+      "Cambodia",
+      "United States"
+    ],
+    "dependencies": "Nearly all footwear and apparel products are manufactured outside the United States by independent contract manufacturers. Concentration risk with top footwear contract manufacturers accounting for approximately 59% of production. Reliance on Tier 2 material suppliers for principal materials.",
+    "risks": "Concentration of manufacturing in Vietnam (51% footwear), Indonesia (28% footwear), and China (17% footwear). Supply chain disruptions from geopolitical conflicts, tariffs, trade policies, pandemics. Difficulty in sourcing raw materials during periods of high demand or shortages. Dependence on third-party logistics and transportation. Factory input costs exposed to foreign currency fluctuations.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Import duties, quotas, sanctions, political and economic instability, conflicts and terrorism",
+    "U.S. Foreign Corrupt Practices Act (FCPA) and other anti-bribery laws compliance",
+    "Changes in U.S. trade policies including tariffs and trade agreement enforcement",
+    "New tariffs imposed in 2025 expected to materially increase Cost of sales",
+    "Anti-dumping measures and safeguard measures",
+    "Trade restrictions and restrictions on transfer of funds",
+    "Product safety regulations around the world",
+    "Climate change legislation and regulations",
+    "Corporate responsibility and sustainability regulations (greenhouse gas emissions disclosure, diversity program limitations)",
+    "Data privacy laws (GDPR in EU/UK, state laws in US, Data Security Law and Personal Information Protection Law in China)",
+    "Income tax law changes (OECD Pillar Two global minimum tax, US tax reforms)",
+    "Employment regulations (wage and hour laws, minimum wage, overtime, citizenship requirements)",
+    "Supply chain due diligence regulations",
+    "European Commission State Aid investigation in Netherlands regarding tax rulings",
+    "Belgian Customs claims for alleged underpaid duties",
+    "Customs and trade facilitation requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions and countersanctions affecting international trade",
+      "Economic sanctions on individuals, corporations or countries",
+      "Restrictions on imports/exports due to geopolitical conflicts",
+      "Political tensions, instability, conflicts, nationalism and terrorism affecting operations",
+      "US-China trade tensions and retaliatory measures",
+      "Geopolitical conflicts disrupting supply chain and manufacturing"
+    ]
+  }
+}

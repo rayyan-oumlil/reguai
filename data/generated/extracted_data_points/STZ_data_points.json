@@ -1,0 +1,84 @@
+{
+  "ticker": "STZ",
+  "company_name": "Constellation Brands, Inc.",
+  "company_type": "Beverage Alcohol",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "New Zealand",
+      "Italy",
+      "Canada",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Beer",
+    "Wine and Spirits",
+    "Corporate Operations and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Owens-Illinois"
+    ],
+    "manufacturing_locations": [
+      "Mexico",
+      "United States",
+      "New Zealand",
+      "Italy"
+    ],
+    "dependencies": "Glass bottles are the largest cost component of packaging materials. The Glass Plant (joint venture with Owens-Illinois) supplies nearly 60% of total annual glass bottle supply for Mexican beer brands. One producer supplies most glass container requirements for U.S. operations. Two aluminum can suppliers provide all requirements for Mexican beer brands, with one supplier providing majority. Limited number of glass producers in U.S. industry. Dependent on water supplies from separate aquifers for Mexican breweries. Dependent on grapes from approximately 350 independent growers in U.S. and 35 in New Zealand and Italy.",
+    "risks": "Concentration risk with limited glass bottle suppliers. Supply chain disruptions from tariffs, geopolitical events, weather events (wildfires, droughts, floods in California and Oregon, severe winter storms). Water scarcity risks in California and Mexico. Dependence on agricultural products subject to weather, diseases, pests. Single-source dependencies for certain packaging materials. Rail and freight shipping disruptions. Border closure risks between U.S. and Mexico. Capacity constraints if Mexican breweries disrupted.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "New or increased tariffs on imports from Mexico, European Union (including Italy), and New Zealand into the U.S.",
+    "Retaliatory tariffs imposed on U.S. product exports (e.g., Canadian tariffs on U.S. goods)",
+    "Changes to international trade agreements, treaties, and trade policies",
+    "Excise taxes and duties on beverage alcohol products and raw materials",
+    "Environmental regulations and compliance requirements (water usage restrictions, waste management, GHG emissions)",
+    "Alcohol beverage control regulations (licensing, warehousing, trade practices, pricing, labeling, advertising)",
+    "Warning labels and signage requirements",
+    "Product labeling requirements and limitations on marketing/sales",
+    "Alcohol-related health warning recommendations (e.g., cancer risk warnings)",
+    "Laws relating to drinking and driving, underage drinking consumption",
+    "Restrictions on beverage alcohol advertising and marketing",
+    "Increased regulation restricting purchase or consumption of beverage alcohol",
+    "Climate change and environmental sustainability reporting regulations (e.g., European Commission rules, SEC climate disclosure rules)",
+    "Data privacy regulations (e.g., EU data privacy rules)",
+    "Anti-bribery and anti-corruption laws (Foreign Corrupt Practices Act)",
+    "Immigration laws and policies affecting consumers and workforce",
+    "Tax law changes (federal, state, local, foreign income taxes, excise taxes)",
+    "Global minimum tax rate (OECD Pillar Two - 15% minimum tax)",
+    "Inflation Reduction Act (IRA) excise tax on share repurchases",
+    "Cannabis-related regulations (Controlled Substances Act, state legalization laws)",
+    "Employment regulations (labor laws, discrimination, harassment, whistleblowing, privacy)",
+    "Cybersecurity and data protection regulations",
+    "Product safety and quality regulations",
+    "Intellectual property and trademark protection laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Mexico",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. tariffs on imports from Mexico, European Union (Italy), and New Zealand imposed in April 2025",
+      "Retaliatory tariffs by Canada on U.S. goods (March 2025)",
+      "Heightened uncertainty from U.S. trade policy changes and threatened tariffs",
+      "Potential trade wars and retaliatory actions between countries",
+      "Sanctions and trade restrictions impacting global economy",
+      "Geopolitical tensions affecting supply chains and commodity prices (aluminum, corn, crude oil, natural gas, steel)"
+    ]
+  }
+}

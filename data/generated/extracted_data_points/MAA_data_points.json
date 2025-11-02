@@ -1,0 +1,52 @@
+{
+  "ticker": "MAA",
+  "company_name": "Mid-America Apartment Communities, Inc.",
+  "company_type": "Real Estate Investment Trust (REIT) - Multifamily",
+  "geography": {
+    "regions": [
+      "Southeast",
+      "Southwest",
+      "Mid-Atlantic"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Same Store",
+    "Non-Same Store and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": "Development activities conducted through wholly-owned entities or joint ventures with pre-purchase transaction partners; fixed price construction contracts with unrelated parties to minimize construction cost risk",
+    "risks": "Labor shortages, supply chain disruptions, escalating labor and material costs, shortages of skilled tradespeople and building components and materials, work stoppages, labor disputes",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with federal, state and local laws and regulations including landlord-tenant laws, employment laws, antitrust and competition laws, privacy laws, tax laws, environmental laws, zoning laws, building codes",
+    "New or changed legal requirements including tenant screening limitations, affordable housing mandates, increased eviction notice periods, mandatory alternative dispute resolution, access to legal counsel for unrepresented tenants",
+    "Rent control or rent stabilization laws and regulations and other tenants' rights laws and regulations",
+    "Changes in tax laws and housing laws",
+    "Green building codes and laws addressing climate change effects requiring increased energy efficiency and greenhouse gas emissions performance",
+    "New data privacy laws such as the Texas Data Privacy and Security Act",
+    "Changes in REIT qualification requirements under the Internal Revenue Code",
+    "State and local income, excise and franchise taxes",
+    "Environmental regulations including removal or remediation of hazardous or toxic substances, underground storage tank regulations, asbestos regulations",
+    "Fair housing laws and regulations",
+    "Potential changes in federal income tax laws applicable to REITs"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Same Store": 0.952,
+    "Non-Same Store and Other": 0.048
+  }
+}

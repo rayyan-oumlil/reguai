@@ -1,0 +1,126 @@
+{
+  "ticker": "SJM",
+  "company_name": "The J. M. Smucker Company",
+  "company_type": "Food and Beverage Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States",
+      "Canada",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Brazil",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Palestine",
+      "China",
+      "Taiwan",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "U.S. Retail Coffee",
+    "U.S. Retail Frozen Handheld and Spreads",
+    "U.S. Retail Pet Foods",
+    "Sweet Baked Snacks",
+    "International and Away From Home"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Keurig Green Mountain, Inc.",
+      "JDE Peet's N.V.",
+      "Graham Packaging Company, L.P."
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "New Orleans, Louisiana",
+      "Orrville, Ohio",
+      "Lexington, Kentucky",
+      "Decatur, Alabama",
+      "Emporia, Kansas",
+      "Indianapolis, Indiana",
+      "Columbus, Georgia",
+      "Arkadelphia, Arkansas",
+      "Buffalo, New York",
+      "Longmont, Colorado",
+      "McCalla, Alabama",
+      "Memphis, Tennessee",
+      "New Bethlehem, Pennsylvania",
+      "Oxnard, California",
+      "Scottsville, Kentucky",
+      "Sherbrooke, Quebec",
+      "Topeka, Kansas",
+      "Grandview, Washington"
+    ],
+    "dependencies": [
+      "Single-source supplier for K-Cup pods (Keurig)",
+      "Single-source supplier for liquid coffee (JDE Peet's)",
+      "Single-source supplier for Folgers coffee packaging (Graham Packaging)",
+      "Green coffee sourced solely from foreign countries",
+      "Substantially all coffee production in New Orleans, Louisiana"
+    ],
+    "risks": [
+      "Loss or interruption of supply from primary or single-source suppliers",
+      "Concentration of production at single manufacturing sites",
+      "Supply chain disruptions due to geopolitical conflicts",
+      "Commodity price volatility",
+      "Transportation and logistics cost increases",
+      "Labor shortages in supply chain",
+      "Tariffs and trade restrictions",
+      "Weather-related disruptions (hurricanes, tornadoes, wildfires)",
+      "Cybersecurity breaches affecting suppliers"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on food manufacturing and labeling",
+    "Federal Food, Drug, and Cosmetic Act compliance",
+    "Food Safety Modernization Act requirements",
+    "Occupational Safety and Health Act compliance",
+    "Clean Air Act and Clean Water Act regulations",
+    "Resource Conservation and Recovery Act compliance",
+    "Tariff Act and trade regulations",
+    "New or increased tariffs imposed by U.S. and retaliatory tariffs by other countries",
+    "Extended producer responsibility regulations for packaging disposal",
+    "Regulations on bioengineered ingredients and artificial dyes",
+    "Food labeling regulations (sugar free, healthy, low sodium, low fat)",
+    "Data privacy and security laws (California, Colorado, Connecticut, Delaware, Iowa, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, Virginia)",
+    "U.S. Foreign Corrupt Practices Act and anti-bribery laws",
+    "Climate change and greenhouse gas emissions regulations",
+    "Single-use plastics regulations",
+    "State and federal consumer protection laws",
+    "False advertising and deceptive trade practices regulations",
+    "Securities regulations and accounting standards",
+    "Tax law changes and examinations",
+    "Canadian regulatory requirements",
+    "Diversity, equity, and inclusion policy changes and scrutiny"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Palestine",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions on Russia due to Ukraine conflict",
+      "Potential sanctions related to Israel-Hamas conflict",
+      "Trade tensions between U.S. and China",
+      "Retaliatory tariffs from other countries in response to U.S. tariffs",
+      "Supply chain disruptions from geopolitical conflicts",
+      "Increased trade barriers and restrictions on global trade"
+    ]
+  }
+}

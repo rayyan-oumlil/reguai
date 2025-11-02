@@ -1,0 +1,64 @@
+{
+  "ticker": "SYF",
+  "company_name": "Synchrony Financial",
+  "company_type": "Consumer Financial Services",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "India",
+      "Philippines"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Home & Auto",
+    "Digital",
+    "Diversified & Value",
+    "Health & Wellness",
+    "Lifestyle"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Fiserv Solutions LLC"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Principal technology and related services (including credit card transaction processing, production and related services) are handled via contractual arrangement with Fiserv. Fiserv is the sole source or one of a limited number of sources of the services they provide.",
+    "risks": "Failure of third parties to provide various services that are important to operations could have material adverse effect. Difficult to replace Fiserv in timely or seamless manner. Principal agreement with Fiserv expires December 2030.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "CFPB final rule on credit card late fees - lowers safe harbor from $30 to $8, would result in significant reduction in interest and fees on loan receivables",
+    "Dodd-Frank Act restrictions on business practices, stringent capital, liquidity and leverage requirements",
+    "Basel III capital requirements - may increase regulatory capital requirements and limit dividends/stock repurchases",
+    "Enhanced prudential standards for savings and loan holding companies with $100+ billion assets - biennial supervisory stress tests, formal capital plan submission, stress capital buffer",
+    "CFPB authority to prevent unfair, deceptive or abusive acts or practices",
+    "Federal Reserve Board and OCC restrictions on dividends and stock repurchases",
+    "FDIC restrictions on brokered deposits if not well-capitalized",
+    "Privacy, information security and data protection laws (GLBA, CCPA, CPRA, GDPR)",
+    "Anti-money laundering and anti-terrorism financing laws (Bank Secrecy Act, Patriot Act)",
+    "OFAC sanctions programs compliance",
+    "Community Reinvestment Act (CRA) requirements",
+    "Military Lending Act (MLA) protections for active duty military",
+    "CARD Act restrictions on interest rate increases and late fees",
+    "Fair Credit Reporting Act (FCRA) requirements",
+    "State sales tax rules and regulations",
+    "Section 1033 of Dodd-Frank Act final rule on open banking data sharing",
+    "Proposed Basel Endgame capital rule changes for banks with $100+ billion assets",
+    "Proposed long-term debt requirements for holding companies with $100+ billion assets",
+    "State attorneys general enforcement actions",
+    "Interchange fee regulations and restrictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "OFAC sanctions compliance requirements for transactions with sanctioned countries, terrorists, narcotics traffickers, and weapons proliferation entities"
+    ]
+  }
+}

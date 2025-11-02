@@ -1,0 +1,78 @@
+{
+  "ticker": "NVR",
+  "company_name": "NVR, Inc.",
+  "company_type": "Homebuilding and Mortgage Banking",
+  "geography": {
+    "regions": [
+      "Mid Atlantic",
+      "North East",
+      "Mid East",
+      "South East"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "Mid Atlantic": 0.43,
+      "North East": 0.113,
+      "Mid East": 0.181,
+      "South East": 0.276
+    },
+    "assets_by_region": {
+      "Mid Atlantic": 0.227,
+      "North East": 0.063,
+      "Mid East": 0.067,
+      "South East": 0.155,
+      "Corporate and Other": 0.488
+    }
+  },
+  "segments": [
+    "Mid Atlantic Homebuilding",
+    "North East Homebuilding",
+    "Mid East Homebuilding",
+    "South East Homebuilding",
+    "Mortgage Banking"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Thurmont, Maryland",
+      "Burlington County, New Jersey",
+      "Farmington, New York",
+      "Kings Mountain, North Carolina",
+      "Darlington, Pennsylvania",
+      "Portland, Tennessee",
+      "Richmond, Virginia",
+      "Fayetteville, North Carolina",
+      "Lavonia, Georgia",
+      "Dayton, Ohio"
+    ],
+    "dependencies": "The Company utilizes independent subcontractors under fixed price contracts to perform construction work. The Company uses many independent subcontractors in various markets and is not dependent on any single subcontractor or on a small number of subcontractors. The Company is dependent upon building material suppliers for a continuous flow of raw materials.",
+    "risks": "Shortage of building materials or labor, or increases in materials or labor costs. Increased construction activity and demand for building materials could lead to supply chain disruptions. Strong construction market conditions could restrict the labor force available to subcontractors.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Federal, state and local zoning, building, environmental, advertising and consumer credit statutes, rules and regulations",
+    "Restrictive zoning and density requirements that limit the number of homes that can be built",
+    "Building moratoriums and delays in receiving governmental approvals",
+    "Assessments or impact fees for schools, parks, streets, highways and other public improvements",
+    "Environmental laws concerning protection of health and the environment",
+    "Restrictions and reporting on carbon dioxide emissions and higher building code energy efficiency standards related to climate change regulations",
+    "Increased regulation of the mortgage industry at federal, state and local level",
+    "Potential changes to federal laws and regulations affecting FNMA, GNMA and FHLMC",
+    "Tighter underwriting requirements and fee restrictions in mortgage origination",
+    "Real Estate Settlement and Protection Act compliance",
+    "Consumer Financial Protection Bureau (CFPB) regulations on mortgage origination, selling and servicing practices"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  },
+  "revenue_by_segment": {
+    "Homebuilding": 0.978,
+    "Mortgage Banking": 0.022
+  }
+}

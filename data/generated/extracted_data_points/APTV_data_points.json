@@ -1,0 +1,123 @@
+{
+  "ticker": "APTV",
+  "company_name": "Aptiv PLC",
+  "company_type": "Automotive Technology and Components",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe, Middle East & Africa",
+      "Asia Pacific",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada",
+      "Brazil",
+      "Germany",
+      "France",
+      "United Kingdom",
+      "Poland",
+      "Serbia",
+      "Morocco",
+      "China",
+      "India",
+      "Singapore",
+      "South Korea",
+      "Japan",
+      "Turkey",
+      "Italy",
+      "Portugal",
+      "Hungary",
+      "Ukraine",
+      "Russia",
+      "Honduras",
+      "Luxembourg",
+      "Switzerland",
+      "Ireland",
+      "Jersey"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Signal and Power Solutions",
+    "Advanced Safety and User Experience",
+    "Electrical Distribution Systems",
+    "Engineered Components Group",
+    "Active Safety",
+    "User Experience",
+    "Smart Vehicle Compute and Software"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Mexico",
+      "China",
+      "Eastern Europe",
+      "North Africa",
+      "Brazil",
+      "Morocco",
+      "Serbia",
+      "India"
+    ],
+    "dependencies": [
+      "Copper and petroleum-based resin products subject to significant price volatility",
+      "Semiconductor supply shortage impacting production",
+      "Global supply chain disruptions affecting component availability",
+      "Ukraine and Russia are significant global producers of raw materials including copper, aluminum, palladium and neon gases"
+    ],
+    "risks": [
+      "Concentration risk in best cost countries",
+      "Just-in-time delivery system vulnerable to disruptions",
+      "Single subcomponent shortage can force production cessation",
+      "Global supply chain disruptions from geopolitical events",
+      "Commodity price volatility particularly copper and resins",
+      "Semiconductor supply constraints",
+      "Increased logistics costs and longer transit times",
+      "Supply disruptions from Ukraine/Russia conflict"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Increasingly stringent vehicle safety regulations globally",
+    "Fuel economy and greenhouse gas emissions regulations",
+    "EPA proposed rules requiring up to 67% of light-duty vehicles to be all-electric by 2032",
+    "California Air Resources Board rules requiring all new passenger cars to be zero-emission by 2035",
+    "EU regulations requiring all new passenger cars and vans to have zero CO2 emissions by 2035",
+    "OECD Pillar Two Framework requiring minimum effective tax rate of 15%",
+    "NHTSA authority to require product recalls for safety concerns",
+    "Environmental, health and safety regulations compliance",
+    "Climate change and GHG reduction requirements",
+    "Restrictions on incorporation of chemical substances into products",
+    "DOT guidance on automated driving systems testing and deployment",
+    "Potential requirements for autonomous vehicle systems to receive regulatory approval",
+    "Export control restrictions on advanced computing semiconductors to China",
+    "Trade tariffs and import quotas including potential new tariffs on Mexico, Canada and China",
+    "Changes to free trade agreements like USMCA",
+    "Mexico statutory minimum wage increases and labor reforms",
+    "Sanctions compliance including EU, US and other sanctions against Russia",
+    "Data privacy regulations including new EU regulations",
+    "FDA approval requirements for certain products",
+    "Tax law changes and transfer pricing regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Mexico"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions restricting business operations",
+      "Potential for further sanctions and retaliatory measures by Russia",
+      "Export control restrictions targeting China for advanced semiconductors",
+      "Economic sanctions impacting operations in sanctioned countries",
+      "Asset expropriation risks in Russia",
+      "Restrictions on energy supplies from Russia to Europe"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "ticker": "TROW",
+  "company_name": "T. Rowe Price Group, Inc.",
+  "company_type": "Asset Management",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Luxembourg",
+      "Hong Kong",
+      "Singapore",
+      "Japan",
+      "Australia",
+      "Canada",
+      "Switzerland",
+      "China",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Equity",
+    "Fixed Income",
+    "Multi-Asset",
+    "Alternatives"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for execution and delivery of services",
+      "Third-party financial intermediaries for distribution",
+      "Cloud-based solutions for data transmission and storage",
+      "External service providers for technology and disaster contingency support"
+    ],
+    "risks": [
+      "Failure of third-party service providers to properly perform processes or service interruptions",
+      "Reliance on third-party intermediaries for distribution channels",
+      "Cybersecurity risks from third-party service providers",
+      "Disruptions of infrastructure and third-party services such as communications, power, cloud services, transfer agent, investment management, trading, and accounting systems"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive federal, state, and foreign laws and regulations subject to change",
+    "SEC regulations on investment advisers under Investment Advisers Act of 1940",
+    "ERISA regulations for retirement savings activities",
+    "EU General Data Protection Regulation (GDPR) compliance",
+    "California Consumer Privacy Act (CCPA) compliance",
+    "Commodity Futures Trading Commission (CFTC) regulations limiting use of derivatives",
+    "Changes to distribution fee regulations and enhanced disclosure requirements",
+    "Privacy, data collection, cybersecurity, and data protection laws across multiple jurisdictions",
+    "SEC cybersecurity disclosure rules and amended Regulation S-P",
+    "Proposed SEC rules on predictive data analytics and AI technology",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act requirements",
+    "European Market Infrastructure Regulation (EMIR)",
+    "EU Sustainable Finance Disclosure Regulation (SFDR) for ESG disclosures",
+    "EU Corporate Sustainability Reporting Directive",
+    "California Climate Accountability Package",
+    "Proposed SEC climate disclosure rules",
+    "State legislation restricting business with entities considering ESG factors",
+    "Retirement Security Rule expanding ERISA fiduciary definition",
+    "Financial transaction tax proposals in US and EU",
+    "Changes to tax-deferred investment options and capital gains tax rates",
+    "FINRA regulations for broker-dealer activities",
+    "Net capital requirements from federal, state, and international regulatory agencies",
+    "Pillar Two Model Rules introducing global 15% minimum tax"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Middle East countries"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic, trade and sanctions laws and regulations exposure",
+      "Risks from political or diplomatic developments, government policies, wars, conflicts or civil unrest (Russian invasion of Ukraine, Israel-Hamas war)",
+      "Trade wars or tariffs including those imposed or threatened by the U.S.",
+      "Potential nationalization of property in countries outside the U.S."
+    ]
+  }
+}

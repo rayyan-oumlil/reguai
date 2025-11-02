@@ -1,0 +1,75 @@
+{
+  "ticker": "ODFL",
+  "company_name": "Old Dominion Freight Line, Inc.",
+  "company_type": "Transportation and Logistics",
+  "geography": {
+    "regions": [
+      "North America",
+      "United States"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {
+      "United States": 0.95,
+      "International": 0.05
+    },
+    "assets_by_region": {
+      "United States": 1.0
+    }
+  },
+  "segments": [
+    "LTL services",
+    "Other services"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on tractor and trailer manufacturers for equipment supply",
+      "Reliance on diesel fuel availability and pricing",
+      "Dependence on third-party transportation providers to supplement capacity",
+      "Reliance on third-party service providers for operational and technical services including cloud computing and data storage"
+    ],
+    "risks": [
+      "Shortages of raw materials (rubber, steel) required for production of critical operating equipment",
+      "Tractor and trailer manufacturers experiencing shortages of component parts and supplies leading to reduced production",
+      "Limited equipment availability and higher prices due to supply chain factors",
+      "Potential fuel shortages at certain service center locations",
+      "Disruptions in workforce, supply and availability of equipment, parts and services due to adverse economic conditions",
+      "Third-party service provider disruptions including data center failures, labor issues, or supply chain disruptions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "DOT and various state and federal agency regulations on motor carrier operations, driver hours of service, safety and fitness of transportation equipment and drivers, transportation of hazardous materials",
+    "FMCSA rules on driver hours of service and electronic logging devices (ELDs)",
+    "Commercial Driver's License Drug and Alcohol Clearinghouse compliance requirements",
+    "Environmental laws and regulations on disposal, emission and discharge of hazardous materials, fuel storage tanks, transportation of certain materials, storm water discharge",
+    "EPA Clean Trucks Plan with stringent emission standards for nitrogen oxides and greenhouse gas emissions from heavy-duty engines",
+    "California Air Resources Board (CARB) standards to reduce nitrogen oxide emissions and Advanced Clean Trucks rule requiring manufacturers to only sell zero emission vehicles (ZEVs) in California beginning in 2036 model year",
+    "TSA and CBP cargo-security and transportation regulations",
+    "Potential new federal or state regulations on fuel-efficiency or engine emissions",
+    "Healthcare and mandated benefits-related coverage regulations",
+    "Data privacy and security laws including California Consumer Privacy Act and similar state-level laws",
+    "Foreign Corrupt Practices Act (FCPA) compliance for international operations",
+    "Potential changes in trade policies, tariffs, and trade agreements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Exposure to restrictive trade policies and renegotiation of international trade agreements",
+      "Impact of tariffs imposed on goods imported into the United States and retaliatory tariffs by foreign governments",
+      "Potential trade wars reducing global economic activity"
+    ]
+  },
+  "revenue_by_segment": {
+    "LTL services": 0.991,
+    "Other services": 0.009
+  }
+}

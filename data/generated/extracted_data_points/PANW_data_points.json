@@ -1,0 +1,87 @@
+{
+  "ticker": "PANW",
+  "company_name": "Palo Alto Networks, Inc.",
+  "company_type": "Cybersecurity",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, the Middle East, and Africa (EMEA)",
+      "Asia Pacific and Japan (APAC)"
+    ],
+    "countries": [
+      "United States",
+      "Israel",
+      "India",
+      "United Kingdom",
+      "China",
+      "Taiwan",
+      "Russia",
+      "Ukraine",
+      "Canada",
+      "Mexico"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Network Security",
+    "Cloud Security",
+    "Security Operations",
+    "Threat Intelligence and Advisory Services (Unit 42)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Flextronics International, Ltd. (Flex)"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Asia"
+    ],
+    "dependencies": "Substantial reliance on Flex as EMS provider; sole source providers for certain components; components sourced outside the United States subject to geopolitical risks",
+    "risks": "Manufacturing and logistics delays; pricing fluctuations; supply shortages; supply chain disruption from inflationary pressures; geographically concentrated manufacturing operations in Asia vulnerable to regional disruptions; tensions between China and Taiwan; tensions between U.S. and China; tariffs on components imported for final manufacturing in the United States",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. export controls and economic sanctions (including Sanctions on Russia)",
+    "Import permit and license requirements for encryption technology in various countries",
+    "E.U. General Data Protection Regulation (GDPR)",
+    "U.K. General Data Protection Regulation (UK GDPR)",
+    "California Consumer Privacy Act (CCPA) as amended by California Privacy Rights Act",
+    "State privacy laws in at least 19 states with 6 others pending",
+    "Data localization laws requiring data processing and storage within specific countries",
+    "Federal Trade Commission and state attorneys general enforcement actions for consumer protection",
+    "U.S. Foreign Corrupt Practices Act",
+    "U.K. Bribery Act",
+    "Anti-corruption laws",
+    "Trade regulations and tariffs",
+    "Government certification requirements for products",
+    "U.S. government requirements for products to be manufactured in the United States",
+    "New proposed legislation regulating AI in jurisdictions such as the E.U.",
+    "E.U. Corporate Sustainability Reporting Directive",
+    "Climate-related and sustainability-related laws and regulations",
+    "Employment and labor laws",
+    "Workplace safety regulations",
+    "Product safety regulations",
+    "Environmental laws",
+    "Federal securities laws",
+    "Tax laws and regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Israel",
+      "Russia",
+      "Ukraine",
+      "China",
+      "Taiwan"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Sanctions on Russia in response to invasion of Ukraine",
+      "U.S. embargoed or sanctioned countries, governments, and persons",
+      "Compliance with governmental sanctions and export controls",
+      "Risk of increased Russian cyberattacks due to Ukraine conflict and Sanctions on Russia"
+    ]
+  }
+}

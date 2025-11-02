@@ -1,0 +1,110 @@
+{
+  "ticker": "DELL",
+  "company_name": "Dell Technologies Inc.",
+  "company_type": "Technology",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East, and Africa (EMEA)",
+      "Asia-Pacific and Japan (APJ)"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Ireland",
+      "Poland",
+      "Germany",
+      "France",
+      "Italy",
+      "Singapore",
+      "China",
+      "India",
+      "Malaysia",
+      "Japan",
+      "Australia",
+      "New Zealand"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.534,
+      "Foreign countries": 0.466
+    },
+    "assets_by_region": {
+      "United States": 0.693,
+      "Foreign countries": 0.307
+    }
+  },
+  "segments": [
+    "Infrastructure Solutions Group (ISG)",
+    "Client Solutions Group (CSG)",
+    "Servers and Networking",
+    "Storage",
+    "Commercial",
+    "Consumer"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Bread Financial Holdings, Inc.",
+      "Intel Corporation",
+      "Broadcom Inc.",
+      "Comenity Capital Bank"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Malaysia",
+      "China",
+      "Brazil",
+      "India",
+      "Poland",
+      "Ireland"
+    ],
+    "dependencies": "The Company utilizes a limited number of contract manufacturers that assemble a portion of its products. The Company purchases components from suppliers and sells those components to such contract manufacturers. The Company maintains several single-source or limited-source supplier relationships. A significant concentration of outsourced manufacturing is performed by only a few contract manufacturers, often in single locations.",
+    "risks": "Supply chain disruptions due to changes to raw material availability, manufacturing capacity, labor shortages, public health issues, tariffs, trade disputes and protectionist measures, extreme weather events or effects of climate change, and significant changes in the financial condition of suppliers. Single-source or limited-source suppliers may adversely affect the availability or timely delivery of critical products or components. Concentration risk with contract manufacturers. Elevated backlog levels for AI-optimized servers due to GPU supply constraints.",
+    "supplier_concentration": {
+      "Three largest contract manufacturers": 1.0
+    }
+  },
+  "regulatory_risks": [
+    "U.S. Federal Communications Commission regulations",
+    "Antitrust regulatory activities of the U.S. Federal Trade Commission, U.S. Department of Justice, and European Union",
+    "Consumer protection laws and financial services regulation",
+    "Export regulatory activities of the U.S. Department of Commerce and U.S. Department of the Treasury",
+    "Import regulatory activities of the U.S. Customs and Border Protection",
+    "Product safety regulatory activities of the U.S. Consumer Product Safety Commission and U.S. Department of Transportation",
+    "Health information privacy and security requirements of the U.S. Department of Health and Human Services",
+    "Environmental, employment and labor regulations in various countries",
+    "Product design and procurement regulations relating to materials composition, sourcing, radiated emissions, energy efficiency, collection, recycling, treatment, transportation, and disposal of electronics products",
+    "Restrictions on mercury, lead, cadmium, lithium metal, lithium ion, and other substances",
+    "Climate change laws and regulations",
+    "U.S. Foreign Corrupt Practices Act and other anti-corruption laws",
+    "Export controls, customs regulations, economic sanctions laws and embargoes",
+    "Dodd-Frank Wall Street Reform and Consumer Protection Act provisions on conflict minerals",
+    "EU Artificial Intelligence Act and other AI regulations",
+    "Data privacy regulations",
+    "OECD Pillar Two global minimum tax",
+    "Trade protection measures, tariffs, and trade barriers"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Democratic Republic of the Congo"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic sanctions laws and embargoes imposed by the U.S. government",
+      "Violations of export controls, customs regulations, or economic sanctions laws may result in severe criminal or civil sanctions and penalties",
+      "Trade protection measures and disputes could result in increased tariffs and other trade restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Infrastructure Solutions Group": 0.456,
+    "Client Solutions Group": 0.506,
+    "Corporate and other": 0.038
+  }
+}

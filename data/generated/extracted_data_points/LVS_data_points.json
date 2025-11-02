@@ -1,0 +1,99 @@
+{
+  "ticker": "LVS",
+  "company_name": "Las Vegas Sands Corp.",
+  "company_type": "Integrated Resorts and Gaming",
+  "geography": {
+    "regions": [
+      "Macao",
+      "Singapore",
+      "Asia",
+      "United States"
+    ],
+    "countries": [
+      "China",
+      "Macao",
+      "Singapore",
+      "United States",
+      "Hong Kong",
+      "South Korea",
+      "Japan",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Australia",
+      "Cambodia",
+      "Vietnam",
+      "Thailand",
+      "Taiwan"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "The Venetian Macao",
+    "The Londoner Macao",
+    "The Parisian Macao",
+    "The Plaza Macao and Four Seasons Macao",
+    "Sands Macao",
+    "Marina Bay Sands",
+    "Ferry Operations and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Dependence on third-party hotel operators and management companies for hotel operations",
+      "Reliance on third-party vendors for gaming operating systems and technology services",
+      "Dependence on construction contractors and subcontractors for development projects"
+    ],
+    "risks": [
+      "Construction contractors may be unable to meet obligations leading to increased costs",
+      "Shortages of materials or skilled labor could cause cost overruns and delays",
+      "Disruptions in technology services from third parties could impact operations",
+      "Foreign workers seconded to contractors under government labor quotas create employer obligations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Gaming concession in Macao expires December 31, 2032 and may not be renewed",
+    "Macao government can unilaterally terminate gaming concession for non-compliance",
+    "Singapore casino license expires April 2025 and renewal not guaranteed",
+    "Singapore government can terminate casino concession on public interest grounds",
+    "Macao government requires approval for transfers of shares, debt transactions, and financial decisions",
+    "Compliance with Foreign Corrupt Practices Act (FCPA) and anti-corruption laws",
+    "Anti-money laundering laws and regulations in Singapore and Macao",
+    "Gaming debts may not be enforceable in certain jurisdictions",
+    "Macao government can require modifications to property plans and specifications",
+    "Singapore government can impose financial penalties up to 10% of annual gross gaming revenue for serious breaches",
+    "Personal Information Protection Law of the PRC (PIPL) may apply extraterritorially to Macao operations",
+    "Cybersecurity Review Measures in China may require review by CAC",
+    "New York State casino license required for Nassau Coliseum development with no assurance of approval",
+    "Environmental regulations regarding carbon emissions, plastic use, and waste disposal",
+    "Tax law changes including OECD BEPS project and minimum tax rates",
+    "Data security and privacy regulations including PIPL and cybersecurity requirements",
+    "Labor and immigration restrictions in Macao affecting ability to hire non-resident workers",
+    "Macao government can revise land concession rent amounts every five years",
+    "Investment Plan requirements under Macao Concession totaling $4.48 billion by 2032",
+    "Singapore MBS Expansion Project completion deadline of July 8, 2029 subject to government approval for extensions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Macao",
+      "Hong Kong"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Chinese government policies on travel and currency movements could disrupt visitor numbers from mainland China",
+      "Restrictions on exit visas for mainland China residents could reduce Macao visitation",
+      "Foreign exchange and capital control restrictions could be imposed on Macao and Hong Kong operations",
+      "Restrictions on remittance of Renminbi from mainland China could impede gaming patron flow",
+      "Chinese government could extend oversight and control applicable in mainland China to Macao and Hong Kong operations",
+      "CAC could restrict or prohibit provision of personal information to the company",
+      "Potential application of mainland China laws and regulations to Macao operations under 'one country, two systems'",
+      "Economic, political and legal developments in Macao subject to Chinese government influence"
+    ]
+  }
+}

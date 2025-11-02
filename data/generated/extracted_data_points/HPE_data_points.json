@@ -1,0 +1,120 @@
+{
+  "ticker": "HPE",
+  "company_name": "Hewlett Packard Enterprise Company",
+  "company_type": "Technology Infrastructure and Services",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa",
+      "Asia Pacific and Japan"
+    ],
+    "countries": [
+      "United States",
+      "Puerto Rico",
+      "Costa Rica",
+      "Mexico",
+      "Brazil",
+      "Colombia",
+      "United Kingdom",
+      "Germany",
+      "Czech Republic",
+      "France",
+      "Italy",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Singapore",
+      "Malaysia",
+      "India",
+      "Japan",
+      "Russia",
+      "Belarus",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.439,
+      "Europe_Middle_East_Africa": 0.338,
+      "Asia_Pacific_Japan": 0.223
+    },
+    "assets_by_region": {
+      "United_States": 0.462,
+      "Other_countries": 0.538
+    }
+  },
+  "segments": [
+    "Server",
+    "Hybrid Cloud",
+    "Intelligent Edge",
+    "Financial Services",
+    "Corporate Investments and Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "AMD",
+      "Intel"
+    ],
+    "manufacturing_locations": [
+      "United States",
+      "Puerto Rico",
+      "Costa Rica",
+      "Czech Republic",
+      "Malaysia",
+      "Mexico",
+      "China",
+      "Taiwan",
+      "South Korea",
+      "Singapore"
+    ],
+    "dependencies": "Single-source suppliers for certain customized parts including Intel and AMD as suppliers of certain x86 processors. Reliance on contract manufacturers and outsourced manufacturing. Concentration of manufacturing in certain geographic locations including Asia near major earthquake faults.",
+    "risks": "Component shortages including GPUs and accelerated processing units. Supply chain constraints. Supplier transitions. Raw material or capacity constraints. Single-source supplier disruptions. Geopolitical tensions impacting supply chain. Natural disasters in manufacturing locations. Supplier financial instability. Long lead times for components.",
+    "supplier_concentration": {
+      "Distributor_1": 0.14,
+      "Distributor_2": 0.11
+    }
+  },
+  "regulatory_risks": [
+    "Environmental regulations including product take-back legislation and repairability requirements",
+    "Climate change and emissions-related reporting requirements",
+    "Supply chain due diligence regulations",
+    "Data privacy regulations including GDPR and various U.S. state laws",
+    "AI regulation and compliance requirements",
+    "Export controls and sanctions laws",
+    "International trade regulations and tariffs",
+    "Customs regulations and import duties",
+    "Foreign direct investment requirements",
+    "Antitrust and competition laws",
+    "Government procurement regulations",
+    "Tax law changes including OECD Pillar Two framework",
+    "Cybersecurity regulations",
+    "Product compliance and safety regulations",
+    "Energy consumption standards",
+    "Conflict minerals regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "China",
+      "Ukraine"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia and Ukraine conflict sanctions exposure",
+      "U.S. export controls and sanctions compliance",
+      "Trade sanctions impacting business operations",
+      "Restrictions on doing business in Russia and Belarus",
+      "China-U.S. relationship tensions",
+      "Middle East conflict impacts",
+      "Potential sanctions on technology exports"
+    ]
+  },
+  "revenue_by_segment": {
+    "Server": 0.538,
+    "Hybrid_Cloud": 0.179,
+    "Intelligent_Edge": 0.15,
+    "Financial_Services": 0.117,
+    "Corporate_Investments_Other": 0.034
+  }
+}

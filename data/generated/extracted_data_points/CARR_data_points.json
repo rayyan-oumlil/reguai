@@ -1,0 +1,133 @@
+{
+  "ticker": "CARR",
+  "company_name": "Carrier Global Corporation",
+  "company_type": "Intelligent Climate and Energy Solutions",
+  "geography": {
+    "regions": [
+      "Americas",
+      "Europe, Middle East and Africa (EMEA)",
+      "Asia-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "China",
+      "India",
+      "Japan",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Australia",
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Poland",
+      "Spain",
+      "United Kingdom",
+      "Malaysia",
+      "Singapore",
+      "Russia",
+      "Ukraine",
+      "Egypt",
+      "Switzerland",
+      "Delaware"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.52,
+      "EMEA": 0.31,
+      "Asia-Pacific": 0.17
+    },
+    "assets_by_region": {
+      "United States": 0.27,
+      "Europe": 0.42,
+      "Asia Pacific": 0.16,
+      "Other": 0.15
+    }
+  },
+  "segments": [
+    "HVAC",
+    "Refrigeration"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Mexico",
+      "Brazil",
+      "China",
+      "India",
+      "Saudi Arabia",
+      "Middle East",
+      "Europe",
+      "United States"
+    ],
+    "dependencies": [
+      "Reliance on suppliers and commodity markets for components such as motors, valves, copper, aluminum, steel, semi-conductors and electronic components",
+      "Certain proprietary component parts provided by single-source unaffiliated third-party suppliers",
+      "Some key parts available only from a single supplier or limited group of suppliers"
+    ],
+    "risks": [
+      "Supply chain disruptions from extreme weather and climate events",
+      "Supplier capacity constraints or production disruptions",
+      "Price increases, duties, tariffs or other government actions",
+      "Shortages of raw materials and components",
+      "Increased freight and logistics costs",
+      "Supplier financial distress or bankruptcy",
+      "Delivery delays and transportation disruptions",
+      "Supplier plant shutdowns or slowdowns",
+      "Work stoppages and labor relations issues at suppliers",
+      "Intellectual property claims against suppliers",
+      "Regulatory changes impacting suppliers including climate-related regulations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Paris Agreement and U.S. climate policies to meet nationally determined contributions",
+    "Local regulations reducing use of fossil fuels in buildings",
+    "Kigali Amendment to the Montreal Protocol requiring curtailment of high global warming potential refrigerants",
+    "American Innovation and Manufacturing (AIM) Act of 2020 regulating refrigerants",
+    "Building energy and cold chain efficiency requirements",
+    "Natural gas prohibitions",
+    "Public disclosure rules surrounding greenhouse gas emissions (California and European Union)",
+    "Changes in tax laws and regulations",
+    "Import/export regulations and trade restrictions",
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "Antitrust and anti-collusion laws",
+    "Anti-money laundering regulations",
+    "Export Administration Regulations administered by U.S. Department of Commerce",
+    "Embargoes and sanctions regulations administered by U.S. Department of the Treasury",
+    "Environmental regulations on refrigerants, noise levels, product and fire safety, hydrofluorocarbon emissions, fluorinated gases, hazardous substances and electronic equipment waste",
+    "Product safety standards and certifications",
+    "Data privacy and cybersecurity laws",
+    "U.S. government contracting regulations",
+    "FDA approval requirements",
+    "Asbestos-related regulations",
+    "PFAS (per- and polyfluoroalkyl substances) regulations related to Aqueous Film Forming Foam (AFFF)",
+    "Global chemical use restrictions for human health and environmental protection",
+    "OECD/G20 two-pillar global tax reform plan (Pillar One and Pillar Two)",
+    "GILTI (global intangible low-taxed income) tax",
+    "Fragmented country or regional specific regulatory requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions - suspended business operations in Russia in March 2022",
+      "Compliance with sanctions and trade controls",
+      "Potential new tariffs on imports from Canada, Mexico and China announced in February 2025",
+      "U.S. trade policy uncertainty including changes in tariffs, trade agreements and trade restrictions",
+      "Export restrictions and embargoes"
+    ]
+  },
+  "revenue_by_segment": {
+    "HVAC": 0.85,
+    "Refrigeration": 0.15
+  }
+}

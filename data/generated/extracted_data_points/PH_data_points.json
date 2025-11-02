@@ -1,0 +1,97 @@
+{
+  "ticker": "PH",
+  "company_name": "Parker-Hannifin Corporation",
+  "company_type": "Motion and Control Technologies",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Latin America",
+      "Middle East",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "China",
+      "Japan",
+      "India",
+      "Turkey",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Diversified Industrial",
+    "Aerospace Systems",
+    "Motion Systems",
+    "Flow and Process Control",
+    "Filtration and Engineered Materials"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Europe",
+      "Asia Pacific",
+      "Latin America"
+    ],
+    "dependencies": [
+      "Raw materials including steel, brass, copper, aluminum, nickel, rubber and thermoplastic materials and chemicals",
+      "Local for local manufacturing strategy",
+      "Global supply chain with operations in 43 countries"
+    ],
+    "risks": [
+      "Price and supply fluctuations of raw materials",
+      "Transportation delays and supply chain disruptions",
+      "Supplier price increases in response to raw material costs",
+      "Tariffs and governmental trade restrictions impact on raw material availability and pricing",
+      "Geopolitical risks including Russia-Ukraine conflict affecting supply chains",
+      "Inflation impacting material and freight costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Environmental laws and regulations including U.S. federal Superfund law",
+    "Greenhouse gas emissions regulations and climate change legislation",
+    "Income tax law changes and judicial or regulatory interpretations",
+    "U.S. Foreign Corrupt Practices Act compliance",
+    "U.K. Bribery Act compliance",
+    "Antitrust and competition laws in U.S. and Europe",
+    "Government acquisition regulations for U.S. government contracts",
+    "Export controls and import regulations",
+    "Data privacy regulations",
+    "Trade restrictions and tariffs",
+    "OECD Pillar Two global minimum tax framework",
+    "Environmental protection compliance costs",
+    "Product liability regulations",
+    "Intellectual property protection laws varying by jurisdiction"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Government embargoes and sanctions",
+      "Russia sanctions and potential nationalization of foreign businesses",
+      "Trade restrictions including possible restrictions on trade with China",
+      "Regional instability from Russia-Ukraine conflict",
+      "Potential retaliatory action by Russian government against companies"
+    ]
+  }
+}

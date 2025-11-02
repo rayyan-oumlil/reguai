@@ -1,0 +1,96 @@
+{
+  "ticker": "HWM",
+  "company_name": "Howmet Aerospace Inc.",
+  "company_type": "Aerospace and Defense Manufacturing",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "France",
+      "United Kingdom",
+      "Germany",
+      "Hungary",
+      "Japan",
+      "China",
+      "Poland",
+      "Italy",
+      "Morocco",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Engine Products",
+    "Fastening Systems",
+    "Engineered Structures",
+    "Forged Wheels"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "France",
+      "Germany",
+      "Hungary",
+      "United Kingdom",
+      "Japan",
+      "Mexico",
+      "Morocco",
+      "China"
+    ],
+    "dependencies": [
+      "Limited number of suppliers for materials and services essential to operations including raw materials",
+      "Dependence on limited source or sole source suppliers for certain raw materials such as titanium sponge and specialized metal alloys",
+      "Supply constraints from key suppliers due to lack of capacity, labor shortages and/or material availability",
+      "Approval, license and qualification requirements applicable to manufacturers and suppliers limit alternative sources"
+    ],
+    "risks": [
+      "Supply chain disruptions could have material adverse effect on business",
+      "Several suppliers have had constraints on ability to supply full requirements due to lack of capacity, labor shortages and/or material availability",
+      "Supply disruptions due to trade barriers, business continuity, quality, cyberattacks, transportation, delivery or logistics challenges, weather, natural disaster, war, or pandemic events",
+      "Geopolitical tensions and conflicts impact global energy markets and raw material costs",
+      "Russia-Ukraine conflict may cause global titanium prices to fluctuate or increase",
+      "Customers' failure to return titanium revert can result in increased titanium purchases at inflated costs"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Compliance with government contracting regulations including subcontracting, cybersecurity, and specialty metals requirements",
+    "Failure to comply with procurement laws and regulations could result in civil and criminal penalties, termination of contracts, forfeiture of profits, suspension of payments, or suspension from future government contracting",
+    "Compliance with U.S. and foreign laws including antitrust and competition regulations, Foreign Corrupt Practices Act and other anti-bribery and corruption laws",
+    "Compliance with trade laws including International Traffic in Arms Regulations, Export Administration Regulations, and sanctions/embargoes administered by U.S. Department of Treasury's Office of Foreign Assets Control",
+    "Compliance with health, safety, and environmental laws and regulations including OSHA and foreign government entities",
+    "New or revised environmental laws and regulations including cap-and-trade systems and limits on greenhouse gas emissions",
+    "Customer decarbonization requirements and carbon pricing or product energy efficiency requirements",
+    "Climate-related/sustainability and ESG rules and regulations",
+    "OECD Pillar 2 framework introducing 15% global minimum tax implemented through domestic legislation in multiple countries",
+    "Export restrictions, sanctions, new or increased import duties or tariffs, and countervailing or anti-dumping duties",
+    "Changes in tax laws, regulations, or their interpretation including potential retroactive effect",
+    "Governmental constraints on operations in foreign jurisdictions"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Compliance with sanctions, regulations and embargoes administered by U.S. Department of Treasury's Office of Foreign Assets Control",
+      "Russia-Ukraine conflict impacts including sanctions and global titanium supply disruptions",
+      "Wars in Ukraine and Middle East creating geopolitical risks",
+      "Exposure to fluctuations in foreign currency exchange rates due to geopolitical conditions",
+      "Global trade landscape growing more volatile including recent executive orders for new tariffs and likelihood of further tariffs and retaliatory counter measures"
+    ]
+  }
+}

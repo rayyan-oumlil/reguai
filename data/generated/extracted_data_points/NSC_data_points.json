@@ -1,0 +1,72 @@
+{
+  "ticker": "NSC",
+  "company_name": "Norfolk Southern Corporation",
+  "company_type": "Rail Transportation",
+  "geography": {
+    "regions": [
+      "Southeast",
+      "East",
+      "Midwest",
+      "Atlantic Coast",
+      "Gulf Coast"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Merchandise - Agriculture, forest and consumer products",
+    "Merchandise - Chemicals",
+    "Merchandise - Metals and construction",
+    "Merchandise - Automotive",
+    "Intermodal",
+    "Coal"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "TTX Company",
+      "Conrail Inc.",
+      "Consolidated Rail Corporation"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": "Dependent on certain key suppliers and manufacturers of locomotive and railroad items due to high barriers of entry and industry-specific requirements",
+    "risks": [
+      "Disruption to key suppliers or manufacturers could negatively impact operating efficiency and increase costs",
+      "Competition with other industries for available capacity and raw materials",
+      "Limited supplier markets could result in significantly increased prices or material shortages",
+      "Constraints on supply chain or operations of connecting carriers may adversely affect operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "STB jurisdiction over rates, routes, customer access provisions, fuel surcharges, conditions of service, and extension or abandonment of rail lines",
+    "Efforts to increase federal economic regulation of the rail industry",
+    "DOT and FRA regulation of safety-related operations",
+    "DHS and TSA regulation of security and cybersecurity",
+    "Environmental laws and regulations (EPA, state agencies) concerning emissions, discharges, hazardous materials handling and cleanup",
+    "CERCLA joint and several liability for cleanup costs at contaminated sites",
+    "Federal and state environmental compliance requirements",
+    "Potential new or additional laws, regulations, or Executive Orders resulting from the Eastern Ohio Incident",
+    "Requirements imposed by government in resolution of government actions, including restrictions on methods of operations",
+    "Changes in tax laws and policies",
+    "Trade policies including tariffs, border taxes, customs duties, and renegotiation of trade agreements",
+    "Railway Labor Act (RLA) governing collective bargaining procedures",
+    "FELA (Federal Employer's Liability Act) governing employee personal injury claims",
+    "Privacy-related and data protection laws and regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. international trade relationships may adversely impact customers and business",
+      "Imposition of new tariffs or adjustments to existing tariffs",
+      "Border taxes on imports",
+      "Renegotiation of U.S. trade agreements",
+      "Actions by other countries in response to U.S. governmental actions"
+    ]
+  }
+}

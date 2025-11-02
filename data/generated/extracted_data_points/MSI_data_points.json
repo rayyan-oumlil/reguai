@@ -1,0 +1,86 @@
+{
+  "ticker": "MSI",
+  "company_name": "Motorola Solutions, Inc.",
+  "company_type": "Public Safety and Enterprise Security Technology",
+  "geography": {
+    "regions": [
+      "North America",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Germany",
+      "Poland",
+      "Israel",
+      "Malaysia",
+      "Italy",
+      "Mexico",
+      "Australia",
+      "China",
+      "Ireland",
+      "Brazil",
+      "India",
+      "Taiwan"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Products and Systems Integration",
+    "Software and Services",
+    "LMR Communications",
+    "Video Security and Access Control",
+    "Command Center"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Mexico",
+      "Malaysia",
+      "Canada",
+      "United States"
+    ],
+    "dependencies": "Single-source vendors for certain materials and components; reliance on global contract manufacturers; dependence on third-party suppliers for components with potential capacity constraints or insolvency risks",
+    "risks": "Material disruption from single-source vendors; supply chain constraints; natural disasters and climate change impacts; import/export restrictions including tariffs and sanctions; supplier inability to meet demand; price increases from suppliers; reliance on third-party contract manufacturers; geopolitical conflicts affecting supply chain; forced labor compliance risks (Uyghur Forced Labor Protection Act)",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Radio spectrum allocation and regulatory changes by FCC and international bodies",
+    "Telecommunications regulations for 911 services and WAVE PTX offerings in multiple jurisdictions",
+    "AI and biometrics regulations including EU AI Act, state-level AI laws (Colorado, New York), facial recognition restrictions",
+    "Biometric Information Privacy Act (Illinois) and California ALPR statute",
+    "Data privacy regulations including GDPR (EU), state privacy laws (US), data localization requirements",
+    "Cybersecurity regulations including EU NIS2 Directive",
+    "Environmental regulations including EU Corporate Sustainability Reporting Directive, EU Corporate Sustainability Due Diligence Directive, EU taxonomy initiatives",
+    "Climate change regulations and disclosure requirements",
+    "Export controls, trade restrictions, tariffs (including recent US tariffs on China, Canada, Mexico)",
+    "Anti-corruption laws (Foreign Corrupt Practices Act, UK Bribery Act)",
+    "Competition and antitrust regulations (CMA Charge Control on Airwave, EU Foreign Subsidies Regulation)",
+    "Government contract compliance (False Claims Act, Trade Agreements Act, Buy America Act, domestic content requirements)",
+    "Product safety and consumer protection regulations",
+    "Conflict minerals disclosure requirements (DRC)",
+    "Tax regulations including OECD Pillar Two Framework (15% global minimum tax)",
+    "DEI-related executive orders and federal anti-discrimination laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Russia",
+      "Iran",
+      "Middle East"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Import/export restrictions and sanctions compliance",
+      "Retaliatory tariffs from China, Canada, Mexico and other countries",
+      "Trade barriers and trade disputes",
+      "National security vulnerabilities linked to country of origin",
+      "Geopolitical conflicts including China-Taiwan conflict and Middle East conflicts"
+    ]
+  }
+}

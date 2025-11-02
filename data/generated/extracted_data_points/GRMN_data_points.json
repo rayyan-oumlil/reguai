@@ -1,0 +1,120 @@
+{
+  "ticker": "GRMN",
+  "company_name": "Garmin Ltd.",
+  "company_type": "Technology - Consumer Electronics & Navigation Systems",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC"
+    ],
+    "countries": [
+      "United States",
+      "Switzerland",
+      "Taiwan",
+      "United Kingdom",
+      "Poland",
+      "China",
+      "Netherlands",
+      "Canada",
+      "Mexico",
+      "Australia",
+      "Japan",
+      "India",
+      "Russia",
+      "European Union member states"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "Americas": 0.48,
+      "EMEA": 0.37,
+      "APAC": 0.15
+    },
+    "assets_by_region": {
+      "Americas": 0.66,
+      "EMEA": 0.17,
+      "APAC": 0.17
+    }
+  },
+  "segments": [
+    "Fitness",
+    "Outdoor",
+    "Aviation",
+    "Marine",
+    "Auto OEM"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "Taiwan",
+      "United States",
+      "Netherlands",
+      "Poland",
+      "China"
+    ],
+    "dependencies": [
+      "Dependent on third party suppliers for components including semiconductors, liquid crystal displays, memory chips, batteries and microprocessors",
+      "Some components procured from sole source suppliers",
+      "Principal manufacturing facilities for consumer products located in Taiwan",
+      "Reliance on GPS satellite system operated by United States Department of Defense",
+      "Dependence on Iridium satellite network for certain product features",
+      "Reliance on licensed technology and content from third parties"
+    ],
+    "risks": [
+      "Shortages of certain components and delays in procuring components",
+      "Increase in costs of procuring components during shortages",
+      "Inability to obtain components from alternative sources if suppliers unable to meet demand",
+      "Extended disruptions at single or limited source suppliers could impact ability to meet customer demand",
+      "Supply chain constraints affecting production schedules",
+      "Dependence on third party suppliers and licensors for technology and components"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FAA certification required for aviation products - delays could harm business",
+    "FCC certification required for wireless transceiver products",
+    "European Commission directives compliance required for products sold in Europe",
+    "Decertification risk for certified aviation products",
+    "Government shutdown or FAA furloughs could delay required certifications",
+    "Complex and changing global laws and regulations including telecommunications, environmental, health and safety, labor and employment, intellectual property, antitrust, data privacy and security, consumer protection, product liability, anticorruption, import/export/trade, foreign exchange controls, anti-money laundering, and tax",
+    "GDPR compliance requirements in European Union",
+    "Data protection laws in United States and internationally with significant penalties",
+    "Extended producer responsibility laws requiring collection, recovery, and recycling of electronic products",
+    "Environmental laws addressing air and water pollution and hazardous substances management",
+    "Laws relating to chemical and material composition of products and energy efficiency",
+    "OECD BEPS recommendations including global minimum tax rate of 15%",
+    "Switzerland cantonal tax rate increase to approximately 15% combined federal and cantonal rate",
+    "Changes to trade regulations including sanctions, tariffs, or duties",
+    "U.S. tariffs on imports from China and potential retaliatory measures",
+    "Customs authorities review of product classifications affecting tariffs and duties",
+    "Radar altimeter products subject to potential harmful interference from 5G systems near airports",
+    "ITU and national reallocation of radio frequency spectrum could affect product utility",
+    "Transfer pricing subjectivity and advanced pricing agreement requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Taiwan",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Restrictions on international trade such as sanctions, tariffs, duties and other governmental controls",
+      "U.S. and China trade tensions leading to series of tariffs",
+      "Potential for other countries to impose similar trade restriction measures",
+      "Risk of selective or inconsistent application of sanctions, tariffs or duties",
+      "Taiwan geopolitical risk - PRC assertion of sovereignty and potential military action",
+      "Risk that PRC government may unilaterally seek to occupy Taiwan by force",
+      "Potential disruptions to manufacturing facilities and suppliers in Taiwan due to PRC actions",
+      "U.S.-China relations governed by 'one-China' policy - deviations could adversely affect Taiwan operations",
+      "Changes in U.S.-China relations could influence China-Taiwan relations"
+    ]
+  },
+  "revenue_by_segment": {
+    "Fitness": 0.28,
+    "Outdoor": 0.31,
+    "Aviation": 0.14,
+    "Marine": 0.17,
+    "Auto OEM": 0.1
+  }
+}

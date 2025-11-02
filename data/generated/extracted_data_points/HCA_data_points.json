@@ -1,0 +1,73 @@
+{
+  "ticker": "HCA",
+  "company_name": "HCA Healthcare, Inc.",
+  "company_type": "Healthcare Services",
+  "geography": {
+    "regions": [
+      "United States",
+      "International"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "National Group",
+    "Atlantic Group",
+    "American Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Availability of nurses and medical support personnel",
+      "Supply chain for medical supplies and pharmaceuticals",
+      "Dependence on third-party vendors for technology systems"
+    ],
+    "risks": [
+      "Supply shortages and disruptions including from geopolitical disruptions",
+      "Workforce disruptions and labor shortages",
+      "Increased costs for supplies due to inflation",
+      "Dependence on available labor pool in each market",
+      "Competition for staffing and shortage of experienced nurses"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Changes in Medicare and Medicaid reimbursement rates and programs",
+    "Budget Control Act sequestration reducing Medicare payments by 2%",
+    "State Medicaid program changes and budget pressures",
+    "Affordable Care Act implementation changes and potential repeal",
+    "Enhanced premium tax credits expiration impacting Exchange enrollment",
+    "HIPAA privacy and security regulations compliance",
+    "Information blocking restrictions under 21st Century Cures Act",
+    "EMTALA requirements for emergency medical treatment",
+    "Anti-kickback Statute and Stark Law compliance",
+    "False Claims Act liability",
+    "No Surprises Act price transparency and billing requirements",
+    "State certificate of need (CON) laws restricting facility expansion",
+    "Environmental regulations including greenhouse gas emissions",
+    "FDA regulation of medical devices and software including AI",
+    "Laboratory developed tests (LDTs) regulation by FDA",
+    "State laws restricting provision of medical care including reproductive care",
+    "Antitrust laws and enforcement in healthcare industry",
+    "UK Data Protection Act and GDPR compliance",
+    "Telephone Consumer Protection Act (TCPA) compliance",
+    "Fair Debt Collection Practices Act compliance",
+    "State rate-setting measures and hospital rate limits",
+    "Medicaid Managed Care Rule requirements for state directed payments",
+    "Value-based purchasing programs and quality reporting requirements",
+    "Mandatory nurse-staffing ratios in certain states",
+    "AI-related laws including California AB 3030, Utah AIPA, Colorado CAIA"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

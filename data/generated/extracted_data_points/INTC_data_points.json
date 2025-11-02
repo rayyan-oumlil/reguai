@@ -1,0 +1,136 @@
+{
+  "ticker": "INTC",
+  "company_name": "Intel Corporation",
+  "company_type": "Semiconductor Manufacturing",
+  "geography": {
+    "regions": [
+      "United States",
+      "China (including Hong Kong)",
+      "Singapore",
+      "Taiwan",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Hong Kong",
+      "Singapore",
+      "Taiwan",
+      "Ireland",
+      "Israel",
+      "Costa Rica",
+      "Malaysia",
+      "Vietnam",
+      "Germany",
+      "Poland",
+      "Japan",
+      "Netherlands",
+      "Russia",
+      "Belarus",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "France",
+      "Italy"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Client Computing Group (CCG)",
+    "Data Center and AI (DCAI)",
+    "Network and Edge (NEX)",
+    "Intel Foundry",
+    "Altera",
+    "Mobileye"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "TSMC",
+      "ASML Holding N.V.",
+      "Samsung",
+      "Global Foundries",
+      "United Microelectronics Corporation (UMC)",
+      "Semiconductor Manufacturing International Corporation (SMIC)"
+    ],
+    "manufacturing_locations": [
+      "United States (Oregon, Arizona, New Mexico)",
+      "Ireland",
+      "Israel",
+      "Costa Rica",
+      "China",
+      "Malaysia",
+      "Vietnam",
+      "Germany (planned)",
+      "Poland (planned)",
+      "Ohio (under construction)"
+    ],
+    "dependencies": [
+      "Single supplier ASML for EUV lithography tools critical for Intel 4 and subsequent leading-edge manufacturing process nodes",
+      "Limited number of third-party foundries offer leading-edge manufacturing processes, geographically concentrated in Asia",
+      "Most advanced current and future products exclusively manufactured by TSMC or reliant upon critical components from TSMC",
+      "Many products depend on suppliers in Taiwan for critical components including various compute die that cannot be easily or quickly replaced",
+      "Substrates and other components from single or limited suppliers",
+      "Concentration of supply chain in certain geographies creates disruption risks"
+    ],
+    "risks": [
+      "Suppliers extending lead times, experiencing capacity constraints, limiting or canceling supply, allocating supply to competitors, delaying or canceling deliveries, or increasing prices",
+      "Supplier quality issues",
+      "Cybersecurity events, IP litigation, natural disasters, pandemics, operational failures disrupting suppliers",
+      "Long lead times to qualify alternate suppliers or unavailability of qualified alternate suppliers",
+      "Supply chain disruptions from macroeconomic and geopolitical conditions including COVID-19 outbreaks",
+      "Widespread shortages of substrates and other components",
+      "Insufficient foundry capacity preventing meeting customer demand",
+      "Concentration risk in Taiwan for critical components and manufacturing",
+      "Geopolitical tensions affecting supply chain including US-China trade tensions and Taiwan-mainland China tensions"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "US export controls on semiconductor manufacturing equipment and AI/advanced computing products to China",
+    "Restrictions on sales to certain Chinese technology companies and entities on prohibited lists",
+    "Customer allocation restrictions and per-country caps on high-performance integrated circuits",
+    "Antitrust laws and restrictions based on cybersecurity and national security concerns",
+    "CHIPS Act compliance requirements including restrictions on dividends, change of control transactions, and sharing project returns with US government",
+    "Potential repayment of government incentive awards if unable to comply with requirements",
+    "Complex and evolving laws across jurisdictions affecting IP, tax, import/export, anti-corruption, foreign exchange, data privacy and localization, competition, advertising, employment, product regulations, environment/health/safety, and consumer laws",
+    "Expanding privacy legislation and data-protection compliance costs",
+    "Climate-related disclosure requirements including California climate change disclosure requirements, EU Corporate Sustainability Reporting Directive, and SEC climate-change disclosure requirements",
+    "Environmental regulations including air quality, wastewater, greenhouse gas emissions, PFAS restrictions",
+    "Regulations limiting use of perfluorocarbons and other chemicals critical to semiconductor manufacturing",
+    "Forced labor restrictions and responsible minerals sourcing requirements",
+    "Evolving AI regulations and industry standards",
+    "European Commission competition matters and potential fines",
+    "Patent and IP infringement litigation risks",
+    "Securities laws compliance including disclosure requirements",
+    "Government contract procurement laws and regulations with special rules on accounting, IP rights, expenses, reviews, information handling, security",
+    "Trade policies including tariffs, trade barriers, and protectionist measures",
+    "Changes in tax laws including global minimum tax under Pillar Two of OECD BEPS initiative"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Belarus",
+      "Iran",
+      "Taiwan",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US export restrictions on products and technology to certain Chinese technology companies",
+      "Restrictions on semiconductor manufacturing equipment exports to China",
+      "Russia and Belarus sanctions resulting in suspension of operations and no exports to Russia in 2023 and 2024",
+      "Currency restrictions and regulations from Russia",
+      "Export restrictions may impede ability to provide updates or patches to customers in certain geographies or on sanctions lists",
+      "Sanctions lists may include third parties needed for coordinated vulnerability disclosure",
+      "Potential for additional trade-related actions and restrictions under new US administration",
+      "Risk of China restricting US access to certain minerals in response to US restrictions",
+      "Risk of additional Chinese companies being added to prohibited lists"
+    ]
+  }
+}

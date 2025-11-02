@@ -1,0 +1,115 @@
+{
+  "ticker": "FTNT",
+  "company_name": "Fortinet, Inc.",
+  "company_type": "Cybersecurity",
+  "geography": {
+    "regions": [
+      "Americas",
+      "EMEA",
+      "APAC"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Spain",
+      "Norway",
+      "Saudi Arabia",
+      "UAE",
+      "China",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "India",
+      "Israel",
+      "Australia",
+      "New Zealand",
+      "Russia",
+      "Belarus"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Secure Networking",
+    "Unified Secure Access Service Edge (SASE)",
+    "AI-Driven Security Operations (SecOps)"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Accton Technology",
+      "IBASE Technology, Inc.",
+      "Micro-Star International Co.",
+      "Senao Networks, Inc.",
+      "Wistron Corporation",
+      "Toshiba America Electronic Components, Inc.",
+      "Renesas Electronics America, Inc.",
+      "Taiwan Semiconductor Manufacturing Company Limited",
+      "Intel Corporation",
+      "Advanced Micro Devices, Inc.",
+      "Broadcom Inc.",
+      "Marvell Technology Group Ltd.",
+      "Qualcomm Incorporated",
+      "Micron Technology",
+      "ADATA Technology Co., Ltd.",
+      "Toshiba Corporation",
+      "Samsung Electronics Co., Ltd.",
+      "Western Digital Technologies, Inc."
+    ],
+    "manufacturing_locations": [
+      "Taiwan",
+      "United States",
+      "Japan"
+    ],
+    "dependencies": "Approximately 88% of hardware is manufactured in Taiwan. Proprietary ASICs are built by contract manufacturers using foundries in Taiwan and Japan operated by TSMC or the contract manufacturer itself. Some key components (CPUs, network chips, memory devices) are available from limited or sole sources of supply.",
+    "risks": "Supply chain constraints, component shortages (chips), long or uncertain lead times, supply disruptions due to natural disasters, pandemics, geopolitical tensions (war in Ukraine, tensions between China and Taiwan), international trade disputes, tariffs, labor disruptions, power outages, critical infrastructure attacks. Concentration risk in Taiwan for manufacturing. Single-source or limited-source suppliers for certain components.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "GDPR compliance and data handling requirements in the EU",
+    "California Consumer Privacy Act (CCPA) and other state privacy laws",
+    "Digital Operational Resilience Act (DORA) in the EU",
+    "EU RoHS Directive and similar laws on hazardous substances",
+    "EU REACH Regulation on chemicals",
+    "EU Waste Electrical and Electronic Equipment Directive (WEEE)",
+    "EU Circular Economy Action Plan and SCIP database requirements",
+    "U.S. export controls and economic sanctions",
+    "U.S. Foreign Corrupt Practices Act",
+    "United Kingdom Bribery Act 2010",
+    "Dodd-Frank conflict minerals disclosure requirements",
+    "FedRAMP certification requirements for U.S. government sales",
+    "SEC cybersecurity risk management and disclosure rules",
+    "BEPS Pillar Two global minimum tax framework",
+    "Changes in tax laws and regulations (U.S. and international)",
+    "Import and export regulations, tariffs, trade barriers",
+    "Environmental laws and regulations",
+    "Employment and labor laws",
+    "Product safety and labeling laws",
+    "Consumer protection laws",
+    "Anti-bribery laws",
+    "Government procurement regulations and clearance requirements"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Belarus",
+      "China",
+      "Taiwan",
+      "Ukraine",
+      "Iran",
+      "Democratic Republic of the Congo"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. sanctions against Russia and Belarus",
+      "U.S. embargoed or sanctioned countries, governments and persons",
+      "Potential sanctions related to Iran",
+      "Risk of products being shipped to U.S. sanctions targets by channel partners"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "ticker": "AXON",
+  "company_name": "Axon Enterprise, Inc.",
+  "company_type": "Technology - Public Safety Solutions",
+  "geography": {
+    "regions": [
+      "United States",
+      "Americas (Central America, South America, Canada)",
+      "Europe",
+      "Asia Pacific",
+      "Middle East"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Australia",
+      "Belgium",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "India",
+      "Italy",
+      "Netherlands",
+      "Spain",
+      "United Kingdom",
+      "Vietnam",
+      "Denmark",
+      "Taiwan",
+      "China",
+      "Thailand",
+      "Republic of Korea"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Software and Sensors",
+    "TASER"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (Scottsdale, Arizona)",
+      "Taiwan",
+      "Mexico",
+      "China",
+      "Vietnam",
+      "Thailand",
+      "Republic of Korea"
+    ],
+    "dependencies": "Single or sole-source components used in manufacture; substantially all injection molded component tooling owned by company; unique TASER 10 CED components subject to ATF import permits; petroleum-based raw materials subject to price fluctuations",
+    "risks": "Supplier decommitments; material shortages; semiconductor supply chain disruptions; port constraints; customs clearance issues; tariffs (US-China trade tensions); export restrictions on raw materials (China restrictions on gallium and germanium); forced labor legislation risks; potential increased tariffs under proposed US policy changes",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "ATF regulation of TASER 10 CED as firearm under Gun Control Act",
+    "Federal firearms license compliance and periodic ATF audits",
+    "State and local firearm laws impacting TASER 10 CED sales",
+    "Export controls - DOC crime control product classification requiring export licenses",
+    "Deemed export licensing for foreign national employees",
+    "International arms brokering regulations and Arms Trade Treaty compliance",
+    "Federal procurement regulations (FAR) for US government contracts",
+    "Privacy and data protection laws (GDPR, California Privacy Rights Act, Vietnam Personal Data Protection Decree)",
+    "Environmental regulations (EU RoHS Directive, WEEE Directive, REACH, PFAS restrictions)",
+    "Climate-related disclosure requirements (EU Corporate Sustainability Reporting Directive, California climate laws, SEC climate rules)",
+    "FCC radio spectrum regulations for wireless products",
+    "FAA and other agency regulations for drone operations",
+    "Consumer Product Safety Act compliance and potential product recalls",
+    "AI regulation (EU AI Act and similar emerging frameworks)",
+    "Cybersecurity disclosure obligations",
+    "OECD global minimum tax (Pillar Two) implementation"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Gaza region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "US-China trade tensions and tariff escalation",
+      "Retaliatory tariffs from foreign countries",
+      "Western sanctions on Russia (potential cyber-attack retaliation)",
+      "Export license restrictions to certain countries",
+      "Potential bans on TASER/Axon products in certain jurisdictions",
+      "Geopolitical tensions affecting customer budgets and policies",
+      "Ongoing conflicts (Gaza, Ukraine) creating economic uncertainty"
+    ]
+  }
+}

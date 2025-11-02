@@ -1,0 +1,117 @@
+{
+  "ticker": "BBY",
+  "company_name": "Best Buy Co., Inc.",
+  "company_type": "Consumer Electronics Retail",
+  "geography": {
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Mexico",
+      "Taiwan",
+      "Vietnam",
+      "India",
+      "Hong Kong",
+      "Luxembourg",
+      "Republic of Mauritius",
+      "United Kingdom",
+      "Bermuda"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.921,
+      "Canada": 0.079
+    },
+    "assets_by_region": {
+      "United States": 0.918,
+      "Canada": 0.082
+    }
+  },
+  "segments": [
+    "Domestic",
+    "International",
+    "Computing and Mobile Phones",
+    "Consumer Electronics",
+    "Appliances",
+    "Entertainment",
+    "Services",
+    "Other"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Apple",
+      "Samsung",
+      "HP",
+      "LG",
+      "Sony"
+    ],
+    "manufacturing_locations": [
+      "China",
+      "Mexico",
+      "Southeast Asia"
+    ],
+    "dependencies": "Five suppliers (Apple, Samsung, HP, Sony, LG) represent approximately 55% of total merchandise purchased. Complex supply chain heavily reliant on vendor imports from China (approximately 55% of products purchased) and Mexico (approximately 20% of products purchased). Consumer electronics dependent on rare earth elements predominantly processed in China. Exclusive brand products manufactured by contract manufacturers in China, Mexico and Southeast Asia.",
+    "risks": "Supply chain disruptions from geopolitical tensions, tariffs, trade route disruptions (Red Sea attacks, Panama Canal, Suez Canal), natural disasters, pandemics, labor strikes, port delays. Concentration risk with top suppliers. Vendor import dependencies from China and Mexico. Single-source dependencies for rare earth elements from China. Semiconductor and television panel sourcing risks from Taiwan. Limited long-term written contracts with vendors.",
+    "supplier_concentration": {
+      "Apple": 0.275,
+      "Samsung": 0.138,
+      "HP": 0.069,
+      "Sony": 0.034,
+      "LG": 0.034,
+      "Top 20 suppliers": 0.8
+    }
+  },
+  "regulatory_risks": [
+    "Tariffs on products and parts imported from China and Mexico",
+    "Trade policy changes and renegotiation of trade agreements",
+    "International retaliatory actions on trade",
+    "Product safety laws and regulations",
+    "Product transport and disposal regulations",
+    "Data privacy and security regulations (HIPAA, GDPR, California Consumer Privacy Act, state data privacy laws)",
+    "FDA regulations for health sector offerings",
+    "CMS and State Medicaid Agencies regulations",
+    "FCC regulations",
+    "Environmental legislation on energy transition, greenhouse gas emissions, electronics recycling, water, product materials",
+    "Labor and employment laws (union organization rules, independent contractor classification, diversity and inclusion laws, minimum wage, sick time, paid leave, non-compete covenants, scheduling requirements)",
+    "Potential federal ban on arbitration clauses in consumer or employee contracts",
+    "Tax law changes (U.S., state, foreign jurisdictions)",
+    "Corporate governance and public disclosure regulations (SEC, NYSE, FASB)",
+    "Cybersecurity disclosure requirements",
+    "ESG/Corporate Responsibility & Sustainability disclosure requirements",
+    "Anti-money laundering regulations",
+    "Content and copyright regulations",
+    "Mobile communications and electronic device certification regulations",
+    "AI deployment and usage regulations",
+    "Payment services regulations",
+    "Escheatment laws",
+    "Price-fixing regulations",
+    "Sanctions compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Taiwan",
+      "Mexico",
+      "Ukraine",
+      "Middle East countries",
+      "South China Sea region"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade restrictions and tariffs involving China and Mexico",
+      "Potential disruption from Taiwan-China tensions affecting semiconductor and TV panel manufacturing",
+      "Impact from ongoing conflicts in Ukraine and Middle East on fuel prices, inflation, global supply chain, cybersecurity",
+      "Red Sea cargo ship attacks disrupting global trade flows",
+      "South China Sea tensions affecting product manufacturing and distribution",
+      "International trade route disruptions (Panama Canal, Suez Canal)"
+    ]
+  },
+  "revenue_by_segment": {
+    "Domestic": 0.921,
+    "International": 0.079
+  }
+}

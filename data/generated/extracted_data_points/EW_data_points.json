@@ -1,0 +1,113 @@
+{
+  "ticker": "EW",
+  "company_name": "Edwards Lifesciences Corporation",
+  "company_type": "Medical Technology - Structural Heart Disease",
+  "geography": {
+    "regions": [
+      "United States",
+      "Europe",
+      "Japan",
+      "Rest of World"
+    ],
+    "countries": [
+      "United States",
+      "Germany",
+      "Japan",
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Canada",
+      "China",
+      "Singapore",
+      "Costa Rica",
+      "Ireland",
+      "Switzerland",
+      "Czech Republic",
+      "Israel",
+      "Puerto Rico",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.59,
+      "Europe": 0.243,
+      "Japan": 0.062,
+      "Rest of World": 0.105
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Transcatheter Aortic Valve Replacement (TAVR)",
+    "Transcatheter Mitral and Tricuspid Therapies (TMTT)",
+    "Surgical Structural Heart"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Singapore",
+      "Costa Rica",
+      "Ireland"
+    ],
+    "dependencies": [
+      "Natural bovine tissue from United States and Australia for pericardial tissue valve products",
+      "Single source suppliers for certain materials and components due to regulatory requirements",
+      "Reliance on third parties for raw materials, organic materials, and sterilization"
+    ],
+    "risks": [
+      "Supply interruptions due to vendor financial viability",
+      "Vendors electing to no longer service medical technology companies",
+      "Limitation or ban of certain chemicals or materials",
+      "Delays or shortages due to trade or regulatory embargoes",
+      "Significant cost increases in raw materials due to inflation, supply constraints, tariffs, or regulatory changes",
+      "Difficulty establishing replacement sources due to rigorous FDA and regulatory requirements",
+      "Dependence on animal tissue (bovine) with BSE concerns"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory approval delays or denials for new products and modifications",
+    "European Union Medical Device Regulation (MDR) compliance and re-certification requirements",
+    "Mutual Recognition Agreement (MRA) between EU and Switzerland not finalized, impacting device movement",
+    "Japanese Pharmaceuticals and Medical Devices Agency approval requirements",
+    "Changes in reimbursement policies by CMS and third-party payors",
+    "Health Insurance Portability and Accountability Act (HIPAA) compliance",
+    "General Data Protection Regulation (GDPR) compliance in EU",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CRPA) compliance",
+    "Anti-kickback laws and Stark law compliance",
+    "Physician Payments Sunshine Act disclosure requirements",
+    "False Claims Act and healthcare fraud statutes",
+    "United States Foreign Corrupt Practices Act compliance",
+    "United Kingdom Bribery Act compliance",
+    "Environmental, health, and safety regulations",
+    "Climate change regulations and greenhouse gas emission requirements",
+    "Product liability and recall regulations",
+    "Clinical trial regulations and Good Clinical Practices standards",
+    "Quality system regulations (ISO 13485:2016)",
+    "Medical device reporting regulations",
+    "Import/export controls and restrictions",
+    "Tax law changes including OECD Base Erosion and Profit Shifting Pillar Two (global minimum tax)",
+    "Affordable Care Act implementation and potential future healthcare legislation",
+    "21st Century Cures Act compliance"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Israel"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Trade protection measures, quotas, embargoes, import/export requirements",
+      "Duties, tariffs, and surcharges impacting international operations",
+      "Military conflict, political unrest, or wars affecting operations",
+      "Currency exchange rate fluctuations",
+      "Israel Tax Authority disputes and assessments"
+    ]
+  },
+  "revenue_by_segment": {
+    "Transcatheter Aortic Valve Replacement": 0.755,
+    "Transcatheter Mitral and Tricuspid Therapies": 0.065,
+    "Surgical Structural Heart": 0.18
+  }
+}

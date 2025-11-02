@@ -1,0 +1,64 @@
+{
+  "ticker": "AWK",
+  "company_name": "American Water Works Company, Inc.",
+  "company_type": "Water and Wastewater Utility",
+  "geography": {
+    "regions": [
+      "United States"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "has_na": true,
+    "has_eu": false,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Regulated Businesses",
+    "Military Services Group",
+    "Contract Services Group"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Reliance on third-party suppliers for pipe, chemicals, power, fuel, equipment, water and other raw materials",
+      "Supply chain disruptions may cause inability to purchase needed goods or services at reasonable prices",
+      "Dependence on third-party vendors for technology systems administration and maintenance"
+    ],
+    "risks": [
+      "Supply chain disruptions related to goods such as pipe, chemicals, power, fuel, equipment, water and other raw materials",
+      "Reduced quantities of goods available in marketplace",
+      "Delays in manufacturing or shipping goods",
+      "Labor shortages at suppliers or vendors",
+      "Natural or other disasters and operational impacts to suppliers or vendors",
+      "Increased costs of supplies, products and materials critical to business operations"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "Extensive regulation by Public Utility Commissions (PUCs) affecting rates, operations, and financial condition",
+    "Potential fines, penalties and sanctions for inability to meet regulatory requirements",
+    "Extensive and increasingly stringent environmental, water quality and health and safety laws and regulations",
+    "Safe Drinking Water Act compliance and new drinking water standards",
+    "Lead and Copper Rule Improvements (LCRI) requiring replacement of all lead and certain galvanized service lines by October 30, 2037",
+    "National Primary Drinking Water Regulation (NPDWR) for six PFAS with compliance required by April 2029",
+    "PFAS designated as hazardous substances under CERCLA",
+    "Clean Water Act regulations on discharges from water and wastewater treatment facilities",
+    "NPDES permit requirements and potential violations leading to fines and penalties",
+    "Changes in laws and regulations affecting operations, including environmental, health, safety, data privacy, security and water quality standards",
+    "State and local regulatory changes and new interpretations of existing regulations",
+    "Potential disallowance of cost recovery in rates",
+    "Regulatory lag between capital investment/expense increases and rate recovery",
+    "PUC approval requirements for acquisitions, debt/equity financing, and affiliated transactions",
+    "Condemnation and eminent domain proceedings by municipalities and government entities",
+    "Compliance with Corporate Alternative Minimum Tax (CAMT) provisions effective 2024",
+    "Potential changes in tax laws and regulations affecting deductibility and tax rates"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": []
+  }
+}

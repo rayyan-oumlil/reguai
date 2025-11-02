@@ -1,0 +1,124 @@
+{
+  "ticker": "DHR",
+  "company_name": "Danaher Corporation",
+  "company_type": "Science and Technology - Life Sciences and Diagnostics",
+  "geography": {
+    "regions": [
+      "North America",
+      "Western Europe",
+      "Other developed markets",
+      "High-growth markets"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "China",
+      "Denmark",
+      "Germany",
+      "Singapore",
+      "Sweden",
+      "Switzerland",
+      "United Kingdom",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Eastern Europe",
+      "Middle East",
+      "Africa",
+      "Latin America",
+      "Mexico",
+      "Asia",
+      "Puerto Rico",
+      "France",
+      "India",
+      "Italy",
+      "Russia",
+      "Ukraine",
+      "Israel"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "North America": 0.43,
+      "Western Europe": 0.23,
+      "Other developed markets": 0.05,
+      "High-growth markets": 0.29
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Biotechnology",
+    "Life Sciences",
+    "Diagnostics"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Australia",
+      "Canada",
+      "South America"
+    ],
+    "dependencies": "The Company purchases raw materials from a large number of sources around the world. For some components that require particular specifications or regulatory or other qualifications only a single supplier or a limited number of suppliers can readily provide such components.",
+    "risks": "Supply chains can be disrupted by inflation, supplier capacity constraints, fluctuations in demand, decreased availability of key raw materials or commodities, legislative or regulatory changes, bankruptcy or exiting of the business for other reasons and external events such as natural disasters, pandemic health issues, war, terrorist actions and governmental actions. Sustained interruptions in the supply of, or increase in the cost of, key components, raw materials, other commodities and labor can result in production interruptions, delays, extended lead times and inefficiencies.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulations on medical devices and in vitro diagnostics",
+    "EU Medical Device Regulation (MDR) and In Vitro Diagnostic Regulation (IVDR)",
+    "UK regulatory changes post-Brexit",
+    "Switzerland regulatory changes post-withdrawal from EU Mutual Recognition Agreement",
+    "HIPAA privacy and security regulations",
+    "Federal Anti-Kickback Statute violations",
+    "False Claims Act violations",
+    "Open Payments Act reporting requirements",
+    "PPACA (Affordable Care Act) changes and healthcare reform",
+    "PAMA (Protecting Access to Medicare Act) pricing program impacts",
+    "China volume-based procurement program and price reduction initiatives",
+    "GDPR (General Data Protection Regulation) compliance",
+    "State privacy laws (California and others)",
+    "Export/import control and economic sanctions laws (ITAR, EAR, OFAC)",
+    "Anti-boycott laws",
+    "Foreign Corrupt Practices Act and UK Bribery Act",
+    "Environmental, health and safety laws and regulations",
+    "OECD Base Erosion and Profit Shifting (BEPS) Pillar 2 global minimum tax",
+    "Tax law changes and audits (IRS, Denmark, other jurisdictions)",
+    "Antitrust laws",
+    "Defense Production Act (DPA) requirements",
+    "Expanded FDA regulation of laboratory-developed tests",
+    "Off-label marketing restrictions",
+    "Medical device recall and safety alert requirements",
+    "Clinical trial requirements and regulatory approvals",
+    "Government contract compliance and termination risks",
+    "Data privacy and cybersecurity regulations",
+    "Artificial intelligence regulations",
+    "Sustainability and climate change disclosure requirements",
+    "Diversity practice regulations"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Iran"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Russia sanctions due to Ukraine conflict",
+      "Economic sanctions administered by U.S. Department of Treasury OFAC",
+      "Trade tensions between China and other countries including the U.S.",
+      "Tariffs on imported goods",
+      "Retaliatory tariffs by certain countries",
+      "Comprehensive sanctions on certain countries with limited business dealings",
+      "Export control restrictions"
+    ]
+  },
+  "revenue_by_segment": {
+    "Biotechnology": 0.283,
+    "Life Sciences": 0.307,
+    "Diagnostics": 0.41
+  }
+}

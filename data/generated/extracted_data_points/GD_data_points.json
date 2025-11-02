@@ -1,0 +1,97 @@
+{
+  "ticker": "GD",
+  "company_name": "General Dynamics Corporation",
+  "company_type": "Aerospace and Defense",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Africa",
+      "South America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Spain",
+      "Switzerland",
+      "Austria",
+      "Germany",
+      "Romania",
+      "Denmark",
+      "Luxembourg",
+      "Australia",
+      "Singapore",
+      "Israel",
+      "China",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Aerospace",
+    "Marine Systems",
+    "Combat Systems",
+    "Technologies"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Spain",
+      "Switzerland",
+      "Austria",
+      "Germany",
+      "Romania"
+    ],
+    "dependencies": "Supply chain challenges including availability of parts, quality escapes, inflationary pressures, and reliance on semiconductors. Some operating segments rely on the supply of semiconductors for the manufacture of products. Dependence on suppliers and subcontractors for raw materials, components and subsystems. U.S. government is a supplier for some programs. Reliance on only one or two sources of supply in some instances.",
+    "risks": "Supply chain disruptions from COVID-19 pandemic, Russia-Ukraine conflict, and Middle East conflict. Supplier quality issues and late supply chain deliveries causing cost growth and schedule delays (particularly on Virginia-class submarine Block IV contract). Risk of disruption if international conflicts result in disruption of manufacturing or trade relations for supply components. Inability of suppliers to meet order demands due to competing commercial priorities, military conflicts, or business disruptions. Price fluctuations and capacity constraints in supply networks. Misconduct by suppliers could harm future revenue, earnings and margin.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "U.S. government budget and funding disruptions or delays",
+    "Changes in U.S. government defense spending levels or priorities",
+    "Government contract termination rights (for convenience or default)",
+    "Government audits and investigations of contractors",
+    "Compliance with Federal Acquisition Regulation (FAR) and Cost Accounting Standards (CAS)",
+    "Defense Federal Acquisition Regulation Supplement (DFARS) requirements",
+    "Environmental laws and regulations (federal, state, local, foreign)",
+    "Climate change laws and regulations (greenhouse gas emissions, carbon pricing mechanisms)",
+    "Foreign Corrupt Practices Act (FCPA) and anti-corruption laws",
+    "International Traffic in Arms Regulations (ITAR)",
+    "Import-export controls and technology transfer regulations",
+    "FAA regulation and aircraft certification requirements",
+    "European Aviation Safety Agency (EASA) regulations",
+    "Civil Aviation Administration of China (CAAC) regulations",
+    "Civil Aviation Administration of Israel (CAAI) regulations",
+    "Non-U.S. government procurement regulations and policies",
+    "Offset requirements in foreign countries",
+    "Pillar Two global minimum tax rules (15% country-by-country)",
+    "Sanctions compliance (Russia, Belarus, Iran)",
+    "Export controls targeting Russia and Belarus"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "China"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "Economic and trade sanctions targeting Russia and Belarus due to Ukraine conflict",
+      "Russian government counter-sanctions and export controls targeting U.S. and foreign countries",
+      "Potential suspension or debarment from government contracts for non-compliance with sanctions",
+      "Suspension of export privileges for violations of export controls"
+    ]
+  }
+}

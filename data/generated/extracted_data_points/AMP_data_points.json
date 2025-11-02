@@ -1,0 +1,135 @@
+{
+  "ticker": "AMP",
+  "company_name": "Ameriprise Financial, Inc.",
+  "company_type": "Financial Services",
+  "geography": {
+    "regions": [
+      "North America",
+      "Asia Pacific",
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "Dubai",
+      "Luxembourg",
+      "South America",
+      "Minnesota",
+      "Mexico",
+      "Netherlands",
+      "Canada",
+      "India",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Singapore",
+      "Hong Kong",
+      "New York",
+      "Ireland",
+      "United States",
+      "Australia"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {},
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Retirement & Protection Solutions",
+    "Corporate & Other",
+    "Advice & Wealth Management",
+    "Asset Management"
+  ],
+  "supply_chain": {
+    "key_suppliers": [
+      "Commonwealth Annuity and Life Insurance Company",
+      "Genworth Financial, Inc.",
+      "Genworth Life Insurance Company"
+    ],
+    "manufacturing_locations": [],
+    "dependencies": [
+      "Third-party service providers for communications, technology and business functions",
+      "Clearing agents, exchanges, clearing houses for securities transactions",
+      "Reinsurance companies (Commonwealth Annuity and Life Insurance Company, Genworth Life Insurance Company)",
+      "Third-party distributors for investment products"
+    ],
+    "risks": [
+      "Counterparty default or failure to fulfill obligations by reinsurers",
+      "Failures or defaults by reinsurance counterparties",
+      "Reliance on franchise advisors who control their own technology infrastructure",
+      "Termination or capacity constraints of clearing agents and exchanges",
+      "Interruptions or failures in operating systems and networks including errors by third-party service providers",
+      "Operational failure of third-party service providers",
+      "Loss of unaffiliated third-party distribution channels",
+      "Concentration risk with Genworth Life Insurance Company for reinsured long-term care business",
+      "Vendor management and cybersecurity risks from third-party systems",
+      "Cybersecurity risks from third-party service providers and their fourth-parties"
+    ],
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "State insurance regulations on solvency, capital requirements, premium rates",
+    "Supervision by Federal Reserve Board as savings and loan holding company with prudential standards limiting activities",
+    "NY DFS Cybersecurity Requirements for Financial Services Companies",
+    "FCA Consumer Duty and sustainability disclosure requirements in UK",
+    "USA Patriot Act anti-money laundering requirements",
+    "Changes to laws and regulations applicable to financial services businesses may adversely affect operations",
+    "Changes in corporate tax laws and regulations including Inflation Reduction Act provisions (CAMT and share repurchase excise tax)",
+    "OCC and FDIC regulation of Ameriprise Bank",
+    "FCA and PRA regulation in United Kingdom",
+    "Regulatory approval requirements for insurance premium rate increases",
+    "CFTC and NFA regulation for commodity trading and derivatives",
+    "State privacy laws including California privacy legislation",
+    "MiFID II, AIFMD, EMIR, UCITS, SFDR, PRIIPs regulations in Europe",
+    "DOL fiduciary rules for retirement investing (ERISA)",
+    "CFPB consumer protection regulations",
+    "NAIC Insurance Holding Company System Regulatory Act and ORSA requirements",
+    "Potential regulatory changes from new US administration",
+    "Risk-based capital (RBC) requirements for insurance subsidiaries",
+    "Data collection, storage and privacy regulations across multiple jurisdictions",
+    "Bank holding company regulations and capital requirements may limit dividend payments and stock repurchases",
+    "Community Reinvestment Act (CRA) for banking operations",
+    "Volcker Rule restrictions on proprietary trading and covered funds",
+    "OECD Pillar Two minimum tax rules in various jurisdictions",
+    "Building Block Approach (BBA) capital framework for insurance savings and loan holding companies",
+    "GDPR and UK Data Protection Act for data privacy",
+    "Dividend restrictions and capital requirements for regulated subsidiaries",
+    "Compliance with Volcker Rule impacting product structure and costs",
+    "FINRA rules on net capital requirements and trading activities",
+    "State guaranty fund assessment requirements",
+    "Artificial intelligence regulation and oversight",
+    "Investment Company Act regulation of mutual funds and separate accounts",
+    "SEC regulation of broker-dealers and investment advisers under Exchange Act and Advisers Act",
+    "SEC Regulation Best Interest standard of care",
+    "Data protection and privacy regulations",
+    "New EU regulations including DORA, CSRD, CSDDD, AIFMD 2.0, EMIR 3.0",
+    "Climate-related disclosure requirements (California)",
+    "FRB regulation as savings and loan holding company under Bank Holding Company Act",
+    "Enhanced scrutiny on ESG considerations and responsible investing",
+    "Investment Company Act of 1940 requirements for Ameriprise Certificate Company",
+    "Gramm-Leach-Bliley Act, HIPAA/HITECH Act for personal information protection",
+    "Electronic communication recordkeeping requirements",
+    "Operational resilience and financial resilience requirements in UK",
+    "State insurance regulatory requirements and guaranty fund assessments",
+    "State fiduciary and best interest rules for financial advisors",
+    "UK Financial Conduct Authority regulation of international operations",
+    "Cybersecurity and resilience regulatory requirements",
+    "Regulatory actions and examinations concerning business practices and compliance",
+    "OCC regulation of Ameriprise Bank as federal savings bank",
+    "SEC and FINRA regulatory oversight of broker-dealers",
+    "EU Artificial Intelligence Act and proposed US AI laws"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [],
+    "trade_war_exposure": false,
+    "sanction_risks": [
+      "Compliance with sanctions regulations mentioned as regulatory risk",
+      "Geopolitical strain, terrorism and armed conflicts as market risk factors"
+    ]
+  },
+  "revenue_by_segment": {
+    "Advice & Wealth Management": 0.624,
+    "Asset Management": 0.206,
+    "Retirement & Protection Solutions": 0.221,
+    "Corporate & Other": -0.051
+  }
+}

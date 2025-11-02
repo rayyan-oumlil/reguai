@@ -1,0 +1,129 @@
+{
+  "ticker": "DXCM",
+  "company_name": "DexCom, Inc.",
+  "company_type": "Medical Device",
+  "geography": {
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia Pacific",
+      "Middle East",
+      "Latin America",
+      "Africa"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Germany",
+      "Ireland",
+      "Spain",
+      "France",
+      "Netherlands",
+      "Belgium",
+      "Italy",
+      "Sweden",
+      "Denmark",
+      "Norway",
+      "Finland",
+      "Austria",
+      "Switzerland",
+      "Malaysia",
+      "Singapore",
+      "Hong Kong",
+      "China",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "Philippines",
+      "India"
+    ],
+    "has_na": true,
+    "has_eu": true,
+    "revenue_by_region": {
+      "United States": 0.72,
+      "International": 0.28
+    },
+    "assets_by_region": {}
+  },
+  "segments": [
+    "Continuous Glucose Monitoring (CGM) Systems"
+  ],
+  "supply_chain": {
+    "key_suppliers": [],
+    "manufacturing_locations": [
+      "United States (San Diego, California)",
+      "United States (Mesa, Arizona)",
+      "Malaysia (Penang)",
+      "Ireland (Athenry - under construction)"
+    ],
+    "dependencies": "Single-source suppliers for application-specific integrated circuits used in transmitters, seals used for applicators, and certain polymers used to synthesize polymeric membranes for sensors. Reliance on third-party suppliers for components and materials. Custom nature of parts makes it difficult to quickly establish alternative or replacement suppliers.",
+    "risks": "Supply disruptions from single-source suppliers. Manufacturing difficulties at facilities could adversely affect operations. Dependence on third-party suppliers makes company vulnerable to supply disruptions, suboptimal quality, non-compliance and price fluctuations. Suppliers may fail to comply with protocols, regulations, or experience equipment malfunction, environmental factors, cyber-attacks, public health emergencies. Difficulty in qualifying alternative suppliers for single-source supplies. Suppliers may discontinue production of critical components. Recent manufacturing and inventory challenges for G7 have resulted in disruptions in ability to supply certain markets including U.S. and other countries.",
+    "supplier_concentration": {}
+  },
+  "regulatory_risks": [
+    "FDA regulatory compliance and approval requirements for medical devices",
+    "Failure to comply with FDA Quality System Regulation (QSR) and Good Manufacturing Practices",
+    "Medical Device Reporting (MDR) regulations requiring incident reporting",
+    "Risk of product recalls, seizures, or withdrawal from market due to regulatory non-compliance",
+    "Changes to FDA approval standards and processes, including cybersecurity requirements",
+    "International regulatory requirements varying by country (CE Mark in EU, country-specific approvals)",
+    "European Union Medical Device Regulation (MDR) compliance requirements",
+    "Brexit impact on regulatory approvals in UK vs EU",
+    "Anti-Kickback Statute and federal False Claims Act compliance",
+    "Stark Law (Federal Physician Self-Referral Law) compliance",
+    "Civil Monetary Penalties Law (CMPL) including Beneficiary Inducement provisions",
+    "HIPAA Privacy, Security, and Breach Notification Rules compliance",
+    "State data breach notification laws",
+    "Federal Trade Commission (FTC) enforcement on consumer protection and data practices",
+    "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+    "Washington My Health My Data Act",
+    "Multiple state privacy laws (Virginia, Colorado, Connecticut, Utah, Oregon, Texas, Florida, Montana, Delaware, Nebraska, New Hampshire, Iowa, Tennessee, Indiana)",
+    "EU General Data Protection Regulation (GDPR) with fines up to 20 million euros or 4% of global turnover",
+    "UK Data Protection Act and UK GDPR",
+    "Data localization laws in various countries",
+    "EU Corporate Sustainability Reporting Directive (CSRD)",
+    "California climate-related reporting requirements (greenhouse gas emissions, climate risks)",
+    "SEC cybersecurity risk management and disclosure rules",
+    "Physician Payment Sunshine Act reporting requirements",
+    "State marketing and transparency laws for device manufacturers",
+    "U.S. Foreign Corrupt Practices Act (FCPA) compliance",
+    "UK Bribery Act compliance",
+    "Export control regulations (U.S. Department of Treasury Office of Foreign Assets Control, Bureau of Industry and Security)",
+    "Medicare and Medicaid coverage and reimbursement policy changes",
+    "CMS Local Coverage Determination (LCD) requirements",
+    "Affordable Care Act (ACA) compliance requirements",
+    "Potential changes in healthcare policy under new presidential administration",
+    "OIG Special Fraud Alert on manufacturer Speaker Programs",
+    "AdvaMed Code of Ethics revisions",
+    "Food and Drug Omnibus Reform Act (FDORA) clinical trial diversity requirements",
+    "Environmental, health and safety laws governing hazardous materials handling",
+    "EU due diligence reporting requirements",
+    "Responsible Business Alliance sustainability standards",
+    "OECD BEPS (Base Erosion and Profit Shifting) tax framework",
+    "OECD Pillar Two global minimum tax (15%) implementation",
+    "California S.B. 167 and S.B. 175 (NOL suspension and R&D credit limitations)",
+    "Federal Risk and Authorization Management Program (FedRAMP) requirements",
+    "Cybersecurity Maturity Model Certification (CMMC) requirements",
+    "AI regulations at federal, state and international levels (60 AI-related regulations in U.S. as of 2024)",
+    "EU AI Act (effective August 1, 2024)",
+    "HHS AI Strategic Plan (FAVES framework)"
+  ],
+  "geopolitical_exposure": {
+    "high_risk_countries": [
+      "China",
+      "Russia",
+      "Iran",
+      "Malaysia"
+    ],
+    "trade_war_exposure": true,
+    "sanction_risks": [
+      "U.S. economic sanctions administered by Office of Foreign Assets Control restricting business with certain countries, governments, entities and individuals",
+      "Potential violations of export control regulations could result in fines, penalties, denial of export privileges, asset seizures, debarment from government contracts",
+      "Fluctuations in trade policy and tariff regulations, including potential higher tariffs on imported goods and renegotiation of free trade agreements",
+      "Potential retaliatory tariffs imposed by foreign countries against U.S. goods",
+      "Restrictions on technology transfer and data flows to certain jurisdictions"
+    ]
+  }
+}
