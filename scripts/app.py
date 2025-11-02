@@ -30,7 +30,12 @@ except Exception as e:
 from scripts.document_analysis_helper import (
     extract_from_uploaded_file,
     extract_from_local_file,
-    load_existing_extractions
+    load_existing_extractions,
+    generate_filename_from_extraction,
+    delete_extraction,
+    toggle_document_visibility,
+    get_all_documents_with_status,
+    save_uploaded_file
 )
 from scripts.dashboard_helper import (
     load_company_universe,
@@ -87,6 +92,46 @@ if 'composition_sp500' not in st.session_state:
     st.session_state.composition_sp500 = None
 if 'stocks_performance' not in st.session_state:
     st.session_state.stocks_performance = None
+
+# Track running extractions
+if 'running_extractions' not in st.session_state:
+    st.session_state.running_extractions = {}  # {filename: {'status': 'processing', 'start_time': datetime}}
+if 'last_refresh' not in st.session_state:
+    st.session_state.last_refresh = None
+
+
+def _check_running_extractions():
+    """Check if any running extractions have completed by verifying if extraction files exist"""
+    if not st.session_state.running_extractions:
+        return False
+    
+    # Check all documents to see if any extractions completed
+    all_extractions = load_existing_extractions()
+    extraction_filenames = {ext['filename']: ext for ext in all_extractions}
+    
+    completed = []
+    for filename, info in list(st.session_state.running_extractions.items()):
+        # Check if extraction now exists for this document
+        # Match by checking if filename appears in any extraction
+        for ext_filename, ext_data in extraction_filenames.items():
+            # Try matching various ways
+            base_filename = Path(filename).stem
+            if (filename in ext_filename or 
+                ext_filename in filename or 
+                base_filename in ext_filename):
+                # Extraction completed!
+                completed.append(filename)
+                break
+    
+    # Remove completed from running list
+    for filename in completed:
+        del st.session_state.running_extractions[filename]
+    
+    # Auto-refresh if something completed
+    if completed:
+        st.session_state.last_refresh = datetime.now()
+        return True
+    return False
 
 
 def _display_extraction_results(result: dict):
@@ -218,125 +263,186 @@ elif page == "📊 Analyse":
     
     # TAB PRINCIPAL 1: Analyse de Documents
     with main_tab1:
+        # Check for completed extractions first
+        needs_refresh = _check_running_extractions()
+        
+        # Note: Extractions process immediately when triggered (Streamlit limitation)
+        # We check for completion on each page load
+        
         st.subheader("📄 Analyse de Documents Réglementaires")
-        st.info("💡 Uploadez ou sélectionnez un document réglementaire pour extraire automatiquement les informations clés avec Amazon Bedrock")
+        st.info("💡 Uploadez ou analysez des documents réglementaires pour extraire automatiquement les informations clés")
         
-        tab1, tab2, tab3 = st.tabs(["📤 Upload de Document", "📚 Documents Disponibles", "💾 Résultats Extraits"])
-    
-    # TAB 1: Upload de fichiers
-    with tab1:
-        uploaded_file = st.file_uploader(
-            "Choisir un document réglementaire",
-            type=['html', 'xml', 'pdf', 'txt'],
-            help="Formats supportés: HTML, XML, PDF, TXT"
-        )
+        # Clean up old running extractions (in case page was refreshed during processing)
+        if st.session_state.running_extractions:
+            # Clean up stale entries (older than 10 minutes)
+            current_time = datetime.now()
+            stale = []
+            for filename, info in st.session_state.running_extractions.items():
+                start_time = info.get('start_time')
+                if start_time and (current_time - start_time).total_seconds() > 600:
+                    stale.append(filename)
+            for filename in stale:
+                del st.session_state.running_extractions[filename]
         
-        if uploaded_file is not None:
-            st.success(f"✅ Fichier '{uploaded_file.name}' chargé")
+        # Upload Section (always visible at top)
+        with st.expander("📤 Upload Nouveau Document", expanded=False):
+            uploaded_file = st.file_uploader(
+                "Choisir un document réglementaire",
+                type=['html', 'xml', 'pdf', 'txt'],
+                help="Formats supportés: HTML, XML, PDF, TXT",
+                key="doc_uploader"
+            )
             
-            # Affichage de l'aperçu (seulement pour HTML/XML texte)
-            if uploaded_file.name.endswith(('.html', '.xml', '.txt')):
-                # Reset file pointer
-                uploaded_file.seek(0)
-                if uploaded_file.type.startswith('text/') or uploaded_file.name.endswith('.txt'):
-                    try:
-                        content = uploaded_file.read().decode('utf-8')
-                        st.subheader("Aperçu du document")
-                        st.text_area("Premiers 2000 caractères", content[:2000], height=200, disabled=True)
-                        uploaded_file.seek(0)  # Reset pour traitement
-                    except:
-                        pass
-            
-            # Options AWS
-            col1, col2 = st.columns(2)
-            with col1:
-                use_aws = st.checkbox("☁️ Utiliser services AWS (S3, Comprehend)", value=True, 
-                                     help="Active S3 pour le cache et Comprehend pour pré-filtrage")
-            with col2:
-                use_cache = st.checkbox("💾 Utiliser cache", value=True,
-                                       help="Évite les ré-extractions (économise coûts)")
-            
-            # Bouton d'analyse avec Bedrock
-            if st.button("🔍 Analyser avec Bedrock", type="primary", key="analyze_uploaded"):
-                with st.spinner("🔄 Extraction en cours avec Amazon Bedrock (cela peut prendre quelques minutes)..."):
-                    try:
-                        result = extract_from_uploaded_file(uploaded_file, use_cache=use_cache, 
-                                                           use_aws_services=use_aws)
-                        
-                        if result.get('processing_status') == 'completed':
-                            st.success("✅ Extraction terminée avec succès !")
-                            
-                            if result.get('from_cache'):
-                                st.info("ℹ️ Résultats chargés depuis le cache")
-                            
-                            # Afficher les résultats
-                            _display_extraction_results(result)
-                        else:
-                            st.error(f"❌ Erreur lors de l'extraction: {result.get('error', 'Erreur inconnue')}")
-                    except Exception as e:
-                        st.error(f"❌ Erreur: {str(e)}")
-                        st.exception(e)
-    
-    # TAB 2: Documents disponibles localement
-    with tab2:
-        st.subheader("📚 Documents Réglementaires Disponibles")
-        directives_path = Path('data/raw/directives')
-        
-        if directives_path.exists():
-            directives = sorted(list(directives_path.glob('*.html')) + list(directives_path.glob('*.xml')))
-            
-            if directives:
-                for doc in directives:
-                    with st.expander(f"📄 {doc.name}"):
-                        st.write(f"**Chemin:** `{doc}`")
-                        st.write(f"**Taille:** {doc.stat().st_size / 1024:.1f} KB")
-                        
-                        if st.button(f"🔍 Analyser {doc.name}", key=f"analyze_{doc.name}"):
-                            with st.spinner(f"🔄 Analyse de {doc.name} en cours..."):
-                                try:
-                                    result = extract_from_local_file(str(doc), use_cache=True, use_aws_services=True)
-                                    
-                                    if result.get('processing_status') == 'completed':
-                                        st.success("✅ Extraction terminée avec succès !")
-                                        
-                                        if result.get('from_cache'):
-                                            st.info("ℹ️ Résultats chargés depuis le cache")
-                                        
-                                        # Afficher les résultats
-                                        _display_extraction_results(result)
-                                    else:
-                                        st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
-                                except Exception as e:
-                                    st.error(f"❌ Erreur: {str(e)}")
-                                    st.exception(e)
-            else:
-                st.warning("Aucun document trouvé dans data/raw/directives/")
-        else:
-            st.warning("Le dossier data/raw/directives/ n'existe pas")
-    
-    # TAB 3: Résultats extraits existants
-    with tab3:
-        st.subheader("💾 Résultats d'Extraction Existants")
-        
-        existing_extractions = load_existing_extractions()
-        
-        if existing_extractions:
-            st.info(f"📊 {len(existing_extractions)} extraction(s) trouvée(s)")
-            
-            for extraction in existing_extractions:
-                data = extraction['data']
-                filename = extraction['filename']
+            if uploaded_file is not None:
+                st.success(f"✅ Fichier '{uploaded_file.name}' sélectionné")
+                st.caption(f"Taille: {uploaded_file.size / 1024:.1f} KB")
                 
-                with st.expander(f"📄 {filename}", expanded=False):
-                    if data.get('processing_status') == 'completed':
-                        st.success("✅ Extraction complète")
-                        _display_extraction_results(data)
+                # Button to save the file
+                if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded"):
+                    # Save the file directly to documents directory
+                    save_result = save_uploaded_file(uploaded_file)
+                    
+                    if save_result['success']:
+                        st.success(f"✅ Document '{save_result['filename']}' ajouté avec succès !")
+                        st.info("💡 Le document apparaît maintenant dans la liste ci-dessous. Vous pouvez l'analyser en cliquant sur le bouton 🔍")
+                        st.balloons()
+                        # Auto-refresh to show the new document in the list
+                        st.rerun()
                     else:
-                        st.error(f"❌ Statut: {data.get('processing_status', 'unknown')}")
-                        if 'error' in data:
-                            st.error(f"Erreur: {data['error']}")
+                        st.error(f"❌ Erreur lors de l'enregistrement: {save_result.get('error', 'Erreur inconnue')}")
+        
+        st.divider()
+        
+        # Main Documents View - Unified Table
+        st.subheader("📚 Tous les Documents")
+        
+        # Filter options
+        col1, col2, col3 = st.columns([2, 2, 1])
+        with col1:
+            filter_status = st.selectbox(
+                "Filtrer par statut",
+                ["Tous", "Analysés", "Non analysés"],
+                key="filter_status"
+            )
+        with col2:
+            show_hidden = st.checkbox("Afficher documents masqués", value=False, key="show_hidden")
+        with col3:
+            st.write("")  # Spacer
+        
+        # Get all documents with status
+        all_documents = get_all_documents_with_status()
+        
+        # Apply filters
+        filtered_docs = []
+        for doc in all_documents:
+            # Status filter
+            if filter_status == "Analysés" and doc['status'] != 'analyzed':
+                continue
+            elif filter_status == "Non analysés" and doc['status'] == 'analyzed':
+                continue
+            
+            # Hidden filter
+            if doc['is_hidden'] and not show_hidden:
+                continue
+            
+            filtered_docs.append(doc)
+        
+        if filtered_docs:
+            st.info(f"📊 {len(filtered_docs)} document(s) trouvé(s)")
+            
+            # Display as table with actions
+            for idx, doc in enumerate(filtered_docs):
+                with st.container():
+                    # Create columns for document info and actions
+                    col_info, col_date, col_status, col_actions = st.columns([3, 2, 1.5, 2.5])
+                    
+                    with col_info:
+                        # Document name with icon
+                        icon = "📄" if not doc['is_hidden'] else "👁️‍🗨️"
+                        st.markdown(f"**{icon} {doc['filename']}**")
+                        st.caption(f"{doc['size'] / 1024:.1f} KB")
+                    
+                    with col_date:
+                        upload_date_str = doc['upload_date'].strftime("%Y-%m-%d %H:%M")
+                        st.text(f"📅 {upload_date_str}")
+                    
+                    with col_status:
+                        if doc['status'] == 'analyzed':
+                            st.success("✅ Analysé")
+                        else:
+                            st.warning("⏳ Non analysé")
+                    
+                    with col_actions:
+                        # Action buttons in a row
+                        action_col1, action_col2, action_col3 = st.columns(3)
+                        
+                        with action_col1:
+                            # Analyze button
+                            if doc['status'] != 'analyzed':
+                                if st.button("🔍", key=f"analyze_{idx}", help="Analyser ce document"):
+                                    # Process immediately with clear feedback
+                                    progress_msg = st.empty()
+                                    with progress_msg.container():
+                                        st.warning(f"⏳ Analyse de '{doc['filename']}' en cours...")
+                                        st.caption("⏱️ Cela peut prendre 1-3 minutes. Vous pouvez continuer à naviguer dans l'application.")
+                                    
+                                    try:
+                                        result = extract_from_local_file(
+                                            doc['path'], 
+                                            use_cache=True, 
+                                            use_aws_services=True
+                                        )
+                                        
+                                        progress_msg.empty()
+                                        
+                                        if result.get('processing_status') == 'completed':
+                                            st.success("✅ Analyse terminée avec succès !")
+                                            
+                                            # Show suggested filename if different
+                                            suggested_name = generate_filename_from_extraction(result, Path(doc['filename']).suffix)
+                                            if suggested_name != doc['filename']:
+                                                st.info(f"📝 Nom suggéré: `{suggested_name}`")
+                                            
+                                            st.balloons()
+                                            st.rerun()  # Refresh to show updated status
+                                        else:
+                                            st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
+                                    except Exception as e:
+                                        progress_msg.empty()
+                                        st.error(f"❌ Erreur: {str(e)}")
+                        
+                        with action_col2:
+                            # View/Delete extraction results
+                            if doc['status'] == 'analyzed' and doc['extraction']:
+                                if st.button("🗑️", key=f"delete_ext_{idx}", help="Supprimer résultat"):
+                                    if delete_extraction(doc['extraction']['path'], doc['extraction']['source']):
+                                        st.success("✅ Résultat supprimé")
+                                        st.rerun()
+                                    else:
+                                        st.error("❌ Erreur lors de la suppression")
+                        
+                        with action_col3:
+                            # Hide/Show toggle
+                            hide_label = "👁️" if doc['is_hidden'] else "👁️‍🗨️"
+                            hide_help = "Afficher" if doc['is_hidden'] else "Masquer"
+                            if st.button(hide_label, key=f"toggle_{idx}", help=hide_help):
+                                toggle_document_visibility(doc['filename'], hide=not doc['is_hidden'])
+                                st.rerun()
+                    
+                    # Expandable section for viewing results
+                    if doc['status'] == 'analyzed' and doc['extraction']:
+                        with st.expander("📋 Voir les résultats d'extraction"):
+                            data = doc['extraction']['data']
+                            if data.get('processing_status') == 'completed':
+                                _display_extraction_results(data)
+                            else:
+                                st.error(f"❌ Statut: {data.get('processing_status', 'unknown')}")
+                                if 'error' in data:
+                                    st.error(f"Erreur: {data['error']}")
+                    
+                    st.divider()
         else:
-            st.info("Aucun résultat d'extraction trouvé. Analysez un document pour commencer.")
+            st.info("Aucun document trouvé. Uploadez un document pour commencer.")
     
     # TAB PRINCIPAL 2: Analyse d'Impact
     with main_tab2:
@@ -391,7 +497,7 @@ elif page == "📊 Analyse":
                 )
                 st.plotly_chart(fig, width='stretch')
                 
-                st.info("⚠️ Intégration avec Bedrock pour calcul réel à implémenter")
+                st.info("⚠️ Fonctionnalité d'analyse d'impact en cours de développement")
         else:
             st.warning("⚠️ Veuillez d'abord charger les données depuis le Dashboard")
 

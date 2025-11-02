@@ -11,7 +11,8 @@ import hashlib
 import tempfile
 import os
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
+from datetime import datetime
 
 # Try to import UploadedFile
 try:
@@ -71,6 +72,10 @@ def save_to_cache(cache_key: str, filename: str, result: Dict[str, Any]):
     """Save extraction result to local cache"""
     cache_path = get_cache_path(cache_key, filename)
     try:
+        # Add upload timestamp if not present
+        if 'upload_timestamp' not in result:
+            result['upload_timestamp'] = datetime.now().isoformat()
+        
         with open(cache_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
     except Exception as e:
@@ -251,4 +256,198 @@ def load_existing_extractions() -> list:
                 print(f"⚠️ Error loading {json_file}: {e}")
     
     return extractions
+
+
+def generate_filename_from_extraction(result: Dict[str, Any], original_extension: str = '.html') -> str:
+    """
+    Generate a clean filename from extraction results.
+    Format: Title_Country_Date.ext
+    
+    Args:
+        result: Extraction result dictionary
+        original_extension: Original file extension
+        
+    Returns:
+        Cleaned filename
+    """
+    extracted_info = result.get('extracted_info', {})
+    
+    # Get title (clean it up)
+    title = extracted_info.get('title', 'Untitled')
+    if isinstance(title, str):
+        # Remove common prefixes and clean
+        title = title.replace('DIRECTIVE', '').replace('REGULATION', '').strip()
+        title = title[:50]  # Limit length
+    
+    # Get country
+    country = extracted_info.get('country', '')
+    if isinstance(country, str):
+        country = country[:20].strip()
+    
+    # Get date
+    date = extracted_info.get('effective_date', '')
+    if isinstance(date, str):
+        date = date[:10].strip()  # YYYY-MM-DD format
+    
+    # Build filename
+    parts = [p for p in [title, country, date] if p]
+    filename = '_'.join(parts)
+    
+    # Clean filename (remove invalid characters)
+    filename = "".join(c for c in filename if c.isalnum() or c in (' ', '-', '_')).strip()
+    filename = filename.replace(' ', '_')
+    
+    # Add extension
+    if not original_extension.startswith('.'):
+        original_extension = '.' + original_extension
+    
+    return filename + original_extension
+
+
+def delete_extraction(extraction_path: str, source: str = 'local') -> bool:
+    """
+    Delete an extraction result.
+    
+    Args:
+        extraction_path: Path to the extraction file (local) or S3 key
+        source: 'local' or 'S3'
+        
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        if source == 'S3' and AWS_HELPER_AVAILABLE:
+            helper = get_aws_helper()
+            if helper.s3_bucket:
+                helper.s3.delete_object(Bucket=helper.s3_bucket, Key=extraction_path)
+                return True
+        elif source == 'local':
+            path = Path(extraction_path)
+            if path.exists():
+                path.unlink()
+                return True
+        return False
+    except Exception as e:
+        print(f"⚠️ Error deleting extraction: {e}")
+        return False
+
+
+def get_hidden_documents() -> List[str]:
+    """Get list of hidden document filenames from config"""
+    config_path = Path("data/generated/.hidden_documents.json")
+    if config_path.exists():
+        try:
+            with open(config_path, 'r') as f:
+                return json.load(f).get('hidden', [])
+        except:
+            return []
+    return []
+
+
+def toggle_document_visibility(filename: str, hide: bool = True):
+    """Hide or show a document in the available documents list"""
+    config_path = Path("data/generated/.hidden_documents.json")
+    config_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    hidden_docs = get_hidden_documents()
+    
+    if hide and filename not in hidden_docs:
+        hidden_docs.append(filename)
+    elif not hide and filename in hidden_docs:
+        hidden_docs.remove(filename)
+    
+    try:
+        with open(config_path, 'w') as f:
+            json.dump({'hidden': hidden_docs}, f, indent=2)
+    except Exception as e:
+        print(f"⚠️ Error updating hidden documents: {e}")
+
+
+def save_uploaded_file(uploaded_file, destination_dir: str = 'data/raw/directives') -> Dict[str, Any]:
+    """
+    Save an uploaded file to the documents directory.
+    
+    Args:
+        uploaded_file: Streamlit UploadedFile object
+        destination_dir: Directory to save the file
+        
+    Returns:
+        Dictionary with save status and file path
+    """
+    try:
+        # Create destination directory if it doesn't exist
+        dest_path = Path(destination_dir)
+        dest_path.mkdir(parents=True, exist_ok=True)
+        
+        # Get file content
+        file_content = uploaded_file.read()
+        
+        # Create file path
+        filename = uploaded_file.name
+        file_path = dest_path / filename
+        
+        # Handle duplicates - append number if file exists
+        counter = 1
+        original_file_path = file_path
+        while file_path.exists():
+            stem = original_file_path.stem
+            suffix = original_file_path.suffix
+            file_path = dest_path / f"{stem}_{counter}{suffix}"
+            counter += 1
+        
+        # Save file
+        with open(file_path, 'wb') as f:
+            f.write(file_content)
+        
+        return {
+            'success': True,
+            'file_path': str(file_path),
+            'filename': file_path.name,
+            'size': len(file_content)
+        }
+    except Exception as e:
+        return {
+            'success': False,
+            'error': str(e)
+        }
+
+
+def get_all_documents_with_status() -> List[Dict[str, Any]]:
+    """
+    Get all documents (raw + extracted) with their status.
+    
+    Returns:
+        List of documents with metadata including status, upload date, etc.
+    """
+    documents = []
+    
+    # Get all raw documents
+    directives_path = Path('data/raw/directives')
+    if directives_path.exists():
+        for doc_path in sorted(directives_path.glob('*')):
+            if doc_path.suffix.lower() in ['.html', '.xml', '.pdf', '.txt'] and doc_path.name != 'README.md':
+                # Check if it has been analyzed
+                extraction = None
+                extractions = load_existing_extractions()
+                
+                for ext in extractions:
+                    # Match by checking if the extraction filename contains the document name
+                    if doc_path.stem in ext['filename'] or ext['filename'] in doc_path.stem:
+                        extraction = ext
+                        break
+                
+                # Get upload/modification date
+                upload_date = datetime.fromtimestamp(doc_path.stat().st_mtime)
+                
+                documents.append({
+                    'filename': doc_path.name,
+                    'path': str(doc_path),
+                    'size': doc_path.stat().st_size,
+                    'upload_date': upload_date,
+                    'status': 'analyzed' if extraction else 'not_analyzed',
+                    'extraction': extraction,
+                    'is_hidden': doc_path.name in get_hidden_documents()
+                })
+    
+    return documents
 

@@ -1,0 +1,152 @@
+{
+  "document_id": "big-beautiful-bill.xml",
+  "category": "Category: Tax\n\nExplanation: This appears to be a tax reconciliation bill, with extensive sections related to tax code modifications, including changes to rates, deductions, credits and exemptions. The document's Section VII specifically focuses on tax-related matters and Internal Revenue Code amendments.",
+  "legalbert_confidence": 0.9022543907165528,
+  "extracted_info": {
+    "title": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
+    "country": "United States",
+    "effective_date": "2025-07-04",
+    "regulatory_body": "United States Congress",
+    "scope": "Tax code modifications, including business tax reforms, international tax provisions, and charitable contribution rules",
+    "affected_sectors": [
+      "Financial Services",
+      "Immigration",
+      "Tax Administration",
+      "Tax and Accounting",
+      "Healthcare",
+      "Border Security",
+      "Energy",
+      "Education",
+      "Law Enforcement",
+      "Business and Corporate",
+      "Non-profit Organizations",
+      "International Trade"
+    ],
+    "affected_entities": [
+      "Individual taxpayers",
+      "Corporations",
+      "Partnerships",
+      "Tax-exempt organizations",
+      "International businesses",
+      "Charitable organizations"
+    ],
+    "key_requirements": [
+      "Establishment of border infrastructure and wall system",
+      "Changes to healthcare program eligibility",
+      "New reporting requirements for qualified opportunity funds",
+      "Revisions to tax credit programs",
+      "Modifications to student loan programs",
+      "Implementation of new immigration fees",
+      "Enhanced charitable contribution deduction rules",
+      "Changes to foreign-derived deduction eligible income rules",
+      "Modification of business interest deduction limitations",
+      "Modified tax credit provisions"
+    ],
+    "key_requirement_details": [
+      {
+        "requirement": "New tip income deduction",
+        "article_reference": "Section 70201",
+        "metrics": [
+          {
+            "type": "maximum_deduction",
+            "value": 25000,
+            "unit": "USD",
+            "description": "Maximum allowable deduction for qualified tips"
+          }
+        ],
+        "deadline": "2025-12-31",
+        "compliance_action": "File tax returns claiming qualified tip deductions"
+      },
+      {
+        "requirement": "Overtime compensation deduction",
+        "article_reference": "Section 70202",
+        "metrics": [
+          {
+            "type": "maximum_deduction",
+            "value": 12500,
+            "unit": "USD",
+            "description": "Maximum deduction for qualified overtime compensation (single return)"
+          }
+        ],
+        "deadline": "2025-12-31",
+        "compliance_action": "File tax returns claiming overtime compensation deductions"
+      }
+    ],
+    "reporting_requirements": [
+      {
+        "description": "Annual returns for qualified opportunity funds",
+        "frequency": "Annual",
+        "format": "IRS Form (to be prescribed)",
+        "article_reference": "Section 6039K"
+      },
+      {
+        "description": "Information reporting for qualified opportunity zone businesses",
+        "frequency": "Annual",
+        "format": "Written statement (to be prescribed)",
+        "article_reference": "Section 6039L"
+      }
+    ],
+    "monetary_thresholds": [
+      {
+        "amount": 500000,
+        "currency": "USD",
+        "description": "Minimum assets threshold for applicable educational institutions excise tax",
+        "article_reference": "Section 70415"
+      },
+      {
+        "amount": 150000,
+        "currency": "USD",
+        "description": "Income threshold for joint returns regarding tip deduction phase-out",
+        "article_reference": "Section 70201"
+      }
+    ],
+    "quantitative_limits": [
+      {
+        "value": 0.125,
+        "unit": "ratio",
+        "description": "Maximum business interest deduction limitation",
+        "article_reference": "Section 70303"
+      },
+      {
+        "value": 0.005,
+        "unit": "ratio",
+        "description": "Minimum charitable contribution floor for individuals",
+        "article_reference": "Section 70425"
+      }
+    ],
+    "penalties": [
+      {
+        "type": "Information reporting failure",
+        "amount": 500,
+        "currency": "USD",
+        "imprisonment": null,
+        "article_reference": "Section 6726"
+      }
+    ],
+    "enforcement_agencies": [
+      "Internal Revenue Service",
+      "Department of the Treasury"
+    ],
+    "implementation_timeline": {
+      "publication_date": "2025-07-04",
+      "transposition_deadline": null,
+      "phased_milestones": [
+        "Most provisions effective for tax years beginning after 2024",
+        "Some provisions phase in over 2025-2031 period"
+      ]
+    },
+    "notes": [
+      "This is a comprehensive tax reform act with multiple effective dates and phase-in periods",
+      "Many provisions require regulatory guidance from Treasury/IRS for implementation details"
+    ],
+    "source_articles": [
+      "Public Law 119-21",
+      "139 Stat. 72"
+    ]
+  },
+  "processing_status": "completed",
+  "from_cache": false,
+  "cache_source": "local",
+  "filename": "big-beautiful-bill.xml",
+  "upload_timestamp": "2025-11-02T14:16:45.098064"
+}
