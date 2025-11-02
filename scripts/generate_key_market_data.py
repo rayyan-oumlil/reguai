@@ -1,17 +1,21 @@
 """
 Script pour générer les Key Market Data avec ratios améliorés
-Fusionne composition S&P 500 + métriques de performance
+Fusionne composition S&P 500 + métriques de performance + yfinance
+FILTRE: Garde uniquement les entreprises qui ont un 10-K dans fillings/
+RÉSULTAT: Un seul fichier JSON (pas de CSV)
 """
 
 import pandas as pd
 import json
+import time
 from pathlib import Path
 from typing import Dict, Optional
-import os
+import yfinance as yf
+from tqdm import tqdm
 
 
 def load_and_merge_data():
-    """Charge et fusionne les deux CSV sources"""
+    """Charge et fusionne les deux CSV sources, filtre par fillings"""
     # Charger composition S&P 500
     composition_df = pd.read_csv('data/raw/2025-08-15_composition_sp500.csv')
     
@@ -30,14 +34,23 @@ def load_and_merge_data():
     if 'Symbol' in performance_df.columns:
         performance_df = performance_df.rename(columns={'Symbol': 'Ticker'})
     
-    # Fusionner sur Ticker
+    # Fusionner sur Ticker (S&P 500 comme base)
     merged_df = pd.merge(
-        composition_df[['Ticker', 'Company', 'Weight', 'Price']],
-        performance_df,
+        composition_df,
+        performance_df[['Ticker', 'Company Name', 'Market Cap', 'Revenue', 'Op. Income', 'Net Income', 'EPS', 'FCF']],
         on='Ticker',
-        how='outer',  # Garder tous les tickers
-        suffixes=('_comp', '_perf')
+        how='left',
+        suffixes=('', '_perf')
     )
+    
+    # FILTRER: Garder uniquement les entreprises qui ont un 10-K dans fillings/
+    fillings_dir = Path('data/raw/fillings')
+    if fillings_dir.exists():
+        available_tickers = [d.name for d in fillings_dir.iterdir() if d.is_dir()]
+        merged_df = merged_df[merged_df['Ticker'].isin(available_tickers)].copy()
+        print(f"✅ Filtrage: {len(merged_df)} entreprises avec 10-K disponibles")
+    else:
+        print("⚠️ Dossier fillings/ non trouvé, pas de filtrage")
     
     print(f"✅ Fusionnée : {len(merged_df)} entreprises")
     return merged_df
@@ -46,11 +59,23 @@ def load_and_merge_data():
 def create_market_data_structure(row: pd.Series) -> Dict:
     """
     Crée une structure JSON enrichie pour les données de marché d'une entreprise
-    Calcule plusieurs ratios financiers
+    Calcule plusieurs ratios financiers + inclut secteur/industrie depuis yfinance
     """
+    # Gérer company_name : priorité à Long Name (yfinance), puis Company (S&P 500), puis Company Name (performance)
+    company_name = None
+    if pd.notna(row.get('Long Name')):
+        company_name = str(row['Long Name']).strip()
+    elif pd.notna(row.get('Company')):
+        company_name = str(row['Company']).strip()
+    elif pd.notna(row.get('Company Name')):
+        company_name = str(row['Company Name']).strip()
+    
     data = {
         "ticker": str(row['Ticker']).upper() if pd.notna(row.get('Ticker')) else None,
-        "company_name": str(row.get('Company', row.get('Company Name', ''))).strip() if pd.notna(row.get('Company', row.get('Company Name'))) else None,
+        "company_name": company_name,
+        "sector": str(row['Sector']) if pd.notna(row.get('Sector')) else None,
+        "industry": str(row['Industry']) if pd.notna(row.get('Industry')) else None,
+        "is_sp500": True,  # Toutes sont dans S&P 500 (filtré au départ)
         "sp500_weight": float(row['Weight']) if pd.notna(row.get('Weight')) else None,
         "current_price": float(row['Price']) if pd.notna(row.get('Price')) else None,
         "market_cap": float(row['Market Cap']) if pd.notna(row.get('Market Cap')) else None,
@@ -126,42 +151,87 @@ def create_market_data_structure(row: pd.Series) -> Dict:
     return data
 
 
-def generate_key_market_data(output_dir: str = "key_market_data"):
+def enrich_with_yfinance(merged_df: pd.DataFrame) -> pd.DataFrame:
+    """Enrichit le DataFrame avec secteurs et industries depuis yfinance"""
+    def normalize_ticker_for_yfinance(ticker: str) -> str:
+        if pd.isna(ticker):
+            return None
+        return str(ticker).replace(",", "-")
+    
+    sector_dict = {}
+    industry_dict = {}
+    company_long_name_dict = {}
+    
+    print("\n🔍 Récupération des secteurs via yfinance...")
+    unique_tickers = merged_df['Ticker'].dropna().unique()
+    print(f"   Tickers à traiter: {len(unique_tickers)}")
+    
+    for ticker in tqdm(unique_tickers, desc="Récupération secteurs"):
+        try:
+            yf_ticker = normalize_ticker_for_yfinance(ticker)
+            if not yf_ticker:
+                continue
+            
+            company = yf.Ticker(yf_ticker)
+            info = company.info
+            
+            sector_dict[ticker] = info.get("sector", "Unknown")
+            industry_dict[ticker] = info.get("industry", "Unknown")
+            company_long_name_dict[ticker] = info.get("longName", None)
+            
+            time.sleep(0.5)  # Rate limiting
+            
+        except Exception as e:
+            sector_dict[ticker] = "Unknown"
+            industry_dict[ticker] = "Unknown"
+            company_long_name_dict[ticker] = None
+    
+    # Ajouter les colonnes
+    merged_df['Sector'] = merged_df['Ticker'].map(sector_dict)
+    merged_df['Industry'] = merged_df['Ticker'].map(industry_dict)
+    merged_df['Long Name'] = merged_df['Ticker'].map(company_long_name_dict)
+    
+    print("✅ Enrichissement yfinance terminé")
+    return merged_df
+
+
+def generate_key_market_data(output_dir: str = "data/generated/key_market_data"):
     """
-    Génère le fichier all_market_data.json avec toutes les Key Market Data
+    Génère UN SEUL fichier all_market_data.json avec toutes les Key Market Data
+    (mergées + yfinance) pour les entreprises avec 10-K uniquement
     """
     # Créer le dossier de sortie
     output_path = Path(output_dir)
-    output_path.mkdir(exist_ok=True)
+    output_path.mkdir(parents=True, exist_ok=True)
     
-    # Charger et fusionner les données
+    # Charger et fusionner les données (déjà filtré par fillings)
     merged_df = load_and_merge_data()
+    
+    # Enrichir avec yfinance (secteurs)
+    merged_df = enrich_with_yfinance(merged_df)
     
     # Appliquer à toutes les lignes
     all_market_data = {}
     for idx, row in merged_df.iterrows():
         ticker = str(row['Ticker']).upper() if pd.notna(row.get('Ticker')) else None
-        if ticker:
+        if ticker and ticker.strip():
             all_market_data[ticker] = create_market_data_structure(row)
     
-    # Sauvegarder le fichier consolidé
+    # Sauvegarder le fichier JSON (SEUL fichier généré)
     output_file = output_path / "all_market_data.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_market_data, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Fichier consolidé sauvegardé: {output_file}")
-    print(f"📊 Total: {len(all_market_data)} entreprises")
-    
-    # Optionnel : Sauvegarder aussi en CSV pour visualisation
-    csv_file = output_path / "merged_market_data.csv"
-    merged_df.to_csv(csv_file, index=False)
-    print(f"✅ CSV sauvegardé: {csv_file}")
+    print(f"\n✅ Fichier JSON sauvegardé: {output_file}")
+    print(f"📊 Total: {len(all_market_data)} entreprises (avec 10-K)")
+    print(f"   - Avec secteur: {sum(1 for v in all_market_data.values() if v.get('sector') and v.get('sector') != 'Unknown')}")
+    print(f"   - Avec données Performance: {sum(1 for v in all_market_data.values() if v.get('market_cap'))}")
     
     return all_market_data
 
 
 if __name__ == "__main__":
-    print("📊 Génération des Key Market Data...\n")
+    print("📊 Génération des Key Market Data (JSON uniquement, avec 10-K uniquement)...\n")
     market_data = generate_key_market_data()
     
     # Afficher un exemple
