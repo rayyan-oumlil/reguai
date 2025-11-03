@@ -48,19 +48,105 @@ except ImportError:
     st.divider = MagicMock()
 
 
+def list_available_impact_analyses() -> List[Dict[str, Any]]:
+    """
+    List all available impact analysis files
+    
+    Returns:
+        List of impact analysis metadata dictionaries
+    """
+    impact_dir = Path('data/generated/impact_analysis')
+    
+    if not impact_dir.exists():
+        return []
+    
+    analyses = []
+    
+    # Try to load index file first
+    index_path = impact_dir / 'impact_analysis_index.json'
+    if index_path.exists():
+        try:
+            with open(index_path, 'r') as f:
+                index_data = json.load(f)
+                
+            # Add each directive from index
+            for directive in index_data.get('directives', []):
+                analyses.append({
+                    'filename': directive.get('filename'),
+                    'title': directive.get('title', 'Unknown'),
+                    'document_id': directive.get('document_id', 'Unknown'),
+                    'total_matches': directive.get('total_matches', 0),
+                    'filtered_matches': directive.get('filtered_matches', 0),
+                    'path': str(impact_dir / directive.get('filename'))
+                })
+        except (json.JSONDecodeError, Exception) as e:
+            print(f"❌ Error reading impact_analysis_index.json: {e}")
+    
+    # Also add matching_pairs.json if it exists (combines all)
+    matching_pairs_path = impact_dir / 'matching_pairs.json'
+    if matching_pairs_path.exists():
+        analyses.insert(0, {
+            'filename': 'matching_pairs.json',
+            'title': 'Combined Analysis (All Regulations)',
+            'document_id': 'all',
+            'total_matches': 0,
+            'filtered_matches': 0,
+            'path': str(matching_pairs_path)
+        })
+    
+    return analyses
+
+
 def load_impact_results(impact_path: str = 'data/generated/impact_analysis/matching_pairs.json') -> Optional[Dict[str, Any]]:
     """
     Load impact analysis results from JSON
     
     Args:
-        impact_path: Path to matching_pairs.json
+        impact_path: Path to impact analysis JSON file
         
     Returns:
         Impact results dictionary or None if file not found
     """
     try:
         with open(impact_path, 'r') as f:
-            return json.load(f)
+            data = json.load(f)
+            
+        # If single regulation file, wrap it in expected format
+        if 'regulation_title' in data or 'regulation_id' in data or ('title' in data and 'document_id' in data):
+            # Single regulation format - normalize and wrap it
+            reg_id = data.get('regulation_id', data.get('document_id', 'single'))
+            
+            # Normalize field names for compatibility
+            normalized_data = {
+                'regulation_id': reg_id,
+                'regulation_title': data.get('regulation_title', data.get('title', 'Unknown')),
+                'regulation_country': data.get('regulation_country', data.get('country', 'Unknown')),
+                'effective_date': data.get('effective_date', 'Unknown'),
+                'total_companies_matched': data.get('total_companies_matched', data.get('filtered_matches', 0))
+            }
+            
+            # Handle both 'companies' and 'all_companies' fields
+            companies = data.get('companies', data.get('all_companies', []))
+            if companies:
+                normalized_data['companies'] = companies
+            
+            # Copy any other fields
+            for key, value in data.items():
+                if key not in normalized_data:
+                    normalized_data[key] = value
+            
+            return {
+                'regulations': {
+                    reg_id: normalized_data
+                },
+                'metadata': {
+                    'analysis_date': data.get('analysis_date', 'Unknown'),
+                    'total_regulations': 1
+                }
+            }
+        
+        # Otherwise return as-is (matching_pairs format)
+        return data
     except FileNotFoundError:
         print(f"❌ Impact results not found: {impact_path}")
         return None

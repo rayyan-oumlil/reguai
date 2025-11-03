@@ -157,6 +157,15 @@ from scripts.impact_helper import (
     render_regulation_selector,
     render_company_details_table
 )
+from scripts.signal_helper import (
+    generate_signals_for_analysis,
+    signals_to_dataframe,
+    render_signals_summary,
+    render_signals_distribution,
+    render_component_signals_chart,
+    render_signals_table,
+    render_signal_details
+)
 from scripts.streamlit_impact_runner import (
     list_available_regulations,
     run_impact_pipeline,
@@ -788,6 +797,16 @@ elif page == "📈 Analyse d'Impact":
         # Load recommendations
         recommendations = load_recommendations()
         
+        # Generate signals from impact results
+        with st.spinner("🔄 Generating trading signals..."):
+            try:
+                signals_data = generate_signals_for_analysis(impact_results, investment_strategy='LONG_ONLY')
+                signals_df = signals_to_dataframe(signals_data)
+            except Exception as e:
+                st.warning(f"⚠️ Could not generate signals: {e}")
+                signals_data = None
+                signals_df = pd.DataFrame()
+        
         # Main tabs - using expanders for clickable headers
         with st.expander("📊 3-Tier Analysis", expanded=True):
             st.subheader("Three-Tier Valuation Architecture")
@@ -809,6 +828,28 @@ elif page == "📈 Analyse d'Impact":
             
             # Risk Distribution
             render_final_risk_distribution(companies_df)
+        
+        with st.expander("📈 Trading Signals"):
+            if not signals_df.empty:
+                # Signal summary
+                render_signals_summary(signals_df)
+                
+                st.divider()
+                
+                # Signal distribution
+                render_signals_distribution(signals_df)
+                
+                st.divider()
+                
+                # Component signals
+                render_component_signals_chart(signals_df)
+                
+                st.divider()
+                
+                # Signals table
+                render_signals_table(signals_df)
+            else:
+                st.info("No signals data available. Make sure the impact analysis includes valuation data.")
         
         with st.expander("🤖 Recommendations"):
             if recommendations:

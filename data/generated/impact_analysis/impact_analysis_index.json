@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-11-02T17:01:19.203113",
+  "analysis_date": "2025-11-02T18:29:45.348313",
   "total_directives": 7,
   "total_companies": 500,
   "exposure_threshold": 0.5,
@@ -27,10 +27,10 @@
     },
     {
       "document_id": "big-beautiful-bill.xml",
-      "title": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
+      "title": "Fiscal Responsibility Act of 2025",
       "filename": "big-beautiful-bill_impact.json",
       "total_matches": 500,
-      "filtered_matches": 86
+      "filtered_matches": 77
     },
     {
       "document_id": "6.人工知能関連技術の研究開発及び活用の推進に関する法律.html",
@@ -56,7 +56,7 @@
   ],
   "summary_stats": {
     "total_matches": 3500,
-    "total_filtered_matches": 227,
-    "avg_companies_per_directive": 32.42857142857143
+    "total_filtered_matches": 218,
+    "avg_companies_per_directive": 31.142857142857142
   }
 }

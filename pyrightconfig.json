@@ -1,0 +1,12 @@
+{
+    "venvPath": ".",
+    "venv": "venv",
+    "include": [
+        "notebooks/**/*.py",
+        "scripts/**/*.py"
+    ],
+    "exclude": [
+        "venv/**",
+        "__pycache__/**"
+    ]
+}

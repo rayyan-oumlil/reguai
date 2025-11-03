@@ -1,92 +1,131 @@
 {
-  "generated_at": "2025-11-02T16:19:45.135878",
-  "total_companies_analyzed": 10,
+  "generated_at": "2025-11-02T18:30:56.831325",
+  "total_companies_analyzed": 50,
   "summary": {
-    "high_risk_count": 4,
-    "low_risk_count": 0,
-    "reduce_recommendations_count": 4,
-    "increase_recommendations_count": 0
+    "high_risk_count": 3,
+    "low_risk_count": 3,
+    "reduce_recommendations_count": 3,
+    "increase_recommendations_count": 3
   },
   "recommendations": {
     "reduce": [
       {
-        "ticker": "UNH",
-        "company_name": "UnitedHealth Group Incorporated",
+        "ticker": "EXE",
+        "company_name": "Expand Energy Corporation",
         "recommendation": "REDUCE",
-        "current_risk_score": 73.76,
+        "current_risk_score": 61.07,
         "risk_category": "High",
         "metrics": {
-          "exposure_score": 70.0,
-          "fcf_impact_per_share": -0.7193,
-          "fcf_impact_percentage": -8.87,
-          "price_impact_percentage": -47.06,
-          "discount_rate_change_bps": 198
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.0526,
+          "fcf_impact_percentage": -1.11,
+          "price_impact_percentage": -40.0,
+          "discount_rate_change_bps": 172
         },
         "regulatory_context": {
-          "regulation": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
-          "region": "United States"
+          "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+          "region": "USA"
         },
-        "justification": "Based on our regulatory impact analysis, we recommend reducing exposure to UnitedHealth Group (UNH) due to significant regulatory headwinds from the recent reconciliation act. The company's elevated risk score of 73.8 out of 100, coupled with a substantial exposure score of 70.0, indicates material vulnerability to the new regulatory framework. Most concerning is the projected negative free cash flow impact of -$0.72 per share, representing an 8.87% deterioration in cash generation capacity, which could materially affect UNH's ability to maintain its historical capital return profile.\n\nThe quantitative severity assessment suggests a potential share price impact of -47.06%, driven by both direct regulatory compliance costs and indirect effects on UNH's core business model. The 198 basis point increase in the discount rate reflects heightened regulatory uncertainty and increased cost of capital, which is particularly significant given UNH's $311.6 billion market capitalization. Despite the company's strong current financial position with $422.8 billion in revenue and $25.3 billion in free cash flow, the regulatory overlay presents an asymmetric risk profile that warrants portfolio adjustment.\n\nGiven the moderate overall regulatory severity score of 61.8 and confirmed exposure across geographic, sector, and segment dimensions, we recommend a strategic reduction in position size to limit downside risk while maintaining some upside optionality. The magnitude of potential value impairment (-47.06%) relative to the current market price suggests that an initial position reduction of 40-50% would be prudent, with continued monitoring of regulatory implementation details and company-specific mitigation efforts to inform subsequent positioning decisions."
+        "justification": "Based on our comprehensive regulatory impact analysis, we recommend reducing exposure to Expand Energy Corporation (EXE) by 50% due to significant regulatory headwinds from recent Clean Energy Tax Credit amendments. The company's elevated risk score of 61.1/100, coupled with a substantial projected price impact of -40%, signals material downside risk to current valuations. The expected 172 basis point increase in the discount rate materially affects our valuation model and suggests a deteriorating risk-reward profile.\n\nThe regulatory exposure is particularly concerning given EXE's heavy reliance on existing tax credit structures, as evidenced by the -1.11% projected impact on free cash flow per share. While the company maintains moderate financial health with $1.19 billion in FCF and substantial revenue of $8.54 billion, the geographic and sector-specific nature of the regulatory changes creates direct exposure that cannot be easily mitigated in the near term. The moderate regulatory severity score of 55/100 indicates structural rather than transitory challenges to the business model.\n\nWe anticipate the market will continue to reprice regulatory risk premiums for affected energy sector companies, with EXE particularly vulnerable given its true matches for both geographic and sector exposure. The combination of high exposure score (60.0/100) and material FCF impact warrants defensive positioning to protect against further multiple compression. While we maintain some exposure to capture potential upside from mitigation efforts, the prudent course of action is to reduce position size until greater regulatory clarity emerges or the risk premium is more fully reflected in the share price."
       },
       {
-        "ticker": "WY",
-        "company_name": "Weyerhaeuser Company",
+        "ticker": "PSX",
+        "company_name": "Phillips 66",
         "recommendation": "REDUCE",
-        "current_risk_score": 65.94,
+        "current_risk_score": 63.03,
         "risk_category": "High",
         "metrics": {
-          "exposure_score": 70.0,
-          "fcf_impact_per_share": -0.2143,
-          "fcf_impact_percentage": -14.1,
-          "price_impact_percentage": -36.03,
-          "discount_rate_change_bps": 203
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.3612,
+          "fcf_impact_percentage": -13.68,
+          "price_impact_percentage": -33.96,
+          "discount_rate_change_bps": 186
         },
         "regulatory_context": {
-          "regulation": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
-          "region": "United States"
+          "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+          "region": "USA"
         },
-        "justification": "Based on our comprehensive regulatory impact analysis, we recommend an immediate reduction in position size for Weyerhaeuser Company (WY), with consideration for full exit depending on portfolio constraints. The company's elevated risk score of 65.9/100 coupled with a significant exposure score of 70.0/100 indicates substantial vulnerability to the pending reconciliation act, which directly affects their core timber and forest products operations.\n\nThe quantitative impact assessment reveals concerning metrics, most notably a projected free cash flow deterioration of 14.10% (-$0.2143 per share) and a substantial negative price impact of 36.03%. The 203 basis point increase in discount rate materially affects valuation metrics and suggests a higher cost of capital environment for WY's operations. These factors, combined with the company's already weak financial health and modest free cash flow of $269 million relative to its $17.7 billion market capitalization, present an unfavorable risk-reward profile under the new regulatory framework.\n\nThe regulatory severity score of 61.8/100 indicates moderate but meaningful impact on WY's operational framework, particularly concerning timber harvesting regulations and environmental compliance costs. Given the company's direct exposure through geographic and sector alignment with the proposed legislation, we anticipate sustained pressure on operating margins and capital allocation flexibility. We recommend reducing positions to limit exposure to these regulatory headwinds, with optimal exit timing dependent on current market liquidity and individual portfolio considerations."
+        "justification": "Based on our comprehensive regulatory impact analysis, we recommend reducing exposure to Phillips 66 (PSX) by approximately 50% of current position size due to significant regulatory headwinds from clean energy tax credit amendments. The company's elevated risk score of 63/100, coupled with a substantial projected free cash flow impact of -13.68% per share, indicates material vulnerability to the evolving regulatory landscape. The projected -33.96% price impact and 186 basis point increase in discount rate suggest meaningful downside risk to current valuations.\n\nThe regulatory exposure is particularly concerning given PSX's weak financial health metrics and relatively thin free cash flow of $1.49 billion on $135.4 billion in revenue. While the company's large market capitalization of $56.4 billion provides some buffer, the moderate regulatory severity score of 55/100 indicates persistent structural challenges as the energy transition accelerates. The geographic and sector-specific exposure to U.S. clean energy regulations creates direct earnings pressure that cannot be easily mitigated through operational adjustments.\n\nWe believe the combination of high regulatory risk scores and quantifiable negative impacts to fundamental metrics warrants defensive positioning. The projected free cash flow deterioration would likely constrain capital return potential, while the expanded discount rate could drive multiple compression beyond the calculated price impact. Given these factors, we recommend executing a measured reduction in position size while maintaining some exposure should management successfully navigate the regulatory transition better than our base case projects."
       },
       {
-        "ticker": "CI",
-        "company_name": "The Cigna Group",
+        "ticker": "XOM",
+        "company_name": "Exxon Mobil Corporation",
         "recommendation": "REDUCE",
-        "current_risk_score": 77.7,
-        "risk_category": "Critical",
-        "metrics": {
-          "exposure_score": 70.0,
-          "fcf_impact_per_share": -1.8189,
-          "fcf_impact_percentage": -35.23,
-          "price_impact_percentage": -63.8,
-          "discount_rate_change_bps": 209
-        },
-        "regulatory_context": {
-          "regulation": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
-          "region": "United States"
-        },
-        "justification": "Based on our comprehensive regulatory impact analysis, we are recommending an immediate reduction in position size for The Cigna Group (CI) with a target to exit completely over the next 2-3 quarters. The critical risk score of 77.7/100, combined with a substantial exposure score of 70.0/100, indicates severe regulatory headwinds that could materially impact the company's financial performance. Most concerning is the projected negative free cash flow impact of -$1.82 per share, representing a 35.23% reduction in FCF, which would significantly impair Cigna's ability to maintain its capital return program and strategic investments.\n\nThe regulatory framework outlined in the reconciliation act presents moderate severity (61.8/100) but carries outsized implications for Cigna given its direct exposure in core business segments. The projected 209 basis point increase in discount rate, coupled with an estimated -63.80% price impact, suggests a fundamental re-rating of the stock is likely as the market prices in these regulatory headwinds. With a weak financial health assessment and despite substantial revenue of $262 billion, Cigna's relatively modest free cash flow of $3.94 billion provides limited buffer against regulatory pressures.\n\nGiven the magnitude of potential value destruction, with regulatory impacts potentially erasing nearly two-thirds of market value, we believe the risk-reward profile has deteriorated beyond acceptable parameters for institutional portfolios. While Cigna's market cap of $76.4 billion suggests some stability, the combination of high risk scores across multiple metrics and material FCF impairment warrants defensive positioning. We recommend implementing a staged exit strategy to minimize market impact while protecting against downside risk as these regulatory challenges materialize."
-      },
-      {
-        "ticker": "WTW",
-        "company_name": "Willis Towers Watson Public Limited Company",
-        "recommendation": "REDUCE",
-        "current_risk_score": 61.39,
+        "current_risk_score": 61.17,
         "risk_category": "High",
         "metrics": {
-          "exposure_score": 65.0,
-          "fcf_impact_per_share": -0.1578,
-          "fcf_impact_percentage": -4.46,
-          "price_impact_percentage": -34.57,
-          "discount_rate_change_bps": 192
+          "exposure_score": 55.0,
+          "fcf_impact_per_share": -0.1016,
+          "fcf_impact_percentage": -1.74,
+          "price_impact_percentage": -37.62,
+          "discount_rate_change_bps": 160
         },
         "regulatory_context": {
-          "regulation": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
-          "region": "United States"
+          "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+          "region": "USA"
         },
-        "justification": "Based on our comprehensive regulatory impact analysis, we recommend reducing exposure to Willis Towers Watson (WTW) with a target position reduction of 30-40% given the significant regulatory headwinds from the recent reconciliation act. The company's elevated risk score of 61.4/100 combined with a substantial projected price impact of -34.57% signals material downside risk to current valuations. Of particular concern is the expected 192 basis point increase in the discount rate, which will likely compress valuation multiples across WTW's core business segments.\n\nThe quantitative assessment reveals a meaningful threat to free cash flow generation, with a projected FCF impact of -$0.1578 per share, representing a 4.46% decline from current levels. This deterioration in cash flow, coupled with WTW's moderate financial health profile and significant market capitalization of $33.3 billion, suggests the company may face challenges maintaining its competitive position under the new regulatory framework. The geographic and sector-specific exposure to the legislation is particularly concerning, as confirmed by our matching analysis, which indicates direct applicability across the company's primary business segments.\n\nThe severity score of 61.8/100 indicates a moderate but material regulatory impact that could fundamentally alter WTW's operating environment and cost structure. While the company maintains strong market positioning with $9.8 billion in revenue, the combination of high exposure scores (65.0/100) and significant projected price impact warrants defensive portfolio positioning. We recommend implementing this position reduction over the next 1-2 quarters to minimize market impact while protecting against downside risk as the regulatory effects materialize."
+        "justification": "Based on our regulatory impact analysis, we recommend reducing exposure to Exxon Mobil Corporation (XOM) due to significant headwinds from clean energy tax credit amendments to the Internal Revenue Code. The company's elevated risk score of 61.2/100 and substantial exposure score of 55.0/100 indicate material vulnerability to these regulatory changes, which could materially impact shareholder value. Of particular concern is the projected negative free cash flow impact of -$0.1016 per share (-1.74%) and the significant potential price impact of -37.62%, suggesting meaningful downside risk to current valuations.\n\nThe regulatory changes are expected to increase XOM's cost of capital, as evidenced by the projected 160 basis point increase in the discount rate. While XOM maintains strong current financials with $338.1 billion in revenue and $29.1 billion in free cash flow, the moderate financial health rating suggests limited flexibility to absorb regulatory-driven cost increases without impacting shareholder returns. The geographic, sector, and segment matches confirm direct exposure to these regulatory changes, with limited ability to mitigate impact through business mix shifts.\n\nWe recommend a phased reduction in position size to minimize market impact while maintaining some exposure should regulatory implementation prove less severe than anticipated. The magnitude of potential value destruction (-37.62% price impact) warrants proactive risk management, even considering XOM's strong market position and current financial metrics. This recommendation aligns with our fiduciary duty to preserve capital while managing regulatory risks in an evolving energy policy landscape."
       }
     ],
-    "increase": []
+    "increase": [
+      {
+        "ticker": "CF",
+        "company_name": "CF Industries Holdings, Inc.",
+        "recommendation": "INCREASE",
+        "current_risk_score": 26.51,
+        "risk_category": "Low",
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.2635,
+          "fcf_impact_percentage": -2.18,
+          "price_impact_percentage": -16.33,
+          "discount_rate_change_bps": 89
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "Based on our regulatory impact analysis, CF Industries Holdings presents an attractive opportunity to increase position size given its minimal exposure to the EU consumer protection rules, as evidenced by the low final risk score of 26.5/100. While the company has some European exposure with a moderate exposure score of 50/100, the projected free cash flow impact is relatively minor at -2.18% per share, suggesting limited material effect on the company's strong underlying fundamentals and $1.8 billion FCF generation capacity.\n\nThe anticipated price impact of -16.33% appears to overstate the actual regulatory risk, creating a potential buying opportunity given CF's robust market capitalization of $14.9 billion and strong financial health metrics. The 89 basis point change in discount rate, while notable, should be manageable within the context of the company's overall cost of capital structure. Furthermore, the overall regulatory severity score of 6.9/100 indicates minimal compliance burden, with implementation costs likely to be absorbed within normal operating expenses.\n\nThe positive geographic and segment matches confirm our exposure analysis, but the lack of sector match suggests limited direct operational impact from these consumer protection regulations on CF's core agricultural chemicals business. Given these quantitative factors, combined with the company's strong financial position and the market's potentially excessive reaction to regulatory risks, we recommend a measured increase in position size to capitalize on the current risk-return profile while maintaining appropriate portfolio diversification parameters."
+      },
+      {
+        "ticker": "ORCL",
+        "company_name": "Oracle Corporation",
+        "recommendation": "INCREASE",
+        "current_risk_score": 28.58,
+        "risk_category": "Low",
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.0453,
+          "fcf_impact_percentage": -6.12,
+          "price_impact_percentage": -3.06,
+          "discount_rate_change_bps": 88
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "Based on our regulatory impact analysis, Oracle Corporation (ORCL) presents an attractive opportunity for position increase, given its relatively minimal exposure to the EU consumer protection regulations with a final risk score of just 28.6/100. The projected price impact of -3.06% and free cash flow impact of -$0.0453 per share represent manageable downside risks that appear to be more than priced into current market valuations, especially considering Oracle's substantial market capitalization of $795 billion.\n\nThe company's geographic exposure to EU regulations is confirmed, but the overall regulatory severity score of 6.9/100 suggests minimal material impact on Oracle's core business operations. While the 88 basis point increase in discount rate warrants attention, it should be viewed in the context of Oracle's diverse revenue streams and strong market position. The exposure score of 50.0/100 indicates moderate regulatory interaction, but the low final risk score demonstrates the company's robust compliance infrastructure and ability to adapt to regulatory changes.\n\nGiven Oracle's moderate financial health and significant market presence, the quantitative metrics suggest that the regulatory headwinds are manageable within the company's operational framework. The projected FCF impact of -6.12% represents a relatively modest adjustment to Oracle's cash flow profile, and when combined with the low overall regulatory severity classification, supports a constructive view on increasing position size. The risk-reward profile appears favorable, particularly as the company maintains strong competitive positioning in its core markets while facing only minimal regulatory impediments."
+      },
+      {
+        "ticker": "DASH",
+        "company_name": "DoorDash, Inc.",
+        "recommendation": "INCREASE",
+        "current_risk_score": 29.9,
+        "risk_category": "Low",
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.0647,
+          "fcf_impact_percentage": -4.24,
+          "price_impact_percentage": -14.02,
+          "discount_rate_change_bps": 106
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "Based on our regulatory impact analysis, we recommend increasing position in DoorDash (DASH) given the relatively minimal regulatory risk exposure from the EU consumer protection directive. The final risk score of 29.9/100 indicates a low regulatory burden, with a modest projected free cash flow impact of -4.24% per share. While the analysis suggests a potential price impact of -14.02%, this appears to be largely priced into current valuations, creating an attractive entry point for long-term investors.\n\nThe company's moderate financial health, robust revenue of $11.9 billion, and strong free cash flow generation of $1.7 billion provide sufficient operational flexibility to absorb the estimated 106 basis point increase in discount rate without material impact to its growth trajectory. The overall regulatory severity score of 6.9/100 is particularly encouraging, suggesting minimal compliance costs and operational adjustments will be required to meet the new EU consumer protection requirements. Although DoorDash has geographic exposure to the EU market, the limited segments match indicates that core business operations should remain largely unaffected.\n\nThe quantitative risk metrics support a constructive view on DASH, especially considering the company's substantial market capitalization of $112 billion, which provides ample resources to address any regulatory challenges. While we acknowledge some regulatory headwinds, the combination of low risk scores, minimal FCF impact, and strong underlying business fundamentals makes DASH an attractive opportunity for portfolio expansion. We recommend a measured increase in position size, with particular attention to any potential regulatory developments that could alter this risk assessment."
+      }
+    ]
   },
   "risk_thresholds": {
     "high_risk": 60.0,

@@ -1,132 +1,129 @@
 {
   "document_id": "big-beautiful-bill.xml",
-  "category": "Category: TAX\n\nExplanation: This appears to be a reconciliation bill that heavily focuses on tax provisions and modifications to the Internal Revenue Code, as evidenced by Title VII which contains multiple tax-related sections including changes to tax rates, deductions, and credits.",
+  "category": "Category: Tax\n\nExplanation: This document appears to be a reconciliation bill focused heavily on tax-related matters, with Title VII specifically dedicated to tax provisions including extensions of tax credits, deductions, and rate modifications. The detailed table of contents shows multiple tax-related sections under the Finance subtitle.",
   "legalbert_confidence": 0.9022543907165528,
   "extracted_info": {
-    "title": "An Act to provide for reconciliation pursuant to title II of H. Con. Res. 14",
+    "title": "Fiscal Responsibility Act of 2025",
     "country": "United States",
     "effective_date": "2025-07-04",
-    "regulatory_body": "United States Congress",
-    "scope": "Tax code modifications and regulations, particularly focused on individual, corporate, and international tax provisions",
+    "regulatory_body": "Internal Revenue Service",
+    "scope": "Federal tax code modifications and reforms",
     "affected_sectors": [
-      "Real Estate",
-      "Healthcare",
-      "Tax Administration",
-      "Energy",
-      "Manufacturing",
-      "Financial Services",
-      "International Trade",
-      "Education",
       "Border Security",
-      "Federal Government",
+      "Taxation",
+      "Small businesses",
       "Immigration",
+      "Real estate",
+      "Energy",
+      "Education",
       "Law Enforcement",
-      "Tax Services"
+      "Manufacturing",
+      "Tax and accounting",
+      "Healthcare",
+      "Financial services"
     ],
     "affected_entities": [
       "Individual taxpayers",
       "Corporations",
+      "Small businesses",
       "Tax-exempt organizations",
+      "Educational institutions",
       "Financial institutions",
-      "Investment funds",
-      "Real estate developers",
-      "Manufacturing companies",
-      "Educational institutions"
+      "Investment funds"
     ],
     "key_requirements": [
-      "Changes to healthcare programs",
-      "Construction of border infrastructure and wall system",
-      "Modifications to opportunity zone regulations",
-      "Implementation of new immigration fees",
-      "Changes to charitable contribution rules",
-      "Tax credit adjustments",
-      "Law enforcement funding",
-      "Establishment of new tax credits and incentives",
-      "Modification of international tax provisions",
-      "Expansion of immigration detention capacity",
-      "Implementation of revised tax rates and deductions",
-      "Enhanced reporting requirements for certain entities",
-      "Modifications to student loan programs"
+      "Reformed international tax provisions",
+      "Implement new immigration fees and border security measures",
+      "Enhanced standard deduction amounts",
+      "Establish new healthcare funding mechanisms",
+      "Implement new tax provisions and credits",
+      "Enhanced business expensing rules",
+      "Modified charitable contribution rules",
+      "Modified child tax credit provisions",
+      "New tax treatment for tips and overtime income",
+      "Modify student loan programs and Pell Grant eligibility",
+      "Permanent extension of reduced tax rates from Tax Cuts and Jobs Act",
+      "Increase debt limit by USD 5000000000000"
     ],
     "key_requirement_details": [
       {
-        "requirement": "Tax credit for tips",
-        "article_reference": "Section 70201",
+        "requirement": "Standard deduction increase",
+        "article_reference": "70102",
         "metrics": [
           {
-            "type": "maximum_credit",
-            "value": 25000,
+            "type": "amount",
+            "value": 23625,
             "unit": "USD",
-            "description": "Maximum allowable deduction for qualified tips"
+            "description": "New standard deduction for married filing jointly"
+          },
+          {
+            "type": "amount",
+            "value": 15750,
+            "unit": "USD",
+            "description": "New standard deduction for single filers"
           }
         ],
-        "deadline": "2025-12-31",
-        "compliance_action": "File tax returns with qualified tip deductions"
+        "deadline": "2024-12-31",
+        "compliance_action": "Update tax return processing systems"
       },
       {
-        "requirement": "Qualified overtime compensation deduction",
-        "article_reference": "Section 70202",
+        "requirement": "Qualified Tips Tax Relief",
+        "article_reference": "70201",
         "metrics": [
           {
-            "type": "maximum_deduction",
-            "value": 12500,
+            "type": "amount",
+            "value": 25000,
             "unit": "USD",
-            "description": "Maximum deduction for qualified overtime compensation"
+            "description": "Maximum annual deduction for qualified tips"
           }
         ],
-        "deadline": "2025-12-31",
-        "compliance_action": "Report qualified overtime compensation on tax returns"
+        "deadline": "2024-12-31",
+        "compliance_action": "Implement new tip income reporting requirements"
       }
     ],
     "reporting_requirements": [
       {
-        "description": "Information reporting for Qualified Opportunity Funds",
+        "description": "Annual reporting for Qualified Opportunity Funds",
         "frequency": "Annual",
-        "format": "Electronic filing required",
-        "article_reference": "Section 70421(d)"
+        "format": "Form to be prescribed by Secretary",
+        "article_reference": "70421(d)"
       },
       {
-        "description": "Returns with respect to qualified opportunity funds and qualified rural opportunity funds",
+        "description": "Information reporting for tip income",
         "frequency": "Annual",
-        "format": "Form specified by Secretary",
-        "article_reference": "Section 6039K"
+        "format": "Forms 1099/W-2",
+        "article_reference": "70201"
       }
     ],
     "monetary_thresholds": [
       {
-        "amount": 500000,
-        "currency": "USD",
-        "description": "Minimum student adjusted endowment for applicable educational institutions",
-        "article_reference": "Section 70415"
-      },
-      {
         "amount": 150000,
         "currency": "USD",
-        "description": "Income threshold for limitation on tip deduction",
-        "article_reference": "Section 70201"
+        "description": "AGI threshold for phase-out of tip deduction - single filers",
+        "article_reference": "70201"
+      },
+      {
+        "amount": 300000,
+        "currency": "USD",
+        "description": "AGI threshold for phase-out of tip deduction - joint filers",
+        "article_reference": "70201"
       }
     ],
     "quantitative_limits": [
       {
-        "value": 0.125,
+        "value": 0.105,
         "unit": "ratio",
-        "description": "Limitation on business interest deduction",
-        "article_reference": "Section 70303"
-      },
-      {
-        "value": 0.005,
-        "unit": "ratio",
-        "description": "Floor on charitable contribution deductions for individuals",
-        "article_reference": "Section 70425"
+        "description": "Base erosion minimum tax rate",
+        "article_reference": "70331"
       }
     ],
     "penalties": [
       {
-        "type": "Information reporting failure",
+        "type": "Information return penalty",
         "amount": 500,
         "currency": "USD",
         "imprisonment": null,
-        "article_reference": "Section 6726"
+        "article_reference": "70421"
       }
     ],
     "enforcement_agencies": [
@@ -137,24 +134,24 @@
       "publication_date": "2025-07-04",
       "transposition_deadline": null,
       "phased_milestones": [
-        "Most provisions effective for tax years beginning after December 31, 2024",
-        "Some provisions effective for tax years beginning after December 31, 2025",
-        "Certain provisions phase out over multiple years through 2034"
+        "Most provisions effective for tax years beginning after 2024/2025",
+        "Some international provisions phased in over multiple years",
+        "Certain temporary provisions expire after 2028"
       ]
     },
     "notes": [
-      "This is a comprehensive tax reform legislation affecting multiple sections of the Internal Revenue Code",
-      "Contains significant modifications to both domestic and international tax provisions",
-      "Includes permanent extensions of various temporary tax provisions"
+      "Represents major reform and permanent extension of 2017 tax law changes",
+      "Contains significant modifications to international tax regime",
+      "Includes new incentives for domestic manufacturing and production"
     ],
     "source_articles": [
       "Public Law 119-21",
-      "H.R. 1"
+      "Internal Revenue Code amendments"
     ]
   },
   "processing_status": "completed",
   "from_cache": false,
   "cache_source": "local",
   "filename": "big-beautiful-bill.xml",
-  "upload_timestamp": "2025-11-02T14:53:44.581893"
+  "upload_timestamp": "2025-11-02T17:22:58.653396"
 }
