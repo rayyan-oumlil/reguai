@@ -1,0 +1,232 @@
+{
+  "generated_at": "2025-11-03T17:56:42.460469",
+  "total_companies_analyzed": 16,
+  "summary": {
+    "high_risk_count": 7,
+    "low_risk_count": 3,
+    "reduce_recommendations_count": 7,
+    "increase_recommendations_count": 3
+  },
+  "recommendations": {
+    "reduce": [
+      {
+        "ticker": "REGN",
+        "company_name": "Regeneron Pharmaceuticals, Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 42.56,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.1476,
+          "fcf_impact_percentage": -2.25,
+          "price_impact_percentage": -36.35,
+          "discount_rate_change_bps": 96
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 42.6/100. The estimated price impact of -36.35% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "KDP",
+        "company_name": "Keurig Dr Pepper Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 44.21,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.2775,
+          "fcf_impact_percentage": -6.04,
+          "price_impact_percentage": -34.87,
+          "discount_rate_change_bps": 112
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.2/100. The estimated price impact of -34.87% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "UPS",
+        "company_name": "United Parcel Service, Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 43.76,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.7763,
+          "fcf_impact_percentage": -15.57,
+          "price_impact_percentage": -29.05,
+          "discount_rate_change_bps": 116
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 43.8/100. The estimated price impact of -29.05% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "BBY",
+        "company_name": "Best Buy Co., Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 47.92,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -1.586,
+          "fcf_impact_percentage": -18.77,
+          "price_impact_percentage": -31.8,
+          "discount_rate_change_bps": 132
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 47.9/100. The estimated price impact of -31.80% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "REGN",
+        "company_name": "Regeneron Pharmaceuticals, Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 42.56,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.1476,
+          "fcf_impact_percentage": -2.25,
+          "price_impact_percentage": -36.35,
+          "discount_rate_change_bps": 96
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 42.6/100. The estimated price impact of -36.35% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "KDP",
+        "company_name": "Keurig Dr Pepper Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 44.21,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 60.0,
+          "fcf_impact_per_share": -0.2775,
+          "fcf_impact_percentage": -6.04,
+          "price_impact_percentage": -34.87,
+          "discount_rate_change_bps": 112
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.2/100. The estimated price impact of -34.87% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      },
+      {
+        "ticker": "AAPL",
+        "company_name": "Apple Inc.",
+        "recommendation": "REDUCE",
+        "current_risk_score": 41.01,
+        "risk_category": "Moderate",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.0657,
+          "fcf_impact_percentage": -2.59,
+          "price_impact_percentage": -14.8,
+          "discount_rate_change_bps": 87
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "We recommend reducing exposure due to elevated regulatory risk score of 41.0/100. The estimated price impact of -14.80% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+      }
+    ],
+    "increase": [
+      {
+        "ticker": "CF",
+        "company_name": "CF Industries Holdings, Inc.",
+        "recommendation": "INCREASE",
+        "current_risk_score": 26.51,
+        "risk_category": "Low",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.2635,
+          "fcf_impact_percentage": -2.18,
+          "price_impact_percentage": -16.33,
+          "discount_rate_change_bps": 89
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "This company presents a relatively attractive opportunity with a low risk score of 26.5/100. The regulatory impact appears manageable with minimal estimated price impact of -16.33%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+      },
+      {
+        "ticker": "ORCL",
+        "company_name": "Oracle Corporation",
+        "recommendation": "INCREASE",
+        "current_risk_score": 28.58,
+        "risk_category": "Low",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.0453,
+          "fcf_impact_percentage": -6.12,
+          "price_impact_percentage": -3.06,
+          "discount_rate_change_bps": 88
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "This company presents a relatively attractive opportunity with a low risk score of 28.6/100. The regulatory impact appears manageable with minimal estimated price impact of -3.06%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+      },
+      {
+        "ticker": "DASH",
+        "company_name": "DoorDash, Inc.",
+        "recommendation": "INCREASE",
+        "current_risk_score": 29.9,
+        "risk_category": "Low",
+        "risk_score_source": "final_risk_score",
+        "has_quantitative_analysis": true,
+        "metrics": {
+          "exposure_score": 50.0,
+          "fcf_impact_per_share": -0.0647,
+          "fcf_impact_percentage": -4.24,
+          "price_impact_percentage": -14.02,
+          "discount_rate_change_bps": 106
+        },
+        "regulatory_context": {
+          "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+          "region": "European Union"
+        },
+        "justification": "This company presents a relatively attractive opportunity with a low risk score of 29.9/100. The regulatory impact appears manageable with minimal estimated price impact of -14.02%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+      }
+    ]
+  },
+  "risk_thresholds": {
+    "high_risk": 60.0,
+    "low_risk": 30.0
+  },
+  "regulation_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+  "regulation_title": "Directive on better enforcement and modernization of EU consumer protection rules"
+}

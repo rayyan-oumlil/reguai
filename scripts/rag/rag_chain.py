@@ -29,13 +29,12 @@ try:
     
     if env_path.exists():
         load_dotenv(env_path, override=True)  # override=True pour utiliser UNIQUEMENT .env
-        print(f"✅ .env chargé depuis: {env_path.absolute()}")
-    else:
-        print(f"⚠️ .env non trouvé (cherché: {env_path.absolute()})")
+        pass  # .env chargé
+    # .env non trouvé - ignoré
 except ImportError:
-    print("⚠️ python-dotenv non installé")
+    pass  # python-dotenv non installé
 except Exception as e:
-    print(f"⚠️ Erreur chargement .env: {e}")
+    pass  # Erreur chargement .env
 
 from typing import List, Dict, Any, Optional
 
@@ -72,12 +71,7 @@ def get_bedrock_llm() -> ChatBedrock:
     
     if not access_key or not secret_key:
         error_msg = "❌ Credentials AWS non trouvées. Vérifiez que AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY sont dans .env"
-        print(error_msg)
         raise ValueError(error_msg)
-    
-    # Info pour debug
-    if session_token:
-        print("ℹ️ Utilisation de credentials temporaires (avec session token)")
     
     # Créer LLM - LangChain/boto3 détectera automatiquement depuis os.environ
     # Les credentials sont déjà chargées dans os.environ via dotenv au début du module
@@ -90,7 +84,7 @@ def get_bedrock_llm() -> ChatBedrock:
         }
     )
     
-    print(f"✅ Bedrock LLM configuré: {model_id}")
+    # Bedrock LLM configuré
     return llm
 
 
@@ -253,7 +247,7 @@ def create_rag_chain(vector_store: RAGVectorStore, llm: Optional[ChatBedrock] = 
     
     rag_chain = rag_chain_function
     
-    print("✅ RAG Chain créée avec succès")
+    # RAG Chain créée avec succès
     return rag_chain
 
 

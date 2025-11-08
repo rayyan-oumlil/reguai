@@ -1,12 +1,16 @@
 {
-    "venvPath": ".",
-    "venv": "venv",
-    "include": [
-        "notebooks/**/*.py",
-        "scripts/**/*.py"
-    ],
-    "exclude": [
-        "venv/**",
-        "__pycache__/**"
-    ]
+  "reportReturnType": "warning",
+  "reportGeneralTypeIssues": "warning",
+  "reportMissingImports": "warning",
+  "reportUndefinedVariable": "warning",
+  "venvPath": ".",
+  "venv": "venv",
+  "include": [
+    "notebooks/**/*.py",
+    "scripts/**/*.py"
+  ],
+  "exclude": [
+    "venv/**",
+    "__pycache__/**"
+  ]
 }

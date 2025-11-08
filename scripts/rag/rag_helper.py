@@ -5,11 +5,16 @@ Point d'entrée principal pour utiliser le système RAG
 
 import os
 from pathlib import Path
+from typing import Optional
 
 # Charger .env AVANT d'importer les autres modules RAG
 # Utilise la même logique que test_aws_services.ipynb
+load_dotenv_func = None
+env_path: Optional[Path] = None
+
 try:
     from dotenv import load_dotenv
+    load_dotenv_func = load_dotenv
     
     # Essayer plusieurs chemins possibles pour trouver .env
     # 1. Depuis le module (scripts/rag/)
@@ -28,26 +33,25 @@ try:
             # Dernier essai : depuis scripts/rag -> racine
             env_path = Path(__file__).parent.parent.parent / '.env'
     
-    if env_path.exists():
-        load_dotenv(env_path)
-        print(f"✅ .env chargé depuis: {env_path.absolute()}")
-    else:
-        print(f"⚠️ .env non trouvé (cherché: {env_path.absolute()})")
+    if env_path and env_path.exists() and load_dotenv_func:
+        load_dotenv_func(env_path)
+        pass  # .env chargé
+    # .env non trouvé - ignoré
 except ImportError:
-    print("⚠️ python-dotenv non installé")
+    pass  # python-dotenv non installé
 except Exception as e:
-    print(f"⚠️ Erreur chargement .env: {e}")
+    pass  # Erreur chargement .env
 
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 # Import Document from langchain (compatible versions)
 try:
     from langchain_core.documents import Document
 except ImportError:
     try:
-        from langchain.documents import Document
+        from langchain.documents import Document  # type: ignore
     except ImportError:
-        from langchain.schema import Document
+        from langchain.schema import Document  # type: ignore
 
 from scripts.rag.config import DATA_PATHS, RAG_CONFIG
 from scripts.rag.data_loader import (
@@ -90,30 +94,30 @@ def initialize_rag_system(
         
         # Recharger .env explicitement avant vérification credentials
         # Utilise la même logique que app.py pour trouver la racine du projet
+        local_env_path: Optional[Path] = None
         try:
             from dotenv import load_dotenv
             
             # Trouver la racine du projet (où se trouve .env)
             script_file = Path(__file__).resolve()  # scripts/rag/rag_helper.py
             project_root = script_file.parent.parent.parent  # Racine du projet
-            env_path = project_root / '.env'
+            local_env_path = project_root / '.env'
             
             # Si .env n'existe pas à la racine, essayer depuis cwd
-            if not env_path.exists():
-                env_path = Path.cwd() / '.env'
+            if not local_env_path.exists():
+                local_env_path = Path.cwd() / '.env'
                 # Si on est dans scripts/ ou notebooks/, remonter
-                if not env_path.exists():
+                if not local_env_path.exists():
                     current = Path.cwd()
                     if 'scripts' in str(current) or 'notebooks' in str(current):
-                        env_path = current.parent / '.env'
+                        local_env_path = current.parent / '.env'
             
-            if env_path.exists():
-                load_dotenv(env_path, override=True)  # override=True pour forcer le rechargement
-                print(f"✅ .env rechargé depuis: {env_path.absolute()}")
-            else:
-                print(f"⚠️ .env non trouvé (cherché: {env_path.absolute()})")
+            if local_env_path and local_env_path.exists():
+                load_dotenv(local_env_path, override=True)  # override=True pour forcer le rechargement
+                pass  # .env rechargé
+            # .env non trouvé - ignoré
         except Exception as e:
-            print(f"⚠️ Erreur rechargement .env: {e}")
+            pass  # Erreur rechargement .env
         
         # Vérifier credentials AWS après rechargement
         # Essayer plusieurs fois et avec plusieurs noms de variables
@@ -128,8 +132,9 @@ def initialize_rag_system(
         
         # Si pas trouvé, forcer un dernier rechargement
         if not access_key or not secret_key:
-            print(f"⚠️ Credentials non trouvées, tentative de rechargement forcé...")
-            load_dotenv(env_path, override=True)
+            # Credentials non trouvées - tentative de rechargement
+            if load_dotenv_func and env_path is not None and env_path.exists():
+                load_dotenv_func(env_path, override=True)
             # Gérer aussi le BOM UTF-8 après rechargement
             access_key = (
                 os.environ.get('AWS_ACCESS_KEY_ID') or 
@@ -152,16 +157,22 @@ def initialize_rag_system(
             # Si on trouve la variable avec BOM, la renommer
             bom_key = '\ufeffAWS_ACCESS_KEY_ID'
             if bom_key in os.environ and 'AWS_ACCESS_KEY_ID' not in os.environ:
-                print(f"⚠️ Détection BOM UTF-8 - Correction automatique...")
+                # Détection BOM UTF-8 - Correction automatique
                 os.environ['AWS_ACCESS_KEY_ID'] = os.environ[bom_key]
                 access_key = os.environ['AWS_ACCESS_KEY_ID']
             
             # Lire directement le fichier pour debug
             try:
-                with open(env_path, 'r', encoding='utf-8') as f:
-                    lines = f.readlines()
-                    aws_lines = [l.strip() for l in lines if 'AWS' in l and not l.strip().startswith('#')]
-                    print(f"   Lignes AWS dans .env: {aws_lines[:3]}...")  # Premières 3 lignes
+                if env_path is not None and env_path.exists():
+                    with open(env_path, 'r', encoding='utf-8') as f:
+                        lines = f.readlines()
+                        aws_lines = [l.strip() for l in lines if 'AWS' in l and not l.strip().startswith('#')]
+                        # Lignes AWS dans .env détectées
+                elif local_env_path is not None and local_env_path.exists():
+                    with open(local_env_path, 'r', encoding='utf-8') as f:
+                        lines = f.readlines()
+                        aws_lines = [l.strip() for l in lines if 'AWS' in l and not l.strip().startswith('#')]
+                        # Lignes AWS dans .env détectées
             except:
                 pass
             
@@ -196,12 +207,11 @@ def initialize_rag_system(
         # 3. Charger données si pas de cache
         print("📂 Chargement des données...")
         regulatory_data = load_regulatory_extractions()
-        tenk_data = load_10k_extractions(limit=tenk_limit)
+        tenk_data = load_10k_extractions(limit=tenk_limit if tenk_limit is not None else None)
         company_universe = load_company_universe()
         impact_analysis = load_impact_analysis()
         recommendations = load_recommendations()
         
-        # 4. Créer documents LangChain
         print("📝 Création des documents...")
         documents = create_documents_from_data(
             regulatory_data=regulatory_data,
@@ -217,18 +227,17 @@ def initialize_rag_system(
                 'error': 'Aucun document à indexer'
             }
         
-        # 5. Créer vector store
         print("🔨 Indexation dans vector store (peut prendre quelques minutes)...")
         vector_store.create_from_documents(documents)
         
-        # 6. Sauvegarder cache
+        # Sauvegarder cache
         if use_cache:
             vector_store.save_to_cache()
         
-        # 7. Créer chain RAG
+        # Créer chain RAG
         _qa_chain = create_rag_chain(vector_store)
         
-        # 8. Sauvegarder instances
+        # Sauvegarder instances
         _vector_store = vector_store
         _rag_system = {
             'vector_store': vector_store,
@@ -337,7 +346,7 @@ Posez-moi une question spécifique pour commencer ! Par exemple :
 
 def search_rag_context(
     query: str,
-    top_k: int = None
+    top_k: Optional[int] = None
 ) -> List[Document]:
     """
     Recherche dans le vector store sans générer de réponse
@@ -353,6 +362,10 @@ def search_rag_context(
     
     if _vector_store is None:
         return []
+    
+    # Use default top_k if None provided
+    if top_k is None:
+        top_k = 5  # Default value
     
     return _vector_store.search(query, top_k=top_k)
 

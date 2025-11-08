@@ -27,13 +27,12 @@ try:
     
     if env_path.exists():
         load_dotenv(env_path, override=True)  # override=True pour utiliser UNIQUEMENT .env
-        print(f"✅ .env chargé depuis: {env_path.absolute()}")
-    else:
-        print(f"⚠️ .env non trouvé (cherché: {env_path.absolute()})")
+        pass  # .env chargé
+    # .env non trouvé - ignoré
 except ImportError:
-    print("⚠️ python-dotenv non installé")
+    pass  # python-dotenv non installé
 except Exception as e:
-    print(f"⚠️ Erreur chargement .env: {e}")
+    pass  # Erreur chargement .env
 
 from langchain_aws import BedrockEmbeddings
 from scripts.rag.config import RAG_CONFIG
@@ -56,14 +55,7 @@ def get_bedrock_embeddings() -> BedrockEmbeddings:
     
     if not access_key or not secret_key:
         error_msg = "❌ Credentials AWS non trouvées. Vérifiez que AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY sont dans .env"
-        print(error_msg)
         raise ValueError(error_msg)
-    
-    # Info pour debug
-    if session_token:
-        print("ℹ️ Utilisation de credentials temporaires (avec session token)")
-    else:
-        print("ℹ️ Utilisation de credentials permanents")
     
     # Créer embeddings - LangChain/boto3 détectera automatiquement depuis os.environ
     # Les credentials sont déjà chargées dans os.environ via dotenv au début du module
@@ -72,7 +64,7 @@ def get_bedrock_embeddings() -> BedrockEmbeddings:
         region_name=region
     )
     
-    print(f"✅ Bedrock Embeddings configuré: {model_id} (région: {region})")
+    # Bedrock Embeddings configuré
     return embeddings
 
 

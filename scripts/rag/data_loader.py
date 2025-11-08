@@ -16,9 +16,9 @@ try:
     from langchain_core.documents import Document
 except ImportError:
     try:
-        from langchain.documents import Document
+        from langchain.documents import Document  # type: ignore
     except ImportError:
-        from langchain.schema import Document
+        from langchain.schema import Document  # type: ignore
 
 from scripts.rag.config import DATA_PATHS, RAG_CONFIG, CHUNKING_PATTERNS
 
@@ -47,10 +47,10 @@ def _load_json_from_s3(s3_client, bucket_name: str, s3_key: str) -> Optional[Dic
     except ClientError as e:
         error_code = e.response['Error']['Code']
         if error_code != 'NoSuchKey':
-            print(f"⚠️ Erreur S3 ({error_code}): {s3_key}")
+            pass  # Erreur S3
         return None
     except Exception as e:
-        print(f"⚠️ Erreur chargement S3 {s3_key}: {e}")
+        pass  # Erreur chargement S3
         return None
 
 
@@ -67,7 +67,7 @@ def _list_files_from_s3(s3_client, bucket_name: str, s3_prefix: str, suffix: str
         ]
         return files
     except Exception as e:
-        print(f"⚠️ Erreur list S3 {s3_prefix}: {e}")
+        pass  # Erreur list S3
         return []
 
 
@@ -102,7 +102,7 @@ def load_regulatory_extractions() -> List[Dict[str, Any]]:
     # MÉTHODE 2: Depuis fichiers locaux (fallback)
     regulatory_dir = DATA_PATHS['regulatory_extractions']
     if regulatory_dir.exists():
-        print(f"📁 Chargement extractions réglementaires depuis local: {regulatory_dir}")
+        # Chargement extractions réglementaires depuis local
         for json_file in regulatory_dir.glob("*_extracted.json"):
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
@@ -112,15 +112,16 @@ def load_regulatory_extractions() -> List[Dict[str, Any]]:
                     data['source'] = 'local'
                     extractions.append(data)
             except Exception as e:
-                print(f"⚠️ Erreur chargement {json_file}: {e}")
+                pass  # Erreur chargement fichier
     else:
-        print(f"⚠️ Dossier réglementations non trouvé: {regulatory_dir}")
+        # Dossier réglementations non trouvé
+        pass
     
     print(f"✅ {len(extractions)} extractions réglementaires chargées")
     return extractions
 
 
-def load_10k_extractions(limit: int = None) -> List[Dict[str, Any]]:
+def load_10k_extractions(limit: Optional[int] = None) -> List[Dict[str, Any]]:
     """
     Charge les extractions 10-K depuis les fichiers JSON
     
@@ -134,7 +135,7 @@ def load_10k_extractions(limit: int = None) -> List[Dict[str, Any]]:
     tenk_dir = DATA_PATHS['tenk_extractions']
     
     if not tenk_dir.exists():
-        print(f"⚠️ Dossier 10-K non trouvé: {tenk_dir}")
+        # Dossier 10-K non trouvé
         return []
     
     # Charger fichiers JSON (limit si spécifié)
@@ -151,7 +152,7 @@ def load_10k_extractions(limit: int = None) -> List[Dict[str, Any]]:
                 data['data_type'] = '10k'
                 tenk_extractions.append(data)
         except Exception as e:
-            print(f"⚠️ Erreur chargement {json_file}: {e}")
+            pass  # Erreur chargement fichier
     
     print(f"✅ {len(tenk_extractions)} extractions 10-K chargées")
     return tenk_extractions
@@ -167,7 +168,7 @@ def load_company_universe() -> Dict[str, Any]:
     company_universe_path = DATA_PATHS['company_universe']
     
     if not company_universe_path.exists():
-        print(f"⚠️ Company Universe non trouvé: {company_universe_path}")
+        # Company Universe non trouvé
         return {}
     
     try:
@@ -177,7 +178,7 @@ def load_company_universe() -> Dict[str, Any]:
             print(f"✅ Company Universe chargé ({len(data.get('companies', []))} entreprises)")
             return data
     except Exception as e:
-        print(f"⚠️ Erreur chargement Company Universe: {e}")
+        pass  # Erreur chargement Company Universe
         return {}
 
 
@@ -191,7 +192,7 @@ def load_impact_analysis() -> Dict[str, Any]:
     impact_path = DATA_PATHS['impact_analysis']
     
     if not impact_path.exists():
-        print(f"⚠️ Impact analysis non trouvé: {impact_path}")
+        # Impact analysis non trouvé
         return {}
     
     try:
@@ -202,7 +203,7 @@ def load_impact_analysis() -> Dict[str, Any]:
             print(f"✅ Impact analysis chargé ({total_pairs} paires d'analyse)")
             return data
     except Exception as e:
-        print(f"⚠️ Erreur chargement Impact Analysis: {e}")
+        pass  # Erreur chargement Impact Analysis
         return {}
 
 
@@ -216,7 +217,7 @@ def load_recommendations() -> Dict[str, Any]:
     recommendations_path = DATA_PATHS['recommendations']
     
     if not recommendations_path.exists():
-        print(f"⚠️ Recommendations non trouvé: {recommendations_path}")
+        # Recommendations non trouvé
         return {}
     
     try:
@@ -227,7 +228,7 @@ def load_recommendations() -> Dict[str, Any]:
             print(f"✅ Recommendations chargé ({total_companies} entreprises analysées)")
             return data
     except Exception as e:
-        print(f"⚠️ Erreur chargement Recommendations: {e}")
+        pass  # Erreur chargement Recommendations
         return {}
 
 
@@ -313,7 +314,7 @@ def format_company_universe_as_text(company_data: Dict[str, Any]) -> str:
     return "\n".join(parts)
 
 
-def format_impact_analysis_as_text(impact_data: Dict[str, Any], regulation_id: str = None) -> str:
+def format_impact_analysis_as_text(impact_data: Dict[str, Any], regulation_id: Optional[str] = None) -> str:
     """Formate une entrée d'impact analysis en texte pour embedding"""
     parts = []
     
@@ -408,11 +409,11 @@ def format_recommendation_as_text(rec_data: Dict[str, Any]) -> str:
 
 
 def create_documents_from_data(
-    regulatory_data: List[Dict] = None,
-    tenk_data: List[Dict] = None,
-    company_universe: Dict = None,
-    impact_analysis: Dict = None,
-    recommendations: Dict = None
+    regulatory_data: Optional[List[Dict]] = None,
+    tenk_data: Optional[List[Dict]] = None,
+    company_universe: Optional[Dict] = None,
+    impact_analysis: Optional[Dict] = None,
+    recommendations: Optional[Dict] = None
 ) -> List[Document]:
     """
     Crée des Documents LangChain à partir des données chargées
@@ -596,6 +597,6 @@ def create_documents_from_data(
                     )
                     documents.append(doc)
     
-    print(f"✅ {len(documents)} documents LangChain créés")
+        # Documents LangChain créés
     return documents
 

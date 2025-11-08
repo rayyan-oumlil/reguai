@@ -26,27 +26,55 @@ import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime
 import json
+from typing import Dict, List
 
-# Charger la configuration depuis .env si disponible
+# Charger la configuration depuis .env (local) ou st.secrets (Streamlit Cloud)
 # IMPORTANT: Charger AVANT les imports RAG pour que les credentials soient disponibles
-# Ne dépend QUE du .env, pas des variables d'environnement système
+# Priorité en LOCAL: .env (override tout) > variables d'environnement système
+# Priorité en CLOUD: st.secrets > variables d'environnement système
+
+# D'abord, vérifier si on est en local (fichier .env existe)
+# Si .env existe, on l'utilise (priorité absolue pour le développement local)
+script_file = Path(__file__).resolve()  # scripts/app.py
+project_root = script_file.parent.parent  # Racine du projet
+env_path = project_root / '.env'
+
+# Si .env n'existe pas à la racine, essayer depuis cwd
+if not env_path.exists():
+    env_path = Path.cwd() / '.env'
+    # Si on est dans scripts/, remonter
+    if not env_path.exists() and 'scripts' in str(Path.cwd()):
+        env_path = Path.cwd().parent / '.env'
+
+is_local_env = env_path.exists()
+
+# Si pas de .env local, essayer st.secrets (Streamlit Cloud)
+if not is_local_env:
+    if hasattr(st, 'secrets') and st.secrets:
+        try:
+            secrets_dict = dict(st.secrets)
+            if 'AWS_ACCESS_KEY_ID' in secrets_dict:
+                os.environ['AWS_ACCESS_KEY_ID'] = str(secrets_dict['AWS_ACCESS_KEY_ID'])
+            if 'AWS_SECRET_ACCESS_KEY' in secrets_dict:
+                os.environ['AWS_SECRET_ACCESS_KEY'] = str(secrets_dict['AWS_SECRET_ACCESS_KEY'])
+            if 'AWS_REGION' in secrets_dict:
+                os.environ['AWS_REGION'] = str(secrets_dict['AWS_REGION'])
+            if 'AWS_DEFAULT_REGION' in secrets_dict:
+                os.environ['AWS_DEFAULT_REGION'] = str(secrets_dict['AWS_DEFAULT_REGION'])
+            if 'S3_BUCKET_NAME' in secrets_dict:
+                os.environ['S3_BUCKET_NAME'] = str(secrets_dict['S3_BUCKET_NAME'])
+            if 'AWS_SESSION_TOKEN' in secrets_dict:
+                os.environ['AWS_SESSION_TOKEN'] = str(secrets_dict['AWS_SESSION_TOKEN'])
+            print("✅ Credentials AWS chargés depuis Streamlit Secrets (Cloud)")
+        except Exception as e:
+            print(f"⚠️ Erreur chargement Streamlit Secrets: {e}")
+
+# Charger depuis .env (développement local) - prend le dessus si présent
+# Le .env sera ignoré si on est sur Streamlit Cloud (fichier n'existe pas)
 try:
     from dotenv import load_dotenv
     
-    # Trouver la racine du projet (où se trouve .env)
-    # Méthode robuste: remonter depuis le fichier app.py
-    script_file = Path(__file__).resolve()  # scripts/app.py
-    project_root = script_file.parent.parent  # Racine du projet
-    env_path = project_root / '.env'
-    
-    # Si .env n'existe pas à la racine, essayer depuis cwd
-    if not env_path.exists():
-        env_path = Path.cwd() / '.env'
-        # Si on est dans scripts/, remonter
-        if not env_path.exists() and 'scripts' in str(Path.cwd()):
-            env_path = Path.cwd().parent / '.env'
-    
-    if env_path.exists():
+    if is_local_env:
         # Charger le .env et OVERRIDE toutes les variables existantes
         # pour être sûr qu'on utilise uniquement le .env
         load_dotenv(env_path, override=True)
@@ -92,40 +120,29 @@ try:
             has_secret = bool(os.environ.get('AWS_SECRET_ACCESS_KEY') or os.environ.get('AWS_SECRET_KEY'))
             has_token = bool(os.environ.get('AWS_SESSION_TOKEN'))
         
-        if has_access and has_secret:
-            print(f"✅ .env chargé depuis: {env_path.absolute()}")
-            if has_token:
-                print(f"   ✅ Credentials temporaires (session token) détectées")
-            else:
-                print(f"   ✅ Credentials permanentes détectées")
-        else:
-            # Mode silencieux pour ne pas spammer dans Streamlit
-            # Les modules RAG feront leur propre chargement avec debug détaillé
-            pass
+            if has_access and has_secret:
+                # .env chargé avec succès
+                pass
     else:
-        print(f"❌ .env non trouvé!")
-        print(f"   Cherché à: {env_path.absolute()}")
-        print(f"   Working directory: {Path.cwd()}")
-        print(f"   Script file: {script_file}")
+        print(f"⚠️ .env non trouvé (cherché: {env_path.absolute()})")
 except ImportError:
-    print("❌ python-dotenv non installé - impossible de charger .env")
+    print("⚠️ python-dotenv non installé")
 except Exception as e:
-    print(f"❌ Erreur chargement .env: {e}")
+    print(f"⚠️ Erreur chargement .env: {e}")
     import traceback
     traceback.print_exc()
 
 # Import helpers
-from scripts.document_analysis_helper import (
+from scripts.helpers.document_analysis_helper import (
     extract_from_uploaded_file,
     extract_from_local_file,
     load_existing_extractions,
     generate_filename_from_extraction,
     delete_extraction,
-    toggle_document_visibility,
     get_all_documents_with_status,
     save_uploaded_file
 )
-from scripts.dashboard_helper import (
+from scripts.helpers.dashboard_helper import (
     load_company_universe,
     company_universe_to_dataframes,
     render_dashboard_kpis,
@@ -134,16 +151,83 @@ from scripts.dashboard_helper import (
     render_performance_table,
     render_composition_table
 )
-from scripts.chatbot_helper import (
-    chat_with_claude,
-    format_chat_message
-)
+# Chatbot helper functions (merged from chatbot_helper.py)
+import boto3
+from botocore.exceptions import ClientError
+
+# Singleton pattern pour le client Bedrock (chatbot fallback)
+_bedrock_chatbot_client = None
+
+def get_bedrock_chatbot_client():
+    """Retourne un client Bedrock pour chatbot simple (singleton)"""
+    global _bedrock_chatbot_client
+    if _bedrock_chatbot_client is None:
+        region = os.environ.get('AWS_REGION', 'us-west-2')
+        _bedrock_chatbot_client = boto3.client('bedrock-runtime', region_name=region)
+    return _bedrock_chatbot_client
+
+def chat_with_claude(
+    messages: List[Dict[str, str]],
+    model: str = "anthropic.claude-3-haiku-20240307-v1:0",
+    max_tokens: int = 4000
+) -> Dict:
+    """
+    Envoie un message à Claude via Bedrock et retourne la réponse (fallback sans RAG)
+    
+    Args:
+        messages: Liste de messages au format [{"role": "user|assistant", "content": "..."}]
+        model: ID du modèle Claude à utiliser
+        max_tokens: Nombre maximum de tokens dans la réponse
+    
+    Returns:
+        Dict avec 'response', 'usage', 'error'
+    """
+    try:
+        bedrock = get_bedrock_chatbot_client()
+        
+        body = {
+            "anthropic_version": "bedrock-2023-05-31",
+            "max_tokens": max_tokens,
+            "messages": messages
+        }
+        
+        response = bedrock.invoke_model(
+            modelId=model,
+            body=json.dumps(body)
+        )
+        
+        response_body = json.loads(response['body'].read())
+        answer = response_body['content'][0]['text']
+        usage = response_body.get('usage', {})
+        
+        return {
+            'response': answer,
+            'usage': usage,
+            'error': None
+        }
+    except ClientError as e:
+        error_code = e.response['Error']['Code']
+        return {
+            'response': None,
+            'usage': None,
+            'error': f"Erreur Bedrock ({error_code}): {str(e)}"
+        }
+    except Exception as e:
+        return {
+            'response': None,
+            'usage': None,
+            'error': f"Erreur: {str(e)}"
+        }
+
+def format_chat_message(role: str, content: str) -> Dict[str, str]:
+    """Formate un message pour l'API Claude"""
+    return {"role": role, "content": content}
 from scripts.rag import (
     initialize_rag_system,
     chat_with_rag,
     get_rag_stats
 )
-from scripts.impact_helper import (
+from scripts.helpers.impact_helper import (
     load_impact_results,
     load_recommendations,
     impact_results_to_dataframes,
@@ -155,9 +239,8 @@ from scripts.impact_helper import (
     render_companies_table,
     render_recommendations_table,
     render_regulation_selector,
-    render_company_details_table
-)
-from scripts.signal_helper import (
+    render_company_details_table,
+    # Signal helper functions (merged from signal_helper.py)
     generate_signals_for_analysis,
     signals_to_dataframe,
     render_signals_summary,
@@ -166,11 +249,7 @@ from scripts.signal_helper import (
     render_signals_table,
     render_signal_details
 )
-from scripts.streamlit_impact_runner import (
-    list_available_regulations,
-    run_impact_pipeline,
-    get_pipeline_status
-)
+# streamlit_impact_runner functions not used - removed
 
 # Configuration de la page
 st.set_page_config(
@@ -180,30 +259,40 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# CSS personnalisé
-st.markdown("""
+# Theme mode - Always dark (no toggle)
+st.session_state.theme_mode = 'dark'
+
+
+# CSS personnalisé avec support du thème
+theme_css = """
     <style>
     .main-header {
         font-size: 3rem;
         font-weight: bold;
-        color: #1f77b4;
         text-align: center;
         margin-bottom: 2rem;
     }
     .sub-header {
         font-size: 1.5rem;
-        color: #666;
         text-align: center;
         margin-bottom: 2rem;
     }
     .metric-card {
-        background-color: #f0f2f6;
         padding: 1rem;
         border-radius: 0.5rem;
-        border-left: 4px solid #1f77b4;
+        border-left: 4px solid #10b981;
     }
-    </style>
-""", unsafe_allow_html=True)
+"""
+
+# Apply dark theme CSS (always dark mode)
+theme_css += """
+    .main-header { color: #e8eaf6; }
+    .sub-header { color: #b0bec5; }
+    .metric-card { background-color: #1a2332; color: #e8eaf6; }
+"""
+
+st.markdown(theme_css, unsafe_allow_html=True)
+
 
 # Initialisation de session state
 if 'data_loaded' not in st.session_state:
@@ -325,13 +414,46 @@ def _display_extraction_results(result: dict):
     with st.expander("🔍 Voir les données JSON brutes"):
         st.json(result)
 
-# Sidebar - Navigation
-# Menu de navigation stylisé
-st.sidebar.markdown("""
-    <div style='margin-bottom: 1.5rem;'>
-        <h2 style='color: #1f77b4; margin-bottom: 0.5rem;'>🧭 Navigation</h2>
-        <p style='color: #666; font-size: 0.9rem; margin-top: 0;'>Sélectionnez une page</p>
-    </div>
+# Sidebar - Logo ReguAI en haut
+# Logo depuis doc/Logo.png
+logo_path = Path(__file__).parent.parent / 'doc' / 'Logo.png'
+if logo_path.exists():
+    # Logo personnalisé trouvé - même largeur que les boutons du menu, légèrement cropé en haut/bas
+    st.sidebar.markdown("""
+        <style>
+        .logo-container {
+            width: 100%;
+            height: 80px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .logo-container img {
+            width: 100%;
+            height: 150%;
+            object-fit: cover;
+            object-position: center;
+        }
+        </style>
+        <div class='logo-container' style='margin-top: 0; padding-top: 0;'>
+    """, unsafe_allow_html=True)
+    st.sidebar.image(str(logo_path), use_container_width=True)
+    st.sidebar.markdown("""
+        </div>
+        <div style='margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; margin-top: 0.5rem;'></div>
+    """, unsafe_allow_html=True)
+else:
+    # Logo temporaire (emoji) si logo non trouvé
+    st.sidebar.markdown("""
+        <div style='text-align: center; margin-top: 0; padding-top: 0;'>
+            <div style='width: 180px; height: 180px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);'>
+                <span style='font-size: 4.5rem;'>📊</span>
+            </div>
+        </div>
+        <div style='margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #e2e8f0; margin-top: 1rem;'></div>
 """, unsafe_allow_html=True)
 
 # Initialize session state for current page
@@ -348,33 +470,56 @@ pages_options = [
 ]
 
 # Menu de navigation avec boutons cliquables (remplace les radio buttons)
-# CSS scoped to sidebar only to prevent conflicts
+# CSS scoped to sidebar only to prevent conflicts - Design moderne blanc/gris
 st.sidebar.markdown("""
     <style>
-        /* Sidebar navigation buttons only - keep everything blue */
+        /* Largeur du sidebar légèrement réduite */
+        section[data-testid="stSidebar"] {
+            min-width: 280px !important;
+            width: 280px !important;
+        }
+        /* Sidebar navigation buttons only - Design moderne */
         section[data-testid="stSidebar"] div[data-testid="stButton"] > button {
             width: 100% !important;
-            padding: 0.7rem 1rem !important;
-            margin: 0.3rem 0 !important;
-            border-radius: 8px !important;
+            padding: 0.75rem 1rem !important;
+            margin: 0.4rem 0 !important;
+            border-radius: 10px !important;
             text-align: left !important;
             border-left: 4px solid transparent !important;
+            transition: all 0.3s ease !important;
+            font-size: 0.95rem !important;
+            line-height: 1.4 !important;
+            font-weight: 900 !important;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
         }
         section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="secondary"] {
-            background-color: rgba(31, 119, 180, 0.06) !important;
-            color: #1f77b4 !important;
-            border: none !important;
+            background-color: #ffffff !important;
+            color: #4a5568 !important;
+            border: 1px solid #e2e8f0 !important;
+            font-weight: 900 !important;
         }
         section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="secondary"]:hover {
-            background-color: rgba(31, 119, 180, 0.12) !important;
-            border-left-color: #1f77b4 !important;
+            background-color: #f7fafc !important;
+            border-left-color: #10b981 !important;
+            border-color: #cbd5e0 !important;
+            transform: translateX(3px) !important;
+            color: #2d3748 !important;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.15) !important;
+            font-weight: 900 !important;
         }
         section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] {
-            background-color: rgba(31, 119, 180, 0.2) !important;
-            color: #1f77b4 !important;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+            color: #ffffff !important;
             border: none !important;
-            border-left: 4px solid #1f77b4 !important;
-            font-weight: bold !important;
+            border-left: 4px solid #047857 !important;
+            font-weight: 900 !important;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+        }
+        section[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"]:hover {
+            background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4) !important;
+            transform: translateY(-1px) !important;
+            font-weight: 900 !important;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -422,9 +567,8 @@ if page == "🏠 Dashboard":
                     st.session_state.stocks_performance = performance_df
                     st.session_state.data_loaded = True
                 else:
-                    print("❌ [LOG] Erreur lors de la conversion du Company Universe")
-            else:
-                print("❌ [LOG] Company Universe non trouvé. Vérifiez que company_universe.json existe.")
+                    pass  # Erreur silencieuse - données non disponibles
+            # Company Universe non trouvé - ignoré
     
     if st.session_state.data_loaded:
         composition = st.session_state.composition_sp500
@@ -441,95 +585,316 @@ if page == "🏠 Dashboard":
 # PAGE 2: Analyse de Documents
 elif page == "📄 Analyse de Documents":
     st.header("📄 Analyse de Documents Réglementaires")
-    st.info("💡 Uploadez ou analysez des documents réglementaires pour extraire automatiquement les informations clés")
     
-    # Check for completed extractions first
-    needs_refresh = _check_running_extractions()
+    # Détecter si AWS est disponible
+    aws_available = False
+    aws_error_msg = None
+    try:
+        import boto3
+        # Test rapide des credentials AWS - utilise list_foundation_models sans maxResults
+        bedrock_client = boto3.client('bedrock', region_name='us-east-1')
+        # Appel simple sans maxResults (qui n'est plus supporté)
+        bedrock_client.list_foundation_models()
+        aws_available = True
+    except Exception as e:
+        aws_available = False
+        aws_error_msg = str(e)
     
-    # Note: Extractions process immediately when triggered (Streamlit limitation)
-    # We check for completion on each page load
-    
-    # Clean up old running extractions (in case page was refreshed during processing)
-    if st.session_state.running_extractions:
-        # Clean up stale entries (older than 10 minutes)
-        current_time = datetime.now()
-        stale = []
-        for filename, info in st.session_state.running_extractions.items():
-            start_time = info.get('start_time')
-            if start_time and (current_time - start_time).total_seconds() > 600:
-                stale.append(filename)
-        for filename in stale:
-            del st.session_state.running_extractions[filename]
-    
-    # Upload Section (always visible at top)
-    with st.expander("📤 Upload Nouveau Document", expanded=False):
-        uploaded_file = st.file_uploader(
-            "Choisir un document réglementaire",
-            type=['html', 'xml', 'pdf', 'txt'],
-            help="Formats supportés: HTML, XML, PDF, TXT",
-            key="doc_uploader"
-        )
+    # Si AWS indisponible, mode visualisation uniquement
+        if not aws_available:
+            st.warning("⚠️ AWS non disponible. Mode visualisation uniquement : affichage des analyses déjà effectuées.")
+            if aws_error_msg:
+                with st.expander("🔍 Détails de l'erreur AWS"):
+                    st.code(aws_error_msg)
         
-        if uploaded_file is not None:
-            st.success(f"✅ Fichier '{uploaded_file.name}' sélectionné")
-            st.caption(f"Taille: {uploaded_file.size / 1024:.1f} KB")
+        # Upload Section pour ajouter des documents dans raw
+        with st.expander("📤 Upload Nouveau Document", expanded=False):
+            uploaded_file = st.file_uploader(
+                "Choisir un document réglementaire",
+                type=['html', 'xml', 'pdf', 'txt'],
+                help="Formats supportés: HTML, XML, PDF, TXT. Le fichier sera sauvegardé dans data/raw/directives",
+                key="doc_uploader_viz"
+            )
             
-            # Button to save the file
-            if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded"):
-                # Save the file directly to documents directory
-                save_result = save_uploaded_file(uploaded_file)
+            if uploaded_file is not None:
+                # Button to save the file
+                if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded_viz"):
+                    # Save uploaded file to raw directory (also uploads to S3 if AWS available)
+                    from scripts.helpers.document_analysis_helper import save_uploaded_file
+                    
+                    save_result = save_uploaded_file(uploaded_file, destination_dir='data/raw/directives', use_aws=True)
+                    
+                    if save_result['success']:
+                        st.success(f"✅ Document sauvegardé : {save_result['filename']}")
+                        
+                        # Show S3 upload status if available
+                        if save_result.get('stored_in') == 'local_and_s3':
+                            st.info(f"☁️ Également uploadé sur AWS S3 : {save_result.get('s3_path', 'N/A')}")
+                        elif save_result.get('stored_in') == 'local_only':
+                            st.caption("💾 Sauvegardé localement uniquement (AWS non disponible ou non configuré)")
+                        
+                        st.info("💡 Le document a été ajouté à la liste. Vous pouvez l'analyser plus tard si AWS est disponible.")
+                        st.balloons()
+                        # Rerun to refresh the page and show the new document
+                        st.rerun()
+                    else:
+                        st.error(f"❌ Erreur lors de la sauvegarde : {save_result.get('error', 'Erreur inconnue')}")
+        
+        st.divider()
+        st.subheader("📚 Tous les Documents")
+        
+        # Charger tous les documents (bruts + extractions)
+        all_documents = get_all_documents_with_status()
+        
+        if all_documents:
+            # Filter options
+            filter_status = st.selectbox(
+                "Filtrer par statut",
+                ["Tous", "Analysés", "Non analysés"],
+                key="filter_status_viz",
+                index=0
+            )
+            
+            # Apply filters
+            filtered_docs = []
+            for doc in all_documents:
+                # Status filter
+                if filter_status == "Analysés" and doc['status'] not in ['analyzed', 'analyzed_3tier']:
+                    continue
+                elif filter_status == "Non analysés" and doc['status'] in ['analyzed', 'analyzed_3tier']:
+                    continue
                 
-                if save_result['success']:
-                    st.success(f"✅ Document '{save_result['filename']}' ajouté avec succès !")
-                    st.info("💡 Le document apparaît maintenant dans la liste ci-dessous. Vous pouvez l'analyser en cliquant sur le bouton 🔍")
-                    st.balloons()
-                    # Auto-refresh to show the new document in the list
-                    st.rerun()
-                else:
-                    st.error(f"❌ Erreur lors de l'enregistrement: {save_result.get('error', 'Erreur inconnue')}")
-    
-    st.divider()
-    
-    # Main Documents View - Unified Table
-    st.subheader("📚 Tous les Documents")
-    
-    # Filter options
-    col1, col2, col3 = st.columns([2, 2, 1])
-    with col1:
-        filter_status = st.selectbox(
-            "Filtrer par statut",
-            ["Tous", "Analysés", "Non analysés"],
-            key="filter_status"
-        )
-    with col2:
-        show_hidden = st.checkbox("Afficher documents masqués", value=False, key="show_hidden")
-    with col3:
-        st.write("")  # Spacer
-    
-    # Get all documents with status
-    all_documents = get_all_documents_with_status()
-    
-    # Apply filters
-    filtered_docs = []
-    for doc in all_documents:
-        # Status filter
-        if filter_status == "Analysés" and doc['status'] != 'analyzed':
-            continue
-        elif filter_status == "Non analysés" and doc['status'] == 'analyzed':
-            continue
+                filtered_docs.append(doc)
+            
+            if filtered_docs:
+                # Create table header
+                st.markdown("""
+                <style>
+                .doc-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 20px 0;
+                }
+                .doc-table th {
+                    background-color: #f0f0f0;
+                    padding: 12px;
+                    text-align: left;
+                    border-bottom: 2px solid #ddd;
+                    font-weight: bold;
+                }
+                .doc-table td {
+                    padding: 12px;
+                    border-bottom: 1px solid #e0e0e0;
+                    vertical-align: top;
+                }
+                .doc-table tr:hover {
+                    background-color: #f9f9f9;
+                }
+                </style>
+                """, unsafe_allow_html=True)
+                
+                # Table header
+                header_cols = st.columns([3, 2, 1.5, 2.5])
+                with header_cols[0]:
+                    st.markdown("**📄 Document**")
+                with header_cols[1]:
+                    st.markdown("**📅 Date**")
+                with header_cols[2]:
+                    st.markdown("**📊 Statut**")
+                with header_cols[3]:
+                    st.markdown("**⚙️ Actions**")
+                
+                st.divider()
+                
+                # Display documents in table rows
+                for idx, doc in enumerate(filtered_docs):
+                    col_info, col_date, col_status, col_actions = st.columns([3, 2, 1.5, 2.5])
+                    
+                    with col_info:
+                        icon = "📄"
+                        display_name = doc.get('title') or doc.get('document_id', doc['filename'])
+                        
+                        # For raw files, show badge
+                        if doc.get('is_raw_file'):
+                            st.markdown(f"{icon} **{display_name}** 📄 Fichier brut")
+                        else:
+                            st.markdown(f"{icon} **{display_name}**")
+                    
+                    with col_date:
+                        # Try to get document date from extracted info, otherwise use upload date
+                        doc_date = None
+                        if doc.get('extraction') and doc['extraction'].get('data'):
+                            extracted_info = doc['extraction']['data'].get('extracted_info', {})
+                            doc_date = extracted_info.get('effective_date')
+                        
+                        if doc_date:
+                            st.text(f"📅 {doc_date}")
+                        else:
+                            upload_date_str = doc['upload_date'].strftime("%Y-%m-%d")
+                            st.text(f"📅 {upload_date_str}")
+                    
+                    with col_status:
+                        if doc['status'] == 'analyzed_3tier':
+                            st.success("✅ Analysé (3-Tier)")
+                        elif doc['status'] == 'analyzed':
+                            st.info("✅ Analysé")
+                        else:
+                            st.warning("⏳ Non analysé")
+                    
+                    with col_actions:
+                        if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc.get('extraction'):
+                            # Impact analysis button (all analyses are complete)
+                            doc_id = None
+                            if doc.get('extraction') and doc['extraction'].get('data'):
+                                doc_id = doc['extraction']['data'].get('document_id', '')
+                            if st.button("📈 Analyse d'Impact", key=f"view_impact_viz_{idx}", help="Voir l'analyse d'impact"):
+                                # Store document_id to pre-select in Impact page
+                                if doc_id:
+                                    st.session_state['selected_regulation_id'] = doc_id
+                                # Redirect to Impact Analysis page
+                                st.session_state.current_page = "📈 Analyse d'Impact"
+                                st.rerun()
+                    
+                    # Détails expandable avec titre de la directive (s'ouvre/se ferme directement)
+                    if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc.get('extraction'):
+                        data = doc['extraction'].get('data', {})
+                        if data:
+                            # Get directive title for the expander
+                            extracted_info = data.get('extracted_info', {})
+                            directive_title = extracted_info.get('title', display_name)
+                            
+                            with st.expander(f"📋 Détails d'extraction - {directive_title}"):
+                                _display_extraction_results(data)
+                    
+                    if idx < len(filtered_docs) - 1:
+                        st.divider()
+    else:
+        # Mode normal avec AWS disponible
         
-        # Hidden filter
-        if doc['is_hidden'] and not show_hidden:
-            continue
+        # Check for completed extractions first
+        needs_refresh = _check_running_extractions()
         
-        filtered_docs.append(doc)
-    
-    if filtered_docs:
-        st.info(f"📊 {len(filtered_docs)} document(s) trouvé(s)")
+        # Note: Extractions process immediately when triggered (Streamlit limitation)
+        # We check for completion on each page load
         
-        # Display as table with actions
-        for idx, doc in enumerate(filtered_docs):
-            with st.container():
+        # Clean up old running extractions (in case page was refreshed during processing)
+        if st.session_state.running_extractions:
+            # Clean up stale entries (older than 10 minutes)
+            current_time = datetime.now()
+            stale = []
+            for filename, info in st.session_state.running_extractions.items():
+                start_time = info.get('start_time')
+                if start_time and (current_time - start_time).total_seconds() > 600:
+                    stale.append(filename)
+            for filename in stale:
+                del st.session_state.running_extractions[filename]
+        
+        # Upload Section (always visible at top)
+        with st.expander("📤 Upload Nouveau Document", expanded=False):
+            uploaded_file = st.file_uploader(
+                "Choisir un document réglementaire",
+                type=['html', 'xml', 'pdf', 'txt'],
+                help="Formats supportés: HTML, XML, PDF, TXT",
+                key="doc_uploader"
+            )
+            
+            if uploaded_file is not None:
+                # Button to save the file
+                if st.button("💾 Enregistrer le Document", type="primary", key="save_uploaded"):
+                    # Save the file directly to documents directory
+                    save_result = save_uploaded_file(uploaded_file)
+                    
+                    if save_result['success']:
+                        st.success(f"✅ Document '{save_result['filename']}' ajouté avec succès !")
+                        st.info("💡 Le document apparaît maintenant dans la liste ci-dessous. Vous pouvez l'analyser en cliquant sur le bouton 🔍")
+                        st.balloons()
+                        # Auto-refresh to show the new document in the list
+                        st.rerun()
+                    else:
+                        st.error(f"❌ Erreur lors de l'enregistrement: {save_result.get('error', 'Erreur inconnue')}")
+        
+        st.divider()
+        
+        # Main Documents View - Unified Table
+        st.subheader("📚 Tous les Documents")
+        
+        # Refresh button to force reload
+        col_filter, col_refresh = st.columns([3, 1])
+        with col_filter:
+            filter_status = st.selectbox(
+                "Filtrer par statut",
+                ["Tous", "Analysés", "Non analysés"],
+                key="filter_status",
+                index=0  # Par défaut "Tous" pour voir tous les documents
+            )
+        with col_refresh:
+            if st.button("🔄 Actualiser", help="Rafraîchir la liste des documents"):
+                st.rerun()
+        
+        # Get all documents with status
+        # Force refresh by calling the function directly (no cache)
+        all_documents = get_all_documents_with_status()
+        
+        # Debug: Print status for first few documents (remove after testing)
+        # import sys
+        # print(f"DEBUG: {len(all_documents)} documents loaded", file=sys.stderr)
+        # for doc in all_documents[:3]:
+        #     print(f"  - {doc.get('filename', '?')[:50]}: status={doc.get('status', '?')}", file=sys.stderr)
+        
+        # Apply filters
+        filtered_docs = []
+        for doc in all_documents:
+            # Status filter
+            if filter_status == "Analysés" and doc['status'] not in ['analyzed', 'analyzed_3tier']:
+                continue
+            elif filter_status == "Non analysés" and doc['status'] in ['analyzed', 'analyzed_3tier']:
+                continue
+            
+            
+            filtered_docs.append(doc)
+        
+        if filtered_docs:
+            # Create table header
+            st.markdown("""
+            <style>
+            .doc-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            .doc-table th {
+                background-color: #f0f0f0;
+                padding: 12px;
+                text-align: left;
+                border-bottom: 2px solid #ddd;
+                font-weight: bold;
+            }
+            .doc-table td {
+                padding: 12px;
+                border-bottom: 1px solid #e0e0e0;
+                vertical-align: top;
+            }
+            .doc-table tr:hover {
+                background-color: #f9f9f9;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+            
+            # Table header
+            header_cols = st.columns([3, 2, 1.5, 2.5])
+            with header_cols[0]:
+                st.markdown("**📄 Document**")
+            with header_cols[1]:
+                st.markdown("**📅 Date**")
+            with header_cols[2]:
+                st.markdown("**📊 Statut**")
+            with header_cols[3]:
+                st.markdown("**⚙️ Actions**")
+            
+            st.divider()
+            
+            # Display documents in table rows
+            for idx, doc in enumerate(filtered_docs):
                 # Create columns for document info and actions
                 col_info, col_date, col_status, col_actions = st.columns([3, 2, 1.5, 2.5])
                 
@@ -538,280 +903,264 @@ elif page == "📄 Analyse de Documents":
                     icon = "📄" if not doc['is_hidden'] else "👁️‍🗨️"
                     
                     # Get display name: use extracted title if available, otherwise use filename
-                    display_name = doc['filename']
+                    display_name = doc.get('title') or doc['filename']
                     original_filename = doc['filename']  # Keep for duplicate detection
-                    
-                    if doc['status'] == 'analyzed' and doc.get('extraction') and doc['extraction'].get('data'):
+                
+                    if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc.get('extraction') and doc['extraction'].get('data'):
                         extracted_info = doc['extraction']['data'].get('extracted_info', {})
                         title = extracted_info.get('title', '')
                         if title:
                             display_name = title
                     
+                    # Also check if document_id is available
+                    if doc.get('document_id'):
+                        display_name = doc.get('title', doc.get('document_id', display_name))
+                    
                     # Display the title (or filename if not analyzed)
-                    st.markdown(f"**{icon} {display_name}**")
-                    
-                    # Show file info: size and original filename (hidden but accessible)
-                    if display_name != original_filename:
-                        # Show original filename in small text for reference/duplicate detection
-                        st.caption(f"📁 {original_filename} • {doc['size'] / 1024:.1f} KB")
+                    # For raw files, show a badge
+                    if doc.get('is_raw_file'):
+                        st.markdown(f"**{icon} {display_name}** 📄 Fichier brut")
                     else:
-                        st.caption(f"{doc['size'] / 1024:.1f} KB")
-                
-                with col_date:
-                    upload_date_str = doc['upload_date'].strftime("%Y-%m-%d %H:%M")
-                    st.text(f"📅 {upload_date_str}")
-                
-                with col_status:
-                    if doc['status'] == 'analyzed':
-                        st.success("✅ Analysé")
-                    else:
-                        st.warning("⏳ Non analysé")
-                
-                with col_actions:
-                    # Action buttons in a row
-                    action_col1, action_col2, action_col3 = st.columns(3)
+                        st.markdown(f"**{icon} {display_name}**")
                     
-                    with action_col1:
-                        # Analyze button
-                        if doc['status'] != 'analyzed':
-                            if st.button("🔍", key=f"analyze_{idx}", help="Analyser ce document"):
-                                # Process immediately with clear feedback
-                                progress_msg = st.empty()
-                                with progress_msg.container():
-                                    st.warning(f"⏳ Analyse de '{doc['filename']}' en cours...")
-                                    st.caption("⏱️ Cela peut prendre 1-3 minutes. Vous pouvez continuer à naviguer dans l'application.")
-                                
-                                try:
-                                    result = extract_from_local_file(
-                                        doc['path'], 
-                                        use_cache=True, 
-                                        use_aws_services=True
-                                    )
-                                    
-                                    progress_msg.empty()
-                                    
-                                    if result.get('processing_status') == 'completed':
-                                        st.success("✅ Analyse terminée avec succès !")
-                                        
-                                        # Show suggested filename if different
-                                        suggested_name = generate_filename_from_extraction(result, Path(doc['filename']).suffix)
-                                        if suggested_name != doc['filename']:
-                                            st.info(f"📝 Nom suggéré: `{suggested_name}`")
-                                        
-                                        st.balloons()
-                                        st.rerun()  # Refresh to show updated status
-                                    else:
-                                        st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
-                                except Exception as e:
-                                    progress_msg.empty()
-                                    st.error(f"❌ Erreur: {str(e)}")
+                    # File info removed as requested
                     
-                    with action_col2:
-                        # View/Delete extraction results
-                        if doc['status'] == 'analyzed' and doc['extraction']:
-                            if st.button("🗑️", key=f"delete_ext_{idx}", help="Supprimer résultat"):
-                                if delete_extraction(doc['extraction']['path'], doc['extraction']['source']):
-                                    st.success("✅ Résultat supprimé")
-                                    st.rerun()
-                                else:
-                                    st.error("❌ Erreur lors de la suppression")
-                    
-                    with action_col3:
-                        # Hide/Show toggle
-                        hide_label = "👁️" if doc['is_hidden'] else "👁️‍🗨️"
-                        hide_help = "Afficher" if doc['is_hidden'] else "Masquer"
-                        if st.button(hide_label, key=f"toggle_{idx}", help=hide_help):
-                            toggle_document_visibility(doc['filename'], hide=not doc['is_hidden'])
-                            st.rerun()
-                
-                # Expandable section for viewing results
-                if doc['status'] == 'analyzed' and doc['extraction']:
-                    with st.expander("📋 Voir les résultats d'extraction"):
-                        data = doc['extraction']['data']
-                        if data.get('processing_status') == 'completed':
-                            _display_extraction_results(data)
+                    with col_date:
+                        # Try to get document date from extracted info, otherwise use upload date
+                        doc_date = None
+                        if doc.get('extraction') and doc['extraction'].get('data'):
+                            extracted_info = doc['extraction']['data'].get('extracted_info', {})
+                            doc_date = extracted_info.get('effective_date')
+                        
+                        if doc_date:
+                            st.text(f"📅 {doc_date}")
                         else:
-                            st.error(f"❌ Statut: {data.get('processing_status', 'unknown')}")
-                            if 'error' in data:
-                                st.error(f"Erreur: {data['error']}")
+                            upload_date_str = doc['upload_date'].strftime("%Y-%m-%d")
+                            st.text(f"📅 {upload_date_str}")
+                    
+                    with col_status:
+                        if doc['status'] == 'analyzed_3tier':
+                            st.success("✅ Analysé (3-Tier)")
+                        elif doc['status'] == 'analyzed':
+                            st.info("✅ Analysé")
+                        else:
+                            st.warning("⏳ Non analysé")
+                    
+                    with col_actions:
+                        # Action buttons in a row
+                        action_col1, action_col2, action_col3 = st.columns(3)
+                        
+                        with action_col1:
+                            # Analyze button
+                            if doc['status'] not in ['analyzed', 'analyzed_3tier']:
+                                if st.button("🔍", key=f"analyze_{idx}", help="Analyser ce document"):
+                                    # Process immediately with clear feedback
+                                    progress_msg = st.empty()
+                                    with progress_msg.container():
+                                        st.warning(f"⏳ Analyse de '{doc['filename']}' en cours...")
+                                        st.caption("⏱️ Cela peut prendre 1-3 minutes. Vous pouvez continuer à naviguer dans l'application.")
+                                    
+                                    try:
+                                        # For raw files, force new analysis (don't use existing extracted directives)
+                                        # Check if this is a raw file (not from extracted_directives)
+                                        is_raw_file = not doc['path'].endswith('_extracted.json')
+                                        result = extract_from_local_file(
+                                            doc['path'], 
+                                            use_cache=True, 
+                                            use_aws_services=True,
+                                            force_new_analysis=is_raw_file  # Force new analysis for raw files
+                                        )
+                                        
+                                        progress_msg.empty()
+                                        
+                                        if result.get('processing_status') == 'completed':
+                                            st.success("✅ Analyse terminée avec succès !")
+                                            
+                                            # Show suggested filename if different
+                                            suggested_name = generate_filename_from_extraction(result, Path(doc['filename']).suffix)
+                                            if suggested_name != doc['filename']:
+                                                st.info(f"📝 Nom suggéré: `{suggested_name}`")
+                                            
+                                            st.balloons()
+                                            st.rerun()  # Refresh to show updated status
+                                        else:
+                                            st.error(f"❌ Erreur: {result.get('error', 'Erreur inconnue')}")
+                                    except Exception as e:
+                                        progress_msg.empty()
+                                        st.error(f"❌ Erreur: {str(e)}")
+                        
+                        with action_col2:
+                            # View Impact Analysis button (all analyses are complete)
+                            if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc.get('extraction'):
+                                doc_id = None
+                                if doc.get('extraction') and doc['extraction'].get('data'):
+                                    doc_id = doc['extraction']['data'].get('document_id', '')
+                                if st.button("📈 Impact", key=f"view_impact_{idx}", help="Voir l'analyse d'impact"):
+                                    # Store document_id to pre-select in Impact page
+                                    if doc_id:
+                                        st.session_state['selected_regulation_id'] = doc_id
+                                    # Redirect to Impact Analysis page
+                                    st.session_state.current_page = "📈 Analyse d'Impact"
+                                    st.rerun()
+                        
+                        with action_col3:
+                            # View/Delete extraction results
+                            if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc['extraction']:
+                                if st.button("🗑️", key=f"delete_ext_{idx}", help="Supprimer résultat"):
+                                    if delete_extraction(doc['extraction']['path'], doc['extraction']['source']):
+                                        st.success("✅ Résultat supprimé")
+                                        st.rerun()
+                                    else:
+                                        st.error("❌ Erreur lors de la suppression")
+                    
+                    # Expandable section for viewing extraction results avec titre de la directive (s'ouvre/se ferme directement)
+                    if doc['status'] in ['analyzed', 'analyzed_3tier'] and doc.get('extraction'):
+                        data = doc['extraction'].get('data', {})
+                        if data:
+                            # Get directive title for the expander
+                            extracted_info = data.get('extracted_info', {})
+                            directive_title = extracted_info.get('title', display_name)
+                            
+                            with st.expander(f"📋 Détails d'extraction - {directive_title}"):
+                                _display_extraction_results(data)
                 
-                st.divider()
-    else:
-        st.info("Aucun document trouvé. Uploadez un document pour commencer.")
+                if idx < len(filtered_docs) - 1:
+                    st.divider()
+        else:
+            st.info("Aucun document trouvé. Uploadez un document pour commencer.")
 
 # PAGE 3: Analyse d'Impact
 elif page == "📈 Analyse d'Impact":
     st.header("📈 Analyse d'Impact Réglementaire - 3-Tier Valuation")
-    st.info("💡 Analyse quantitative de l'impact réglementaire via architecture 3-tiers (FCF Impact → Risk Premium → DCF Valuation)")
-    
-    # Control Panel
-    with st.expander("⚙️ Control Panel - Run Analysis", expanded=True):
-        # List available regulations
-        available_regs = list_available_regulations()
-        pipeline_status = get_pipeline_status()
-        
-        st.markdown("### Current Status")
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            if pipeline_status['has_matching_pairs']:
-                st.success(f"✅ {pipeline_status['pair_count']} pairs")
-            else:
-                st.info("❌ No pairs yet")
-        with col2:
-            if pipeline_status['has_quant_analysis']:
-                st.success("✅ Quant analysis ready")
-            else:
-                st.info("❌ No quant analysis")
-        with col3:
-            if pipeline_status['has_recommendations']:
-                st.success(f"✅ {pipeline_status['recommendation_count']} recommendations")
-            else:
-                st.info("❌ No recommendations")
-        
-        st.divider()
-        
-        st.markdown("### Run New Analysis")
-        
-        # Regulation Selection
-        if available_regs:
-            st.markdown("#### 📋 Select Regulation(s)")
-            reg_options = ["All Regulations"] + [
-                f"{reg['title'][:80]}... ({reg['country']})" 
-                for reg in available_regs
-            ]
-            
-            # Multi-select for regulations
-            selected_reg_indices = st.multiselect(
-                "Choose regulation(s) to analyze:",
-                options=list(range(1, len(reg_options))),
-                format_func=lambda x: reg_options[x],
-                help="Select one or more regulations to analyze. Leave empty for all."
-            )
-        
-            if not selected_reg_indices:
-                st.info("ℹ️ No regulations selected - will analyze all by default")
-                selected_regs = "all"
-            elif len(selected_reg_indices) == 1:
-                selected_reg = available_regs[selected_reg_indices[0] - 1]
-                st.success(f"Selected: {selected_reg['title'][:60]}...")
-                selected_regs = selected_reg['filename']
-            else:
-                selected_regs = [available_regs[idx - 1]['filename'] for idx in selected_reg_indices]
-                st.success(f"Selected {len(selected_reg_indices)} regulations")
-        else:
-            st.warning("⚠️ No extracted regulations found in data/generated/extracted_directives/")
-            selected_regs = "all"
-        
-        st.divider()
-        
-        # Configuration options
-        st.markdown("#### ⚙️ Analysis Configuration")
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            exposure_threshold = st.slider(
-                "Exposure Threshold",
-                0.0, 1.0, 0.3, 0.05,
-                help="Minimum exposure score to include (0.0-1.0)"
-            )
-            enable_quant = st.checkbox(
-                "Enable 3-Tier Valuation",
-                value=True,
-                help="Run full DCF analysis (slower but more precise)"
-            )
-        with col2:
-            limit_pairs = st.number_input(
-                "Limit Pairs (Testing)",
-                min_value=1,
-                max_value=500,
-                value=500,
-                step=1,
-                help="Limit number of pairs to process (use for testing)"
-            )
-            enable_recs = st.checkbox(
-                "Generate Recommendations",
-                value=True,
-                help="Generate Bedrock recommendations"
-            )
-        
-        # Risk thresholds for recommendations (initialize with defaults)
-        high_risk_threshold = 60.0
-        low_risk_threshold = 30.0
-        
-        if enable_recs:
-            st.markdown("#### 📊 Recommendation Thresholds")
-            col1, col2 = st.columns(2)
-            with col1:
-                high_risk_threshold = st.slider(
-                    "High Risk Threshold",
-                    0.0, 100.0, 60.0, 5.0,
-                    help="Risk score >= this for REDUCE"
-                )
-            with col2:
-                low_risk_threshold = st.slider(
-                    "Low Risk Threshold",
-                    0.0, 100.0, 30.0, 5.0,
-                    help="Risk score <= this for INCREASE"
-                )
-        
-        st.divider()
-            
-        # Run analysis button
-        if st.button("🚀 Run Impact Analysis", type="primary", use_container_width=True):
-            with st.spinner("Running impact analysis pipeline..."):
-                success, message, results = run_impact_pipeline(
-                    selected_regulation=selected_regs,
-                    exposure_threshold=exposure_threshold,
-                    enable_quant_engine=enable_quant,
-                    limit_pairs=None if limit_pairs == 500 else limit_pairs,
-                    high_risk_threshold=high_risk_threshold,
-                    low_risk_threshold=low_risk_threshold
-                )
-                
-                if success:
-                    st.success("✅ Analysis complete!")
-                    with st.expander("📋 View Log Output"):
-                        st.text(message)
-                    st.rerun()  # Refresh to show new data
-                else:
-                    st.error("❌ Analysis failed")
-                    with st.expander("📋 View Error Details"):
-                        st.text(message)
-    
+    st.info("💡 Mode visualisation : affichage des analyses déjà effectuées")
     st.divider()
     
     # Load and display results
     impact_results = load_impact_results()
     
     if impact_results is None:
-        st.warning("⚠️ No impact analysis found. Use the Control Panel above to run a new analysis.")
-    else:
-        # Convert to DataFrames
-        companies_df, regulations_df = impact_results_to_dataframes(impact_results)
+        # Ne rien afficher si pas de données
+        st.stop()
+    
+    # Convert to DataFrames
+    companies_df_full, regulations_df_full = impact_results_to_dataframes(impact_results)
+    
+    # Vérifier si les DataFrames sont vides
+    if len(companies_df_full) == 0 or len(regulations_df_full) == 0:
+        # Ne rien afficher si pas de données
+        st.stop()
+    
+    # Initialize selected_reg_id
+    selected_reg_id = None
+    
+    # Directive selector at the top - ALWAYS show it first
+    st.subheader("📋 Sélectionner la Directive à Analyser")
+    
+    if len(regulations_df_full) > 0:
+        # Create display labels for selectbox
+        regulation_options = regulations_df_full.apply(
+            lambda row: f"{row['regulation_title'][:70]}... ({row['regulation_country']})",
+            axis=1
+        ).tolist()
         
-        # Display summary
+        # Add "Aucune sélection" option at the beginning
+        options_with_none = ["-- Sélectionner une directive --"] + regulation_options
+        
+        # Check if we have a pre-selected regulation from document page
+        default_index = 0  # Default to "-- Sélectionner une directive --"
+        if 'selected_regulation_id' in st.session_state and st.session_state['selected_regulation_id']:
+            # Find the matching regulation in the dataframe
+            pre_selected_reg_id = st.session_state['selected_regulation_id']
+            matching_regs = regulations_df_full[regulations_df_full['regulation_id'] == pre_selected_reg_id]
+            if len(matching_regs) > 0:
+                # Find the index in the full dataframe
+                matching_idx = matching_regs.index[0]
+                # Get the position in the dataframe (reset index to get numeric position)
+                reg_positions = list(regulations_df_full.index)
+                try:
+                    reg_index = reg_positions.index(matching_idx)
+                    # Add 1 because first option is placeholder
+                    default_index = reg_index + 1
+                except (ValueError, IndexError):
+                    default_index = 0
+                # Clear the pre-selection after using it
+                del st.session_state['selected_regulation_id']
+        
+        selected_option = st.selectbox(
+            f"Sélectionner une directive ({len(regulations_df_full)} disponibles):",
+            options_with_none,
+            index=default_index,
+            key="regulation_selector_top"
+        )
+        
+        # Si aucune directive n'est sélectionnée, ne rien afficher
+        if selected_option == "-- Sélectionner une directive --":
+            st.stop()
+        
+        # Get selected regulation index (subtract 1 because first option is placeholder)
+        selected_idx = options_with_none.index(selected_option) - 1
+        selected_reg = regulations_df_full.iloc[selected_idx]
+        selected_reg_id = selected_reg['regulation_id']
+        selected_reg_title = selected_reg['regulation_title']
+        
+        st.divider()
+        
+        # Filter ALL data by selected directive
+        companies_df = companies_df_full[companies_df_full['regulation_id'] == selected_reg_id].copy()
+        regulations_df = regulations_df_full[regulations_df_full['regulation_id'] == selected_reg_id].copy()
+        
+        # Vérifier si les données filtrées sont vides
+        if len(companies_df) == 0 or len(regulations_df) == 0:
+            # Ne rien afficher si pas de données
+            st.stop()
+        
+        # Display summary (filtered by selected directive)
+        # Ensure DataFrames (not Series)
+        if isinstance(companies_df, pd.Series):
+            companies_df = companies_df.to_frame().T
+        if isinstance(regulations_df, pd.Series):
+            regulations_df = regulations_df.to_frame().T
         render_impact_summary(companies_df, regulations_df)
         
         st.divider()
         
-        # Load recommendations
+        # Load recommendations (will be filtered in render_recommendations_table)
         recommendations = load_recommendations()
         
-        # Generate signals from impact results
-        with st.spinner("🔄 Generating trading signals..."):
-            try:
-                signals_data = generate_signals_for_analysis(impact_results, investment_strategy='LONG_ONLY')
-                signals_df = signals_to_dataframe(signals_data)
-            except Exception as e:
-                st.warning(f"⚠️ Could not generate signals: {e}")
-                signals_data = None
-                signals_df = pd.DataFrame()
+        # Generate signals from impact results (filtered by selected directive)
+        # Create filtered impact_results for signals
+        if len(companies_df) > 0 and selected_reg_id:
+            filtered_impact_results = {
+                'analysis_date': impact_results.get('analysis_date'),
+                'total_pairs': len(companies_df),
+                'total_regulations': 1,
+                # Complete analysis always available
+                'regulations': {}
+            }
+            
+            # Get the selected regulation data
+            if selected_reg_id in impact_results.get('regulations', {}):
+                filtered_impact_results['regulations'][selected_reg_id] = impact_results['regulations'][selected_reg_id]
+            
+            with st.spinner("🔄 Generating trading signals..."):
+                try:
+                    signals_data = generate_signals_for_analysis(filtered_impact_results, investment_strategy='LONG_ONLY')
+                    signals_df = signals_to_dataframe(signals_data, impact_results=filtered_impact_results)
+                except Exception as e:
+                    st.warning(f"⚠️ Could not generate signals: {e}")
+                    signals_data = None
+                    signals_df = pd.DataFrame()
+        else:
+            signals_df = pd.DataFrame()
         
         # Main tabs - using expanders for clickable headers
         with st.expander("📊 3-Tier Analysis", expanded=True):
             st.subheader("Three-Tier Valuation Architecture")
             
             # Tier 1: FCF Impact
+            # Ensure DataFrame (not Series)
+            if isinstance(companies_df, pd.Series):
+                companies_df = companies_df.to_frame().T
             render_tier1_fcf_chart(companies_df)
             
             st.divider()
@@ -848,34 +1197,49 @@ elif page == "📈 Analyse d'Impact":
                 
                 # Signals table
                 render_signals_table(signals_df)
-            else:
-                st.info("No signals data available. Make sure the impact analysis includes valuation data.")
         
         with st.expander("🤖 Recommendations"):
-            if recommendations:
-                render_recommendations_table(recommendations)
+            # Load recommendations per directive format only
+            recommendations = load_recommendations()
+            
+            if recommendations and 'recommendations_by_directive' in recommendations:
+                # Filter by selected directive
+                render_recommendations_table(recommendations, selected_reg_id=selected_reg_id)
             else:
-                st.warning("⚠️ Recommendations not found. Run `python scripts/recommendation_generator.py`")
+                # No recommendations found
+                # Check if AWS is available
+                try:
+                    import boto3
+                    test_client = boto3.client('bedrock', region_name='us-east-1')
+                    test_client.list_foundation_models()
+                    aws_available = True
+                except Exception:
+                    aws_available = False
+                
+                # Recommendations not found - no message needed
+                pass
         
         with st.expander("📋 Companies Details"):
-            # Regulation selector
-            selected_reg = render_regulation_selector(regulations_df)
+            # Display regulation info (already filtered by directive selector at top)
+            if len(regulations_df) > 0:
+                st.divider()
             
-            if selected_reg:
-                st.markdown(f"**Selected:** {selected_reg['regulation_title']}")
-                
-            # Companies table
-            reg_id = selected_reg.get('regulation_id') if selected_reg else None
-            render_company_details_table(companies_df, filter_regulation_id=reg_id)
+            # Companies table (already filtered by directive)
+            # Ensure DataFrame (not Series) - already checked above but ensure again
+            if isinstance(companies_df, pd.Series):
+                companies_df = companies_df.to_frame().T
+            render_company_details_table(companies_df, filter_regulation_id=None)
             
-            # Full companies table
-            st.subheader("All Companies")
+            # Companies table with all metrics
+            if len(companies_df) > 0:
+                st.subheader(f"Entreprises affectées ({len(companies_df)} entreprises)")
+            else:
+                st.subheader("Entreprises affectées")
             render_companies_table(companies_df)
 
 # PAGE 4: Chatbot Financier
 elif page == "🤖 Chatbot Financier":
     st.header("🤖 Chatbot Financier avec RAG")
-    st.info("💡 Interface conversationnelle avec RAG - Posez des questions sur les réglementations et les entreprises basées sur nos documents")
     
     # Initialiser RAG au chargement (avec cache Streamlit)
     @st.cache_resource
@@ -895,7 +1259,7 @@ elif page == "🤖 Chatbot Financier":
     saved_conversations = sorted(conv_dir.glob("conversation_*.json"), key=lambda x: x.stat().st_mtime, reverse=True)
     
     # Interface pour sauvegarder/charger
-    col1, col2, col3 = st.columns([2, 1, 1])
+    col1, col2 = st.columns([3, 1])
     with col1:
         # Sélecteur pour charger une conversation
         if saved_conversations:
@@ -961,8 +1325,17 @@ elif page == "🤖 Chatbot Financier":
                     st.rerun()
         else:
             st.caption("Aucune conversation sauvegardée")
-    
     with col2:
+        # Bouton Effacer à côté du nom de la discussion, à droite
+        st.markdown("<br>", unsafe_allow_html=True)  # Aligner verticalement avec le selectbox
+        if st.button("🗑️ Effacer", help="Efface l'historique actuel", key="clear_conversation", use_container_width=True):
+            st.session_state.messages = []
+            st.success("✅ Historique effacé")
+            st.rerun()
+    
+    # Interface pour sauvegarder
+    col_save1, col_save2 = st.columns([2, 1])
+    with col_save1:
         # Input pour le nom de la conversation
         if 'save_conversation_name' not in st.session_state:
             st.session_state.save_conversation_name = ""
@@ -998,12 +1371,6 @@ elif page == "🤖 Chatbot Financier":
             except Exception as e:
                 st.error(f"❌ Erreur sauvegarde: {e}")
     
-    with col3:
-        if st.button("🗑️ Effacer", help="Efface l'historique actuel", key="clear_conversation"):
-            st.session_state.messages = []
-            st.success("✅ Historique effacé")
-            st.rerun()
-    
     # Initialiser RAG si pas déjà fait (silencieux - sans spinner visible)
     if 'rag_initialized' not in st.session_state:
         # Initialiser en arrière-plan sans afficher de spinner visible
@@ -1012,12 +1379,10 @@ elif page == "🤖 Chatbot Financier":
                 st.session_state.rag_initialized = True
                 st.session_state.rag_from_cache = rag_result.get('from_cache', False)
                 
-            # Messages seulement en console, pas visible dans l'UI
                 if rag_result.get('from_cache'):
-                    print(f"✅ [LOG] RAG initialisé depuis cache (rapide)")
+                    print(f"✅ RAG initialisé depuis cache")
                 else:
-                    print(f"✅ [LOG] RAG initialisé avec {rag_result.get('num_documents', 0)} documents")
-                    print(f"💾 [LOG] Le système est maintenant mis en cache pour les prochaines utilisations")
+                    print(f"✅ RAG initialisé avec {rag_result.get('num_documents', 0)} documents")
             else:
                 error_msg = rag_result.get('error', 'Erreur inconnue')
                 suggestion = rag_result.get('suggestion', '')
@@ -1033,8 +1398,7 @@ elif page == "🤖 Chatbot Financier":
     if st.session_state.get('rag_initialized'):
         stats = get_rag_stats()
         # RAG actif (pas besoin d'afficher, c'est implicite si le chatbot fonctionne)
-        if stats.get('cache_exists'):
-            print(f"💾 [LOG] Cache RAG disponible")
+        # Cache RAG disponible
     
     # Initialisation de l'historique de chat
     if "messages" not in st.session_state:
@@ -1045,8 +1409,6 @@ elif page == "🤖 Chatbot Financier":
     use_rag = st.session_state.get('rag_initialized', False)
     if use_rag:
         st.caption("🟢 Mode RAG activé - Réponses basées sur la base de connaissances")
-    else:
-        st.caption("🟡 Mode basique - Réponses générales (sans base de connaissances)")
     
     # Container pour forcer le scroll
     scroll_container = st.container()
@@ -1110,12 +1472,72 @@ elif page == "🤖 Chatbot Financier":
     ):
         st.session_state["_generating"] = True  # Marquer qu'on génère
         
-        # Ajouter le message utilisateur (si pas déjà présent)
+        # Liste complète des questions d'exemple (affichées + backup)
+        all_example_questions = [
+            "Quel est l'impact de l'EU AI Act sur les entreprises tech du S&P 500 ?",
+            "Quelles entreprises sont le plus exposées aux réglementations chinoises ?",
+            "Compare l'impact de deux réglementations sur le portefeuille",
+            "Explique-moi pourquoi Nvidia est recommandé à la réduction",
+            "Quels sont les secteurs les plus impactés par l'Inflation Reduction Act ?",
+            "Comment l'EU AI Act affecte-t-il les entreprises européennes ?",
+            "Quelle est la différence entre l'exposure score et le final risk score ?",
+            "Quelles entreprises du secteur énergétique sont concernées par les nouvelles réglementations ?",
+            "Peux-tu expliquer le calcul du price impact pour une entreprise ?",
+            "Quelles réglementations ont le plus grand impact sur le secteur financier ?",
+            "Comment interpréter les recommandations REDUCE et INCREASE ?",
+            "Quelles entreprises ont un risk score élevé mais un price impact faible ?",
+            "Qu'est-ce que le Tier 1, Tier 2 et Tier 3 de l'analyse ?",
+            "Quelles entreprises sont recommandées pour une augmentation de position ?",
+            "Comment les réglementations européennes affectent-elles les entreprises américaines ?",
+            "Quels sont les principaux risques identifiés pour le secteur tech ?",
+            "Peux-tu comparer l'impact de l'EU AI Act et de l'Inflation Reduction Act ?",
+            "Quelles entreprises sont les moins exposées aux réglementations ?",
+            "Comment calculer le FCF impact per share ?",
+            "Quelles réglementations sont en vigueur en Chine ?",
+            "Quel est l'impact moyen des réglementations sur le S&P 500 ?",
+            "Quelles entreprises ont un discount rate change significatif ?",
+            "Comment les réglementations japonaises diffèrent-elles des européennes ?",
+            "Quelles sont les entreprises avec le plus haut exposure score ?",
+            "Peux-tu expliquer le processus de matching entre réglementations et entreprises ?",
+            "Quelles réglementations ont le plus grand nombre d'entreprises affectées ?",
+            "Comment interpréter les trading signals générés ?",
+            "Quelles entreprises sont dans la catégorie 'high risk' ?"
+        ]
+        
+        # Vérifier si la question posée correspond à une question d'exemple
+        prompt_normalized = prompt.strip().lower()
+        matching_example = None
+        
+        for example_q in all_example_questions:
+            if prompt_normalized == example_q.strip().lower():
+                matching_example = example_q
+                break
+        
+        # Si la question correspond à une question d'exemple, la remplacer par une autre
+        original_prompt = prompt
+        question_replaced = False
+        if matching_example:
+            import random
+            # Filtrer les questions d'exemple pour exclure celle qui a été posée
+            available_questions = [q for q in all_example_questions if q.strip().lower() != prompt_normalized]
+            # Sélectionner une question aléatoire parmi les disponibles
+            if available_questions:
+                prompt = random.choice(available_questions)
+                question_replaced = True
+        
+        # Ajouter le message utilisateur avec la question (potentiellement remplacée)
         if not st.session_state.messages or st.session_state.messages[-1].get("content") != prompt:
             st.session_state.messages.append({"role": "user", "content": prompt})
         
-        # Afficher message utilisateur
+        # Afficher message utilisateur (la question remplacée si applicable)
         with st.chat_message("user"):
+            # Si la question a été remplacée, afficher d'abord l'info
+            if question_replaced:
+                st.info(f"💡 Question d'exemple détectée et remplacée automatiquement")
+                st.caption(f"Originale: « {original_prompt} »")
+                st.markdown("---")
+            
+            # Afficher la question qui sera réellement traitée (remplacée si applicable)
             st.markdown(prompt)
             
             # Scroll immédiatement après affichage question
@@ -1258,11 +1680,40 @@ elif page == "🤖 Chatbot Financier":
         
         st.caption("Vous pouvez copier ces questions et les coller dans la barre de saisie")
         
+        # Liste principale des questions d'exemple affichées (4)
         example_questions = [
             "Quel est l'impact de l'EU AI Act sur les entreprises tech du S&P 500 ?",
             "Quelles entreprises sont le plus exposées aux réglementations chinoises ?",
             "Compare l'impact de deux réglementations sur le portefeuille",
             "Explique-moi pourquoi Nvidia est recommandé à la réduction"
+        ]
+        
+        # Liste de backup avec 20+ questions supplémentaires
+        backup_questions = [
+            "Quels sont les secteurs les plus impactés par l'Inflation Reduction Act ?",
+            "Comment l'EU AI Act affecte-t-il les entreprises européennes ?",
+            "Quelle est la différence entre l'exposure score et le final risk score ?",
+            "Quelles entreprises du secteur énergétique sont concernées par les nouvelles réglementations ?",
+            "Peux-tu expliquer le calcul du price impact pour une entreprise ?",
+            "Quelles réglementations ont le plus grand impact sur le secteur financier ?",
+            "Comment interpréter les recommandations REDUCE et INCREASE ?",
+            "Quelles entreprises ont un risk score élevé mais un price impact faible ?",
+            "Qu'est-ce que le Tier 1, Tier 2 et Tier 3 de l'analyse ?",
+            "Quelles entreprises sont recommandées pour une augmentation de position ?",
+            "Comment les réglementations européennes affectent-elles les entreprises américaines ?",
+            "Quels sont les principaux risques identifiés pour le secteur tech ?",
+            "Peux-tu comparer l'impact de l'EU AI Act et de l'Inflation Reduction Act ?",
+            "Quelles entreprises sont les moins exposées aux réglementations ?",
+            "Comment calculer le FCF impact per share ?",
+            "Quelles réglementations sont en vigueur en Chine ?",
+            "Quel est l'impact moyen des réglementations sur le S&P 500 ?",
+            "Quelles entreprises ont un discount rate change significatif ?",
+            "Comment les réglementations japonaises diffèrent-elles des européennes ?",
+            "Quelles sont les entreprises avec le plus haut exposure score ?",
+            "Peux-tu expliquer le processus de matching entre réglementations et entreprises ?",
+            "Quelles réglementations ont le plus grand nombre d'entreprises affectées ?",
+            "Comment interpréter les trading signals générés ?",
+            "Quelles entreprises sont dans la catégorie 'high risk' ?"
         ]
         
         # Afficher chaque question dans une boîte copiable
@@ -1286,19 +1737,39 @@ elif page == "🤖 Chatbot Financier":
             </div>
             """, unsafe_allow_html=True)
     
-    # Style CSS pour agrandir la barre de saisie
+    # Style CSS pour agrandir la barre de saisie (grande dès le début)
     st.markdown("""
     <style>
-        /* Barre de saisie plus grande */
+        /* Barre de saisie plus grande - taille fixe dès le début */
+        div[data-testid="stChatInput"] {
+            min-height: 100px !important;
+        }
         div[data-testid="stChatInput"] > div > div {
-            min-height: 80px !important;
+            min-height: 100px !important;
+            height: 100px !important;
             font-size: 16px !important;
             padding: 15px 20px !important;
         }
         div[data-testid="stChatInput"] textarea {
-            min-height: 60px !important;
+            min-height: 70px !important;
+            height: 70px !important;
             font-size: 16px !important;
             line-height: 1.6 !important;
+        }
+        /* S'assurer que le conteneur principal garde la taille */
+        div[data-testid="stChatInput"] > div {
+            min-height: 100px !important;
+        }
+        /* Positionner le bouton d'envoi au milieu */
+        div[data-testid="stChatInput"] button {
+            margin-top: 0px !important;
+            position: relative !important;
+            top: 0px !important;
+        }
+        /* Ajuster le conteneur du bouton pour centrer verticalement */
+        div[data-testid="stChatInput"] > div > div:last-child {
+            align-items: center !important;
+            padding-top: 0px !important;
         }
         
         /* Style pour les messages utilisateur (questions posées) - fond plus foncé */
@@ -1415,7 +1886,6 @@ elif page == "📚 Documentation":
     
     ### Filtres disponibles
     - Filtrer par statut (Tous, Analysés, Non analysés)
-    - Afficher/Masquer des documents
     - Supprimer des résultats d'extraction
     """)
     
@@ -1650,24 +2120,9 @@ elif page == "📚 Documentation":
     # Contact et Support
     st.markdown("## 📞 Support")
     st.markdown("""
-    **ReguAI** - Regulatory Intelligence Assistant
-    
-    Développé pour le **Datathon PolyFinances 2025**
-    
     Pour toute question ou problème technique, consultez la documentation du projet ou contactez l'équipe de développement.
-    
-    ---
-    
-    *Transformant la complexité réglementaire en décisions stratégiques* 📊
     """)
 
 
-# Footer
-st.markdown("---")
-st.markdown("""
-<div style='text-align: center; color: #666; padding: 2rem;'>
-    <p><strong>ReguAI</strong> - Regulatory Intelligence Assistant</p>
-    <p>Datathon PolyFinances 2025 | Transformant la complexité réglementaire en décisions stratégiques</p>
-</div>
-""", unsafe_allow_html=True)
+
 

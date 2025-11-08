@@ -44,17 +44,13 @@ class RAGVectorStore:
             documents: Liste de Documents LangChain
         """
         if not documents:
-            print("⚠️ Aucun document à indexer")
             return
         
         print(f"📚 Création vector store FAISS avec {len(documents)} documents...")
-        
-        # Créer vector store avec LangChain
         self.vector_store = FAISS.from_documents(
             documents=documents,
             embedding=self.embeddings
         )
-        
         print(f"✅ Vector store créé avec succès")
     
     def load_from_cache(self) -> bool:
@@ -67,17 +63,15 @@ class RAGVectorStore:
         cache_dir = self.cache_path
         
         if not cache_dir.exists():
-            print("ℹ️ Pas de cache vector store disponible")
             return False
         
         try:
-            print(f"📂 Chargement vector store depuis cache: {cache_dir}")
             self.vector_store = FAISS.load_local(
                 str(cache_dir),
                 self.embeddings,
                 allow_dangerous_deserialization=True  # Nécessaire pour FAISS
             )
-            print("✅ Vector store chargé depuis cache")
+            print(f"✅ Vector store chargé depuis cache")
             return True
         except Exception as e:
             print(f"⚠️ Erreur chargement cache: {e}")
@@ -88,14 +82,13 @@ class RAGVectorStore:
         Sauvegarde le vector store dans le cache
         """
         if self.vector_store is None:
-            print("⚠️ Aucun vector store à sauvegarder")
             return
         
         cache_dir = self.cache_path
         cache_dir.mkdir(parents=True, exist_ok=True)
         
         try:
-            print(f"💾 Sauvegarde vector store dans cache: {cache_dir}")
+            print(f"💾 Sauvegarde vector store dans cache...")
             self.vector_store.save_local(str(cache_dir))
             print("✅ Vector store sauvegardé")
         except Exception as e:
@@ -113,7 +106,7 @@ class RAGVectorStore:
             Liste de Documents similaires avec scores
         """
         if self.vector_store is None:
-            print("⚠️ Vector store non initialisé")
+            pass  # Vector store non initialisé
             return []
         
         top_k = top_k or RAG_CONFIG['top_k']
@@ -147,9 +140,8 @@ class RAGVectorStore:
         if self.vector_store is None:
             self.create_from_documents(documents)
         else:
-            print(f"📝 Ajout de {len(documents)} documents au vector store...")
             self.vector_store.add_documents(documents)
-            print("✅ Documents ajoutés")
+            # Documents ajoutés
     
     def get_retriever(self, top_k: int = None):
         """

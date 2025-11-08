@@ -1,0 +1,893 @@
+{
+  "generated_at": "2025-11-03T17:56:42.462221",
+  "total_directives": 2,
+  "recommendations_by_directive": {
+    "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html": {
+      "generated_at": "2025-11-03T17:56:42.460469",
+      "total_companies_analyzed": 16,
+      "summary": {
+        "high_risk_count": 7,
+        "low_risk_count": 3,
+        "reduce_recommendations_count": 7,
+        "increase_recommendations_count": 3
+      },
+      "recommendations": {
+        "reduce": [
+          {
+            "ticker": "REGN",
+            "company_name": "Regeneron Pharmaceuticals, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 42.56,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.1476,
+              "fcf_impact_percentage": -2.25,
+              "price_impact_percentage": -36.35,
+              "discount_rate_change_bps": 96
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 42.6/100. The estimated price impact of -36.35% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "KDP",
+            "company_name": "Keurig Dr Pepper Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 44.21,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.2775,
+              "fcf_impact_percentage": -6.04,
+              "price_impact_percentage": -34.87,
+              "discount_rate_change_bps": 112
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.2/100. The estimated price impact of -34.87% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "UPS",
+            "company_name": "United Parcel Service, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 43.76,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.7763,
+              "fcf_impact_percentage": -15.57,
+              "price_impact_percentage": -29.05,
+              "discount_rate_change_bps": 116
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 43.8/100. The estimated price impact of -29.05% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "BBY",
+            "company_name": "Best Buy Co., Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 47.92,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -1.586,
+              "fcf_impact_percentage": -18.77,
+              "price_impact_percentage": -31.8,
+              "discount_rate_change_bps": 132
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 47.9/100. The estimated price impact of -31.80% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "REGN",
+            "company_name": "Regeneron Pharmaceuticals, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 42.56,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.1476,
+              "fcf_impact_percentage": -2.25,
+              "price_impact_percentage": -36.35,
+              "discount_rate_change_bps": 96
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 42.6/100. The estimated price impact of -36.35% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "KDP",
+            "company_name": "Keurig Dr Pepper Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 44.21,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.2775,
+              "fcf_impact_percentage": -6.04,
+              "price_impact_percentage": -34.87,
+              "discount_rate_change_bps": 112
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.2/100. The estimated price impact of -34.87% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "AAPL",
+            "company_name": "Apple Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 41.01,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0657,
+              "fcf_impact_percentage": -2.59,
+              "price_impact_percentage": -14.8,
+              "discount_rate_change_bps": 87
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 41.0/100. The estimated price impact of -14.80% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          }
+        ],
+        "increase": [
+          {
+            "ticker": "CF",
+            "company_name": "CF Industries Holdings, Inc.",
+            "recommendation": "INCREASE",
+            "current_risk_score": 26.51,
+            "risk_category": "Low",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.2635,
+              "fcf_impact_percentage": -2.18,
+              "price_impact_percentage": -16.33,
+              "discount_rate_change_bps": 89
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "This company presents a relatively attractive opportunity with a low risk score of 26.5/100. The regulatory impact appears manageable with minimal estimated price impact of -16.33%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+          },
+          {
+            "ticker": "ORCL",
+            "company_name": "Oracle Corporation",
+            "recommendation": "INCREASE",
+            "current_risk_score": 28.58,
+            "risk_category": "Low",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0453,
+              "fcf_impact_percentage": -6.12,
+              "price_impact_percentage": -3.06,
+              "discount_rate_change_bps": 88
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "This company presents a relatively attractive opportunity with a low risk score of 28.6/100. The regulatory impact appears manageable with minimal estimated price impact of -3.06%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+          },
+          {
+            "ticker": "DASH",
+            "company_name": "DoorDash, Inc.",
+            "recommendation": "INCREASE",
+            "current_risk_score": 29.9,
+            "risk_category": "Low",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0647,
+              "fcf_impact_percentage": -4.24,
+              "price_impact_percentage": -14.02,
+              "discount_rate_change_bps": 106
+            },
+            "regulatory_context": {
+              "regulation": "Directive on better enforcement and modernization of EU consumer protection rules",
+              "region": "European Union"
+            },
+            "justification": "This company presents a relatively attractive opportunity with a low risk score of 29.9/100. The regulatory impact appears manageable with minimal estimated price impact of -14.02%. The company's strong fundamentals and limited regulatory exposure suggest it may outperform more exposed peers. Consider increasing allocation to capture potential relative value."
+          }
+        ]
+      },
+      "risk_thresholds": {
+        "high_risk": 60.0,
+        "low_risk": 30.0
+      },
+      "regulation_id": "1.DIRECTIVE (UE) 20192161 DU PARLEMENT EUROPÉEN ET DU CONSEIL.html",
+      "regulation_title": "Directive on better enforcement and modernization of EU consumer protection rules"
+    },
+    "3.H.R.5376 - Inflation Reduction Act of 2022.xml": {
+      "generated_at": "2025-11-03T17:56:42.461439",
+      "total_companies_analyzed": 34,
+      "summary": {
+        "high_risk_count": 30,
+        "low_risk_count": 0,
+        "reduce_recommendations_count": 30,
+        "increase_recommendations_count": 0
+      },
+      "recommendations": {
+        "reduce": [
+          {
+            "ticker": "EQT",
+            "company_name": "EQT Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 54.02,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0334,
+              "fcf_impact_percentage": -0.53,
+              "price_impact_percentage": -35.29,
+              "discount_rate_change_bps": 154
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 54.0/100. The estimated price impact of -35.29% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "COP",
+            "company_name": "ConocoPhillips",
+            "recommendation": "REDUCE",
+            "current_risk_score": 53.53,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0738,
+              "fcf_impact_percentage": -1.31,
+              "price_impact_percentage": -30.85,
+              "discount_rate_change_bps": 155
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 53.5/100. The estimated price impact of -30.85% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "OXY",
+            "company_name": "Occidental Petroleum Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 50.59,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0886,
+              "fcf_impact_percentage": -0.85,
+              "price_impact_percentage": -24.34,
+              "discount_rate_change_bps": 167
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 50.6/100. The estimated price impact of -24.34% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "CVX",
+            "company_name": "Chevron Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 54.51,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0909,
+              "fcf_impact_percentage": -1.19,
+              "price_impact_percentage": -27.27,
+              "discount_rate_change_bps": 166
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 54.5/100. The estimated price impact of -27.27% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "EXE",
+            "company_name": "Expand Energy Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 61.07,
+            "risk_category": "High",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0526,
+              "fcf_impact_percentage": -1.11,
+              "price_impact_percentage": -40.0,
+              "discount_rate_change_bps": 172
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 61.1/100. The estimated price impact of -40.00% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "BKR",
+            "company_name": "Baker Hughes Company",
+            "recommendation": "REDUCE",
+            "current_risk_score": 50.8,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0841,
+              "fcf_impact_percentage": -1.79,
+              "price_impact_percentage": -24.24,
+              "discount_rate_change_bps": 163
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 50.8/100. The estimated price impact of -24.24% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "KMI",
+            "company_name": "Kinder Morgan, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 48.24,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0389,
+              "fcf_impact_percentage": -0.89,
+              "price_impact_percentage": -26.04,
+              "discount_rate_change_bps": 153
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 48.2/100. The estimated price impact of -26.04% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "PSX",
+            "company_name": "Phillips 66",
+            "recommendation": "REDUCE",
+            "current_risk_score": 63.03,
+            "risk_category": "High",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.3612,
+              "fcf_impact_percentage": -13.68,
+              "price_impact_percentage": -33.96,
+              "discount_rate_change_bps": 186
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 63.0/100. The estimated price impact of -33.96% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "WMB",
+            "company_name": "The Williams Companies, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 50.29,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 60.0,
+              "fcf_impact_per_share": -0.0221,
+              "fcf_impact_percentage": -0.96,
+              "price_impact_percentage": -28.75,
+              "discount_rate_change_bps": 148
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 50.3/100. The estimated price impact of -28.75% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "XOM",
+            "company_name": "Exxon Mobil Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 61.17,
+            "risk_category": "High",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 55.0,
+              "fcf_impact_per_share": -0.1016,
+              "fcf_impact_percentage": -1.74,
+              "price_impact_percentage": -37.62,
+              "discount_rate_change_bps": 160
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 61.2/100. The estimated price impact of -37.62% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "SLB",
+            "company_name": "SLB N.V.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 46.61,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 55.0,
+              "fcf_impact_per_share": -0.1011,
+              "fcf_impact_percentage": -1.29,
+              "price_impact_percentage": -23.06,
+              "discount_rate_change_bps": 155
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 46.6/100. The estimated price impact of -23.06% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "KEYS",
+            "company_name": "Keysight Technologies, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 43.03,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0279,
+              "fcf_impact_percentage": -0.59,
+              "price_impact_percentage": -19.23,
+              "discount_rate_change_bps": 151
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 43.0/100. The estimated price impact of -19.23% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "RL",
+            "company_name": "Ralph Lauren Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 40.86,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0602,
+              "fcf_impact_percentage": -1.49,
+              "price_impact_percentage": -15.73,
+              "discount_rate_change_bps": 151
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 40.9/100. The estimated price impact of -15.73% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "EOG",
+            "company_name": "EOG Resources, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 44.48,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0539,
+              "fcf_impact_percentage": -0.76,
+              "price_impact_percentage": -24.65,
+              "discount_rate_change_bps": 137
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.5/100. The estimated price impact of -24.65% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "TPL",
+            "company_name": "Texas Pacific Land Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 43.75,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0071,
+              "fcf_impact_percentage": -1.76,
+              "price_impact_percentage": -19.15,
+              "discount_rate_change_bps": 136
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 43.8/100. The estimated price impact of -19.15% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "MPC",
+            "company_name": "Marathon Petroleum Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 55.94,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.3355,
+              "fcf_impact_percentage": -5.48,
+              "price_impact_percentage": -29.86,
+              "discount_rate_change_bps": 174
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 55.9/100. The estimated price impact of -29.86% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "CTRA",
+            "company_name": "Coterra Energy Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 56.85,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0571,
+              "fcf_impact_percentage": -0.7,
+              "price_impact_percentage": -47.07,
+              "discount_rate_change_bps": 138
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 56.9/100. The estimated price impact of -47.07% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "VLO",
+            "company_name": "Valero Energy Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 56.34,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.3411,
+              "fcf_impact_percentage": -7.81,
+              "price_impact_percentage": -29.44,
+              "discount_rate_change_bps": 176
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 56.3/100. The estimated price impact of -29.44% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "TSLA",
+            "company_name": "Tesla, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 51.85,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0098,
+              "fcf_impact_percentage": -2.5,
+              "price_impact_percentage": -14.86,
+              "discount_rate_change_bps": 162
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 51.9/100. The estimated price impact of -14.86% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "PPG",
+            "company_name": "PPG Industries, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 49.2,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0957,
+              "fcf_impact_percentage": -2.77,
+              "price_impact_percentage": -22.52,
+              "discount_rate_change_bps": 162
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 49.2/100. The estimated price impact of -22.52% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "NVR",
+            "company_name": "NVR, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 44.58,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0693,
+              "fcf_impact_percentage": -1.32,
+              "price_impact_percentage": -22.57,
+              "discount_rate_change_bps": 146
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.6/100. The estimated price impact of -22.57% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "APA",
+            "company_name": "APA Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 43.1,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.1794,
+              "fcf_impact_percentage": -1.01,
+              "price_impact_percentage": -19.7,
+              "discount_rate_change_bps": 151
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 43.1/100. The estimated price impact of -19.70% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "OKE",
+            "company_name": "ONEOK, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 45.09,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0911,
+              "fcf_impact_percentage": -1.47,
+              "price_impact_percentage": -22.22,
+              "discount_rate_change_bps": 150
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 45.1/100. The estimated price impact of -22.22% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "TRGP",
+            "company_name": "Targa Resources Corp.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 54.46,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0695,
+              "fcf_impact_percentage": -6.08,
+              "price_impact_percentage": -25.6,
+              "discount_rate_change_bps": 164
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 54.5/100. The estimated price impact of -25.60% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "HAL",
+            "company_name": "Halliburton Company",
+            "recommendation": "REDUCE",
+            "current_risk_score": 45.45,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.1579,
+              "fcf_impact_percentage": -1.44,
+              "price_impact_percentage": -22.32,
+              "discount_rate_change_bps": 154
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 45.5/100. The estimated price impact of -22.32% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "PCAR",
+            "company_name": "PACCAR Inc",
+            "recommendation": "REDUCE",
+            "current_risk_score": 46.64,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0892,
+              "fcf_impact_percentage": -1.64,
+              "price_impact_percentage": -23.58,
+              "discount_rate_change_bps": 153
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 46.6/100. The estimated price impact of -23.58% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "DHI",
+            "company_name": "D.R. Horton, Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 44.46,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.1049,
+              "fcf_impact_percentage": -1.86,
+              "price_impact_percentage": -18.14,
+              "discount_rate_change_bps": 153
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 44.5/100. The estimated price impact of -18.14% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "LEN",
+            "company_name": "Lennar Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 59.11,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.1649,
+              "fcf_impact_percentage": -15.73,
+              "price_impact_percentage": -30.74,
+              "discount_rate_change_bps": 166
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 59.1/100. The estimated price impact of -30.74% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "CAT",
+            "company_name": "Caterpillar Inc.",
+            "recommendation": "REDUCE",
+            "current_risk_score": 41.38,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.0436,
+              "fcf_impact_percentage": -1.12,
+              "price_impact_percentage": -16.21,
+              "discount_rate_change_bps": 145
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 41.4/100. The estimated price impact of -16.21% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          },
+          {
+            "ticker": "DVN",
+            "company_name": "Devon Energy Corporation",
+            "recommendation": "REDUCE",
+            "current_risk_score": 46.11,
+            "risk_category": "Moderate",
+            "risk_score_source": "final_risk_score",
+            "has_quantitative_analysis": true,
+            "metrics": {
+              "exposure_score": 50.0,
+              "fcf_impact_per_share": -0.1116,
+              "fcf_impact_percentage": -23.81,
+              "price_impact_percentage": -11.9,
+              "discount_rate_change_bps": 157
+            },
+            "regulatory_context": {
+              "regulation": "Amendments to Internal Revenue Code - Clean Energy Tax Credits",
+              "region": "USA"
+            },
+            "justification": "We recommend reducing exposure due to elevated regulatory risk score of 46.1/100. The estimated price impact of -11.90% reflects significant fundamental headwinds from the regulatory changes. Given the sustained negative impact on free cash flow and valuation, prudent risk management suggests reducing position size or exiting entirely."
+          }
+        ],
+        "increase": []
+      },
+      "risk_thresholds": {
+        "high_risk": 60.0,
+        "low_risk": 30.0
+      },
+      "regulation_id": "3.H.R.5376 - Inflation Reduction Act of 2022.xml",
+      "regulation_title": "Amendments to Internal Revenue Code - Clean Energy Tax Credits"
+    }
+  },
+  "summary": {
+    "total_reduce": 37,
+    "total_increase": 3
+  }
+}
