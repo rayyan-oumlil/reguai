@@ -204,7 +204,7 @@ Le logo **ReguAI** représente l'intelligence artificielle appliquée à la rég
 
 ## État du Projet
 
-**Statut** : Application complète et fonctionnelle
+**Statut** : Application stable, complète et fonctionnelle
 
 **Fonctionnalités implémentées** :
 - Dashboard avec visualisations interactives
